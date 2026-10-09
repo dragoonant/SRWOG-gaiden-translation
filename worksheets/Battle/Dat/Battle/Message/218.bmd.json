@@ -1,0 +1,3744 @@
+{
+ "file": "218.bmd",
+ "format": "BMD",
+ "counts": {
+  "groups": 27,
+  "entries": 123,
+  "lines": 136,
+  "strings": 107
+ },
+ "strings": [
+  {
+   "id": 0,
+   "offset": 0,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「あの敵は本艦で仕留める」",
+   "en": "",
+   "refs": [
+    {
+     "line": 0,
+     "field": "text",
+     "entry": 0,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17312
+     ]
+    },
+    {
+     "line": 101,
+     "field": "text",
+     "entry": 101,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17312
+     ]
+    },
+    {
+     "line": 104,
+     "field": "text",
+     "entry": 104,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17312
+     ]
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "offset": 40,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「総員の奮闘を期待する」",
+   "en": "",
+   "refs": [
+    {
+     "line": 1,
+     "field": "text",
+     "entry": 1,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17313
+     ]
+    },
+    {
+     "line": 102,
+     "field": "text",
+     "entry": 102,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17313
+     ]
+    },
+    {
+     "line": 105,
+     "field": "text",
+     "entry": 105,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17313
+     ]
+    },
+    {
+     "line": 108,
+     "field": "text",
+     "entry": 108,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17313
+     ]
+    },
+    {
+     "line": 110,
+     "field": "text",
+     "entry": 110,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17313
+     ]
+    },
+    {
+     "line": 112,
+     "field": "text",
+     "entry": 112,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17313
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "offset": 77,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「総員、レーツェル様の期待に応えるのだ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 2,
+     "field": "text",
+     "entry": 2,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17314
+     ]
+    },
+    {
+     "line": 103,
+     "field": "text",
+     "entry": 103,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17314
+     ]
+    },
+    {
+     "line": 106,
+     "field": "text",
+     "entry": 106,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17314
+     ]
+    },
+    {
+     "line": 109,
+     "field": "text",
+     "entry": 109,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17314
+     ]
+    },
+    {
+     "line": 111,
+     "field": "text",
+     "entry": 111,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17314
+     ]
+    },
+    {
+     "line": 113,
+     "field": "text",
+     "entry": 113,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17314
+     ]
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "offset": 138,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「攻撃目標、メリオルエッセ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 3,
+     "field": "text",
+     "entry": 3,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 9041,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17350
+     ]
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "offset": 184,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「前方のメリオルエッセに仕掛ける！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 4,
+     "field": "text",
+     "entry": 4,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 9041,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17351
+     ]
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "offset": 239,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「攻撃目標、ゲスト指揮官機！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 5,
+     "field": "text",
+     "entry": 5,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 9042,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17363
+     ]
+    },
+    {
+     "line": 7,
+     "field": "text",
+     "entry": 7,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17363
+     ]
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "offset": 285,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「本艦で指揮官機を撃破する！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 6,
+     "field": "text",
+     "entry": 6,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 9042,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17364
+     ]
+    },
+    {
+     "line": 8,
+     "field": "text",
+     "entry": 8,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17364
+     ]
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "offset": 331,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「前方のガイアセイバーズ機に仕掛ける！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 9,
+     "field": "text",
+     "entry": 9,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 9045,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17343
+     ]
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "offset": 392,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ガイアセイバーズの横暴を許すな！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 10,
+     "field": "text",
+     "entry": 10,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 9045,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17344
+     ]
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "offset": 447,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「マイヤー総司令や、/　ビアン総帥のご遺志に従わぬのであれば……！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 11,
+     "field": "text",
+     "entry": 11,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 9003,
+     "speaker": 218,
+     "face": 2,
+     "voice": [
+      33,
+      17352
+     ]
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "offset": 548,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「今のお前達に大義はあるのか……？」",
+   "en": "",
+   "refs": [
+    {
+     "line": 12,
+     "field": "text",
+     "entry": 12,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 9003,
+     "speaker": 218,
+     "face": 2,
+     "voice": [
+      33,
+      17353
+     ]
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "offset": 603,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「攻撃目標、エア・クリスマス！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 13,
+     "field": "text",
+     "entry": 13,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 218,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17341
+     ]
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "offset": 652,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「攻撃目標、セイバー１！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 14,
+     "field": "text",
+     "entry": 14,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 218,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17342
+     ]
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "offset": 692,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「総員、対艦戦闘用意！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 15,
+     "field": "text",
+     "entry": 15,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 218,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17339
+     ]
+    },
+    {
+     "line": 16,
+     "field": "text",
+     "entry": 16,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 400,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17339
+     ]
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "offset": 729,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「あの黒い特機を近づけるな！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 17,
+     "field": "text",
+     "entry": 17,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 1,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17345
+     ]
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "offset": 775,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「攻撃目標、ジンライ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 18,
+     "field": "text",
+     "entry": 18,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 1,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17346
+     ]
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "offset": 812,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「攻撃目標、量産型ジンライ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 19,
+     "field": "text",
+     "entry": 19,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 234,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17347
+     ]
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "offset": 858,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「前方のルイーナ機を撃破する！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 20,
+     "field": "text",
+     "entry": 20,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 424,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17348
+     ]
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "offset": 907,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「攻撃目標、ルイーナ機！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 21,
+     "field": "text",
+     "entry": 21,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 424,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17349
+     ]
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "offset": 947,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「攻撃目標、デモン！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 22,
+     "field": "text",
+     "entry": 22,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 423,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17354
+     ]
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "offset": 981,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「本艦でデモンを駆逐する！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 23,
+     "field": "text",
+     "entry": 23,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 423,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17355
+     ]
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "offset": 1024,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「前方のデモンを撃破する！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 24,
+     "field": "text",
+     "entry": 24,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 423,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17356
+     ]
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "offset": 1067,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「攻撃目標、超機人！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 25,
+     "field": "text",
+     "entry": 25,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 422,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17357
+     ]
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "offset": 1101,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「本艦であの超機人を阻止する！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 26,
+     "field": "text",
+     "entry": 26,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 422,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17358
+     ]
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "offset": 1150,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「攻撃目標、ＡＩ１！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 27,
+     "field": "text",
+     "entry": 27,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 86,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17359
+     ]
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "offset": 1184,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「攻撃目標、ガンエデン！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 28,
+     "field": "text",
+     "entry": 28,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 14,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17360
+     ]
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "offset": 1224,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「前方のゲスト機を撃破する！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 29,
+     "field": "text",
+     "entry": 29,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 426,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17361
+     ]
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "offset": 1270,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「本艦でゲスト機を仕留めるぞ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 30,
+     "field": "text",
+     "entry": 30,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 426,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17362
+     ]
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "offset": 1319,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「最終攻撃目標、アダマトロン！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 31,
+     "field": "text",
+     "entry": 31,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 231,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17365
+     ]
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "offset": 1368,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「直ちに反撃を！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 32,
+     "field": "text",
+     "entry": 32,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17315
+     ]
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "offset": 1396,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「目標を逃がすな！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 33,
+     "field": "text",
+     "entry": 33,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17316
+     ]
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "offset": 1427,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「目標を追尾せよ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 34,
+     "field": "text",
+     "entry": 34,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17317
+     ]
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "offset": 1458,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「くっ……！　総員退艦せよ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 35,
+     "field": "text",
+     "entry": 35,
+     "group": [
+      0,
+      2
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 2,
+     "voice": [
+      33,
+      17412
+     ]
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "offset": 1504,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「レーツェル様、申し訳ありません……！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 36,
+     "field": "text",
+     "entry": 36,
+     "group": [
+      0,
+      2
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 2,
+     "voice": [
+      33,
+      17413
+     ]
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "offset": 1568,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「被弾箇所、報告！　ダメコンを急げ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 37,
+     "field": "text",
+     "entry": 37,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17407
+     ]
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "offset": 1626,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ここで沈めば、/　レーツェル様に申し訳が立たんぞ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 38,
+     "field": "text",
+     "entry": 38,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17408
+     ]
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "offset": 1706,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ぐうっ！　直撃か！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 39,
+     "field": "text",
+     "entry": 39,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 3,
+     "voice": [
+      33,
+      17409
+     ]
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "offset": 1740,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「弾幕を厚くしろ！　敵を近づけるな！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 40,
+     "field": "text",
+     "entry": 40,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17410
+     ]
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "offset": 1798,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「終わるわけにはいかん！/　役目を果たすまでは！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 41,
+     "field": "text",
+     "entry": 41,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 2,
+     "voice": [
+      33,
+      17411
+     ]
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "offset": 1872,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ゲストに後れを取るな！　反撃を！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 42,
+     "field": "text",
+     "entry": 42,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 9042,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17406
+     ]
+    },
+    {
+     "line": 46,
+     "field": "text",
+     "entry": 46,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 426,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17406
+     ]
+    },
+    {
+     "line": 52,
+     "field": "text",
+     "entry": 52,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 9042,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17406
+     ]
+    },
+    {
+     "line": 56,
+     "field": "text",
+     "entry": 56,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 426,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17406
+     ]
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "offset": 1927,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ルイーナ機の撃破を急げ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 43,
+     "field": "text",
+     "entry": 43,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 424,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17402
+     ]
+    },
+    {
+     "line": 53,
+     "field": "text",
+     "entry": 53,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 424,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17402
+     ]
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "offset": 1970,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「デモンをこれ以上近づけるな！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 44,
+     "field": "text",
+     "entry": 44,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 423,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17403
+     ]
+    },
+    {
+     "line": 54,
+     "field": "text",
+     "entry": 54,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 423,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17403
+     ]
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "offset": 2019,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ふん、面妖な連中め……！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 45,
+     "field": "text",
+     "entry": 45,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 423,
+     "speaker": 218,
+     "face": 2,
+     "voice": [
+      33,
+      17404
+     ]
+    },
+    {
+     "line": 55,
+     "field": "text",
+     "entry": 55,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 423,
+     "speaker": 218,
+     "face": 2,
+     "voice": [
+      33,
+      17404
+     ]
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "offset": 2062,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「確実にゲスト機を撃破せよ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 47,
+     "field": "text",
+     "entry": 47,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 426,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17405
+     ]
+    },
+    {
+     "line": 57,
+     "field": "text",
+     "entry": 57,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 426,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17405
+     ]
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "offset": 2108,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「破損箇所を報告せよ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 48,
+     "field": "text",
+     "entry": 48,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17398
+     ]
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "offset": 2145,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「その程度で、クロガネは沈まんよ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 49,
+     "field": "text",
+     "entry": 49,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17399
+     ]
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "offset": 2197,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「本艦を集中的に狙ってきたか……！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 50,
+     "field": "text",
+     "entry": 50,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 2,
+     "voice": [
+      33,
+      17400
+     ]
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "offset": 2252,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「こちらは修羅場を/　何度もくぐり抜けてきているのでな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 51,
+     "field": "text",
+     "entry": 51,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17401
+     ]
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "offset": 2335,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「回避行動を取りつつ、反撃せよ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 58,
+     "field": "text",
+     "entry": 58,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17389
+     ]
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "offset": 2387,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「構わん、攻撃に専念しろ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 59,
+     "field": "text",
+     "entry": 59,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17390
+     ]
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "offset": 2427,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「各砲座、敵機の接近を許すな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 60,
+     "field": "text",
+     "entry": 60,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17391
+     ]
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "offset": 2473,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「抵抗が弱いが、油断してはならん」",
+   "en": "",
+   "refs": [
+    {
+     "line": 61,
+     "field": "text",
+     "entry": 61,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17392
+     ]
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "offset": 2525,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ふん、インスペクターと同レベルだな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 62,
+     "field": "text",
+     "entry": 62,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 9042,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17397
+     ]
+    },
+    {
+     "line": 67,
+     "field": "text",
+     "entry": 67,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 426,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17397
+     ]
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "offset": 2583,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ルイーナを接近させるな！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 63,
+     "field": "text",
+     "entry": 63,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 424,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17393
+     ]
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "offset": 2626,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「デモンに食いつかれるとはな……！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 64,
+     "field": "text",
+     "entry": 64,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 423,
+     "speaker": 218,
+     "face": 2,
+     "voice": [
+      33,
+      17394
+     ]
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "offset": 2681,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「デモンめ、本艦を狙ってきたか」",
+   "en": "",
+   "refs": [
+    {
+     "line": 65,
+     "field": "text",
+     "entry": 65,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 423,
+     "speaker": 218,
+     "face": 2,
+     "voice": [
+      33,
+      17395
+     ]
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "offset": 2730,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ゲスト機を近づけるな！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 66,
+     "field": "text",
+     "entry": 66,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 426,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17396
+     ]
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "offset": 2770,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「回避運動終了後、反撃に転ずる」",
+   "en": "",
+   "refs": [
+    {
+     "line": 68,
+     "field": "text",
+     "entry": 68,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17379
+     ]
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "offset": 2819,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ゲストの好きにはやらせん！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 69,
+     "field": "text",
+     "entry": 69,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 9042,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17384
+     ]
+    },
+    {
+     "line": 70,
+     "field": "text",
+     "entry": 70,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17384
+     ]
+    },
+    {
+     "line": 71,
+     "field": "text",
+     "entry": 71,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 426,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17384
+     ]
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "offset": 2865,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「本艦を狙っても無駄だ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 72,
+     "field": "text",
+     "entry": 72,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17378
+     ]
+    },
+    {
+     "line": 82,
+     "field": "text",
+     "entry": 82,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17378
+     ]
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "offset": 2902,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「レーツェル様から預かった艦を/　傷つけるわけにはいかん」",
+   "en": "",
+   "refs": [
+    {
+     "line": 73,
+     "field": "text",
+     "entry": 73,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17380
+     ]
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "offset": 2988,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「エア・クリスマス相手に油断は禁物だぞ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 74,
+     "field": "text",
+     "entry": 74,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 218,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17381
+     ]
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "offset": 3049,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「このままルイーナを引き付けよ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 75,
+     "field": "text",
+     "entry": 75,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 424,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17382
+     ]
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "offset": 3101,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「この調子でデモンを近づけるな！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 76,
+     "field": "text",
+     "entry": 76,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 423,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17383
+     ]
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "offset": 3153,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「そんなものは通用せん！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 77,
+     "field": "text",
+     "entry": 77,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17385
+     ]
+    },
+    {
+     "line": 78,
+     "field": "text",
+     "entry": 78,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17385
+     ]
+    }
+   ]
+  },
+  {
+   "id": 65,
+   "offset": 3193,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「フィールドの展開が間に合ったか」",
+   "en": "",
+   "refs": [
+    {
+     "line": 79,
+     "field": "text",
+     "entry": 79,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17386
+     ]
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "offset": 3245,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ＥＰ展開！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 80,
+     "field": "text",
+     "entry": 80,
+     "group": [
+      0,
+      10
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17387
+     ]
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "offset": 3267,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「打つ手を考えるのだな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 81,
+     "field": "text",
+     "entry": 81,
+     "group": [
+      0,
+      10
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      33,
+      17388
+     ]
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "offset": 3304,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「………」",
+   "en": "",
+   "refs": [
+    {
+     "line": 83,
+     "field": "text",
+     "entry": 83,
+     "group": [
+      0,
+      12
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 0,
+     "voice": [
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "offset": 3320,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ここは防御に徹するしかないか……！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 84,
+     "field": "text",
+     "entry": 84,
+     "group": [
+      0,
+      13
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 2,
+     "voice": [
+      33,
+      17375
+     ]
+    },
+    {
+     "line": 88,
+     "field": "text",
+     "entry": 88,
+     "group": [
+      0,
+      15
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 2,
+     "voice": [
+      33,
+      17375
+     ]
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "offset": 3378,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「弾薬の再装填、急げ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 85,
+     "field": "text",
+     "entry": 85,
+     "group": [
+      0,
+      13
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 300,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17374
+     ]
+    }
+   ]
+  },
+  {
+   "id": 71,
+   "offset": 3415,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「やむを得ん、対空警戒を厳となせ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 86,
+     "field": "text",
+     "entry": 86,
+     "group": [
+      0,
+      14
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 2,
+     "voice": [
+      33,
+      17376
+     ]
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "offset": 3470,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「目標を再度捕捉せよ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 87,
+     "field": "text",
+     "entry": 87,
+     "group": [
+      0,
+      14
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17377
+     ]
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "offset": 3507,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「味方機を援護する！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 89,
+     "field": "text",
+     "entry": 89,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17366
+     ]
+    }
+   ]
+  },
+  {
+   "id": 74,
+   "offset": 3541,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「続けて攻撃せよ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 90,
+     "field": "text",
+     "entry": 90,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17367
+     ]
+    }
+   ]
+  },
+  {
+   "id": 75,
+   "offset": 3572,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「レーツェル様を援護するのだ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 91,
+     "field": "text",
+     "entry": 91,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 67,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17370
+     ]
+    }
+   ]
+  },
+  {
+   "id": 76,
+   "offset": 3621,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ゼンガー少佐を援護せよ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 92,
+     "field": "text",
+     "entry": 92,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 66,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17371
+     ]
+    }
+   ]
+  },
+  {
+   "id": 77,
+   "offset": 3664,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ハガネに続け！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 93,
+     "field": "text",
+     "entry": 93,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 2,
+     "weight": 120,
+     "target": 139,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17368
+     ]
+    }
+   ]
+  },
+  {
+   "id": 78,
+   "offset": 3692,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ヒリュウ改を援護せよ！」　",
+   "en": "",
+   "refs": [
+    {
+     "line": 94,
+     "field": "text",
+     "entry": 94,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 2,
+     "weight": 120,
+     "target": 148,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17369
+     ]
+    }
+   ]
+  },
+  {
+   "id": 79,
+   "offset": 3735,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「全速前進！　味方機を守れ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 95,
+     "field": "text",
+     "entry": 95,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17372
+     ]
+    }
+   ]
+  },
+  {
+   "id": 80,
+   "offset": 3781,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「本艦を盾にするのだ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 96,
+     "field": "text",
+     "entry": 96,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17373
+     ]
+    }
+   ]
+  },
+  {
+   "id": 81,
+   "offset": 3818,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「レーツェル様、お下がりください！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 97,
+     "field": "text",
+     "entry": 97,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 67,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17416
+     ]
+    }
+   ]
+  },
+  {
+   "id": 82,
+   "offset": 3873,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ゼンガー少佐、後退を！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 98,
+     "field": "text",
+     "entry": 98,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 66,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17417
+     ]
+    }
+   ]
+  },
+  {
+   "id": 83,
+   "offset": 3913,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ハガネを守れ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 99,
+     "field": "text",
+     "entry": 99,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 2,
+     "weight": 120,
+     "target": 139,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17414
+     ]
+    }
+   ]
+  },
+  {
+   "id": 84,
+   "offset": 3941,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ヒリュウ改を守れ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 100,
+     "field": "text",
+     "entry": 100,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 2,
+     "weight": 120,
+     "target": 148,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17415
+     ]
+    }
+   ]
+  },
+  {
+   "id": 85,
+   "offset": 3975,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「目標を再度攻撃せよ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 107,
+     "field": "text",
+     "entry": 107,
+     "group": [
+      0,
+      20
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17318
+     ]
+    }
+   ]
+  },
+  {
+   "id": 86,
+   "offset": 4012,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「対空機銃、撃ち方始め！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 114,
+     "field": "text",
+     "entry": 114,
+     "group": [
+      1,
+      61464
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17319
+     ]
+    }
+   ]
+  },
+  {
+   "id": 87,
+   "offset": 4052,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ＡＡＷオート、撃ち方始め！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 115,
+     "field": "text",
+     "entry": 115,
+     "group": [
+      1,
+      61464
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17320
+     ]
+    }
+   ]
+  },
+  {
+   "id": 88,
+   "offset": 4098,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「ＳＴＦ魚雷、スタンバイ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 116,
+     "field": "text",
+     "entry": 116,
+     "group": [
+      1,
+      61484
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17321
+     ]
+    }
+   ]
+  },
+  {
+   "id": 89,
+   "offset": 4141,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「１番、３番、撃てーっ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 117,
+     "field": "text",
+     "entry": 116,
+     "group": [
+      1,
+      61484
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17322
+     ]
+    },
+    {
+     "line": 119,
+     "field": "text",
+     "entry": 117,
+     "group": [
+      1,
+      61484
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17324
+     ]
+    }
+   ]
+  },
+  {
+   "id": 90,
+   "offset": 4181,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「艦首魚雷、スタンバイ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 118,
+     "field": "text",
+     "entry": 117,
+     "group": [
+      1,
+      61484
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17323
+     ]
+    }
+   ]
+  },
+  {
+   "id": 91,
+   "offset": 4221,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「目標へ一斉砲撃！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 120,
+     "field": "text",
+     "entry": 118,
+     "group": [
+      1,
+      61494
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17325
+     ]
+    }
+   ]
+  },
+  {
+   "id": 92,
+   "offset": 4252,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「副砲、１番から４番、撃てーっ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 121,
+     "field": "text",
+     "entry": 118,
+     "group": [
+      1,
+      61494
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17326
+     ]
+    }
+   ]
+  },
+  {
+   "id": 93,
+   "offset": 4304,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「副砲、１番から４番、攻撃用意！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 122,
+     "field": "text",
+     "entry": 119,
+     "group": [
+      1,
+      61494
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17327
+     ]
+    }
+   ]
+  },
+  {
+   "id": 94,
+   "offset": 4356,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「撃てーっ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 123,
+     "field": "text",
+     "entry": 119,
+     "group": [
+      1,
+      61494
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17328
+     ]
+    }
+   ]
+  },
+  {
+   "id": 95,
+   "offset": 4378,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「上部衝撃砲、１番、２番！　攻撃用意！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 124,
+     "field": "text",
+     "entry": 120,
+     "group": [
+      1,
+      61504
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17329
+     ]
+    }
+   ]
+  },
+  {
+   "id": 96,
+   "offset": 4439,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「外すなよ！　撃てーっ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 125,
+     "field": "text",
+     "entry": 120,
+     "group": [
+      1,
+      61504
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17330
+     ]
+    }
+   ]
+  },
+  {
+   "id": 97,
+   "offset": 4479,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「上部衝撃砲、攻撃用意！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 126,
+     "field": "text",
+     "entry": 121,
+     "group": [
+      1,
+      61504
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17331
+     ]
+    }
+   ]
+  },
+  {
+   "id": 98,
+   "offset": 4519,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「１番、２番！　撃てーっ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 127,
+     "field": "text",
+     "entry": 121,
+     "group": [
+      1,
+      61504
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17332
+     ]
+    }
+   ]
+  },
+  {
+   "id": 99,
+   "offset": 4562,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「艦前方へ一斉砲撃後、/　艦首超大型回転衝角を使用する！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 128,
+     "field": "text",
+     "entry": 122,
+     "group": [
+      1,
+      61514
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17333
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100,
+   "offset": 4648,
+   "role": "text",
+   "speakers": [
+    294
+   ],
+   "jp": "「目標との相対距離確認！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 129,
+     "field": "text",
+     "entry": 122,
+     "group": [
+      1,
+      61514
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 294,
+     "face": 0,
+     "voice": [
+      22,
+      18448
+     ]
+    }
+   ]
+  },
+  {
+   "id": 101,
+   "offset": 4688,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「仰角誤差修正！　前部各砲、攻撃用意！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 130,
+     "field": "text",
+     "entry": 122,
+     "group": [
+      1,
+      61514
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17334
+     ]
+    }
+   ]
+  },
+  {
+   "id": 102,
+   "offset": 4749,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「超大型回転衝角、始動！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 131,
+     "field": "text",
+     "entry": 122,
+     "group": [
+      1,
+      61514
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17335
+     ]
+    }
+   ]
+  },
+  {
+   "id": 103,
+   "offset": 4792,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「テスラ・ドライブ出力最大！/　オーバー・ブースト！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 132,
+     "field": "text",
+     "entry": 122,
+     "group": [
+      1,
+      61514
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17336
+     ]
+    }
+   ]
+  },
+  {
+   "id": 104,
+   "offset": 4875,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「前部各砲、撃ち方始め！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 133,
+     "field": "text",
+     "entry": 122,
+     "group": [
+      1,
+      61514
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17337
+     ]
+    }
+   ]
+  },
+  {
+   "id": 105,
+   "offset": 4918,
+   "role": "text",
+   "speakers": [
+    294
+   ],
+   "jp": "「総員、衝撃に備えよ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 134,
+     "field": "text",
+     "entry": 122,
+     "group": [
+      1,
+      61514
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 294,
+     "face": 0,
+     "voice": [
+      22,
+      18256
+     ]
+    }
+   ]
+  },
+  {
+   "id": 106,
+   "offset": 4955,
+   "role": "text",
+   "speakers": [
+    218
+   ],
+   "jp": "「クロガネ、突撃せよ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 135,
+     "field": "text",
+     "entry": 122,
+     "group": [
+      1,
+      61514
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 218,
+     "face": 1,
+     "voice": [
+      33,
+      17338
+     ]
+    }
+   ]
+  }
+ ]
+}

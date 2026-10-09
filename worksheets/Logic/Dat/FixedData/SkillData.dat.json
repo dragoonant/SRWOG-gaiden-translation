@@ -1,0 +1,1732 @@
+{
+ "file": "SkillData.dat",
+ "format": "FIXH 1.0 big-endian",
+ "sections": [
+  {
+   "magic": "DATA",
+   "header_offset": 16,
+   "payload_offset": 28,
+   "size": 1408,
+   "count": 44
+  },
+  {
+   "magic": "SOFS",
+   "header_offset": 1436,
+   "payload_offset": 1444,
+   "size": 348,
+   "count": null
+  },
+  {
+   "magic": "STRI",
+   "header_offset": 1792,
+   "payload_offset": 1804,
+   "size": 5760,
+   "count": 87
+  }
+ ],
+ "records": {
+  "count": 44,
+  "size": 32
+ },
+ "dofs": null,
+ "string_fields": [
+  {
+   "offset": 1,
+   "width": 1,
+   "label": "name",
+   "kind": "display"
+  },
+  {
+   "offset": 28,
+   "width": 1,
+   "label": "desc",
+   "kind": "display"
+  }
+ ],
+ "notes": [
+  "Edit 'text' (single-line entries) or 'lines' (multi-line entries / entries with embedded newlines).",
+  "Do not add or remove entries: records reference strings by index.",
+  "role: display = shown in game; comment = developer note (never displayed, safe to leave untranslated); internal = identifier/path; orphan = referenced by no record; unknown = not established."
+ ],
+ "strings": [
+  {
+   "id": 0,
+   "section": "STRI",
+   "offset": 1804,
+   "text_offset": 1810,
+   "role": "display",
+   "refs": [
+    "rec0.name"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "－－－－－－"
+  },
+  {
+   "id": 1,
+   "section": "STRI",
+   "offset": 1829,
+   "text_offset": 1835,
+   "role": "display",
+   "refs": [
+    "rec0.desc",
+    "rec1.desc"
+   ],
+   "orig_chars": [
+    0
+   ],
+   "orig_bytes": 1,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": ""
+  },
+  {
+   "id": 2,
+   "section": "STRI",
+   "offset": 1836,
+   "text_offset": 1842,
+   "role": "display",
+   "refs": [
+    "rec1.name"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "？？？？？？"
+  },
+  {
+   "id": 3,
+   "section": "STRI",
+   "offset": 1861,
+   "text_offset": 1867,
+   "role": "display",
+   "refs": [
+    "rec2.name"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "念動力"
+  },
+  {
+   "id": 4,
+   "section": "STRI",
+   "offset": 1877,
+   "text_offset": 1883,
+   "role": "display",
+   "refs": [
+    "rec2.desc"
+   ],
+   "orig_chars": [
+    32
+   ],
+   "orig_bytes": 97,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "スキルレベルが高くなるほど、戦闘での命中率・回避率が上昇します。"
+  },
+  {
+   "id": 5,
+   "section": "STRI",
+   "offset": 1980,
+   "text_offset": 1986,
+   "role": "display",
+   "refs": [
+    "rec3.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ラッキー"
+  },
+  {
+   "id": 6,
+   "section": "STRI",
+   "offset": 1999,
+   "text_offset": 2009,
+   "role": "display",
+   "refs": [
+    "rec3.desc"
+   ],
+   "orig_chars": [
+    53,
+    11
+   ],
+   "orig_bytes": 194,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "発動時、その戦闘での攻撃の命中率・回避率・クリティカル発生率を１００％にします。スキルレベルが高くなるほど",
+    "発動確率が上昇します。"
+   ]
+  },
+  {
+   "id": 7,
+   "section": "STRI",
+   "offset": 2203,
+   "text_offset": 2209,
+   "role": "display",
+   "refs": [
+    "rec4.name"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "底力"
+  },
+  {
+   "id": 8,
+   "section": "STRI",
+   "offset": 2216,
+   "text_offset": 2226,
+   "role": "display",
+   "refs": [
+    "rec4.desc"
+   ],
+   "orig_chars": [
+    49,
+    6
+   ],
+   "orig_bytes": 167,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "スキルレベルが高くなるほど、搭乗機体の残りＨＰ％に応じて命中率・回避率・装甲・クリティカル発生率が",
+    "上昇します。"
+   ]
+  },
+  {
+   "id": 9,
+   "section": "STRI",
+   "offset": 2393,
+   "text_offset": 2399,
+   "role": "display",
+   "refs": [
+    "rec5.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "援護攻撃"
+  },
+  {
+   "id": 10,
+   "section": "STRI",
+   "offset": 2412,
+   "text_offset": 2418,
+   "role": "display",
+   "refs": [
+    "rec5.desc"
+   ],
+   "orig_chars": [
+    45
+   ],
+   "orig_bytes": 136,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "隣接する味方機体の援護攻撃に入ります。スキルレベルが高くなるほど援護可能回数が上昇します。"
+  },
+  {
+   "id": 11,
+   "section": "STRI",
+   "offset": 2554,
+   "text_offset": 2560,
+   "role": "display",
+   "refs": [
+    "rec6.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "援護防御"
+  },
+  {
+   "id": 12,
+   "section": "STRI",
+   "offset": 2573,
+   "text_offset": 2579,
+   "role": "display",
+   "refs": [
+    "rec6.desc"
+   ],
+   "orig_chars": [
+    45
+   ],
+   "orig_bytes": 136,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "隣接する味方機体の援護防御に入ります。スキルレベルが高くなるほど援護可能回数が上昇します。"
+  },
+  {
+   "id": 13,
+   "section": "STRI",
+   "offset": 2715,
+   "text_offset": 2721,
+   "role": "display",
+   "refs": [
+    "rec7.name"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "カウンター"
+  },
+  {
+   "id": 14,
+   "section": "STRI",
+   "offset": 2737,
+   "text_offset": 2743,
+   "role": "display",
+   "refs": [
+    "rec7.desc"
+   ],
+   "orig_chars": [
+    49
+   ],
+   "orig_bytes": 148,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "発動時、敵からの攻撃前に反撃を行うことができます。スキルレベルが高くなるほど発動確率が上昇します。"
+  },
+  {
+   "id": 15,
+   "section": "STRI",
+   "offset": 2891,
+   "text_offset": 2897,
+   "role": "display",
+   "refs": [
+    "rec8.name"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "インファイト"
+  },
+  {
+   "id": 16,
+   "section": "STRI",
+   "offset": 2916,
+   "text_offset": 2922,
+   "role": "display",
+   "refs": [
+    "rec8.desc"
+   ],
+   "orig_chars": [
+    46
+   ],
+   "orig_bytes": 139,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "スキルレベルが高くなるほど搭乗機体の移動力とマップ兵器以外の、格闘武器の攻撃力が上昇します。"
+  },
+  {
+   "id": 17,
+   "section": "STRI",
+   "offset": 3061,
+   "text_offset": 3067,
+   "role": "display",
+   "refs": [
+    "rec9.name"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ガンファイト"
+  },
+  {
+   "id": 18,
+   "section": "STRI",
+   "offset": 3086,
+   "text_offset": 3092,
+   "role": "display",
+   "refs": [
+    "rec9.desc"
+   ],
+   "orig_chars": [
+    45
+   ],
+   "orig_bytes": 136,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "スキルレベルが高くなるほど搭乗機体のマップ兵器以外の、射撃武器の攻撃力と射程が上昇します。"
+  },
+  {
+   "id": 19,
+   "section": "STRI",
+   "offset": 3228,
+   "text_offset": 3234,
+   "role": "display",
+   "refs": [
+    "rec10.name"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＳＰアップ"
+  },
+  {
+   "id": 20,
+   "section": "STRI",
+   "offset": 3250,
+   "text_offset": 3256,
+   "role": "display",
+   "refs": [
+    "rec10.desc"
+   ],
+   "orig_chars": [
+    28
+   ],
+   "orig_bytes": 85,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "スキルレベルが高くなるほど最大精神ポイントが上昇します。"
+  },
+  {
+   "id": 21,
+   "section": "STRI",
+   "offset": 3341,
+   "text_offset": 3347,
+   "role": "display",
+   "refs": [
+    "rec11.name"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "指揮官"
+  },
+  {
+   "id": 22,
+   "section": "STRI",
+   "offset": 3357,
+   "text_offset": 3363,
+   "role": "display",
+   "refs": [
+    "rec11.desc"
+   ],
+   "orig_chars": [
+    46
+   ],
+   "orig_bytes": 139,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "スキルレベルが高くなるほど自機の指揮範囲内に存在する味方機体の命中率・回避率を上昇させます。"
+  },
+  {
+   "id": 23,
+   "section": "STRI",
+   "offset": 3502,
+   "text_offset": 3508,
+   "role": "display",
+   "refs": [
+    "rec12.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "連続攻撃"
+  },
+  {
+   "id": 24,
+   "section": "STRI",
+   "offset": 3521,
+   "text_offset": 3531,
+   "role": "display",
+   "refs": [
+    "rec12.desc"
+   ],
+   "orig_chars": [
+    47,
+    32
+   ],
+   "orig_bytes": 239,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "コンビネーション攻撃可能な武器で攻撃を行った場合に、コンビネーション攻撃を発生させる能力です。",
+    "連続攻撃Ｌｖの「レベル数」＋１＝「攻撃可能な機体数」になります。"
+   ]
+  },
+  {
+   "id": 25,
+   "section": "STRI",
+   "offset": 3770,
+   "text_offset": 3776,
+   "role": "display",
+   "refs": [
+    "rec13.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＳＰ回復"
+  },
+  {
+   "id": 26,
+   "section": "STRI",
+   "offset": 3789,
+   "text_offset": 3795,
+   "role": "display",
+   "refs": [
+    "rec13.desc"
+   ],
+   "orig_chars": [
+    24
+   ],
+   "orig_bytes": 73,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "自軍フェイズ開始時に、ＳＰが１０だけ回復します。"
+  },
+  {
+   "id": 27,
+   "section": "STRI",
+   "offset": 3868,
+   "text_offset": 3874,
+   "role": "display",
+   "refs": [
+    "rec14.name"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "集中力"
+  },
+  {
+   "id": 28,
+   "section": "STRI",
+   "offset": 3884,
+   "text_offset": 3890,
+   "role": "display",
+   "refs": [
+    "rec14.desc"
+   ],
+   "orig_chars": [
+    36
+   ],
+   "orig_bytes": 109,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "精神コマンド・ツイン精神コマンド使用時の消費ポイントが８０％になります。"
+  },
+  {
+   "id": 29,
+   "section": "STRI",
+   "offset": 3999,
+   "text_offset": 4005,
+   "role": "display",
+   "refs": [
+    "rec15.name"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ヒット＆アウェイ"
+  },
+  {
+   "id": 30,
+   "section": "STRI",
+   "offset": 4030,
+   "text_offset": 4036,
+   "role": "display",
+   "refs": [
+    "rec15.desc"
+   ],
+   "orig_chars": [
+    24
+   ],
+   "orig_bytes": 73,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "移動せずに攻撃した場合、その後に移動ができます。"
+  },
+  {
+   "id": 31,
+   "section": "STRI",
+   "offset": 4109,
+   "text_offset": 4115,
+   "role": "display",
+   "refs": [
+    "rec16.name"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "天才"
+  },
+  {
+   "id": 32,
+   "section": "STRI",
+   "offset": 4122,
+   "text_offset": 4128,
+   "role": "display",
+   "refs": [
+    "rec16.desc"
+   ],
+   "orig_chars": [
+    28
+   ],
+   "orig_bytes": 85,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "命中率・回避率・クリティカル発生率が２０だけ上昇します。"
+  },
+  {
+   "id": 33,
+   "section": "STRI",
+   "offset": 4213,
+   "text_offset": 4219,
+   "role": "display",
+   "refs": [
+    "rec17.name"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "アタッカー"
+  },
+  {
+   "id": 34,
+   "section": "STRI",
+   "offset": 4235,
+   "text_offset": 4241,
+   "role": "display",
+   "refs": [
+    "rec17.desc"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "気力が１３０以上の場合、ダメージが１．２倍になります。"
+  },
+  {
+   "id": 35,
+   "section": "STRI",
+   "offset": 4323,
+   "text_offset": 4329,
+   "role": "display",
+   "refs": [
+    "rec18.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "リベンジ"
+  },
+  {
+   "id": 36,
+   "section": "STRI",
+   "offset": 4342,
+   "text_offset": 4348,
+   "role": "display",
+   "refs": [
+    "rec18.desc"
+   ],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "反撃時の与えるダメージが１．２倍になります。"
+  },
+  {
+   "id": 37,
+   "section": "STRI",
+   "offset": 4415,
+   "text_offset": 4421,
+   "role": "display",
+   "refs": [
+    "rec19.name"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "予知"
+  },
+  {
+   "id": 38,
+   "section": "STRI",
+   "offset": 4428,
+   "text_offset": 4434,
+   "role": "display",
+   "refs": [
+    "rec19.desc"
+   ],
+   "orig_chars": [
+    42
+   ],
+   "orig_bytes": 127,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "気力が１３０以上の場合、敵対勢力のフェイズのみ、最終的な回避率が３０だけ上昇します。"
+  },
+  {
+   "id": 39,
+   "section": "STRI",
+   "offset": 4561,
+   "text_offset": 4567,
+   "role": "display",
+   "refs": [
+    "rec20.name"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "強運"
+  },
+  {
+   "id": 40,
+   "section": "STRI",
+   "offset": 4574,
+   "text_offset": 4584,
+   "role": "display",
+   "refs": [
+    "rec20.desc"
+   ],
+   "orig_chars": [
+    49,
+    7
+   ],
+   "orig_bytes": 170,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "敵機体撃墜時の獲得資金が１．２倍になります。幸運などの効果と重複した場合でも得られる資金の最大値は",
+    "２倍までです。"
+   ]
+  },
+  {
+   "id": 41,
+   "section": "STRI",
+   "offset": 4754,
+   "text_offset": 4760,
+   "role": "display",
+   "refs": [
+    "rec21.name"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "見切り"
+  },
+  {
+   "id": 42,
+   "section": "STRI",
+   "offset": 4770,
+   "text_offset": 4776,
+   "role": "display",
+   "refs": [
+    "rec21.desc"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "気力が１３０以上の場合、命中率・回避率が１０だけ上昇します。"
+  },
+  {
+   "id": 43,
+   "section": "STRI",
+   "offset": 4867,
+   "text_offset": 4873,
+   "role": "display",
+   "refs": [
+    "rec22.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "Ｅセーブ"
+  },
+  {
+   "id": 44,
+   "section": "STRI",
+   "offset": 4886,
+   "text_offset": 4892,
+   "role": "display",
+   "refs": [
+    "rec22.desc"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "武器の消費ＥＮが通常の７０％になります。"
+  },
+  {
+   "id": 45,
+   "section": "STRI",
+   "offset": 4953,
+   "text_offset": 4959,
+   "role": "display",
+   "refs": [
+    "rec23.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "Ｂセーブ"
+  },
+  {
+   "id": 46,
+   "section": "STRI",
+   "offset": 4972,
+   "text_offset": 4978,
+   "role": "display",
+   "refs": [
+    "rec23.desc"
+   ],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 64,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "武器の最大弾数が通常の１．５倍になります。"
+  },
+  {
+   "id": 47,
+   "section": "STRI",
+   "offset": 5042,
+   "text_offset": 5048,
+   "role": "display",
+   "refs": [
+    "rec24.name"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ラーニング"
+  },
+  {
+   "id": 48,
+   "section": "STRI",
+   "offset": 5064,
+   "text_offset": 5070,
+   "role": "display",
+   "refs": [
+    "rec24.desc"
+   ],
+   "orig_chars": [
+    33
+   ],
+   "orig_bytes": 100,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "サブ機体での戦闘時、メイン機体と同様の経験値・ＰＰを獲得できます。"
+  },
+  {
+   "id": 49,
+   "section": "STRI",
+   "offset": 5170,
+   "text_offset": 5176,
+   "role": "display",
+   "refs": [
+    "rec25.name"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "闘争心"
+  },
+  {
+   "id": 50,
+   "section": "STRI",
+   "offset": 5186,
+   "text_offset": 5192,
+   "role": "display",
+   "refs": [
+    "rec25.desc"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 49,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "出撃時の気力が５だけ上昇します。"
+  },
+  {
+   "id": 51,
+   "section": "STRI",
+   "offset": 5241,
+   "text_offset": 5247,
+   "role": "display",
+   "refs": [
+    "rec26.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "戦意高揚"
+  },
+  {
+   "id": 52,
+   "section": "STRI",
+   "offset": 5260,
+   "text_offset": 5266,
+   "role": "display",
+   "refs": [
+    "rec26.desc"
+   ],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 64,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "自軍フェイズ開始時に、気力が２上昇します。"
+  },
+  {
+   "id": 53,
+   "section": "STRI",
+   "offset": 5330,
+   "text_offset": 5336,
+   "role": "display",
+   "refs": [
+    "rec27.name"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "気力＋（回避）"
+  },
+  {
+   "id": 54,
+   "section": "STRI",
+   "offset": 5358,
+   "text_offset": 5364,
+   "role": "display",
+   "refs": [
+    "rec27.desc"
+   ],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "攻撃を回避した場合、気力が本来の増減に加えて更に１上昇します。"
+  },
+  {
+   "id": 55,
+   "section": "STRI",
+   "offset": 5458,
+   "text_offset": 5464,
+   "role": "display",
+   "refs": [
+    "rec28.name"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "気力＋（命中）"
+  },
+  {
+   "id": 56,
+   "section": "STRI",
+   "offset": 5486,
+   "text_offset": 5492,
+   "role": "display",
+   "refs": [
+    "rec28.desc"
+   ],
+   "orig_chars": [
+    34
+   ],
+   "orig_bytes": 103,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "敵への攻撃が命中した場合、気力が本来の増減に加えて更に１上昇します。"
+  },
+  {
+   "id": 57,
+   "section": "STRI",
+   "offset": 5595,
+   "text_offset": 5601,
+   "role": "display",
+   "refs": [
+    "rec29.name"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "気力＋（ダメージ）"
+  },
+  {
+   "id": 58,
+   "section": "STRI",
+   "offset": 5629,
+   "text_offset": 5635,
+   "role": "display",
+   "refs": [
+    "rec29.desc"
+   ],
+   "orig_chars": [
+    35
+   ],
+   "orig_bytes": 106,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "攻撃でダメージを受けた場合、気力が本来の増減に加えて更に２上昇します。"
+  },
+  {
+   "id": 59,
+   "section": "STRI",
+   "offset": 5741,
+   "text_offset": 5747,
+   "role": "display",
+   "refs": [
+    "rec30.name"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "気力＋（撃破）"
+  },
+  {
+   "id": 60,
+   "section": "STRI",
+   "offset": 5769,
+   "text_offset": 5775,
+   "role": "display",
+   "refs": [
+    "rec30.desc"
+   ],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "敵が撃墜された場合、気力が本来の増減に加えて更に１上昇します。"
+  },
+  {
+   "id": 61,
+   "section": "STRI",
+   "offset": 5869,
+   "text_offset": 5875,
+   "role": "display",
+   "refs": [
+    "rec31.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "連携攻撃"
+  },
+  {
+   "id": 62,
+   "section": "STRI",
+   "offset": 5888,
+   "text_offset": 5894,
+   "role": "display",
+   "refs": [
+    "rec31.desc"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "援護攻撃での与えるダメージを１００％にします。"
+  },
+  {
+   "id": 63,
+   "section": "STRI",
+   "offset": 5964,
+   "text_offset": 5970,
+   "role": "display",
+   "refs": [
+    "rec32.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "集束攻撃"
+  },
+  {
+   "id": 64,
+   "section": "STRI",
+   "offset": 5983,
+   "text_offset": 5989,
+   "role": "display",
+   "refs": [
+    "rec32.desc"
+   ],
+   "orig_chars": [
+    44
+   ],
+   "orig_bytes": 133,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "メイン（サブ）機体がサブ（メイン）機体を攻撃した場合の、ダメージ低下が２０％減少します。"
+  },
+  {
+   "id": 65,
+   "section": "STRI",
+   "offset": 6122,
+   "text_offset": 6128,
+   "role": "display",
+   "refs": [
+    "rec33.name"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ガード"
+  },
+  {
+   "id": 66,
+   "section": "STRI",
+   "offset": 6138,
+   "text_offset": 6144,
+   "role": "display",
+   "refs": [
+    "rec33.desc"
+   ],
+   "orig_chars": [
+    32
+   ],
+   "orig_bytes": 97,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "気力が１３０以上の場合、戦闘で受けるダメージが８０％になります。"
+  },
+  {
+   "id": 67,
+   "section": "STRI",
+   "offset": 6241,
+   "text_offset": 6247,
+   "role": "display",
+   "refs": [
+    "rec34.name"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "気力限界突破"
+  },
+  {
+   "id": 68,
+   "section": "STRI",
+   "offset": 6266,
+   "text_offset": 6272,
+   "role": "display",
+   "refs": [
+    "rec34.desc"
+   ],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 52,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "気力上昇の上限が１７０になります。"
+  },
+  {
+   "id": 69,
+   "section": "STRI",
+   "offset": 6324,
+   "text_offset": 6330,
+   "role": "display",
+   "refs": [
+    "rec35.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "修理技能"
+  },
+  {
+   "id": 70,
+   "section": "STRI",
+   "offset": 6343,
+   "text_offset": 6349,
+   "role": "display",
+   "refs": [
+    "rec35.desc"
+   ],
+   "orig_chars": [
+    32
+   ],
+   "orig_bytes": 97,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "個別コマンド「修理」を使用時に、ＨＰ回復量が１．２倍になります。"
+  },
+  {
+   "id": 71,
+   "section": "STRI",
+   "offset": 6446,
+   "text_offset": 6452,
+   "role": "display",
+   "refs": [
+    "rec36.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "補給技能"
+  },
+  {
+   "id": 72,
+   "section": "STRI",
+   "offset": 6465,
+   "text_offset": 6471,
+   "role": "display",
+   "refs": [
+    "rec36.desc"
+   ],
+   "orig_chars": [
+    25
+   ],
+   "orig_bytes": 76,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "移動後に個別コマンド「補給」を使用可能になります。"
+  },
+  {
+   "id": 73,
+   "section": "STRI",
+   "offset": 6547,
+   "text_offset": 6553,
+   "role": "display",
+   "refs": [
+    "rec37.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "２回行動"
+  },
+  {
+   "id": 74,
+   "section": "STRI",
+   "offset": 6566,
+   "text_offset": 6572,
+   "role": "display",
+   "refs": [
+    "rec37.desc"
+   ],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 52,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "１ターンの行動回数が１回増えます。"
+  },
+  {
+   "id": 75,
+   "section": "STRI",
+   "offset": 6624,
+   "text_offset": 6630,
+   "role": "display",
+   "refs": [
+    "rec38.name"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＥＸＰアップ"
+  },
+  {
+   "id": 76,
+   "section": "STRI",
+   "offset": 6649,
+   "text_offset": 6655,
+   "role": "display",
+   "refs": [
+    "rec38.desc"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "戦闘での獲得経験値が１．２倍になります。"
+  },
+  {
+   "id": 77,
+   "section": "STRI",
+   "offset": 6716,
+   "text_offset": 6722,
+   "role": "display",
+   "refs": [
+    "rec39.name"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "再攻撃"
+  },
+  {
+   "id": 78,
+   "section": "STRI",
+   "offset": 6732,
+   "text_offset": 6742,
+   "role": "display",
+   "refs": [
+    "rec39.desc"
+   ],
+   "orig_chars": [
+    46,
+    5
+   ],
+   "orig_bytes": 155,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "攻撃目標のメインパイロットより技量が２０以上高い場合、攻撃目標の反撃後、自機に対し援護攻撃を",
+    "行います。"
+   ]
+  },
+  {
+   "id": 79,
+   "section": "STRI",
+   "offset": 6897,
+   "text_offset": 6903,
+   "role": "display",
+   "refs": [
+    "rec40.name"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "超能力"
+  },
+  {
+   "id": 80,
+   "section": "STRI",
+   "offset": 6913,
+   "text_offset": 6919,
+   "role": "display",
+   "refs": [
+    "rec40.desc"
+   ],
+   "orig_chars": [
+    42
+   ],
+   "orig_bytes": 127,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "スキルレベルが高くなるほど、戦闘での命中率・回避率・クリティカル発生率が上昇します。"
+  },
+  {
+   "id": 81,
+   "section": "STRI",
+   "offset": 7046,
+   "text_offset": 7052,
+   "role": "display",
+   "refs": [
+    "rec41.name"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "統率"
+  },
+  {
+   "id": 82,
+   "section": "STRI",
+   "offset": 7059,
+   "text_offset": 7065,
+   "role": "display",
+   "refs": [
+    "rec41.desc"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "マキシマムブレイクを発生させる能力です。"
+  },
+  {
+   "id": 83,
+   "section": "STRI",
+   "offset": 7126,
+   "text_offset": 7132,
+   "role": "display",
+   "refs": [
+    "rec42.name"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "パイロット"
+  },
+  {
+   "id": 84,
+   "section": "STRI",
+   "offset": 7148,
+   "text_offset": 7154,
+   "role": "display",
+   "refs": [
+    "rec42.desc"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "武器を使用するために必要なスキルとしてのみ使用"
+  },
+  {
+   "id": 85,
+   "section": "STRI",
+   "offset": 7224,
+   "text_offset": 7230,
+   "role": "display",
+   "refs": [
+    "rec43.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "連続行動"
+  },
+  {
+   "id": 86,
+   "section": "STRI",
+   "offset": 7243,
+   "text_offset": 7253,
+   "role": "display",
+   "refs": [
+    "rec43.desc"
+   ],
+   "orig_chars": [
+    50,
+    52
+   ],
+   "orig_bytes": 308,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "気力が１２０以上で攻撃した敵ユニットを壊滅させた場合、行動終了せずもう一度行動できます。１ユニットに",
+    "対して１フェイズに１度だけ発動可能です（「変形」等でメインパイロットが代わっても、発動回数は増えない）。"
+   ]
+  }
+ ],
+ "inline_strings": []
+}

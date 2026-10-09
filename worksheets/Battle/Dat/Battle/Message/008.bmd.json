@@ -1,0 +1,5400 @@
+{
+ "file": "008.bmd",
+ "format": "BMD",
+ "counts": {
+  "groups": 38,
+  "entries": 217,
+  "lines": 220,
+  "strings": 119
+ },
+ "strings": [
+  {
+   "id": 0,
+   "offset": 0,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「さて……覚悟はいいな？」",
+   "en": "",
+   "refs": [
+    {
+     "line": 0,
+     "field": "text",
+     "entry": 0,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14471
+     ]
+    },
+    {
+     "line": 10,
+     "field": "text",
+     "entry": 10,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 38,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14471
+     ]
+    },
+    {
+     "line": 131,
+     "field": "text",
+     "entry": 131,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14471
+     ]
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "offset": 40,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「勝てると思うな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 1,
+     "field": "text",
+     "entry": 1,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14472
+     ]
+    },
+    {
+     "line": 11,
+     "field": "text",
+     "entry": 11,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 38,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14472
+     ]
+    },
+    {
+     "line": 132,
+     "field": "text",
+     "entry": 132,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14472
+     ]
+    },
+    {
+     "line": 138,
+     "field": "text",
+     "entry": 138,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14472
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "offset": 68,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「すぐにカタを付ける」",
+   "en": "",
+   "refs": [
+    {
+     "line": 2,
+     "field": "text",
+     "entry": 2,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14473
+     ]
+    },
+    {
+     "line": 12,
+     "field": "text",
+     "entry": 12,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 38,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14473
+     ]
+    },
+    {
+     "line": 123,
+     "field": "text",
+     "entry": 123,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14473
+     ]
+    },
+    {
+     "line": 126,
+     "field": "text",
+     "entry": 126,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14473
+     ]
+    },
+    {
+     "line": 134,
+     "field": "text",
+     "entry": 134,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14473
+     ]
+    },
+    {
+     "line": 140,
+     "field": "text",
+     "entry": 140,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14473
+     ]
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "offset": 102,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「一気に終わらせるぞ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 3,
+     "field": "text",
+     "entry": 3,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14474
+     ]
+    },
+    {
+     "line": 13,
+     "field": "text",
+     "entry": 13,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 38,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14474
+     ]
+    },
+    {
+     "line": 122,
+     "field": "text",
+     "entry": 122,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14474
+     ]
+    },
+    {
+     "line": 125,
+     "field": "text",
+     "entry": 125,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14474
+     ]
+    },
+    {
+     "line": 133,
+     "field": "text",
+     "entry": 133,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14474
+     ]
+    },
+    {
+     "line": 135,
+     "field": "text",
+     "entry": 135,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14474
+     ]
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "offset": 136,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「手加減はせんぞ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 4,
+     "field": "text",
+     "entry": 4,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14475
+     ]
+    },
+    {
+     "line": 14,
+     "field": "text",
+     "entry": 14,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 38,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14475
+     ]
+    },
+    {
+     "line": 124,
+     "field": "text",
+     "entry": 124,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14475
+     ]
+    },
+    {
+     "line": 127,
+     "field": "text",
+     "entry": 127,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14475
+     ]
+    },
+    {
+     "line": 139,
+     "field": "text",
+     "entry": 139,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14475
+     ]
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "offset": 164,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「負けるつもりなど、さらさらない」",
+   "en": "",
+   "refs": [
+    {
+     "line": 5,
+     "field": "text",
+     "entry": 5,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14476
+     ]
+    },
+    {
+     "line": 15,
+     "field": "text",
+     "entry": 15,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 38,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14476
+     ]
+    },
+    {
+     "line": 137,
+     "field": "text",
+     "entry": 137,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14476
+     ]
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "offset": 216,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「貴様の相手は、この俺だ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 6,
+     "field": "text",
+     "entry": 6,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14477
+     ]
+    },
+    {
+     "line": 16,
+     "field": "text",
+     "entry": 16,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 38,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14477
+     ]
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "offset": 259,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ジャオームの力、甘く見るなよ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 7,
+     "field": "text",
+     "entry": 7,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 38,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14478
+     ]
+    },
+    {
+     "line": 8,
+     "field": "text",
+     "entry": 8,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 38,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14478
+     ]
+    },
+    {
+     "line": 9,
+     "field": "text",
+     "entry": 9,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 38,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14478
+     ]
+    },
+    {
+     "line": 136,
+     "field": "text",
+     "entry": 136,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14478
+     ]
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "offset": 308,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「カークス将軍！　討ち取らせていただく！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 17,
+     "field": "text",
+     "entry": 17,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 18,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14496
+     ]
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "offset": 372,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「あなたの野心もここまでです、/　カークス将軍！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 18,
+     "field": "text",
+     "entry": 18,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 18,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14497
+     ]
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "offset": 446,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「む……女か。だが、手は抜かん」",
+   "en": "",
+   "refs": [
+    {
+     "line": 19,
+     "field": "text",
+     "entry": 19,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 17,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14498
+     ]
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "offset": 495,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ほう、気の強い女だ。だが、それもまた……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 20,
+     "field": "text",
+     "entry": 20,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 17,
+     "speaker": 8,
+     "face": 5,
+     "voice": [
+      1,
+      14499
+     ]
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "offset": 562,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「また貴様か、ルオゾール……/　しつこい男だ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 21,
+     "field": "text",
+     "entry": 21,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 35,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14500
+     ]
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "offset": 630,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「怪しげな呪い師が……/　どうせろくでもないことを/　企んでいるのだろう」",
+   "en": "",
+   "refs": [
+    {
+     "line": 22,
+     "field": "text",
+     "entry": 22,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 35,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14501
+     ]
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "offset": 738,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「サフィーネか……/　その腐った性根、叩き直してくれるわ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 23,
+     "field": "text",
+     "entry": 23,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 296,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14504
+     ]
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "offset": 827,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「軟弱者めが！　性根を入れ替えろ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 24,
+     "field": "text",
+     "entry": 24,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 296,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14505
+     ]
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "offset": 882,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「相も変わらず、不真面目な奴め……/　貴様の道楽などに付き合っていられるか！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 25,
+     "field": "text",
+     "entry": 25,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 296,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14506
+     ]
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "offset": 998,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「む……こやつ、出来るな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 26,
+     "field": "text",
+     "entry": 26,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 22,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14507
+     ]
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "offset": 1038,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「なるほど……手強そうな相手だ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 27,
+     "field": "text",
+     "entry": 27,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 22,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14508
+     ]
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "offset": 1087,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ほう、いい反応だ。/　気を引き締めてかからんとな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 28,
+     "field": "text",
+     "entry": 28,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 22,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14509
+     ]
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "offset": 1164,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「むう……何という威圧感だ。/　破壊神と呼ばれるだけはあるな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 29,
+     "field": "text",
+     "entry": 29,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 419,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14494
+     ]
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "offset": 1256,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「醜き化け物め……退治してくれる」",
+   "en": "",
+   "refs": [
+    {
+     "line": 30,
+     "field": "text",
+     "entry": 30,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 419,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14495
+     ]
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "offset": 1308,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「こちらの番だな！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 31,
+     "field": "text",
+     "entry": 31,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14483
+     ]
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "offset": 1339,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「では、こちらもいくぞ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 32,
+     "field": "text",
+     "entry": 32,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14484
+     ]
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "offset": 1379,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ただでは帰さん！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 33,
+     "field": "text",
+     "entry": 33,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14485
+     ]
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "offset": 1410,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「反撃開始だ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 34,
+     "field": "text",
+     "entry": 34,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14486
+     ]
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "offset": 1435,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「好きにはさせん！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 35,
+     "field": "text",
+     "entry": 35,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14487
+     ]
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "offset": 1466,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「なめるなっ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 36,
+     "field": "text",
+     "entry": 36,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14488
+     ]
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "offset": 1491,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「む……やられた」",
+   "en": "",
+   "refs": [
+    {
+     "line": 37,
+     "field": "text",
+     "entry": 37,
+     "group": [
+      0,
+      2
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14610
+     ]
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "offset": 1519,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「む……すまん、撤退する」",
+   "en": "",
+   "refs": [
+    {
+     "line": 38,
+     "field": "text",
+     "entry": 38,
+     "group": [
+      0,
+      2
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14611
+     ]
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "offset": 1559,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「むん！？　いかん！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 39,
+     "field": "text",
+     "entry": 39,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14597
+     ]
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "offset": 1593,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「うぬっ！　まずい……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 40,
+     "field": "text",
+     "entry": 40,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14598
+     ]
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "offset": 1630,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「つっ……まずいな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 41,
+     "field": "text",
+     "entry": 41,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14599
+     ]
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "offset": 1661,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ぐっ……このままでは……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 42,
+     "field": "text",
+     "entry": 42,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14600
+     ]
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "offset": 1704,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「むうぅっ！　押されているか……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 43,
+     "field": "text",
+     "entry": 43,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14601
+     ]
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "offset": 1756,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ジャオーム、まだ落ちるな！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 44,
+     "field": "text",
+     "entry": 44,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14602
+     ]
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "offset": 1802,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ぐあぁっ！！　ま、まだだ……/　まだやられてはおりませんぞ、/　カークス将軍！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 45,
+     "field": "text",
+     "entry": 45,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 18,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14605
+     ]
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "offset": 1922,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ぬううっ！！　グランゾン……恐るべし」",
+   "en": "",
+   "refs": [
+    {
+     "line": 46,
+     "field": "text",
+     "entry": 46,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 13,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14606
+     ]
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "offset": 1983,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「俺をここまで追い詰めるとは……/　やるな、サフィーネ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 47,
+     "field": "text",
+     "entry": 47,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 296,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14607
+     ]
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "offset": 2069,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「こ、これがデュラクシールの力かっ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 48,
+     "field": "text",
+     "entry": 48,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 76,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14603
+     ]
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "offset": 2127,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ぬうっ！！/　な、何という力だ……/　恐るべし、ヴォルクルス……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 49,
+     "field": "text",
+     "entry": 49,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 419,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14604
+     ]
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "offset": 2226,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「うぬっ！　やる！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 50,
+     "field": "text",
+     "entry": 50,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14580
+     ]
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "offset": 2260,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「む……いい攻撃だ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 51,
+     "field": "text",
+     "entry": 51,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14581
+     ]
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "offset": 2291,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「くっ、なかなか……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 52,
+     "field": "text",
+     "entry": 52,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14582
+     ]
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "offset": 2325,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ぐっ！　今のは効いたぞ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 53,
+     "field": "text",
+     "entry": 53,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14583
+     ]
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "offset": 2365,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「避け損ねたか！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 54,
+     "field": "text",
+     "entry": 54,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14584
+     ]
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "offset": 2393,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ほう、やるな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 55,
+     "field": "text",
+     "entry": 55,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14585
+     ]
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "offset": 2418,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「む、さすがはカークス将軍。やるものですな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 56,
+     "field": "text",
+     "entry": 56,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 18,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14589
+     ]
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "offset": 2485,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ほう、なかなかの腕だな……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 57,
+     "field": "text",
+     "entry": 57,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 17,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14590
+     ]
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "offset": 2531,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ちっ、貴様と遊んでいるヒマはない！/　さっさと立ち去れ、ルオゾール」",
+   "en": "",
+   "refs": [
+    {
+     "line": 58,
+     "field": "text",
+     "entry": 58,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 35,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14591
+     ]
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "offset": 2635,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「む……シュウ・シラカワ…………/　やはり、ただ者ではない」",
+   "en": "",
+   "refs": [
+    {
+     "line": 59,
+     "field": "text",
+     "entry": 59,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 13,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14592
+     ]
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "offset": 2724,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ぬ、甘く見すぎていたか。/　やるな、サフィーネ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 60,
+     "field": "text",
+     "entry": 60,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 296,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14593
+     ]
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "offset": 2798,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ええい、/　この程度の攻撃を避け損なうとは……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 61,
+     "field": "text",
+     "entry": 61,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 22,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14594
+     ]
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "offset": 2872,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「くっ……デュラクシール……/　さすがにパワーがある」",
+   "en": "",
+   "refs": [
+    {
+     "line": 62,
+     "field": "text",
+     "entry": 62,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 76,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14586
+     ]
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "offset": 2952,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「むうっ！　ブローウェルに/　これほどのパワーがあるとは……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 63,
+     "field": "text",
+     "entry": 63,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 65,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14587
+     ]
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "offset": 3044,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ぬっ！　なるほど、破壊神と呼ばれるのは/　伊達ではないということか」",
+   "en": "",
+   "refs": [
+    {
+     "line": 64,
+     "field": "text",
+     "entry": 64,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 419,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14588
+     ]
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "offset": 3148,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「効くかっ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 65,
+     "field": "text",
+     "entry": 65,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14562
+     ]
+    },
+    {
+     "line": 94,
+     "field": "text",
+     "entry": 94,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14562
+     ]
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "offset": 3170,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「効かんな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 66,
+     "field": "text",
+     "entry": 66,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14563
+     ]
+    },
+    {
+     "line": 95,
+     "field": "text",
+     "entry": 95,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14563
+     ]
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "offset": 3189,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「そんなものか」",
+   "en": "",
+   "refs": [
+    {
+     "line": 67,
+     "field": "text",
+     "entry": 67,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14564
+     ]
+    },
+    {
+     "line": 96,
+     "field": "text",
+     "entry": 96,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14564
+     ]
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "offset": 3214,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「弱い、弱いぞ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 68,
+     "field": "text",
+     "entry": 68,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 5,
+     "voice": [
+      1,
+      14565
+     ]
+    },
+    {
+     "line": 97,
+     "field": "text",
+     "entry": 97,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 5,
+     "voice": [
+      1,
+      14565
+     ]
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "offset": 3239,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「鍛え方が足りん！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 69,
+     "field": "text",
+     "entry": 69,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14566
+     ]
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "offset": 3270,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「その程度か！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 70,
+     "field": "text",
+     "entry": 70,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14567
+     ]
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "offset": 3295,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ふん、当たっただけだ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 71,
+     "field": "text",
+     "entry": 71,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 16,
+     "voice": [
+      1,
+      14568
+     ]
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "offset": 3332,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「効きはしませんよ、カークス将軍」",
+   "en": "",
+   "refs": [
+    {
+     "line": 72,
+     "field": "text",
+     "entry": 72,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 18,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14572
+     ]
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "offset": 3384,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ふっ……やはり、その程度か」",
+   "en": "",
+   "refs": [
+    {
+     "line": 73,
+     "field": "text",
+     "entry": 73,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 17,
+     "speaker": 8,
+     "face": 16,
+     "voice": [
+      1,
+      14573
+     ]
+    }
+   ]
+  },
+  {
+   "id": 65,
+   "offset": 3430,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ふっ……甘く見たな、ルオゾール」",
+   "en": "",
+   "refs": [
+    {
+     "line": 74,
+     "field": "text",
+     "entry": 74,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 35,
+     "speaker": 8,
+     "face": 16,
+     "voice": [
+      1,
+      14574
+     ]
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "offset": 3482,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「どうした、シュウ。/　貴様の力、その程度ではあるまい」",
+   "en": "",
+   "refs": [
+    {
+     "line": 75,
+     "field": "text",
+     "entry": 75,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 13,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14575
+     ]
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "offset": 3565,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「心根が軟弱だから、/　その程度なのだ、サフィーネ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 76,
+     "field": "text",
+     "entry": 76,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 296,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14576
+     ]
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "offset": 3645,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「その程度か……見込み違いだったな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 77,
+     "field": "text",
+     "entry": 77,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 22,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14577
+     ]
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "offset": 3700,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ふん……存外大したことはないな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 78,
+     "field": "text",
+     "entry": 78,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 419,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14571
+     ]
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "offset": 3752,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「外れだ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 79,
+     "field": "text",
+     "entry": 79,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 5,
+     "voice": [
+      1,
+      14543
+     ]
+    },
+    {
+     "line": 100,
+     "field": "text",
+     "entry": 100,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 5,
+     "voice": [
+      1,
+      14543
+     ]
+    }
+   ]
+  },
+  {
+   "id": 71,
+   "offset": 3771,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「当たらん！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 80,
+     "field": "text",
+     "entry": 80,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 5,
+     "voice": [
+      1,
+      14544
+     ]
+    },
+    {
+     "line": 101,
+     "field": "text",
+     "entry": 101,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 5,
+     "voice": [
+      1,
+      14544
+     ]
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "offset": 3793,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「かすりもせんな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 81,
+     "field": "text",
+     "entry": 81,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 5,
+     "voice": [
+      1,
+      14545
+     ]
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "offset": 3821,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「遅いな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 82,
+     "field": "text",
+     "entry": 82,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 5,
+     "voice": [
+      1,
+      14546
+     ]
+    },
+    {
+     "line": 102,
+     "field": "text",
+     "entry": 102,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 5,
+     "voice": [
+      1,
+      14546
+     ]
+    }
+   ]
+  },
+  {
+   "id": 74,
+   "offset": 3837,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「無駄だ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 83,
+     "field": "text",
+     "entry": 83,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14547
+     ]
+    },
+    {
+     "line": 98,
+     "field": "text",
+     "entry": 98,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14547
+     ]
+    },
+    {
+     "line": 99,
+     "field": "text",
+     "entry": 99,
+     "group": [
+      0,
+      10
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14547
+     ]
+    }
+   ]
+  },
+  {
+   "id": 75,
+   "offset": 3853,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「見切った！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 84,
+     "field": "text",
+     "entry": 84,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14549
+     ]
+    },
+    {
+     "line": 103,
+     "field": "text",
+     "entry": 103,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14549
+     ]
+    }
+   ]
+  },
+  {
+   "id": 76,
+   "offset": 3875,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「当たりませんよ、将軍」",
+   "en": "",
+   "refs": [
+    {
+     "line": 85,
+     "field": "text",
+     "entry": 85,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 18,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14554
+     ]
+    }
+   ]
+  },
+  {
+   "id": 77,
+   "offset": 3912,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「見くびってもらっては困るな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 86,
+     "field": "text",
+     "entry": 86,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 17,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14555
+     ]
+    }
+   ]
+  },
+  {
+   "id": 78,
+   "offset": 3958,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「貴様の相手などしていられるか！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 87,
+     "field": "text",
+     "entry": 87,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 35,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14556
+     ]
+    }
+   ]
+  },
+  {
+   "id": 79,
+   "offset": 4010,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「相変わらず恐ろしい力だ。/　だが、かわしてしまえば！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 88,
+     "field": "text",
+     "entry": 88,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 13,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14557
+     ]
+    }
+   ]
+  },
+  {
+   "id": 80,
+   "offset": 4093,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ふっ……ふざけているからそうなる」",
+   "en": "",
+   "refs": [
+    {
+     "line": 89,
+     "field": "text",
+     "entry": 89,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 296,
+     "speaker": 8,
+     "face": 16,
+     "voice": [
+      1,
+      14558
+     ]
+    }
+   ]
+  },
+  {
+   "id": 81,
+   "offset": 4148,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「いい腕だが、当たらなければな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 90,
+     "field": "text",
+     "entry": 90,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 22,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14559
+     ]
+    }
+   ]
+  },
+  {
+   "id": 82,
+   "offset": 4197,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「いくらパワーがあろうと、当たらなければ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 91,
+     "field": "text",
+     "entry": 91,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 419,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14553
+     ]
+    }
+   ]
+  },
+  {
+   "id": 83,
+   "offset": 4264,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「狙いが甘いな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 92,
+     "field": "text",
+     "entry": 92,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14548
+     ]
+    }
+   ]
+  },
+  {
+   "id": 84,
+   "offset": 4289,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「まだまだだな」",
+   "en": "",
+   "refs": [
+    {
+     "line": 93,
+     "field": "text",
+     "entry": 93,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 5,
+     "voice": [
+      1,
+      14550
+     ]
+    }
+   ]
+  },
+  {
+   "id": 85,
+   "offset": 4314,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「………」",
+   "en": "",
+   "refs": [
+    {
+     "line": 104,
+     "field": "text",
+     "entry": 104,
+     "group": [
+      0,
+      12
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "id": 86,
+   "offset": 4330,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「む、反撃不可能か……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 105,
+     "field": "text",
+     "entry": 105,
+     "group": [
+      0,
+      13
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14541
+     ]
+    },
+    {
+     "line": 107,
+     "field": "text",
+     "entry": 107,
+     "group": [
+      0,
+      15
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14541
+     ]
+    }
+   ]
+  },
+  {
+   "id": 87,
+   "offset": 4367,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「むう、届かん」",
+   "en": "",
+   "refs": [
+    {
+     "line": 106,
+     "field": "text",
+     "entry": 106,
+     "group": [
+      0,
+      14
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 3,
+     "voice": [
+      1,
+      14542
+     ]
+    }
+   ]
+  },
+  {
+   "id": 88,
+   "offset": 4392,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「まだ終わりではないぞ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 108,
+     "field": "text",
+     "entry": 108,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14525
+     ]
+    },
+    {
+     "line": 128,
+     "field": "text",
+     "entry": 128,
+     "group": [
+      0,
+      20
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14525
+     ]
+    }
+   ]
+  },
+  {
+   "id": 89,
+   "offset": 4432,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「まだだっ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 109,
+     "field": "text",
+     "entry": 109,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14526
+     ]
+    },
+    {
+     "line": 129,
+     "field": "text",
+     "entry": 129,
+     "group": [
+      0,
+      20
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14526
+     ]
+    }
+   ]
+  },
+  {
+   "id": 90,
+   "offset": 4454,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「安心するのはまだ早いぞ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 110,
+     "field": "text",
+     "entry": 110,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14527
+     ]
+    },
+    {
+     "line": 130,
+     "field": "text",
+     "entry": 130,
+     "group": [
+      0,
+      20
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14527
+     ]
+    }
+   ]
+  },
+  {
+   "id": 91,
+   "offset": 4497,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「手伝うぞ、マサキ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 111,
+     "field": "text",
+     "entry": 111,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 2,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14528
+     ]
+    }
+   ]
+  },
+  {
+   "id": 92,
+   "offset": 4528,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「後は任せろ、テュッティ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 112,
+     "field": "text",
+     "entry": 112,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 5,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14529
+     ]
+    }
+   ]
+  },
+  {
+   "id": 93,
+   "offset": 4568,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ミオ、手伝おう」",
+   "en": "",
+   "refs": [
+    {
+     "line": 113,
+     "field": "text",
+     "entry": 113,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 6,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14530
+     ]
+    }
+   ]
+  },
+  {
+   "id": 94,
+   "offset": 4596,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「プレシア、詰めが甘いぞ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 114,
+     "field": "text",
+     "entry": 114,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 7,
+     "speaker": 8,
+     "face": 0,
+     "voice": [
+      1,
+      14531
+     ]
+    }
+   ]
+  },
+  {
+   "id": 95,
+   "offset": 4636,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ここは俺に任せろ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 115,
+     "field": "text",
+     "entry": 115,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14533
+     ]
+    }
+   ]
+  },
+  {
+   "id": 96,
+   "offset": 4670,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「俺が受け止める！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 116,
+     "field": "text",
+     "entry": 116,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14534
+     ]
+    }
+   ]
+  },
+  {
+   "id": 97,
+   "offset": 4701,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ここは俺が引き受ける！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 117,
+     "field": "text",
+     "entry": 117,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14535
+     ]
+    }
+   ]
+  },
+  {
+   "id": 98,
+   "offset": 4741,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「マサキ！　ここは俺が！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 118,
+     "field": "text",
+     "entry": 118,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 2,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14536
+     ]
+    }
+   ]
+  },
+  {
+   "id": 99,
+   "offset": 4781,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「テュッティ、危険だ！　下がれ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 119,
+     "field": "text",
+     "entry": 119,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 5,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14537
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100,
+   "offset": 4833,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ミオ、下がれ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 120,
+     "field": "text",
+     "entry": 120,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 6,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14538
+     ]
+    }
+   ]
+  },
+  {
+   "id": 101,
+   "offset": 4861,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「いかん、プレシア！　俺の後ろに回れ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 121,
+     "field": "text",
+     "entry": 121,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 7,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14539
+     ]
+    }
+   ]
+  },
+  {
+   "id": 102,
+   "offset": 4922,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ビームキャノン！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 141,
+     "field": "text",
+     "entry": 141,
+     "group": [
+      0,
+      38000
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14514
+     ]
+    },
+    {
+     "line": 142,
+     "field": "text",
+     "entry": 142,
+     "group": [
+      0,
+      38000
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14514
+     ]
+    },
+    {
+     "line": 143,
+     "field": "text",
+     "entry": 143,
+     "group": [
+      0,
+      38000
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14514
+     ]
+    },
+    {
+     "line": 201,
+     "field": "text",
+     "entry": 201,
+     "group": [
+      0,
+      58010
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14514
+     ]
+    },
+    {
+     "line": 202,
+     "field": "text",
+     "entry": 202,
+     "group": [
+      0,
+      58010
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14514
+     ]
+    },
+    {
+     "line": 203,
+     "field": "text",
+     "entry": 203,
+     "group": [
+      0,
+      58010
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14514
+     ]
+    }
+   ]
+  },
+  {
+   "id": 103,
+   "offset": 4953,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「そこっ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 144,
+     "field": "text",
+     "entry": 144,
+     "group": [
+      0,
+      38000
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14464
+     ]
+    },
+    {
+     "line": 164,
+     "field": "text",
+     "entry": 164,
+     "group": [
+      0,
+      38020
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14464
+     ]
+    },
+    {
+     "line": 181,
+     "field": "text",
+     "entry": 181,
+     "group": [
+      0,
+      64030
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14464
+     ]
+    },
+    {
+     "line": 184,
+     "field": "text",
+     "entry": 184,
+     "group": [
+      0,
+      64040
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14464
+     ]
+    },
+    {
+     "line": 204,
+     "field": "text",
+     "entry": 204,
+     "group": [
+      0,
+      58020
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14464
+     ]
+    },
+    {
+     "line": 207,
+     "field": "text",
+     "entry": 207,
+     "group": [
+      0,
+      58030
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14464
+     ]
+    },
+    {
+     "line": 211,
+     "field": "text",
+     "entry": 211,
+     "group": [
+      1,
+      13474
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14464
+     ]
+    }
+   ]
+  },
+  {
+   "id": 104,
+   "offset": 4975,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「もらった！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 145,
+     "field": "text",
+     "entry": 145,
+     "group": [
+      0,
+      38000
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14467
+     ]
+    },
+    {
+     "line": 152,
+     "field": "text",
+     "entry": 152,
+     "group": [
+      0,
+      38010
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14467
+     ]
+    },
+    {
+     "line": 165,
+     "field": "text",
+     "entry": 165,
+     "group": [
+      0,
+      38020
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14467
+     ]
+    },
+    {
+     "line": 169,
+     "field": "text",
+     "entry": 169,
+     "group": [
+      0,
+      64020
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14467
+     ]
+    },
+    {
+     "line": 182,
+     "field": "text",
+     "entry": 182,
+     "group": [
+      0,
+      64030
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14467
+     ]
+    },
+    {
+     "line": 186,
+     "field": "text",
+     "entry": 186,
+     "group": [
+      0,
+      64040
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14467
+     ]
+    },
+    {
+     "line": 192,
+     "field": "text",
+     "entry": 192,
+     "group": [
+      0,
+      58000
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14467
+     ]
+    },
+    {
+     "line": 206,
+     "field": "text",
+     "entry": 206,
+     "group": [
+      0,
+      58020
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14467
+     ]
+    },
+    {
+     "line": 209,
+     "field": "text",
+     "entry": 209,
+     "group": [
+      0,
+      58030
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14467
+     ]
+    },
+    {
+     "line": 213,
+     "field": "text",
+     "entry": 213,
+     "group": [
+      1,
+      13474
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14467
+     ]
+    }
+   ]
+  },
+  {
+   "id": 105,
+   "offset": 4997,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「くらえっ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 146,
+     "field": "text",
+     "entry": 146,
+     "group": [
+      0,
+      38000
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14470
+     ]
+    },
+    {
+     "line": 166,
+     "field": "text",
+     "entry": 166,
+     "group": [
+      0,
+      38020
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14470
+     ]
+    },
+    {
+     "line": 183,
+     "field": "text",
+     "entry": 183,
+     "group": [
+      0,
+      64030
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14470
+     ]
+    },
+    {
+     "line": 185,
+     "field": "text",
+     "entry": 185,
+     "group": [
+      0,
+      64040
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14470
+     ]
+    },
+    {
+     "line": 205,
+     "field": "text",
+     "entry": 205,
+     "group": [
+      0,
+      58020
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14470
+     ]
+    },
+    {
+     "line": 208,
+     "field": "text",
+     "entry": 208,
+     "group": [
+      0,
+      58030
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14470
+     ]
+    },
+    {
+     "line": 212,
+     "field": "text",
+     "entry": 212,
+     "group": [
+      1,
+      13474
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14470
+     ]
+    }
+   ]
+  },
+  {
+   "id": 106,
+   "offset": 5022,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ディスカッター！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 147,
+     "field": "text",
+     "entry": 147,
+     "group": [
+      0,
+      38010
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14515
+     ]
+    },
+    {
+     "line": 148,
+     "field": "text",
+     "entry": 148,
+     "group": [
+      0,
+      38010
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14515
+     ]
+    },
+    {
+     "line": 149,
+     "field": "text",
+     "entry": 149,
+     "group": [
+      0,
+      38010
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14515
+     ]
+    },
+    {
+     "line": 187,
+     "field": "text",
+     "entry": 187,
+     "group": [
+      0,
+      58000
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14515
+     ]
+    },
+    {
+     "line": 188,
+     "field": "text",
+     "entry": 188,
+     "group": [
+      0,
+      58000
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14515
+     ]
+    },
+    {
+     "line": 189,
+     "field": "text",
+     "entry": 189,
+     "group": [
+      0,
+      58000
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14515
+     ]
+    }
+   ]
+  },
+  {
+   "id": 107,
+   "offset": 5053,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「やらせんっ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 150,
+     "field": "text",
+     "entry": 150,
+     "group": [
+      0,
+      38010
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14465
+     ]
+    },
+    {
+     "line": 167,
+     "field": "text",
+     "entry": 167,
+     "group": [
+      0,
+      64020
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14465
+     ]
+    },
+    {
+     "line": 190,
+     "field": "text",
+     "entry": 190,
+     "group": [
+      0,
+      58000
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14465
+     ]
+    }
+   ]
+  },
+  {
+   "id": 108,
+   "offset": 5081,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「これでどうだ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 151,
+     "field": "text",
+     "entry": 151,
+     "group": [
+      0,
+      38010
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14466
+     ]
+    },
+    {
+     "line": 168,
+     "field": "text",
+     "entry": 168,
+     "group": [
+      0,
+      64020
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14466
+     ]
+    },
+    {
+     "line": 191,
+     "field": "text",
+     "entry": 191,
+     "group": [
+      0,
+      58000
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14466
+     ]
+    }
+   ]
+  },
+  {
+   "id": 109,
+   "offset": 5109,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「受けてみろ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 153,
+     "field": "text",
+     "entry": 153,
+     "group": [
+      0,
+      38010
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14468
+     ]
+    },
+    {
+     "line": 170,
+     "field": "text",
+     "entry": 170,
+     "group": [
+      0,
+      64020
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14468
+     ]
+    },
+    {
+     "line": 193,
+     "field": "text",
+     "entry": 193,
+     "group": [
+      0,
+      58000
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14468
+     ]
+    }
+   ]
+  },
+  {
+   "id": 110,
+   "offset": 5134,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「いざっ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 154,
+     "field": "text",
+     "entry": 154,
+     "group": [
+      0,
+      38010
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14469
+     ]
+    },
+    {
+     "line": 171,
+     "field": "text",
+     "entry": 171,
+     "group": [
+      0,
+      64020
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14469
+     ]
+    },
+    {
+     "line": 194,
+     "field": "text",
+     "entry": 194,
+     "group": [
+      0,
+      58000
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14469
+     ]
+    }
+   ]
+  },
+  {
+   "id": 111,
+   "offset": 5153,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「隙あり！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 155,
+     "field": "text",
+     "entry": 155,
+     "group": [
+      0,
+      38010
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14482
+     ]
+    },
+    {
+     "line": 172,
+     "field": "text",
+     "entry": 172,
+     "group": [
+      0,
+      64020
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14482
+     ]
+    },
+    {
+     "line": 195,
+     "field": "text",
+     "entry": 195,
+     "group": [
+      0,
+      58000
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14482
+     ]
+    }
+   ]
+  },
+  {
+   "id": 112,
+   "offset": 5172,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「ふっ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 156,
+     "field": "text",
+     "entry": 156,
+     "group": [
+      0,
+      38011
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14520
+     ]
+    },
+    {
+     "line": 173,
+     "field": "text",
+     "entry": 173,
+     "group": [
+      0,
+      64021
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14520
+     ]
+    },
+    {
+     "line": 196,
+     "field": "text",
+     "entry": 196,
+     "group": [
+      0,
+      58001
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14520
+     ]
+    },
+    {
+     "line": 214,
+     "field": "text",
+     "entry": 214,
+     "group": [
+      1,
+      13485
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14520
+     ]
+    }
+   ]
+  },
+  {
+   "id": 113,
+   "offset": 5188,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「たぁっ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 157,
+     "field": "text",
+     "entry": 157,
+     "group": [
+      0,
+      38011
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14521
+     ]
+    },
+    {
+     "line": 174,
+     "field": "text",
+     "entry": 174,
+     "group": [
+      0,
+      64021
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14521
+     ]
+    },
+    {
+     "line": 197,
+     "field": "text",
+     "entry": 197,
+     "group": [
+      0,
+      58001
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14521
+     ]
+    },
+    {
+     "line": 215,
+     "field": "text",
+     "entry": 214,
+     "group": [
+      1,
+      13485
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14521
+     ]
+    }
+   ]
+  },
+  {
+   "id": 114,
+   "offset": 5207,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「とぅっ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 158,
+     "field": "text",
+     "entry": 158,
+     "group": [
+      0,
+      38011
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14522
+     ]
+    },
+    {
+     "line": 175,
+     "field": "text",
+     "entry": 175,
+     "group": [
+      0,
+      64021
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14522
+     ]
+    },
+    {
+     "line": 198,
+     "field": "text",
+     "entry": 198,
+     "group": [
+      0,
+      58001
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14522
+     ]
+    },
+    {
+     "line": 216,
+     "field": "text",
+     "entry": 215,
+     "group": [
+      1,
+      13485
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14522
+     ]
+    }
+   ]
+  },
+  {
+   "id": 115,
+   "offset": 5226,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「このっ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 159,
+     "field": "text",
+     "entry": 159,
+     "group": [
+      0,
+      38011
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14523
+     ]
+    },
+    {
+     "line": 176,
+     "field": "text",
+     "entry": 176,
+     "group": [
+      0,
+      64021
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14523
+     ]
+    },
+    {
+     "line": 199,
+     "field": "text",
+     "entry": 199,
+     "group": [
+      0,
+      58001
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14523
+     ]
+    },
+    {
+     "line": 217,
+     "field": "text",
+     "entry": 215,
+     "group": [
+      1,
+      13485
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14523
+     ]
+    }
+   ]
+  },
+  {
+   "id": 116,
+   "offset": 5245,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「でぃっ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 160,
+     "field": "text",
+     "entry": 160,
+     "group": [
+      0,
+      38011
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14524
+     ]
+    },
+    {
+     "line": 177,
+     "field": "text",
+     "entry": 177,
+     "group": [
+      0,
+      64021
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14524
+     ]
+    },
+    {
+     "line": 200,
+     "field": "text",
+     "entry": 200,
+     "group": [
+      0,
+      58001
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14524
+     ]
+    },
+    {
+     "line": 218,
+     "field": "text",
+     "entry": 216,
+     "group": [
+      1,
+      13485
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14524
+     ]
+    }
+   ]
+  },
+  {
+   "id": 117,
+   "offset": 5264,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「リニアレールガン！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 161,
+     "field": "text",
+     "entry": 161,
+     "group": [
+      0,
+      38020
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14516
+     ]
+    },
+    {
+     "line": 162,
+     "field": "text",
+     "entry": 162,
+     "group": [
+      0,
+      38020
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14516
+     ]
+    },
+    {
+     "line": 163,
+     "field": "text",
+     "entry": 163,
+     "group": [
+      0,
+      38020
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14516
+     ]
+    },
+    {
+     "line": 178,
+     "field": "text",
+     "entry": 178,
+     "group": [
+      0,
+      64030
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14516
+     ]
+    },
+    {
+     "line": 179,
+     "field": "text",
+     "entry": 179,
+     "group": [
+      0,
+      64030
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14516
+     ]
+    },
+    {
+     "line": 180,
+     "field": "text",
+     "entry": 180,
+     "group": [
+      0,
+      64030
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14516
+     ]
+    },
+    {
+     "line": 210,
+     "field": "text",
+     "entry": 210,
+     "group": [
+      0,
+      58040
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14516
+     ]
+    }
+   ]
+  },
+  {
+   "id": 118,
+   "offset": 5298,
+   "role": "text",
+   "speakers": [
+    8
+   ],
+   "jp": "「うおおおっ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 219,
+     "field": "text",
+     "entry": 216,
+     "group": [
+      1,
+      13485
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 8,
+     "face": 1,
+     "voice": [
+      1,
+      14481
+     ]
+    }
+   ]
+  }
+ ]
+}

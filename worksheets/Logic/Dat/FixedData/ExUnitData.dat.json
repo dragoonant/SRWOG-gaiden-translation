@@ -1,0 +1,50 @@
+{
+ "file": "ExUnitData.dat",
+ "format": "FIXH 1.0 big-endian",
+ "sections": [
+  {
+   "magic": "DOFS",
+   "header_offset": 16,
+   "payload_offset": 24,
+   "size": 28,
+   "count": null
+  },
+  {
+   "magic": "DATA",
+   "header_offset": 52,
+   "payload_offset": 64,
+   "size": 84,
+   "count": 7
+  },
+  {
+   "magic": "SOFS",
+   "header_offset": 148,
+   "payload_offset": 156,
+   "size": 0,
+   "count": null
+  },
+  {
+   "magic": "STRI",
+   "header_offset": 156,
+   "payload_offset": 168,
+   "size": 0,
+   "count": 0
+  }
+ ],
+ "records": {
+  "count": 7,
+  "size": 12
+ },
+ "dofs": {
+  "entries": 7,
+  "unused_ids": 0
+ },
+ "string_fields": [],
+ "notes": [
+  "Edit 'text' (single-line entries) or 'lines' (multi-line entries / entries with embedded newlines).",
+  "Do not add or remove entries: records reference strings by index.",
+  "role: display = shown in game; comment = developer note (never displayed, safe to leave untranslated); internal = identifier/path; orphan = referenced by no record; unknown = not established."
+ ],
+ "strings": [],
+ "inline_strings": []
+}

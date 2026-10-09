@@ -1,0 +1,6753 @@
+{
+ "file": "KeyGuideData.dat",
+ "format": "FIXH 1.0 big-endian",
+ "sections": [
+  {
+   "magic": "DOFS",
+   "header_offset": 16,
+   "payload_offset": 24,
+   "size": 520,
+   "count": null
+  },
+  {
+   "magic": "DATA",
+   "header_offset": 544,
+   "payload_offset": 556,
+   "size": 13000,
+   "count": 130
+  },
+  {
+   "magic": "SOFS",
+   "header_offset": 13556,
+   "payload_offset": 13564,
+   "size": 764,
+   "count": null
+  },
+  {
+   "magic": "STRI",
+   "header_offset": 14328,
+   "payload_offset": 14340,
+   "size": 4860,
+   "count": 191
+  }
+ ],
+ "records": {
+  "count": 130,
+  "size": 100
+ },
+ "dofs": {
+  "entries": 130,
+  "unused_ids": 0
+ },
+ "string_fields": [
+  {
+   "offset": 10,
+   "width": 1,
+   "label": "slot0_short",
+   "kind": "display"
+  },
+  {
+   "offset": 11,
+   "width": 1,
+   "label": "slot0_long",
+   "kind": "display"
+  },
+  {
+   "offset": 18,
+   "width": 1,
+   "label": "slot1_short",
+   "kind": "display"
+  },
+  {
+   "offset": 19,
+   "width": 1,
+   "label": "slot1_long",
+   "kind": "display"
+  },
+  {
+   "offset": 26,
+   "width": 1,
+   "label": "slot2_short",
+   "kind": "display"
+  },
+  {
+   "offset": 27,
+   "width": 1,
+   "label": "slot2_long",
+   "kind": "display"
+  },
+  {
+   "offset": 34,
+   "width": 1,
+   "label": "slot3_short",
+   "kind": "display"
+  },
+  {
+   "offset": 35,
+   "width": 1,
+   "label": "slot3_long",
+   "kind": "display"
+  },
+  {
+   "offset": 42,
+   "width": 1,
+   "label": "slot4_short",
+   "kind": "display"
+  },
+  {
+   "offset": 43,
+   "width": 1,
+   "label": "slot4_long",
+   "kind": "display"
+  },
+  {
+   "offset": 50,
+   "width": 1,
+   "label": "slot5_short",
+   "kind": "display"
+  },
+  {
+   "offset": 51,
+   "width": 1,
+   "label": "slot5_long",
+   "kind": "display"
+  },
+  {
+   "offset": 58,
+   "width": 1,
+   "label": "slot6_short",
+   "kind": "display"
+  },
+  {
+   "offset": 59,
+   "width": 1,
+   "label": "slot6_long",
+   "kind": "display"
+  },
+  {
+   "offset": 66,
+   "width": 1,
+   "label": "slot7_short",
+   "kind": "display"
+  },
+  {
+   "offset": 67,
+   "width": 1,
+   "label": "slot7_long",
+   "kind": "display"
+  },
+  {
+   "offset": 74,
+   "width": 1,
+   "label": "slot8_short",
+   "kind": "display"
+  },
+  {
+   "offset": 75,
+   "width": 1,
+   "label": "slot8_long",
+   "kind": "display"
+  },
+  {
+   "offset": 82,
+   "width": 1,
+   "label": "slot9_short",
+   "kind": "display"
+  },
+  {
+   "offset": 83,
+   "width": 1,
+   "label": "slot9_long",
+   "kind": "display"
+  },
+  {
+   "offset": 90,
+   "width": 1,
+   "label": "slot10_short",
+   "kind": "display"
+  },
+  {
+   "offset": 91,
+   "width": 1,
+   "label": "slot10_long",
+   "kind": "display"
+  },
+  {
+   "offset": 98,
+   "width": 1,
+   "label": "slot11_short",
+   "kind": "display"
+  },
+  {
+   "offset": 99,
+   "width": 1,
+   "label": "slot11_long",
+   "kind": "display"
+  }
+ ],
+ "notes": [
+  "Edit 'text' (single-line entries) or 'lines' (multi-line entries / entries with embedded newlines).",
+  "Do not add or remove entries: records reference strings by index.",
+  "role: display = shown in game; comment = developer note (never displayed, safe to leave untranslated); internal = identifier/path; orphan = referenced by no record; unknown = not established."
+ ],
+ "strings": [
+  {
+   "id": 0,
+   "section": "STRI",
+   "offset": 14340,
+   "text_offset": 14346,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 9,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "button_0"
+  },
+  {
+   "id": 1,
+   "section": "STRI",
+   "offset": 14355,
+   "text_offset": 14361,
+   "role": "display",
+   "refs": [
+    "rec0.slot0_short",
+    "rec0.slot0_long",
+    "rec1.slot0_short",
+    "rec1.slot0_long",
+    "rec2.slot0_short",
+    "rec2.slot0_long",
+    "rec3.slot0_short",
+    "rec3.slot0_long",
+    "rec4.slot0_short",
+    "rec4.slot0_long",
+    "rec4.slot8_long",
+    "rec5.slot0_short",
+    "rec5.slot0_long",
+    "rec6.slot0_short",
+    "rec6.slot0_long",
+    "rec7.slot0_short",
+    "rec7.slot0_long",
+    "rec8.slot0_short",
+    "rec8.slot0_long",
+    "rec9.slot0_short",
+    "rec9.slot0_long",
+    "rec10.slot0_short",
+    "rec10.slot0_long",
+    "rec11.slot0_short",
+    "rec11.slot0_long",
+    "rec12.slot0_short",
+    "rec12.slot0_long",
+    "rec13.slot0_short",
+    "rec13.slot0_long",
+    "rec14.slot0_short",
+    "rec14.slot0_long",
+    "rec15.slot0_short",
+    "rec15.slot0_long",
+    "rec17.slot0_short",
+    "rec17.slot0_long",
+    "rec18.slot0_short",
+    "rec18.slot0_long",
+    "rec19.slot0_short",
+    "rec19.slot0_long",
+    "rec20.slot0_short",
+    "rec20.slot0_long",
+    "rec21.slot0_short",
+    "rec21.slot0_long",
+    "rec22.slot0_short",
+    "rec22.slot0_long",
+    "rec23.slot0_short",
+    "rec23.slot0_long",
+    "rec24.slot0_short",
+    "rec24.slot0_long",
+    "rec25.slot0_short",
+    "rec25.slot0_long",
+    "rec26.slot0_short",
+    "rec26.slot0_long",
+    "rec27.slot0_short",
+    "rec27.slot0_long",
+    "rec28.slot0_short",
+    "rec28.slot0_long",
+    "rec29.slot0_short",
+    "rec29.slot0_long",
+    "rec30.slot0_short",
+    "rec30.slot0_long",
+    "rec31.slot0_short",
+    "rec31.slot0_long",
+    "rec32.slot0_short",
+    "rec32.slot0_long",
+    "rec34.slot0_short",
+    "rec34.slot0_long",
+    "rec35.slot0_short",
+    "rec35.slot0_long",
+    "rec36.slot0_short",
+    "rec36.slot0_long",
+    "rec37.slot0_short",
+    "rec37.slot0_long",
+    "rec38.slot0_short",
+    "rec38.slot0_long",
+    "rec39.slot0_short",
+    "rec39.slot0_long",
+    "rec40.slot0_short",
+    "rec40.slot0_long",
+    "rec41.slot0_short",
+    "rec41.slot0_long",
+    "rec42.slot0_short",
+    "rec42.slot0_long",
+    "rec43.slot0_short",
+    "rec43.slot0_long",
+    "rec43.slot8_long",
+    "rec44.slot0_short",
+    "rec45.slot0_short",
+    "rec45.slot0_long",
+    "rec46.slot0_short",
+    "rec46.slot0_long",
+    "rec49.slot0_short",
+    "rec49.slot0_long",
+    "rec50.slot0_short",
+    "rec50.slot0_long",
+    "rec51.slot0_short",
+    "rec51.slot0_long",
+    "rec52.slot0_short",
+    "rec52.slot0_long",
+    "rec55.slot0_short",
+    "rec55.slot0_long",
+    "rec56.slot0_short",
+    "rec56.slot0_long",
+    "rec56.slot8_long",
+    "rec57.slot0_short",
+    "rec57.slot0_long",
+    "rec61.slot0_short",
+    "rec61.slot0_long",
+    "rec62.slot0_short",
+    "rec62.slot0_long",
+    "rec63.slot0_short",
+    "rec63.slot0_long",
+    "rec64.slot0_short",
+    "rec64.slot0_long",
+    "rec65.slot0_short",
+    "rec65.slot0_long",
+    "rec68.slot0_short",
+    "rec68.slot0_long",
+    "rec69.slot0_short",
+    "rec69.slot0_long",
+    "rec70.slot0_short",
+    "rec70.slot0_long",
+    "rec71.slot0_short",
+    "rec71.slot0_long",
+    "rec72.slot0_short",
+    "rec72.slot0_long",
+    "rec73.slot0_short",
+    "rec73.slot0_long",
+    "rec74.slot0_short",
+    "rec74.slot0_long",
+    "rec82.slot0_short",
+    "rec82.slot0_long",
+    "rec83.slot0_short",
+    "rec83.slot0_long",
+    "rec84.slot0_short",
+    "rec84.slot0_long",
+    "rec85.slot0_long",
+    "rec86.slot0_short",
+    "rec86.slot0_long",
+    "rec87.slot0_short",
+    "rec88.slot0_short",
+    "rec89.slot0_short",
+    "rec91.slot0_short",
+    "rec92.slot0_short",
+    "rec98.slot0_short",
+    "rec98.slot0_long",
+    "rec99.slot0_short",
+    "rec99.slot0_long",
+    "rec100.slot0_short",
+    "rec101.slot0_short",
+    "rec102.slot0_short",
+    "rec105.slot0_long",
+    "rec106.slot0_long",
+    "rec107.slot0_long",
+    "rec108.slot0_long",
+    "rec109.slot0_long",
+    "rec117.slot0_short",
+    "rec117.slot0_long",
+    "rec122.slot0_short",
+    "rec122.slot0_long",
+    "rec123.slot0_short",
+    "rec123.slot0_long",
+    "rec124.slot0_short",
+    "rec124.slot0_long",
+    "rec125.slot0_short",
+    "rec125.slot0_long",
+    "rec127.slot0_short",
+    "rec127.slot0_long",
+    "rec128.slot0_short",
+    "rec128.slot0_long",
+    "rec129.slot0_short",
+    "rec129.slot0_long"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "決定"
+  },
+  {
+   "id": 2,
+   "section": "STRI",
+   "offset": 14368,
+   "text_offset": 14374,
+   "role": "display",
+   "refs": [
+    "rec0.slot1_short",
+    "rec0.slot1_long",
+    "rec1.slot1_short",
+    "rec1.slot1_long",
+    "rec2.slot1_short",
+    "rec2.slot1_long",
+    "rec3.slot1_short",
+    "rec3.slot1_long",
+    "rec4.slot1_short",
+    "rec4.slot1_long",
+    "rec5.slot1_short",
+    "rec5.slot1_long",
+    "rec6.slot1_short",
+    "rec6.slot1_long",
+    "rec7.slot1_short",
+    "rec7.slot1_long",
+    "rec8.slot1_short",
+    "rec8.slot1_long",
+    "rec9.slot1_short",
+    "rec9.slot1_long",
+    "rec10.slot1_short",
+    "rec10.slot1_long",
+    "rec11.slot1_short",
+    "rec11.slot1_long",
+    "rec12.slot1_short",
+    "rec12.slot1_long",
+    "rec13.slot1_short",
+    "rec13.slot1_long",
+    "rec14.slot1_short",
+    "rec14.slot1_long",
+    "rec15.slot1_short",
+    "rec15.slot1_long",
+    "rec16.slot1_short",
+    "rec16.slot1_long",
+    "rec17.slot1_short",
+    "rec17.slot1_long",
+    "rec18.slot1_short",
+    "rec18.slot1_long",
+    "rec19.slot1_short",
+    "rec19.slot1_long",
+    "rec20.slot1_short",
+    "rec20.slot1_long",
+    "rec21.slot1_short",
+    "rec21.slot1_long",
+    "rec22.slot1_short",
+    "rec22.slot1_long",
+    "rec23.slot1_short",
+    "rec23.slot1_long",
+    "rec24.slot1_short",
+    "rec24.slot1_long",
+    "rec25.slot1_short",
+    "rec25.slot1_long",
+    "rec26.slot1_short",
+    "rec26.slot1_long",
+    "rec27.slot1_short",
+    "rec27.slot1_long",
+    "rec28.slot1_short",
+    "rec28.slot1_long",
+    "rec29.slot1_short",
+    "rec29.slot1_long",
+    "rec30.slot1_short",
+    "rec30.slot1_long",
+    "rec31.slot1_short",
+    "rec31.slot1_long",
+    "rec32.slot1_short",
+    "rec32.slot1_long",
+    "rec33.slot1_short",
+    "rec33.slot1_long",
+    "rec34.slot1_short",
+    "rec34.slot1_long",
+    "rec35.slot1_short",
+    "rec35.slot1_long",
+    "rec36.slot1_short",
+    "rec36.slot1_long",
+    "rec37.slot1_short",
+    "rec37.slot1_long",
+    "rec38.slot1_short",
+    "rec38.slot1_long",
+    "rec39.slot1_short",
+    "rec39.slot1_long",
+    "rec40.slot1_short",
+    "rec40.slot1_long",
+    "rec41.slot1_short",
+    "rec41.slot1_long",
+    "rec42.slot1_short",
+    "rec42.slot1_long",
+    "rec43.slot1_short",
+    "rec43.slot1_long",
+    "rec45.slot1_short",
+    "rec45.slot1_long",
+    "rec46.slot1_short",
+    "rec46.slot1_long",
+    "rec47.slot1_short",
+    "rec47.slot1_long",
+    "rec48.slot1_short",
+    "rec48.slot1_long",
+    "rec49.slot1_short",
+    "rec49.slot1_long",
+    "rec50.slot1_short",
+    "rec50.slot1_long",
+    "rec51.slot1_short",
+    "rec51.slot1_long",
+    "rec52.slot1_short",
+    "rec52.slot1_long",
+    "rec53.slot1_short",
+    "rec53.slot1_long",
+    "rec54.slot1_short",
+    "rec54.slot1_long",
+    "rec55.slot1_short",
+    "rec55.slot1_long",
+    "rec56.slot1_short",
+    "rec56.slot1_long",
+    "rec57.slot1_short",
+    "rec57.slot1_long",
+    "rec60.slot1_short",
+    "rec60.slot1_long",
+    "rec61.slot1_short",
+    "rec61.slot1_long",
+    "rec62.slot1_short",
+    "rec62.slot1_long",
+    "rec63.slot1_short",
+    "rec63.slot1_long",
+    "rec64.slot1_short",
+    "rec64.slot1_long",
+    "rec65.slot1_short",
+    "rec65.slot1_long",
+    "rec66.slot1_short",
+    "rec66.slot1_long",
+    "rec67.slot1_short",
+    "rec67.slot1_long",
+    "rec68.slot1_short",
+    "rec68.slot1_long",
+    "rec69.slot1_short",
+    "rec69.slot1_long",
+    "rec70.slot1_short",
+    "rec70.slot1_long",
+    "rec71.slot1_short",
+    "rec71.slot1_long",
+    "rec72.slot1_short",
+    "rec72.slot1_long",
+    "rec73.slot1_short",
+    "rec73.slot1_long",
+    "rec74.slot1_short",
+    "rec74.slot1_long",
+    "rec75.slot1_short",
+    "rec75.slot1_long",
+    "rec76.slot1_short",
+    "rec76.slot1_long",
+    "rec77.slot1_short",
+    "rec77.slot1_long",
+    "rec78.slot1_short",
+    "rec78.slot1_long",
+    "rec79.slot1_short",
+    "rec79.slot1_long",
+    "rec80.slot1_short",
+    "rec80.slot1_long",
+    "rec81.slot1_short",
+    "rec81.slot1_long",
+    "rec82.slot1_short",
+    "rec82.slot1_long",
+    "rec83.slot1_short",
+    "rec83.slot1_long",
+    "rec84.slot1_short",
+    "rec84.slot1_long",
+    "rec85.slot1_long",
+    "rec86.slot1_short",
+    "rec86.slot1_long",
+    "rec87.slot1_short",
+    "rec88.slot1_short",
+    "rec89.slot1_short",
+    "rec90.slot5_short",
+    "rec91.slot1_short",
+    "rec94.slot1_short",
+    "rec96.slot1_long",
+    "rec97.slot1_long",
+    "rec98.slot1_short",
+    "rec98.slot1_long",
+    "rec99.slot1_short",
+    "rec99.slot1_long",
+    "rec100.slot1_short",
+    "rec101.slot1_short",
+    "rec102.slot1_short",
+    "rec105.slot1_long",
+    "rec106.slot1_long",
+    "rec107.slot1_long",
+    "rec108.slot1_long",
+    "rec109.slot1_long",
+    "rec110.slot1_short",
+    "rec110.slot1_long",
+    "rec111.slot1_short",
+    "rec111.slot1_long",
+    "rec112.slot1_short",
+    "rec112.slot1_long",
+    "rec113.slot1_short",
+    "rec113.slot1_long",
+    "rec114.slot1_short",
+    "rec114.slot1_long",
+    "rec115.slot1_short",
+    "rec115.slot1_long",
+    "rec117.slot1_short",
+    "rec117.slot1_long",
+    "rec118.slot1_short",
+    "rec118.slot1_long",
+    "rec119.slot1_short",
+    "rec119.slot1_long",
+    "rec120.slot1_short",
+    "rec120.slot1_long",
+    "rec121.slot1_short",
+    "rec121.slot1_long",
+    "rec122.slot1_short",
+    "rec122.slot1_long",
+    "rec123.slot1_short",
+    "rec123.slot1_long",
+    "rec124.slot1_short",
+    "rec124.slot1_long",
+    "rec125.slot1_short",
+    "rec125.slot1_long",
+    "rec126.slot1_short",
+    "rec126.slot1_long",
+    "rec127.slot1_short",
+    "rec127.slot1_long",
+    "rec128.slot1_short",
+    "rec128.slot1_long",
+    "rec129.slot1_short",
+    "rec129.slot1_long"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "戻る"
+  },
+  {
+   "id": 3,
+   "section": "STRI",
+   "offset": 14381,
+   "text_offset": 14387,
+   "role": "display",
+   "refs": [
+    "rec0.slot2_short",
+    "rec0.slot2_long",
+    "rec1.slot2_short",
+    "rec1.slot2_long",
+    "rec2.slot2_short",
+    "rec3.slot2_short",
+    "rec3.slot2_long",
+    "rec4.slot2_short",
+    "rec4.slot2_long",
+    "rec5.slot2_short",
+    "rec5.slot2_long",
+    "rec6.slot2_short",
+    "rec6.slot2_long",
+    "rec7.slot2_short",
+    "rec7.slot2_long",
+    "rec8.slot2_short",
+    "rec8.slot2_long",
+    "rec9.slot2_short",
+    "rec9.slot2_long",
+    "rec11.slot2_short",
+    "rec11.slot2_long",
+    "rec12.slot2_short",
+    "rec12.slot2_long",
+    "rec13.slot2_short",
+    "rec13.slot2_long",
+    "rec14.slot2_short",
+    "rec14.slot2_long",
+    "rec15.slot2_short",
+    "rec15.slot2_long",
+    "rec16.slot2_short",
+    "rec16.slot2_long",
+    "rec18.slot2_short",
+    "rec18.slot2_long",
+    "rec19.slot2_short",
+    "rec19.slot2_long",
+    "rec21.slot2_short",
+    "rec21.slot2_long",
+    "rec22.slot2_short",
+    "rec22.slot2_long",
+    "rec23.slot2_short",
+    "rec23.slot2_long",
+    "rec24.slot2_short",
+    "rec24.slot2_long",
+    "rec25.slot2_short",
+    "rec25.slot2_long",
+    "rec26.slot2_short",
+    "rec26.slot2_long",
+    "rec27.slot2_short",
+    "rec27.slot2_long",
+    "rec28.slot2_short",
+    "rec28.slot2_long",
+    "rec29.slot2_short",
+    "rec29.slot2_long",
+    "rec32.slot2_short",
+    "rec32.slot2_long",
+    "rec42.slot2_short",
+    "rec42.slot2_long",
+    "rec55.slot2_short",
+    "rec55.slot2_long",
+    "rec60.slot2_short",
+    "rec60.slot2_long",
+    "rec63.slot2_short",
+    "rec63.slot2_long",
+    "rec64.slot2_short",
+    "rec64.slot2_long",
+    "rec66.slot2_short",
+    "rec66.slot2_long",
+    "rec67.slot2_short",
+    "rec67.slot2_long",
+    "rec69.slot2_short",
+    "rec69.slot2_long",
+    "rec70.slot2_short",
+    "rec70.slot2_long",
+    "rec71.slot2_short",
+    "rec71.slot2_long",
+    "rec72.slot2_short",
+    "rec72.slot2_long",
+    "rec73.slot2_short",
+    "rec73.slot2_long",
+    "rec74.slot2_short",
+    "rec74.slot2_long",
+    "rec84.slot2_short",
+    "rec84.slot2_long",
+    "rec91.slot2_short",
+    "rec98.slot2_short",
+    "rec98.slot2_long",
+    "rec99.slot2_short",
+    "rec99.slot2_long",
+    "rec111.slot0_short",
+    "rec111.slot0_long",
+    "rec117.slot2_short",
+    "rec117.slot2_long",
+    "rec121.slot0_short",
+    "rec121.slot0_long",
+    "rec126.slot0_short",
+    "rec126.slot0_long",
+    "rec128.slot2_short",
+    "rec128.slot2_long",
+    "rec129.slot2_short",
+    "rec129.slot2_long"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "能力"
+  },
+  {
+   "id": 4,
+   "section": "STRI",
+   "offset": 14394,
+   "text_offset": 14400,
+   "role": "display",
+   "refs": [
+    "rec0.slot3_short",
+    "rec2.slot3_short",
+    "rec3.slot3_short",
+    "rec4.slot3_short",
+    "rec5.slot3_short",
+    "rec6.slot3_short",
+    "rec7.slot3_short",
+    "rec10.slot2_short",
+    "rec10.slot3_short",
+    "rec12.slot3_short",
+    "rec16.slot0_short",
+    "rec16.slot3_short",
+    "rec17.slot2_short",
+    "rec20.slot2_short",
+    "rec20.slot3_short",
+    "rec21.slot3_short",
+    "rec24.slot3_short",
+    "rec30.slot2_short",
+    "rec30.slot3_short",
+    "rec31.slot2_short",
+    "rec31.slot3_short",
+    "rec33.slot0_short",
+    "rec33.slot2_short",
+    "rec34.slot3_short",
+    "rec35.slot2_short",
+    "rec35.slot3_short",
+    "rec36.slot2_short",
+    "rec36.slot3_short",
+    "rec37.slot2_short",
+    "rec37.slot3_short",
+    "rec38.slot2_short",
+    "rec38.slot3_short",
+    "rec39.slot3_short",
+    "rec40.slot2_short",
+    "rec40.slot3_short",
+    "rec43.slot2_short",
+    "rec43.slot3_short",
+    "rec44.slot2_short",
+    "rec45.slot2_short",
+    "rec45.slot3_short",
+    "rec46.slot2_short",
+    "rec46.slot3_short",
+    "rec47.slot0_short",
+    "rec47.slot2_short",
+    "rec49.slot2_short",
+    "rec49.slot3_short",
+    "rec50.slot2_short",
+    "rec51.slot2_short",
+    "rec51.slot3_short",
+    "rec52.slot2_short",
+    "rec53.slot0_short",
+    "rec53.slot3_short",
+    "rec54.slot0_short",
+    "rec54.slot2_short",
+    "rec54.slot3_short",
+    "rec56.slot2_short",
+    "rec56.slot3_short",
+    "rec57.slot2_short",
+    "rec57.slot3_short",
+    "rec58.slot0_short",
+    "rec58.slot2_short",
+    "rec59.slot0_short",
+    "rec59.slot2_short",
+    "rec60.slot0_short",
+    "rec60.slot3_short",
+    "rec61.slot3_short",
+    "rec63.slot3_short",
+    "rec65.slot2_short",
+    "rec65.slot3_short",
+    "rec74.slot3_short",
+    "rec75.slot0_short",
+    "rec75.slot3_short",
+    "rec76.slot0_short",
+    "rec76.slot3_short",
+    "rec77.slot0_short",
+    "rec78.slot0_short",
+    "rec78.slot3_short",
+    "rec79.slot0_short",
+    "rec80.slot0_short",
+    "rec80.slot3_short",
+    "rec81.slot0_short",
+    "rec82.slot3_short",
+    "rec83.slot3_short",
+    "rec92.slot1_short",
+    "rec92.slot2_short",
+    "rec92.slot3_short",
+    "rec101.slot3_short",
+    "rec102.slot2_short",
+    "rec111.slot3_short",
+    "rec112.slot0_short",
+    "rec112.slot3_short",
+    "rec113.slot0_short",
+    "rec113.slot2_short",
+    "rec113.slot3_short",
+    "rec114.slot0_short",
+    "rec114.slot2_short",
+    "rec114.slot3_short",
+    "rec115.slot0_short",
+    "rec115.slot3_short",
+    "rec118.slot0_short",
+    "rec118.slot2_short",
+    "rec123.slot2_short",
+    "rec123.slot3_short",
+    "rec124.slot3_short",
+    "rec126.slot3_short",
+    "rec127.slot2_short",
+    "rec127.slot3_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "－－"
+  },
+  {
+   "id": 5,
+   "section": "STRI",
+   "offset": 14407,
+   "text_offset": 14413,
+   "role": "display",
+   "refs": [
+    "rec0.slot3_long",
+    "rec0.slot10_long",
+    "rec1.slot10_long",
+    "rec2.slot3_long",
+    "rec2.slot4_long",
+    "rec2.slot5_long",
+    "rec2.slot7_long",
+    "rec2.slot8_long",
+    "rec2.slot10_long",
+    "rec3.slot3_long",
+    "rec3.slot7_long",
+    "rec3.slot10_long",
+    "rec4.slot3_long",
+    "rec4.slot4_long",
+    "rec4.slot5_long",
+    "rec4.slot10_long",
+    "rec5.slot3_long",
+    "rec5.slot4_long",
+    "rec5.slot5_long",
+    "rec5.slot10_long",
+    "rec6.slot3_long",
+    "rec6.slot4_long",
+    "rec6.slot10_long",
+    "rec7.slot3_long",
+    "rec7.slot10_long",
+    "rec8.slot10_long",
+    "rec9.slot4_long",
+    "rec9.slot5_long",
+    "rec9.slot7_long",
+    "rec9.slot10_long",
+    "rec10.slot2_long",
+    "rec10.slot3_long",
+    "rec10.slot4_long",
+    "rec10.slot6_long",
+    "rec11.slot4_long",
+    "rec11.slot5_long",
+    "rec11.slot7_long",
+    "rec11.slot10_long",
+    "rec12.slot3_long",
+    "rec12.slot4_long",
+    "rec12.slot5_long",
+    "rec12.slot7_long",
+    "rec12.slot9_long",
+    "rec12.slot10_long",
+    "rec13.slot7_long",
+    "rec13.slot10_long",
+    "rec14.slot4_long",
+    "rec15.slot7_long",
+    "rec15.slot10_long",
+    "rec16.slot0_long",
+    "rec16.slot3_long",
+    "rec16.slot10_long",
+    "rec17.slot2_long",
+    "rec18.slot4_long",
+    "rec18.slot7_long",
+    "rec18.slot10_long",
+    "rec19.slot7_long",
+    "rec19.slot10_long",
+    "rec20.slot2_long",
+    "rec20.slot3_long",
+    "rec20.slot6_long",
+    "rec21.slot3_long",
+    "rec21.slot5_long",
+    "rec21.slot7_long",
+    "rec21.slot10_long",
+    "rec22.slot7_long",
+    "rec22.slot10_long",
+    "rec23.slot4_long",
+    "rec24.slot3_long",
+    "rec24.slot10_long",
+    "rec25.slot10_long",
+    "rec27.slot7_long",
+    "rec27.slot10_long",
+    "rec28.slot7_long",
+    "rec28.slot10_long",
+    "rec29.slot7_long",
+    "rec29.slot10_long",
+    "rec30.slot2_long",
+    "rec30.slot3_long",
+    "rec30.slot4_long",
+    "rec30.slot5_long",
+    "rec30.slot7_long",
+    "rec30.slot10_long",
+    "rec31.slot2_long",
+    "rec31.slot3_long",
+    "rec31.slot4_long",
+    "rec31.slot5_long",
+    "rec31.slot6_long",
+    "rec31.slot7_long",
+    "rec31.slot9_long",
+    "rec31.slot10_long",
+    "rec32.slot10_long",
+    "rec33.slot0_long",
+    "rec33.slot2_long",
+    "rec33.slot4_long",
+    "rec33.slot5_long",
+    "rec33.slot6_long",
+    "rec33.slot7_long",
+    "rec33.slot10_long",
+    "rec34.slot3_long",
+    "rec34.slot4_long",
+    "rec34.slot6_long",
+    "rec34.slot8_long",
+    "rec35.slot2_long",
+    "rec35.slot3_long",
+    "rec35.slot4_long",
+    "rec35.slot5_long",
+    "rec35.slot6_long",
+    "rec35.slot7_long",
+    "rec35.slot9_long",
+    "rec35.slot10_long",
+    "rec36.slot2_long",
+    "rec36.slot3_long",
+    "rec36.slot10_long",
+    "rec37.slot2_long",
+    "rec37.slot3_long",
+    "rec37.slot4_long",
+    "rec37.slot6_long",
+    "rec37.slot10_long",
+    "rec38.slot2_long",
+    "rec38.slot3_long",
+    "rec38.slot10_long",
+    "rec39.slot3_long",
+    "rec39.slot4_long",
+    "rec39.slot5_long",
+    "rec39.slot6_long",
+    "rec39.slot7_long",
+    "rec39.slot9_long",
+    "rec39.slot10_long",
+    "rec40.slot2_long",
+    "rec40.slot3_long",
+    "rec40.slot4_long",
+    "rec40.slot6_long",
+    "rec40.slot10_long",
+    "rec41.slot4_long",
+    "rec41.slot6_long",
+    "rec41.slot7_long",
+    "rec41.slot10_long",
+    "rec43.slot2_long",
+    "rec43.slot3_long",
+    "rec43.slot4_long",
+    "rec43.slot5_long",
+    "rec43.slot6_long",
+    "rec43.slot10_long",
+    "rec44.slot2_long",
+    "rec44.slot4_long",
+    "rec44.slot5_long",
+    "rec44.slot6_long",
+    "rec44.slot10_long",
+    "rec45.slot2_long",
+    "rec45.slot3_long",
+    "rec45.slot4_long",
+    "rec45.slot5_long",
+    "rec45.slot6_long",
+    "rec45.slot10_long",
+    "rec46.slot2_long",
+    "rec46.slot3_long",
+    "rec46.slot4_long",
+    "rec46.slot5_long",
+    "rec46.slot6_long",
+    "rec46.slot7_long",
+    "rec47.slot0_long",
+    "rec47.slot2_long",
+    "rec47.slot4_long",
+    "rec47.slot5_long",
+    "rec47.slot7_long",
+    "rec47.slot9_long",
+    "rec47.slot10_long",
+    "rec48.slot4_long",
+    "rec48.slot5_long",
+    "rec48.slot7_long",
+    "rec48.slot9_long",
+    "rec48.slot10_long",
+    "rec49.slot2_long",
+    "rec49.slot3_long",
+    "rec49.slot4_long",
+    "rec49.slot5_long",
+    "rec49.slot6_long",
+    "rec49.slot7_long",
+    "rec49.slot10_long",
+    "rec50.slot2_long",
+    "rec50.slot4_long",
+    "rec50.slot5_long",
+    "rec50.slot6_long",
+    "rec50.slot7_long",
+    "rec50.slot10_long",
+    "rec51.slot2_long",
+    "rec51.slot3_long",
+    "rec51.slot4_long",
+    "rec51.slot5_long",
+    "rec51.slot6_long",
+    "rec51.slot10_long",
+    "rec52.slot2_long",
+    "rec52.slot4_long",
+    "rec52.slot5_long",
+    "rec53.slot0_long",
+    "rec53.slot3_long",
+    "rec53.slot4_long",
+    "rec53.slot5_long",
+    "rec53.slot6_long",
+    "rec53.slot7_long",
+    "rec53.slot10_long",
+    "rec54.slot0_long",
+    "rec54.slot2_long",
+    "rec54.slot3_long",
+    "rec54.slot4_long",
+    "rec54.slot5_long",
+    "rec54.slot6_long",
+    "rec54.slot7_long",
+    "rec54.slot8_long",
+    "rec54.slot9_long",
+    "rec54.slot10_long",
+    "rec55.slot7_long",
+    "rec55.slot10_long",
+    "rec56.slot2_long",
+    "rec56.slot3_long",
+    "rec56.slot4_long",
+    "rec56.slot5_long",
+    "rec56.slot6_long",
+    "rec56.slot10_long",
+    "rec57.slot2_long",
+    "rec57.slot3_long",
+    "rec57.slot6_long",
+    "rec57.slot10_long",
+    "rec58.slot0_long",
+    "rec58.slot2_long",
+    "rec58.slot4_long",
+    "rec58.slot5_long",
+    "rec58.slot6_long",
+    "rec58.slot10_long",
+    "rec59.slot0_long",
+    "rec59.slot2_long",
+    "rec59.slot4_long",
+    "rec59.slot5_long",
+    "rec59.slot6_long",
+    "rec59.slot7_long",
+    "rec59.slot10_long",
+    "rec60.slot0_long",
+    "rec60.slot3_long",
+    "rec60.slot7_long",
+    "rec60.slot10_long",
+    "rec61.slot3_long",
+    "rec61.slot4_long",
+    "rec61.slot6_long",
+    "rec61.slot7_long",
+    "rec61.slot10_long",
+    "rec62.slot10_long",
+    "rec63.slot3_long",
+    "rec63.slot10_long",
+    "rec64.slot10_long",
+    "rec65.slot2_long",
+    "rec65.slot3_long",
+    "rec65.slot4_long",
+    "rec65.slot5_long",
+    "rec65.slot10_long",
+    "rec69.slot10_long",
+    "rec70.slot10_long",
+    "rec71.slot10_long",
+    "rec72.slot4_long",
+    "rec72.slot6_long",
+    "rec72.slot10_long",
+    "rec73.slot4_long",
+    "rec73.slot6_long",
+    "rec73.slot10_long",
+    "rec74.slot3_long",
+    "rec74.slot4_long",
+    "rec74.slot5_long",
+    "rec74.slot6_long",
+    "rec74.slot7_long",
+    "rec74.slot8_long",
+    "rec74.slot9_long",
+    "rec74.slot10_long",
+    "rec75.slot0_long",
+    "rec75.slot3_long",
+    "rec75.slot4_long",
+    "rec75.slot5_long",
+    "rec75.slot8_long",
+    "rec75.slot10_long",
+    "rec76.slot0_long",
+    "rec76.slot3_long",
+    "rec76.slot4_long",
+    "rec76.slot5_long",
+    "rec76.slot8_long",
+    "rec76.slot10_long",
+    "rec77.slot0_long",
+    "rec77.slot4_long",
+    "rec77.slot5_long",
+    "rec77.slot8_long",
+    "rec77.slot10_long",
+    "rec78.slot0_long",
+    "rec78.slot3_long",
+    "rec78.slot4_long",
+    "rec78.slot5_long",
+    "rec78.slot7_long",
+    "rec78.slot8_long",
+    "rec78.slot10_long",
+    "rec79.slot0_long",
+    "rec79.slot4_long",
+    "rec79.slot5_long",
+    "rec79.slot7_long",
+    "rec79.slot8_long",
+    "rec79.slot10_long",
+    "rec80.slot0_long",
+    "rec80.slot3_long",
+    "rec80.slot4_long",
+    "rec80.slot7_long",
+    "rec80.slot10_long",
+    "rec81.slot0_long",
+    "rec81.slot4_long",
+    "rec81.slot7_long",
+    "rec81.slot10_long",
+    "rec82.slot3_long",
+    "rec82.slot4_long",
+    "rec82.slot6_long",
+    "rec82.slot7_long",
+    "rec82.slot10_long",
+    "rec83.slot3_long",
+    "rec83.slot4_long",
+    "rec83.slot5_long",
+    "rec83.slot6_long",
+    "rec83.slot7_long",
+    "rec83.slot8_long",
+    "rec83.slot9_long",
+    "rec83.slot10_long",
+    "rec84.slot3_long",
+    "rec84.slot4_long",
+    "rec84.slot5_long",
+    "rec84.slot6_long",
+    "rec84.slot7_long",
+    "rec84.slot9_long",
+    "rec84.slot10_long",
+    "rec85.slot2_long",
+    "rec85.slot3_long",
+    "rec85.slot4_long",
+    "rec85.slot5_long",
+    "rec85.slot6_long",
+    "rec85.slot7_long",
+    "rec85.slot10_long",
+    "rec86.slot2_long",
+    "rec86.slot3_long",
+    "rec86.slot4_long",
+    "rec86.slot5_long",
+    "rec86.slot6_long",
+    "rec86.slot7_long",
+    "rec86.slot9_long",
+    "rec86.slot10_long",
+    "rec93.slot1_long",
+    "rec93.slot2_long",
+    "rec93.slot3_long",
+    "rec93.slot4_long",
+    "rec93.slot5_long",
+    "rec93.slot6_long",
+    "rec93.slot7_long",
+    "rec93.slot8_long",
+    "rec93.slot10_long",
+    "rec96.slot2_long",
+    "rec96.slot3_long",
+    "rec96.slot4_long",
+    "rec96.slot5_long",
+    "rec96.slot6_long",
+    "rec96.slot7_long",
+    "rec96.slot8_long",
+    "rec96.slot9_long",
+    "rec96.slot10_long",
+    "rec97.slot2_long",
+    "rec97.slot3_long",
+    "rec97.slot4_long",
+    "rec97.slot5_long",
+    "rec97.slot6_long",
+    "rec97.slot7_long",
+    "rec97.slot9_long",
+    "rec97.slot10_long",
+    "rec98.slot3_long",
+    "rec98.slot6_long",
+    "rec98.slot7_long",
+    "rec98.slot10_long",
+    "rec99.slot3_long",
+    "rec99.slot4_long",
+    "rec99.slot5_long",
+    "rec99.slot6_long",
+    "rec99.slot7_long",
+    "rec99.slot10_long",
+    "rec103.slot1_long",
+    "rec103.slot2_long",
+    "rec103.slot3_long",
+    "rec103.slot4_long",
+    "rec103.slot5_long",
+    "rec103.slot6_long",
+    "rec103.slot7_long",
+    "rec103.slot8_long",
+    "rec103.slot9_long",
+    "rec103.slot10_long",
+    "rec104.slot1_long",
+    "rec104.slot2_long",
+    "rec104.slot3_long",
+    "rec104.slot4_long",
+    "rec104.slot5_long",
+    "rec104.slot6_long",
+    "rec104.slot7_long",
+    "rec104.slot8_long",
+    "rec104.slot9_long",
+    "rec104.slot10_long",
+    "rec105.slot2_long",
+    "rec105.slot3_long",
+    "rec105.slot4_long",
+    "rec105.slot5_long",
+    "rec105.slot6_long",
+    "rec105.slot7_long",
+    "rec105.slot9_long",
+    "rec105.slot10_long",
+    "rec106.slot2_long",
+    "rec106.slot4_long",
+    "rec106.slot5_long",
+    "rec106.slot6_long",
+    "rec106.slot7_long",
+    "rec106.slot9_long",
+    "rec106.slot10_long",
+    "rec107.slot2_long",
+    "rec107.slot4_long",
+    "rec107.slot5_long",
+    "rec107.slot6_long",
+    "rec107.slot7_long",
+    "rec107.slot9_long",
+    "rec107.slot10_long",
+    "rec108.slot2_long",
+    "rec108.slot3_long",
+    "rec108.slot4_long",
+    "rec108.slot5_long",
+    "rec108.slot6_long",
+    "rec108.slot7_long",
+    "rec108.slot9_long",
+    "rec108.slot10_long",
+    "rec109.slot2_long",
+    "rec109.slot3_long",
+    "rec109.slot4_long",
+    "rec109.slot5_long",
+    "rec109.slot6_long",
+    "rec109.slot7_long",
+    "rec109.slot9_long",
+    "rec109.slot10_long",
+    "rec110.slot2_long",
+    "rec110.slot4_long",
+    "rec110.slot5_long",
+    "rec110.slot9_long",
+    "rec110.slot10_long",
+    "rec111.slot2_long",
+    "rec111.slot3_long",
+    "rec111.slot4_long",
+    "rec111.slot5_long",
+    "rec111.slot9_long",
+    "rec111.slot10_long",
+    "rec112.slot0_long",
+    "rec112.slot3_long",
+    "rec112.slot4_long",
+    "rec112.slot5_long",
+    "rec112.slot6_long",
+    "rec112.slot9_long",
+    "rec112.slot10_long",
+    "rec113.slot0_long",
+    "rec113.slot2_long",
+    "rec113.slot3_long",
+    "rec113.slot4_long",
+    "rec113.slot5_long",
+    "rec113.slot6_long",
+    "rec113.slot9_long",
+    "rec113.slot10_long",
+    "rec114.slot0_long",
+    "rec114.slot2_long",
+    "rec114.slot3_long",
+    "rec114.slot4_long",
+    "rec114.slot5_long",
+    "rec114.slot6_long",
+    "rec114.slot7_long",
+    "rec114.slot9_long",
+    "rec114.slot10_long",
+    "rec115.slot0_long",
+    "rec115.slot3_long",
+    "rec115.slot4_long",
+    "rec115.slot6_long",
+    "rec115.slot7_long",
+    "rec115.slot9_long",
+    "rec115.slot10_long",
+    "rec116.slot1_long",
+    "rec116.slot4_long",
+    "rec116.slot5_long",
+    "rec116.slot6_long",
+    "rec116.slot7_long",
+    "rec116.slot9_long",
+    "rec117.slot3_long",
+    "rec117.slot6_long",
+    "rec117.slot7_long",
+    "rec117.slot9_long",
+    "rec117.slot10_long",
+    "rec118.slot0_long",
+    "rec118.slot2_long",
+    "rec118.slot4_long",
+    "rec118.slot5_long",
+    "rec118.slot6_long",
+    "rec118.slot7_long",
+    "rec118.slot9_long",
+    "rec118.slot10_long",
+    "rec119.slot4_long",
+    "rec119.slot5_long",
+    "rec119.slot6_long",
+    "rec119.slot7_long",
+    "rec119.slot9_long",
+    "rec119.slot10_long",
+    "rec121.slot2_long",
+    "rec121.slot4_long",
+    "rec121.slot5_long",
+    "rec121.slot9_long",
+    "rec121.slot10_long",
+    "rec122.slot6_long",
+    "rec122.slot10_long",
+    "rec123.slot2_long",
+    "rec123.slot3_long",
+    "rec123.slot6_long",
+    "rec123.slot7_long",
+    "rec123.slot10_long",
+    "rec124.slot3_long",
+    "rec124.slot6_long",
+    "rec124.slot7_long",
+    "rec124.slot10_long",
+    "rec125.slot7_long",
+    "rec125.slot10_long",
+    "rec126.slot2_long",
+    "rec126.slot3_long",
+    "rec126.slot4_long",
+    "rec126.slot5_long",
+    "rec126.slot7_long",
+    "rec126.slot9_long",
+    "rec126.slot10_long",
+    "rec127.slot2_long",
+    "rec127.slot3_long",
+    "rec127.slot4_long",
+    "rec127.slot5_long",
+    "rec127.slot6_long",
+    "rec127.slot7_long",
+    "rec127.slot8_long",
+    "rec127.slot10_long",
+    "rec128.slot4_long",
+    "rec128.slot5_long",
+    "rec128.slot7_long",
+    "rec128.slot9_long",
+    "rec128.slot10_long",
+    "rec129.slot4_long",
+    "rec129.slot5_long",
+    "rec129.slot7_long",
+    "rec129.slot10_long"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "－－－－－"
+  },
+  {
+   "id": 6,
+   "section": "STRI",
+   "offset": 14429,
+   "text_offset": 14435,
+   "role": "display",
+   "refs": [
+    "rec0.slot4_short",
+    "rec1.slot4_short",
+    "rec3.slot4_short",
+    "rec7.slot4_short",
+    "rec8.slot4_short",
+    "rec13.slot4_short",
+    "rec15.slot4_short",
+    "rec16.slot4_short",
+    "rec17.slot4_short",
+    "rec22.slot4_short",
+    "rec24.slot4_short",
+    "rec25.slot4_short",
+    "rec32.slot4_short",
+    "rec36.slot4_short",
+    "rec38.slot4_short",
+    "rec42.slot4_short",
+    "rec55.slot4_short",
+    "rec60.slot4_short",
+    "rec62.slot4_short",
+    "rec63.slot4_short",
+    "rec64.slot4_short",
+    "rec66.slot4_short",
+    "rec67.slot4_short",
+    "rec69.slot4_short",
+    "rec70.slot4_short",
+    "rec71.slot4_short",
+    "rec125.slot4_short"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "昇順ソート"
+  },
+  {
+   "id": 7,
+   "section": "STRI",
+   "offset": 14451,
+   "text_offset": 14457,
+   "role": "display",
+   "refs": [
+    "rec0.slot4_long",
+    "rec1.slot4_long",
+    "rec3.slot4_long",
+    "rec7.slot4_long",
+    "rec8.slot4_long",
+    "rec13.slot4_long",
+    "rec15.slot4_long",
+    "rec16.slot4_long",
+    "rec17.slot4_long",
+    "rec22.slot4_long",
+    "rec24.slot4_long",
+    "rec25.slot4_long",
+    "rec32.slot4_long",
+    "rec36.slot4_long",
+    "rec38.slot4_long",
+    "rec42.slot4_long",
+    "rec55.slot4_long",
+    "rec60.slot4_long",
+    "rec62.slot4_long",
+    "rec63.slot4_long",
+    "rec64.slot4_long",
+    "rec66.slot4_long",
+    "rec67.slot4_long",
+    "rec69.slot4_long",
+    "rec70.slot4_long",
+    "rec71.slot4_long",
+    "rec125.slot4_long"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ソートタイプ（昇順／降順）切換"
+  },
+  {
+   "id": 8,
+   "section": "STRI",
+   "offset": 14503,
+   "text_offset": 14509,
+   "role": "display",
+   "refs": [
+    "rec0.slot5_short",
+    "rec1.slot5_short",
+    "rec3.slot5_short",
+    "rec6.slot5_short",
+    "rec7.slot5_short",
+    "rec8.slot5_short",
+    "rec10.slot5_short",
+    "rec13.slot5_short",
+    "rec14.slot5_short",
+    "rec15.slot5_short",
+    "rec16.slot5_short",
+    "rec17.slot5_short",
+    "rec20.slot5_short",
+    "rec22.slot5_short",
+    "rec23.slot5_short",
+    "rec24.slot5_short",
+    "rec25.slot5_short",
+    "rec26.slot5_short",
+    "rec27.slot5_short",
+    "rec28.slot5_short",
+    "rec29.slot5_short",
+    "rec32.slot5_short",
+    "rec36.slot5_short",
+    "rec37.slot5_short",
+    "rec38.slot5_short",
+    "rec40.slot5_short",
+    "rec41.slot5_short",
+    "rec42.slot5_short",
+    "rec55.slot5_short",
+    "rec60.slot5_short",
+    "rec61.slot5_short",
+    "rec62.slot5_short",
+    "rec63.slot5_short",
+    "rec64.slot5_short",
+    "rec66.slot5_short",
+    "rec67.slot5_short",
+    "rec69.slot5_short",
+    "rec70.slot5_short",
+    "rec71.slot5_short",
+    "rec122.slot5_short",
+    "rec123.slot5_short",
+    "rec124.slot5_short",
+    "rec125.slot5_short"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "頁頭へ"
+  },
+  {
+   "id": 9,
+   "section": "STRI",
+   "offset": 14519,
+   "text_offset": 14525,
+   "role": "display",
+   "refs": [
+    "rec0.slot5_long",
+    "rec1.slot5_long",
+    "rec3.slot5_long",
+    "rec6.slot5_long",
+    "rec7.slot5_long",
+    "rec8.slot5_long",
+    "rec10.slot5_long",
+    "rec13.slot5_long",
+    "rec14.slot5_long",
+    "rec15.slot5_long",
+    "rec16.slot5_long",
+    "rec17.slot5_long",
+    "rec20.slot5_long",
+    "rec22.slot5_long",
+    "rec23.slot5_long",
+    "rec24.slot5_long",
+    "rec25.slot5_long",
+    "rec26.slot5_long",
+    "rec27.slot5_long",
+    "rec28.slot5_long",
+    "rec29.slot5_long",
+    "rec32.slot5_long",
+    "rec36.slot5_long",
+    "rec37.slot5_long",
+    "rec38.slot5_long",
+    "rec40.slot5_long",
+    "rec41.slot5_long",
+    "rec42.slot5_long",
+    "rec55.slot5_long",
+    "rec60.slot5_long",
+    "rec61.slot5_long",
+    "rec62.slot5_long",
+    "rec63.slot5_long",
+    "rec64.slot5_long",
+    "rec66.slot5_long",
+    "rec67.slot5_long",
+    "rec69.slot5_long",
+    "rec70.slot5_long",
+    "rec71.slot5_long",
+    "rec122.slot5_long",
+    "rec123.slot5_long",
+    "rec124.slot5_long",
+    "rec125.slot5_long"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "頁頭へ／頁末へ"
+  },
+  {
+   "id": 10,
+   "section": "STRI",
+   "offset": 14547,
+   "text_offset": 14553,
+   "role": "display",
+   "refs": [
+    "rec0.slot6_short",
+    "rec1.slot6_short",
+    "rec3.slot6_short",
+    "rec7.slot6_short",
+    "rec8.slot6_short",
+    "rec13.slot6_short",
+    "rec15.slot6_short",
+    "rec16.slot6_short",
+    "rec17.slot6_short",
+    "rec22.slot6_short",
+    "rec24.slot6_short",
+    "rec25.slot6_short",
+    "rec32.slot6_short",
+    "rec36.slot6_short",
+    "rec38.slot6_short",
+    "rec42.slot6_short",
+    "rec55.slot6_short",
+    "rec60.slot6_short",
+    "rec62.slot6_short",
+    "rec63.slot6_short",
+    "rec64.slot6_short",
+    "rec66.slot6_short",
+    "rec67.slot6_short",
+    "rec69.slot6_short",
+    "rec70.slot6_short",
+    "rec71.slot6_short",
+    "rec125.slot6_short"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ソート"
+  },
+  {
+   "id": 11,
+   "section": "STRI",
+   "offset": 14563,
+   "text_offset": 14569,
+   "role": "display",
+   "refs": [
+    "rec0.slot6_long",
+    "rec1.slot6_long",
+    "rec3.slot6_long",
+    "rec7.slot6_long",
+    "rec8.slot6_long",
+    "rec13.slot6_long",
+    "rec15.slot6_long",
+    "rec16.slot6_long",
+    "rec17.slot6_long",
+    "rec22.slot6_long",
+    "rec24.slot6_long",
+    "rec25.slot6_long",
+    "rec32.slot6_long",
+    "rec36.slot6_long",
+    "rec38.slot6_long",
+    "rec42.slot6_long",
+    "rec46.slot10_long",
+    "rec55.slot6_long",
+    "rec60.slot6_long",
+    "rec62.slot6_long",
+    "rec63.slot6_long",
+    "rec64.slot6_long",
+    "rec66.slot6_long",
+    "rec67.slot6_long",
+    "rec69.slot6_long",
+    "rec70.slot6_long",
+    "rec71.slot6_long",
+    "rec125.slot6_long"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ソート条件切換"
+  },
+  {
+   "id": 12,
+   "section": "STRI",
+   "offset": 14591,
+   "text_offset": 14597,
+   "role": "display",
+   "refs": [
+    "rec0.slot7_short",
+    "rec1.slot7_short",
+    "rec7.slot7_short",
+    "rec8.slot7_short",
+    "rec26.slot7_short",
+    "rec32.slot7_short",
+    "rec34.slot7_short",
+    "rec42.slot7_short",
+    "rec66.slot7_short",
+    "rec67.slot7_short",
+    "rec69.slot7_short",
+    "rec70.slot7_short",
+    "rec71.slot7_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "サブ情報"
+  },
+  {
+   "id": 13,
+   "section": "STRI",
+   "offset": 14610,
+   "text_offset": 14616,
+   "role": "display",
+   "refs": [
+    "rec0.slot7_long",
+    "rec1.slot7_long",
+    "rec7.slot7_long",
+    "rec8.slot7_long",
+    "rec26.slot7_long",
+    "rec32.slot7_long",
+    "rec34.slot7_long",
+    "rec42.slot7_long",
+    "rec66.slot7_long",
+    "rec67.slot7_long",
+    "rec69.slot7_long",
+    "rec70.slot7_long",
+    "rec71.slot7_long"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "サブ情報切換"
+  },
+  {
+   "id": 14,
+   "section": "STRI",
+   "offset": 14635,
+   "text_offset": 14641,
+   "role": "display",
+   "refs": [
+    "rec0.slot8_short",
+    "rec0.slot9_short",
+    "rec0.slot10_short",
+    "rec0.slot11_short",
+    "rec0.slot11_long",
+    "rec1.slot8_short",
+    "rec1.slot9_short",
+    "rec1.slot10_short",
+    "rec1.slot11_short",
+    "rec1.slot11_long",
+    "rec2.slot8_short",
+    "rec2.slot9_short",
+    "rec2.slot10_short",
+    "rec2.slot11_short",
+    "rec2.slot11_long",
+    "rec3.slot8_short",
+    "rec3.slot9_short",
+    "rec3.slot10_short",
+    "rec3.slot11_short",
+    "rec3.slot11_long",
+    "rec4.slot8_short",
+    "rec4.slot9_short",
+    "rec4.slot10_short",
+    "rec4.slot11_short",
+    "rec4.slot11_long",
+    "rec5.slot8_short",
+    "rec5.slot9_short",
+    "rec5.slot10_short",
+    "rec5.slot11_short",
+    "rec5.slot11_long",
+    "rec6.slot8_short",
+    "rec6.slot9_short",
+    "rec6.slot10_short",
+    "rec6.slot11_short",
+    "rec6.slot11_long",
+    "rec7.slot8_short",
+    "rec7.slot9_short",
+    "rec7.slot10_short",
+    "rec7.slot11_short",
+    "rec7.slot11_long",
+    "rec8.slot8_short",
+    "rec8.slot9_short",
+    "rec8.slot10_short",
+    "rec8.slot11_short",
+    "rec8.slot11_long",
+    "rec9.slot8_short",
+    "rec9.slot9_short",
+    "rec9.slot10_short",
+    "rec9.slot11_short",
+    "rec9.slot11_long",
+    "rec10.slot8_short",
+    "rec10.slot9_short",
+    "rec10.slot10_short",
+    "rec10.slot11_short",
+    "rec10.slot11_long",
+    "rec11.slot8_short",
+    "rec11.slot9_short",
+    "rec11.slot10_short",
+    "rec11.slot11_short",
+    "rec11.slot11_long",
+    "rec12.slot8_short",
+    "rec12.slot9_short",
+    "rec12.slot10_short",
+    "rec12.slot11_short",
+    "rec12.slot11_long",
+    "rec13.slot8_short",
+    "rec13.slot9_short",
+    "rec13.slot10_short",
+    "rec13.slot11_short",
+    "rec13.slot11_long",
+    "rec14.slot8_short",
+    "rec14.slot9_short",
+    "rec14.slot10_short",
+    "rec14.slot11_short",
+    "rec14.slot11_long",
+    "rec15.slot8_short",
+    "rec15.slot9_short",
+    "rec15.slot10_short",
+    "rec15.slot11_short",
+    "rec15.slot11_long",
+    "rec16.slot8_short",
+    "rec16.slot9_short",
+    "rec16.slot10_short",
+    "rec16.slot11_short",
+    "rec16.slot11_long",
+    "rec17.slot8_short",
+    "rec17.slot9_short",
+    "rec17.slot11_short",
+    "rec17.slot11_long",
+    "rec18.slot8_short",
+    "rec18.slot10_short",
+    "rec18.slot11_short",
+    "rec18.slot11_long",
+    "rec19.slot8_short",
+    "rec19.slot10_short",
+    "rec19.slot11_short",
+    "rec19.slot11_long",
+    "rec20.slot8_short",
+    "rec20.slot9_short",
+    "rec20.slot10_short",
+    "rec20.slot11_short",
+    "rec20.slot11_long",
+    "rec21.slot8_short",
+    "rec21.slot10_short",
+    "rec21.slot11_short",
+    "rec21.slot11_long",
+    "rec22.slot8_short",
+    "rec22.slot9_short",
+    "rec22.slot10_short",
+    "rec22.slot11_short",
+    "rec22.slot11_long",
+    "rec23.slot8_short",
+    "rec23.slot9_short",
+    "rec23.slot10_short",
+    "rec23.slot11_short",
+    "rec23.slot11_long",
+    "rec24.slot8_short",
+    "rec24.slot9_short",
+    "rec24.slot10_short",
+    "rec24.slot11_short",
+    "rec24.slot11_long",
+    "rec25.slot8_short",
+    "rec25.slot9_short",
+    "rec25.slot10_short",
+    "rec25.slot11_short",
+    "rec25.slot11_long",
+    "rec26.slot8_short",
+    "rec26.slot9_short",
+    "rec26.slot11_short",
+    "rec26.slot11_long",
+    "rec27.slot8_short",
+    "rec27.slot9_short",
+    "rec27.slot10_short",
+    "rec27.slot11_short",
+    "rec27.slot11_long",
+    "rec28.slot8_short",
+    "rec28.slot9_short",
+    "rec28.slot10_short",
+    "rec28.slot11_short",
+    "rec28.slot11_long",
+    "rec29.slot8_short",
+    "rec29.slot9_short",
+    "rec29.slot10_short",
+    "rec29.slot11_short",
+    "rec29.slot11_long",
+    "rec30.slot8_short",
+    "rec30.slot9_short",
+    "rec30.slot10_short",
+    "rec30.slot11_short",
+    "rec30.slot11_long",
+    "rec31.slot8_short",
+    "rec31.slot9_short",
+    "rec31.slot10_short",
+    "rec31.slot11_short",
+    "rec31.slot11_long",
+    "rec32.slot8_short",
+    "rec32.slot9_short",
+    "rec32.slot10_short",
+    "rec32.slot11_short",
+    "rec32.slot11_long",
+    "rec33.slot8_short",
+    "rec33.slot10_short",
+    "rec33.slot11_short",
+    "rec33.slot11_long",
+    "rec34.slot8_short",
+    "rec34.slot9_short",
+    "rec34.slot10_short",
+    "rec34.slot11_short",
+    "rec34.slot11_long",
+    "rec35.slot8_short",
+    "rec35.slot9_short",
+    "rec35.slot10_short",
+    "rec35.slot11_short",
+    "rec35.slot11_long",
+    "rec36.slot8_short",
+    "rec36.slot9_short",
+    "rec36.slot10_short",
+    "rec36.slot11_short",
+    "rec36.slot11_long",
+    "rec37.slot8_short",
+    "rec37.slot9_short",
+    "rec37.slot10_short",
+    "rec37.slot11_short",
+    "rec37.slot11_long",
+    "rec38.slot8_short",
+    "rec38.slot9_short",
+    "rec38.slot10_short",
+    "rec38.slot11_short",
+    "rec38.slot11_long",
+    "rec39.slot8_short",
+    "rec39.slot9_short",
+    "rec39.slot10_short",
+    "rec39.slot11_short",
+    "rec39.slot11_long",
+    "rec40.slot8_short",
+    "rec40.slot9_short",
+    "rec40.slot10_short",
+    "rec40.slot11_short",
+    "rec40.slot11_long",
+    "rec41.slot8_short",
+    "rec41.slot9_short",
+    "rec41.slot10_short",
+    "rec41.slot11_short",
+    "rec41.slot11_long",
+    "rec42.slot8_short",
+    "rec42.slot9_short",
+    "rec42.slot10_short",
+    "rec42.slot11_short",
+    "rec42.slot11_long",
+    "rec43.slot8_short",
+    "rec43.slot9_short",
+    "rec43.slot10_short",
+    "rec43.slot11_short",
+    "rec43.slot11_long",
+    "rec44.slot8_short",
+    "rec44.slot10_short",
+    "rec44.slot11_short",
+    "rec44.slot11_long",
+    "rec45.slot8_short",
+    "rec45.slot9_short",
+    "rec45.slot10_short",
+    "rec45.slot11_short",
+    "rec45.slot11_long",
+    "rec46.slot8_short",
+    "rec46.slot9_short",
+    "rec46.slot10_short",
+    "rec46.slot11_short",
+    "rec46.slot11_long",
+    "rec47.slot8_short",
+    "rec47.slot9_short",
+    "rec47.slot10_short",
+    "rec47.slot11_short",
+    "rec47.slot11_long",
+    "rec48.slot8_short",
+    "rec48.slot9_short",
+    "rec48.slot10_short",
+    "rec48.slot11_short",
+    "rec48.slot11_long",
+    "rec49.slot8_short",
+    "rec49.slot9_short",
+    "rec49.slot10_short",
+    "rec49.slot11_short",
+    "rec49.slot11_long",
+    "rec50.slot8_short",
+    "rec50.slot9_short",
+    "rec50.slot10_short",
+    "rec50.slot11_short",
+    "rec50.slot11_long",
+    "rec51.slot8_short",
+    "rec51.slot9_short",
+    "rec51.slot10_short",
+    "rec51.slot11_short",
+    "rec51.slot11_long",
+    "rec52.slot8_short",
+    "rec52.slot9_short",
+    "rec52.slot10_short",
+    "rec52.slot11_short",
+    "rec52.slot11_long",
+    "rec53.slot8_short",
+    "rec53.slot9_short",
+    "rec53.slot10_short",
+    "rec53.slot11_short",
+    "rec53.slot11_long",
+    "rec54.slot8_short",
+    "rec54.slot9_short",
+    "rec54.slot10_short",
+    "rec54.slot11_short",
+    "rec54.slot11_long",
+    "rec55.slot8_short",
+    "rec55.slot9_short",
+    "rec55.slot10_short",
+    "rec55.slot11_short",
+    "rec55.slot11_long",
+    "rec56.slot8_short",
+    "rec56.slot9_short",
+    "rec56.slot10_short",
+    "rec56.slot11_short",
+    "rec56.slot11_long",
+    "rec57.slot8_short",
+    "rec57.slot9_short",
+    "rec57.slot10_short",
+    "rec57.slot11_short",
+    "rec57.slot11_long",
+    "rec58.slot8_short",
+    "rec58.slot10_short",
+    "rec58.slot11_short",
+    "rec58.slot11_long",
+    "rec59.slot8_short",
+    "rec59.slot10_short",
+    "rec59.slot11_short",
+    "rec59.slot11_long",
+    "rec60.slot8_short",
+    "rec60.slot9_short",
+    "rec60.slot10_short",
+    "rec60.slot11_short",
+    "rec60.slot11_long",
+    "rec61.slot8_short",
+    "rec61.slot9_short",
+    "rec61.slot10_short",
+    "rec61.slot11_short",
+    "rec61.slot11_long",
+    "rec62.slot8_short",
+    "rec62.slot9_short",
+    "rec62.slot10_short",
+    "rec62.slot11_short",
+    "rec62.slot11_long",
+    "rec63.slot8_short",
+    "rec63.slot9_short",
+    "rec63.slot10_short",
+    "rec63.slot11_short",
+    "rec63.slot11_long",
+    "rec64.slot8_short",
+    "rec64.slot9_short",
+    "rec64.slot10_short",
+    "rec64.slot11_short",
+    "rec64.slot11_long",
+    "rec65.slot8_short",
+    "rec65.slot9_short",
+    "rec65.slot10_short",
+    "rec65.slot11_short",
+    "rec65.slot11_long",
+    "rec66.slot8_short",
+    "rec66.slot9_short",
+    "rec66.slot11_short",
+    "rec66.slot11_long",
+    "rec67.slot8_short",
+    "rec67.slot9_short",
+    "rec67.slot11_short",
+    "rec67.slot11_long",
+    "rec68.slot8_short",
+    "rec68.slot9_short",
+    "rec68.slot10_short",
+    "rec68.slot11_short",
+    "rec68.slot11_long",
+    "rec69.slot8_short",
+    "rec69.slot9_short",
+    "rec69.slot10_short",
+    "rec69.slot11_short",
+    "rec69.slot11_long",
+    "rec70.slot8_short",
+    "rec70.slot9_short",
+    "rec70.slot10_short",
+    "rec70.slot11_short",
+    "rec70.slot11_long",
+    "rec71.slot8_short",
+    "rec71.slot9_short",
+    "rec71.slot10_short",
+    "rec71.slot11_short",
+    "rec71.slot11_long",
+    "rec72.slot8_short",
+    "rec72.slot9_short",
+    "rec72.slot10_short",
+    "rec72.slot11_short",
+    "rec72.slot11_long",
+    "rec73.slot8_short",
+    "rec73.slot9_short",
+    "rec73.slot10_short",
+    "rec73.slot11_short",
+    "rec73.slot11_long",
+    "rec74.slot8_short",
+    "rec74.slot9_short",
+    "rec74.slot10_short",
+    "rec74.slot11_short",
+    "rec74.slot11_long",
+    "rec75.slot8_short",
+    "rec75.slot9_short",
+    "rec75.slot10_short",
+    "rec75.slot11_short",
+    "rec75.slot11_long",
+    "rec76.slot8_short",
+    "rec76.slot9_short",
+    "rec76.slot10_short",
+    "rec76.slot11_short",
+    "rec76.slot11_long",
+    "rec77.slot8_short",
+    "rec77.slot9_short",
+    "rec77.slot10_short",
+    "rec77.slot11_short",
+    "rec77.slot11_long",
+    "rec78.slot8_short",
+    "rec78.slot9_short",
+    "rec78.slot10_short",
+    "rec78.slot11_short",
+    "rec78.slot11_long",
+    "rec79.slot8_short",
+    "rec79.slot9_short",
+    "rec79.slot10_short",
+    "rec79.slot11_short",
+    "rec79.slot11_long",
+    "rec80.slot8_short",
+    "rec80.slot9_short",
+    "rec80.slot10_short",
+    "rec80.slot11_short",
+    "rec80.slot11_long",
+    "rec81.slot8_short",
+    "rec81.slot9_short",
+    "rec81.slot10_short",
+    "rec81.slot11_short",
+    "rec81.slot11_long",
+    "rec82.slot8_short",
+    "rec82.slot9_short",
+    "rec82.slot10_short",
+    "rec82.slot11_short",
+    "rec82.slot11_long",
+    "rec83.slot8_short",
+    "rec83.slot9_short",
+    "rec83.slot10_short",
+    "rec83.slot11_short",
+    "rec83.slot11_long",
+    "rec84.slot3_short",
+    "rec84.slot4_short",
+    "rec84.slot5_short",
+    "rec84.slot6_short",
+    "rec84.slot7_short",
+    "rec84.slot8_short",
+    "rec84.slot9_short",
+    "rec84.slot10_short",
+    "rec84.slot11_short",
+    "rec84.slot11_long",
+    "rec85.slot2_short",
+    "rec85.slot4_short",
+    "rec85.slot5_short",
+    "rec85.slot6_short",
+    "rec85.slot7_short",
+    "rec85.slot10_short",
+    "rec85.slot11_short",
+    "rec85.slot11_long",
+    "rec86.slot2_short",
+    "rec86.slot3_short",
+    "rec86.slot4_short",
+    "rec86.slot5_short",
+    "rec86.slot6_short",
+    "rec86.slot7_short",
+    "rec86.slot8_short",
+    "rec86.slot9_short",
+    "rec86.slot10_short",
+    "rec86.slot11_short",
+    "rec86.slot11_long",
+    "rec87.slot0_long",
+    "rec87.slot1_long",
+    "rec87.slot2_short",
+    "rec87.slot2_long",
+    "rec87.slot3_short",
+    "rec87.slot3_long",
+    "rec87.slot4_short",
+    "rec87.slot4_long",
+    "rec87.slot5_short",
+    "rec87.slot5_long",
+    "rec87.slot6_short",
+    "rec87.slot6_long",
+    "rec87.slot7_short",
+    "rec87.slot7_long",
+    "rec87.slot8_short",
+    "rec87.slot8_long",
+    "rec87.slot9_short",
+    "rec87.slot9_long",
+    "rec87.slot10_short",
+    "rec87.slot10_long",
+    "rec87.slot11_short",
+    "rec87.slot11_long",
+    "rec88.slot0_long",
+    "rec88.slot1_long",
+    "rec88.slot2_short",
+    "rec88.slot2_long",
+    "rec88.slot3_short",
+    "rec88.slot3_long",
+    "rec88.slot4_short",
+    "rec88.slot4_long",
+    "rec88.slot5_short",
+    "rec88.slot5_long",
+    "rec88.slot6_short",
+    "rec88.slot6_long",
+    "rec88.slot7_short",
+    "rec88.slot7_long",
+    "rec88.slot8_short",
+    "rec88.slot8_long",
+    "rec88.slot9_short",
+    "rec88.slot9_long",
+    "rec88.slot10_short",
+    "rec88.slot10_long",
+    "rec88.slot11_short",
+    "rec88.slot11_long",
+    "rec89.slot0_long",
+    "rec89.slot1_long",
+    "rec89.slot2_short",
+    "rec89.slot2_long",
+    "rec89.slot3_short",
+    "rec89.slot3_long",
+    "rec89.slot4_short",
+    "rec89.slot4_long",
+    "rec89.slot5_short",
+    "rec89.slot5_long",
+    "rec89.slot6_short",
+    "rec89.slot6_long",
+    "rec89.slot7_short",
+    "rec89.slot7_long",
+    "rec89.slot8_short",
+    "rec89.slot8_long",
+    "rec89.slot9_short",
+    "rec89.slot9_long",
+    "rec89.slot10_short",
+    "rec89.slot10_long",
+    "rec89.slot11_short",
+    "rec89.slot11_long",
+    "rec90.slot0_long",
+    "rec90.slot1_long",
+    "rec90.slot2_long",
+    "rec90.slot3_long",
+    "rec90.slot4_long",
+    "rec90.slot5_long",
+    "rec90.slot6_short",
+    "rec90.slot6_long",
+    "rec90.slot7_short",
+    "rec90.slot7_long",
+    "rec90.slot8_short",
+    "rec90.slot8_long",
+    "rec90.slot9_short",
+    "rec90.slot9_long",
+    "rec90.slot10_short",
+    "rec90.slot10_long",
+    "rec90.slot11_short",
+    "rec90.slot11_long",
+    "rec91.slot0_long",
+    "rec91.slot1_long",
+    "rec91.slot2_long",
+    "rec91.slot3_long",
+    "rec91.slot4_long",
+    "rec91.slot5_short",
+    "rec91.slot5_long",
+    "rec91.slot6_short",
+    "rec91.slot6_long",
+    "rec91.slot7_short",
+    "rec91.slot7_long",
+    "rec91.slot8_short",
+    "rec91.slot8_long",
+    "rec91.slot9_short",
+    "rec91.slot9_long",
+    "rec91.slot10_short",
+    "rec91.slot10_long",
+    "rec91.slot11_short",
+    "rec91.slot11_long",
+    "rec92.slot0_long",
+    "rec92.slot1_long",
+    "rec92.slot2_long",
+    "rec92.slot3_long",
+    "rec92.slot4_long",
+    "rec92.slot5_short",
+    "rec92.slot5_long",
+    "rec92.slot6_short",
+    "rec92.slot6_long",
+    "rec92.slot7_short",
+    "rec92.slot7_long",
+    "rec92.slot8_short",
+    "rec92.slot8_long",
+    "rec92.slot9_short",
+    "rec92.slot9_long",
+    "rec92.slot10_short",
+    "rec92.slot10_long",
+    "rec92.slot11_short",
+    "rec92.slot11_long",
+    "rec93.slot0_short",
+    "rec93.slot1_short",
+    "rec93.slot2_short",
+    "rec93.slot3_short",
+    "rec93.slot4_short",
+    "rec93.slot5_short",
+    "rec93.slot6_short",
+    "rec93.slot7_short",
+    "rec93.slot8_short",
+    "rec93.slot9_short",
+    "rec93.slot10_short",
+    "rec93.slot11_short",
+    "rec93.slot11_long",
+    "rec94.slot0_long",
+    "rec94.slot1_long",
+    "rec94.slot2_long",
+    "rec94.slot3_long",
+    "rec94.slot4_short",
+    "rec94.slot4_long",
+    "rec94.slot5_short",
+    "rec94.slot5_long",
+    "rec94.slot6_short",
+    "rec94.slot6_long",
+    "rec94.slot7_short",
+    "rec94.slot7_long",
+    "rec94.slot8_short",
+    "rec94.slot8_long",
+    "rec94.slot9_short",
+    "rec94.slot9_long",
+    "rec94.slot10_short",
+    "rec94.slot10_long",
+    "rec94.slot11_short",
+    "rec94.slot11_long",
+    "rec95.slot0_long",
+    "rec95.slot1_long",
+    "rec95.slot2_long",
+    "rec95.slot3_long",
+    "rec95.slot4_short",
+    "rec95.slot4_long",
+    "rec95.slot5_short",
+    "rec95.slot5_long",
+    "rec95.slot6_short",
+    "rec95.slot6_long",
+    "rec95.slot7_short",
+    "rec95.slot7_long",
+    "rec95.slot8_short",
+    "rec95.slot8_long",
+    "rec95.slot9_short",
+    "rec95.slot9_long",
+    "rec95.slot10_short",
+    "rec95.slot10_long",
+    "rec95.slot11_short",
+    "rec95.slot11_long",
+    "rec96.slot0_short",
+    "rec96.slot1_short",
+    "rec96.slot2_short",
+    "rec96.slot3_short",
+    "rec96.slot4_short",
+    "rec96.slot5_short",
+    "rec96.slot6_short",
+    "rec96.slot7_short",
+    "rec96.slot8_short",
+    "rec96.slot9_short",
+    "rec96.slot10_short",
+    "rec96.slot11_short",
+    "rec96.slot11_long",
+    "rec97.slot0_short",
+    "rec97.slot1_short",
+    "rec97.slot2_short",
+    "rec97.slot3_short",
+    "rec97.slot4_short",
+    "rec97.slot5_short",
+    "rec97.slot6_short",
+    "rec97.slot7_short",
+    "rec97.slot8_short",
+    "rec97.slot9_short",
+    "rec97.slot10_short",
+    "rec97.slot11_short",
+    "rec97.slot11_long",
+    "rec98.slot3_short",
+    "rec98.slot6_short",
+    "rec98.slot7_short",
+    "rec98.slot8_short",
+    "rec98.slot10_short",
+    "rec98.slot11_short",
+    "rec98.slot11_long",
+    "rec99.slot3_short",
+    "rec99.slot4_short",
+    "rec99.slot5_short",
+    "rec99.slot6_short",
+    "rec99.slot7_short",
+    "rec99.slot8_short",
+    "rec99.slot10_short",
+    "rec99.slot11_short",
+    "rec99.slot11_long",
+    "rec100.slot0_long",
+    "rec100.slot1_long",
+    "rec100.slot2_long",
+    "rec100.slot3_long",
+    "rec100.slot4_short",
+    "rec100.slot4_long",
+    "rec100.slot5_short",
+    "rec100.slot5_long",
+    "rec100.slot6_short",
+    "rec100.slot6_long",
+    "rec100.slot7_short",
+    "rec100.slot7_long",
+    "rec100.slot8_short",
+    "rec100.slot8_long",
+    "rec100.slot9_short",
+    "rec100.slot9_long",
+    "rec100.slot10_short",
+    "rec100.slot10_long",
+    "rec100.slot11_short",
+    "rec100.slot11_long",
+    "rec101.slot0_long",
+    "rec101.slot1_long",
+    "rec101.slot2_long",
+    "rec101.slot3_long",
+    "rec101.slot4_short",
+    "rec101.slot4_long",
+    "rec101.slot5_short",
+    "rec101.slot5_long",
+    "rec101.slot6_short",
+    "rec101.slot6_long",
+    "rec101.slot7_short",
+    "rec101.slot7_long",
+    "rec101.slot8_short",
+    "rec101.slot8_long",
+    "rec101.slot9_short",
+    "rec101.slot9_long",
+    "rec101.slot10_short",
+    "rec101.slot10_long",
+    "rec101.slot11_short",
+    "rec101.slot11_long",
+    "rec102.slot0_long",
+    "rec102.slot1_long",
+    "rec102.slot2_long",
+    "rec102.slot3_long",
+    "rec102.slot4_short",
+    "rec102.slot4_long",
+    "rec102.slot5_short",
+    "rec102.slot5_long",
+    "rec102.slot6_short",
+    "rec102.slot6_long",
+    "rec102.slot7_short",
+    "rec102.slot7_long",
+    "rec102.slot8_short",
+    "rec102.slot8_long",
+    "rec102.slot9_short",
+    "rec102.slot9_long",
+    "rec102.slot10_short",
+    "rec102.slot10_long",
+    "rec102.slot11_short",
+    "rec102.slot11_long",
+    "rec103.slot0_short",
+    "rec103.slot1_short",
+    "rec103.slot2_short",
+    "rec103.slot3_short",
+    "rec103.slot4_short",
+    "rec103.slot5_short",
+    "rec103.slot6_short",
+    "rec103.slot7_short",
+    "rec103.slot8_short",
+    "rec103.slot9_short",
+    "rec103.slot10_short",
+    "rec103.slot11_short",
+    "rec103.slot11_long",
+    "rec104.slot0_short",
+    "rec104.slot1_short",
+    "rec104.slot2_short",
+    "rec104.slot3_short",
+    "rec104.slot4_short",
+    "rec104.slot5_short",
+    "rec104.slot6_short",
+    "rec104.slot7_short",
+    "rec104.slot8_short",
+    "rec104.slot9_short",
+    "rec104.slot10_short",
+    "rec104.slot11_short",
+    "rec104.slot11_long",
+    "rec105.slot0_short",
+    "rec105.slot1_short",
+    "rec105.slot2_short",
+    "rec105.slot3_short",
+    "rec105.slot4_short",
+    "rec105.slot5_short",
+    "rec105.slot6_short",
+    "rec105.slot7_short",
+    "rec105.slot8_short",
+    "rec105.slot9_short",
+    "rec105.slot10_short",
+    "rec105.slot11_short",
+    "rec105.slot11_long",
+    "rec106.slot0_short",
+    "rec106.slot1_short",
+    "rec106.slot2_short",
+    "rec106.slot3_short",
+    "rec106.slot4_short",
+    "rec106.slot5_short",
+    "rec106.slot6_short",
+    "rec106.slot7_short",
+    "rec106.slot8_short",
+    "rec106.slot9_short",
+    "rec106.slot10_short",
+    "rec106.slot11_short",
+    "rec106.slot11_long",
+    "rec107.slot0_short",
+    "rec107.slot1_short",
+    "rec107.slot2_short",
+    "rec107.slot3_short",
+    "rec107.slot4_short",
+    "rec107.slot5_short",
+    "rec107.slot6_short",
+    "rec107.slot7_short",
+    "rec107.slot8_short",
+    "rec107.slot9_short",
+    "rec107.slot10_short",
+    "rec107.slot11_short",
+    "rec107.slot11_long",
+    "rec108.slot0_short",
+    "rec108.slot1_short",
+    "rec108.slot2_short",
+    "rec108.slot3_short",
+    "rec108.slot4_short",
+    "rec108.slot5_short",
+    "rec108.slot6_short",
+    "rec108.slot7_short",
+    "rec108.slot8_short",
+    "rec108.slot9_short",
+    "rec108.slot10_short",
+    "rec108.slot11_short",
+    "rec108.slot11_long",
+    "rec109.slot0_short",
+    "rec109.slot1_short",
+    "rec109.slot2_short",
+    "rec109.slot3_short",
+    "rec109.slot4_short",
+    "rec109.slot5_short",
+    "rec109.slot6_short",
+    "rec109.slot7_short",
+    "rec109.slot8_short",
+    "rec109.slot9_short",
+    "rec109.slot10_short",
+    "rec109.slot11_short",
+    "rec109.slot11_long",
+    "rec110.slot2_short",
+    "rec110.slot4_short",
+    "rec110.slot5_short",
+    "rec110.slot6_short",
+    "rec110.slot7_short",
+    "rec110.slot8_short",
+    "rec110.slot9_short",
+    "rec110.slot10_short",
+    "rec110.slot11_short",
+    "rec110.slot11_long",
+    "rec111.slot2_short",
+    "rec111.slot4_short",
+    "rec111.slot5_short",
+    "rec111.slot6_short",
+    "rec111.slot7_short",
+    "rec111.slot8_short",
+    "rec111.slot9_short",
+    "rec111.slot10_short",
+    "rec111.slot11_short",
+    "rec111.slot11_long",
+    "rec112.slot8_short",
+    "rec112.slot9_short",
+    "rec112.slot10_short",
+    "rec112.slot11_short",
+    "rec112.slot11_long",
+    "rec113.slot8_short",
+    "rec113.slot9_short",
+    "rec113.slot10_short",
+    "rec113.slot11_short",
+    "rec113.slot11_long",
+    "rec114.slot8_short",
+    "rec114.slot9_short",
+    "rec114.slot10_short",
+    "rec114.slot11_short",
+    "rec114.slot11_long",
+    "rec115.slot8_short",
+    "rec115.slot9_short",
+    "rec115.slot10_short",
+    "rec115.slot11_short",
+    "rec115.slot11_long",
+    "rec116.slot0_short",
+    "rec116.slot1_short",
+    "rec116.slot2_short",
+    "rec116.slot3_short",
+    "rec116.slot4_short",
+    "rec116.slot5_short",
+    "rec116.slot6_short",
+    "rec116.slot7_short",
+    "rec116.slot8_short",
+    "rec116.slot9_short",
+    "rec116.slot10_short",
+    "rec116.slot11_short",
+    "rec116.slot11_long",
+    "rec117.slot3_short",
+    "rec117.slot6_short",
+    "rec117.slot7_short",
+    "rec117.slot8_short",
+    "rec117.slot9_short",
+    "rec117.slot10_short",
+    "rec117.slot11_short",
+    "rec117.slot11_long",
+    "rec118.slot8_short",
+    "rec118.slot9_short",
+    "rec118.slot10_short",
+    "rec118.slot11_short",
+    "rec118.slot11_long",
+    "rec119.slot8_short",
+    "rec119.slot9_short",
+    "rec119.slot10_short",
+    "rec119.slot11_short",
+    "rec119.slot11_long",
+    "rec120.slot8_short",
+    "rec120.slot9_short",
+    "rec120.slot10_short",
+    "rec120.slot11_short",
+    "rec120.slot11_long",
+    "rec121.slot2_short",
+    "rec121.slot4_short",
+    "rec121.slot5_short",
+    "rec121.slot6_short",
+    "rec121.slot7_short",
+    "rec121.slot8_short",
+    "rec121.slot9_short",
+    "rec121.slot10_short",
+    "rec121.slot11_short",
+    "rec121.slot11_long",
+    "rec122.slot8_short",
+    "rec122.slot9_short",
+    "rec122.slot10_short",
+    "rec122.slot11_short",
+    "rec122.slot11_long",
+    "rec123.slot8_short",
+    "rec123.slot9_short",
+    "rec123.slot10_short",
+    "rec123.slot11_short",
+    "rec123.slot11_long",
+    "rec124.slot8_short",
+    "rec124.slot9_short",
+    "rec124.slot10_short",
+    "rec124.slot11_short",
+    "rec124.slot11_long",
+    "rec125.slot8_short",
+    "rec125.slot9_short",
+    "rec125.slot10_short",
+    "rec125.slot11_short",
+    "rec125.slot11_long",
+    "rec126.slot2_short",
+    "rec126.slot4_short",
+    "rec126.slot5_short",
+    "rec126.slot6_short",
+    "rec126.slot8_short",
+    "rec126.slot9_short",
+    "rec126.slot10_short",
+    "rec126.slot11_short",
+    "rec126.slot11_long",
+    "rec127.slot8_short",
+    "rec127.slot9_short",
+    "rec127.slot11_short",
+    "rec127.slot11_long",
+    "rec128.slot8_short",
+    "rec128.slot9_short",
+    "rec128.slot10_short",
+    "rec128.slot11_short",
+    "rec128.slot11_long",
+    "rec129.slot8_short",
+    "rec129.slot9_short",
+    "rec129.slot10_short",
+    "rec129.slot11_short",
+    "rec129.slot11_long"
+   ],
+   "orig_chars": [
+    0
+   ],
+   "orig_bytes": 1,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": ""
+  },
+  {
+   "id": 15,
+   "section": "STRI",
+   "offset": 14642,
+   "text_offset": 14648,
+   "role": "display",
+   "refs": [
+    "rec0.slot8_long",
+    "rec1.slot8_long",
+    "rec2.slot9_long",
+    "rec3.slot8_long",
+    "rec4.slot9_long",
+    "rec5.slot8_long",
+    "rec6.slot8_long",
+    "rec7.slot8_long",
+    "rec8.slot8_long",
+    "rec9.slot8_long",
+    "rec10.slot8_long",
+    "rec11.slot8_long",
+    "rec12.slot8_long",
+    "rec13.slot8_long",
+    "rec14.slot8_long",
+    "rec15.slot8_long",
+    "rec16.slot8_long",
+    "rec17.slot8_long",
+    "rec18.slot8_long",
+    "rec19.slot8_long",
+    "rec20.slot8_long",
+    "rec21.slot8_long",
+    "rec22.slot8_long",
+    "rec23.slot8_long",
+    "rec24.slot8_long",
+    "rec25.slot8_long",
+    "rec26.slot8_long",
+    "rec26.slot9_long",
+    "rec27.slot8_long",
+    "rec27.slot9_long",
+    "rec28.slot8_long",
+    "rec28.slot9_long",
+    "rec29.slot8_long",
+    "rec29.slot9_long",
+    "rec30.slot8_long",
+    "rec30.slot9_long",
+    "rec31.slot8_long",
+    "rec32.slot8_long",
+    "rec33.slot8_long",
+    "rec33.slot9_short",
+    "rec34.slot9_long",
+    "rec35.slot8_long",
+    "rec36.slot8_long",
+    "rec37.slot8_long",
+    "rec38.slot8_long",
+    "rec39.slot8_long",
+    "rec40.slot8_long",
+    "rec41.slot8_long",
+    "rec42.slot8_long",
+    "rec43.slot9_long",
+    "rec44.slot8_long",
+    "rec44.slot9_short",
+    "rec45.slot8_long",
+    "rec45.slot9_long",
+    "rec46.slot8_long",
+    "rec49.slot8_long",
+    "rec50.slot8_long",
+    "rec51.slot8_long",
+    "rec51.slot9_long",
+    "rec52.slot8_long",
+    "rec52.slot9_long",
+    "rec53.slot8_long",
+    "rec53.slot9_long",
+    "rec55.slot8_long",
+    "rec56.slot9_long",
+    "rec57.slot8_long",
+    "rec58.slot8_long",
+    "rec58.slot9_short",
+    "rec59.slot8_long",
+    "rec59.slot9_short",
+    "rec60.slot8_long",
+    "rec61.slot8_long",
+    "rec62.slot8_long",
+    "rec63.slot8_long",
+    "rec64.slot8_long",
+    "rec65.slot8_long",
+    "rec65.slot9_long",
+    "rec66.slot8_long",
+    "rec67.slot8_long",
+    "rec68.slot8_long",
+    "rec68.slot9_long",
+    "rec69.slot8_long",
+    "rec70.slot8_long",
+    "rec71.slot8_long",
+    "rec72.slot8_long",
+    "rec72.slot9_long",
+    "rec73.slot8_long",
+    "rec73.slot9_long",
+    "rec75.slot9_long",
+    "rec76.slot9_long",
+    "rec77.slot9_long",
+    "rec78.slot9_long",
+    "rec79.slot9_long",
+    "rec80.slot8_long",
+    "rec81.slot8_long",
+    "rec82.slot8_long",
+    "rec84.slot8_long",
+    "rec85.slot8_long",
+    "rec86.slot8_long",
+    "rec97.slot8_long",
+    "rec98.slot8_long",
+    "rec99.slot8_long",
+    "rec105.slot8_long",
+    "rec106.slot8_long",
+    "rec107.slot8_long",
+    "rec108.slot8_long",
+    "rec109.slot8_long",
+    "rec110.slot8_long",
+    "rec111.slot8_long",
+    "rec112.slot8_long",
+    "rec113.slot8_long",
+    "rec114.slot8_long",
+    "rec115.slot8_long",
+    "rec117.slot8_long",
+    "rec120.slot8_long",
+    "rec120.slot9_long",
+    "rec121.slot8_long",
+    "rec122.slot8_long",
+    "rec123.slot8_long",
+    "rec124.slot8_long",
+    "rec125.slot8_long",
+    "rec126.slot8_long",
+    "rec128.slot8_long",
+    "rec129.slot8_long",
+    "rec129.slot9_long"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "選択"
+  },
+  {
+   "id": 16,
+   "section": "STRI",
+   "offset": 14655,
+   "text_offset": 14661,
+   "role": "display",
+   "refs": [
+    "rec0.slot9_long",
+    "rec1.slot9_long",
+    "rec3.slot9_long",
+    "rec6.slot9_long",
+    "rec7.slot9_long",
+    "rec8.slot9_long",
+    "rec9.slot9_long",
+    "rec10.slot9_long",
+    "rec11.slot9_long",
+    "rec13.slot9_long",
+    "rec14.slot9_long",
+    "rec15.slot9_long",
+    "rec16.slot9_long",
+    "rec17.slot9_long",
+    "rec19.slot4_long",
+    "rec20.slot4_long",
+    "rec20.slot9_long",
+    "rec21.slot4_long",
+    "rec22.slot9_long",
+    "rec23.slot9_long",
+    "rec24.slot9_long",
+    "rec25.slot9_long",
+    "rec32.slot9_long",
+    "rec36.slot9_long",
+    "rec37.slot9_long",
+    "rec38.slot9_long",
+    "rec40.slot9_long",
+    "rec41.slot9_long",
+    "rec42.slot9_long",
+    "rec50.slot9_long",
+    "rec55.slot9_long",
+    "rec60.slot9_long",
+    "rec61.slot9_long",
+    "rec62.slot9_long",
+    "rec63.slot9_long",
+    "rec64.slot9_long",
+    "rec66.slot9_long",
+    "rec67.slot9_long",
+    "rec69.slot9_long",
+    "rec70.slot9_long",
+    "rec71.slot9_long",
+    "rec82.slot9_long",
+    "rec93.slot9_long",
+    "rec122.slot9_long",
+    "rec123.slot9_long",
+    "rec124.slot9_long",
+    "rec125.slot9_long"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ページ切換"
+  },
+  {
+   "id": 17,
+   "section": "STRI",
+   "offset": 14677,
+   "text_offset": 14683,
+   "role": "display",
+   "refs": [
+    "rec1.slot3_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "切換"
+  },
+  {
+   "id": 18,
+   "section": "STRI",
+   "offset": 14690,
+   "text_offset": 14696,
+   "role": "display",
+   "refs": [
+    "rec1.slot3_long"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "メイン・サブ表示切換"
+  },
+  {
+   "id": 19,
+   "section": "STRI",
+   "offset": 14727,
+   "text_offset": 14733,
+   "role": "display",
+   "refs": [
+    "rec2.slot2_long"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "能力（乗せ換え前）"
+  },
+  {
+   "id": 20,
+   "section": "STRI",
+   "offset": 14761,
+   "text_offset": 14767,
+   "role": "display",
+   "refs": [
+    "rec2.slot4_short",
+    "rec2.slot5_short",
+    "rec4.slot4_short",
+    "rec4.slot5_short",
+    "rec5.slot4_short",
+    "rec5.slot5_short",
+    "rec6.slot4_short",
+    "rec9.slot4_short",
+    "rec9.slot5_short",
+    "rec10.slot4_short",
+    "rec11.slot4_short",
+    "rec11.slot5_short",
+    "rec12.slot4_short",
+    "rec12.slot5_short",
+    "rec14.slot4_short",
+    "rec18.slot4_short",
+    "rec21.slot5_short",
+    "rec23.slot4_short",
+    "rec30.slot4_short",
+    "rec30.slot5_short",
+    "rec31.slot4_short",
+    "rec31.slot5_short",
+    "rec33.slot4_short",
+    "rec33.slot5_short",
+    "rec34.slot4_short",
+    "rec35.slot4_short",
+    "rec35.slot5_short",
+    "rec37.slot4_short",
+    "rec39.slot4_short",
+    "rec39.slot5_short",
+    "rec40.slot4_short",
+    "rec41.slot4_short",
+    "rec43.slot4_short",
+    "rec43.slot5_short",
+    "rec44.slot4_short",
+    "rec44.slot5_short",
+    "rec45.slot4_short",
+    "rec45.slot5_short",
+    "rec46.slot4_short",
+    "rec46.slot5_short",
+    "rec47.slot4_short",
+    "rec47.slot5_short",
+    "rec48.slot4_short",
+    "rec48.slot5_short",
+    "rec49.slot4_short",
+    "rec49.slot5_short",
+    "rec50.slot4_short",
+    "rec50.slot5_short",
+    "rec51.slot4_short",
+    "rec51.slot5_short",
+    "rec52.slot4_short",
+    "rec52.slot5_short",
+    "rec53.slot4_short",
+    "rec53.slot5_short",
+    "rec54.slot4_short",
+    "rec54.slot5_short",
+    "rec58.slot4_short",
+    "rec58.slot5_short",
+    "rec59.slot4_short",
+    "rec59.slot5_short",
+    "rec61.slot4_short",
+    "rec65.slot4_short",
+    "rec65.slot5_short",
+    "rec72.slot4_short",
+    "rec73.slot4_short",
+    "rec74.slot4_short",
+    "rec74.slot5_short",
+    "rec75.slot4_short",
+    "rec75.slot5_short",
+    "rec76.slot4_short",
+    "rec76.slot5_short",
+    "rec77.slot4_short",
+    "rec77.slot5_short",
+    "rec78.slot4_short",
+    "rec78.slot5_short",
+    "rec79.slot4_short",
+    "rec79.slot5_short",
+    "rec80.slot4_short",
+    "rec81.slot4_short",
+    "rec82.slot4_short",
+    "rec83.slot4_short",
+    "rec83.slot5_short",
+    "rec112.slot4_short",
+    "rec112.slot5_short",
+    "rec112.slot6_short",
+    "rec113.slot4_short",
+    "rec113.slot5_short",
+    "rec113.slot6_short",
+    "rec114.slot4_short",
+    "rec114.slot5_short",
+    "rec114.slot6_short",
+    "rec115.slot4_short",
+    "rec115.slot6_short",
+    "rec118.slot4_short",
+    "rec118.slot5_short",
+    "rec118.slot6_short",
+    "rec119.slot4_short",
+    "rec119.slot5_short",
+    "rec119.slot6_short",
+    "rec127.slot4_short",
+    "rec127.slot5_short",
+    "rec128.slot4_short",
+    "rec128.slot5_short",
+    "rec129.slot4_short",
+    "rec129.slot5_short"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "－－－－－－"
+  },
+  {
+   "id": 21,
+   "section": "STRI",
+   "offset": 14786,
+   "text_offset": 14792,
+   "role": "display",
+   "refs": [
+    "rec2.slot6_short",
+    "rec9.slot6_short",
+    "rec12.slot6_short",
+    "rec14.slot6_short",
+    "rec18.slot6_short",
+    "rec19.slot6_short",
+    "rec23.slot6_short",
+    "rec47.slot6_short",
+    "rec75.slot6_short",
+    "rec76.slot6_short",
+    "rec77.slot6_short",
+    "rec78.slot6_short",
+    "rec79.slot6_short",
+    "rec80.slot6_short",
+    "rec81.slot6_short",
+    "rec128.slot6_short",
+    "rec129.slot6_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "機体変更"
+  },
+  {
+   "id": 22,
+   "section": "STRI",
+   "offset": 14805,
+   "text_offset": 14811,
+   "role": "display",
+   "refs": [
+    "rec2.slot6_long",
+    "rec9.slot6_long",
+    "rec12.slot6_long",
+    "rec14.slot6_long",
+    "rec18.slot6_long",
+    "rec19.slot6_long",
+    "rec47.slot6_long",
+    "rec75.slot6_long",
+    "rec76.slot6_long",
+    "rec77.slot6_long",
+    "rec78.slot6_long",
+    "rec79.slot6_long",
+    "rec80.slot6_long",
+    "rec81.slot6_long",
+    "rec128.slot6_long"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "機体を変更"
+  },
+  {
+   "id": 23,
+   "section": "STRI",
+   "offset": 14827,
+   "text_offset": 14833,
+   "role": "display",
+   "refs": [
+    "rec2.slot7_short",
+    "rec3.slot7_short",
+    "rec9.slot7_short",
+    "rec10.slot6_short",
+    "rec11.slot7_short",
+    "rec12.slot7_short",
+    "rec13.slot7_short",
+    "rec15.slot7_short",
+    "rec18.slot7_short",
+    "rec19.slot7_short",
+    "rec20.slot6_short",
+    "rec21.slot7_short",
+    "rec22.slot7_short",
+    "rec27.slot7_short",
+    "rec28.slot7_short",
+    "rec29.slot7_short",
+    "rec30.slot7_short",
+    "rec31.slot6_short",
+    "rec31.slot7_short",
+    "rec33.slot6_short",
+    "rec33.slot7_short",
+    "rec34.slot6_short",
+    "rec35.slot6_short",
+    "rec35.slot7_short",
+    "rec37.slot6_short",
+    "rec39.slot6_short",
+    "rec39.slot7_short",
+    "rec40.slot6_short",
+    "rec41.slot6_short",
+    "rec41.slot7_short",
+    "rec43.slot6_short",
+    "rec44.slot6_short",
+    "rec45.slot6_short",
+    "rec46.slot6_short",
+    "rec46.slot7_short",
+    "rec47.slot7_short",
+    "rec48.slot7_short",
+    "rec49.slot6_short",
+    "rec49.slot7_short",
+    "rec50.slot6_short",
+    "rec50.slot7_short",
+    "rec51.slot6_short",
+    "rec53.slot6_short",
+    "rec53.slot7_short",
+    "rec54.slot6_short",
+    "rec54.slot7_short",
+    "rec55.slot7_short",
+    "rec56.slot4_short",
+    "rec56.slot5_short",
+    "rec56.slot6_short",
+    "rec57.slot6_short",
+    "rec58.slot6_short",
+    "rec59.slot6_short",
+    "rec59.slot7_short",
+    "rec60.slot7_short",
+    "rec61.slot6_short",
+    "rec61.slot7_short",
+    "rec72.slot6_short",
+    "rec73.slot6_short",
+    "rec74.slot6_short",
+    "rec74.slot7_short",
+    "rec78.slot7_short",
+    "rec79.slot7_short",
+    "rec80.slot7_short",
+    "rec81.slot7_short",
+    "rec82.slot6_short",
+    "rec82.slot7_short",
+    "rec83.slot6_short",
+    "rec83.slot7_short",
+    "rec114.slot7_short",
+    "rec115.slot7_short",
+    "rec118.slot7_short",
+    "rec119.slot7_short",
+    "rec122.slot6_short",
+    "rec123.slot6_short",
+    "rec123.slot7_short",
+    "rec124.slot6_short",
+    "rec124.slot7_short",
+    "rec125.slot7_short",
+    "rec126.slot7_short",
+    "rec127.slot6_short",
+    "rec127.slot7_short",
+    "rec128.slot7_short",
+    "rec129.slot7_short"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "－－－－－－－－"
+  },
+  {
+   "id": 24,
+   "section": "STRI",
+   "offset": 14858,
+   "text_offset": 14864,
+   "role": "display",
+   "refs": [
+    "rec4.slot6_short",
+    "rec5.slot6_short",
+    "rec6.slot6_short",
+    "rec72.slot7_short",
+    "rec73.slot7_short",
+    "rec75.slot7_short",
+    "rec76.slot7_short",
+    "rec77.slot7_short",
+    "rec112.slot7_short",
+    "rec113.slot7_short"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "パイロット変更"
+  },
+  {
+   "id": 25,
+   "section": "STRI",
+   "offset": 14886,
+   "text_offset": 14892,
+   "role": "display",
+   "refs": [
+    "rec4.slot6_long",
+    "rec5.slot6_long",
+    "rec6.slot6_long",
+    "rec72.slot7_long",
+    "rec73.slot7_long",
+    "rec75.slot7_long",
+    "rec76.slot7_long",
+    "rec77.slot7_long",
+    "rec112.slot7_long",
+    "rec113.slot7_long"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "パイロットを変更"
+  },
+  {
+   "id": 26,
+   "section": "STRI",
+   "offset": 14917,
+   "text_offset": 14923,
+   "role": "display",
+   "refs": [
+    "rec4.slot7_short",
+    "rec4.slot7_long",
+    "rec5.slot7_short",
+    "rec5.slot7_long",
+    "rec6.slot7_short",
+    "rec6.slot7_long",
+    "rec43.slot7_short",
+    "rec43.slot7_long",
+    "rec44.slot7_short",
+    "rec44.slot7_long",
+    "rec45.slot7_short",
+    "rec45.slot7_long",
+    "rec51.slot7_short",
+    "rec51.slot7_long",
+    "rec52.slot7_short",
+    "rec52.slot7_long",
+    "rec56.slot7_short",
+    "rec56.slot7_long",
+    "rec57.slot7_short",
+    "rec57.slot7_long",
+    "rec58.slot7_short",
+    "rec58.slot7_long",
+    "rec62.slot7_short",
+    "rec62.slot7_long",
+    "rec63.slot7_short",
+    "rec63.slot7_long",
+    "rec64.slot7_short",
+    "rec64.slot7_long",
+    "rec65.slot7_short",
+    "rec65.slot7_long"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "項目切換"
+  },
+  {
+   "id": 27,
+   "section": "STRI",
+   "offset": 14936,
+   "text_offset": 14942,
+   "role": "display",
+   "refs": [
+    "rec5.slot9_long"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "能力入力"
+  },
+  {
+   "id": 28,
+   "section": "STRI",
+   "offset": 14955,
+   "text_offset": 14961,
+   "role": "display",
+   "refs": [
+    "rec8.slot3_short",
+    "rec9.slot3_short",
+    "rec13.slot3_short",
+    "rec17.slot3_short",
+    "rec22.slot3_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "外す"
+  },
+  {
+   "id": 29,
+   "section": "STRI",
+   "offset": 14968,
+   "text_offset": 14974,
+   "role": "display",
+   "refs": [
+    "rec8.slot3_long"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "全機体の換装武器全解除"
+  },
+  {
+   "id": 30,
+   "section": "STRI",
+   "offset": 15008,
+   "text_offset": 15014,
+   "role": "display",
+   "refs": [
+    "rec9.slot3_long"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "換装武器全解除"
+  },
+  {
+   "id": 31,
+   "section": "STRI",
+   "offset": 15036,
+   "text_offset": 15042,
+   "role": "display",
+   "refs": [
+    "rec10.slot7_short",
+    "rec14.slot7_short",
+    "rec17.slot7_short",
+    "rec20.slot7_short",
+    "rec23.slot7_short",
+    "rec24.slot7_short",
+    "rec25.slot7_short",
+    "rec36.slot7_short",
+    "rec37.slot7_short",
+    "rec38.slot7_short",
+    "rec40.slot7_short",
+    "rec122.slot7_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "分類切換"
+  },
+  {
+   "id": 32,
+   "section": "STRI",
+   "offset": 15055,
+   "text_offset": 15061,
+   "role": "display",
+   "refs": [
+    "rec10.slot7_long",
+    "rec20.slot7_long",
+    "rec37.slot7_long"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "武器分類切換"
+  },
+  {
+   "id": 33,
+   "section": "STRI",
+   "offset": 15080,
+   "text_offset": 15086,
+   "role": "display",
+   "refs": [
+    "rec10.slot10_long",
+    "rec14.slot10_long",
+    "rec20.slot10_long",
+    "rec23.slot10_long"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "リストの前詰めＯＮ／ＯＦＦ切換"
+  },
+  {
+   "id": 34,
+   "section": "STRI",
+   "offset": 15132,
+   "text_offset": 15138,
+   "role": "display",
+   "refs": [
+    "rec11.slot3_short",
+    "rec11.slot3_long",
+    "rec79.slot3_short",
+    "rec81.slot3_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "改造"
+  },
+  {
+   "id": 35,
+   "section": "STRI",
+   "offset": 15145,
+   "text_offset": 15151,
+   "role": "display",
+   "refs": [
+    "rec11.slot6_short",
+    "rec21.slot6_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "武器変更"
+  },
+  {
+   "id": 36,
+   "section": "STRI",
+   "offset": 15164,
+   "text_offset": 15170,
+   "role": "display",
+   "refs": [
+    "rec11.slot6_long",
+    "rec21.slot6_long"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "武器を変更"
+  },
+  {
+   "id": 37,
+   "section": "STRI",
+   "offset": 15186,
+   "text_offset": 15192,
+   "role": "display",
+   "refs": [
+    "rec13.slot3_long",
+    "rec17.slot3_long"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "強化パーツ解除"
+  },
+  {
+   "id": 38,
+   "section": "STRI",
+   "offset": 15214,
+   "text_offset": 15220,
+   "role": "display",
+   "refs": [
+    "rec14.slot3_short",
+    "rec128.slot3_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "確認"
+  },
+  {
+   "id": 39,
+   "section": "STRI",
+   "offset": 15227,
+   "text_offset": 15233,
+   "role": "display",
+   "refs": [
+    "rec14.slot3_long",
+    "rec128.slot3_long"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "装備機体確認"
+  },
+  {
+   "id": 40,
+   "section": "STRI",
+   "offset": 15252,
+   "text_offset": 15258,
+   "role": "display",
+   "refs": [
+    "rec14.slot7_long",
+    "rec17.slot7_long"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "パーツ分類切換"
+  },
+  {
+   "id": 41,
+   "section": "STRI",
+   "offset": 15280,
+   "text_offset": 15286,
+   "role": "display",
+   "refs": [
+    "rec15.slot3_short",
+    "rec25.slot3_short",
+    "rec28.slot3_short",
+    "rec29.slot3_short",
+    "rec55.slot3_short",
+    "rec64.slot3_short",
+    "rec69.slot3_short",
+    "rec72.slot3_short",
+    "rec73.slot3_short",
+    "rec100.slot3_short",
+    "rec102.slot3_short"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "マーク"
+  },
+  {
+   "id": 42,
+   "section": "STRI",
+   "offset": 15296,
+   "text_offset": 15302,
+   "role": "display",
+   "refs": [
+    "rec15.slot3_long",
+    "rec25.slot3_long",
+    "rec28.slot3_long",
+    "rec64.slot3_long",
+    "rec69.slot3_long",
+    "rec72.slot3_long",
+    "rec73.slot3_long",
+    "rec106.slot3_long",
+    "rec107.slot3_long"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "マークＯＮ／ＯＦＦ"
+  },
+  {
+   "id": 43,
+   "section": "STRI",
+   "offset": 15330,
+   "text_offset": 15336,
+   "role": "display",
+   "refs": [
+    "rec16.slot7_short",
+    "rec16.slot7_long"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "パーツ変更"
+  },
+  {
+   "id": 44,
+   "section": "STRI",
+   "offset": 15352,
+   "text_offset": 15358,
+   "role": "display",
+   "refs": [
+    "rec17.slot10_short",
+    "rec17.slot10_long",
+    "rec127.slot10_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "売却実行"
+  },
+  {
+   "id": 45,
+   "section": "STRI",
+   "offset": 15371,
+   "text_offset": 15377,
+   "role": "display",
+   "refs": [
+    "rec18.slot3_short",
+    "rec19.slot3_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "変形"
+  },
+  {
+   "id": 46,
+   "section": "STRI",
+   "offset": 15384,
+   "text_offset": 15390,
+   "role": "display",
+   "refs": [
+    "rec18.slot3_long",
+    "rec19.slot3_long"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "変形確認"
+  },
+  {
+   "id": 47,
+   "section": "STRI",
+   "offset": 15403,
+   "text_offset": 15409,
+   "role": "display",
+   "refs": [
+    "rec18.slot5_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "武器改造"
+  },
+  {
+   "id": 48,
+   "section": "STRI",
+   "offset": 15422,
+   "text_offset": 15428,
+   "role": "display",
+   "refs": [
+    "rec18.slot5_long"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "武器の改造"
+  },
+  {
+   "id": 49,
+   "section": "STRI",
+   "offset": 15444,
+   "text_offset": 15450,
+   "role": "display",
+   "refs": [
+    "rec18.slot9_short",
+    "rec18.slot9_long",
+    "rec19.slot9_short",
+    "rec19.slot9_long",
+    "rec21.slot9_short",
+    "rec21.slot9_long"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "改造値入力"
+  },
+  {
+   "id": 50,
+   "section": "STRI",
+   "offset": 15466,
+   "text_offset": 15472,
+   "role": "display",
+   "refs": [
+    "rec19.slot4_short",
+    "rec20.slot4_short",
+    "rec21.slot4_short"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "頁切換"
+  },
+  {
+   "id": 51,
+   "section": "STRI",
+   "offset": 15482,
+   "text_offset": 15488,
+   "role": "display",
+   "refs": [
+    "rec19.slot5_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "機体改造"
+  },
+  {
+   "id": 52,
+   "section": "STRI",
+   "offset": 15501,
+   "text_offset": 15507,
+   "role": "display",
+   "refs": [
+    "rec19.slot5_long"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "機体の改造"
+  },
+  {
+   "id": 53,
+   "section": "STRI",
+   "offset": 15523,
+   "text_offset": 15529,
+   "role": "display",
+   "refs": [
+    "rec22.slot3_long"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "アビリティ解除"
+  },
+  {
+   "id": 54,
+   "section": "STRI",
+   "offset": 15551,
+   "text_offset": 15557,
+   "role": "display",
+   "refs": [
+    "rec23.slot3_short",
+    "rec129.slot3_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "入換"
+  },
+  {
+   "id": 55,
+   "section": "STRI",
+   "offset": 15564,
+   "text_offset": 15570,
+   "role": "display",
+   "refs": [
+    "rec23.slot3_long",
+    "rec129.slot3_long"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "メインとサブを入換"
+  },
+  {
+   "id": 56,
+   "section": "STRI",
+   "offset": 15598,
+   "text_offset": 15604,
+   "role": "display",
+   "refs": [
+    "rec23.slot6_long",
+    "rec129.slot6_long"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "機体・パイロットを変更"
+  },
+  {
+   "id": 57,
+   "section": "STRI",
+   "offset": 15638,
+   "text_offset": 15644,
+   "role": "display",
+   "refs": [
+    "rec23.slot7_long"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "アビリティ分類切換"
+  },
+  {
+   "id": 58,
+   "section": "STRI",
+   "offset": 15672,
+   "text_offset": 15678,
+   "role": "display",
+   "refs": [
+    "rec24.slot7_long",
+    "rec25.slot7_long"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "一覧表示分類切換"
+  },
+  {
+   "id": 59,
+   "section": "STRI",
+   "offset": 15703,
+   "text_offset": 15709,
+   "role": "display",
+   "refs": [
+    "rec26.slot3_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "詳細"
+  },
+  {
+   "id": 60,
+   "section": "STRI",
+   "offset": 15716,
+   "text_offset": 15722,
+   "role": "display",
+   "refs": [
+    "rec26.slot3_long"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "詳細メニュー"
+  },
+  {
+   "id": 61,
+   "section": "STRI",
+   "offset": 15741,
+   "text_offset": 15747,
+   "role": "display",
+   "refs": [
+    "rec26.slot4_short",
+    "rec27.slot4_short",
+    "rec28.slot4_short",
+    "rec29.slot4_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "検索設定"
+  },
+  {
+   "id": 62,
+   "section": "STRI",
+   "offset": 15760,
+   "text_offset": 15766,
+   "role": "display",
+   "refs": [
+    "rec26.slot4_long",
+    "rec27.slot4_long",
+    "rec28.slot4_long",
+    "rec29.slot4_long",
+    "rec32.slot3_long"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "検索項目設定"
+  },
+  {
+   "id": 63,
+   "section": "STRI",
+   "offset": 15785,
+   "text_offset": 15791,
+   "role": "display",
+   "refs": [
+    "rec26.slot6_short",
+    "rec27.slot6_short",
+    "rec28.slot6_short",
+    "rec29.slot6_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "検索切換"
+  },
+  {
+   "id": 64,
+   "section": "STRI",
+   "offset": 15804,
+   "text_offset": 15810,
+   "role": "display",
+   "refs": [
+    "rec26.slot6_long",
+    "rec27.slot6_long",
+    "rec28.slot6_long",
+    "rec29.slot6_long"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "検索項目切換"
+  },
+  {
+   "id": 65,
+   "section": "STRI",
+   "offset": 15829,
+   "text_offset": 15835,
+   "role": "display",
+   "refs": [
+    "rec26.slot10_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "サポート"
+  },
+  {
+   "id": 66,
+   "section": "STRI",
+   "offset": 15848,
+   "text_offset": 15854,
+   "role": "display",
+   "refs": [
+    "rec26.slot10_long"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "サポートコマンド"
+  },
+  {
+   "id": 67,
+   "section": "STRI",
+   "offset": 15879,
+   "text_offset": 15885,
+   "role": "display",
+   "refs": [
+    "rec27.slot3_short"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "モード"
+  },
+  {
+   "id": 68,
+   "section": "STRI",
+   "offset": 15895,
+   "text_offset": 15901,
+   "role": "display",
+   "refs": [
+    "rec27.slot3_long"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "モード切換"
+  },
+  {
+   "id": 69,
+   "section": "STRI",
+   "offset": 15917,
+   "text_offset": 15923,
+   "role": "display",
+   "refs": [
+    "rec29.slot3_long",
+    "rec55.slot3_long"
+   ],
+   "orig_chars": [
+    63
+   ],
+   "orig_bytes": 92,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "マークＯＮ／ＯＦＦ（＋<W=32><H=32><S=-4><Y=-3><I=124></Y><S=-4></H></W>全て）"
+  },
+  {
+   "id": 70,
+   "section": "STRI",
+   "offset": 16015,
+   "text_offset": 16021,
+   "role": "display",
+   "refs": [
+    "rec30.slot6_short",
+    "rec30.slot6_long"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "部隊変更"
+  },
+  {
+   "id": 71,
+   "section": "STRI",
+   "offset": 16034,
+   "text_offset": 16040,
+   "role": "display",
+   "refs": [
+    "rec32.slot3_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "検索"
+  },
+  {
+   "id": 72,
+   "section": "STRI",
+   "offset": 16047,
+   "text_offset": 16053,
+   "role": "display",
+   "refs": [
+    "rec33.slot3_short",
+    "rec44.slot3_short",
+    "rec58.slot3_short",
+    "rec59.slot3_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "戻す"
+  },
+  {
+   "id": 73,
+   "section": "STRI",
+   "offset": 16060,
+   "text_offset": 16066,
+   "role": "display",
+   "refs": [
+    "rec33.slot3_long",
+    "rec44.slot3_long",
+    "rec58.slot3_long",
+    "rec59.slot3_long"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "設定を元に戻す"
+  },
+  {
+   "id": 74,
+   "section": "STRI",
+   "offset": 16088,
+   "text_offset": 16094,
+   "role": "display",
+   "refs": [
+    "rec33.slot9_long",
+    "rec44.slot9_long",
+    "rec57.slot9_long",
+    "rec58.slot9_long",
+    "rec59.slot9_long"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "設定選択"
+  },
+  {
+   "id": 75,
+   "section": "STRI",
+   "offset": 16107,
+   "text_offset": 16113,
+   "role": "display",
+   "refs": [
+    "rec34.slot2_short",
+    "rec39.slot2_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "先攻"
+  },
+  {
+   "id": 76,
+   "section": "STRI",
+   "offset": 16120,
+   "text_offset": 16126,
+   "role": "display",
+   "refs": [
+    "rec34.slot2_long",
+    "rec39.slot2_long"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "先攻切換"
+  },
+  {
+   "id": 77,
+   "section": "STRI",
+   "offset": 16139,
+   "text_offset": 16145,
+   "role": "display",
+   "refs": [
+    "rec34.slot5_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "情報表示"
+  },
+  {
+   "id": 78,
+   "section": "STRI",
+   "offset": 16158,
+   "text_offset": 16164,
+   "role": "display",
+   "refs": [
+    "rec34.slot5_long"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "情報表示の切換"
+  },
+  {
+   "id": 79,
+   "section": "STRI",
+   "offset": 16186,
+   "text_offset": 16192,
+   "role": "display",
+   "refs": [
+    "rec34.slot10_long",
+    "rec68.slot10_long",
+    "rec120.slot10_long"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "戦闘開始"
+  },
+  {
+   "id": 80,
+   "section": "STRI",
+   "offset": 16205,
+   "text_offset": 16211,
+   "role": "display",
+   "refs": [
+    "rec36.slot7_long"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "機体分類切換"
+  },
+  {
+   "id": 81,
+   "section": "STRI",
+   "offset": 16230,
+   "text_offset": 16236,
+   "role": "display",
+   "refs": [
+    "rec38.slot7_long"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "パイロット分類切換"
+  },
+  {
+   "id": 82,
+   "section": "STRI",
+   "offset": 16264,
+   "text_offset": 16270,
+   "role": "display",
+   "refs": [
+    "rec40.slot7_long"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "背景分類切換"
+  },
+  {
+   "id": 83,
+   "section": "STRI",
+   "offset": 16289,
+   "text_offset": 16295,
+   "role": "display",
+   "refs": [
+    "rec41.slot2_short",
+    "rec61.slot2_short",
+    "rec62.slot2_short",
+    "rec122.slot2_short",
+    "rec124.slot2_short",
+    "rec125.slot2_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "再生"
+  },
+  {
+   "id": 84,
+   "section": "STRI",
+   "offset": 16302,
+   "text_offset": 16308,
+   "role": "display",
+   "refs": [
+    "rec41.slot2_long",
+    "rec61.slot2_long",
+    "rec62.slot2_long",
+    "rec122.slot2_long",
+    "rec124.slot2_long"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "再生（試聴）"
+  },
+  {
+   "id": 85,
+   "section": "STRI",
+   "offset": 16327,
+   "text_offset": 16333,
+   "role": "display",
+   "refs": [
+    "rec41.slot3_short",
+    "rec50.slot3_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "停止"
+  },
+  {
+   "id": 86,
+   "section": "STRI",
+   "offset": 16340,
+   "text_offset": 16346,
+   "role": "display",
+   "refs": [
+    "rec41.slot3_long",
+    "rec50.slot3_long"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＢＧＭの停止"
+  },
+  {
+   "id": 87,
+   "section": "STRI",
+   "offset": 16365,
+   "text_offset": 16371,
+   "role": "display",
+   "refs": [
+    "rec42.slot3_short",
+    "rec110.slot3_short",
+    "rec121.slot3_short"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "メイン"
+  },
+  {
+   "id": 88,
+   "section": "STRI",
+   "offset": 16381,
+   "text_offset": 16387,
+   "role": "display",
+   "refs": [
+    "rec42.slot3_long"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "メイン機体を変更"
+  },
+  {
+   "id": 89,
+   "section": "STRI",
+   "offset": 16412,
+   "text_offset": 16418,
+   "role": "display",
+   "refs": [
+    "rec42.slot10_long"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "選択終了"
+  },
+  {
+   "id": 90,
+   "section": "STRI",
+   "offset": 16431,
+   "text_offset": 16437,
+   "role": "display",
+   "refs": [
+    "rec44.slot0_long"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "設定画面へ"
+  },
+  {
+   "id": 91,
+   "section": "STRI",
+   "offset": 16453,
+   "text_offset": 16459,
+   "role": "display",
+   "refs": [
+    "rec44.slot1_short",
+    "rec58.slot1_short",
+    "rec59.slot1_short",
+    "rec93.slot0_long",
+    "rec94.slot0_short",
+    "rec96.slot0_long",
+    "rec103.slot0_long",
+    "rec104.slot0_long"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "終了"
+  },
+  {
+   "id": 92,
+   "section": "STRI",
+   "offset": 16466,
+   "text_offset": 16472,
+   "role": "display",
+   "refs": [
+    "rec44.slot1_long",
+    "rec58.slot1_long",
+    "rec59.slot1_long",
+    "rec85.slot1_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "設定終了"
+  },
+  {
+   "id": 93,
+   "section": "STRI",
+   "offset": 16485,
+   "text_offset": 16491,
+   "role": "display",
+   "refs": [
+    "rec46.slot9_long",
+    "rec49.slot9_long",
+    "rec80.slot9_long",
+    "rec81.slot9_long"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "選択／ページ切換"
+  },
+  {
+   "id": 94,
+   "section": "STRI",
+   "offset": 16516,
+   "text_offset": 16522,
+   "role": "display",
+   "refs": [
+    "rec47.slot3_short",
+    "rec48.slot3_short",
+    "rec90.slot4_short",
+    "rec94.slot2_short",
+    "rec118.slot3_short",
+    "rec119.slot3_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "用語"
+  },
+  {
+   "id": 95,
+   "section": "STRI",
+   "offset": 16529,
+   "text_offset": 16535,
+   "role": "display",
+   "refs": [
+    "rec47.slot3_long",
+    "rec48.slot3_long",
+    "rec116.slot3_long",
+    "rec118.slot3_long",
+    "rec119.slot3_long"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 56,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "用語表示（<C=00FFFFFF>文字色が緑色時</C>）"
+  },
+  {
+   "id": 96,
+   "section": "STRI",
+   "offset": 16591,
+   "text_offset": 16597,
+   "role": "display",
+   "refs": [
+    "rec47.slot8_long",
+    "rec48.slot8_long",
+    "rec118.slot8_long",
+    "rec119.slot8_long"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "説明文スクロール"
+  },
+  {
+   "id": 97,
+   "section": "STRI",
+   "offset": 16622,
+   "text_offset": 16628,
+   "role": "display",
+   "refs": [
+    "rec48.slot0_short",
+    "rec119.slot0_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "台詞"
+  },
+  {
+   "id": 98,
+   "section": "STRI",
+   "offset": 16635,
+   "text_offset": 16641,
+   "role": "display",
+   "refs": [
+    "rec48.slot0_long",
+    "rec119.slot0_long"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "台詞再生"
+  },
+  {
+   "id": 99,
+   "section": "STRI",
+   "offset": 16654,
+   "text_offset": 16660,
+   "role": "display",
+   "refs": [
+    "rec48.slot2_short",
+    "rec119.slot2_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "表情"
+  },
+  {
+   "id": 100,
+   "section": "STRI",
+   "offset": 16667,
+   "text_offset": 16673,
+   "role": "display",
+   "refs": [
+    "rec48.slot2_long",
+    "rec119.slot2_long"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "表情を変更"
+  },
+  {
+   "id": 101,
+   "section": "STRI",
+   "offset": 16689,
+   "text_offset": 16695,
+   "role": "display",
+   "refs": [
+    "rec48.slot6_short"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "キャラ変更"
+  },
+  {
+   "id": 102,
+   "section": "STRI",
+   "offset": 16711,
+   "text_offset": 16717,
+   "role": "display",
+   "refs": [
+    "rec48.slot6_long"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "キャラクターを変更"
+  },
+  {
+   "id": 103,
+   "section": "STRI",
+   "offset": 16745,
+   "text_offset": 16751,
+   "role": "display",
+   "refs": [
+    "rec52.slot3_short"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "リンク"
+  },
+  {
+   "id": 104,
+   "section": "STRI",
+   "offset": 16761,
+   "text_offset": 16767,
+   "role": "display",
+   "refs": [
+    "rec52.slot3_long"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "リンク表示"
+  },
+  {
+   "id": 105,
+   "section": "STRI",
+   "offset": 16783,
+   "text_offset": 16789,
+   "role": "display",
+   "refs": [
+    "rec52.slot6_short",
+    "rec52.slot6_long"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "リンク切換"
+  },
+  {
+   "id": 106,
+   "section": "STRI",
+   "offset": 16805,
+   "text_offset": 16811,
+   "role": "display",
+   "refs": [
+    "rec52.slot10_long"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "アンサー終了"
+  },
+  {
+   "id": 107,
+   "section": "STRI",
+   "offset": 16830,
+   "text_offset": 16836,
+   "role": "display",
+   "refs": [
+    "rec53.slot2_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "速度"
+  },
+  {
+   "id": 108,
+   "section": "STRI",
+   "offset": 16843,
+   "text_offset": 16849,
+   "role": "display",
+   "refs": [
+    "rec53.slot2_long"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "カーソルスピードＵＰ"
+  },
+  {
+   "id": 109,
+   "section": "STRI",
+   "offset": 16880,
+   "text_offset": 16886,
+   "role": "display",
+   "refs": [
+    "rec57.slot4_short"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "コピー"
+  },
+  {
+   "id": 110,
+   "section": "STRI",
+   "offset": 16896,
+   "text_offset": 16902,
+   "role": "display",
+   "refs": [
+    "rec57.slot4_long"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 49,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "反撃設定（全項目の内容）をコピー"
+  },
+  {
+   "id": 111,
+   "section": "STRI",
+   "offset": 16951,
+   "text_offset": 16957,
+   "role": "display",
+   "refs": [
+    "rec57.slot5_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ペースト"
+  },
+  {
+   "id": 112,
+   "section": "STRI",
+   "offset": 16970,
+   "text_offset": 16976,
+   "role": "display",
+   "refs": [
+    "rec57.slot5_long"
+   ],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "コピーした反撃設定へ変更"
+  },
+  {
+   "id": 113,
+   "section": "STRI",
+   "offset": 17013,
+   "text_offset": 17019,
+   "role": "display",
+   "refs": [
+    "rec62.slot3_short",
+    "rec125.slot3_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "基本"
+  },
+  {
+   "id": 114,
+   "section": "STRI",
+   "offset": 17026,
+   "text_offset": 17032,
+   "role": "display",
+   "refs": [
+    "rec62.slot3_long",
+    "rec125.slot3_long"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "基本曲に戻す"
+  },
+  {
+   "id": 115,
+   "section": "STRI",
+   "offset": 17051,
+   "text_offset": 17057,
+   "role": "display",
+   "refs": [
+    "rec65.slot6_short",
+    "rec65.slot6_long"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "スキップ"
+  },
+  {
+   "id": 116,
+   "section": "STRI",
+   "offset": 17070,
+   "text_offset": 17076,
+   "role": "display",
+   "refs": [
+    "rec66.slot0_short",
+    "rec67.slot0_short"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "マップ"
+  },
+  {
+   "id": 117,
+   "section": "STRI",
+   "offset": 17086,
+   "text_offset": 17092,
+   "role": "display",
+   "refs": [
+    "rec66.slot0_long"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "マップの機体の場所へ"
+  },
+  {
+   "id": 118,
+   "section": "STRI",
+   "offset": 17123,
+   "text_offset": 17129,
+   "role": "display",
+   "refs": [
+    "rec66.slot3_short",
+    "rec71.slot3_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "部隊"
+  },
+  {
+   "id": 119,
+   "section": "STRI",
+   "offset": 17136,
+   "text_offset": 17142,
+   "role": "display",
+   "refs": [
+    "rec66.slot3_long",
+    "rec71.slot3_long"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "情報切換（部隊）"
+  },
+  {
+   "id": 120,
+   "section": "STRI",
+   "offset": 17167,
+   "text_offset": 17173,
+   "role": "display",
+   "refs": [
+    "rec66.slot10_short",
+    "rec67.slot10_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "勢力切換"
+  },
+  {
+   "id": 121,
+   "section": "STRI",
+   "offset": 17186,
+   "text_offset": 17192,
+   "role": "display",
+   "refs": [
+    "rec66.slot10_long",
+    "rec67.slot10_long"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "勢力（敵／味方）切換"
+  },
+  {
+   "id": 122,
+   "section": "STRI",
+   "offset": 17223,
+   "text_offset": 17229,
+   "role": "display",
+   "refs": [
+    "rec67.slot0_long"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "マップの部隊の場所へ"
+  },
+  {
+   "id": 123,
+   "section": "STRI",
+   "offset": 17260,
+   "text_offset": 17266,
+   "role": "display",
+   "refs": [
+    "rec67.slot3_short",
+    "rec70.slot3_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "機体"
+  },
+  {
+   "id": 124,
+   "section": "STRI",
+   "offset": 17273,
+   "text_offset": 17279,
+   "role": "display",
+   "refs": [
+    "rec67.slot3_long",
+    "rec70.slot3_long"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "情報切換（機体）"
+  },
+  {
+   "id": 125,
+   "section": "STRI",
+   "offset": 17304,
+   "text_offset": 17310,
+   "role": "display",
+   "refs": [
+    "rec68.slot2_short",
+    "rec120.slot2_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "デモ"
+  },
+  {
+   "id": 126,
+   "section": "STRI",
+   "offset": 17317,
+   "text_offset": 17323,
+   "role": "display",
+   "refs": [
+    "rec68.slot2_long",
+    "rec120.slot2_long"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "戦闘ＯＮ／ＯＦＦ切換"
+  },
+  {
+   "id": 127,
+   "section": "STRI",
+   "offset": 17354,
+   "text_offset": 17360,
+   "role": "display",
+   "refs": [
+    "rec68.slot3_short",
+    "rec120.slot3_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "精神"
+  },
+  {
+   "id": 128,
+   "section": "STRI",
+   "offset": 17367,
+   "text_offset": 17373,
+   "role": "display",
+   "refs": [
+    "rec68.slot3_long",
+    "rec120.slot3_long"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "精神コマンド"
+  },
+  {
+   "id": 129,
+   "section": "STRI",
+   "offset": 17392,
+   "text_offset": 17398,
+   "role": "display",
+   "refs": [
+    "rec68.slot4_short",
+    "rec120.slot4_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "情報"
+  },
+  {
+   "id": 130,
+   "section": "STRI",
+   "offset": 17405,
+   "text_offset": 17411,
+   "role": "display",
+   "refs": [
+    "rec68.slot4_long",
+    "rec120.slot4_long"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "情報切換"
+  },
+  {
+   "id": 131,
+   "section": "STRI",
+   "offset": 17424,
+   "text_offset": 17430,
+   "role": "display",
+   "refs": [
+    "rec68.slot5_short",
+    "rec120.slot5_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "援護切換"
+  },
+  {
+   "id": 132,
+   "section": "STRI",
+   "offset": 17443,
+   "text_offset": 17449,
+   "role": "display",
+   "refs": [
+    "rec68.slot5_long",
+    "rec120.slot5_long"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "援護ＯＮ／ＯＦＦ切換"
+  },
+  {
+   "id": 133,
+   "section": "STRI",
+   "offset": 17480,
+   "text_offset": 17486,
+   "role": "display",
+   "refs": [
+    "rec68.slot6_short",
+    "rec120.slot6_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "反撃設定"
+  },
+  {
+   "id": 134,
+   "section": "STRI",
+   "offset": 17499,
+   "text_offset": 17505,
+   "role": "display",
+   "refs": [
+    "rec68.slot6_long",
+    "rec120.slot6_long"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "反撃時の行動切換"
+  },
+  {
+   "id": 135,
+   "section": "STRI",
+   "offset": 17530,
+   "text_offset": 17536,
+   "role": "display",
+   "refs": [
+    "rec68.slot7_short",
+    "rec120.slot7_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "矢印切換"
+  },
+  {
+   "id": 136,
+   "section": "STRI",
+   "offset": 17549,
+   "text_offset": 17555,
+   "role": "display",
+   "refs": [
+    "rec68.slot7_long",
+    "rec120.slot7_long"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "矢印シーン切換"
+  },
+  {
+   "id": 137,
+   "section": "STRI",
+   "offset": 17577,
+   "text_offset": 17583,
+   "role": "display",
+   "refs": [
+    "rec72.slot5_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "一覧表示"
+  },
+  {
+   "id": 138,
+   "section": "STRI",
+   "offset": 17596,
+   "text_offset": 17602,
+   "role": "display",
+   "refs": [
+    "rec72.slot5_long"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "一覧表示へ切換"
+  },
+  {
+   "id": 139,
+   "section": "STRI",
+   "offset": 17624,
+   "text_offset": 17630,
+   "role": "display",
+   "refs": [
+    "rec73.slot5_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "通常表示"
+  },
+  {
+   "id": 140,
+   "section": "STRI",
+   "offset": 17643,
+   "text_offset": 17649,
+   "role": "display",
+   "refs": [
+    "rec73.slot5_long"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "通常表示へ切換"
+  },
+  {
+   "id": 141,
+   "section": "STRI",
+   "offset": 17671,
+   "text_offset": 17677,
+   "role": "display",
+   "refs": [
+    "rec75.slot2_short",
+    "rec80.slot2_short",
+    "rec81.slot2_short",
+    "rec82.slot2_short",
+    "rec83.slot2_short",
+    "rec112.slot2_short",
+    "rec115.slot2_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "表示"
+  },
+  {
+   "id": 142,
+   "section": "STRI",
+   "offset": 17684,
+   "text_offset": 17690,
+   "role": "display",
+   "refs": [
+    "rec75.slot2_long",
+    "rec80.slot2_long",
+    "rec81.slot2_long",
+    "rec82.slot2_long",
+    "rec83.slot2_long",
+    "rec112.slot2_long",
+    "rec115.slot2_long"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "表示切換"
+  },
+  {
+   "id": 143,
+   "section": "STRI",
+   "offset": 17703,
+   "text_offset": 17709,
+   "role": "display",
+   "refs": [
+    "rec76.slot2_short",
+    "rec76.slot2_long",
+    "rec77.slot2_short",
+    "rec77.slot2_long"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "事典"
+  },
+  {
+   "id": 144,
+   "section": "STRI",
+   "offset": 17716,
+   "text_offset": 17722,
+   "role": "display",
+   "refs": [
+    "rec77.slot3_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "養成"
+  },
+  {
+   "id": 145,
+   "section": "STRI",
+   "offset": 17729,
+   "text_offset": 17735,
+   "role": "display",
+   "refs": [
+    "rec77.slot3_long"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "パイロット養成"
+  },
+  {
+   "id": 146,
+   "section": "STRI",
+   "offset": 17757,
+   "text_offset": 17763,
+   "role": "display",
+   "refs": [
+    "rec78.slot2_short",
+    "rec78.slot2_long",
+    "rec79.slot2_short",
+    "rec79.slot2_long"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "図鑑"
+  },
+  {
+   "id": 147,
+   "section": "STRI",
+   "offset": 17770,
+   "text_offset": 17776,
+   "role": "display",
+   "refs": [
+    "rec79.slot3_long",
+    "rec81.slot3_long"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "機体・武器改造"
+  },
+  {
+   "id": 148,
+   "section": "STRI",
+   "offset": 17798,
+   "text_offset": 17804,
+   "role": "display",
+   "refs": [
+    "rec80.slot5_short",
+    "rec81.slot5_short",
+    "rec82.slot5_short",
+    "rec115.slot5_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "支援武器"
+  },
+  {
+   "id": 149,
+   "section": "STRI",
+   "offset": 17817,
+   "text_offset": 17823,
+   "role": "display",
+   "refs": [
+    "rec80.slot5_long",
+    "rec81.slot5_long",
+    "rec82.slot5_long",
+    "rec115.slot5_long"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "支援武器を変更"
+  },
+  {
+   "id": 150,
+   "section": "STRI",
+   "offset": 17845,
+   "text_offset": 17851,
+   "role": "display",
+   "refs": [
+    "rec85.slot0_short"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "検索項目の設定"
+  },
+  {
+   "id": 151,
+   "section": "STRI",
+   "offset": 17873,
+   "text_offset": 17879,
+   "role": "display",
+   "refs": [
+    "rec85.slot3_short"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "設定のクリア"
+  },
+  {
+   "id": 152,
+   "section": "STRI",
+   "offset": 17898,
+   "text_offset": 17904,
+   "role": "display",
+   "refs": [
+    "rec85.slot8_short"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "設定の切換"
+  },
+  {
+   "id": 153,
+   "section": "STRI",
+   "offset": 17920,
+   "text_offset": 17926,
+   "role": "display",
+   "refs": [
+    "rec85.slot9_short",
+    "rec85.slot9_long"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "優先の切換"
+  },
+  {
+   "id": 154,
+   "section": "STRI",
+   "offset": 17942,
+   "text_offset": 17948,
+   "role": "display",
+   "refs": [
+    "rec90.slot0_short"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "行戻し"
+  },
+  {
+   "id": 155,
+   "section": "STRI",
+   "offset": 17958,
+   "text_offset": 17964,
+   "role": "display",
+   "refs": [
+    "rec90.slot1_short"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "行送り"
+  },
+  {
+   "id": 156,
+   "section": "STRI",
+   "offset": 17974,
+   "text_offset": 17980,
+   "role": "display",
+   "refs": [
+    "rec90.slot2_short"
+   ],
+   "orig_chars": [
+    71
+   ],
+   "orig_bytes": 92,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "台詞戻し（＋<X=3><Y=-4><C=FFFFFFFF><W=32><H=32><I=55></H></W></C></Y></X>：高速）"
+  },
+  {
+   "id": 157,
+   "section": "STRI",
+   "offset": 18072,
+   "text_offset": 18078,
+   "role": "display",
+   "refs": [
+    "rec90.slot3_short"
+   ],
+   "orig_chars": [
+    71
+   ],
+   "orig_bytes": 92,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "台詞送り（＋<X=3><Y=-4><C=FFFFFFFF><W=32><H=32><I=55></H></W></C></Y></X>：高速）"
+  },
+  {
+   "id": 158,
+   "section": "STRI",
+   "offset": 18170,
+   "text_offset": 18176,
+   "role": "display",
+   "refs": [
+    "rec91.slot3_short"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "全隊逆順配置"
+  },
+  {
+   "id": 159,
+   "section": "STRI",
+   "offset": 18195,
+   "text_offset": 18201,
+   "role": "display",
+   "refs": [
+    "rec91.slot4_short",
+    "rec92.slot4_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "出撃"
+  },
+  {
+   "id": 160,
+   "section": "STRI",
+   "offset": 18208,
+   "text_offset": 18214,
+   "role": "display",
+   "refs": [
+    "rec94.slot3_short"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "用語の切換"
+  },
+  {
+   "id": 161,
+   "section": "STRI",
+   "offset": 18230,
+   "text_offset": 18236,
+   "role": "display",
+   "refs": [
+    "rec95.slot0_short"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "増減（１００ずつ）"
+  },
+  {
+   "id": 162,
+   "section": "STRI",
+   "offset": 18264,
+   "text_offset": 18270,
+   "role": "display",
+   "refs": [
+    "rec95.slot1_short"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "増減（１０００ずつ）"
+  },
+  {
+   "id": 163,
+   "section": "STRI",
+   "offset": 18301,
+   "text_offset": 18307,
+   "role": "display",
+   "refs": [
+    "rec95.slot2_short"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "増減（１０ずつ）"
+  },
+  {
+   "id": 164,
+   "section": "STRI",
+   "offset": 18332,
+   "text_offset": 18338,
+   "role": "display",
+   "refs": [
+    "rec95.slot3_short"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "増減（１ずつ）"
+  },
+  {
+   "id": 165,
+   "section": "STRI",
+   "offset": 18360,
+   "text_offset": 18366,
+   "role": "display",
+   "refs": [
+    "rec97.slot0_long"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "詳細確認画面へ"
+  },
+  {
+   "id": 166,
+   "section": "STRI",
+   "offset": 18388,
+   "text_offset": 18394,
+   "role": "display",
+   "refs": [
+    "rec98.slot4_short",
+    "rec117.slot4_short"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "武器変更（メイン）"
+  },
+  {
+   "id": 167,
+   "section": "STRI",
+   "offset": 18422,
+   "text_offset": 18428,
+   "role": "display",
+   "refs": [
+    "rec98.slot4_long",
+    "rec117.slot4_long"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "メイン機体の武器変更"
+  },
+  {
+   "id": 168,
+   "section": "STRI",
+   "offset": 18459,
+   "text_offset": 18465,
+   "role": "display",
+   "refs": [
+    "rec98.slot5_short",
+    "rec117.slot5_short"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "武器変更（サブ）"
+  },
+  {
+   "id": 169,
+   "section": "STRI",
+   "offset": 18490,
+   "text_offset": 18496,
+   "role": "display",
+   "refs": [
+    "rec98.slot5_long",
+    "rec117.slot5_long"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "サブ機体の武器変更"
+  },
+  {
+   "id": 170,
+   "section": "STRI",
+   "offset": 18524,
+   "text_offset": 18530,
+   "role": "display",
+   "refs": [
+    "rec98.slot9_short",
+    "rec98.slot9_long",
+    "rec99.slot9_short",
+    "rec99.slot9_long"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "参加機体を切換"
+  },
+  {
+   "id": 171,
+   "section": "STRI",
+   "offset": 18552,
+   "text_offset": 18558,
+   "role": "display",
+   "refs": [
+    "rec100.slot2_short",
+    "rec101.slot2_short"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "リスト選択"
+  },
+  {
+   "id": 172,
+   "section": "STRI",
+   "offset": 18574,
+   "text_offset": 18580,
+   "role": "display",
+   "refs": [
+    "rec110.slot0_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "コマンド"
+  },
+  {
+   "id": 173,
+   "section": "STRI",
+   "offset": 18593,
+   "text_offset": 18599,
+   "role": "display",
+   "refs": [
+    "rec110.slot0_long"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "個別コマンド"
+  },
+  {
+   "id": 174,
+   "section": "STRI",
+   "offset": 18618,
+   "text_offset": 18624,
+   "role": "display",
+   "refs": [
+    "rec110.slot3_long",
+    "rec121.slot3_long"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "メイン・サブ切換"
+  },
+  {
+   "id": 175,
+   "section": "STRI",
+   "offset": 18649,
+   "text_offset": 18655,
+   "role": "display",
+   "refs": [
+    "rec110.slot6_long",
+    "rec111.slot6_long",
+    "rec121.slot6_long"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ユニットを変更（味方）"
+  },
+  {
+   "id": 176,
+   "section": "STRI",
+   "offset": 18689,
+   "text_offset": 18695,
+   "role": "display",
+   "refs": [
+    "rec110.slot7_long",
+    "rec111.slot7_long",
+    "rec121.slot7_long"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ユニットを変更（敵）"
+  },
+  {
+   "id": 177,
+   "section": "STRI",
+   "offset": 18726,
+   "text_offset": 18732,
+   "role": "display",
+   "refs": [
+    "rec116.slot0_long"
+   ],
+   "orig_chars": [
+    58
+   ],
+   "orig_bytes": 77,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "台詞送り（＋<W=32><H=32><S=-4><Y=-3><I=122></Y><S=-4></H></W>高速）"
+  },
+  {
+   "id": 178,
+   "section": "STRI",
+   "offset": 18809,
+   "text_offset": 18815,
+   "role": "display",
+   "refs": [
+    "rec116.slot2_long"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "バックログ"
+  },
+  {
+   "id": 179,
+   "section": "STRI",
+   "offset": 18831,
+   "text_offset": 18837,
+   "role": "display",
+   "refs": [
+    "rec116.slot8_long"
+   ],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "台詞の自動送り＆速度調整"
+  },
+  {
+   "id": 180,
+   "section": "STRI",
+   "offset": 18874,
+   "text_offset": 18880,
+   "role": "display",
+   "refs": [
+    "rec116.slot10_long"
+   ],
+   "orig_chars": [
+    58
+   ],
+   "orig_bytes": 77,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "（＋<W=32><H=32><S=-4><Y=-3><I=122></Y><S=-4></H></W>台詞スキップ）"
+  },
+  {
+   "id": 181,
+   "section": "STRI",
+   "offset": 18957,
+   "text_offset": 18963,
+   "role": "display",
+   "refs": [
+    "rec120.slot0_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "手動"
+  },
+  {
+   "id": 182,
+   "section": "STRI",
+   "offset": 18970,
+   "text_offset": 18976,
+   "role": "display",
+   "refs": [
+    "rec120.slot0_long"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "手動設定"
+  },
+  {
+   "id": 183,
+   "section": "STRI",
+   "offset": 18989,
+   "text_offset": 18995,
+   "role": "display",
+   "refs": [
+    "rec122.slot3_short"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "登録"
+  },
+  {
+   "id": 184,
+   "section": "STRI",
+   "offset": 19002,
+   "text_offset": 19008,
+   "role": "display",
+   "refs": [
+    "rec122.slot3_long"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "スロットに曲を登録"
+  },
+  {
+   "id": 185,
+   "section": "STRI",
+   "offset": 19036,
+   "text_offset": 19042,
+   "role": "display",
+   "refs": [
+    "rec122.slot4_short",
+    "rec123.slot4_short",
+    "rec124.slot4_short"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "情報更新"
+  },
+  {
+   "id": 186,
+   "section": "STRI",
+   "offset": 19055,
+   "text_offset": 19061,
+   "role": "display",
+   "refs": [
+    "rec122.slot4_long",
+    "rec123.slot4_long",
+    "rec124.slot4_long"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "最新の情報へ更新する"
+  },
+  {
+   "id": 187,
+   "section": "STRI",
+   "offset": 19092,
+   "text_offset": 19098,
+   "role": "display",
+   "refs": [
+    "rec122.slot7_long"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "曲分類切換"
+  },
+  {
+   "id": 188,
+   "section": "STRI",
+   "offset": 19114,
+   "text_offset": 19120,
+   "role": "display",
+   "refs": [
+    "rec125.slot2_long"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "再生（置換元を試聴）"
+  },
+  {
+   "id": 189,
+   "section": "STRI",
+   "offset": 19151,
+   "text_offset": 19157,
+   "role": "display",
+   "refs": [
+    "rec126.slot6_long"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ユニットを変更"
+  },
+  {
+   "id": 190,
+   "section": "STRI",
+   "offset": 19179,
+   "text_offset": 19185,
+   "role": "display",
+   "refs": [
+    "rec127.slot9_long"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "数値入力"
+  }
+ ],
+ "inline_strings": []
+}

@@ -1,0 +1,2436 @@
+{
+ "file": "167.bmd",
+ "format": "BMD",
+ "counts": {
+  "groups": 24,
+  "entries": 92,
+  "lines": 94,
+  "strings": 61
+ },
+ "strings": [
+  {
+   "id": 0,
+   "offset": 0,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「オオゥ……ウォォ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 0,
+     "field": "text",
+     "entry": 0,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31600
+     ]
+    },
+    {
+     "line": 65,
+     "field": "text",
+     "entry": 65,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31600
+     ]
+    },
+    {
+     "line": 70,
+     "field": "text",
+     "entry": 70,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31600
+     ]
+    },
+    {
+     "line": 80,
+     "field": "text",
+     "entry": 80,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31600
+     ]
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "offset": 37,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ウゥー……グアッ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 1,
+     "field": "text",
+     "entry": 1,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31602
+     ]
+    },
+    {
+     "line": 67,
+     "field": "text",
+     "entry": 67,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31602
+     ]
+    },
+    {
+     "line": 72,
+     "field": "text",
+     "entry": 72,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31602
+     ]
+    },
+    {
+     "line": 82,
+     "field": "text",
+     "entry": 82,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31602
+     ]
+    },
+    {
+     "line": 86,
+     "field": "text",
+     "entry": 86,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31602
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "offset": 71,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「シ……シシシシ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 2,
+     "field": "text",
+     "entry": 2,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31603
+     ]
+    },
+    {
+     "line": 68,
+     "field": "text",
+     "entry": 68,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31603
+     ]
+    },
+    {
+     "line": 73,
+     "field": "text",
+     "entry": 73,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31603
+     ]
+    },
+    {
+     "line": 83,
+     "field": "text",
+     "entry": 83,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31603
+     ]
+    },
+    {
+     "line": 87,
+     "field": "text",
+     "entry": 87,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31603
+     ]
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "offset": 105,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「イノチ……イノチダ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 3,
+     "field": "text",
+     "entry": 3,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31604
+     ]
+    },
+    {
+     "line": 69,
+     "field": "text",
+     "entry": 69,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31604
+     ]
+    },
+    {
+     "line": 74,
+     "field": "text",
+     "entry": 74,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31604
+     ]
+    },
+    {
+     "line": 84,
+     "field": "text",
+     "entry": 84,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31604
+     ]
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "offset": 145,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ググク……シネ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 4,
+     "field": "text",
+     "entry": 4,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31615
+     ]
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "offset": 179,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ギギギ……ウラメシイ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 5,
+     "field": "text",
+     "entry": 5,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31616
+     ]
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "offset": 222,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「コ……コロス……ウウウ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 6,
+     "field": "text",
+     "entry": 6,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31617
+     ]
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "offset": 268,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「イキテル……ネタマシイ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 7,
+     "field": "text",
+     "entry": 7,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31618
+     ]
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "offset": 314,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ググ……イノチヲ……クレェ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 8,
+     "field": "text",
+     "entry": 8,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31619
+     ]
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "offset": 366,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ウラミ……ハラス……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 9,
+     "field": "text",
+     "entry": 9,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31620
+     ]
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "offset": 403,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ギアァァァッ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 10,
+     "field": "text",
+     "entry": 10,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31621
+     ]
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "offset": 431,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ニクイ……ニクイ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 11,
+     "field": "text",
+     "entry": 11,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31622
+     ]
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "offset": 468,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ウオオォォン！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 12,
+     "field": "text",
+     "entry": 12,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31623
+     ]
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "offset": 499,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「クラウ……クラウ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 13,
+     "field": "text",
+     "entry": 13,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31624
+     ]
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "offset": 533,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ワレハ……シナヌ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 14,
+     "field": "text",
+     "entry": 14,
+     "group": [
+      0,
+      2
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31657
+     ]
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "offset": 570,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ギャアァァァッ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 15,
+     "field": "text",
+     "entry": 15,
+     "group": [
+      0,
+      2
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31658
+     ]
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "offset": 604,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「グオアァァァッ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 16,
+     "field": "text",
+     "entry": 16,
+     "group": [
+      0,
+      2
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31659
+     ]
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "offset": 638,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「グガアァァァッ！？」",
+   "en": "",
+   "refs": [
+    {
+     "line": 17,
+     "field": "text",
+     "entry": 17,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31652
+     ]
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "offset": 672,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「オ、オノレェェッ！？」",
+   "en": "",
+   "refs": [
+    {
+     "line": 18,
+     "field": "text",
+     "entry": 18,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31653
+     ]
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "offset": 709,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ユルサン……ユルサンゾ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 19,
+     "field": "text",
+     "entry": 19,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31654
+     ]
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "offset": 752,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「オオオゥゥッ！？」",
+   "en": "",
+   "refs": [
+    {
+     "line": 20,
+     "field": "text",
+     "entry": 20,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31655
+     ]
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "offset": 783,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「グオオゥゥッ！？」",
+   "en": "",
+   "refs": [
+    {
+     "line": 21,
+     "field": "text",
+     "entry": 21,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31656
+     ]
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "offset": 814,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「グオォォ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 22,
+     "field": "text",
+     "entry": 22,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31647
+     ]
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "offset": 839,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「クククク……ドウシタ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 23,
+     "field": "text",
+     "entry": 23,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31648
+     ]
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "offset": 882,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ワレハ……フジミナリ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 24,
+     "field": "text",
+     "entry": 24,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31649
+     ]
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "offset": 925,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「クク……イクラデモコイ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 25,
+     "field": "text",
+     "entry": 25,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31650
+     ]
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "offset": 971,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「イタミナド……ナイ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 26,
+     "field": "text",
+     "entry": 26,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31651
+     ]
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "offset": 1011,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ワカラヌカ……ムダダト……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 27,
+     "field": "text",
+     "entry": 27,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31642
+     ]
+    },
+    {
+     "line": 37,
+     "field": "text",
+     "entry": 37,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31642
+     ]
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "offset": 1057,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「クククク……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 28,
+     "field": "text",
+     "entry": 28,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31643
+     ]
+    },
+    {
+     "line": 38,
+     "field": "text",
+     "entry": 38,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31643
+     ]
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "offset": 1082,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「キカヌ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 29,
+     "field": "text",
+     "entry": 29,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31644
+     ]
+    },
+    {
+     "line": 39,
+     "field": "text",
+     "entry": 39,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31644
+     ]
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "offset": 1104,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「シレモノガ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 30,
+     "field": "text",
+     "entry": 30,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31645
+     ]
+    },
+    {
+     "line": 40,
+     "field": "text",
+     "entry": 40,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31645
+     ]
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "offset": 1132,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「クカカカカ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 31,
+     "field": "text",
+     "entry": 31,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31646
+     ]
+    },
+    {
+     "line": 41,
+     "field": "text",
+     "entry": 41,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31646
+     ]
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "offset": 1160,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ムダダ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 32,
+     "field": "text",
+     "entry": 32,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31637
+     ]
+    },
+    {
+     "line": 42,
+     "field": "text",
+     "entry": 42,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31637
+     ]
+    },
+    {
+     "line": 46,
+     "field": "text",
+     "entry": 46,
+     "group": [
+      0,
+      10
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31637
+     ]
+    },
+    {
+     "line": 47,
+     "field": "text",
+     "entry": 47,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31637
+     ]
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "offset": 1182,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「オォォォ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 33,
+     "field": "text",
+     "entry": 33,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31639
+     ]
+    },
+    {
+     "line": 43,
+     "field": "text",
+     "entry": 43,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31639
+     ]
+    },
+    {
+     "line": 48,
+     "field": "text",
+     "entry": 48,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31639
+     ]
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "offset": 1207,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「アタラヌ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 34,
+     "field": "text",
+     "entry": 34,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31640
+     ]
+    },
+    {
+     "line": 45,
+     "field": "text",
+     "entry": 45,
+     "group": [
+      0,
+      10
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31640
+     ]
+    },
+    {
+     "line": 49,
+     "field": "text",
+     "entry": 49,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31640
+     ]
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "offset": 1232,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ヒョウゥゥ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 35,
+     "field": "text",
+     "entry": 35,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31641
+     ]
+    },
+    {
+     "line": 50,
+     "field": "text",
+     "entry": 50,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31641
+     ]
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "offset": 1260,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ムイミナコトヲ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 36,
+     "field": "text",
+     "entry": 36,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31638
+     ]
+    },
+    {
+     "line": 44,
+     "field": "text",
+     "entry": 44,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31638
+     ]
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "offset": 1294,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「………」",
+   "en": "",
+   "refs": [
+    {
+     "line": 51,
+     "field": "text",
+     "entry": 51,
+     "group": [
+      0,
+      12
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "offset": 1310,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「オオオ……ナゼダ……？」",
+   "en": "",
+   "refs": [
+    {
+     "line": 52,
+     "field": "text",
+     "entry": 52,
+     "group": [
+      0,
+      13
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31635
+     ]
+    },
+    {
+     "line": 54,
+     "field": "text",
+     "entry": 54,
+     "group": [
+      0,
+      15
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31635
+     ]
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "offset": 1350,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ヌオオ……ドコダ……？」",
+   "en": "",
+   "refs": [
+    {
+     "line": 53,
+     "field": "text",
+     "entry": 53,
+     "group": [
+      0,
+      14
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31636
+     ]
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "offset": 1390,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ワレガクラウ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 55,
+     "field": "text",
+     "entry": 55,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31625
+     ]
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "offset": 1421,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「トドメ……サス……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 56,
+     "field": "text",
+     "entry": 56,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31626
+     ]
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "offset": 1455,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「シネ……シネッ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 57,
+     "field": "text",
+     "entry": 57,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31627
+     ]
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "offset": 1486,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ウオォォォッ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 58,
+     "field": "text",
+     "entry": 58,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31628
+     ]
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "offset": 1514,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ククク……ウマソウダ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 59,
+     "field": "text",
+     "entry": 59,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31629
+     ]
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "offset": 1557,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ソイツハ……ワレノエモノダ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 60,
+     "field": "text",
+     "entry": 60,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31631
+     ]
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "offset": 1609,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「コンナモノ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 61,
+     "field": "text",
+     "entry": 61,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31630
+     ]
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "offset": 1637,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ワレニ……マカセヨ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 62,
+     "field": "text",
+     "entry": 62,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31632
+     ]
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "offset": 1677,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「グオォォォッ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 63,
+     "field": "text",
+     "entry": 63,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31633
+     ]
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "offset": 1705,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ワレガ……アイテニナル……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 64,
+     "field": "text",
+     "entry": 64,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31634
+     ]
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "offset": 1751,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「アアァァァッ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 66,
+     "field": "text",
+     "entry": 66,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31601
+     ]
+    },
+    {
+     "line": 71,
+     "field": "text",
+     "entry": 71,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31601
+     ]
+    },
+    {
+     "line": 81,
+     "field": "text",
+     "entry": 81,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31601
+     ]
+    },
+    {
+     "line": 85,
+     "field": "text",
+     "entry": 85,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31601
+     ]
+    },
+    {
+     "line": 93,
+     "field": "text",
+     "entry": 91,
+     "group": [
+      0,
+      56010
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31601
+     ]
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "offset": 1779,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ギ……ウマソウ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 75,
+     "field": "text",
+     "entry": 75,
+     "group": [
+      0,
+      20
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31610
+     ]
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "offset": 1813,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「マダ……クラウ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 76,
+     "field": "text",
+     "entry": 76,
+     "group": [
+      0,
+      20
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31611
+     ]
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "offset": 1847,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「タリヌ……マダタリヌ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 77,
+     "field": "text",
+     "entry": 77,
+     "group": [
+      0,
+      20
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31612
+     ]
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "offset": 1890,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「モット……モットダ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 78,
+     "field": "text",
+     "entry": 78,
+     "group": [
+      0,
+      20
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31613
+     ]
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "offset": 1930,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「グググ……オソイゾ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 79,
+     "field": "text",
+     "entry": 79,
+     "group": [
+      0,
+      20
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31614
+     ]
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "offset": 1970,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ギッ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 88,
+     "field": "text",
+     "entry": 88,
+     "group": [
+      0,
+      56001
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31606
+     ]
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "offset": 1986,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「アォ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 89,
+     "field": "text",
+     "entry": 88,
+     "group": [
+      0,
+      56001
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31605
+     ]
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "offset": 2002,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ウッ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 90,
+     "field": "text",
+     "entry": 89,
+     "group": [
+      0,
+      56001
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31607
+     ]
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "offset": 2018,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「ジャッ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 91,
+     "field": "text",
+     "entry": 89,
+     "group": [
+      0,
+      56001
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31608
+     ]
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "offset": 2037,
+   "role": "text",
+   "speakers": [
+    167
+   ],
+   "jp": "「シャアッ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 92,
+     "field": "text",
+     "entry": 90,
+     "group": [
+      0,
+      56010
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 167,
+     "face": 0,
+     "voice": [
+      25,
+      31609
+     ]
+    }
+   ]
+  }
+ ]
+}

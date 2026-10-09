@@ -1,0 +1,6287 @@
+{
+ "file": "UnitDictionaryData.dat",
+ "format": "FIXH 1.0 big-endian",
+ "sections": [
+  {
+   "magic": "DOFS",
+   "header_offset": 16,
+   "payload_offset": 24,
+   "size": 892,
+   "count": null
+  },
+  {
+   "magic": "DATA",
+   "header_offset": 916,
+   "payload_offset": 928,
+   "size": 892,
+   "count": 223
+  },
+  {
+   "magic": "SOFS",
+   "header_offset": 1820,
+   "payload_offset": 1828,
+   "size": 752,
+   "count": null
+  },
+  {
+   "magic": "STRI",
+   "header_offset": 2580,
+   "payload_offset": 2592,
+   "size": 103780,
+   "count": 188
+  }
+ ],
+ "records": {
+  "count": 223,
+  "size": 4
+ },
+ "dofs": {
+  "entries": 223,
+  "unused_ids": 0
+ },
+ "string_fields": [
+  {
+   "offset": 2,
+   "width": 1,
+   "label": "text",
+   "kind": "display"
+  }
+ ],
+ "notes": [
+  "Edit 'text' (single-line entries) or 'lines' (multi-line entries / entries with embedded newlines).",
+  "Do not add or remove entries: records reference strings by index.",
+  "role: display = shown in game; comment = developer note (never displayed, safe to leave untranslated); internal = identifier/path; orphan = referenced by no record; unknown = not established."
+ ],
+ "strings": [
+  {
+   "id": 0,
+   "section": "STRI",
+   "offset": 2592,
+   "text_offset": 2598,
+   "role": "display",
+   "refs": [
+    "rec0.text"
+   ],
+   "orig_chars": [
+    1
+   ],
+   "orig_bytes": 4,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "　"
+  },
+  {
+   "id": 1,
+   "section": "STRI",
+   "offset": 2602,
+   "text_offset": 2668,
+   "role": "display",
+   "refs": [
+    "rec1.text"
+   ],
+   "orig_chars": [
+    31,
+    27,
+    14,
+    27,
+    27,
+    27,
+    27,
+    7,
+    27,
+    27,
+    27,
+    6,
+    26,
+    28,
+    26,
+    19
+   ],
+   "orig_bytes": 1123,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＳＲＸ計画>で開発された<パーソナルトルーパー>・Ｒシリー",
+    "ズ１号機。正式名称は「ＲＥＡＬ　ＰＥＲＳＯＮＡＬ　ＴＲ",
+    "ＯＯＰＥＲ　ＴＹＰＥ‐１」。",
+    "　近接戦闘・格闘戦用の機体であり、高い運動性と攻撃力を",
+    "備えている。前身となった機体はＲＴＸ‐００９「ヒュッケ",
+    "バイン００９（プラズマ・ジェネレーター搭載型）」やＰＴ",
+    "Ｘ‐００６「ビルトラプター」であり、その２機の長所を受",
+    "け継いでいる。",
+    "　また、ビルトラプター同様、飛行形態（Ｒ‐ウィング）へ",
+    "の変形機構を持っている。そのため、機動力を生かした奇襲",
+    "攻撃や威力偵察など、Ｒシリーズ内では先鋒的役割を果たす",
+    "ことが多い。",
+    "　相手に確実なダメージを与えるため、近・中距離戦用の",
+    "実弾兵器を装備している。さらに、<Ｔ‐ＬＩＮＫシステム>",
+    "を搭載しており、それによって発生する特殊な力場・念動",
+    "フィールドを応用した攻撃も可能である。"
+   ]
+  },
+  {
+   "id": 2,
+   "section": "STRI",
+   "offset": 3791,
+   "text_offset": 3805,
+   "role": "display",
+   "refs": [
+    "rec2.text"
+   ],
+   "orig_chars": [
+    10,
+    27,
+    28
+   ],
+   "orig_bytes": 194,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　Ｒ‐１の飛行形態。",
+    "　主に移動や威力偵察時に使用される。機首部分はＲ‐１が",
+    "<パーソナルトルーパー>形態時に使用するシールドである。"
+   ]
+  },
+  {
+   "id": 3,
+   "section": "STRI",
+   "offset": 3999,
+   "text_offset": 4065,
+   "role": "display",
+   "refs": [
+    "rec3.text"
+   ],
+   "orig_chars": [
+    31,
+    26,
+    24,
+    27,
+    30,
+    27,
+    27,
+    20,
+    26,
+    27,
+    13,
+    29,
+    27,
+    27,
+    28,
+    17
+   ],
+   "orig_bytes": 1210,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＳＲＸ計画>で開発された<パーソナルトルーパー>・Ｒシリー",
+    "ズの２号機。正式名称は「ＲＥＡＬ　ＰＥＲＳＯＮＡＬ　",
+    "ＴＲＯＯＰＥＲ　ＴＹＰＥ‐２　ＰＯＷＥＲＥＤ」。",
+    "　ビーム兵器を主体とした砲撃戦用の重<パーソナルトルー",
+    "パー>で、ＳＲＸの動力源となる<トロニウム>・エンジンを搭載",
+    "している。火力が高く、装甲も厚いが、エンジンの出力が不",
+    "安定な点と運動性の低さが短所。Ｒシリーズの中では、制圧",
+    "射撃や、味方機への砲撃支援の役割を担う。",
+    "　また、重金属粒子砲であるハイゾルランチャー、ショル",
+    "ダー・アーマーと言ったプラスパーツを装着することによっ",
+    "て、Ｒ‐２パワードとなる。",
+    "　ＳＲＸ合体時、Ｒ‐２のパイロットは<トロニウム>・エンジ",
+    "ンの出力調整、機体のダメージコントロール、Ｒ‐１やＲ‐",
+    "３のパイロットのメディカルチェックなどを行なう。Ｒ‐２",
+    "には<Ｔ‐ＬＩＮＫシステム>が搭載されていないため、パイ",
+    "ロットが念動力者である必要はない。"
+   ]
+  },
+  {
+   "id": 4,
+   "section": "STRI",
+   "offset": 5275,
+   "text_offset": 5317,
+   "role": "display",
+   "refs": [
+    "rec4.text"
+   ],
+   "orig_chars": [
+    31,
+    26,
+    24,
+    28,
+    28,
+    26,
+    27,
+    27,
+    27,
+    12
+   ],
+   "orig_bytes": 762,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＳＲＸ計画>で開発された<パーソナルトルーパー>・Ｒシリー",
+    "ズの３号機。正式名称は「ＲＥＡＬ　ＰＥＲＳＯＮＡＬ　",
+    "ＴＲＯＯＰＥＲ　ＴＹＰＥ‐３　ＰＯＷＥＲＥＤ」。",
+    "　指揮官用・遠距離戦闘用の軽<パーソナルトルーパー>で、",
+    "<Ｔ‐ＬＩＮＫシステム>を応用した遠隔攻撃兵器と敵捕捉能",
+    "力、情報収集能力の高さが特徴。パイロットは念動力者に",
+    "限られ、実質上ＳＲＸチームのアヤ・コバヤシ大尉の専用機",
+    "となっている。なお、Ｔ‐ＬＩＮＫフライトシステムを搭載",
+    "したプラスパーツを装着することにより、Ｒ‐３パワードと",
+    "いう重爆撃機形態となる。"
+   ]
+  },
+  {
+   "id": 5,
+   "section": "STRI",
+   "offset": 6079,
+   "text_offset": 6149,
+   "role": "display",
+   "refs": [
+    "rec5.text"
+   ],
+   "orig_chars": [
+    30,
+    27,
+    19,
+    27,
+    27,
+    26,
+    29,
+    27,
+    15,
+    27,
+    27,
+    26,
+    11,
+    27,
+    29,
+    29,
+    17
+   ],
+   "orig_bytes": 1249,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＳＲＸ計画>で開発された<パーソナルトルーパー>・ＲＷシ",
+    "リーズの１号機。正式名称は「ＲＥＡＬ　ＰＥＲＳＯＮＡＬ",
+    "　ＴＲＯＯＰＥＲ　ＴＹＰＥ‐ＧＵＮ」。",
+    "　元々は高出力の重金属粒子砲であったが、とある用途のた",
+    "め小型化が図られ、さらに単体でも行動や戦闘ができるよう",
+    "に<パーソナルトルーパー>への変形機構を持たされた。",
+    "　Ｒ‐２以上の出力を誇る新型の<トロニウム>・エンジンを搭",
+    "載し、出力・火力とも他のＲシリーズを凌駕するが、出力が",
+    "極度に不安定であることが欠点。",
+    "　実質的にはＲシリーズの４号機に当たるが、「Ｒ‐４」の",
+    "名前は与えられず、月の<マオ・インダストリー>において",
+    "「ＡＲＧＡＮ」というコードネームを付けられ、極秘裏に",
+    "開発が進められていた。",
+    "　なお、背部にハイ・ツインランチャーなどのプラスパーツ",
+    "を装着した状態をＲ‐ＧＵＮパワードと呼称する。<Ｌ５戦役>",
+    "後、<Ｔ‐ＬＩＮＫシステム>が改良され、Ｒ‐３とのＴ‐ＬＩ",
+    "ＮＫツインコンタクトが可能となる。"
+   ]
+  },
+  {
+   "id": 6,
+   "section": "STRI",
+   "offset": 7398,
+   "text_offset": 7500,
+   "role": "display",
+   "refs": [
+    "rec6.text"
+   ],
+   "orig_chars": [
+    29,
+    28,
+    12,
+    27,
+    30,
+    28,
+    27,
+    14,
+    29,
+    29,
+    28,
+    6,
+    27,
+    27,
+    28,
+    28,
+    27,
+    13,
+    28,
+    28,
+    29,
+    27,
+    29,
+    27,
+    12
+   ],
+   "orig_bytes": 1832,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＳＲＸ計画>で開発された試作汎用戦闘一撃必殺型<パーソ",
+    "ナルトルーパー>。Ｒ‐１、Ｒ‐２パワード、Ｒ‐３パワード",
+    "の３機で構成されている。",
+    "　正式名称は「ＳＵＰＥＲ　ＲＯＢＯＴ　Ｘ‐ＴＹＰＥ」。",
+    "　「特殊人型機動兵器（<特機>／スーパーロボット）と<パーソ",
+    "ナルトルーパー>の特徴を兼ね備え、１機もしくは分離状態の",
+    "３機で戦局を変え得る人型機動兵器」…それがＳＲＸに与え",
+    "られた開発コンセプトである。",
+    "　<ＳＲＸ計画>において、ＳＲＸは通常サイズ（２０メートル",
+    "クラス）の<パーソナルトルーパー>３機が合体し、全高５０メ",
+    "ートルクラスの<特機>となる分離合体型機動兵器として位置",
+    "づけられた。",
+    "　これは戦局に応じて分離・合体することで、ＳＲＸが持つ",
+    "戦闘力を柔軟かつ有効に運用するための方策であった。戦闘",
+    "力の低い多数の敵に対して、あるいは他の<パーソナルトルー",
+    "パー>との連係をとる必要がある場合は分離して行動し、少数",
+    "の強力な敵に対してはＳＲＸに合体してＲシリーズが持つ戦",
+    "闘力を集中させるのである。",
+    "　その攻撃力は抜群であるが、欠点として動力源である<トロ",
+    "ニウム>・エンジンの出力調整が困難であること、戦闘時には",
+    "<Ｔ‐ＬＩＮＫシステム>を使用して念動フィールドを常時展開",
+    "し、合体状態の維持を補助しなければならないこと（その結",
+    "果、<Ｔ‐ＬＩＮＫシステム>使用者に著しい負担をかけてしま",
+    "う）が挙げられ、現状では一度の出撃における合体回数と戦",
+    "闘行動時間に制限がある。"
+   ]
+  },
+  {
+   "id": 7,
+   "section": "STRI",
+   "offset": 9332,
+   "text_offset": 9386,
+   "role": "display",
+   "refs": [
+    "rec7.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    6,
+    31,
+    28,
+    15,
+    28,
+    28,
+    28,
+    14,
+    28,
+    27,
+    16
+   ],
+   "orig_bytes": 916,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ＡＲＴ‐１（アートワン）とは「ＡＤＶＡＮＣＥＤ　ＲＥＡ",
+    "Ｌ　ＰＥＲＳＯＮＡＬ　ＴＲＯＯＰＥＲ　ＴＥＳＴ　ＴＹＰＥ",
+    "‐１」の略。",
+    "　<ＥＯＴ>の信頼性と安定性を高めるための<レイオス・プラン>",
+    "の一つ、次世代Ｒシリーズ開発計画「ＲＸＲ計画」で作られた",
+    "新型<パーソナルトルーパー>。",
+    "　次世代機開発に備え、Ｒ‐１とヒュッケバインＭｋ‐Ⅲのデ",
+    "ータを基にして試験的に開発された（試作機の試作機的な存在",
+    "であるため、機体色はＲ‐１のトリコロールカラーではなく、",
+    "試作機カラーになっている）。",
+    "　１機しか存在せず、飛行形態（ＡＲＴ‐ウィング）への変形",
+    "は可能であるが、他のＲシリーズとの合体機構はない。ただ",
+    "し、その性能はＲ‐１を凌駕する。"
+   ]
+  },
+  {
+   "id": 8,
+   "section": "STRI",
+   "offset": 10302,
+   "text_offset": 10312,
+   "role": "display",
+   "refs": [
+    "rec8.text"
+   ],
+   "orig_chars": [
+    27,
+    24
+   ],
+   "orig_bytes": 155,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ＡＲＴ‐１の飛行形態（フライヤーモード）。この状態で",
+    "念動フィールドを展開し、敵へ突撃することが可能。"
+   ]
+  },
+  {
+   "id": 9,
+   "section": "STRI",
+   "offset": 10467,
+   "text_offset": 10529,
+   "role": "display",
+   "refs": [
+    "rec9.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    7,
+    27,
+    24,
+    27,
+    28,
+    27,
+    3,
+    28,
+    27,
+    28,
+    28,
+    23,
+    26
+   ],
+   "orig_bytes": 1086,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<シャドウミラー>隊のアクセル・アルマーが駆るソウルゲイン",
+    "との戦闘で大破し、四肢を失ったアルトアイゼンに大幅な改修",
+    "を施した機体。",
+    "　パイロットのキョウスケ・ナンブの意見を基に（実際には",
+    "参考程度に）、マリオン・ラドム博士が作り上げた。",
+    "　ヴァイスリッターの予備パーツと、機体バランスを著しく",
+    "損なうという理由で採用が見送られていたリボルビング・バン",
+    "カーを装備し、他の武装も全て一回り大型の物に変えられて",
+    "いる。",
+    "　また、<テスラ・ドライブ>も装備しているが、機体のバラ",
+    "ンス調整と突進力向上のために使われているため、長時間の",
+    "飛行は不可能。その結果、アルトアイゼン・リーゼは<パーソ",
+    "ナルトルーパー>としては破格の火力と突進力を獲得したが、",
+    "アルトアイゼン以上に扱いが難しい機体となった。",
+    "　なお、「リーゼ」とはドイツ語で“巨人”という意味。"
+   ]
+  },
+  {
+   "id": 10,
+   "section": "STRI",
+   "offset": 11615,
+   "text_offset": 11645,
+   "role": "display",
+   "refs": [
+    "rec10.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    2,
+    28,
+    28,
+    27,
+    6
+   ],
+   "orig_bytes": 438,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ヴァイスリッターが謎の技術によって変貌し、パワーアッ",
+    "プした姿。全体の６０％以上が解析不能なものに変質してい",
+    "る。",
+    "　主武装はヴァイスリッターのオクスタン・ランチャーが変化",
+    "したと思われるハウリング・ランチャー。また、強力な<エネ",
+    "ルギーフィールド>を展開したり、思念波による攻撃を行う",
+    "ことも可能。"
+   ]
+  },
+  {
+   "id": 11,
+   "section": "STRI",
+   "offset": 12083,
+   "text_offset": 12089,
+   "role": "display",
+   "refs": [
+    "rec11.text",
+    "rec15.text",
+    "rec16.text",
+    "rec19.text",
+    "rec20.text",
+    "rec24.text",
+    "rec25.text",
+    "rec31.text",
+    "rec32.text",
+    "rec99.text",
+    "rec109.text",
+    "rec110.text",
+    "rec132.text",
+    "rec139.text",
+    "rec140.text",
+    "rec141.text",
+    "rec152.text",
+    "rec158.text",
+    "rec215.text",
+    "rec216.text"
+   ],
+   "orig_chars": [
+    0
+   ],
+   "orig_bytes": 1,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": ""
+  },
+  {
+   "id": 12,
+   "section": "STRI",
+   "offset": 12090,
+   "text_offset": 12128,
+   "role": "display",
+   "refs": [
+    "rec12.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    10,
+    27,
+    27,
+    27,
+    27,
+    6
+   ],
+   "orig_bytes": 624,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　プロジェクト・イデアランツで開発された機動兵器の試作",
+    "型、それも失敗作として廃棄される予定であったものにアル",
+    "トアイゼンのパーツやラピエサージュの予備パーツを組み込",
+    "み、急造された機体。",
+    "　「ファウ・ケルン」と呼ばれる高出力ジェネレーターを搭",
+    "載しているが、元々が失敗作故にその性能が完全に発揮され",
+    "ることはない。腕に装着されたアルトアイゼンのリボルビン",
+    "グ・ステークやマシンキャノンを用いての近・中距離戦闘を",
+    "得意とする。"
+   ]
+  },
+  {
+   "id": 13,
+   "section": "STRI",
+   "offset": 12752,
+   "text_offset": 12774,
+   "role": "display",
+   "refs": [
+    "rec13.text"
+   ],
+   "orig_chars": [
+    26,
+    27,
+    28,
+    27,
+    5
+   ],
+   "orig_bytes": 344,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　プロジェクト・イデアランツで開発された重機動兵器。",
+    "　「ファウ・ケルン」と呼ばれる高出力ジェネレーターを搭",
+    "載しており、接近戦と射撃戦の両方をこなすパワーファイター",
+    "である。ただし、重装備・重装甲のため、運動性にはやや難",
+    "点がある。"
+   ]
+  },
+  {
+   "id": 14,
+   "section": "STRI",
+   "offset": 13118,
+   "text_offset": 13152,
+   "role": "display",
+   "refs": [
+    "rec14.text"
+   ],
+   "orig_chars": [
+    29,
+    8,
+    30,
+    28,
+    27,
+    27,
+    27,
+    26
+   ],
+   "orig_bytes": 602,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<アインスト>シリーズと呼ばれる生体兵器の一種で、アルフ",
+    "ィミィの搭乗機。",
+    "　<パーソナルトルーパー>との戦闘を想定して最適化された<ア",
+    "インスト>であり、高い運動性と防御力、単体での空間転移機",
+    "能を持つ。機体は高硬度と軟性を併せ持った骨格と外皮、軟",
+    "質の筋繊維状のパーツで構成されている。主武装は接近戦用",
+    "のオニレンゲ（刀）と、遠距離戦用のオニボサツ（鬼面砲）",
+    "で、この二つを併用したトリッキーな攻撃を得意とする。"
+   ]
+  },
+  {
+   "id": 15,
+   "section": "STRI",
+   "offset": 13754,
+   "text_offset": 13792,
+   "role": "display",
+   "refs": [
+    "rec17.text"
+   ],
+   "orig_chars": [
+    29,
+    7,
+    28,
+    29,
+    28,
+    26,
+    28,
+    27,
+    25
+   ],
+   "orig_bytes": 674,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ヒュッケバインＭｋ‐Ⅱを基に開発された量産型<パーソナル",
+    "トルーパー>。",
+    "　<地球連邦軍>の軍備増強計画「イージス計画」において、",
+    "新規主力機として制式採用された機体。<テスラ・ドライブ>を",
+    "標準で装備し、重力下での単体飛行が可能。<ＥＯＴ>やそれ",
+    "を応用した兵器こそ搭載されていないが、基本性能は量産",
+    "試作型とほぼ同等。また、ヒュッケバイン系のＨフレームでは",
+    "なく、量産試作型のものに改良を加えたゲシュペンスト系の",
+    "ＧⅡフレームを使用しているため、生産コストも低い。"
+   ]
+  },
+  {
+   "id": 16,
+   "section": "STRI",
+   "offset": 14466,
+   "text_offset": 14544,
+   "role": "display",
+   "refs": [
+    "rec18.text"
+   ],
+   "orig_chars": [
+    30,
+    27,
+    28,
+    28,
+    28,
+    28,
+    28,
+    5,
+    28,
+    27,
+    28,
+    28,
+    27,
+    27,
+    28,
+    28,
+    30,
+    28,
+    23
+   ],
+   "orig_bytes": 1523,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　大破した<パーソナルトルーパー>「エクスバイン」をベースに",
+    "し、その予備パーツを組み込んで急遽作り上げられた機体。",
+    "　「アッシュ」とは開発時のコードネームで、正式名称は「エ",
+    "クスバイン・アッシュ」である。また、「アッシュ」という名",
+    "の由来はフランス語の「Ｈ（アッシュ）」であり、ヒュッケバ",
+    "インの頭文字（Ｈ）から取られている。また、不死鳥が灰の中",
+    "から甦るという話から、「灰（ＡＳＨ）」という意味も持たさ",
+    "れている。",
+    "　本来、エクスバインはヒュッケバイン・シリーズ新型機開発",
+    "のためのデータ取得＆テスト機となるべく改修される予定で",
+    "あったが、謎の機体の攻撃を受け、大破した。その後、応急の",
+    "増加装甲である「パッチ・アーマー」や、「コーティング・ク",
+    "ローク」と呼ばれる対ビーム防御機能を持ったマントを装着",
+    "し、実戦へ投入される。ただ、その時点でも応急措置が間に",
+    "合っておらず、アーマーの一部は軟性・耐久性に優れた「ＡＤ",
+    "テープ」で固定されているという、急場しのぎの機体である。",
+    "　また、<Ｔ‐ＬＩＮＫシステム>（念動力感知増幅装置）が搭載",
+    "されているが、イングが搭乗した際に異常反応を示し、以後、",
+    "アッシュは彼にしか操れない機体となってしまう。"
+   ]
+  },
+  {
+   "id": 17,
+   "section": "STRI",
+   "offset": 16067,
+   "text_offset": 16085,
+   "role": "display",
+   "refs": [
+    "rec21.text"
+   ],
+   "orig_chars": [
+    27,
+    29,
+    27,
+    7
+   ],
+   "orig_bytes": 270,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ヒュッケバインＭｋ‐Ⅲが使用する砲撃戦用ＡＭパーツ。",
+    "有人の<パーソナルトルーパー>・キャリアで、単体での運用も",
+    "可能。４門のＧインパクト・キャノンや複数種のミサイルを",
+    "装備している。"
+   ]
+  },
+  {
+   "id": 18,
+   "section": "STRI",
+   "offset": 16355,
+   "text_offset": 16413,
+   "role": "display",
+   "refs": [
+    "rec22.text"
+   ],
+   "orig_chars": [
+    28,
+    14,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    13,
+    30,
+    28,
+    16
+   ],
+   "orig_bytes": 1065,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　エクスバイン・アッシュを基にして作り上げられたスーパー",
+    "・<パーソナルトルーパー>。",
+    "　ヒュッケバイン・シリーズの集大成的な機体で、ヒュッケバ",
+    "インＭｋ－Ⅲの開発やＲＸＲ計画などで構築された技術が投入",
+    "されている。「エグゼクスバイン」という名の由来は「ＥＸエ",
+    "クスバイン」であるが、ヒュッケバイン、ヒュッケバインＥＸ",
+    "（エクスバイン）、ヒュッケバインＭｋ－Ⅱ、量産型ヒュッケ",
+    "バインＭｋ－Ⅱ、ヒュッケバインＭｋ－Ⅲに続く６番目のヒュ",
+    "ッケバインとして、「ゼクス（独語で６）」という意味も込め",
+    "られている。開発時のコードネームは「Ｍｋ－Ｘ（マークエッ",
+    "クス）」、「ダブルＥＸ」。",
+    "　<トロニウム>・エンジンとブラックホール・エンジンの併用が",
+    "可能な超高性能機であり、「Ｔ‐ＬＩＮＫスライダー」を始め",
+    "とする念動力応用兵器を使用する。"
+   ]
+  },
+  {
+   "id": 19,
+   "section": "STRI",
+   "offset": 17478,
+   "text_offset": 17500,
+   "role": "display",
+   "refs": [
+    "rec23.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    14
+   ],
+   "orig_bytes": 383,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ハイ・パーソナルトルーパーと呼ばれる高性能機。斧と銃が",
+    "合体した専用武器バスタックス・ガンを持ち、高い運動性と機",
+    "動力を発揮する。ヒュッケバイン・シリーズのデータが応用さ",
+    "れていると思われるが、詳細は不明。「コード“エビル”」、",
+    "「エビル」という別名を持つ。"
+   ]
+  },
+  {
+   "id": 20,
+   "section": "STRI",
+   "offset": 17883,
+   "text_offset": 17905,
+   "role": "display",
+   "refs": [
+    "rec26.text"
+   ],
+   "orig_chars": [
+    25,
+    28,
+    28,
+    29,
+    23
+   ],
+   "orig_bytes": 392,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　マシンナリー・チルドレンが搭乗する人型機動兵器。",
+    "　量産型ヒュッケバインＭｋ‐Ⅱに<マシンセル>を投入し、",
+    "形態変化・高性能化を果たした機体。<ゲイム・システム>を",
+    "搭載し、遠隔操作武器を持つ。構造材や装甲に<マシンセル>が",
+    "用いられているため、高い自己修復機能を有する。"
+   ]
+  },
+  {
+   "id": 21,
+   "section": "STRI",
+   "offset": 18297,
+   "text_offset": 18359,
+   "role": "display",
+   "refs": [
+    "rec27.text"
+   ],
+   "orig_chars": [
+    29,
+    21,
+    27,
+    27,
+    21,
+    29,
+    26,
+    27,
+    24,
+    27,
+    27,
+    27,
+    27,
+    29,
+    17
+   ],
+   "orig_bytes": 1158,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　地球圏防衛委員会の依頼を受けて<テスラ・ライヒ研究所>が",
+    "開発した対異星人戦闘用の特殊人型機動兵器。",
+    "　大質量による物理的攻撃を基本コンセプトとし、そのサイ",
+    "ズや機体形状は知能を持った敵に対する心理的効果（威圧感",
+    "を与えるなど）を考慮したものとなっている。",
+    "　<パーソナルトルーパー>では対処できない強大な敵機との戦",
+    "闘を想定した機体で、破格の出力と攻撃力を持っている。",
+    "専用の武装である超大型の大刀「零式斬艦刀」は、その名の",
+    "通り戦艦クラスの巨大な物体を両断する威力を誇る。",
+    "　背部には大推力ブースターや剣撃用トリムバランサーが装",
+    "備されており、斬艦刀による縦横無尽な剣撃戦闘を可能とし",
+    "ている。また、各関節部には重力制御技術によって慣性質量",
+    "をコントロールし、負荷を減少するＴＧＣジョイントが採用",
+    "されている。<インスペクター事件>後、改修を受け、動力源が",
+    "プラズマ・リアクターに変更された。"
+   ]
+  },
+  {
+   "id": 22,
+   "section": "STRI",
+   "offset": 19517,
+   "text_offset": 19623,
+   "role": "display",
+   "refs": [
+    "rec28.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    26,
+    2,
+    27,
+    27,
+    27,
+    26,
+    26,
+    13,
+    27,
+    27,
+    17,
+    27,
+    27,
+    27,
+    6,
+    27,
+    20,
+    27,
+    27,
+    27,
+    27,
+    27,
+    10,
+    0
+   ],
+   "orig_bytes": 1759,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　グルンガストは、<テスラ・ライヒ研究所>にてグルンガス",
+    "ト零式やＰＴＸ‐００７‐０２ゲシュペンストＭｋ‐Ⅱ（タ",
+    "イプＳ）のデータを基に開発された特殊人型機動兵器であ",
+    "る。",
+    "　様々な領域で高いパフォーマンスを発揮すべく、飛行形態",
+    "（ウィングガスト）や重戦車形態（ガストランダー）への変",
+    "形機構を持つ。装甲にはＶＧ合金（Ｖａｒｉａｂｌｅ　Ｇｅ",
+    "ｏｍｅｔｒｉｃ　Ａｌｌｏｙｓ）という活性金属の一種が",
+    "使用されており、装甲の構造・形状的制約をある程度無視",
+    "した変形を可能としている。",
+    "　動力源はプラズマ・リアクターであり、関節部には重力制",
+    "御技術によって慣性質量をコントロールし、負荷を減少する",
+    "ＴＧＣジョイントが採用されている。",
+    "　また、ブーストナックルやファイナルビームなどの内蔵兵",
+    "装を有し、近接戦闘で高い能力を発揮する。操縦の補助シス",
+    "テムとして、脳波制御装置と音声入力式武器選択装置が搭載",
+    "されている。",
+    "　乗り手を選ぶグルンガストシリーズの中では最も総合バラ",
+    "ンスに優れ、「超闘士」という異名を持つ。",
+    "　グルンガストに強化改造を施したものがグルンガスト改で",
+    "あり、本体にブースターを装備したラウンデル・ウィングや",
+    "ビーム・キャノンを取り付け、機動力と攻撃力が向上してい",
+    "る。なお、ラウンデル・ウィングを装着した状態でも、ウィ",
+    "ングガスト（飛行形態）、ガストランダー（重戦車形態）へ",
+    "の変形が可能である。",
+    ""
+   ]
+  },
+  {
+   "id": 23,
+   "section": "STRI",
+   "offset": 21382,
+   "text_offset": 21396,
+   "role": "display",
+   "refs": [
+    "rec29.text"
+   ],
+   "orig_chars": [
+    27,
+    17,
+    0
+   ],
+   "orig_bytes": 135,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　グルンガスト改の飛行形態。ラウンデル・ウィングの装着",
+    "により、航続可能距離が伸びている。",
+    ""
+   ]
+  },
+  {
+   "id": 24,
+   "section": "STRI",
+   "offset": 21531,
+   "text_offset": 21541,
+   "role": "display",
+   "refs": [
+    "rec30.text"
+   ],
+   "orig_chars": [
+    28,
+    7
+   ],
+   "orig_bytes": 107,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　グルンガスト改の重戦車形態。超闘士形態時と同様、火力が",
+    "向上している。"
+   ]
+  },
+  {
+   "id": 25,
+   "section": "STRI",
+   "offset": 21648,
+   "text_offset": 21694,
+   "role": "display",
+   "refs": [
+    "rec33.text"
+   ],
+   "orig_chars": [
+    31,
+    30,
+    18,
+    28,
+    28,
+    28,
+    27,
+    13,
+    27,
+    32,
+    28
+   ],
+   "orig_bytes": 853,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<Ｌ５戦役>後、凍結処置が解除された<ＳＲＸ計画>において、",
+    "<テスラ・ライヒ研究所>が開発したグルンガストシリーズの最新",
+    "型、その３号機（ＳＲＧ‐０３‐３）。",
+    "　グルンガスト（壱式）をベースにし、さらに近接・格闘戦闘",
+    "能力を特化させた機体で、出力や攻撃力はグルンガストシリー",
+    "ズの中で最も高い。大型戦闘機（上半身）のＧラプターと重戦",
+    "車（下半身）のＧバイソンに分離が可能で、それぞれにパイ",
+    "ロットが１名ずつ搭乗する。",
+    "　なお、３号機は<インスペクター事件>後に改修を受け、",
+    "<Ｔ‐ＬＩＮＫシステム>や<テスラ・ドライブ>が搭載され、参式獅",
+    "子王刀（<特機>用大型シシオウブレード）を装備している。"
+   ]
+  },
+  {
+   "id": 26,
+   "section": "STRI",
+   "offset": 22547,
+   "text_offset": 22557,
+   "role": "display",
+   "refs": [
+    "rec34.text"
+   ],
+   "orig_chars": [
+    26,
+    6
+   ],
+   "orig_bytes": 98,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　グルンガスト参式の分離形態で、上半身部分が変形した",
+    "大型戦闘機。"
+   ]
+  },
+  {
+   "id": 27,
+   "section": "STRI",
+   "offset": 22655,
+   "text_offset": 22665,
+   "role": "display",
+   "refs": [
+    "rec35.text"
+   ],
+   "orig_chars": [
+    26,
+    4
+   ],
+   "orig_bytes": 92,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　グルンガスト参式の分離形態で、下半身部分が変形した",
+    "重戦車。"
+   ]
+  },
+  {
+   "id": 28,
+   "section": "STRI",
+   "offset": 22757,
+   "text_offset": 22795,
+   "role": "display",
+   "refs": [
+    "rec36.text"
+   ],
+   "orig_chars": [
+    28,
+    9,
+    28,
+    19,
+    27,
+    28,
+    13,
+    28,
+    21
+   ],
+   "orig_bytes": 608,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　中国・山東地区にある遺跡・蚩尤塚（しゆうづか）から発掘",
+    "された<超機人>。",
+    "　元々は「百邪」と呼ばれる悪魔や妖怪と戦うために古代人が",
+    "作りだした半生体兵器だと言われている。",
+    "　自律型思考回路を持っており、単独でも行動が出来るが、",
+    "内部に自らが操縦者と認めた念動力者（強念者）が乗らなけれ",
+    "ば、本来の力を発揮しない。",
+    "　もう一つの姿である虎龍王に比べて、空中・水中戦闘や遠距",
+    "離法術戦闘を得意とし、絶大な攻撃力を持つ。"
+   ]
+  },
+  {
+   "id": 29,
+   "section": "STRI",
+   "offset": 23403,
+   "text_offset": 23437,
+   "role": "display",
+   "refs": [
+    "rec37.text"
+   ],
+   "orig_chars": [
+    28,
+    9,
+    29,
+    28,
+    7,
+    27,
+    27,
+    11
+   ],
+   "orig_bytes": 498,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　中国・山東地区にある遺跡・蚩尤塚（しゆうづか）から発掘",
+    "された<超機人>。",
+    "　本来、龍虎王は龍王機・虎王機という２体の<超機人>で構成",
+    "され、上部が虎王機・下部が龍王機となって合体すると、この",
+    "虎龍王となる。",
+    "　龍虎王に比べて地上戦・接近戦を得意とし、武器の扱いに",
+    "長ける。飛行は不可能だが、地上走行能力に優れ、身分身の",
+    "術によって分身も可能。"
+   ]
+  },
+  {
+   "id": 30,
+   "section": "STRI",
+   "offset": 23935,
+   "text_offset": 23945,
+   "role": "display",
+   "refs": [
+    "rec38.text"
+   ],
+   "orig_chars": [
+    30,
+    14
+   ],
+   "orig_bytes": 130,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　四神・青龍の<超機人>。龍王機単体でも高い戦闘能力を有し、",
+    "空中戦・水中戦を得意とする。"
+   ]
+  },
+  {
+   "id": 31,
+   "section": "STRI",
+   "offset": 24075,
+   "text_offset": 24085,
+   "role": "display",
+   "refs": [
+    "rec39.text"
+   ],
+   "orig_chars": [
+    30,
+    15
+   ],
+   "orig_bytes": 133,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　四神・白虎の<超機人>。虎王機単体でも高い戦闘能力を有し、",
+    "地上での高速戦闘を得意とする。"
+   ]
+  },
+  {
+   "id": 32,
+   "section": "STRI",
+   "offset": 24218,
+   "text_offset": 24236,
+   "role": "display",
+   "refs": [
+    "rec40.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    28,
+    28
+   ],
+   "orig_bytes": 342,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　四神・白虎の<超機人>。虎王機単体でも高い戦闘能力を有し、",
+    "地上での高速戦闘を得意とする。バラルの下僕として、ブリッ",
+    "ト達の敵となる。身体の色が黒く変わり、強念者が乗っている",
+    "時とほぼ同じか、それ以上の能力を発揮しているようである。"
+   ]
+  },
+  {
+   "id": 33,
+   "section": "STRI",
+   "offset": 24578,
+   "text_offset": 24600,
+   "role": "display",
+   "refs": [
+    "rec41.text"
+   ],
+   "orig_chars": [
+    29,
+    28,
+    28,
+    28,
+    20
+   ],
+   "orig_bytes": 400,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　大破した<超機人>・龍王機にグルンガスト・シリーズの予備",
+    "パーツを組み込み、人型機動兵器として再生させた機体。その",
+    "ため、元の姿へは戻れなくなっている。性能や特徴は龍王機の",
+    "ものを受け継ぎ、空中戦や法術戦闘を得意とするが、伸縮自在",
+    "な神珍鉄如意金箍棒による格闘戦もこなす。"
+   ]
+  },
+  {
+   "id": 34,
+   "section": "STRI",
+   "offset": 25000,
+   "text_offset": 25066,
+   "role": "display",
+   "refs": [
+    "rec42.text"
+   ],
+   "orig_chars": [
+    28,
+    30,
+    30,
+    28,
+    27,
+    28,
+    28,
+    28,
+    30,
+    28,
+    20,
+    28,
+    28,
+    28,
+    28,
+    23
+   ],
+   "orig_bytes": 1320,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「百邪」と呼ばれる悪魔や妖怪と戦うため、古代人が作り上",
+    "げた半生体兵器で、龍虎王や虎龍王と同じ「四神」の<超機人>で",
+    "ある。朱雀の姿を模した<超機人>・雀王機と、玄武の姿を模した",
+    "<超機人>・武王機が合体することによって構成されている。",
+    "　「黒蛇刀」という細身の刀、「武鱗甲」という盾を持ち、",
+    "近・中距離での戦闘を得意とする。黒蛇刀は「蛇刀鱗」と呼ば",
+    "れるパーツがいくつもつながっており、フレキシブルに動くだ",
+    "けでなく、伸縮も行い、さらには武雀王の「黒蛇臼砲」へ変化",
+    "する。これは、四神の<超機人>の構成材として用いられている特",
+    "殊な護符「装符」が成せる技であり、四神の特徴の一つである",
+    "神懸かり的な変形・合体を可能としている。",
+    "　雀武王の性格は苛烈で、プライドが高い。人間の性別に当て",
+    "はめると、女性。なお、過去の戦いで深く傷つき、その姿は何",
+    "度か大きく変貌している。今回は、夏喃や泰北によって本来の",
+    "姿に近い形で再生されつつも、特殊人型機動兵器を参考にして",
+    "装符で作り上げられたパーツが組み込まれている。"
+   ]
+  },
+  {
+   "id": 35,
+   "section": "STRI",
+   "offset": 26386,
+   "text_offset": 26448,
+   "role": "display",
+   "refs": [
+    "rec43.text"
+   ],
+   "orig_chars": [
+    28,
+    30,
+    30,
+    28,
+    28,
+    30,
+    30,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    4
+   ],
+   "orig_bytes": 1207,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「百邪」と呼ばれる悪魔や妖怪と戦うため、古代人が作り上",
+    "げた半生体兵器で、龍虎王や虎龍王と同じ「四神」の<超機人>で",
+    "ある。朱雀の姿を模した<超機人>・雀王機と、玄武の姿を模した",
+    "<超機人>・武王機が合体することによって構成されている。",
+    "　背中の巨大な甲羅と神獣盾と呼ばれる障壁により、四神の中",
+    "で最も高い防御力を誇る。また、<超機人>の構成材として用いら",
+    "れている特殊な護符「装符」の修復能力が他の<超機人>に比べて",
+    "突出している。また、特殊人型機動兵器を参考にして装符で作",
+    "り上げられたパーツが組み込まれており、近代的なミサイル・",
+    "ランチャーなども有する。主武装は雀武王の黒蛇刀が変化した",
+    "「黒蛇臼砲」であり、砲撃戦を得意とする。なお、黒蛇臼砲は",
+    "さらに「玄天衝天砲」へ変化し、超長距離からの攻撃を可能と",
+    "する。防御力や砲撃能力に優れている反面、運動性は低く、格",
+    "闘戦は不得手。なお、武雀王の性格は沈着冷静で大人しく、辛",
+    "抱強い。"
+   ]
+  },
+  {
+   "id": 36,
+   "section": "STRI",
+   "offset": 27655,
+   "text_offset": 27665,
+   "role": "display",
+   "refs": [
+    "rec44.text"
+   ],
+   "orig_chars": [
+    29,
+    21
+   ],
+   "orig_bytes": 148,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　朱雀の姿を模して作られた四神の<超機人>。高速空中戦闘を",
+    "得意とし、その飛行速度は龍王機を凌駕する。"
+   ]
+  },
+  {
+   "id": 37,
+   "section": "STRI",
+   "offset": 27813,
+   "text_offset": 27827,
+   "role": "display",
+   "refs": [
+    "rec45.text"
+   ],
+   "orig_chars": [
+    30,
+    26,
+    24
+   ],
+   "orig_bytes": 239,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　玄武の姿を模して作られた四神の<超機人>。防御力は高いが、",
+    "運動性が低い。他機の盾役になるのが本来の役目であり、",
+    "この形態での戦闘はどちらかと言えば不得手である。"
+   ]
+  },
+  {
+   "id": 38,
+   "section": "STRI",
+   "offset": 28066,
+   "text_offset": 28084,
+   "role": "display",
+   "refs": [
+    "rec46.text"
+   ],
+   "orig_chars": [
+    28,
+    30,
+    30,
+    21
+   ],
+   "orig_bytes": 323,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「百邪」と呼ばれる悪魔や妖怪と戦うため、古代人が作り上",
+    "げた半生体兵器・<超機人>……その最上位に位置づけられている",
+    "「四霊」の内の１体。応龍の姿を持ち、大きさは<超機人>の中で",
+    "も最大級。また、絶大な攻撃力を有している。"
+   ]
+  },
+  {
+   "id": 39,
+   "section": "STRI",
+   "offset": 28407,
+   "text_offset": 28421,
+   "role": "display",
+   "refs": [
+    "rec47.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    3
+   ],
+   "orig_bytes": 182,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「とうてつおう」と読む。「四凶」の<超機人>で、人面羊身、",
+    "虎の牙を持つ。非常に貪欲で、常に飢えており、人間の魂を食",
+    "らう。"
+   ]
+  },
+  {
+   "id": 40,
+   "section": "STRI",
+   "offset": 28603,
+   "text_offset": 28617,
+   "role": "display",
+   "refs": [
+    "rec48.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    8
+   ],
+   "orig_bytes": 197,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「きゅうきおう」と読む。「四凶」の<超機人>で、翼を持った",
+    "虎のような姿をしている。地上での高速戦闘のみならず、空中",
+    "戦闘をもこなす。"
+   ]
+  },
+  {
+   "id": 41,
+   "section": "STRI",
+   "offset": 28814,
+   "text_offset": 28820,
+   "role": "display",
+   "refs": [
+    "rec49.text"
+   ],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "　「ていこう」と読む。バラルが使役する妖機人の一種。"
+  },
+  {
+   "id": 42,
+   "section": "STRI",
+   "offset": 28899,
+   "text_offset": 28905,
+   "role": "display",
+   "refs": [
+    "rec50.text"
+   ],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "　「もうかい」と読む。バラルが使役する妖機人の一種。"
+  },
+  {
+   "id": 43,
+   "section": "STRI",
+   "offset": 28984,
+   "text_offset": 28990,
+   "role": "display",
+   "refs": [
+    "rec51.text"
+   ],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "　「からぎょ」と読む。バラルが使役する妖機人の一種。"
+  },
+  {
+   "id": 44,
+   "section": "STRI",
+   "offset": 29069,
+   "text_offset": 29075,
+   "role": "display",
+   "refs": [
+    "rec52.text"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "　「ほうきょう」と読む。バラルが使役する妖機人の一種。"
+  },
+  {
+   "id": 45,
+   "section": "STRI",
+   "offset": 29157,
+   "text_offset": 29167,
+   "role": "display",
+   "refs": [
+    "rec53.text"
+   ],
+   "orig_chars": [
+    27,
+    2
+   ],
+   "orig_bytes": 89,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「くしんこうしゅ」と読む。バラルが使役する妖機人の一",
+    "種。"
+   ]
+  },
+  {
+   "id": 46,
+   "section": "STRI",
+   "offset": 29256,
+   "text_offset": 29270,
+   "role": "display",
+   "refs": [
+    "rec54.text",
+    "rec55.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    7
+   ],
+   "orig_bytes": 192,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ククルが使用する女神の姿を模した人型兵器。元は彼女の国",
+    "でまつられていた神像であるらしいが、どういう原理で動いて",
+    "いるかは不明。"
+   ]
+  },
+  {
+   "id": 47,
+   "section": "STRI",
+   "offset": 29462,
+   "text_offset": 29472,
+   "role": "display",
+   "refs": [
+    "rec56.text"
+   ],
+   "orig_chars": [
+    29,
+    19
+   ],
+   "orig_bytes": 142,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「神僕」と呼ばれる鷲の姿をした空戦型の機動兵器。<地球連",
+    "邦軍>では「クストース」と呼称される。"
+   ]
+  },
+  {
+   "id": 48,
+   "section": "STRI",
+   "offset": 29614,
+   "text_offset": 29624,
+   "role": "display",
+   "refs": [
+    "rec57.text"
+   ],
+   "orig_chars": [
+    27,
+    26
+   ],
+   "orig_bytes": 157,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「神僕」と呼ばれる鮫の姿をした宙間・水中戦闘型の機動",
+    "兵器。<地球連邦軍>では「クストース」と呼称される。"
+   ]
+  },
+  {
+   "id": 49,
+   "section": "STRI",
+   "offset": 29781,
+   "text_offset": 29791,
+   "role": "display",
+   "refs": [
+    "rec58.text"
+   ],
+   "orig_chars": [
+    29,
+    19
+   ],
+   "orig_bytes": 142,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「神僕」と呼ばれる豹の姿をした陸戦型の機動兵器。<地球連",
+    "邦軍>では「クストース」と呼称される。"
+   ]
+  },
+  {
+   "id": 50,
+   "section": "STRI",
+   "offset": 29933,
+   "text_offset": 29943,
+   "role": "display",
+   "refs": [
+    "rec59.text"
+   ],
+   "orig_chars": [
+    28,
+    10
+   ],
+   "orig_bytes": 116,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　バラルの園を防衛する機動兵器。ケレンを小型化し、量産し",
+    "たものだと思われる。"
+   ]
+  },
+  {
+   "id": 51,
+   "section": "STRI",
+   "offset": 30059,
+   "text_offset": 30065,
+   "role": "display",
+   "refs": [
+    "rec60.text"
+   ],
+   "orig_chars": [
+    18
+   ],
+   "orig_bytes": 55,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "　バラルの園を防衛する人型機動兵器。"
+  },
+  {
+   "id": 52,
+   "section": "STRI",
+   "offset": 30120,
+   "text_offset": 30150,
+   "role": "display",
+   "refs": [
+    "rec61.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    8
+   ],
+   "orig_bytes": 535,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　遥か昔、地球に飛来した人造神。その正体は何者かによって",
+    "造られた惑星防衛システム『バラル』の中枢制御装置。巫女や",
+    "マシアフと呼ばれる強念者とリンクすることによって、守護対",
+    "象となる惑星を強力な結界で覆い、外界から完全に遮断する。",
+    "結界内にいる者を外界へ出さず、外界にいる者を攻撃する性質",
+    "から、惑星を守護するのではなく、封印するためのシステムで",
+    "あるとも言える。"
+   ]
+  },
+  {
+   "id": 53,
+   "section": "STRI",
+   "offset": 30685,
+   "text_offset": 30739,
+   "role": "display",
+   "refs": [
+    "rec62.text"
+   ],
+   "orig_chars": [
+    31,
+    28,
+    27,
+    4,
+    30,
+    27,
+    27,
+    2,
+    30,
+    10,
+    28,
+    28,
+    22
+   ],
+   "orig_bytes": 879,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<マオ・インダストリー>が開発した<パーソナルトルーパー>。",
+    "　アルトアイゼンのコンセプトを受け継いだ接近・格闘戦用の",
+    "機体で、基本的には砲撃戦用のビルトファルケンと共に運用",
+    "される。",
+    "　<ＥＯＴ>は使用されておらず、近・中距離戦闘用の実弾兵器を",
+    "装備している。また、機体にはＲ‐１やヒュッケバイン・シ",
+    "リーズのＨフレームではなく、ＧⅡフレームが使用されてい",
+    "る。",
+    "背部には高性能の<テスラ・ドライブ>が搭載されており、重力下",
+    "での単体飛行が可能。",
+    "　さらに、ジャケット・アーマーと呼ばれる装甲を排除するこ",
+    "とによって、高機動モードへ移行する。設計・開発担当はマリ",
+    "オン・ラドム博士。他に同型機が１機存在する。"
+   ]
+  },
+  {
+   "id": 54,
+   "section": "STRI",
+   "offset": 31618,
+   "text_offset": 31676,
+   "role": "display",
+   "refs": [
+    "rec63.text"
+   ],
+   "orig_chars": [
+    31,
+    28,
+    30,
+    18,
+    28,
+    28,
+    15,
+    28,
+    28,
+    28,
+    20,
+    28,
+    28,
+    17
+   ],
+   "orig_bytes": 1063,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<マオ・インダストリー>が開発した<パーソナルトルーパー>。",
+    "　ヴァイスリッターのコンセプトを受け継いだ砲撃戦用の機体",
+    "で、高性能の<テスラ・ドライブ>を搭載し、運動性は<パーソナ",
+    "ルトルーパー>の中でもトップクラス。",
+    "　基本的に近接・格闘戦用のビルトビルガーと共に運用され、",
+    "特に高機動モードへ移行した同機との連係攻撃「ツイン・バー",
+    "ド・ストライク」は強力である。",
+    "　主武装は実弾とエネルギー弾を使い分けるオクスタン・ライ",
+    "フル。また、機体にはビルトビルガーと違ってヒュッケバイン",
+    "系のＨフレームが使用され、機体剛性の向上と軽量化が図られ",
+    "ている。開発担当者はカーク・ハミル博士。",
+    "　なお、ビルトファルケンという名称は、ドイツ語の「ＷＩＬ",
+    "Ｄ（野生）」と「ＷＡＮＤＥＲＦＡＬＫＥ（隼）」が基となっ",
+    "ている。他に同型機が１機存在する。"
+   ]
+  },
+  {
+   "id": 55,
+   "section": "STRI",
+   "offset": 32739,
+   "text_offset": 32761,
+   "role": "display",
+   "refs": [
+    "rec64.text"
+   ],
+   "orig_chars": [
+    29,
+    30,
+    28,
+    28,
+    17
+   ],
+   "orig_bytes": 393,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　可変型<パーソナルトルーパー>、ビルトラプターの強化改造",
+    "型。<テスラ・ドライブ>を搭載し、運動性と機動力が向上してい",
+    "る。また、以前のビルトラプターにはなかった本体内蔵型の強",
+    "力な火器（レールキャノン）や格闘戦用武器のブレード・サイ",
+    "を搭載し、攻撃力が増強されている。"
+   ]
+  },
+  {
+   "id": 56,
+   "section": "STRI",
+   "offset": 33154,
+   "text_offset": 33168,
+   "role": "display",
+   "refs": [
+    "rec65.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    14
+   ],
+   "orig_bytes": 207,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ビルトラプター・シュナーベルの飛行形態（フライヤー・",
+    "モード）。レールキャノンが前部に位置するため、改修前と",
+    "比べてバランスが良くなった。"
+   ]
+  },
+  {
+   "id": 57,
+   "section": "STRI",
+   "offset": 33375,
+   "text_offset": 33409,
+   "role": "display",
+   "refs": [
+    "rec66.text"
+   ],
+   "orig_chars": [
+    30,
+    30,
+    30,
+    24,
+    28,
+    30,
+    28,
+    20
+   ],
+   "orig_bytes": 652,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　アルブレードは<マオ・インダストリー>社が開発したＲ‐１の",
+    "簡易量産試作型<パーソナルトルーパー>である。Ｒ‐１にあった",
+    "飛行形態への変形機構や<Ｔ‐ＬＩＮＫシステム>（念動力感知増",
+    "幅装置）はオミットされているが、基本性能は高い。",
+    "　そして、アルブレード・カスタムは近距離戦用として調整さ",
+    "れた試作３号機に<テスラ・ドライブ>やスプリット・ビームキャ",
+    "ノンを搭載し、ビルトビルガーにも使われているジャケット・",
+    "アーマーを装着した特別仕様の機体である。"
+   ]
+  },
+  {
+   "id": 58,
+   "section": "STRI",
+   "offset": 34061,
+   "text_offset": 34099,
+   "role": "display",
+   "refs": [
+    "rec67.text",
+    "rec70.text",
+    "rec73.text",
+    "rec220.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    28,
+    24,
+    28,
+    28,
+    20
+   ],
+   "orig_bytes": 729,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ゲシュペンスト・シリーズの強化改造案「ハロウィン・プラ",
+    "ン」に則って開発された機体。ベースとなった量産型ゲシュペ",
+    "ンストＭｋ‐Ⅱそのものの特性を煮詰め直し、汎用性・整備性",
+    "を上げる現場主義のバージョンアップ仕様機となっている。一",
+    "部の外部装甲やハードポイントに様々なパーツを装備すること",
+    "によって、多岐にわたる作戦内容へ柔軟に対応可能。",
+    "　なお、タイプＮは３つあるオプション・パーツ・セットの中",
+    "で最も汎用性に優れており、Ｆ２Ｗキャノンを携行し、左腕の",
+    "みにプラズマ・バックラーを装着している。"
+   ]
+  },
+  {
+   "id": 59,
+   "section": "STRI",
+   "offset": 34828,
+   "text_offset": 34866,
+   "role": "display",
+   "refs": [
+    "rec68.text",
+    "rec71.text",
+    "rec74.text",
+    "rec221.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    28,
+    24,
+    28,
+    28,
+    15
+   ],
+   "orig_bytes": 714,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ゲシュペンスト・シリーズの強化改造案「ハロウィン・プラ",
+    "ン」に則って開発された機体。ベースとなった量産型ゲシュペ",
+    "ンストＭｋ‐Ⅱそのものの特性を煮詰め直し、汎用性・整備性",
+    "を上げる現場主義のバージョンアップ仕様機となっている。一",
+    "部の外部装甲やハードポイントに様々なパーツを装備すること",
+    "によって、多岐にわたる作戦内容へ柔軟に対応可能。",
+    "　なお、タイプＧは３つあるオプション・パーツ・セットの中",
+    "で運動性、加速力に優れており、両腕や両膝のプラズマ・ステ",
+    "ークによる格闘戦を得意とする。"
+   ]
+  },
+  {
+   "id": 60,
+   "section": "STRI",
+   "offset": 35580,
+   "text_offset": 35618,
+   "role": "display",
+   "refs": [
+    "rec69.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    27,
+    28,
+    25,
+    28,
+    28,
+    19
+   ],
+   "orig_bytes": 726,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ゲシュペンスト・シリーズの強化改造案「ハロウィン・プラ",
+    "ン」に則って開発された機体。ベースとなった量産型ゲシュペ",
+    "ンストＭｋ‐Ⅱそのものの特性を煮詰め直し、汎用性・整備性",
+    "を上げる現場主義のバージョンアップ仕様機となっている。",
+    "一部の外部装甲やハードポイントに様々なパーツを装備するこ",
+    "とによって、多岐にわたる作戦内容へ柔軟に対応可能。",
+    "　なお、タイプＣは３つあるオプション・パーツ・セットの中",
+    "で防御力が高く、ファンナウト・ミサイルやツイン・ビームカ",
+    "ノンによる中・遠距離戦闘を得意とする。"
+   ]
+  },
+  {
+   "id": 61,
+   "section": "STRI",
+   "offset": 36344,
+   "text_offset": 36382,
+   "role": "display",
+   "refs": [
+    "rec72.text",
+    "rec75.text",
+    "rec222.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    28,
+    24,
+    28,
+    28,
+    19
+   ],
+   "orig_bytes": 726,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ゲシュペンスト・シリーズの強化改造案「ハロウィン・プラ",
+    "ン」に則って開発された機体。ベースとなった量産型ゲシュペ",
+    "ンストＭｋ‐Ⅱそのものの特性を煮詰め直し、汎用性・整備性",
+    "を上げる現場主義のバージョンアップ仕様機となっている。一",
+    "部の外部装甲やハードポイントに様々なパーツを装備すること",
+    "によって、多岐にわたる作戦内容へ柔軟に対応可能。",
+    "　なお、タイプＣは３つあるオプション・パーツ・セットの中",
+    "で防御力が高く、ファンナウト・ミサイルやツイン・ビームカ",
+    "ノンによる中・遠距離戦闘を得意とする。"
+   ]
+  },
+  {
+   "id": 62,
+   "section": "STRI",
+   "offset": 37108,
+   "text_offset": 37150,
+   "role": "display",
+   "refs": [
+    "rec76.text"
+   ],
+   "orig_chars": [
+    27,
+    13,
+    28,
+    28,
+    29,
+    27,
+    30,
+    28,
+    28,
+    15
+   ],
+   "orig_bytes": 757,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ＰＴＸ‐００１ゲシュペンストに大幅な強化改造を施した",
+    "<パーソナルトルーパー>。",
+    "　ギリアム・イェーガーやカイ・キタムラらが発案したゲシュ",
+    "ペンストシリーズの強化改造案「ハロウィン・プラン」によっ",
+    "て生み出された最初の機体である。<マオ・インダストリー>の",
+    "最新技術によって、機体フレームの段階から改造が施され、",
+    "装甲もほぼ全てを交換している。背部には<テスラ・ドライブ>を",
+    "搭載した大型フライト・ユニットを装備し、最新鋭機と比べて",
+    "も遜色のない運動性を誇る。また、メガ・バスターキャノンと",
+    "いう高威力のビーム武器を持つ。"
+   ]
+  },
+  {
+   "id": 63,
+   "section": "STRI",
+   "offset": 37907,
+   "text_offset": 37945,
+   "role": "display",
+   "refs": [
+    "rec77.text"
+   ],
+   "orig_chars": [
+    32,
+    13,
+    27,
+    29,
+    29,
+    28,
+    28,
+    30,
+    21
+   ],
+   "orig_bytes": 696,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＤＣ>の量産型<アーマードモジュール>であるリオンをろ獲し、",
+    "武装と装甲を強化した機体。",
+    "　各部にヒュッケバインやゲシュペンスト、アルトアイゼン",
+    "など<パーソナルトルーパー>の予備パーツが流用されている。",
+    "特に腕部は丸ごと<パーソナルトルーパー>のものに交換され、",
+    "脚部にも折り畳み式の斬撃用ブレードが取り付けられたため、",
+    "リオンが不得意としていた近接・格闘戦をもこなす。<パーソ",
+    "ナルトルーパー>と<アーマードモジュール>の中間をいく急場し",
+    "のぎの改造機だが、そのポテンシャルは高い。"
+   ]
+  },
+  {
+   "id": 64,
+   "section": "STRI",
+   "offset": 38641,
+   "text_offset": 38683,
+   "role": "display",
+   "refs": [
+    "rec78.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    32,
+    30,
+    10,
+    28,
+    28,
+    27,
+    3
+   ],
+   "orig_bytes": 724,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　マリオン・ラドム博士のプランの下、レオナ・ガーシュタイ",
+    "ンの搭乗機であったガーリオン・カスタムに、レオナの恋人で",
+    "あるタスク・シングウジが愛を込めて強化改造を施した機体。",
+    "　最新の<パーソナルトルーパー>技術や<テスラ・ドライブ>が搭載",
+    "され、運動性能や攻撃力が向上。また、<Ｔ‐ＬＩＮＫシステム>",
+    "も組み込まれている。",
+    "　ガーリオンと同じく両肩に専用の力場誘導子を増設し、機体",
+    "前方の局所へ電磁誘導加熱した金属粒子を固定、さらにそれを",
+    "念動フィールドで包みこみ、延長させて敵を攻撃することが",
+    "可能。"
+   ]
+  },
+  {
+   "id": 65,
+   "section": "STRI",
+   "offset": 39407,
+   "text_offset": 39445,
+   "role": "display",
+   "refs": [
+    "rec79.text"
+   ],
+   "orig_chars": [
+    15,
+    27,
+    27,
+    28,
+    26,
+    27,
+    27,
+    27,
+    19
+   ],
+   "orig_bytes": 678,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ジガンスクードの強化改造型。",
+    "　グルンガストシリーズに使われているＴＧＣジョイントを",
+    "各関節部に採用し、ジガンスクードに装備されていたシーズ",
+    "シールド・ユニットがシーズアンカー・ユニットに変更され、",
+    "格闘戦能力が向上している。また、改良型のグラビコン・",
+    "システムの搭載によって、Ｇ・テリトリーの展開が可能とな",
+    "り、防御力もさらに向上している。なお、ドゥロ（イタリア",
+    "語で“堅い”という意味）への改造プランを立てたのはマリ",
+    "オン・ラドム博士。通称は「ガンドロ」。"
+   ]
+  },
+  {
+   "id": 66,
+   "section": "STRI",
+   "offset": 40123,
+   "text_offset": 40169,
+   "role": "display",
+   "refs": [
+    "rec80.text",
+    "rec81.text"
+   ],
+   "orig_chars": [
+    30,
+    30,
+    28,
+    30,
+    30,
+    27,
+    28,
+    28,
+    28,
+    28,
+    2
+   ],
+   "orig_bytes": 862,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　恒星間航行計画「<プロジェクトＴＤ>」で開発された宙間航行",
+    "・宇宙環境作業用<アーマードモジュール>。シリーズ７７の最新",
+    "型で、先行機アステリオンＡＸのデータを基にして設計されて",
+    "いる。両脇に高性能<テスラ・ドライブ>を２基搭載しており、運",
+    "動性や機動性は他の<アーマードモジュール>の追随を許さない。",
+    "航行用のクルーズ・フィギュア（ＣＦ）、作業用のドール・",
+    "フィギュア（ＤＦ）に変形可能で、様々な状況に対処可能。ま",
+    "た、外宇宙で敵性知的生命体などと接触した場合を想定し、主",
+    "武装として重力制御式加速砲「Ｇアクセルドライバー」、副武",
+    "装として戦術統合ミサイル「ＣＴＭ」シリーズが実装されてい",
+    "る。"
+   ]
+  },
+  {
+   "id": 67,
+   "section": "STRI",
+   "offset": 41031,
+   "text_offset": 41053,
+   "role": "display",
+   "refs": [
+    "rec82.text"
+   ],
+   "orig_chars": [
+    31,
+    29,
+    28,
+    30,
+    13
+   ],
+   "orig_bytes": 386,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　恒星間航行計画「<プロジェクトＴＤ>」で開発された高機動<ア",
+    "ーマードモジュール>。シリーズ７７の最新型で、先行機カリオ",
+    "ンのデータを基にして設計されている。小型・高性能化された",
+    "<テスラ・ドライブ>を２基装備し、姉妹機であるアルテリオン以",
+    "上の機動性・加速性を誇る。"
+   ]
+  },
+  {
+   "id": 68,
+   "section": "STRI",
+   "offset": 41439,
+   "text_offset": 41457,
+   "role": "display",
+   "refs": [
+    "rec83.text"
+   ],
+   "orig_chars": [
+    30,
+    27,
+    30,
+    15
+   ],
+   "orig_bytes": 302,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　恒星間航行計画「<プロジェクトＴＤ>」で開発されたシリーズ",
+    "７７の最新型、アルテリオンとベガリオンが合体した形態。",
+    "その運動性や機動性は並み居る<アーマードモジュール>の中で頂",
+    "点を極め、絶大な火力を有する。"
+   ]
+  },
+  {
+   "id": 69,
+   "section": "STRI",
+   "offset": 41759,
+   "text_offset": 41829,
+   "role": "display",
+   "refs": [
+    "rec84.text"
+   ],
+   "orig_chars": [
+    29,
+    31,
+    6,
+    30,
+    27,
+    28,
+    30,
+    28,
+    15,
+    28,
+    28,
+    28,
+    28,
+    27,
+    28,
+    28,
+    18
+   ],
+   "orig_bytes": 1312,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　リクセント公国からの依頼と資金援助を受け、<テスラ・ライ",
+    "ヒ研究所>が開発した<アーマードモジュール>。シャイン・ハウゼ",
+    "ンの専用機。",
+    "　アステリオンのテスト用機体フレームや<テスラ・ドライブ>を",
+    "改造・小型化し、極限までの軽量化が図られた機体。そのた",
+    "め、機動性・運動性はアステリオンに追随する。また、ぜい弱",
+    "となった装甲を補うための<エネルギーフィールド>発生装置と、",
+    "「Ｗ‐㍾ＮＫシステム」と呼ばれる特殊なマン・マシン・イン",
+    "ターフェースが搭載されている。",
+    "　タイプＧのコックピットは、予知能力を持ったシャイン用の",
+    "特別仕様となっており、グルンガストにも導入されている脳波",
+    "制御装置や、高性能のＧキャンセラーが取り付けられている。",
+    "　「Ｗ‐㍾ＮＫシステム」は２機のフェアリオンの動きをシン",
+    "クロさせ、ラトゥーニとシャインの機体操縦の“腕の差”を",
+    "補正するためのものである。タイプＳに搭乗しているラトゥー",
+    "ニは、このシステムによってタイプＧをある程度コントロール",
+    "し、連係攻撃などを行うことが出来る。"
+   ]
+  },
+  {
+   "id": 70,
+   "section": "STRI",
+   "offset": 43141,
+   "text_offset": 43195,
+   "role": "display",
+   "refs": [
+    "rec85.text"
+   ],
+   "orig_chars": [
+    29,
+    31,
+    8,
+    30,
+    27,
+    28,
+    30,
+    28,
+    28,
+    26,
+    28,
+    28,
+    24
+   ],
+   "orig_bytes": 1032,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　リクセント公国からの依頼と資金援助を受け、<テスラ・ライ",
+    "ヒ研究所>が開発した<アーマードモジュール>。ラトゥーニ・スゥ",
+    "ボータの専用機。",
+    "　アステリオンのテスト用機体フレームや<テスラ・ドライブ>を",
+    "改造・小型化し、極限までの軽量化が図られた機体。そのた",
+    "め、機動性・運動性はアステリオンに追随する。また、ぜい弱",
+    "となった装甲を補うための<エネルギーフィールド>発生装置と、",
+    "「Ｗ‐㍾ＮＫシステム」と呼ばれる特殊なマン・マシン・イン",
+    "ターフェースが搭載されている。これは２機のフェアリオンの",
+    "動きをシンクロさせ、ラトゥーニとシャインの機体操縦の",
+    "“腕の差”を補正するためのものである。タイプＳに搭乗して",
+    "いるラトゥーニは、このシステムによってタイプＧをある程度",
+    "コントロールし、連係攻撃などを行うことが出来る。"
+   ]
+  },
+  {
+   "id": 71,
+   "section": "STRI",
+   "offset": 44227,
+   "text_offset": 44257,
+   "role": "display",
+   "refs": [
+    "rec86.text",
+    "rec87.text"
+   ],
+   "orig_chars": [
+    32,
+    29,
+    27,
+    27,
+    32,
+    28,
+    22
+   ],
+   "orig_bytes": 578,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<イスルギ重工>が開発した高機動<アーマードモジュール>。恒星",
+    "間航行計画「<プロジェクトＴＤ>」のカリオンやベガリオンの",
+    "データを基にして設計されている。性能はベガリオンに匹敵",
+    "し、両翼のフレキシブル・ウェポン・オペレーターによって",
+    "<アーマードモジュール>や<パーソナルトルーパー>の銃火器を使用",
+    "することが出来る。また、ＭＴＤ誘導弾を搭載した大型ウェポ",
+    "ン・ベイ、折り畳み式のＴＤＡノーズを有する。"
+   ]
+  },
+  {
+   "id": 72,
+   "section": "STRI",
+   "offset": 44835,
+   "text_offset": 44865,
+   "role": "display",
+   "refs": [
+    "rec88.text"
+   ],
+   "orig_chars": [
+    28,
+    31,
+    31,
+    28,
+    3,
+    27,
+    18
+   ],
+   "orig_bytes": 493,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ガレリオン（ガーリオンの後継機）の試作機をベースとし、",
+    "<ブーステッド・チルドレン>用にカスタマイズされた<アーマード",
+    "モジュール>。重装甲の機体だが、高性能<テスラ・ドライブ>と背",
+    "部スラスターにより、アステリオンＡＸ以上の高機動戦闘をこ",
+    "なす。",
+    "　なお、プレザンは両腕にターネイル・クラッシャーを装備",
+    "しており、指揮管制機能も有している。"
+   ]
+  },
+  {
+   "id": 73,
+   "section": "STRI",
+   "offset": 45358,
+   "text_offset": 45380,
+   "role": "display",
+   "refs": [
+    "rec89.text"
+   ],
+   "orig_chars": [
+    28,
+    31,
+    31,
+    28,
+    3
+   ],
+   "orig_bytes": 356,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ガレリオン（ガーリオンの後継機）の試作機をベースとし、",
+    "<ブーステッド・チルドレン>用にカスタマイズされた<アーマード",
+    "モジュール>。重装甲の機体だが、高性能<テスラ・ドライブ>と背",
+    "部スラスターにより、アステリオンＡＸ以上の高機動戦闘をこ",
+    "なす。"
+   ]
+  },
+  {
+   "id": 74,
+   "section": "STRI",
+   "offset": 45736,
+   "text_offset": 45766,
+   "role": "display",
+   "refs": [
+    "rec90.text"
+   ],
+   "orig_chars": [
+    28,
+    31,
+    31,
+    28,
+    3,
+    28,
+    24
+   ],
+   "orig_bytes": 514,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ガレリオン（ガーリオンの後継機）の試作機をベースとし、",
+    "<ブーステッド・チルドレン>用にカスタマイズされた<アーマード",
+    "モジュール>。重装甲の機体だが、高性能<テスラ・ドライブ>と背",
+    "部スラスターにより、アステリオンＡＸ以上の高機動戦闘をこ",
+    "なす。",
+    "　なお、アヴニールはＥＡ（電子攻撃）、ＥＰ（電子防御）、",
+    "ＥＳ（電子支援）機能を有した電子戦仕様機である。"
+   ]
+  },
+  {
+   "id": 75,
+   "section": "STRI",
+   "offset": 46280,
+   "text_offset": 46306,
+   "role": "display",
+   "refs": [
+    "rec91.text",
+    "rec92.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    28,
+    28,
+    29,
+    10
+   ],
+   "orig_bytes": 457,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<イスルギ重工>が開発したリオンの後継機。「レリオン（Ｒｅ",
+    "ＬＩＯＮ）」とは「リファイン・リオン」の略である。両腕が",
+    "ヒューマン・アームになっているため、ガーリオンのように様",
+    "々な武器が使える。リオンより基本性能が向上している上に扱",
+    "い易く、整備性や生産性にも優れたマルチロール・<アーマード",
+    "モジュール>である。"
+   ]
+  },
+  {
+   "id": 76,
+   "section": "STRI",
+   "offset": 46763,
+   "text_offset": 46777,
+   "role": "display",
+   "refs": [
+    "rec93.text"
+   ],
+   "orig_chars": [
+    28,
+    15,
+    0
+   ],
+   "orig_bytes": 132,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　出自不明の人型機動兵器。ある企業が開発した新型機に偽装",
+    "を施した機体だと言われている。",
+    ""
+   ]
+  },
+  {
+   "id": 77,
+   "section": "STRI",
+   "offset": 46909,
+   "text_offset": 46979,
+   "role": "display",
+   "refs": [
+    "rec94.text"
+   ],
+   "orig_chars": [
+    32,
+    31,
+    30,
+    28,
+    15,
+    29,
+    29,
+    28,
+    28,
+    28,
+    28,
+    28,
+    29,
+    30,
+    20,
+    33,
+    16
+   ],
+   "orig_bytes": 1355,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＤＣ戦争>で<ＤＣ>や<コロニー統合軍>が使用していた量産型",
+    "<アーマードモジュール>。戦後も<イスルギ重工>で生産が続けら",
+    "れ、<ＤＣ>残党のみならず<地球連邦軍>側でも使用されている",
+    "（連邦側の型式番号はＲＡＭ‐００４Ｖ）。リオンの改良型で",
+    "あり、機動性が強化されている。",
+    "　重力質量・慣性質量分離能を有した高効率反動推進装置「<テ",
+    "スラ・ドライブ>」によって重力質量のみを軽減し、小型の下方",
+    "ジェットにより容易に浮遊しつつ小面積の主翼の揚力で飛行し",
+    "ている。ただし、推力は別のデバイスで確保されており、降着",
+    "脚を兼ねた特異な機体下部には大型の在来型エンジンが主機と",
+    "して組み込まれている。また、下部には大胆な地形追随を可能",
+    "とする多数の姿勢制御用スラスターが組み込まれており、地表",
+    "戦闘をもこなす。さらに、一部パーツを換装することによって、",
+    "宇宙空間での運用も可能。<テスラ・ドライブ>搭載機としては極",
+    "めて単純な構造であり、生産コストも低い。",
+    "　<ＤＣ戦争>後も<イスルギ重工>で生産が継続され、<地球連邦軍>",
+    "でも主力機として使用されている。"
+   ]
+  },
+  {
+   "id": 78,
+   "section": "STRI",
+   "offset": 48334,
+   "text_offset": 48380,
+   "role": "display",
+   "refs": [
+    "rec95.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    3,
+    27,
+    27,
+    27,
+    19,
+    28,
+    27,
+    28,
+    26
+   ],
+   "orig_bytes": 807,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<アーマードモジュール>・リオンのバリエーション機。正式",
+    "名称は「リオン・タイプＬ」で、「ランドリオン」は通称で",
+    "ある。",
+    "　陸上戦闘能力を特化させた機体で、脚部の代わりに装備さ",
+    "れた４基のスティック・ムーバーによって高い踏破性能を発",
+    "揮する。また、スティック・ムーバーを水平に近い状態にす",
+    "ることで、機体を低くすることが出来る。",
+    "　機動性や運動性はリオンに比べて劣るため、基本的には地上",
+    "拠点攻撃・防衛戦で使用される。そのため、ノーマルタイプ",
+    "より性能が高い大型レールガンを装備している。<テスラ・ド",
+    "ライブ>による単体飛行も可能だが、空中戦には不向き。"
+   ]
+  },
+  {
+   "id": 79,
+   "section": "STRI",
+   "offset": 49187,
+   "text_offset": 49221,
+   "role": "display",
+   "refs": [
+    "rec96.text"
+   ],
+   "orig_chars": [
+    31,
+    27,
+    15,
+    29,
+    28,
+    27,
+    28,
+    14
+   ],
+   "orig_bytes": 593,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＤＣ>残党が使用する量産型<アーマードモジュール>・リオン",
+    "のバリエーション機。正式名称は「リオン・タイプＣ」で、",
+    "「コスモリオン」は通称である。",
+    "　宙間戦闘能力を特化させた機体で、改良型の<テスラ・ドライ",
+    "ブ>を併設した大型ブースター・ユニットによって、最大速度",
+    "が向上し、航続距離も延長されている。また、背部にはミサ",
+    "イル・コンテナを装備している。調整とパイロットの技量次第",
+    "では、重力下での運用も可能。"
+   ]
+  },
+  {
+   "id": 80,
+   "section": "STRI",
+   "offset": 49814,
+   "text_offset": 49856,
+   "role": "display",
+   "refs": [
+    "rec97.text"
+   ],
+   "orig_chars": [
+    28,
+    8,
+    28,
+    16,
+    29,
+    29,
+    28,
+    28,
+    28,
+    9
+   ],
+   "orig_bytes": 699,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　バレリオン・カスタムをベースにして開発された、バレリオ",
+    "ンの最上位機種。",
+    "　ビッグヘッド・レールガンが２門となり、火力が向上。装甲",
+    "と運動性もさらに強化されている。",
+    "　見た目は大型火砲だが、自力移動のみならず<テスラ・ドライ",
+    "ブ>による単体での飛行も可能。外部装甲など各部はＴ‐ドット",
+    "アレイで強化されており、それが最小限の構造素材で強固な機",
+    "体を実現せしめている。故に必須モジュール以外は比較的単純",
+    "な構造となったため、整備性が高く、コストも量産可能な範囲",
+    "に抑えられている。"
+   ]
+  },
+  {
+   "id": 81,
+   "section": "STRI",
+   "offset": 50555,
+   "text_offset": 50633,
+   "role": "display",
+   "refs": [
+    "rec98.text"
+   ],
+   "orig_chars": [
+    32,
+    31,
+    30,
+    19,
+    26,
+    27,
+    5,
+    29,
+    27,
+    27,
+    29,
+    27,
+    4,
+    27,
+    26,
+    27,
+    27,
+    27,
+    16
+   ],
+   "orig_bytes": 1372,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＤＣ戦争>で<ＤＣ>や<コロニー統合軍>が使用していた量産型",
+    "<アーマードモジュール>。戦後も<イスルギ重工>で生産が続けら",
+    "れ、<ＤＣ>残党のみならず<地球連邦軍>側でも使用されている",
+    "（連邦側の型式番号はＲＡＭ‐００６）。",
+    "　人型機動兵器との戦闘を前提として設計された機体であ",
+    "り、耐弾性の向上とあいまって局地戦にも対応した高汎用・",
+    "高性能機。",
+    "　指揮官用<アーマードモジュール>として運用され、リオンで",
+    "構成された主力編隊に後れを取らない高速戦域管制機として",
+    "活躍する。重力質量・慣性質量分離能を有した高効率反動推",
+    "進装置「<テスラ・ドライブ>」を搭載し、Ｔ‐ドットアレイを",
+    "斥力および慣性質量制御場として構成し、機体の“楯”とし",
+    "ている。",
+    "　また、先行２機種（リオン、バレリオン）の欠点として挙",
+    "げられていた武装オプションの少なさの問題が改善され、",
+    "ＬＩＥＯＮシステムによる四肢制御の進化と伴って、白兵戦",
+    "用ブレードを始めとする様々な武器の使用が可能となった。",
+    "　指揮管制機能を始めとするいくつかの仕様をオミットし、",
+    "コストを下げたタイプも存在する。"
+   ]
+  },
+  {
+   "id": 82,
+   "section": "STRI",
+   "offset": 52005,
+   "text_offset": 52027,
+   "role": "display",
+   "refs": [
+    "rec100.text"
+   ],
+   "orig_chars": [
+    11,
+    28,
+    28,
+    28,
+    13
+   ],
+   "orig_bytes": 329,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　傭兵ムラタの搭乗機。",
+    "　ベースとなった機体はガーリオン・カスタムで、肩部に大型",
+    "ブースターを増設し、瞬発力と突進力を向上させている。さら",
+    "に各部装甲を強化し、シシオウブレードを装備。剣撃戦闘用に",
+    "特化した機体となっている。"
+   ]
+  },
+  {
+   "id": 83,
+   "section": "STRI",
+   "offset": 52356,
+   "text_offset": 52382,
+   "role": "display",
+   "refs": [
+    "rec101.text"
+   ],
+   "orig_chars": [
+    27,
+    26,
+    26,
+    26,
+    26,
+    4
+   ],
+   "orig_bytes": 411,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　宙間戦闘仕様の量産型ヴァルシオン（ヴァルシオン改）。",
+    "　量産先行型に取り付けられていたフレキシブル・アーム",
+    "をブースター・ユニットに変え、装甲が強化されている。",
+    "　また、姿勢制御用バーニア・スラスターが増設され、宙",
+    "間戦闘に特化した機体となっているが、重力下での戦闘も",
+    "こなす。"
+   ]
+  },
+  {
+   "id": 84,
+   "section": "STRI",
+   "offset": 52793,
+   "text_offset": 52815,
+   "role": "display",
+   "refs": [
+    "rec102.text"
+   ],
+   "orig_chars": [
+    29,
+    26,
+    27,
+    27,
+    26
+   ],
+   "orig_bytes": 406,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<イスルギ重工>が開発した汎航空戦闘機のアップデート型。",
+    "　戦場を選ばぬ次世代機として、低空から高々度まで隙の",
+    "ない空戦能力と高い積載能力を持つ。特殊素材によるフレキ",
+    "シブル翼型、完全埋没型コックピット、ＴＢＯの極めて長い",
+    "モジュール構造の採用で、現用機とは一線を画している。"
+   ]
+  },
+  {
+   "id": 85,
+   "section": "STRI",
+   "offset": 53221,
+   "text_offset": 53231,
+   "role": "display",
+   "refs": [
+    "rec103.text"
+   ],
+   "orig_chars": [
+    29,
+    2
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍>の主力戦車。大口径のレールガンを装備してい",
+    "る。"
+   ]
+  },
+  {
+   "id": 86,
+   "section": "STRI",
+   "offset": 53322,
+   "text_offset": 53348,
+   "role": "display",
+   "refs": [
+    "rec104.text"
+   ],
+   "orig_chars": [
+    22,
+    27,
+    29,
+    28,
+    28,
+    26
+   ],
+   "orig_bytes": 474,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍>などで使用される宇宙航行艦。",
+    "　フレーム状の本体に、ミサイルやレーザー兵器を装備した",
+    "多目的武装ユニット、<アーマードモジュール>や<パーソナル",
+    "トルーパー>の射出カタパルトを併設したコンテナ、物資輸送",
+    "用コンテナなどを取り付けることが出来る。そのため、戦艦、",
+    "母艦、輸送艦、多用途支援艦として運用することが可能。"
+   ]
+  },
+  {
+   "id": 87,
+   "section": "STRI",
+   "offset": 53822,
+   "text_offset": 53852,
+   "role": "display",
+   "refs": [
+    "rec105.text"
+   ],
+   "orig_chars": [
+    23,
+    27,
+    27,
+    28,
+    27,
+    27,
+    15
+   ],
+   "orig_bytes": 521,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍>などで使用される大型宇宙戦艦。",
+    "　司令部機能を持っており、艦隊旗艦として運用されること",
+    "が多い。また、優れた捜索能力と航宙機管制機能を持ってい",
+    "る。宙間戦闘機や<アーマードモジュール>を搭載する戦闘母",
+    "艦と、５隻のビーム砲艦で構成されている。ビーム砲艦は単",
+    "独で行動することもでき、乗員を退避させてそれ自体をミサ",
+    "イルとして使用することも可能。"
+   ]
+  },
+  {
+   "id": 88,
+   "section": "STRI",
+   "offset": 54373,
+   "text_offset": 54395,
+   "role": "display",
+   "refs": [
+    "rec106.text"
+   ],
+   "orig_chars": [
+    24,
+    30,
+    28,
+    28,
+    5
+   ],
+   "orig_bytes": 342,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<シャドウミラー>が使用していた万能戦闘母艦。",
+    "　<テスラ・ドライブ>を装備し、搭載能力とステルス性に富んだ",
+    "大型艦。宇宙・空中・水中での運用が可能。ハガネなどスペー",
+    "スノア級万能戦闘母艦に対抗して造られたと言われるが、定か",
+    "ではない。"
+   ]
+  },
+  {
+   "id": 89,
+   "section": "STRI",
+   "offset": 54737,
+   "text_offset": 54839,
+   "role": "display",
+   "refs": [
+    "rec107.text"
+   ],
+   "orig_chars": [
+    28,
+    29,
+    12,
+    27,
+    27,
+    30,
+    28,
+    27,
+    28,
+    10,
+    28,
+    29,
+    28,
+    28,
+    6,
+    28,
+    28,
+    27,
+    27,
+    28,
+    25,
+    28,
+    27,
+    28,
+    4
+   ],
+   "orig_bytes": 1858,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　対異星人戦闘用に建造されたスペースノア級万能戦闘母艦の",
+    "弐番艦。<テスラ・ドライブ>で浮遊し、８基のメインロケット",
+    "エンジンなどで推進する。",
+    "　船体は超抗力金属で構成されており、宙間航行のみならず",
+    "大気圏内飛行、水中潜航も可能。さらに対艦砲撃戦闘能力や",
+    "<パーソナルトルーパー>及び各種戦闘機の搭載能力に優れ、連邦",
+    "軍側で「ＩＳＡ（Ｉｎｔｅｇｒａｔｅｄ　Ｓｙｎｃｈｒｏｎｉ",
+    "ｚｉｎｇ　Ａｔｔａｃｋ＝空母の役割を果たす機動戦艦と、",
+    "そこに搭載された人型機動兵器による電撃戦）」という戦術を",
+    "実現した戦艦である。",
+    "　スペースノア級はその建造にまつわる思惑が「地球脱出船団",
+    "の護衛艦」「対異星人戦用<ＰＴ>搭載戦闘母艦」という正反対",
+    "の二極に分かれ、大綱とも言える地球脱出計画の裏をかくよう",
+    "な形で、地球圏防衛構想で想定される戦闘能力が付与されるこ",
+    "とになった。",
+    "　その二重の思惑を隠蔽するために採用されたのが、戦艦には",
+    "あるまじきフレキシビリティ構造で、これは艦のモジュール化",
+    "によって船体・本体主機関などを共通核に、比較的短時間で",
+    "目的別の戦闘モジュール等の換装を行えるシステムである。",
+    "　なお、換装の対象となるのは艦首部分で、壱番艦・弐番艦・",
+    "参番艦にはそれぞれ別のモジュールが装着されている。",
+    "　弐番艦ハガネの艦首モジュールは高出力の重金属粒子砲トロ",
+    "ニウム・バスターキャノンとなっており、連邦軍の軍艦の中",
+    "でもトップレベルの攻撃力を持つ。コードネームは「スティー",
+    "ル２」。"
+   ]
+  },
+  {
+   "id": 90,
+   "section": "STRI",
+   "offset": 56697,
+   "text_offset": 56743,
+   "role": "display",
+   "refs": [
+    "rec108.text"
+   ],
+   "orig_chars": [
+    27,
+    29,
+    13,
+    27,
+    27,
+    27,
+    29,
+    27,
+    26,
+    28,
+    19
+   ],
+   "orig_bytes": 836,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　対異星人戦闘用に建造されたスペースノア級万能戦闘母艦",
+    "の参番艦。<テスラ・ドライブ>で浮遊し、８基のメインロケッ",
+    "トエンジンなどで推進する。",
+    "　クロガネの艦首モジュールは、岩盤粉砕用の超大型回転衝",
+    "角（対艦対岩盤エクスカリバードリル衝角）となっており、",
+    "対艦格闘戦や進路上の障害物（岩塊や氷塊など）の除去など",
+    "が可能。また、<テスラ・ドライブ>の出力を一定値以上に上げ",
+    "た時に形成され、艦全体を覆うＴ‐ドットアレイの力場「ブ",
+    "レイク・フィールド」と超大型回転衝角の併用によって、",
+    "敵要塞などの広範囲<エネルギーフィールド>を突破すること",
+    "も可能。コードネームは「アイアン３」。"
+   ]
+  },
+  {
+   "id": 91,
+   "section": "STRI",
+   "offset": 57579,
+   "text_offset": 57637,
+   "role": "display",
+   "refs": [
+    "rec111.text"
+   ],
+   "orig_chars": [
+    28,
+    3,
+    28,
+    30,
+    28,
+    14,
+    28,
+    27,
+    27,
+    28,
+    9,
+    30,
+    28,
+    4
+   ],
+   "orig_bytes": 938,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　人類初の外宇宙探査航行艦「ヒリュウ」を改造した汎用戦闘",
+    "母艦。",
+    "　<テスラ・ドライブ>を搭載した初の艦船でもある。新西暦",
+    "１７９年、冥王星軌道外宙域で<エアロゲイター>の機動兵器群の",
+    "襲撃を受け、中破。多くの犠牲を払った末、アステロイドベル",
+    "トのイカロス基地へ帰還する。",
+    "　その後、「ＩＳＡ（Ｉｎｔｅｇｒａｔｅｄ　Ｓｙｎｃｈｒｏ",
+    "ｎｉｚｉｎｇ　Ａｔｔａｃｋ＝空母の役割を果たす機動戦艦",
+    "と、そこに搭載された人型機動兵器による電撃戦）」という",
+    "戦術に基づいた大改修を受け、汎用戦闘母艦「ヒリュウ改」と",
+    "して生まれ変わる。",
+    "　艦首には<ＥＯＴ>を応用した超重力衝撃砲が装備され、ハガネ",
+    "やクロガネに次ぐ戦闘能力を有する。コードネームは「ドラゴ",
+    "ン２」。"
+   ]
+  },
+  {
+   "id": 92,
+   "section": "STRI",
+   "offset": 58575,
+   "text_offset": 58621,
+   "role": "display",
+   "refs": [
+    "rec112.text"
+   ],
+   "orig_chars": [
+    31,
+    29,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    4
+   ],
+   "orig_bytes": 867,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<イスルギ重工>が建造したガイアセイバーズの旗艦。高性能<テ",
+    "スラ・ドライブ>を複数搭載し、宙間航行、大気圏内飛行、水上",
+    "航行、水中潜航を可能とする万能戦闘母艦である。また、スペ",
+    "ースノア級万能戦闘母艦を上回る速力や人型機動兵器の搭載能",
+    "力を有し、艦橋、主砲、副砲、対空兵装を格納することによっ",
+    "て、高速巡航形態へ移行できる。さらに、艦全体を包むＴ‐ド",
+    "ットアレイの力場「ブレイク・フィールド」や艦首から発生す",
+    "る「フィールド・ブレード」を併用することにより、敵陣突破",
+    "や敵要塞突入戦、対艦格闘戦を行う。なお、従来の軍艦にはな",
+    "い特殊機能を搭載していると言われているが、その詳細は不明",
+    "である。"
+   ]
+  },
+  {
+   "id": 93,
+   "section": "STRI",
+   "offset": 59488,
+   "text_offset": 59506,
+   "role": "display",
+   "refs": [
+    "rec113.text",
+    "rec114.text"
+   ],
+   "orig_chars": [
+    23,
+    30,
+    28,
+    22
+   ],
+   "orig_bytes": 305,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍>などで用いられる空中戦闘母艦。",
+    "　戦闘機や<アーマードモジュール>の空中発艦・着艦が可能で、",
+    "搭載能力も高い。また、優れた広域防空機能や強力な固定武装",
+    "を持ち、空中要塞とも言える存在になっている。"
+   ]
+  },
+  {
+   "id": 94,
+   "section": "STRI",
+   "offset": 59811,
+   "text_offset": 59837,
+   "role": "display",
+   "refs": [
+    "rec115.text"
+   ],
+   "orig_chars": [
+    23,
+    29,
+    9,
+    28,
+    28,
+    8
+   ],
+   "orig_bytes": 369,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍>が使用する大型戦略戦術輸送機。",
+    "　最大５機の<パーソナルトルーパー>を格納し、戦場まで運搬",
+    "することが出来る。",
+    "　搭載機射出カタパルトを持つため、飛行中における<パーソ",
+    "ナルトルーパー>の出撃が可能となっており、迅速な部隊展開",
+    "を実現している。"
+   ]
+  },
+  {
+   "id": 95,
+   "section": "STRI",
+   "offset": 60206,
+   "text_offset": 60248,
+   "role": "display",
+   "refs": [
+    "rec116.text"
+   ],
+   "orig_chars": [
+    32,
+    30,
+    28,
+    28,
+    28,
+    27,
+    28,
+    28,
+    21,
+    0
+   ],
+   "orig_bytes": 748,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＤＣ>（<ディバイン・クルセイダーズ>）総帥であるビアン・ゾ",
+    "ルダーク博士が基本設計を行った<アースクレイドル>防衛用の特",
+    "殊人型機動兵器「ダイナミック・ゼネラル・ガーディアン」シ",
+    "リーズ、通称「ダブルＧ」の１号機。剣撃戦・格闘戦用の機体",
+    "で、操縦系統には「ＤＭＬシステム」と専用ＯＳ「ＪＩＮＫＩ",
+    "‐１」が採用されており、人機一体の動きを可能とする。ま",
+    "た、機体各部の動力伝達に「ＡＢＭＤ（人工骨格筋肉駆動）シ",
+    "ステム」を用いているため、同サイズの人型機動兵器に比べて",
+    "遥かに柔軟かつダイナミックな動きを見せる。",
+    ""
+   ]
+  },
+  {
+   "id": 96,
+   "section": "STRI",
+   "offset": 60996,
+   "text_offset": 61038,
+   "role": "display",
+   "refs": [
+    "rec117.text"
+   ],
+   "orig_chars": [
+    32,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    12,
+    0
+   ],
+   "orig_bytes": 722,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＤＣ>（<ディバイン・クルセイダーズ>）総帥であるビアン・ゾ",
+    "ルダークが基本設計を行った「ダイナミック・ゼネラル・ガー",
+    "ディアン」シリーズ、通称「ダブルＧ」の２号機。一撃離脱を",
+    "得意とするレーツェルの戦闘スタイルに合わせ、長銃身のビー",
+    "ム・キャノンと大出力のバーニア・スラスター、地上高速移動",
+    "用の車輪（フェルゼ・ラート）が装備されている。また、プフ",
+    "ェールト・モードへの変形機構を有し、背にダイゼンガーを乗",
+    "せることが出来る。その２機の姿はさながら騎馬武者のようで",
+    "あり、見る者を圧倒する。",
+    ""
+   ]
+  },
+  {
+   "id": 97,
+   "section": "STRI",
+   "offset": 61760,
+   "text_offset": 61810,
+   "role": "display",
+   "refs": [
+    "rec118.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    3,
+    0
+   ],
+   "orig_bytes": 861,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ビアン・ゾルダーク博士の設計図を基にし、カオル・トオミ",
+    "ネ博士が開発したダイナミック・ゼネラル・ガーディアンの３",
+    "号機。高速格闘戦用の機体で、パイロットは搭乗せず、「シス",
+    "テムＺＬＡＩ」というＡＩで制御される。その目的は１号機ダ",
+    "イゼンガーと２号機アウセンザイターの破壊である。忍者がモ",
+    "チーフとなっており、手裏剣（マルチプライ・ブレード）、忍",
+    "者刀（アンカー・シークレイト・ソード）などの武器を持つ。",
+    "改良された「ＡＢＭＤ（人工骨格筋肉駆動）システム」が組み",
+    "込まれており、動きはダイゼンガーやアウセンザイターより俊",
+    "敏。また、ＥＡ（電子攻撃）やＥＰ（電子防御）機能も有して",
+    "いる。",
+    ""
+   ]
+  },
+  {
+   "id": 98,
+   "section": "STRI",
+   "offset": 62671,
+   "text_offset": 62693,
+   "role": "display",
+   "refs": [
+    "rec119.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    14
+   ],
+   "orig_bytes": 383,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ジンライの簡易量産型。外見は良く似ているが、生産コスト",
+    "を下げるため、ジンライと比べて仕様がいくつかオミットされ",
+    "ている。また、ＡＢＭＤ（人工骨格筋肉駆動）システムは脚部",
+    "にしか組み込まれていない。ジンライが中忍だとすれば、この",
+    "量産型は下忍であると言える。"
+   ]
+  },
+  {
+   "id": 99,
+   "section": "STRI",
+   "offset": 63076,
+   "text_offset": 63122,
+   "role": "display",
+   "refs": [
+    "rec120.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    26
+   ],
+   "orig_bytes": 929,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ろ獲したジンライを改修した機体。システムＺＬＡＩを排除",
+    "し、ダイゼンガーと同様にＤＭＬ（ダイレクト・モーション・",
+    "リンク）システムを搭載した有人機となっている。さらに画期",
+    "的なマン・マシン・インターフェースである「システムＬＩＯ",
+    "Ｈ」が組み込まれている。このシステムは、パイロットの特性",
+    "を学んで潜在能力を引き出すためのものであり、機体制御用の",
+    "ＯＳであると同時に兵員養成システムとしての側面も持つ。ま",
+    "た、ダイゼンガーやアウセンザイターの追加装備として開発さ",
+    "れていたブースターを脚部に装着し、パイロットとなったトウ",
+    "マが格闘技を得意としていたこともあって、ジンライのように",
+    "手持ちの武器を使わず、蹴り技を主体とした攻撃を行う。"
+   ]
+  },
+  {
+   "id": 100,
+   "section": "STRI",
+   "offset": 64051,
+   "text_offset": 64093,
+   "role": "display",
+   "refs": [
+    "rec121.text"
+   ],
+   "orig_chars": [
+    27,
+    29,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    12
+   ],
+   "orig_bytes": 798,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「ツェントル・プロジェクト」で開発されたＴＥアブゾー",
+    "バーの試作７号機。<特機>タイプの機体で、格闘戦を得意とす",
+    "る。ただし、ターミナス・エナジーを応用するＴＥエンジンは",
+    "出力調整などの面において問題が多く、各部関節などの駆動は",
+    "電池で補われている。また、ＴＥエンジンのより細やかな出力",
+    "調整や機体制御の補佐を行うため、ＤＦＣ（ダイレクト・フィ",
+    "ーリング・コントロール）システムが導入され、専用のスーツ",
+    "を装着したオペレーターが機体へ同乗する。同型機が１機存在",
+    "しているが、予備パーツ的な意味合いが強いため、テストや戦",
+    "闘では使用されていない。"
+   ]
+  },
+  {
+   "id": 101,
+   "section": "STRI",
+   "offset": 64891,
+   "text_offset": 64957,
+   "role": "display",
+   "refs": [
+    "rec122.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    28,
+    28,
+    28,
+    28,
+    26,
+    28,
+    28,
+    28,
+    23,
+    28,
+    28,
+    28,
+    6,
+    0
+   ],
+   "orig_bytes": 1186,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「ツェントル・プロジェクト」で開発されたＴＥアブゾー",
+    "バーの試作９号機。試作７号機ガルムレイドで得られた各種デ",
+    "ータを基にして作り上げられた本体と、無人機動兵器「マシン",
+    "・アニマリート」で構成されている。さらに、新型のＴＥエン",
+    "ジンが搭載されており、ガルムレイドと比べて出力と安定性が",
+    "向上している。また、「ＴＥスフィア」と呼ばれるエネルギー",
+    "・フィールドが使用可能となり、防御力も上がっている。",
+    "　マシン・アニマリートは鳥型の無人戦闘機「ヒオウ」と、狼",
+    "型の無人機動兵器「ロウガ」の２種が存在し、それぞれ単体で",
+    "の運用が可能だが、通常はパーツ分割され、ガルムレイド・ブ",
+    "レイズの腕、脚、肩、背中などに装着されている。",
+    "　なお、ロウガの頭部が変形した打突用武器を右腕に、ヒオウ",
+    "が変形したウィング・ブースターを背中に装着した形態を「フ",
+    "ォームＧ」と呼び、ガルムレイドと同じく格闘戦で優れた能力",
+    "を発揮する。",
+    ""
+   ]
+  },
+  {
+   "id": 102,
+   "section": "STRI",
+   "offset": 66143,
+   "text_offset": 66209,
+   "role": "display",
+   "refs": [
+    "rec123.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    28,
+    28,
+    28,
+    28,
+    26,
+    28,
+    28,
+    28,
+    23,
+    28,
+    28,
+    28,
+    28,
+    8
+   ],
+   "orig_bytes": 1276,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「ツェントル・プロジェクト」で開発されたＴＥアブゾー",
+    "バーの試作９号機。試作７号機ガルムレイドで得られた各種デ",
+    "ータを基にして作り上げられた本体と、無人機動兵器「マシン",
+    "・アニマリート」で構成されている。さらに、新型のＴＥエン",
+    "ジンが搭載されており、ガルムレイドと比べて出力と安定性が",
+    "向上している。また、「ＴＥスフィア」と呼ばれるエネルギー",
+    "・フィールドが使用可能となり、防御力も上がっている。",
+    "　マシン・アニマリートは鳥型の無人戦闘機「ヒオウ」と、狼",
+    "型の無人機動兵器「ロウガ」の２種が存在し、それぞれ単体で",
+    "の運用が可能だが、通常はパーツ分割され、ガルムレイド・ブ",
+    "レイズの腕、脚、肩、背中などに装着されている。",
+    "　なお、ロウガの頭部が変形したシールドを左腕に、ヒオウが",
+    "変形したキャノンを背中に装着した形態を「フォームＳ」と呼",
+    "び、中・遠距離戦闘で優れた能力を発揮する。また、シールド",
+    "とＴＥスフィアの併用により、防御力はフォームＧよりもやや",
+    "高くなっている。"
+   ]
+  },
+  {
+   "id": 103,
+   "section": "STRI",
+   "offset": 67485,
+   "text_offset": 67527,
+   "role": "display",
+   "refs": [
+    "rec124.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    12
+   ],
+   "orig_bytes": 796,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「ツェントル・プロジェクト」で開発されたＴＥアブゾー",
+    "バーの試作６号機。運動性が高く、中・遠距離戦を得意とす",
+    "る。ただし、ターミナス・エナジーを応用するＴＥエンジンは",
+    "出力調整などの面において問題が多く、各部関節などの駆動は",
+    "電池で補われている。また、ＴＥエンジンのより細やかな出力",
+    "調整や機体制御の補佐を行うため、ＤＦＣ（ダイレクト・フィ",
+    "ーリング・コントロール）システムが導入され、専用のスーツ",
+    "を装着したオペレーターが機体へ同乗する。同型機が１機存在",
+    "しているが、予備パーツ的な意味合いが強いため、テストや戦",
+    "闘では使用されていない。"
+   ]
+  },
+  {
+   "id": 104,
+   "section": "STRI",
+   "offset": 68323,
+   "text_offset": 68385,
+   "role": "display",
+   "refs": [
+    "rec125.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    28,
+    28,
+    27,
+    28,
+    21,
+    28,
+    28,
+    7,
+    28,
+    28,
+    28,
+    27,
+    18
+   ],
+   "orig_bytes": 1152,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「ツェントル・プロジェクト」で開発されたＴＥアブゾー",
+    "バーの試作８号機。サーベラスで得られた各種データを基にし",
+    "て作り上げられた本体と、追加武装ユニット「イグナイト・パ",
+    "ーツ」で構成されている。さらに、新型のＴＥエンジンが搭載",
+    "されており、サーベラスと比べて出力と安定性が向上してい",
+    "る。また、「ＴＥスフィア」と呼ばれるエネルギー・フィール",
+    "ドが使用可能となり、防御力も上がっている。",
+    "　イグナイト・パーツは単体でも無人戦闘機としての運用が可",
+    "能だが、基本的にはサーベラス・イグナイト本体に装着した状",
+    "態で使用する。",
+    "　また、サーベラス・イグナイト本体は接近戦用形態の「フィ",
+    "ギュアＷ」と砲撃戦用形態の「フィギュアＢ」に変形し（本体",
+    "の前後が逆になる）、高い汎用性を持つ。なお、フィギュアＷ",
+    "にイグナイト・パーツを装着した状態を「フォームＧ」と呼",
+    "び、接近戦に特化した性能を発揮する。"
+   ]
+  },
+  {
+   "id": 105,
+   "section": "STRI",
+   "offset": 69537,
+   "text_offset": 69599,
+   "role": "display",
+   "refs": [
+    "rec126.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    28,
+    28,
+    27,
+    28,
+    21,
+    28,
+    28,
+    7,
+    28,
+    28,
+    28,
+    27,
+    18
+   ],
+   "orig_bytes": 1152,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「ツェントル・プロジェクト」で開発されたＴＥアブゾー",
+    "バーの試作８号機。サーベラスで得られた各種データを基にし",
+    "て作り上げられた本体と、追加武装ユニット「イグナイト・パ",
+    "ーツ」で構成されている。さらに、新型のＴＥエンジンが搭載",
+    "されており、サーベラスと比べて出力と安定性が向上してい",
+    "る。また、「ＴＥスフィア」と呼ばれるエネルギー・フィール",
+    "ドが使用可能となり、防御力も上がっている。",
+    "　イグナイト・パーツは単体でも無人戦闘機としての運用が可",
+    "能だが、基本的にはサーベラス・イグナイト本体に装着した状",
+    "態で使用する。",
+    "　また、サーベラス・イグナイト本体は接近戦用形態の「フィ",
+    "ギュアＷ」と砲撃戦用形態の「フィギュアＢ」に変形し（本体",
+    "の前後が逆になる）、高い汎用性を持つ。なお、フィギュアＢ",
+    "にイグナイト・パーツを装着した状態を「フォームＳ」と呼",
+    "び、砲撃戦に特化した性能を発揮する。"
+   ]
+  },
+  {
+   "id": 106,
+   "section": "STRI",
+   "offset": 70751,
+   "text_offset": 70809,
+   "role": "display",
+   "refs": [
+    "rec127.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    27,
+    28,
+    28,
+    28,
+    30,
+    28,
+    23
+   ],
+   "orig_bytes": 1171,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「ツェントル・プロジェクト」で開発されたＴＥアブゾー",
+    "バーの試作５号機。プロジェクトの中心的人物であるミタール",
+    "・ザパト博士は試作機の動力として「ターミナス・エナジー」",
+    "を応用した「ＴＥエンジン」を作り上げ、自己修復が可能な装",
+    "甲素材「ラズムナニウム」の開発にも成功していた。だが、こ",
+    "れらは機能制御が困難であり、ＴＥアブゾーバーの試作１号機",
+    "から４号機までにおける試行錯誤の末、ミタールはＴＥエンジ",
+    "ンとラズムナニウムを搭載した機体の開発を一時断念。そし",
+    "て、試作５号機メディウス・ロクスにラズムナニウムを、試作",
+    "６号機サーベラスと試作７号機ガルムレイドにＴＥエンジンを",
+    "振り分け、それぞれの機能を追求していくことが決定された。",
+    "なお、メディウス・ロクスは<パーソナルトルーパー>のデータを",
+    "基にして作り上げられ、出力ではＴＥエンジン搭載機に劣るも",
+    "のの、高い運動性と追従性を有する機体となった。"
+   ]
+  },
+  {
+   "id": 107,
+   "section": "STRI",
+   "offset": 71980,
+   "text_offset": 72010,
+   "role": "display",
+   "refs": [
+    "rec128.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    30,
+    28,
+    28,
+    13
+   ],
+   "orig_bytes": 552,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　メディウス・ロクスが変貌した姿。ＡＩ１が得た様々な機体",
+    "データや戦闘データを基にし、ラズムナニウムの自己進化能力",
+    "によって形態変化を行い、著しいパワーアップを遂げている。",
+    "変貌前に比べ、機体サイズが大型化し、姿形や武器が<特機>寄り",
+    "の物となっている。なお、これはエルデがＴＥアブゾーバー試",
+    "作１０号機の存在を意識し、それに肉迫すべく、ＡＩ１に成長",
+    "を促したからだと思われる。"
+   ]
+  },
+  {
+   "id": 108,
+   "section": "STRI",
+   "offset": 72562,
+   "text_offset": 72612,
+   "role": "display",
+   "refs": [
+    "rec129.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    27,
+    28,
+    28,
+    27,
+    28,
+    28,
+    28,
+    28
+   ],
+   "orig_bytes": 1014,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ＴＥアブゾーバーの試作１０号機であり、最終型とも言える",
+    "機体。「ガルベルス」という名は、「ガルムレイド」と「サー",
+    "ベラス（ケルベルス）」を組み合わせたものであり、「ＭＯＤ",
+    "ＥＬ‐Ｘ」という別名も持つ。ツェントル・プロジェクトの産",
+    "物であるＴＥエンジン、ラズムナニウム、ＡＩ１を全て搭載",
+    "し、理論上、半永久的に稼働するメンテナンスフリーの機動兵",
+    "器である。サーベラス・イグナイトとガルムレイド・ブレイズ",
+    "の特徴を併せ持ち、それぞれの姿に似た形態に変形可能。な",
+    "お、「フォームＧ（ガルムレイド）」は格闘戦、「フォームＣ",
+    "（サーベラス）」は射撃戦を得意とする。また、機体はＡＩ１",
+    "によって完全制御され、確実に任務を履行する（感情や体調に",
+    "左右されず、人間には耐えられない状況下での稼働も可能）。"
+   ]
+  },
+  {
+   "id": 109,
+   "section": "STRI",
+   "offset": 73626,
+   "text_offset": 73668,
+   "role": "display",
+   "refs": [
+    "rec130.text"
+   ],
+   "orig_chars": [
+    28,
+    30,
+    28,
+    28,
+    27,
+    29,
+    29,
+    13,
+    28,
+    25
+   ],
+   "orig_bytes": 797,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ガイアセイバーズのアルファ・セイバーで用いられる人型機",
+    "動兵器。<インスペクター>が使用していた無人汎用可変機動兵器",
+    "「レストジェミラ（地球側のコードネームはジェミニラ）」を",
+    "ろ獲し、そのデータを基にして開発された。レストジェミラの",
+    "フレキシブルな機体構造、可動範囲の広い関節が極力生かさ",
+    "れ、高い運動性と追従性を発揮する。また、高性能<テスラ・ド",
+    "ライブ>も搭載している。なお、生産コストを抑えるため、可変",
+    "機構はオミットされている。",
+    "　レストジェミラが地球上で確認されてから、キャニスの量産",
+    "に至るまでの期間が短く、その開発経緯には謎が多い。"
+   ]
+  },
+  {
+   "id": 110,
+   "section": "STRI",
+   "offset": 74465,
+   "text_offset": 74511,
+   "role": "display",
+   "refs": [
+    "rec131.text"
+   ],
+   "orig_chars": [
+    28,
+    30,
+    28,
+    28,
+    27,
+    28,
+    19,
+    30,
+    28,
+    28,
+    23
+   ],
+   "orig_bytes": 894,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ガイアセイバーズのアルファ・セイバーで用いられる人型機",
+    "動兵器。<インスペクター>が使用していた無人汎用可変機動兵器",
+    "「レストジェミラ（地球側のコードネームはジェミニラ）」を",
+    "ろ獲し、そのデータを基にして開発された。レストジェミラの",
+    "フレキシブルな機体構造、可動範囲の広い関節が極力生かさ",
+    "れ、高い運動性と追従性を発揮する。また、生産コストを抑え",
+    "るため、可変機構はオミットされている。",
+    "　アルタルフは指揮管制機能と高性能<テスラ・ドライブ>を搭載",
+    "した大型ウィングを持ち、運動性がさらに向上。また、実弾と",
+    "ビームの発射が可能なダブル・ガナリーはロングバレル・バー",
+    "ジョンになり、大型の銃剣が取り付けられている。"
+   ]
+  },
+  {
+   "id": 111,
+   "section": "STRI",
+   "offset": 75405,
+   "text_offset": 75427,
+   "role": "display",
+   "refs": [
+    "rec133.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    18,
+    0
+   ],
+   "orig_bytes": 311,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　クロスゲートからのエネルギーによって、ラズムナニウムが",
+    "暴走し、ＡＩ１を収容しているコアが巨大化してＴＥエンジン",
+    "と融合した状態。「ＡＬＬ　Ｉｎ　１」という名の通り、あら",
+    "ゆる物をその体内に取り込もうとする。",
+    ""
+   ]
+  },
+  {
+   "id": 112,
+   "section": "STRI",
+   "offset": 75738,
+   "text_offset": 75792,
+   "role": "display",
+   "refs": [
+    "rec134.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    27,
+    2
+   ],
+   "orig_bytes": 1024,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ファイター・ロアことコウタ・アズマが搭乗するスーパーロ",
+    "ボットで、コウタの祖父であるキサブローが、異世界の戦士ロ",
+    "アから託された人型機動兵器を改修した機体。主機である「Ｏ",
+    "Ｇ（オーバー・ゲート）エンジン」は、異世界のオーバー・テ",
+    "クノロジーによって作り上げられたものであり、限定的な超次",
+    "元間孔を開き、希薄関連性近接亜空間に存在する特殊なエネル",
+    "ギー粒子を用いて機体の駆動や攻撃を行う。ただし、ＯＧエン",
+    "ジンは完全に修復されておらず、現状では真の力を発揮するこ",
+    "とが出来ない。また、ＡＢＭＤ（人工骨格筋肉駆動）システム",
+    "やＤＭＬ（ダイレクト・モーション・リンク）システムに似た",
+    "物を搭載しており、人機一体の動きを可能とする。「コンパチ",
+    "カイザー」、または「バトルフォース・ロボ」とも呼称され",
+    "る。"
+   ]
+  },
+  {
+   "id": 113,
+   "section": "STRI",
+   "offset": 76816,
+   "text_offset": 76882,
+   "role": "display",
+   "refs": [
+    "rec135.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    9,
+    0
+   ],
+   "orig_bytes": 1219,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　コンパチブルカイザーと大型戦闘機Ｇサンダーゲートが合体",
+    "した状態。主機である「ＯＧ（オーバー・ゲート）エンジン」",
+    "は、異世界のオーバー・テクノロジーによって作り上げられた",
+    "ものであり、限定的な超次元間孔を開き、希薄関連性近接亜空",
+    "間に存在する特殊なエネルギー粒子を用いて機体の駆動や攻撃",
+    "を行う。ＡＢＭＤ（人工骨格筋肉駆動）システムやＤＭＬ（ダ",
+    "イレクト・モーション・リンク）システムに似た物を搭載して",
+    "おり、人機一体の動きを可能とする。コンパチブルカイザーの",
+    "背中に大型ウィング・ブースターへ変形したＧサンダーゲート",
+    "が装着されることによって、運動性と機動性が向上し、ショル",
+    "ダー・キャノンなどの武装も追加されている。また、コンパチ",
+    "ブルカイザーとＧサンダーゲートそれぞれに搭載されているＯ",
+    "Ｇエンジンの連動によって出力が増幅し、必殺武器のオーバー",
+    "・カイザー・ソードが使えるようになっている。通称は「Ｇコ",
+    "ンパチカイザー」。",
+    ""
+   ]
+  },
+  {
+   "id": 114,
+   "section": "STRI",
+   "offset": 78101,
+   "text_offset": 78143,
+   "role": "display",
+   "refs": [
+    "rec136.text"
+   ],
+   "orig_chars": [
+    27,
+    26,
+    27,
+    26,
+    2,
+    26,
+    26,
+    26,
+    26,
+    8
+   ],
+   "orig_bytes": 670,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　コンパチブルカイザーのサポートメカとなる大型戦闘機。",
+    "　カイザーと同じくＯＧ（オーバー・ゲート）エンジンを",
+    "搭載し、高い運動性と攻撃力を持つ。搭乗者はエミィ・アー",
+    "マーを装着した者に限られ、他人が操縦することは出来な",
+    "い。",
+    "　過去のダークブレインとの戦いで破壊されたと思われて",
+    "いたが、エミィ・アーマーと共に回収され、対コンパチブ",
+    "ルカイザー用の兵器として修復された。当初、機体色は黒",
+    "だったが、コンパチブルカイザーとの合体時に本来の色で",
+    "ある赤に戻った。"
+   ]
+  },
+  {
+   "id": 115,
+   "section": "STRI",
+   "offset": 78813,
+   "text_offset": 78855,
+   "role": "display",
+   "refs": [
+    "rec137.text"
+   ],
+   "orig_chars": [
+    24,
+    28,
+    26,
+    26,
+    27,
+    25,
+    27,
+    27,
+    26,
+    3
+   ],
+   "orig_bytes": 727,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　コウタ・アズマがロア・アーマーを着込んだ状態。",
+    "　額のクリスタルにはロアの魂が宿っている。気密性が高く、",
+    "宇宙や水中でも行動可能（なお、髪の毛は放熱用パーツで",
+    "あり、鼻や口の部分は肌色のアーマー、目の部分は極薄の",
+    "透明シールドで覆われている）。また、各部のハードポイン",
+    "トに様々なオプションパーツを装着することが出来る。",
+    "　ロア・アーマーによって、コウタの身体能力は著しく増強",
+    "され、背部の小型推進器や主武装のファイター・ビームガン",
+    "などを使用することによって、人型機動兵器と戦うことも",
+    "可能。"
+   ]
+  },
+  {
+   "id": 116,
+   "section": "STRI",
+   "offset": 79582,
+   "text_offset": 79624,
+   "role": "display",
+   "refs": [
+    "rec138.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    28,
+    27,
+    28,
+    28,
+    27,
+    28,
+    28,
+    26
+   ],
+   "orig_bytes": 835,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　キサブロー・アズマ博士が、ある企業からの依頼を受け、コ",
+    "ンパチブルカイザーと出会う以前から開発を行っていたスー",
+    "パーロボット。正式名称は「バンカラン」であるが、ミチル・",
+    "ハナテンが頭に「Ｇ」を付け、「Ｇバンカラン」となった。",
+    "　格闘戦を得意とするパワー・ファイターであり、重装甲と堅",
+    "牢なフレームのおかげで耐久性が高い。また、コンパチブルカ",
+    "イザーから得られたノウハウによって関節部分の改良が図ら",
+    "れ、重量級の機体にも関わらず、俊敏に動く。外見は若かりし",
+    "頃のキサブローの姿がモチーフとなっており、いざという時、",
+    "彼はバンカランに乗り込んで戦うつもりであったという。"
+   ]
+  },
+  {
+   "id": 117,
+   "section": "STRI",
+   "offset": 80459,
+   "text_offset": 80505,
+   "role": "display",
+   "refs": [
+    "rec142.text"
+   ],
+   "orig_chars": [
+    16,
+    28,
+    28,
+    28,
+    8,
+    28,
+    28,
+    28,
+    28,
+    28,
+    9
+   ],
+   "orig_bytes": 782,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　剣撃戦闘用の特殊人型機動兵器。",
+    "　パイロットの思考を直接機体に伝える「ダイレクト・フィー",
+    "ドバック・システム」を搭載しており、「五大剣」などの斬撃",
+    "用武器を装備している。マントは一種のシールドで、ビームを",
+    "弾くことも可能。",
+    "　ソウルゲインと同時に開発が進められていたと思われる機体",
+    "で、各部パーツに共通点が見出せる。ただし、人機一体の動き",
+    "を可能とする「ダイレクト・アクション・リンク・システム」",
+    "は搭載されていない。機体の追従性や反応速度はソウルゲイン",
+    "に比べて一歩劣るが、推進装置が強化されているため、最大速",
+    "度は同機を上回る。"
+   ]
+  },
+  {
+   "id": 118,
+   "section": "STRI",
+   "offset": 81287,
+   "text_offset": 81333,
+   "role": "display",
+   "refs": [
+    "rec143.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    28,
+    28,
+    27,
+    27,
+    28,
+    27,
+    28,
+    19,
+    0
+   ],
+   "orig_bytes": 809,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　アクセル・アルマーが搭乗する格闘戦用の特殊人型機動兵",
+    "器。パイロットの動きを機体に連動させるダイレクト・アク",
+    "ション・リンク・システムや、ダイレクト・フィードバック・",
+    "システム、ＡＢＭＤ（人工骨格筋肉駆動）システムによって、",
+    "高い追従性と運動性を発揮する。また、両肘部には特殊液体",
+    "金属製の格闘用ブレードが装備されており、両拳との併用に",
+    "よる攻撃手段によって、優れた格闘戦能力を発揮する。また、",
+    "ソウルゲインの大部分の装甲はＥＧ合金（形状回復機能を特",
+    "化させたアクティブ・メタル）製であり、戦闘で受けたダメー",
+    "ジをある程度自己修復することが出来る。",
+    ""
+   ]
+  },
+  {
+   "id": 119,
+   "section": "STRI",
+   "offset": 82142,
+   "text_offset": 82180,
+   "role": "display",
+   "refs": [
+    "rec144.text"
+   ],
+   "orig_chars": [
+    28,
+    5,
+    28,
+    28,
+    28,
+    25,
+    27,
+    28,
+    25
+   ],
+   "orig_bytes": 675,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「アサルトドラグーン」と呼ばれるカテゴリーの強襲用人型",
+    "機動兵器。",
+    "　搭乗者の脳波パターンを解析・記録した後、機体側からのフ",
+    "ィードバックによって半強制的に同調させるシステムが搭載さ",
+    "れている。これによって、パターン化した操作であれば、パイ",
+    "ロットの反射がダイレクトに動作命令へと変更される。",
+    "　ソードブレイカーという遠隔操作可能な飛行砲台を両肩に",
+    "装備しており、中～遠距離間の戦闘を得意とする。なお、この",
+    "機体は指揮官用の機体であり、同型機が複数存在する。"
+   ]
+  },
+  {
+   "id": 120,
+   "section": "STRI",
+   "offset": 82855,
+   "text_offset": 82901,
+   "role": "display",
+   "refs": [
+    "rec145.text"
+   ],
+   "orig_chars": [
+    23,
+    28,
+    9,
+    28,
+    28,
+    30,
+    7,
+    30,
+    22,
+    27,
+    20
+   ],
+   "orig_bytes": 759,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ラミア・ラヴレスが搭乗する特殊人型機動兵器。",
+    "　有機体に近い背中のウイング、女性型の甲冑のようなデザイ",
+    "ンが神秘的な機体。",
+    "　物質化させたエネルギー体を槍状、弓矢状にして放つ攻撃や",
+    "細身のレイピアなど、西洋の騎士を思わせる。しかし、材質や",
+    "動力源などには不明な点が多く、<ＥＯＴ>を使用した機体である",
+    "可能性が高い。",
+    "　<イスルギ重工>が、連邦軍次期主力機トライアル提出用に開発",
+    "した機体だと言われているが、その真偽は不明。",
+    "　また、機体の登録システムにより、専属パイロットである",
+    "ラミア以外の者が操縦することは出来ない。"
+   ]
+  },
+  {
+   "id": 121,
+   "section": "STRI",
+   "offset": 83660,
+   "text_offset": 83706,
+   "role": "display",
+   "refs": [
+    "rec146.text"
+   ],
+   "orig_chars": [
+    27,
+    2,
+    27,
+    28,
+    28,
+    15,
+    28,
+    29,
+    28,
+    27,
+    24
+   ],
+   "orig_bytes": 796,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　陸戦・砲撃戦用の人型機動兵器。Ｔｙｐｅ３４とも呼ばれ",
+    "る。",
+    "　量産型であるＲＧＶ‐Ｔｙｐｅ３０「ランドグリーズ」に",
+    "同機の後継機の駆動系やジェネレーターを移植し、砲撃戦能力",
+    "と装甲を強化したカスタム機。厚い装甲とシールド、ジャマー",
+    "やビームコートを装備している。",
+    "　ラーズアングリフ・レイブンは、ラーズアングリフの改造機",
+    "であり、本体に飛行ユニット兼アームドベース（<テスラ・ドラ",
+    "イブ>やプラズマ・ジェネレーターを搭載）を装着している。",
+    "　重力下での飛行が可能となり、集束荷電粒子砲などの武装",
+    "が追加されることによって、攻撃力が向上している。"
+   ]
+  },
+  {
+   "id": 122,
+   "section": "STRI",
+   "offset": 84502,
+   "text_offset": 84536,
+   "role": "display",
+   "refs": [
+    "rec147.text"
+   ],
+   "orig_chars": [
+    27,
+    2,
+    28,
+    21,
+    29,
+    28,
+    27,
+    7
+   ],
+   "orig_bytes": 511,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　陸戦・砲撃戦用の人型機動兵器。Ｔｙｐｅ３０とも呼ばれ",
+    "る。",
+    "　運動性は低いが装甲が厚く、機体の安定性・信頼性は高い。",
+    "ホバー走行も可能で、踏破性にも優れている。",
+    "　ランドグリーズ・レイブンはランドグリーズの改造機であり、",
+    "本体に<テスラ・ドライブ>を搭載したブースター・ポッドを",
+    "装着している。また、リニアカノンが２門となり、攻撃力も",
+    "向上している。"
+   ]
+  },
+  {
+   "id": 123,
+   "section": "STRI",
+   "offset": 85047,
+   "text_offset": 85133,
+   "role": "display",
+   "refs": [
+    "rec148.text"
+   ],
+   "orig_chars": [
+    29,
+    2,
+    30,
+    27,
+    29,
+    29,
+    28,
+    20,
+    28,
+    27,
+    27,
+    27,
+    10,
+    28,
+    28,
+    9,
+    28,
+    27,
+    23,
+    27,
+    13
+   ],
+   "orig_bytes": 1493,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　地底世界<ラ・ギアス>の神聖ラングラン王国で開発された機",
+    "体。",
+    "　風の精霊サイフィスの加護を受け、「風の<魔装機神>」の異名",
+    "を持つ。メイン動力はフルカネルリ式永久機関。そのパワー",
+    "効率を高めるため、操者（パイロット）の<プラーナ>が必要と",
+    "される。<プラーナ>とは「気」や「オーラ」と呼ばれるものと",
+    "基本的に同じで、操者によって供給される。そのため、パワー",
+    "は操者の資質に多大な影響を受けてしまう。",
+    "　機体の気密性は高く、水中や宇宙空間での行動も可能。内部",
+    "に自己循環システムがあるため、操者の生理機能は守られ、",
+    "長時間の行動が可能。また、エーテル（質量を持たず、絶対",
+    "座標に対して静止しているエネルギー）を魔術的媒体として",
+    "推進に利用している。",
+    "　装甲材質はオリハルコニウムで、呪符的効果のある数秘学を",
+    "元にした幾何学模様が金属粒子レベルで封じ込められており、",
+    "魔術的防御も高い。",
+    "　メインコンピューターはラプラスデモンタイプで、因果律を",
+    "計算し、様々な事象を予測することが出来る。ただし、その",
+    "機能は操者自身の魔力によって著しく左右される。",
+    "　なお、サイバスターは真の名前ではなく、魔術的な攻撃を",
+    "避けるための守護名である。"
+   ]
+  },
+  {
+   "id": 124,
+   "section": "STRI",
+   "offset": 86626,
+   "text_offset": 86640,
+   "role": "display",
+   "refs": [
+    "rec149.text"
+   ],
+   "orig_chars": [
+    13,
+    27,
+    3
+   ],
+   "orig_bytes": 132,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　サイバスターの巡航形態。",
+    "　神聖ラングラン王国の神鳥ディシュナスを模した姿をして",
+    "いる。"
+   ]
+  },
+  {
+   "id": 125,
+   "section": "STRI",
+   "offset": 86772,
+   "text_offset": 86826,
+   "role": "display",
+   "refs": [
+    "rec150.text"
+   ],
+   "orig_chars": [
+    28,
+    21,
+    26,
+    31,
+    27,
+    14,
+    29,
+    27,
+    27,
+    20,
+    27,
+    26,
+    2
+   ],
+   "orig_bytes": 912,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＤＣ>総帥ビアン・ゾルダークが娘であるリューネのため",
+    "に開発したヴァルシオン・シリーズの２号機。",
+    "　機体各部への動力伝達に人工筋肉を使用しているため、",
+    "<パーソナルトルーパー>や<アーマードモジュール>とは比べ物に",
+    "ならない程の柔軟な、かつ人間らしい動き（顔の表情までも",
+    "変わる）をすることが出来る。",
+    "　さらに小型・改良化した<テスラ・ドライブ>を搭載し、単体",
+    "での飛行も可能。広域攻撃武器サイコブラスターやヴァルシ",
+    "オンの武装でもあったクロスマッシャー、ディバイン・アー",
+    "ムを装備しており、戦闘能力も非常に高い。",
+    "　操縦系統にはＤＭＬ（ダイレクト・モーション・リンク）",
+    "システムが組み込まれており、人機一体の動きを可能とす",
+    "る。"
+   ]
+  },
+  {
+   "id": 126,
+   "section": "STRI",
+   "offset": 87738,
+   "text_offset": 87760,
+   "role": "display",
+   "refs": [
+    "rec151.text"
+   ],
+   "orig_chars": [
+    29,
+    29,
+    28,
+    28,
+    26
+   ],
+   "orig_bytes": 421,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ヴァルシオン・シリーズの２号機ヴァルシオーネを、<ラ・ギ",
+    "アス>の練金学を用いて強化した機体。機体各部への動力伝達に",
+    "はＡＢＭＤシステムが、操縦系統には搭乗者の動きをトレース",
+    "するＤＭＬシステムが用いられ、他の人型機動兵器と比べもの",
+    "にならないほど柔軟かつ人間的な動きを可能としている。"
+   ]
+  },
+  {
+   "id": 127,
+   "section": "STRI",
+   "offset": 88181,
+   "text_offset": 88227,
+   "role": "display",
+   "refs": [
+    "rec153.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    28,
+    27,
+    28,
+    28,
+    28,
+    28,
+    28,
+    30,
+    28
+   ],
+   "orig_bytes": 936,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シュウが搭乗する対異星人戦闘用<アーマードモジュール>。動",
+    "力源は対消滅エンジンで、装甲は素粒子段階で強化された超抗",
+    "力チタニウム。機動力よりも火力、装甲及び防御力を重視した",
+    "機体であり、その攻撃力は凄まじい。設計者の１人、エリッ",
+    "ク・ワンは「もしパイロットが人知を超えた能力を持っていれ",
+    "ば、グランゾンは１日で全世界の戦力を壊滅させることも可能",
+    "だろう」と語っている。また、シュウが組み込んだカバラ・プ",
+    "ログラムにより、アストラル・エネルギーをも使用できると言",
+    "われている。他にも数多くのブラックボックスを内包している",
+    "が、<ＤＣ戦争>勃発後、シュウが独自に運用するようになったた",
+    "め、その身に封じられた秘密と思惑は依然霧中のままである。"
+   ]
+  },
+  {
+   "id": 128,
+   "section": "STRI",
+   "offset": 89163,
+   "text_offset": 89185,
+   "role": "display",
+   "refs": [
+    "rec154.text"
+   ],
+   "orig_chars": [
+    29,
+    28,
+    28,
+    28,
+    22
+   ],
+   "orig_bytes": 406,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　水の精霊ガッドを守護精霊とする<魔装機神>。汎用性が高い",
+    "が、攻撃力にはやや難がある。また、グングニールと呼ばれる",
+    "矛を装備している。この矛は魔術増幅度を強化する特殊なオリ",
+    "ハルコニウム合金処理が施されており、これを媒体にして魔術",
+    "兵器に強力な威力を与えることに成功している。"
+   ]
+  },
+  {
+   "id": 129,
+   "section": "STRI",
+   "offset": 89591,
+   "text_offset": 89621,
+   "role": "display",
+   "refs": [
+    "rec155.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    28,
+    28,
+    28,
+    27,
+    2
+   ],
+   "orig_bytes": 516,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　炎の精霊グランバを守護精霊とする<魔装機神>。高い攻撃力を",
+    "誇るが、その反面、防御力に難がある。グランバの影響で過度",
+    "に活性化した機体内の熱素（カロリック）を制御するため、専",
+    "用に設計された熱素循環機関「カロリック・リサイクラー」を",
+    "持つ。この機関は余剰な熱素を機体駆動エネルギーに変換する",
+    "機能も有していて、グランヴェールの高出力に一役かってい",
+    "る。"
+   ]
+  },
+  {
+   "id": 130,
+   "section": "STRI",
+   "offset": 90137,
+   "text_offset": 90167,
+   "role": "display",
+   "refs": [
+    "rec156.text"
+   ],
+   "orig_chars": [
+    31,
+    29,
+    28,
+    28,
+    28,
+    28,
+    5
+   ],
+   "orig_bytes": 530,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　大地の精霊ザムージュを守護精霊とする<魔装機神>。他の<魔装",
+    "機神>に比べ、機動力は劣るが、防御力は高い。また、自己再生",
+    "能力を持っている。左腕に装備された振動発生装置は、相手機",
+    "体に直撃させることで駆動系を一時的にロック状態にしたり、",
+    "大地に打ち込んで共鳴現象を利用した地震を発生させることが",
+    "可能。ウェポン・ベイの容量が大きく、３機のファミリアを搭",
+    "載できる。"
+   ]
+  },
+  {
+   "id": 131,
+   "section": "STRI",
+   "offset": 90697,
+   "text_offset": 90719,
+   "role": "display",
+   "refs": [
+    "rec157.text"
+   ],
+   "orig_chars": [
+    28,
+    32,
+    30,
+    28,
+    18
+   ],
+   "orig_bytes": 401,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　サフィーネの愛機で、彼女が自ら設計開発した。コンセプト",
+    "は<魔装機>と同じだが、サフィーネは<魔装機>と呼ばず妖装機と呼",
+    "ぶ。精霊との契約をせずに、通常の<魔装機>と同様の力が引き出",
+    "せるのは、ヴォルクルス教団独自の技術。まだ試作的色合いの",
+    "強い機体のため、出力が不安定である。"
+   ]
+  },
+  {
+   "id": 132,
+   "section": "STRI",
+   "offset": 91120,
+   "text_offset": 91134,
+   "role": "display",
+   "refs": [
+    "rec159.text"
+   ],
+   "orig_chars": [
+    30,
+    27,
+    25
+   ],
+   "orig_bytes": 245,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ソルガディを元にして造られた<魔装機>で、同機と遜色ない性",
+    "能を持っている。ブローウェルに次ぐ機体数が製造されてい",
+    "る。契約精霊は風系低位、砂嵐のソレイドの分け御魂。"
+   ]
+  },
+  {
+   "id": 133,
+   "section": "STRI",
+   "offset": 91379,
+   "text_offset": 91413,
+   "role": "display",
+   "refs": [
+    "rec160.text"
+   ],
+   "orig_chars": [
+    32,
+    30,
+    28,
+    30,
+    28,
+    28,
+    28,
+    14
+   ],
+   "orig_bytes": 646,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　雷の精霊ガルナンサと契約した<魔装機>。<魔装機>計画の最後に",
+    "完成した機体で、性能的には<魔装機神>に迫るものがあったが、",
+    "自意識は宿らなかった。４本の腕は、格闘戦時にその効力を発",
+    "揮するものの、身体感覚と同期する<魔装機>の操縦においては、",
+    "練達者にしかその性能をフルに発揮させることは不可能である",
+    "と言われる。外見上はグランヴェールに酷似したラインを持つ",
+    "が、これは外装デザイン担当者が同じだったためで、設計思想",
+    "はむしろサイバスターに近い。"
+   ]
+  },
+  {
+   "id": 134,
+   "section": "STRI",
+   "offset": 92059,
+   "text_offset": 92093,
+   "role": "display",
+   "refs": [
+    "rec161.text"
+   ],
+   "orig_chars": [
+    30,
+    32,
+    30,
+    28,
+    28,
+    30,
+    29,
+    2
+   ],
+   "orig_bytes": 611,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ラングランの正<魔装機>第１号機。陽炎の精霊ジャノクを守護",
+    "精霊とする<魔装機>。<プラーナ>・コンバーターの出力が大きいた",
+    "め、操者次第では<魔装機神>並のパワーを発揮する。比較的初期",
+    "に開発された機体のため、装甲の一部に強化セラミックを使用",
+    "するなど防御面ではやや脆弱だが、その優れた運動制御システ",
+    "ムは、後に開発された<魔装機>の基礎となった。火力不足を補う",
+    "ため、<魔装機>としては珍しく手持ちの火器を標準装備してい",
+    "る。"
+   ]
+  },
+  {
+   "id": 135,
+   "section": "STRI",
+   "offset": 92704,
+   "text_offset": 92730,
+   "role": "display",
+   "refs": [
+    "rec162.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    28,
+    28,
+    28,
+    29
+   ],
+   "orig_bytes": 511,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　森の精霊ディアノスと契約した<魔装機>。中距離からの砲撃支",
+    "援を目的に開発され、両肩に大型２連装リニアレールガンを装",
+    "備する。本来の設計意図としては近接戦闘を視野に入れていな",
+    "かったが、意外に小回りの利くウェイトバランスから、操者次",
+    "第では近接戦闘もこなすことが出来る。その優れた設計から、",
+    "後にディアブロをベースとした量産型<魔装機>が開発された。"
+   ]
+  },
+  {
+   "id": 136,
+   "section": "STRI",
+   "offset": 93241,
+   "text_offset": 93267,
+   "role": "display",
+   "refs": [
+    "rec163.text",
+    "rec164.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    28,
+    30,
+    28,
+    17
+   ],
+   "orig_bytes": 481,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<魔装機>計画の試作１号機。精霊との契約テストをするため、",
+    "都合３機が製作された。内１機は精霊との契約に耐えきれず破",
+    "壊。残る２機は廃棄待ちとなっていたが、フェイルロードが精",
+    "霊との再契約に成功し、セニアとモニカに儀礼用<魔装機>として",
+    "与えられた。本来戦闘用ではないため、武装は貧弱だが、サポ",
+    "ート用として修理機能を追加された。"
+   ]
+  },
+  {
+   "id": 137,
+   "section": "STRI",
+   "offset": 93748,
+   "text_offset": 93770,
+   "role": "display",
+   "refs": [
+    "rec165.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    4
+   ],
+   "orig_bytes": 353,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　セニアとモニカがノルスに改修を施し、戦闘能力を向上させ",
+    "た機体。基本性能は大きく変化していないが、いくつかの武装",
+    "が改良・追加されている。戦闘よりも後方支援、特に修理機能",
+    "が強化されている。なお、レイとはラングラン語で「改」を意",
+    "味する。"
+   ]
+  },
+  {
+   "id": 138,
+   "section": "STRI",
+   "offset": 94123,
+   "text_offset": 94137,
+   "role": "display",
+   "refs": [
+    "rec166.text"
+   ],
+   "orig_chars": [
+    30,
+    27,
+    20
+   ],
+   "orig_bytes": 230,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シュテドニアス軍で用いられる<魔装機>。オールラウンド・タ",
+    "イプを目指して作られたため、そつのない能力を持っている",
+    "が、裏を返せば決め手に欠けるとも言える。"
+   ]
+  },
+  {
+   "id": 139,
+   "section": "STRI",
+   "offset": 94367,
+   "text_offset": 94381,
+   "role": "display",
+   "refs": [
+    "rec167.text"
+   ],
+   "orig_chars": [
+    30,
+    30,
+    17
+   ],
+   "orig_bytes": 226,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シュテドニアス軍で用いられる<魔装機>で、ギルドーラの簡易",
+    "量産型。<プラーナ>・コンバーターは改良してあるが、契約でき",
+    "る精霊の制限のため、その格は低い。"
+   ]
+  },
+  {
+   "id": 140,
+   "section": "STRI",
+   "offset": 94607,
+   "text_offset": 94633,
+   "role": "display",
+   "refs": [
+    "rec168.text"
+   ],
+   "orig_chars": [
+    30,
+    30,
+    28,
+    28,
+    28,
+    20
+   ],
+   "orig_bytes": 490,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　機動力に富み、一撃離脱を得意とする風系<魔装機>。通常武装",
+    "が他の<魔装機>に比べ見劣りするので、操者の技量によっては、",
+    "そのパフォーマンスを完全に発揮できない。安定した出力を保",
+    "ち、契約精霊の特質で乗る人間をほとんど選ばない。その特質",
+    "のため、ソルガディを元にした量産機ガディフォールが生まれ",
+    "た。契約精霊は風系低位、砂嵐のソレイド。"
+   ]
+  },
+  {
+   "id": 141,
+   "section": "STRI",
+   "offset": 95123,
+   "text_offset": 95149,
+   "role": "display",
+   "refs": [
+    "rec169.text"
+   ],
+   "orig_chars": [
+    32,
+    28,
+    30,
+    32,
+    28,
+    16
+   ],
+   "orig_bytes": 484,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　セニアが設計した超<魔装機>。従来の<魔装機>と異なり、ヒュッ",
+    "ケバイン・シリーズのデータを参考にしているため、独特の風",
+    "貌をしている。精霊とは契約していないが、疑似<プラーナ>発生",
+    "装置のお蔭で、<プラーナ>が高い操者であれば、<魔装機神>並みの",
+    "力を引き出すことが可能。ただし、その代償として稼働時間は",
+    "さほど長くないという欠点がある。"
+   ]
+  },
+  {
+   "id": 142,
+   "section": "STRI",
+   "offset": 95633,
+   "text_offset": 95647,
+   "role": "display",
+   "refs": [
+    "rec170.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    21
+   ],
+   "orig_bytes": 236,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シュテドニアス軍で用いられるＢクラス<魔装機>。本来はＣク",
+    "ラスの予定で作成されていたが、調整の段階で予定以上のバラ",
+    "ンスの良さを発揮し、Ｂクラスに分類される。"
+   ]
+  },
+  {
+   "id": 143,
+   "section": "STRI",
+   "offset": 95883,
+   "text_offset": 95889,
+   "role": "display",
+   "refs": [
+    "rec171.text"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 87,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "　ディアブロの簡易量産型<魔装機>で、ラングラン軍の主力機。"
+  },
+  {
+   "id": 144,
+   "section": "STRI",
+   "offset": 95976,
+   "text_offset": 95986,
+   "role": "display",
+   "refs": [
+    "rec172.text"
+   ],
+   "orig_chars": [
+    28,
+    20
+   ],
+   "orig_bytes": 146,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　オールトの愛機で、金に糸目を付けず改造を行った。そのた",
+    "め、大幅なパワーアップを成し遂げている。"
+   ]
+  },
+  {
+   "id": 145,
+   "section": "STRI",
+   "offset": 96132,
+   "text_offset": 96150,
+   "role": "display",
+   "refs": [
+    "rec173.text"
+   ],
+   "orig_chars": [
+    31,
+    30,
+    29,
+    14
+   ],
+   "orig_bytes": 304,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　Ｄクラス<魔装機>の一種。本来は土木作業用に作られたもので、",
+    "<魔装機>と名乗るのもおこがましい作りだが、国際緊張が高まり",
+    "つつあったため、急遽改造によって兵装を取り付けられ、<魔装",
+    "機>と呼ばれるようになった。"
+   ]
+  },
+  {
+   "id": 146,
+   "section": "STRI",
+   "offset": 96454,
+   "text_offset": 96468,
+   "role": "display",
+   "refs": [
+    "rec174.text"
+   ],
+   "orig_chars": [
+    30,
+    30,
+    11
+   ],
+   "orig_bytes": 208,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ラ・ギアス>の各国で用いられている移動要塞で、高射砲やバ",
+    "リオン・ビーム砲など、強力な武装を持つ。また、<魔装機>を複",
+    "数搭載することも可能。"
+   ]
+  },
+  {
+   "id": 147,
+   "section": "STRI",
+   "offset": 96676,
+   "text_offset": 96686,
+   "role": "display",
+   "refs": [
+    "rec175.text",
+    "rec176.text"
+   ],
+   "orig_chars": [
+    28,
+    25
+   ],
+   "orig_bytes": 157,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　正確にはヴォルクルスの分身の一つ。本体よりかなり力は劣",
+    "るが、Ａクラス<魔装機>並みのパワーを持っている。"
+   ]
+  },
+  {
+   "id": 148,
+   "section": "STRI",
+   "offset": 96843,
+   "text_offset": 96857,
+   "role": "display",
+   "refs": [
+    "rec177.text"
+   ],
+   "orig_chars": [
+    27,
+    30,
+    13
+   ],
+   "orig_bytes": 209,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ヴォルクルスの上半身と下半身が合体した状態。ただし、",
+    "<ラ・ギアス>で出現したヴォルクルスの分身ではなく、その姿や",
+    "力を模した別の存在である。"
+   ]
+  },
+  {
+   "id": 149,
+   "section": "STRI",
+   "offset": 97066,
+   "text_offset": 97084,
+   "role": "display",
+   "refs": [
+    "rec178.text"
+   ],
+   "orig_chars": [
+    32,
+    28,
+    28,
+    27
+   ],
+   "orig_bytes": 337,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　カークスが搭乗する超<魔装機>。<魔装機神>グランヴェールやザ",
+    "ムジードから収集したデータを元に設計されている。開発計画",
+    "は中止となったが、カークスは密かにエウリードの製作を進め",
+    "ていた。そのパワーや戦闘能力は<魔装機神>をも上回る。"
+   ]
+  },
+  {
+   "id": 150,
+   "section": "STRI",
+   "offset": 97421,
+   "text_offset": 97431,
+   "role": "display",
+   "refs": [
+    "rec179.text"
+   ],
+   "orig_chars": [
+    28,
+    9
+   ],
+   "orig_bytes": 113,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　神殿の警護などに用いられるロボット。無人機で、戦闘能力",
+    "はさほど高くない。"
+   ]
+  },
+  {
+   "id": 151,
+   "section": "STRI",
+   "offset": 97544,
+   "text_offset": 97554,
+   "role": "display",
+   "refs": [
+    "rec180.text",
+    "rec181.text"
+   ],
+   "orig_chars": [
+    28,
+    30
+   ],
+   "orig_bytes": 172,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　本来は無人偵察機であり、イオノクラフト効果で飛行可能。",
+    "その汎用性を買われ、<ラ・ギアス>の各国で兵器に転用された。"
+   ]
+  },
+  {
+   "id": 152,
+   "section": "STRI",
+   "offset": 97726,
+   "text_offset": 97744,
+   "role": "display",
+   "refs": [
+    "rec182.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    7
+   ],
+   "orig_bytes": 270,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シュテドニアス軍で用いられる<魔装機>。シュテドニアスは",
+    "練金学の部門で全体的に後れを取っているため、独自の科学",
+    "技術でそれをカバーして製作された。出力が大きく、火力も",
+    "充実している。"
+   ]
+  },
+  {
+   "id": 153,
+   "section": "STRI",
+   "offset": 98014,
+   "text_offset": 98028,
+   "role": "display",
+   "refs": [
+    "rec183.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    3
+   ],
+   "orig_bytes": 174,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　邪霊、怨霊の類を核にして、土から作り出した巨大な泥人",
+    "形。ルオゾールが得意とする死霊傀儡の外法によって召喚さ",
+    "れる。"
+   ]
+  },
+  {
+   "id": 154,
+   "section": "STRI",
+   "offset": 98202,
+   "text_offset": 98216,
+   "role": "display",
+   "refs": [
+    "rec184.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    16
+   ],
+   "orig_bytes": 216,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ルオゾールが搭乗する咒霊機。半分がアストラル界（精霊",
+    "界）に属しているため。幽霊のような存在となっており、通常",
+    "兵器では傷つけることができない。"
+   ]
+  },
+  {
+   "id": 155,
+   "section": "STRI",
+   "offset": 98432,
+   "text_offset": 98446,
+   "role": "display",
+   "refs": [
+    "rec185.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    2
+   ],
+   "orig_bytes": 179,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シュテドニアス軍で用いられる<魔装機>。支援戦闘を主眼に製",
+    "作されたが、格闘能力も高い。また、対空戦闘能力に優れてい",
+    "る。"
+   ]
+  },
+  {
+   "id": 156,
+   "section": "STRI",
+   "offset": 98625,
+   "text_offset": 98635,
+   "role": "display",
+   "refs": [
+    "rec186.text"
+   ],
+   "orig_chars": [
+    30,
+    24
+   ],
+   "orig_bytes": 160,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シュテドニアス軍で用いられる<魔装機>。精霊との契約は出来",
+    "ないが、コンバーターのパワーでそれを補っている。"
+   ]
+  },
+  {
+   "id": 157,
+   "section": "STRI",
+   "offset": 98795,
+   "text_offset": 98809,
+   "role": "display",
+   "refs": [
+    "rec187.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    8
+   ],
+   "orig_bytes": 197,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<インスペクター>の無人機動兵器。高性能センサーを装備して",
+    "おり、威力偵察や哨戒にも使用される。地球側のコードネーム",
+    "は「アーチン」。"
+   ]
+  },
+  {
+   "id": 158,
+   "section": "STRI",
+   "offset": 99006,
+   "text_offset": 99016,
+   "role": "display",
+   "refs": [
+    "rec188.text"
+   ],
+   "orig_chars": [
+    28,
+    27
+   ],
+   "orig_bytes": 167,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ゲストが用いる量産型機動兵器。砲撃戦用の機体で、大型の",
+    "ドライバー・キャノンを装備している。接近戦には不向き。"
+   ]
+  },
+  {
+   "id": 159,
+   "section": "STRI",
+   "offset": 99183,
+   "text_offset": 99197,
+   "role": "display",
+   "refs": [
+    "rec189.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    4
+   ],
+   "orig_bytes": 183,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ゲストが用いる量産型機動兵器。火力を重視した機体で、高",
+    "出力のバーニア・スラスターを多数装備しており、強襲に適し",
+    "ている。"
+   ]
+  },
+  {
+   "id": 160,
+   "section": "STRI",
+   "offset": 99380,
+   "text_offset": 99394,
+   "role": "display",
+   "refs": [
+    "rec190.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    10
+   ],
+   "orig_bytes": 201,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ゲストが用いる量産型機動兵器。火力や運動性、機動性に優",
+    "れた高性能マルチロール機。ただし、生産コストが高く、あま",
+    "り量産されていない。"
+   ]
+  },
+  {
+   "id": 161,
+   "section": "STRI",
+   "offset": 99595,
+   "text_offset": 99609,
+   "role": "display",
+   "refs": [
+    "rec191.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    11
+   ],
+   "orig_bytes": 204,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ゲストが用いる量産型機動兵器。バランスに優れた主力機で",
+    "あり、両肩のスタビライザー兼バーニア・スラスターによって",
+    "高い機動性を発揮する。"
+   ]
+  },
+  {
+   "id": 162,
+   "section": "STRI",
+   "offset": 99813,
+   "text_offset": 99823,
+   "role": "display",
+   "refs": [
+    "rec192.text"
+   ],
+   "orig_chars": [
+    28,
+    23
+   ],
+   "orig_bytes": 155,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ゲストが用いる量産型機動兵器。低重力下環境での運用を想",
+    "定して開発された機体で、既に旧式化しつつある。"
+   ]
+  },
+  {
+   "id": 163,
+   "section": "STRI",
+   "offset": 99978,
+   "text_offset": 99996,
+   "role": "display",
+   "refs": [
+    "rec193.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    19
+   ],
+   "orig_bytes": 313,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ゲストが用いる量産型機動兵器ゲイオス＝グルードをベース",
+    "とし、大幅な強化が図られた上級士官（人間）用の機体。高い",
+    "火力を持ち、装甲も厚い。また、全身に装備されたバーニア・",
+    "スラスターで運動性の低下を補っている。"
+   ]
+  },
+  {
+   "id": 164,
+   "section": "STRI",
+   "offset": 100309,
+   "text_offset": 100323,
+   "role": "display",
+   "refs": [
+    "rec194.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    2
+   ],
+   "orig_bytes": 177,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ロフが搭乗する人型機動兵器。中・遠距離戦闘を想定した強",
+    "力な射撃用武器を搭載し、装甲も厚く、フレームの耐久性が高",
+    "い。"
+   ]
+  },
+  {
+   "id": 165,
+   "section": "STRI",
+   "offset": 100500,
+   "text_offset": 100518,
+   "role": "display",
+   "refs": [
+    "rec195.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    3,
+    0
+   ],
+   "orig_bytes": 181,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ゼブが搭乗する人型機動兵器。ゲイオス・シリーズの上位機",
+    "種で、両肩に大型のドライバーキャノンを装備した砲撃戦用の",
+    "機体。",
+    ""
+   ]
+  },
+  {
+   "id": 166,
+   "section": "STRI",
+   "offset": 100699,
+   "text_offset": 100717,
+   "role": "display",
+   "refs": [
+    "rec196.text"
+   ],
+   "orig_chars": [
+    28,
+    30,
+    28,
+    20
+   ],
+   "orig_bytes": 318,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　メキボスが搭乗する人型機動兵器。高速広域管制機としての",
+    "役割ももっている。<インスペクター>と地球の技術的融合の方向",
+    "性を探るために開発されたグレイターキンの流れを汲む機体で",
+    "あり、火力や運動性の強化が図られている。"
+   ]
+  },
+  {
+   "id": 167,
+   "section": "STRI",
+   "offset": 101035,
+   "text_offset": 101049,
+   "role": "display",
+   "refs": [
+    "rec197.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    14
+   ],
+   "orig_bytes": 215,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　セティが搭乗する高速戦闘用機動兵器。<インスペクター>の機",
+    "動兵器シルベルヴィントの流れを汲む機体で、軽量化や格闘戦",
+    "闘能力の強化が図られている。"
+   ]
+  },
+  {
+   "id": 168,
+   "section": "STRI",
+   "offset": 101264,
+   "text_offset": 101282,
+   "role": "display",
+   "refs": [
+    "rec198.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    12
+   ],
+   "orig_bytes": 292,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ゲストが用いる大型戦闘空母。空間転移機能を有し、自身の",
+    "みならず搭載する機動兵器を任意のポイントへ転移させること",
+    "が出来る。ただし、転移先の空間状況を事前に把握していなけ",
+    "れば、大きな危険が伴う。"
+   ]
+  },
+  {
+   "id": 169,
+   "section": "STRI",
+   "offset": 101574,
+   "text_offset": 101592,
+   "role": "display",
+   "refs": [
+    "rec199.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    30,
+    26
+   ],
+   "orig_bytes": 336,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ゼゼーナンが搭乗する大型機動兵器。地球側の技術も用いら",
+    "れ、砲艦並みの火力とゲイオス・シリーズを上回る機動力を併",
+    "せ持つ。また、優れた指揮管制機能と電子戦装備、<ＭＡＰＷ>を",
+    "を有し、１機で広範囲戦域を制圧することも可能である。"
+   ]
+  },
+  {
+   "id": 170,
+   "section": "STRI",
+   "offset": 101928,
+   "text_offset": 101954,
+   "role": "display",
+   "refs": [
+    "rec200.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    28,
+    28,
+    27,
+    21
+   ],
+   "orig_bytes": 483,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　リ・テクノロジストによって開発された人型機動兵器。接近",
+    "戦を重視した機体であり、銃撃と剣撃の双方を行う「サイフ",
+    "ァー・ソード」を装備。脚部に「グラビティ・ボード」を装着",
+    "することにより、高速で移動する。南極の遺跡から発掘された",
+    "動力源「レース・アルカーナ」と、マン・マシン・インター",
+    "フェース「シュンパティア」を搭載している。"
+   ]
+  },
+  {
+   "id": 171,
+   "section": "STRI",
+   "offset": 102437,
+   "text_offset": 102471,
+   "role": "display",
+   "refs": [
+    "rec201.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    27,
+    26,
+    27,
+    27,
+    24
+   ],
+   "orig_bytes": 644,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　エール・シュヴァリアーとウェポン・ボックス・ハンガー",
+    "「ジェアン・エール」がドッキングした状態。それにより、",
+    "エール・シュヴァリアーのレース・アルカーナの出力変換効",
+    "率、火力、機動性が向上する。また、ハイパー・アンカー・",
+    "アームやネオ・サイファー・ソードを装備し、機体各部の",
+    "バーニア・スラスターを駆使することによって、巨体であり",
+    "ながらも格闘戦を行う。また、ジェアン・エールにはコック",
+    "ピットが備えられており、単体でも使用可能である。"
+   ]
+  },
+  {
+   "id": 172,
+   "section": "STRI",
+   "offset": 103115,
+   "text_offset": 103145,
+   "role": "display",
+   "refs": [
+    "rec202.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    27,
+    28,
+    28,
+    3
+   ],
+   "orig_bytes": 517,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　リ・テクノロジストによって開発された人型機動兵器で、空",
+    "中戦及び射撃戦を重視した機体。両腕に内蔵されたヴェクター",
+    "・ガン、フォース・バスターに加え、ＷＢＨ（ウェポン・ボッ",
+    "クス・ハンガー）である「アルスノーヴァ」から武器を射出",
+    "し、両腕を換装することが出来る。エール・シュヴァリアー同",
+    "様、「シュンパティア」と「レース・アルカーナ」を搭載して",
+    "いる。"
+   ]
+  },
+  {
+   "id": 173,
+   "section": "STRI",
+   "offset": 103662,
+   "text_offset": 103692,
+   "role": "display",
+   "refs": [
+    "rec203.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    28,
+    28,
+    28,
+    28,
+    20
+   ],
+   "orig_bytes": 568,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ブランシュネージュとウェポン・ボックス・ハンガーである",
+    "「エクセルシオ・アルスノーヴァ」がドッキングした状態。",
+    "それにより、ブランシュネージュのレース・アルカーナの出力",
+    "変換効率、火力、機動性が向上する。武装は主に遠距離戦闘用",
+    "のものであるが、機体下部の大型ブレードによる格闘戦もこな",
+    "す。また、エクセルシオ・アルスノーヴァにはコックピットが",
+    "備えられており、単体でも使用可能である。"
+   ]
+  },
+  {
+   "id": 174,
+   "section": "STRI",
+   "offset": 104260,
+   "text_offset": 104278,
+   "role": "display",
+   "refs": [
+    "rec204.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    5
+   ],
+   "orig_bytes": 271,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　リ・テクノロジストによって開発された特殊人型機動兵器。",
+    "ガナドゥールとストレーガという２機の人型機動兵器が変形・",
+    "合体した状態。２基のレース・アルカーナによって絶大な力を",
+    "発揮する。"
+   ]
+  },
+  {
+   "id": 175,
+   "section": "STRI",
+   "offset": 104549,
+   "text_offset": 104559,
+   "role": "display",
+   "refs": [
+    "rec205.text"
+   ],
+   "orig_chars": [
+    28,
+    23
+   ],
+   "orig_bytes": 155,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　アクイラが搭乗する機動兵器。運動性が高く、空中戦闘能力",
+    "に長ける。ミサイル状の武器を多数装備している。"
+   ]
+  },
+  {
+   "id": 176,
+   "section": "STRI",
+   "offset": 104714,
+   "text_offset": 104728,
+   "role": "display",
+   "refs": [
+    "rec206.text"
+   ],
+   "orig_chars": [
+    27,
+    2,
+    0
+   ],
+   "orig_bytes": 90,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　イグニスが搭乗する機動兵器。炎を用いた攻撃を得意とす",
+    "る。",
+    ""
+   ]
+  },
+  {
+   "id": 177,
+   "section": "STRI",
+   "offset": 104818,
+   "text_offset": 104828,
+   "role": "display",
+   "refs": [
+    "rec207.text"
+   ],
+   "orig_chars": [
+    28,
+    16
+   ],
+   "orig_bytes": 134,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ウンブラが搭乗する機動兵器。中距離戦闘用の機体だが、両",
+    "腕の鉤爪を用いた接近戦もこなす。"
+   ]
+  },
+  {
+   "id": 178,
+   "section": "STRI",
+   "offset": 104962,
+   "text_offset": 104972,
+   "role": "display",
+   "refs": [
+    "rec208.text"
+   ],
+   "orig_chars": [
+    28,
+    8
+   ],
+   "orig_bytes": 110,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　コンターギオが搭乗する半生体兵器。伸縮する触手による攻",
+    "撃を得意とする。"
+   ]
+  },
+  {
+   "id": 179,
+   "section": "STRI",
+   "offset": 105082,
+   "text_offset": 105092,
+   "role": "display",
+   "refs": [
+    "rec209.text"
+   ],
+   "orig_chars": [
+    28,
+    6
+   ],
+   "orig_bytes": 104,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　グラキエースが搭乗する人型機動兵器。凍気を用いた攻撃を",
+    "得意とする。"
+   ]
+  },
+  {
+   "id": 180,
+   "section": "STRI",
+   "offset": 105196,
+   "text_offset": 105206,
+   "role": "display",
+   "refs": [
+    "rec210.text"
+   ],
+   "orig_chars": [
+    28,
+    13
+   ],
+   "orig_bytes": 125,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ウェントスが搭乗する人型機動兵器。飛行形態への変形が可",
+    "能で、高い運動性を有する。"
+   ]
+  },
+  {
+   "id": 181,
+   "section": "STRI",
+   "offset": 105331,
+   "text_offset": 105337,
+   "role": "display",
+   "refs": [
+    "rec211.text"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "　ルイーナが用いる空中戦闘用の機動兵器。"
+  },
+  {
+   "id": 182,
+   "section": "STRI",
+   "offset": 105398,
+   "text_offset": 105404,
+   "role": "display",
+   "refs": [
+    "rec212.text"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "　ルイーナが用いる格闘戦用の機動兵器。"
+  },
+  {
+   "id": 183,
+   "section": "STRI",
+   "offset": 105462,
+   "text_offset": 105468,
+   "role": "display",
+   "refs": [
+    "rec213.text"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "　ルイーナが用いる半生体兵器。"
+  },
+  {
+   "id": 184,
+   "section": "STRI",
+   "offset": 105514,
+   "text_offset": 105528,
+   "role": "display",
+   "refs": [
+    "rec214.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    18
+   ],
+   "orig_bytes": 225,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　“破滅の王”ペルフェクティオの機械体。自ら負の波動を吸",
+    "収し、現世に破滅をもたらす。腕に付いている顔は「絶望の男",
+    "面」、「恐怖の女面」という名を持つ。"
+   ]
+  },
+  {
+   "id": 185,
+   "section": "STRI",
+   "offset": 105753,
+   "text_offset": 105763,
+   "role": "display",
+   "refs": [
+    "rec217.text"
+   ],
+   "orig_chars": [
+    27,
+    24
+   ],
+   "orig_bytes": 155,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　クロスゲートを取り込んだＡＩ１とガンエデンが合体する",
+    "ことにより誕生した新世界の創造主、そして新人祖。"
+   ]
+  },
+  {
+   "id": 186,
+   "section": "STRI",
+   "offset": 105918,
+   "text_offset": 105932,
+   "role": "display",
+   "refs": [
+    "rec218.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    22
+   ],
+   "orig_bytes": 237,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　エクサランスのデータを元にして開発された救難活動用の機",
+    "体。８人乗りの救護ポッドや、エクスフェアリーと呼ばれる遠",
+    "隔操作式の小型救難活動マシンを装備している。"
+   ]
+  },
+  {
+   "id": 187,
+   "section": "STRI",
+   "offset": 106169,
+   "text_offset": 106183,
+   "role": "display",
+   "refs": [
+    "rec219.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    7
+   ],
+   "orig_bytes": 189,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　出自不明の人型機動兵器。ある企業が開発した新型機に偽装",
+    "を施した機体だと言われている。折り畳み式のレールガンを",
+    "装備している。"
+   ]
+  }
+ ],
+ "inline_strings": []
+}

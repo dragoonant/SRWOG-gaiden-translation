@@ -1,0 +1,2552 @@
+{
+ "file": "StageData.dat",
+ "format": "FIXH 1.0 big-endian",
+ "sections": [
+  {
+   "magic": "DOFS",
+   "header_offset": 16,
+   "payload_offset": 24,
+   "size": 804,
+   "count": null
+  },
+  {
+   "magic": "DATA",
+   "header_offset": 828,
+   "payload_offset": 840,
+   "size": 1568,
+   "count": 98
+  },
+  {
+   "magic": "SOFS",
+   "header_offset": 2408,
+   "payload_offset": 2416,
+   "size": 440,
+   "count": null
+  },
+  {
+   "magic": "STRI",
+   "header_offset": 2856,
+   "payload_offset": 2868,
+   "size": 2780,
+   "count": 110
+  }
+ ],
+ "records": {
+  "count": 98,
+  "size": 16
+ },
+ "dofs": {
+  "entries": 201,
+  "unused_ids": 103
+ },
+ "string_fields": [
+  {
+   "offset": 2,
+   "width": 1,
+   "label": "title",
+   "kind": "display"
+  },
+  {
+   "offset": 3,
+   "width": 1,
+   "label": "subtitle",
+   "kind": "display"
+  },
+  {
+   "offset": 4,
+   "width": 1,
+   "label": "title_b",
+   "kind": "unknown"
+  },
+  {
+   "offset": 5,
+   "width": 1,
+   "label": "route",
+   "kind": "display"
+  },
+  {
+   "offset": 13,
+   "width": 1,
+   "label": "icon",
+   "kind": "internal"
+  }
+ ],
+ "notes": [
+  "Edit 'text' (single-line entries) or 'lines' (multi-line entries / entries with embedded newlines).",
+  "Do not add or remove entries: records reference strings by index.",
+  "role: display = shown in game; comment = developer note (never displayed, safe to leave untranslated); internal = identifier/path; orphan = referenced by no record; unknown = not established."
+ ],
+ "strings": [
+  {
+   "id": 0,
+   "section": "STRI",
+   "offset": 2868,
+   "text_offset": 2874,
+   "role": "display",
+   "refs": [
+    "rec0.title"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "プロローグ"
+  },
+  {
+   "id": 1,
+   "section": "STRI",
+   "offset": 2890,
+   "text_offset": 2896,
+   "role": "display",
+   "refs": [
+    "rec0.subtitle",
+    "rec1.subtitle",
+    "rec2.subtitle",
+    "rec3.subtitle",
+    "rec4.subtitle",
+    "rec5.subtitle",
+    "rec6.subtitle",
+    "rec7.subtitle",
+    "rec8.subtitle",
+    "rec9.subtitle",
+    "rec10.subtitle",
+    "rec11.subtitle",
+    "rec12.subtitle",
+    "rec13.subtitle",
+    "rec14.subtitle",
+    "rec15.subtitle",
+    "rec16.subtitle",
+    "rec17.subtitle",
+    "rec18.subtitle",
+    "rec19.subtitle",
+    "rec20.subtitle",
+    "rec21.subtitle",
+    "rec22.subtitle",
+    "rec23.subtitle",
+    "rec24.subtitle",
+    "rec25.subtitle",
+    "rec26.subtitle",
+    "rec27.subtitle",
+    "rec28.subtitle",
+    "rec29.subtitle",
+    "rec30.subtitle",
+    "rec31.subtitle",
+    "rec32.subtitle",
+    "rec33.subtitle",
+    "rec34.subtitle",
+    "rec35.subtitle",
+    "rec36.subtitle",
+    "rec37.subtitle",
+    "rec38.subtitle",
+    "rec39.subtitle",
+    "rec40.subtitle",
+    "rec41.subtitle",
+    "rec42.subtitle",
+    "rec43.subtitle",
+    "rec44.subtitle",
+    "rec45.subtitle",
+    "rec46.subtitle",
+    "rec47.subtitle",
+    "rec48.subtitle",
+    "rec49.subtitle",
+    "rec50.subtitle",
+    "rec51.subtitle",
+    "rec52.subtitle",
+    "rec53.subtitle",
+    "rec54.subtitle",
+    "rec55.subtitle",
+    "rec56.subtitle",
+    "rec57.subtitle",
+    "rec58.subtitle",
+    "rec59.subtitle",
+    "rec60.subtitle",
+    "rec61.subtitle",
+    "rec62.subtitle",
+    "rec63.subtitle",
+    "rec64.subtitle",
+    "rec65.subtitle",
+    "rec66.subtitle",
+    "rec67.subtitle",
+    "rec68.subtitle",
+    "rec69.subtitle",
+    "rec70.subtitle",
+    "rec71.subtitle",
+    "rec72.subtitle",
+    "rec73.subtitle",
+    "rec74.subtitle",
+    "rec75.subtitle",
+    "rec76.subtitle",
+    "rec77.subtitle",
+    "rec78.subtitle",
+    "rec79.subtitle",
+    "rec80.subtitle",
+    "rec81.subtitle",
+    "rec82.subtitle",
+    "rec83.subtitle",
+    "rec84.subtitle",
+    "rec85.subtitle",
+    "rec86.subtitle",
+    "rec87.subtitle",
+    "rec88.subtitle",
+    "rec89.subtitle",
+    "rec90.subtitle",
+    "rec91.subtitle",
+    "rec92.subtitle",
+    "rec93.subtitle",
+    "rec94.subtitle",
+    "rec95.subtitle",
+    "rec96.subtitle",
+    "rec97.subtitle"
+   ],
+   "orig_chars": [
+    0
+   ],
+   "orig_bytes": 1,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": ""
+  },
+  {
+   "id": 2,
+   "section": "STRI",
+   "offset": 2897,
+   "text_offset": 2903,
+   "role": "unknown",
+   "refs": [
+    "rec0.title_b"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "プロローグです。"
+  },
+  {
+   "id": 3,
+   "section": "STRI",
+   "offset": 2928,
+   "text_offset": 2934,
+   "role": "display",
+   "refs": [
+    "rec0.route",
+    "rec1.route",
+    "rec2.route",
+    "rec35.route",
+    "rec36.route",
+    "rec37.route",
+    "rec38.route",
+    "rec39.route",
+    "rec40.route",
+    "rec41.route",
+    "rec42.route",
+    "rec43.route",
+    "rec44.route",
+    "rec45.route",
+    "rec46.route",
+    "rec47.route",
+    "rec62.route",
+    "rec63.route",
+    "rec64.route",
+    "rec65.route",
+    "rec66.route",
+    "rec67.route",
+    "rec68.route",
+    "rec69.route",
+    "rec70.route",
+    "rec71.route",
+    "rec72.route",
+    "rec73.route",
+    "rec74.route",
+    "rec75.route",
+    "rec76.route",
+    "rec77.route",
+    "rec78.route",
+    "rec79.route",
+    "rec88.route",
+    "rec89.route",
+    "rec90.route",
+    "rec92.route",
+    "rec96.route"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "共通"
+  },
+  {
+   "id": 4,
+   "section": "STRI",
+   "offset": 2941,
+   "text_offset": 2947,
+   "role": "internal",
+   "refs": [
+    "rec0.icon",
+    "rec1.icon",
+    "rec2.icon",
+    "rec35.icon",
+    "rec36.icon",
+    "rec37.icon",
+    "rec38.icon",
+    "rec39.icon",
+    "rec40.icon",
+    "rec41.icon",
+    "rec42.icon",
+    "rec43.icon",
+    "rec44.icon",
+    "rec45.icon",
+    "rec46.icon",
+    "rec47.icon",
+    "rec62.icon",
+    "rec63.icon",
+    "rec64.icon",
+    "rec65.icon",
+    "rec66.icon",
+    "rec67.icon",
+    "rec68.icon",
+    "rec69.icon",
+    "rec70.icon",
+    "rec71.icon",
+    "rec72.icon",
+    "rec73.icon",
+    "rec74.icon",
+    "rec75.icon",
+    "rec76.icon",
+    "rec77.icon",
+    "rec78.icon",
+    "rec79.icon",
+    "rec88.icon",
+    "rec89.icon",
+    "rec90.icon",
+    "rec92.icon",
+    "rec96.icon",
+    "rec97.icon"
+   ],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "icon_route_common.png"
+  },
+  {
+   "id": 5,
+   "section": "STRI",
+   "offset": 2969,
+   "text_offset": 2975,
+   "role": "display",
+   "refs": [
+    "rec1.title",
+    "rec1.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "星なき空"
+  },
+  {
+   "id": 6,
+   "section": "STRI",
+   "offset": 2988,
+   "text_offset": 2994,
+   "role": "display",
+   "refs": [
+    "rec2.title",
+    "rec2.title_b",
+    "rec47.title",
+    "rec47.title_b",
+    "rec79.title",
+    "rec79.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "分岐シナリオ"
+  },
+  {
+   "id": 7,
+   "section": "STRI",
+   "offset": 3013,
+   "text_offset": 3019,
+   "role": "display",
+   "refs": [
+    "rec3.title",
+    "rec3.title_b"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "召喚"
+  },
+  {
+   "id": 8,
+   "section": "STRI",
+   "offset": 3026,
+   "text_offset": 3032,
+   "role": "display",
+   "refs": [
+    "rec3.route",
+    "rec19.route"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "？？？"
+  },
+  {
+   "id": 9,
+   "section": "STRI",
+   "offset": 3042,
+   "text_offset": 3048,
+   "role": "internal",
+   "refs": [
+    "rec3.icon",
+    "rec4.icon",
+    "rec5.icon",
+    "rec6.icon",
+    "rec7.icon",
+    "rec8.icon",
+    "rec9.icon",
+    "rec10.icon",
+    "rec11.icon",
+    "rec12.icon",
+    "rec13.icon",
+    "rec14.icon",
+    "rec15.icon",
+    "rec16.icon",
+    "rec17.icon",
+    "rec18.icon",
+    "rec48.icon",
+    "rec49.icon",
+    "rec50.icon",
+    "rec51.icon",
+    "rec52.icon",
+    "rec53.icon",
+    "rec54.icon",
+    "rec80.icon",
+    "rec81.icon",
+    "rec82.icon",
+    "rec83.icon",
+    "rec91.icon"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 17,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "icon_route_1.png"
+  },
+  {
+   "id": 10,
+   "section": "STRI",
+   "offset": 3065,
+   "text_offset": 3071,
+   "role": "display",
+   "refs": [
+    "rec4.title",
+    "rec4.title_b"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "イモータルの迎撃"
+  },
+  {
+   "id": 11,
+   "section": "STRI",
+   "offset": 3096,
+   "text_offset": 3102,
+   "role": "display",
+   "refs": [
+    "rec4.route",
+    "rec5.route",
+    "rec6.route",
+    "rec7.route",
+    "rec8.route",
+    "rec9.route",
+    "rec10.route",
+    "rec11.route",
+    "rec12.route",
+    "rec13.route",
+    "rec14.route",
+    "rec15.route",
+    "rec16.route",
+    "rec17.route",
+    "rec18.route"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "マサキ"
+  },
+  {
+   "id": 12,
+   "section": "STRI",
+   "offset": 3112,
+   "text_offset": 3118,
+   "role": "display",
+   "refs": [
+    "rec5.title",
+    "rec5.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ソラティス神殿"
+  },
+  {
+   "id": 13,
+   "section": "STRI",
+   "offset": 3140,
+   "text_offset": 3146,
+   "role": "display",
+   "refs": [
+    "rec6.title",
+    "rec6.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "デモン・ハック"
+  },
+  {
+   "id": 14,
+   "section": "STRI",
+   "offset": 3168,
+   "text_offset": 3174,
+   "role": "display",
+   "refs": [
+    "rec7.title",
+    "rec7.title_b"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "コーラルキャニオン"
+  },
+  {
+   "id": 15,
+   "section": "STRI",
+   "offset": 3202,
+   "text_offset": 3208,
+   "role": "display",
+   "refs": [
+    "rec8.title",
+    "rec8.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "喪われた記憶"
+  },
+  {
+   "id": 16,
+   "section": "STRI",
+   "offset": 3227,
+   "text_offset": 3233,
+   "role": "display",
+   "refs": [
+    "rec9.title",
+    "rec9.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ザムジードの心"
+  },
+  {
+   "id": 17,
+   "section": "STRI",
+   "offset": 3255,
+   "text_offset": 3261,
+   "role": "display",
+   "refs": [
+    "rec10.title",
+    "rec10.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "囚われの王女"
+  },
+  {
+   "id": 18,
+   "section": "STRI",
+   "offset": 3280,
+   "text_offset": 3286,
+   "role": "display",
+   "refs": [
+    "rec11.title",
+    "rec11.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "王都への路"
+  },
+  {
+   "id": 19,
+   "section": "STRI",
+   "offset": 3302,
+   "text_offset": 3308,
+   "role": "display",
+   "refs": [
+    "rec12.title",
+    "rec12.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "カークスの野望"
+  },
+  {
+   "id": 20,
+   "section": "STRI",
+   "offset": 3330,
+   "text_offset": 3336,
+   "role": "display",
+   "refs": [
+    "rec13.title",
+    "rec13.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "テリウス出奔"
+  },
+  {
+   "id": 21,
+   "section": "STRI",
+   "offset": 3355,
+   "text_offset": 3361,
+   "role": "display",
+   "refs": [
+    "rec14.title",
+    "rec14.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "野心の代償"
+  },
+  {
+   "id": 22,
+   "section": "STRI",
+   "offset": 3377,
+   "text_offset": 3383,
+   "role": "display",
+   "refs": [
+    "rec15.title",
+    "rec15.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "邪神の胎動"
+  },
+  {
+   "id": 23,
+   "section": "STRI",
+   "offset": 3399,
+   "text_offset": 3405,
+   "role": "display",
+   "refs": [
+    "rec16.title",
+    "rec16.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "フェイルの闇"
+  },
+  {
+   "id": 24,
+   "section": "STRI",
+   "offset": 3424,
+   "text_offset": 3430,
+   "role": "display",
+   "refs": [
+    "rec17.title",
+    "rec17.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "違えた道"
+  },
+  {
+   "id": 25,
+   "section": "STRI",
+   "offset": 3443,
+   "text_offset": 3449,
+   "role": "display",
+   "refs": [
+    "rec18.title",
+    "rec18.title_b"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "決戦、デュラクシール"
+  },
+  {
+   "id": 26,
+   "section": "STRI",
+   "offset": 3480,
+   "text_offset": 3486,
+   "role": "display",
+   "refs": [
+    "rec19.title",
+    "rec19.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "地底世界"
+  },
+  {
+   "id": 27,
+   "section": "STRI",
+   "offset": 3499,
+   "text_offset": 3505,
+   "role": "internal",
+   "refs": [
+    "rec19.icon",
+    "rec20.icon",
+    "rec21.icon",
+    "rec22.icon",
+    "rec23.icon",
+    "rec24.icon",
+    "rec25.icon",
+    "rec26.icon",
+    "rec27.icon",
+    "rec28.icon",
+    "rec29.icon",
+    "rec30.icon",
+    "rec31.icon",
+    "rec32.icon",
+    "rec33.icon",
+    "rec34.icon",
+    "rec55.icon",
+    "rec56.icon",
+    "rec57.icon",
+    "rec58.icon",
+    "rec59.icon",
+    "rec60.icon",
+    "rec61.icon",
+    "rec84.icon",
+    "rec85.icon",
+    "rec86.icon",
+    "rec87.icon",
+    "rec93.icon",
+    "rec94.icon",
+    "rec95.icon"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 17,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "icon_route_2.png"
+  },
+  {
+   "id": 28,
+   "section": "STRI",
+   "offset": 3522,
+   "text_offset": 3528,
+   "role": "display",
+   "refs": [
+    "rec20.title",
+    "rec20.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "孤狼との再会"
+  },
+  {
+   "id": 29,
+   "section": "STRI",
+   "offset": 3547,
+   "text_offset": 3553,
+   "role": "display",
+   "refs": [
+    "rec20.route",
+    "rec21.route",
+    "rec22.route",
+    "rec23.route",
+    "rec24.route",
+    "rec25.route",
+    "rec26.route",
+    "rec27.route",
+    "rec28.route",
+    "rec29.route",
+    "rec30.route",
+    "rec31.route",
+    "rec32.route",
+    "rec33.route",
+    "rec34.route"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "リューネ"
+  },
+  {
+   "id": 30,
+   "section": "STRI",
+   "offset": 3566,
+   "text_offset": 3572,
+   "role": "display",
+   "refs": [
+    "rec21.title",
+    "rec21.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ダンク市の攻防"
+  },
+  {
+   "id": 31,
+   "section": "STRI",
+   "offset": 3594,
+   "text_offset": 3600,
+   "role": "display",
+   "refs": [
+    "rec22.title",
+    "rec22.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "それぞれの正義"
+  },
+  {
+   "id": 32,
+   "section": "STRI",
+   "offset": 3622,
+   "text_offset": 3628,
+   "role": "display",
+   "refs": [
+    "rec23.title",
+    "rec23.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "胞子の谷"
+  },
+  {
+   "id": 33,
+   "section": "STRI",
+   "offset": 3641,
+   "text_offset": 3647,
+   "role": "display",
+   "refs": [
+    "rec24.title",
+    "rec24.title_b"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "サプライズド・アタック"
+  },
+  {
+   "id": 34,
+   "section": "STRI",
+   "offset": 3681,
+   "text_offset": 3687,
+   "role": "display",
+   "refs": [
+    "rec25.title",
+    "rec25.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "信念と疑惑"
+  },
+  {
+   "id": 35,
+   "section": "STRI",
+   "offset": 3703,
+   "text_offset": 3709,
+   "role": "display",
+   "refs": [
+    "rec26.title",
+    "rec26.title_b"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ヴォルクルスの影"
+  },
+  {
+   "id": 36,
+   "section": "STRI",
+   "offset": 3734,
+   "text_offset": 3740,
+   "role": "display",
+   "refs": [
+    "rec27.title",
+    "rec27.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "カークスの真意"
+  },
+  {
+   "id": 37,
+   "section": "STRI",
+   "offset": 3762,
+   "text_offset": 3768,
+   "role": "display",
+   "refs": [
+    "rec28.title",
+    "rec28.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "異界の剣"
+  },
+  {
+   "id": 38,
+   "section": "STRI",
+   "offset": 3781,
+   "text_offset": 3787,
+   "role": "display",
+   "refs": [
+    "rec29.title",
+    "rec29.title_b"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "遭遇"
+  },
+  {
+   "id": 39,
+   "section": "STRI",
+   "offset": 3794,
+   "text_offset": 3800,
+   "role": "display",
+   "refs": [
+    "rec30.title",
+    "rec30.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "カークスの目"
+  },
+  {
+   "id": 40,
+   "section": "STRI",
+   "offset": 3819,
+   "text_offset": 3825,
+   "role": "display",
+   "refs": [
+    "rec31.title",
+    "rec31.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "セブ神殿"
+  },
+  {
+   "id": 41,
+   "section": "STRI",
+   "offset": 3838,
+   "text_offset": 3844,
+   "role": "display",
+   "refs": [
+    "rec32.title",
+    "rec32.title_b"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "シュテドニアス追撃"
+  },
+  {
+   "id": 42,
+   "section": "STRI",
+   "offset": 3872,
+   "text_offset": 3878,
+   "role": "display",
+   "refs": [
+    "rec33.title",
+    "rec33.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "敗軍の将"
+  },
+  {
+   "id": 43,
+   "section": "STRI",
+   "offset": 3891,
+   "text_offset": 3897,
+   "role": "display",
+   "refs": [
+    "rec34.title",
+    "rec34.title_b"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "超魔装機エウリード"
+  },
+  {
+   "id": 44,
+   "section": "STRI",
+   "offset": 3925,
+   "text_offset": 3931,
+   "role": "display",
+   "refs": [
+    "rec35.title",
+    "rec35.title_b"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "「混乱」からの使者"
+  },
+  {
+   "id": 45,
+   "section": "STRI",
+   "offset": 3959,
+   "text_offset": 3965,
+   "role": "display",
+   "refs": [
+    "rec36.title",
+    "rec36.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "手負いの狼"
+  },
+  {
+   "id": 46,
+   "section": "STRI",
+   "offset": 3981,
+   "text_offset": 3987,
+   "role": "display",
+   "refs": [
+    "rec37.title",
+    "rec37.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "空を望む騎士"
+  },
+  {
+   "id": 47,
+   "section": "STRI",
+   "offset": 4006,
+   "text_offset": 4012,
+   "role": "display",
+   "refs": [
+    "rec38.title",
+    "rec38.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "黒焔の狩人"
+  },
+  {
+   "id": 48,
+   "section": "STRI",
+   "offset": 4028,
+   "text_offset": 4034,
+   "role": "display",
+   "refs": [
+    "rec39.title",
+    "rec39.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "黒き迅雷"
+  },
+  {
+   "id": 49,
+   "section": "STRI",
+   "offset": 4047,
+   "text_offset": 4053,
+   "role": "display",
+   "refs": [
+    "rec40.title",
+    "rec40.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "厭客再来"
+  },
+  {
+   "id": 50,
+   "section": "STRI",
+   "offset": 4066,
+   "text_offset": 4072,
+   "role": "display",
+   "refs": [
+    "rec41.title",
+    "rec41.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "地球を護る剣"
+  },
+  {
+   "id": 51,
+   "section": "STRI",
+   "offset": 4091,
+   "text_offset": 4097,
+   "role": "display",
+   "refs": [
+    "rec42.title",
+    "rec42.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "甦る青龍"
+  },
+  {
+   "id": 52,
+   "section": "STRI",
+   "offset": 4110,
+   "text_offset": 4116,
+   "role": "display",
+   "refs": [
+    "rec43.title",
+    "rec43.title_b"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ミクスト・トルーパーズ"
+  },
+  {
+   "id": 53,
+   "section": "STRI",
+   "offset": 4150,
+   "text_offset": 4156,
+   "role": "display",
+   "refs": [
+    "rec44.title",
+    "rec44.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "南極の門"
+  },
+  {
+   "id": 54,
+   "section": "STRI",
+   "offset": 4169,
+   "text_offset": 4175,
+   "role": "display",
+   "refs": [
+    "rec45.title",
+    "rec45.title_b"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "その名は“破滅”"
+  },
+  {
+   "id": 55,
+   "section": "STRI",
+   "offset": 4200,
+   "text_offset": 4206,
+   "role": "display",
+   "refs": [
+    "rec46.title",
+    "rec46.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "揺れる矛先"
+  },
+  {
+   "id": 56,
+   "section": "STRI",
+   "offset": 4222,
+   "text_offset": 4228,
+   "role": "display",
+   "refs": [
+    "rec48.title",
+    "rec48.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "常夜の世界"
+  },
+  {
+   "id": 57,
+   "section": "STRI",
+   "offset": 4244,
+   "text_offset": 4250,
+   "role": "display",
+   "refs": [
+    "rec48.route",
+    "rec49.route",
+    "rec50.route",
+    "rec51.route",
+    "rec52.route",
+    "rec53.route",
+    "rec54.route",
+    "rec80.route",
+    "rec81.route",
+    "rec82.route",
+    "rec83.route"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "地上"
+  },
+  {
+   "id": 58,
+   "section": "STRI",
+   "offset": 4257,
+   "text_offset": 4263,
+   "role": "display",
+   "refs": [
+    "rec49.title",
+    "rec49.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "影の軍団"
+  },
+  {
+   "id": 59,
+   "section": "STRI",
+   "offset": 4276,
+   "text_offset": 4282,
+   "role": "display",
+   "refs": [
+    "rec50.title",
+    "rec50.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "アイス・ドール"
+  },
+  {
+   "id": 60,
+   "section": "STRI",
+   "offset": 4304,
+   "text_offset": 4310,
+   "role": "display",
+   "refs": [
+    "rec51.title",
+    "rec51.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "偽面の報復者"
+  },
+  {
+   "id": 61,
+   "section": "STRI",
+   "offset": 4329,
+   "text_offset": 4335,
+   "role": "display",
+   "refs": [
+    "rec52.title",
+    "rec52.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "流星と彗星"
+  },
+  {
+   "id": 62,
+   "section": "STRI",
+   "offset": 4351,
+   "text_offset": 4357,
+   "role": "display",
+   "refs": [
+    "rec53.title",
+    "rec53.title_b"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "漆黒の虎、氷の白刃"
+  },
+  {
+   "id": 63,
+   "section": "STRI",
+   "offset": 4385,
+   "text_offset": 4391,
+   "role": "display",
+   "refs": [
+    "rec54.title",
+    "rec54.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "運命の風"
+  },
+  {
+   "id": 64,
+   "section": "STRI",
+   "offset": 4404,
+   "text_offset": 4410,
+   "role": "display",
+   "refs": [
+    "rec55.title",
+    "rec55.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "蒼光なき宇宙"
+  },
+  {
+   "id": 65,
+   "section": "STRI",
+   "offset": 4429,
+   "text_offset": 4435,
+   "role": "display",
+   "refs": [
+    "rec55.route",
+    "rec56.route",
+    "rec57.route",
+    "rec58.route",
+    "rec59.route",
+    "rec60.route",
+    "rec61.route",
+    "rec84.route",
+    "rec85.route",
+    "rec86.route",
+    "rec87.route"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "宇宙"
+  },
+  {
+   "id": 66,
+   "section": "STRI",
+   "offset": 4442,
+   "text_offset": 4448,
+   "role": "display",
+   "refs": [
+    "rec56.title",
+    "rec56.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "遠方からの刺客"
+  },
+  {
+   "id": 67,
+   "section": "STRI",
+   "offset": 4470,
+   "text_offset": 4476,
+   "role": "display",
+   "refs": [
+    "rec57.title",
+    "rec57.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "呼応する偽核"
+  },
+  {
+   "id": 68,
+   "section": "STRI",
+   "offset": 4495,
+   "text_offset": 4501,
+   "role": "display",
+   "refs": [
+    "rec58.title",
+    "rec58.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "繋がる縁"
+  },
+  {
+   "id": 69,
+   "section": "STRI",
+   "offset": 4514,
+   "text_offset": 4520,
+   "role": "display",
+   "refs": [
+    "rec59.title",
+    "rec59.title_b"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ダブル・インターセプト"
+  },
+  {
+   "id": 70,
+   "section": "STRI",
+   "offset": 4554,
+   "text_offset": 4560,
+   "role": "display",
+   "refs": [
+    "rec60.title",
+    "rec60.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "追逃逆転"
+  },
+  {
+   "id": 71,
+   "section": "STRI",
+   "offset": 4573,
+   "text_offset": 4579,
+   "role": "display",
+   "refs": [
+    "rec61.title",
+    "rec61.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "不可視の扉"
+  },
+  {
+   "id": 72,
+   "section": "STRI",
+   "offset": 4595,
+   "text_offset": 4601,
+   "role": "display",
+   "refs": [
+    "rec62.title",
+    "rec62.title_b"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "頑鉄番長Ｇバンカラン"
+  },
+  {
+   "id": 73,
+   "section": "STRI",
+   "offset": 4632,
+   "text_offset": 4638,
+   "role": "display",
+   "refs": [
+    "rec63.title",
+    "rec63.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "四神邂逅"
+  },
+  {
+   "id": 74,
+   "section": "STRI",
+   "offset": 4651,
+   "text_offset": 4657,
+   "role": "display",
+   "refs": [
+    "rec64.title",
+    "rec64.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "狼と犬達"
+  },
+  {
+   "id": 75,
+   "section": "STRI",
+   "offset": 4670,
+   "text_offset": 4676,
+   "role": "display",
+   "refs": [
+    "rec65.title",
+    "rec65.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "蒼炎の逆鱗"
+  },
+  {
+   "id": 76,
+   "section": "STRI",
+   "offset": 4692,
+   "text_offset": 4698,
+   "role": "display",
+   "refs": [
+    "rec66.title",
+    "rec66.title_b"
+   ],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "妄念に操られし者（前篇）"
+  },
+  {
+   "id": 77,
+   "section": "STRI",
+   "offset": 4735,
+   "text_offset": 4741,
+   "role": "display",
+   "refs": [
+    "rec67.title",
+    "rec67.title_b"
+   ],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "妄念に操られし者（後篇）"
+  },
+  {
+   "id": 78,
+   "section": "STRI",
+   "offset": 4778,
+   "text_offset": 4784,
+   "role": "display",
+   "refs": [
+    "rec68.title",
+    "rec68.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "輝きを一つに"
+  },
+  {
+   "id": 79,
+   "section": "STRI",
+   "offset": 4803,
+   "text_offset": 4809,
+   "role": "display",
+   "refs": [
+    "rec69.title",
+    "rec69.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "特異点崩壊"
+  },
+  {
+   "id": 80,
+   "section": "STRI",
+   "offset": 4825,
+   "text_offset": 4831,
+   "role": "display",
+   "refs": [
+    "rec70.title",
+    "rec70.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "凶鳥は三度死ぬ"
+  },
+  {
+   "id": 81,
+   "section": "STRI",
+   "offset": 4853,
+   "text_offset": 4859,
+   "role": "display",
+   "refs": [
+    "rec71.title",
+    "rec71.title_b"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "リューネ・カプリッチオ"
+  },
+  {
+   "id": 82,
+   "section": "STRI",
+   "offset": 4893,
+   "text_offset": 4899,
+   "role": "display",
+   "refs": [
+    "rec72.title",
+    "rec72.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "トーチカ奇襲"
+  },
+  {
+   "id": 83,
+   "section": "STRI",
+   "offset": 4918,
+   "text_offset": 4924,
+   "role": "display",
+   "refs": [
+    "rec73.title",
+    "rec73.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "深秘なる存在"
+  },
+  {
+   "id": 84,
+   "section": "STRI",
+   "offset": 4943,
+   "text_offset": 4949,
+   "role": "display",
+   "refs": [
+    "rec74.title",
+    "rec74.title_b"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "闘志、炎に燃ゆる"
+  },
+  {
+   "id": 85,
+   "section": "STRI",
+   "offset": 4974,
+   "text_offset": 4980,
+   "role": "display",
+   "refs": [
+    "rec75.title",
+    "rec75.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "去来交差点"
+  },
+  {
+   "id": 86,
+   "section": "STRI",
+   "offset": 4996,
+   "text_offset": 5002,
+   "role": "display",
+   "refs": [
+    "rec76.title",
+    "rec76.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "風の呼び声"
+  },
+  {
+   "id": 87,
+   "section": "STRI",
+   "offset": 5018,
+   "text_offset": 5024,
+   "role": "display",
+   "refs": [
+    "rec77.title",
+    "rec77.title_b"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "私に、さよならを"
+  },
+  {
+   "id": 88,
+   "section": "STRI",
+   "offset": 5049,
+   "text_offset": 5055,
+   "role": "display",
+   "refs": [
+    "rec78.title",
+    "rec78.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "封印の予兆"
+  },
+  {
+   "id": 89,
+   "section": "STRI",
+   "offset": 5071,
+   "text_offset": 5077,
+   "role": "display",
+   "refs": [
+    "rec80.title",
+    "rec80.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "天蓋の下で"
+  },
+  {
+   "id": 90,
+   "section": "STRI",
+   "offset": 5093,
+   "text_offset": 5099,
+   "role": "display",
+   "refs": [
+    "rec81.title",
+    "rec81.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "雷迅昇星"
+  },
+  {
+   "id": 91,
+   "section": "STRI",
+   "offset": 5112,
+   "text_offset": 5118,
+   "role": "display",
+   "refs": [
+    "rec82.title",
+    "rec82.title_b"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "紅の聖誕祭（前篇）"
+  },
+  {
+   "id": 92,
+   "section": "STRI",
+   "offset": 5146,
+   "text_offset": 5152,
+   "role": "display",
+   "refs": [
+    "rec83.title",
+    "rec83.title_b"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "紅の聖誕祭（後篇）"
+  },
+  {
+   "id": 93,
+   "section": "STRI",
+   "offset": 5180,
+   "text_offset": 5186,
+   "role": "display",
+   "refs": [
+    "rec84.title",
+    "rec84.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "神の牢獄"
+  },
+  {
+   "id": 94,
+   "section": "STRI",
+   "offset": 5199,
+   "text_offset": 5205,
+   "role": "display",
+   "refs": [
+    "rec85.title",
+    "rec85.title_b"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ゲストとインスペクター"
+  },
+  {
+   "id": 95,
+   "section": "STRI",
+   "offset": 5239,
+   "text_offset": 5245,
+   "role": "display",
+   "refs": [
+    "rec86.title",
+    "rec86.title_b"
+   ],
+   "orig_chars": [
+    14
+   ],
+   "orig_bytes": 43,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "オペレーション・レコンキスタ"
+  },
+  {
+   "id": 96,
+   "section": "STRI",
+   "offset": 5288,
+   "text_offset": 5294,
+   "role": "display",
+   "refs": [
+    "rec87.title",
+    "rec87.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "激震の白い大地"
+  },
+  {
+   "id": 97,
+   "section": "STRI",
+   "offset": 5316,
+   "text_offset": 5322,
+   "role": "display",
+   "refs": [
+    "rec88.title",
+    "rec88.title_b"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "クライシス・ポイント"
+  },
+  {
+   "id": 98,
+   "section": "STRI",
+   "offset": 5353,
+   "text_offset": 5359,
+   "role": "display",
+   "refs": [
+    "rec89.title",
+    "rec89.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "デザイア"
+  },
+  {
+   "id": 99,
+   "section": "STRI",
+   "offset": 5372,
+   "text_offset": 5378,
+   "role": "display",
+   "refs": [
+    "rec90.title",
+    "rec90.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "四龍の長"
+  },
+  {
+   "id": 100,
+   "section": "STRI",
+   "offset": 5391,
+   "text_offset": 5397,
+   "role": "display",
+   "refs": [
+    "rec91.title",
+    "rec91.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "封印戦争"
+  },
+  {
+   "id": 101,
+   "section": "STRI",
+   "offset": 5410,
+   "text_offset": 5416,
+   "role": "display",
+   "refs": [
+    "rec91.route"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "最終分岐ルート１"
+  },
+  {
+   "id": 102,
+   "section": "STRI",
+   "offset": 5441,
+   "text_offset": 5447,
+   "role": "display",
+   "refs": [
+    "rec92.title",
+    "rec92.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ラスト・クライ"
+  },
+  {
+   "id": 103,
+   "section": "STRI",
+   "offset": 5469,
+   "text_offset": 5475,
+   "role": "display",
+   "refs": [
+    "rec93.title",
+    "rec93.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "機人大戦"
+  },
+  {
+   "id": 104,
+   "section": "STRI",
+   "offset": 5488,
+   "text_offset": 5494,
+   "role": "display",
+   "refs": [
+    "rec93.route",
+    "rec94.route",
+    "rec95.route"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "最終分岐ルート２"
+  },
+  {
+   "id": 105,
+   "section": "STRI",
+   "offset": 5519,
+   "text_offset": 5525,
+   "role": "display",
+   "refs": [
+    "rec94.title",
+    "rec94.title_b"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "母なる星の護り神"
+  },
+  {
+   "id": 106,
+   "section": "STRI",
+   "offset": 5550,
+   "text_offset": 5556,
+   "role": "display",
+   "refs": [
+    "rec95.title",
+    "rec95.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "古の忌憶"
+  },
+  {
+   "id": 107,
+   "section": "STRI",
+   "offset": 5569,
+   "text_offset": 5575,
+   "role": "display",
+   "refs": [
+    "rec96.title",
+    "rec96.title_b"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "？？？？？？？？"
+  },
+  {
+   "id": 108,
+   "section": "STRI",
+   "offset": 5600,
+   "text_offset": 5606,
+   "role": "display",
+   "refs": [
+    "rec97.title",
+    "rec97.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ガイダンス"
+  },
+  {
+   "id": 109,
+   "section": "STRI",
+   "offset": 5622,
+   "text_offset": 5628,
+   "role": "display",
+   "refs": [
+    "rec97.route"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ーーーーーー"
+  }
+ ],
+ "inline_strings": []
+}

@@ -1,0 +1,3414 @@
+{
+ "file": "105.bmd",
+ "format": "BMD",
+ "counts": {
+  "groups": 28,
+  "entries": 133,
+  "lines": 142,
+  "strings": 69
+ },
+ "strings": [
+  {
+   "id": 0,
+   "offset": 0,
+   "role": "name",
+   "speakers": [
+    105
+   ],
+   "jp": "　　　　",
+   "en": "",
+   "refs": [
+    {
+     "line": 42,
+     "field": "name",
+     "entry": 37,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 5,
+     "weight": 100,
+     "target": 7910,
+     "speaker": 105,
+     "face": 0,
+     "voice": [
+      0,
+      10001
+     ]
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "offset": 13,
+   "role": "text",
+   "speakers": [
+    105
+   ],
+   "jp": "「………」",
+   "en": "",
+   "refs": [
+    {
+     "line": 0,
+     "field": "text",
+     "entry": 0,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 105,
+     "face": 0,
+     "voice": [
+      0,
+      0
+     ]
+    },
+    {
+     "line": 2,
+     "field": "text",
+     "entry": 1,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 219,
+     "speaker": 105,
+     "face": 0,
+     "voice": [
+      0,
+      0
+     ]
+    },
+    {
+     "line": 4,
+     "field": "text",
+     "entry": 2,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 219,
+     "speaker": 105,
+     "face": 0,
+     "voice": [
+      0,
+      0
+     ]
+    },
+    {
+     "line": 6,
+     "field": "text",
+     "entry": 3,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 219,
+     "speaker": 105,
+     "face": 0,
+     "voice": [
+      0,
+      0
+     ]
+    },
+    {
+     "line": 8,
+     "field": "text",
+     "entry": 4,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 219,
+     "speaker": 105,
+     "face": 0,
+     "voice": [
+      0,
+      0
+     ]
+    },
+    {
+     "line": 41,
+     "field": "text",
+     "entry": 36,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 5,
+     "weight": 100,
+     "target": 7900,
+     "speaker": 105,
+     "face": 0,
+     "voice": [
+      0,
+      0
+     ]
+    },
+    {
+     "line": 47,
+     "field": "text",
+     "entry": 40,
+     "group": [
+      0,
+      2
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 105,
+     "face": 0,
+     "voice": [
+      0,
+      0
+     ]
+    },
+    {
+     "line": 106,
+     "field": "text",
+     "entry": 99,
+     "group": [
+      0,
+      12
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 105,
+     "face": 0,
+     "voice": [
+      0,
+      0
+     ]
+    },
+    {
+     "line": 134,
+     "field": "text",
+     "entry": 127,
+     "group": [
+      3,
+      22392
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 105,
+     "face": 0,
+     "voice": [
+      0,
+      0
+     ]
+    },
+    {
+     "line": 135,
+     "field": "text",
+     "entry": 128,
+     "group": [
+      3,
+      22402
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 105,
+     "face": 0,
+     "voice": [
+      0,
+      0
+     ]
+    },
+    {
+     "line": 139,
+     "field": "text",
+     "entry": 132,
+     "group": [
+      3,
+      22423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 105,
+     "face": 0,
+     "voice": [
+      0,
+      0
+     ]
+    },
+    {
+     "line": 141,
+     "field": "text",
+     "entry": 132,
+     "group": [
+      3,
+      22423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 105,
+     "face": 0,
+     "voice": [
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "offset": 29,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「さあ……行きなさい、ＡＩ１」",
+   "en": "",
+   "refs": [
+    {
+     "line": 1,
+     "field": "text",
+     "entry": 1,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 219,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57050
+     ]
+    },
+    {
+     "line": 115,
+     "field": "text",
+     "entry": 108,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57050
+     ]
+    },
+    {
+     "line": 119,
+     "field": "text",
+     "entry": 112,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57050
+     ]
+    },
+    {
+     "line": 124,
+     "field": "text",
+     "entry": 117,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57050
+     ]
+    },
+    {
+     "line": 128,
+     "field": "text",
+     "entry": 121,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57050
+     ]
+    },
+    {
+     "line": 130,
+     "field": "text",
+     "entry": 123,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57050
+     ]
+    },
+    {
+     "line": 132,
+     "field": "text",
+     "entry": 125,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57050
+     ]
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "offset": 75,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「ＡＩ１、ガルベルスはあなたの手足よ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 3,
+     "field": "text",
+     "entry": 2,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 219,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57051
+     ]
+    },
+    {
+     "line": 40,
+     "field": "text",
+     "entry": 36,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 5,
+     "weight": 100,
+     "target": 7900,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57051
+     ]
+    },
+    {
+     "line": 116,
+     "field": "text",
+     "entry": 109,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57051
+     ]
+    },
+    {
+     "line": 120,
+     "field": "text",
+     "entry": 113,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57051
+     ]
+    },
+    {
+     "line": 125,
+     "field": "text",
+     "entry": 118,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57051
+     ]
+    },
+    {
+     "line": 129,
+     "field": "text",
+     "entry": 122,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57051
+     ]
+    },
+    {
+     "line": 131,
+     "field": "text",
+     "entry": 124,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57051
+     ]
+    },
+    {
+     "line": 133,
+     "field": "text",
+     "entry": 126,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57051
+     ]
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "offset": 133,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「ＡＩ１……/　相手が何者であろうと、あなたなら勝てるわ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 5,
+     "field": "text",
+     "entry": 3,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 219,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57052
+     ]
+    },
+    {
+     "line": 117,
+     "field": "text",
+     "entry": 110,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57052
+     ]
+    },
+    {
+     "line": 121,
+     "field": "text",
+     "entry": 114,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57052
+     ]
+    },
+    {
+     "line": 126,
+     "field": "text",
+     "entry": 119,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57052
+     ]
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "offset": 219,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「ＡＩ１、あなたが生み出す結果を……/　あなたという存在が/　行き着く先を見せてちょうだい」",
+   "en": "",
+   "refs": [
+    {
+     "line": 7,
+     "field": "text",
+     "entry": 4,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 219,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57053
+     ]
+    },
+    {
+     "line": 118,
+     "field": "text",
+     "entry": 111,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57053
+     ]
+    },
+    {
+     "line": 122,
+     "field": "text",
+     "entry": 115,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57053
+     ]
+    },
+    {
+     "line": 127,
+     "field": "text",
+     "entry": 120,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57053
+     ]
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "offset": 354,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「ヒューゴ少尉、/　あなたにＡＩ１を止めることは出来ないわ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 9,
+     "field": "text",
+     "entry": 5,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 101,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57069
+     ]
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "offset": 443,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「ヒューゴ少尉……/　あのままでいれば、苦しまずに済んだものを」",
+   "en": "",
+   "refs": [
+    {
+     "line": 10,
+     "field": "text",
+     "entry": 6,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 101,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57070
+     ]
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "offset": 538,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「ＡＩ１の素晴らしさ……/　あなたはよく理解したはずよ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 11,
+     "field": "text",
+     "entry": 7,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 101,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57071
+     ]
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "offset": 621,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「冷静に対処できるかしら、アクア」",
+   "en": "",
+   "refs": [
+    {
+     "line": 12,
+     "field": "text",
+     "entry": 8,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57072
+     ]
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "offset": 673,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「アクア、あなたの弱点を突いてあげるわ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 13,
+     "field": "text",
+     "entry": 9,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57073
+     ]
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "offset": 734,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「アクア……あなたもＡＩ１の糧となりなさい」",
+   "en": "",
+   "refs": [
+    {
+     "line": 14,
+     "field": "text",
+     "entry": 10,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57074
+     ]
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "offset": 801,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「アクア……/　あなたがどうなろうと、私は何とも思わないわ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 15,
+     "field": "text",
+     "entry": 11,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57075
+     ]
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "offset": 890,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「アクア……あなたに私の考えが読めて？」",
+   "en": "",
+   "refs": [
+    {
+     "line": 16,
+     "field": "text",
+     "entry": 12,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      56976
+     ]
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "offset": 951,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「あなたにもＡＩ１の素晴らしさを/　教えてあげるわ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 17,
+     "field": "text",
+     "entry": 13,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      56980
+     ]
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "offset": 1028,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「あなた達は、ＡＩ１を進化させるための糧よ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 18,
+     "field": "text",
+     "entry": 14,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 9049,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57062
+     ]
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "offset": 1095,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「相手が強ければ強いほど、都合がいいわ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 19,
+     "field": "text",
+     "entry": 15,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 9049,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57063
+     ]
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "offset": 1156,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「あなた達の力を、ＡＩ１に示しなさい」",
+   "en": "",
+   "refs": [
+    {
+     "line": 20,
+     "field": "text",
+     "entry": 16,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 9049,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57064
+     ]
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "offset": 1214,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「揺らぎのない制御システムこそが、/　機動兵器の性能を最大限に引き出すのよ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 21,
+     "field": "text",
+     "entry": 17,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 9049,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57065
+     ]
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "offset": 1327,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「もうその機体に用はないわ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 22,
+     "field": "text",
+     "entry": 18,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 80,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57066
+     ]
+    },
+    {
+     "line": 25,
+     "field": "text",
+     "entry": 21,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 81,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57066
+     ]
+    },
+    {
+     "line": 28,
+     "field": "text",
+     "entry": 24,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 82,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57066
+     ]
+    },
+    {
+     "line": 31,
+     "field": "text",
+     "entry": 27,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 83,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57066
+     ]
+    },
+    {
+     "line": 34,
+     "field": "text",
+     "entry": 30,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 84,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57066
+     ]
+    },
+    {
+     "line": 37,
+     "field": "text",
+     "entry": 33,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 85,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57066
+     ]
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "offset": 1370,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「ツェントル・プロジェクトは、/　新たな段階へ進むのよ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 23,
+     "field": "text",
+     "entry": 19,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 80,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57067
+     ]
+    },
+    {
+     "line": 26,
+     "field": "text",
+     "entry": 22,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 81,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57067
+     ]
+    },
+    {
+     "line": 29,
+     "field": "text",
+     "entry": 25,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 82,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57067
+     ]
+    },
+    {
+     "line": 32,
+     "field": "text",
+     "entry": 28,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 83,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57067
+     ]
+    },
+    {
+     "line": 35,
+     "field": "text",
+     "entry": 31,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 84,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57067
+     ]
+    },
+    {
+     "line": 38,
+     "field": "text",
+     "entry": 34,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 85,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57067
+     ]
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "offset": 1453,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「このガルベルスこそが、/　ＴＥアブゾーバーの完成形……/　試作機を如何に強化しようと、敵わないわ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 24,
+     "field": "text",
+     "entry": 20,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 80,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57068
+     ]
+    },
+    {
+     "line": 27,
+     "field": "text",
+     "entry": 23,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 81,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57068
+     ]
+    },
+    {
+     "line": 30,
+     "field": "text",
+     "entry": 26,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 82,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57068
+     ]
+    },
+    {
+     "line": 33,
+     "field": "text",
+     "entry": 29,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 83,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57068
+     ]
+    },
+    {
+     "line": 36,
+     "field": "text",
+     "entry": 32,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 84,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57068
+     ]
+    },
+    {
+     "line": 39,
+     "field": "text",
+     "entry": 35,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 85,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57068
+     ]
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "offset": 1600,
+   "role": "text",
+   "speakers": [
+    105
+   ],
+   "jp": "　　　",
+   "en": "",
+   "refs": [
+    {
+     "line": 42,
+     "field": "text",
+     "entry": 37,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 5,
+     "weight": 100,
+     "target": 7910,
+     "speaker": 105,
+     "face": 0,
+     "voice": [
+      0,
+      10001
+     ]
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "offset": 1610,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「ガルベルスのもう一つの姿を見せてあげるわ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 43,
+     "field": "text",
+     "entry": 37,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 5,
+     "weight": 100,
+     "target": 7910,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57058
+     ]
+    },
+    {
+     "line": 136,
+     "field": "text",
+     "entry": 129,
+     "group": [
+      3,
+      22412
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57058
+     ]
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "offset": 1677,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「さあ、ＡＩ１！　撃ち貫きなさい！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 44,
+     "field": "text",
+     "entry": 37,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 5,
+     "weight": 100,
+     "target": 7910,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57059
+     ]
+    },
+    {
+     "line": 137,
+     "field": "text",
+     "entry": 130,
+     "group": [
+      3,
+      22413
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57059
+     ]
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "offset": 1732,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「まだ彼らから学び取ることはあるようね」",
+   "en": "",
+   "refs": [
+    {
+     "line": 45,
+     "field": "text",
+     "entry": 38,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57054
+     ]
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "offset": 1793,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「ＡＩ１、あなたの力を彼らに示しなさい」",
+   "en": "",
+   "refs": [
+    {
+     "line": 46,
+     "field": "text",
+     "entry": 39,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57055
+     ]
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "offset": 1854,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「あなたが力を発揮すればするほど、/　ＡＩ１は成長する……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 48,
+     "field": "text",
+     "entry": 41,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57112
+     ]
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "offset": 1943,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「大丈夫よ、ＡＩ１……あなたなら大丈夫」",
+   "en": "",
+   "refs": [
+    {
+     "line": 49,
+     "field": "text",
+     "entry": 42,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57113
+     ]
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "offset": 2004,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「……ＡＩ１にとって、いい教訓になったわ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 50,
+     "field": "text",
+     "entry": 43,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57114
+     ]
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "offset": 2068,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「ＡＩ１……/　あなたなら、彼らを超えられる……！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 51,
+     "field": "text",
+     "entry": 44,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57115
+     ]
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "offset": 2145,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「礼を言うわ、ヒューゴ少尉。/　これで私の子はさらなる成長を遂げる……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 52,
+     "field": "text",
+     "entry": 45,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 101,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57117
+     ]
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "offset": 2252,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「思っていた以上にやるわね、アクア……！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 53,
+     "field": "text",
+     "entry": 46,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57118
+     ]
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "offset": 2316,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「それがあなたの限界よ、アクア・ケントルム」",
+   "en": "",
+   "refs": [
+    {
+     "line": 54,
+     "field": "text",
+     "entry": 47,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57119
+     ]
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "offset": 2383,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「あの子が……！/　私の予測を上回ったというの……！？」",
+   "en": "",
+   "refs": [
+    {
+     "line": 55,
+     "field": "text",
+     "entry": 48,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 104,
+     "face": 3,
+     "voice": [
+      15,
+      57005
+     ]
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "offset": 2466,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「……試作機では、それが限界のようね」",
+   "en": "",
+   "refs": [
+    {
+     "line": 56,
+     "field": "text",
+     "entry": 49,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 80,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57116
+     ]
+    },
+    {
+     "line": 57,
+     "field": "text",
+     "entry": 50,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 81,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57116
+     ]
+    },
+    {
+     "line": 58,
+     "field": "text",
+     "entry": 51,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 82,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57116
+     ]
+    },
+    {
+     "line": 59,
+     "field": "text",
+     "entry": 52,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 83,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57116
+     ]
+    },
+    {
+     "line": 60,
+     "field": "text",
+     "entry": 53,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 84,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57116
+     ]
+    },
+    {
+     "line": 61,
+     "field": "text",
+     "entry": 54,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 85,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57116
+     ]
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "offset": 2524,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「そう、持てる力をＡＩ１に示しなさい」",
+   "en": "",
+   "refs": [
+    {
+     "line": 62,
+     "field": "text",
+     "entry": 55,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57101
+     ]
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "offset": 2582,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「この程度の損傷、すぐに修復できるわ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 63,
+     "field": "text",
+     "entry": 56,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57102
+     ]
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "offset": 2640,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「それで私の子を倒そうだなんて……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 64,
+     "field": "text",
+     "entry": 57,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57103
+     ]
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "offset": 2695,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「まだ足りないわね……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 65,
+     "field": "text",
+     "entry": 58,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57104
+     ]
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "offset": 2732,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「それで終わりかしら、ヒューゴ少尉」",
+   "en": "",
+   "refs": [
+    {
+     "line": 66,
+     "field": "text",
+     "entry": 59,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 101,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57106
+     ]
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "offset": 2787,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「アクア……次はどういう手で来るつもり？」",
+   "en": "",
+   "refs": [
+    {
+     "line": 67,
+     "field": "text",
+     "entry": 60,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57000
+     ]
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "offset": 2851,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「あの子にしてはいい読みね」",
+   "en": "",
+   "refs": [
+    {
+     "line": 68,
+     "field": "text",
+     "entry": 61,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57002
+     ]
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "offset": 2894,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「試作機でガルベルスを倒すことは出来ないわ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 69,
+     "field": "text",
+     "entry": 62,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 80,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57105
+     ]
+    },
+    {
+     "line": 70,
+     "field": "text",
+     "entry": 63,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 81,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57105
+     ]
+    },
+    {
+     "line": 71,
+     "field": "text",
+     "entry": 64,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 82,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57105
+     ]
+    },
+    {
+     "line": 72,
+     "field": "text",
+     "entry": 65,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 83,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57105
+     ]
+    },
+    {
+     "line": 73,
+     "field": "text",
+     "entry": 66,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 84,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57105
+     ]
+    },
+    {
+     "line": 74,
+     "field": "text",
+     "entry": 67,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 85,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57105
+     ]
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "offset": 2961,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「学びなさい、ＡＩ１」",
+   "en": "",
+   "refs": [
+    {
+     "line": 75,
+     "field": "text",
+     "entry": 68,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57089
+     ]
+    },
+    {
+     "line": 94,
+     "field": "text",
+     "entry": 87,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57089
+     ]
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "offset": 2995,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「その力がＡＩ１をさらに成長させる……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 76,
+     "field": "text",
+     "entry": 69,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57090
+     ]
+    },
+    {
+     "line": 95,
+     "field": "text",
+     "entry": 88,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57090
+     ]
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "offset": 3056,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「やはり、彼らは最適な学習対象ね」",
+   "en": "",
+   "refs": [
+    {
+     "line": 77,
+     "field": "text",
+     "entry": 70,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57091
+     ]
+    },
+    {
+     "line": 96,
+     "field": "text",
+     "entry": 89,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57091
+     ]
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "offset": 3108,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「今の攻撃から学び得ることは、/　あまりなさそうね」",
+   "en": "",
+   "refs": [
+    {
+     "line": 78,
+     "field": "text",
+     "entry": 71,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 1,
+     "voice": [
+      15,
+      57092
+     ]
+    },
+    {
+     "line": 97,
+     "field": "text",
+     "entry": 90,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 1,
+     "voice": [
+      15,
+      57092
+     ]
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "offset": 3185,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「戻って来てもいいのよ、ヒューゴ少尉」",
+   "en": "",
+   "refs": [
+    {
+     "line": 79,
+     "field": "text",
+     "entry": 72,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 101,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57094
+     ]
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "offset": 3243,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「まだ迷いがあるのかしら、アクア？」",
+   "en": "",
+   "refs": [
+    {
+     "line": 80,
+     "field": "text",
+     "entry": 73,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57095
+     ]
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "offset": 3298,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「少しは頭をひねったようね、アクア」",
+   "en": "",
+   "refs": [
+    {
+     "line": 81,
+     "field": "text",
+     "entry": 74,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      56995
+     ]
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "offset": 3353,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「所詮は試作機……非力ね」",
+   "en": "",
+   "refs": [
+    {
+     "line": 82,
+     "field": "text",
+     "entry": 75,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 80,
+     "speaker": 104,
+     "face": 1,
+     "voice": [
+      15,
+      57093
+     ]
+    },
+    {
+     "line": 83,
+     "field": "text",
+     "entry": 76,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 81,
+     "speaker": 104,
+     "face": 1,
+     "voice": [
+      15,
+      57093
+     ]
+    },
+    {
+     "line": 84,
+     "field": "text",
+     "entry": 77,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 82,
+     "speaker": 104,
+     "face": 1,
+     "voice": [
+      15,
+      57093
+     ]
+    },
+    {
+     "line": 85,
+     "field": "text",
+     "entry": 78,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 83,
+     "speaker": 104,
+     "face": 1,
+     "voice": [
+      15,
+      57093
+     ]
+    },
+    {
+     "line": 86,
+     "field": "text",
+     "entry": 79,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 84,
+     "speaker": 104,
+     "face": 1,
+     "voice": [
+      15,
+      57093
+     ]
+    },
+    {
+     "line": 87,
+     "field": "text",
+     "entry": 80,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 85,
+     "speaker": 104,
+     "face": 1,
+     "voice": [
+      15,
+      57093
+     ]
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "offset": 3393,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「あなた達の能力は、/　その程度ではないでしょう？」",
+   "en": "",
+   "refs": [
+    {
+     "line": 88,
+     "field": "text",
+     "entry": 81,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57084
+     ]
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "offset": 3470,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「あなたは勝てない……私にも、ＡＩ１にも」",
+   "en": "",
+   "refs": [
+    {
+     "line": 89,
+     "field": "text",
+     "entry": 82,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      56990
+     ]
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "offset": 3534,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「よくやったわ、ＡＩ１」",
+   "en": "",
+   "refs": [
+    {
+     "line": 90,
+     "field": "text",
+     "entry": 83,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57081
+     ]
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "offset": 3571,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「当然の結果ね」",
+   "en": "",
+   "refs": [
+    {
+     "line": 91,
+     "field": "text",
+     "entry": 84,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57082
+     ]
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "offset": 3596,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「もっと他の手を見せてちょうだい」",
+   "en": "",
+   "refs": [
+    {
+     "line": 92,
+     "field": "text",
+     "entry": 85,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57083
+     ]
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "offset": 3648,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「アクア……もう少し優秀だと思っていたけど」",
+   "en": "",
+   "refs": [
+    {
+     "line": 93,
+     "field": "text",
+     "entry": 86,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57085
+     ]
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "offset": 3715,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「そんなもの、通用しないわ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 98,
+     "field": "text",
+     "entry": 91,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57086
+     ]
+    },
+    {
+     "line": 101,
+     "field": "text",
+     "entry": 94,
+     "group": [
+      0,
+      10
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57086
+     ]
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "offset": 3758,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「フフフ、無駄よ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 99,
+     "field": "text",
+     "entry": 92,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57087
+     ]
+    },
+    {
+     "line": 102,
+     "field": "text",
+     "entry": 95,
+     "group": [
+      0,
+      10
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57087
+     ]
+    },
+    {
+     "line": 104,
+     "field": "text",
+     "entry": 97,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57087
+     ]
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "offset": 3786,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「甘く見られたものね」",
+   "en": "",
+   "refs": [
+    {
+     "line": 100,
+     "field": "text",
+     "entry": 93,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57088
+     ]
+    },
+    {
+     "line": 103,
+     "field": "text",
+     "entry": 96,
+     "group": [
+      0,
+      10
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57088
+     ]
+    },
+    {
+     "line": 105,
+     "field": "text",
+     "entry": 98,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57088
+     ]
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "offset": 3820,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「攻めるばかりが能ではないわ、ＡＩ１」",
+   "en": "",
+   "refs": [
+    {
+     "line": 107,
+     "field": "text",
+     "entry": 100,
+     "group": [
+      0,
+      13
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57077
+     ]
+    },
+    {
+     "line": 111,
+     "field": "text",
+     "entry": 104,
+     "group": [
+      0,
+      15
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57077
+     ]
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "offset": 3878,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「この状況もまた、/　ＡＩ１を成長させることになる……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 108,
+     "field": "text",
+     "entry": 101,
+     "group": [
+      0,
+      13
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57078
+     ]
+    },
+    {
+     "line": 112,
+     "field": "text",
+     "entry": 105,
+     "group": [
+      0,
+      15
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57078
+     ]
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "offset": 3961,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「逃げ足が速いわね」",
+   "en": "",
+   "refs": [
+    {
+     "line": 109,
+     "field": "text",
+     "entry": 102,
+     "group": [
+      0,
+      14
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57079
+     ]
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "offset": 3992,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「どこへ行こうと逃げられないわよ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 110,
+     "field": "text",
+     "entry": 103,
+     "group": [
+      0,
+      14
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57080
+     ]
+    }
+   ]
+  },
+  {
+   "id": 65,
+   "offset": 4044,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「ＡＩ１からは逃げられないわ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 113,
+     "field": "text",
+     "entry": 106,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57056
+     ]
+    },
+    {
+     "line": 123,
+     "field": "text",
+     "entry": 116,
+     "group": [
+      0,
+      20
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 0,
+     "voice": [
+      15,
+      57056
+     ]
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "offset": 4090,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「あなた達の思い通りにはいかないわ」",
+   "en": "",
+   "refs": [
+    {
+     "line": 114,
+     "field": "text",
+     "entry": 107,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 1,
+     "voice": [
+      15,
+      57076
+     ]
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "offset": 4145,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「私の子が、/　ガルベルスがあなたを噛み砕く……！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 138,
+     "field": "text",
+     "entry": 131,
+     "group": [
+      3,
+      22422
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57060
+     ]
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "offset": 4222,
+   "role": "text",
+   "speakers": [
+    104
+   ],
+   "jp": "「さあ、ＡＩ１！　とどめを！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 140,
+     "field": "text",
+     "entry": 132,
+     "group": [
+      3,
+      22423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 104,
+     "face": 7,
+     "voice": [
+      15,
+      57061
+     ]
+    }
+   ]
+  }
+ ]
+}

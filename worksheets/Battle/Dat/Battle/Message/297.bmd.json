@@ -1,0 +1,1764 @@
+{
+ "file": "297.bmd",
+ "format": "BMD",
+ "counts": {
+  "groups": 25,
+  "entries": 68,
+  "lines": 70,
+  "strings": 41
+ },
+ "strings": [
+  {
+   "id": 0,
+   "offset": 0,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「さあ、ＡＩ１！/　世界をあなたの物にするのよ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 0,
+     "field": "text",
+     "entry": 0,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57009
+     ]
+    },
+    {
+     "line": 45,
+     "field": "text",
+     "entry": 45,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57009
+     ]
+    },
+    {
+     "line": 49,
+     "field": "text",
+     "entry": 49,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57009
+     ]
+    },
+    {
+     "line": 54,
+     "field": "text",
+     "entry": 54,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57009
+     ]
+    },
+    {
+     "line": 56,
+     "field": "text",
+     "entry": 56,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57009
+     ]
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "offset": 77,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「私はどうなろうと構わない！/　ＡＩ１が生み出す結果を知りたいだけ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 1,
+     "field": "text",
+     "entry": 1,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57011
+     ]
+    },
+    {
+     "line": 46,
+     "field": "text",
+     "entry": 46,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57011
+     ]
+    },
+    {
+     "line": 50,
+     "field": "text",
+     "entry": 50,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57011
+     ]
+    },
+    {
+     "line": 55,
+     "field": "text",
+     "entry": 55,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57011
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "offset": 181,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「もうあきらめなさい！/　世界は一つになるのよ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 2,
+     "field": "text",
+     "entry": 2,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57012
+     ]
+    },
+    {
+     "line": 47,
+     "field": "text",
+     "entry": 47,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57012
+     ]
+    },
+    {
+     "line": 51,
+     "field": "text",
+     "entry": 51,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57012
+     ]
+    },
+    {
+     "line": 57,
+     "field": "text",
+     "entry": 57,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57012
+     ]
+    },
+    {
+     "line": 59,
+     "field": "text",
+     "entry": 59,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57012
+     ]
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "offset": 258,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「私にとってはＡＩ１が全て！/　他には何もいらないわ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 3,
+     "field": "text",
+     "entry": 3,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57016
+     ]
+    },
+    {
+     "line": 48,
+     "field": "text",
+     "entry": 48,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57016
+     ]
+    },
+    {
+     "line": 52,
+     "field": "text",
+     "entry": 52,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57016
+     ]
+    },
+    {
+     "line": 58,
+     "field": "text",
+     "entry": 58,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57016
+     ]
+    },
+    {
+     "line": 60,
+     "field": "text",
+     "entry": 60,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57016
+     ]
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "offset": 344,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「アクア！　あなたも溶かしてあげるわ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 4,
+     "field": "text",
+     "entry": 4,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57026
+     ]
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "offset": 405,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「私は最初からこういう女なのよ！/　あなたが勘違いをしてただけ！/　フフ……アハハハハハ……！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 5,
+     "field": "text",
+     "entry": 5,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57027
+     ]
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "offset": 549,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「あなたの安っぽい正義はもう充分！/　そんなものが不要な世界を見せてあげるわ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 6,
+     "field": "text",
+     "entry": 6,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57028
+     ]
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "offset": 671,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「アハハハ！　アーッハッハッハ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 7,
+     "field": "text",
+     "entry": 7,
+     "group": [
+      0,
+      2
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57129
+     ]
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "offset": 726,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「どうせ消えるのよ、あなた達も、私も！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 8,
+     "field": "text",
+     "entry": 8,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57120
+     ]
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "offset": 790,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「いいわ、好きになさい！/　もう終わりなんだから！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 9,
+     "field": "text",
+     "entry": 9,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57121
+     ]
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "offset": 870,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「そうよ、ＡＩ１！　それでいいのよ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 10,
+     "field": "text",
+     "entry": 10,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57122
+     ]
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "offset": 928,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「あああ、気持ちいい！　素晴らしいわ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 11,
+     "field": "text",
+     "entry": 11,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57123
+     ]
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "offset": 992,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「ああ、ＡＩ１！　ＡＩ１、いいわよ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 12,
+     "field": "text",
+     "entry": 12,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57124
+     ]
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "offset": 1053,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「アクア！/　もう何だっていいのよ！　アハハハ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 13,
+     "field": "text",
+     "entry": 13,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57125
+     ]
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "offset": 1130,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「一つに！　全てを一つに！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 14,
+     "field": "text",
+     "entry": 14,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57107
+     ]
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "offset": 1176,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「見える、見えるわ！　素晴らしい世界が！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 15,
+     "field": "text",
+     "entry": 15,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57108
+     ]
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "offset": 1240,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「消えるのよ、全てが！　全てが一つに！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 16,
+     "field": "text",
+     "entry": 16,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57109
+     ]
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "offset": 1304,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「あなた達は、/　いつまでつまらないことに拘るの！？」",
+   "en": "",
+   "refs": [
+    {
+     "line": 17,
+     "field": "text",
+     "entry": 17,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 16,
+     "voice": [
+      15,
+      57110
+     ]
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "offset": 1384,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「アクア！/　あなた、馬鹿ね！　本当に馬鹿！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 18,
+     "field": "text",
+     "entry": 18,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57111
+     ]
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "offset": 1455,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「無駄！　無駄よ、そんなもの！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 19,
+     "field": "text",
+     "entry": 19,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57096
+     ]
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "offset": 1507,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「何をしても、もう遅いのよ！　アハハハ！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 20,
+     "field": "text",
+     "entry": 20,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57097
+     ]
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "offset": 1571,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「いいわ、ＡＩ１！　あなたは最高よ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 21,
+     "field": "text",
+     "entry": 21,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57098
+     ]
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "offset": 1632,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「諦めなさい！　諦めるのよ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 22,
+     "field": "text",
+     "entry": 22,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 16,
+     "voice": [
+      15,
+      57099
+     ]
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "offset": 1681,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「アクア！/　あなたなんて、どうでもいいのよ！/　どうでも！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 23,
+     "field": "text",
+     "entry": 23,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57100
+     ]
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "offset": 1774,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「無駄よ、無駄無駄！/　あなた達の手の内はわかっているもの！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 24,
+     "field": "text",
+     "entry": 24,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57035
+     ]
+    },
+    {
+     "line": 25,
+     "field": "text",
+     "entry": 25,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57035
+     ]
+    },
+    {
+     "line": 27,
+     "field": "text",
+     "entry": 27,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57035
+     ]
+    },
+    {
+     "line": 28,
+     "field": "text",
+     "entry": 28,
+     "group": [
+      0,
+      10
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57035
+     ]
+    },
+    {
+     "line": 29,
+     "field": "text",
+     "entry": 29,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57035
+     ]
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "offset": 1869,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「ウフフフ、ＡＩ１と遊んでくれるの？/　フフフ、悪いわねぇ……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 26,
+     "field": "text",
+     "entry": 26,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57036
+     ]
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "offset": 1964,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「………」",
+   "en": "",
+   "refs": [
+    {
+     "line": 30,
+     "field": "text",
+     "entry": 30,
+     "group": [
+      0,
+      12
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 0,
+     "voice": [
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "offset": 1980,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「どのみち、/　ＡＩ１からは逃げられないわよ……！？」",
+   "en": "",
+   "refs": [
+    {
+     "line": 31,
+     "field": "text",
+     "entry": 31,
+     "group": [
+      0,
+      13
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57031
+     ]
+    },
+    {
+     "line": 35,
+     "field": "text",
+     "entry": 35,
+     "group": [
+      0,
+      14
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57031
+     ]
+    },
+    {
+     "line": 39,
+     "field": "text",
+     "entry": 39,
+     "group": [
+      0,
+      15
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57031
+     ]
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "offset": 2060,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「フフフフ……いいわ、/　少しの間だけ見逃してあげる……！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 32,
+     "field": "text",
+     "entry": 32,
+     "group": [
+      0,
+      13
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57032
+     ]
+    },
+    {
+     "line": 36,
+     "field": "text",
+     "entry": 36,
+     "group": [
+      0,
+      14
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57032
+     ]
+    },
+    {
+     "line": 40,
+     "field": "text",
+     "entry": 40,
+     "group": [
+      0,
+      15
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57032
+     ]
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "offset": 2149,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「ウフフ……怖いの？/　消えてしまうのが……」",
+   "en": "",
+   "refs": [
+    {
+     "line": 33,
+     "field": "text",
+     "entry": 33,
+     "group": [
+      0,
+      13
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57033
+     ]
+    },
+    {
+     "line": 37,
+     "field": "text",
+     "entry": 37,
+     "group": [
+      0,
+      14
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57033
+     ]
+    },
+    {
+     "line": 41,
+     "field": "text",
+     "entry": 41,
+     "group": [
+      0,
+      15
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57033
+     ]
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "offset": 2217,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「気にすることはないわよ、ＡＩ１……！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 34,
+     "field": "text",
+     "entry": 34,
+     "group": [
+      0,
+      13
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57034
+     ]
+    },
+    {
+     "line": 38,
+     "field": "text",
+     "entry": 38,
+     "group": [
+      0,
+      14
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57034
+     ]
+    },
+    {
+     "line": 42,
+     "field": "text",
+     "entry": 42,
+     "group": [
+      0,
+      15
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57034
+     ]
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "offset": 2278,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「ウフフフ……アハハハ……ハハハハハ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 43,
+     "field": "text",
+     "entry": 43,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57025
+     ]
+    },
+    {
+     "line": 44,
+     "field": "text",
+     "entry": 44,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57025
+     ]
+    },
+    {
+     "line": 53,
+     "field": "text",
+     "entry": 53,
+     "group": [
+      0,
+      20
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57025
+     ]
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "offset": 2342,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「予測はいらない！/　私は結果が見たいだけ！　アハハハ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 61,
+     "field": "text",
+     "entry": 61,
+     "group": [
+      1,
+      20475
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57010
+     ]
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "offset": 2431,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「止められると思わないで！/　ＡＩ１を……この私を！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 62,
+     "field": "text",
+     "entry": 62,
+     "group": [
+      1,
+      20475
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57015
+     ]
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "offset": 2514,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「終わらせてやるわ！/　あなた達も、そして私自身も…！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 63,
+     "field": "text",
+     "entry": 63,
+     "group": [
+      1,
+      20484
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57018
+     ]
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "offset": 2597,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「神も人もいらない！/　ＡＩ１だけがあればいいのよ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 64,
+     "field": "text",
+     "entry": 64,
+     "group": [
+      1,
+      20484
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57022
+     ]
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "offset": 2680,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「神でもない、人でもない、兵器でもない！/　私の可愛い子が、全てを裁くのよ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 65,
+     "field": "text",
+     "entry": 65,
+     "group": [
+      1,
+      20484
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57024
+     ]
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "offset": 2799,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「さあ、あなた達も/　ＡＩ１と一つになりなさい…！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 66,
+     "field": "text",
+     "entry": 66,
+     "group": [
+      1,
+      20485
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57023
+     ]
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "offset": 2876,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「お別れを言いなさい…！/　あなたを取り巻く全ての物にねぇ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 67,
+     "field": "text",
+     "entry": 66,
+     "group": [
+      1,
+      20485
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57019
+     ]
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "offset": 2971,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「ハハハハ……アハハハハ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 68,
+     "field": "text",
+     "entry": 66,
+     "group": [
+      1,
+      20485
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57017
+     ]
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "offset": 3017,
+   "role": "text",
+   "speakers": [
+    297
+   ],
+   "jp": "「消えろ、消えろ！/　みんな消えてしまえ！！」",
+   "en": "",
+   "refs": [
+    {
+     "line": 69,
+     "field": "text",
+     "entry": 67,
+     "group": [
+      1,
+      20494
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 297,
+     "face": 18,
+     "voice": [
+      15,
+      57020
+     ]
+    }
+   ]
+  }
+ ]
+}

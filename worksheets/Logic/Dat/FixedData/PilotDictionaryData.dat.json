@@ -1,0 +1,5049 @@
+{
+ "file": "PilotDictionaryData.dat",
+ "format": "FIXH 1.0 big-endian",
+ "sections": [
+  {
+   "magic": "DOFS",
+   "header_offset": 16,
+   "payload_offset": 24,
+   "size": 788,
+   "count": null
+  },
+  {
+   "magic": "DATA",
+   "header_offset": 812,
+   "payload_offset": 824,
+   "size": 788,
+   "count": 197
+  },
+  {
+   "magic": "SOFS",
+   "header_offset": 1612,
+   "payload_offset": 1620,
+   "size": 712,
+   "count": null
+  },
+  {
+   "magic": "STRI",
+   "header_offset": 2332,
+   "payload_offset": 2344,
+   "size": 60164,
+   "count": 178
+  }
+ ],
+ "records": {
+  "count": 197,
+  "size": 4
+ },
+ "dofs": {
+  "entries": 197,
+  "unused_ids": 0
+ },
+ "string_fields": [
+  {
+   "offset": 2,
+   "width": 1,
+   "label": "text",
+   "kind": "display"
+  }
+ ],
+ "notes": [
+  "Edit 'text' (single-line entries) or 'lines' (multi-line entries / entries with embedded newlines).",
+  "Do not add or remove entries: records reference strings by index.",
+  "role: display = shown in game; comment = developer note (never displayed, safe to leave untranslated); internal = identifier/path; orphan = referenced by no record; unknown = not established."
+ ],
+ "strings": [
+  {
+   "id": 0,
+   "section": "STRI",
+   "offset": 2344,
+   "text_offset": 2350,
+   "role": "display",
+   "refs": [
+    "rec0.text",
+    "rec27.text",
+    "rec82.text",
+    "rec83.text",
+    "rec110.text",
+    "rec114.text",
+    "rec115.text",
+    "rec120.text",
+    "rec155.text",
+    "rec161.text",
+    "rec162.text",
+    "rec167.text",
+    "rec169.text",
+    "rec170.text",
+    "rec171.text",
+    "rec172.text",
+    "rec173.text",
+    "rec174.text"
+   ],
+   "orig_chars": [
+    0
+   ],
+   "orig_bytes": 1,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": ""
+  },
+  {
+   "id": 1,
+   "section": "STRI",
+   "offset": 2351,
+   "text_offset": 2377,
+   "role": "display",
+   "refs": [
+    "rec1.text"
+   ],
+   "orig_chars": [
+    20,
+    27,
+    5,
+    30,
+    28,
+    20
+   ],
+   "orig_bytes": 384,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　風の<魔装機神>、サイバスターの操者。",
+    "　直情径行型で正義感が強く、スポーツ万能。だが、極度の",
+    "方向音痴。",
+    "　日本人であるが、地底世界<ラ・ギアス>の神聖ラングラン王国",
+    "へ召喚され、王国内で予言された魔神による災厄を阻止すべく",
+    "<魔装機神>サイバスターの操者となった。"
+   ]
+  },
+  {
+   "id": 2,
+   "section": "STRI",
+   "offset": 2761,
+   "text_offset": 2783,
+   "role": "display",
+   "refs": [
+    "rec2.text"
+   ],
+   "orig_chars": [
+    21,
+    28,
+    28,
+    27,
+    3
+   ],
+   "orig_bytes": 322,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＤＣ>総帥ビアン・ゾルダークの一人娘。",
+    "　超人的な運動神経、反射神経、動体視力の持ち主。美人では",
+    "あるが、お転婆のジャジャ馬娘。おだてやお世辞に弱い。日本",
+    "製の時代劇マニアで、少しマイナー系がお気に入り。趣味は",
+    "貯金。"
+   ]
+  },
+  {
+   "id": 3,
+   "section": "STRI",
+   "offset": 3105,
+   "text_offset": 3123,
+   "role": "display",
+   "refs": [
+    "rec3.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    28,
+    14
+   ],
+   "orig_bytes": 300,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<魔装機神>グランヴェールの操者。元体育教師。故事成語マニ",
+    "アで、すぐに古典から言葉を引用する癖があり、少々ナルシス",
+    "ト。また、傲岸不遜な所がある。格闘能力に優れ、中国拳法、",
+    "特に北派少林拳を得意とする。"
+   ]
+  },
+  {
+   "id": 4,
+   "section": "STRI",
+   "offset": 3423,
+   "text_offset": 3437,
+   "role": "display",
+   "refs": [
+    "rec4.text"
+   ],
+   "orig_chars": [
+    30,
+    27,
+    19
+   ],
+   "orig_bytes": 227,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<魔装機神>ガッデスの操者。涙もろく、素直。ただし、表情や",
+    "態度にはほとんど現われない。芯が強く、しっかりとした女",
+    "性。異常な程の甘党。特技はスキーと車。"
+   ]
+  },
+  {
+   "id": 5,
+   "section": "STRI",
+   "offset": 3664,
+   "text_offset": 3686,
+   "role": "display",
+   "refs": [
+    "rec5.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    15
+   ],
+   "orig_bytes": 386,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　地上世界から召喚された少女。一見、いくらか年下に見られ",
+    "る程度のごく普通の女の子だが、精神年齢は意外と高い。もっ",
+    "とも、普段はおちゃらけていることが多いので、その片鱗を見",
+    "せる機会はあまりない。合気道の達人で、気を操るのが得意。",
+    "幾分自意識過剰気味な所がある。"
+   ]
+  },
+  {
+   "id": 6,
+   "section": "STRI",
+   "offset": 4072,
+   "text_offset": 4102,
+   "role": "display",
+   "refs": [
+    "rec6.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    28,
+    28,
+    28,
+    28,
+    4
+   ],
+   "orig_bytes": 520,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　マサキを預かった神聖ラングラン王国の剣術師範ゼオルー",
+    "ト・ザン・ゼノサキスの一人娘で、出会った当初から彼を兄の",
+    "様に慕っていた。後にマサキがゼオルートの養子になった際、",
+    "正式に義妹となる。年の割にしっかりしており、魔力もなかな",
+    "かのもの。ゼオルートの剣は身近で見ており、無意識に刻み込",
+    "まれている。料理が得意で、マサキから聞き出した日本料理が",
+    "十八番。"
+   ]
+  },
+  {
+   "id": 7,
+   "section": "STRI",
+   "offset": 4622,
+   "text_offset": 4636,
+   "role": "display",
+   "refs": [
+    "rec7.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    25
+   ],
+   "orig_bytes": 248,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<魔装機>ジャオームの操者。元オリンピック水泳のゴールド・",
+    "メダリスト。性格は生真面目で融通が利かない。寡黙で頑固、",
+    "気難しいが、一旦打ち解けると気さくな面を覗かせる。"
+   ]
+  },
+  {
+   "id": 8,
+   "section": "STRI",
+   "offset": 4884,
+   "text_offset": 4902,
+   "role": "display",
+   "refs": [
+    "rec8.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    14
+   ],
+   "orig_bytes": 298,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　神聖ラングラン王国第一王位継承者。王位継承者として必要",
+    "なだけの魔力を満たしていなかった彼は、努力によってそれを",
+    "克服し、見事第一王位継承者の地位を勝ち取った。正義感と使",
+    "命感にあふれた人格者である。"
+   ]
+  },
+  {
+   "id": 9,
+   "section": "STRI",
+   "offset": 5200,
+   "text_offset": 5222,
+   "role": "display",
+   "refs": [
+    "rec9.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    30,
+    27
+   ],
+   "orig_bytes": 424,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　神聖ラングラン王国の王女。しかし、魔力テストに合格しな",
+    "かったため王位継承権は持っていない。そのためか王族であり",
+    "ながら、気さくな性格でマサキ達とも友人感覚で接する。自他",
+    "共に認めるメカフェチで、<魔装機>やコンピュータの設計もこな",
+    "し、新しい技術やメカを前にすると我を忘れて夢中になる。"
+   ]
+  },
+  {
+   "id": 10,
+   "section": "STRI",
+   "offset": 5646,
+   "text_offset": 5672,
+   "role": "display",
+   "refs": [
+    "rec10.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    28,
+    15
+   ],
+   "orig_bytes": 471,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　神聖ラングラン王国の王女で、セニアの双子の妹。セニアと",
+    "異なり未来見として高い魔力を持ち、王位継承権第二位の立場",
+    "にある。性格は良く言えばおっとり、悪く言えば少々抜けた所",
+    "があり、その優美な容貌と合わせて浮世離れした雰囲気を持っ",
+    "ている。その最大の特徴は微妙に文法の崩れた喋り方にあり、",
+    "周囲の人間の脱力を買っている。"
+   ]
+  },
+  {
+   "id": 11,
+   "section": "STRI",
+   "offset": 6143,
+   "text_offset": 6153,
+   "role": "display",
+   "refs": [
+    "rec11.text"
+   ],
+   "orig_chars": [
+    28,
+    28
+   ],
+   "orig_bytes": 170,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　神聖ラングラン王国第三王位継承者。前国王、アルザール・",
+    "グラン・ビルセイアの庶子。典型的な無感動、無気力の青年。"
+   ]
+  },
+  {
+   "id": 12,
+   "section": "STRI",
+   "offset": 6323,
+   "text_offset": 6353,
+   "role": "display",
+   "refs": [
+    "rec12.text"
+   ],
+   "orig_chars": [
+    22,
+    28,
+    28,
+    10,
+    30,
+    28,
+    15
+   ],
+   "orig_bytes": 486,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　若くして十指に及ぶ博士号を持つ天才科学者。",
+    "　影のあるクールな二枚目で沈着冷静、さらに途方もない自信",
+    "家。他人に利用されることを極度に嫌い、また自分を利用した",
+    "者を決して許さない。",
+    "　<ＥＯＴＩ機関>のビアン・ゾルダーク博士の下でグランゾンの",
+    "基本設計、特殊装備を担当し、自らテストパイロットも兼ねて",
+    "いる。その正体、過去共に不明。"
+   ]
+  },
+  {
+   "id": 13,
+   "section": "STRI",
+   "offset": 6839,
+   "text_offset": 6857,
+   "role": "display",
+   "refs": [
+    "rec13.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    2
+   ],
+   "orig_bytes": 262,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シュウの部下で、「紅蓮のサフィーネ」とも呼ばれる。見た",
+    "目は妖艶な美女であるが、数多くの倒錯した趣味を持つ。シュ",
+    "ウにその身も心も捧げるつもりだが、シュウの態度はそっけな",
+    "い。"
+   ]
+  },
+  {
+   "id": 14,
+   "section": "STRI",
+   "offset": 7119,
+   "text_offset": 7133,
+   "role": "display",
+   "refs": [
+    "rec14.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    6
+   ],
+   "orig_bytes": 189,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ラングラン軍ルザック州軍国境警備隊の隊長。階級は中尉。",
+    "丁寧な物腰の人物。マサキの師匠、ゼオルートは士官学校の先",
+    "輩にあたる。"
+   ]
+  },
+  {
+   "id": 15,
+   "section": "STRI",
+   "offset": 7322,
+   "text_offset": 7340,
+   "role": "display",
+   "refs": [
+    "rec15.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    28,
+    8
+   ],
+   "orig_bytes": 282,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　砂漠育ちの地上人。<魔装機>ソルガディの操者。戦いの中にし",
+    "か自分の生き場所を見出せない男だが、彼は彼のやり方で平穏",
+    "を求めている。情報収集能力に長けており、そのために単独で",
+    "動くこともある。"
+   ]
+  },
+  {
+   "id": 16,
+   "section": "STRI",
+   "offset": 7622,
+   "text_offset": 7636,
+   "role": "display",
+   "refs": [
+    "rec16.text"
+   ],
+   "orig_chars": [
+    29,
+    29,
+    24
+   ],
+   "orig_bytes": 245,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シュテドニアスの軍人。戦闘時は男勝りだが、いったん<魔装",
+    "機>を降りると非常に消極的になる。普段は人見知りが激しく、",
+    "対人赤面症でもある。ロドニーに好意を抱いている。"
+   ]
+  },
+  {
+   "id": 17,
+   "section": "STRI",
+   "offset": 7881,
+   "text_offset": 7899,
+   "role": "display",
+   "refs": [
+    "rec17.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    3
+   ],
+   "orig_bytes": 265,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　神聖ラングラン王国の軍人。以前は凡庸で、家柄のみで将軍",
+    "になった人物と思われていたが、戦乱の中で、自軍の損傷を最",
+    "小限に抑え、その頭角をあらわす。勇猛だが、堅実な用兵もこ",
+    "なす。"
+   ]
+  },
+  {
+   "id": 18,
+   "section": "STRI",
+   "offset": 8164,
+   "text_offset": 8178,
+   "role": "display",
+   "refs": [
+    "rec18.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    17
+   ],
+   "orig_bytes": 222,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　カークスの長男で、神聖ラングラン王国の軍人。真面目で人",
+    "当たりのいい人物だが、普段は少々気が弱い。リューネに一目",
+    "惚れをしてしまう。通称はザッシュ。"
+   ]
+  },
+  {
+   "id": 19,
+   "section": "STRI",
+   "offset": 8400,
+   "text_offset": 8422,
+   "role": "display",
+   "refs": [
+    "rec19.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    21
+   ],
+   "orig_bytes": 404,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シュテドニアスの軍人。手柄と失敗を繰り返すため、階級が",
+    "上がったり下がったりを繰り返している（ただし、同じ失敗は",
+    "二度していない）。一見かなりのお調子もののようだが、実際",
+    "はしたたかな人物である。１０歳頃までラングランのトロイア",
+    "州で暮らしていたため、トロイア訛りで喋る。"
+   ]
+  },
+  {
+   "id": 20,
+   "section": "STRI",
+   "offset": 8826,
+   "text_offset": 8836,
+   "role": "display",
+   "refs": [
+    "rec20.text"
+   ],
+   "orig_chars": [
+    30,
+    26
+   ],
+   "orig_bytes": 166,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ソラティス神殿のコンピュータ、<ＲＥＢ>に取り憑いた疑似人",
+    "格。意志を持ったコンピュータ・ウィルスのようなもの。"
+   ]
+  },
+  {
+   "id": 21,
+   "section": "STRI",
+   "offset": 9002,
+   "text_offset": 9020,
+   "role": "display",
+   "refs": [
+    "rec21.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    12
+   ],
+   "orig_bytes": 292,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シュテドニアス軍の特殊工作小隊の隊長。階級は少佐。小隊",
+    "長なのに階級が少佐なのは、彼の小隊が重要な任務をこなすこ",
+    "とが多く、エキスパートの集まりだからである。プロ意識が強",
+    "く、根っからの職業軍人。"
+   ]
+  },
+  {
+   "id": 22,
+   "section": "STRI",
+   "offset": 9312,
+   "text_offset": 9330,
+   "role": "display",
+   "refs": [
+    "rec22.text"
+   ],
+   "orig_chars": [
+    28,
+    30,
+    30,
+    11
+   ],
+   "orig_bytes": 293,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　フェイル軍の将軍の一人。防御戦で粘りを発揮することに定",
+    "評がある。若い頃は<魔装機>の設計技師を目指していたこともあ",
+    "り、<魔装機>の構造にも詳しく、愛機のブローウェルを金に糸目",
+    "をつけず改造している。"
+   ]
+  },
+  {
+   "id": 23,
+   "section": "STRI",
+   "offset": 9623,
+   "text_offset": 9633,
+   "role": "display",
+   "refs": [
+    "rec23.text"
+   ],
+   "orig_chars": [
+    28,
+    11
+   ],
+   "orig_bytes": 119,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シュテドニアス軍の士官。ラングランへの駐在武官としての",
+    "経歴もあり、顔が広い。"
+   ]
+  },
+  {
+   "id": 24,
+   "section": "STRI",
+   "offset": 9752,
+   "text_offset": 9778,
+   "role": "display",
+   "refs": [
+    "rec24.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    28,
+    4
+   ],
+   "orig_bytes": 438,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　元シュテドニアス守備隊隊長。山賊（本人達はゲリラと言っ",
+    "ている）の親玉。妻がラングラン出身であったため、あらぬ疑",
+    "いをかけられ、軍を脱走する。その後、妻が病死したと聞き、",
+    "ヤケになってラングランで山賊となる。元々は教養人であった",
+    "が、山賊としてなめられないように、わざと乱暴な口調を使っ",
+    "ていた。"
+   ]
+  },
+  {
+   "id": 25,
+   "section": "STRI",
+   "offset": 10216,
+   "text_offset": 10226,
+   "role": "display",
+   "refs": [
+    "rec25.text"
+   ],
+   "orig_chars": [
+    28,
+    26
+   ],
+   "orig_bytes": 164,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シュテドニアスの軍人。戦術指揮は堅実で、教本通りの戦い",
+    "方をする。性格も律儀で、やや融通の利かない面がある。"
+   ]
+  },
+  {
+   "id": 26,
+   "section": "STRI",
+   "offset": 10390,
+   "text_offset": 10400,
+   "role": "display",
+   "refs": [
+    "rec26.text"
+   ],
+   "orig_chars": [
+    27,
+    18
+   ],
+   "orig_bytes": 137,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シュテドニアスの軍人。命令には忠実だが、独自の裁量が",
+    "なかなか下せず、功績を挙げられない。"
+   ]
+  },
+  {
+   "id": 27,
+   "section": "STRI",
+   "offset": 10537,
+   "text_offset": 10551,
+   "role": "display",
+   "refs": [
+    "rec28.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    14
+   ],
+   "orig_bytes": 213,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シュテドニアス軍特殊工作隊の一員。任務のためであれば、",
+    "悪にも徹しきれるタイプ。軍人は、命令に絶対忠実でなければ",
+    "ならないと頑なに信じている。"
+   ]
+  },
+  {
+   "id": 28,
+   "section": "STRI",
+   "offset": 10764,
+   "text_offset": 10774,
+   "role": "display",
+   "refs": [
+    "rec29.text"
+   ],
+   "orig_chars": [
+    28,
+    10
+   ],
+   "orig_bytes": 116,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　カークス軍の軍人。ラテルに対して、上官に対する尊敬以上",
+    "の感情を抱いている。"
+   ]
+  },
+  {
+   "id": 29,
+   "section": "STRI",
+   "offset": 10890,
+   "text_offset": 10900,
+   "role": "display",
+   "refs": [
+    "rec30.text"
+   ],
+   "orig_chars": [
+    28,
+    16
+   ],
+   "orig_bytes": 134,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　カークス軍の軍人。ずけずけとものを言う性格。それが災い",
+    "してか、能力の割りに出世が遅い。"
+   ]
+  },
+  {
+   "id": 30,
+   "section": "STRI",
+   "offset": 11034,
+   "text_offset": 11044,
+   "role": "display",
+   "refs": [
+    "rec31.text"
+   ],
+   "orig_chars": [
+    28,
+    25
+   ],
+   "orig_bytes": 161,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シュテドニアスの軍人。操者としての能力は高いが、上司と",
+    "トラブルを起こしやすいので、なかなか昇進できない。"
+   ]
+  },
+  {
+   "id": 31,
+   "section": "STRI",
+   "offset": 11205,
+   "text_offset": 11215,
+   "role": "display",
+   "refs": [
+    "rec32.text"
+   ],
+   "orig_chars": [
+    28,
+    14
+   ],
+   "orig_bytes": 128,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シュテドニアスの軍人。ロドニーの副官的立場にある。頭は",
+    "いいが、やや応用力に欠ける。"
+   ]
+  },
+  {
+   "id": 32,
+   "section": "STRI",
+   "offset": 11343,
+   "text_offset": 11353,
+   "role": "display",
+   "refs": [
+    "rec33.text"
+   ],
+   "orig_chars": [
+    28,
+    13
+   ],
+   "orig_bytes": 125,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　カークス軍の軍人。魔術を扱うことの出来る魔術士官。潔癖",
+    "症で、正義に固執している。"
+   ]
+  },
+  {
+   "id": 33,
+   "section": "STRI",
+   "offset": 11478,
+   "text_offset": 11492,
+   "role": "display",
+   "refs": [
+    "rec34.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    3
+   ],
+   "orig_bytes": 180,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　破壊神サーヴァ・ヴォルクルスに仕える魔神官。口調は丁寧",
+    "だが、冷酷非情。シュウと共に、ヴォルクルス復活の準備を進",
+    "める。"
+   ]
+  },
+  {
+   "id": 34,
+   "section": "STRI",
+   "offset": 11672,
+   "text_offset": 11698,
+   "role": "display",
+   "refs": [
+    "rec35.text"
+   ],
+   "orig_chars": [
+    15,
+    29,
+    27,
+    27,
+    28,
+    9
+   ],
+   "orig_bytes": 411,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　鋼龍戦隊ＡＴＸチームの隊長。",
+    "　寡黙なため冷静に見えるが、感情を表に出していないだけで、",
+    "実際は静かに燃える熱血漢。博打好きで、分の悪い賭けほど",
+    "燃えるタイプ。エクセレンとは恋人同士で、あまり表面には",
+    "出さないものの、内心では彼女のことを何よりも大切に思って",
+    "いる。階級は中尉。"
+   ]
+  },
+  {
+   "id": 35,
+   "section": "STRI",
+   "offset": 12109,
+   "text_offset": 12139,
+   "role": "display",
+   "refs": [
+    "rec36.text"
+   ],
+   "orig_chars": [
+    20,
+    28,
+    28,
+    27,
+    28,
+    28,
+    23
+   ],
+   "orig_bytes": 553,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　鋼龍戦隊ＡＴＸチーム所属のパイロット。",
+    "　本質は冷静かつ知的なのだが、自己アピールが激しく、ノリ",
+    "で喋るため周りからはそのように見られていない。キョウスケ",
+    "にいつも素っ気なく扱われているのを不満に思っているが、",
+    "誰よりも彼のことを愛している。パイロットとしての腕も優秀",
+    "で、特に高機動戦や射撃戦を得意とする。大酒飲みで、周囲の",
+    "酔っぱらいを見物して楽しむタイプ。階級は少尉。"
+   ]
+  },
+  {
+   "id": 36,
+   "section": "STRI",
+   "offset": 12692,
+   "text_offset": 12714,
+   "role": "display",
+   "refs": [
+    "rec37.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    30,
+    26
+   ],
+   "orig_bytes": 421,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　鋼龍戦隊ＡＴＸチーム所属のパイロット。通称はブリット。",
+    "　義理人情に厚い真面目な青年。正義感が強く、曲がったこと",
+    "は嫌い。いつも無茶をしがちなキョウスケやエクセレンに振り",
+    "回され気味。特殊な思念の力「念動力」の素質を持ち、<Ｔ‐ＬＩ",
+    "ＮＫシステム>を搭載した機体に搭乗する。階級は少尉。"
+   ]
+  },
+  {
+   "id": 37,
+   "section": "STRI",
+   "offset": 13135,
+   "text_offset": 13157,
+   "role": "display",
+   "refs": [
+    "rec38.text"
+   ],
+   "orig_chars": [
+    20,
+    28,
+    28,
+    28,
+    11
+   ],
+   "orig_bytes": 346,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　鋼龍戦隊ＡＴＸチーム所属のパイロット。",
+    "　心優しくおとなしい性格だが、いざというときの行動力には",
+    "目を見張るものがある。健康グッズのマニアで、お風呂好き。",
+    "念動力を持ち、<Ｔ‐ＬＩＮＫシステム>搭載機に搭乗する。",
+    "ブリットとは恋人同士。"
+   ]
+  },
+  {
+   "id": 38,
+   "section": "STRI",
+   "offset": 13503,
+   "text_offset": 13521,
+   "role": "display",
+   "refs": [
+    "rec39.text"
+   ],
+   "orig_chars": [
+    20,
+    28,
+    28,
+    13
+   ],
+   "orig_bytes": 271,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　鋼龍戦隊ＳＲＸチーム所属のパイロット。",
+    "　熱血直情型で無鉄砲、大のスーパーロボットマニア。子供っ",
+    "ぽい所もあるが、チーム内屈指の精神力の持ち主。また、念動",
+    "力者でもある。階級は少尉。"
+   ]
+  },
+  {
+   "id": 39,
+   "section": "STRI",
+   "offset": 13792,
+   "text_offset": 13810,
+   "role": "display",
+   "refs": [
+    "rec40.text"
+   ],
+   "orig_chars": [
+    20,
+    28,
+    28,
+    17
+   ],
+   "orig_bytes": 283,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　鋼龍戦隊ＳＲＸチーム所属のパイロット。",
+    "　軍人の名門家系であるブランシュタイン家の出身。沈着冷静",
+    "でパイロットとしても非常に優秀。少々皮肉屋だが、義に厚い",
+    "熱血漢の一面も見せる。階級は少尉。"
+   ]
+  },
+  {
+   "id": 40,
+   "section": "STRI",
+   "offset": 14093,
+   "text_offset": 14127,
+   "role": "display",
+   "refs": [
+    "rec41.text"
+   ],
+   "orig_chars": [
+    28,
+    4,
+    28,
+    27,
+    31,
+    11,
+    28,
+    28
+   ],
+   "orig_bytes": 555,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ＳＲＸチーム所属のパイロットであり、チームのリーダーを",
+    "務める。",
+    "　特殊な思念の力「念動力」を持ち、軍に入る前は日本特殊脳",
+    "医学研究所で被験体として父親の研究に協力していた。その",
+    "後、<ＳＲＸ計画>の発足と同時に軍属となり、<Ｔ‐ＬＩＮＫシス",
+    "テム>の開発に携わる。",
+    "　責任感が強い性格で面倒見が良い。表向きは勝ち気なように",
+    "見えるが、本当は戦いを好まない心優しい女性。階級は大尉。"
+   ]
+  },
+  {
+   "id": 41,
+   "section": "STRI",
+   "offset": 14682,
+   "text_offset": 14708,
+   "role": "display",
+   "refs": [
+    "rec42.text"
+   ],
+   "orig_chars": [
+    20,
+    28,
+    28,
+    4,
+    29,
+    28
+   ],
+   "orig_bytes": 413,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　鋼龍戦隊ＳＲＸチーム所属のパイロット。",
+    "　アヤ・コバヤシの妹だが、記録上では事故で死亡したことに",
+    "なっていた。物静かで大人しい性格だが、本人には過去の記憶",
+    "がない。",
+    "　<Ｌ５戦役>後に発見され、父であるケンゾウ・コバヤシ博士",
+    "の下で療養した後、見習いとしてＳＲＸチームに配属される。"
+   ]
+  },
+  {
+   "id": 42,
+   "section": "STRI",
+   "offset": 15121,
+   "text_offset": 15147,
+   "role": "display",
+   "refs": [
+    "rec43.text"
+   ],
+   "orig_chars": [
+    15,
+    25,
+    27,
+    27,
+    29,
+    21
+   ],
+   "orig_bytes": 430,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　鋼龍戦隊ＳＲＸチームの隊長。",
+    "　かつては<エアロゲイター>の二重スパイであった。",
+    "　理知的で冷静な大人の女性。口数が少なく、他人に冷徹な",
+    "印象を与えるが、それは必要以上の感情を表に出していない",
+    "だけである。潜入工作のエキスパートでもあり、<ＳＲＸ計画>",
+    "にも参加している。年齢は不詳、階級は大尉。"
+   ]
+  },
+  {
+   "id": 43,
+   "section": "STRI",
+   "offset": 15577,
+   "text_offset": 15607,
+   "role": "display",
+   "refs": [
+    "rec44.text"
+   ],
+   "orig_chars": [
+    16,
+    28,
+    28,
+    28,
+    28,
+    30,
+    26
+   ],
+   "orig_bytes": 555,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　鋼龍戦隊に所属するパイロット。",
+    "　高い教養の持ち主で、口も手も達者な男。女好きで、口説く",
+    "対象年齢層は幅広い。かつて特殊部隊ＰＴＸチームに所属して",
+    "おり、パイロットとしての腕前は一流である。また大局を見渡",
+    "し、目的のためには冷徹な手段をも辞さない一面も持つ。父は",
+    "<テスラ・ライヒ研究所>の重鎮であり、超闘士グルンガストの開",
+    "発者の一人でもあるジョナサン・カザハラ。階級は中尉。"
+   ]
+  },
+  {
+   "id": 44,
+   "section": "STRI",
+   "offset": 16162,
+   "text_offset": 16184,
+   "role": "display",
+   "refs": [
+    "rec45.text"
+   ],
+   "orig_chars": [
+    24,
+    28,
+    28,
+    29,
+    13
+   ],
+   "orig_bytes": 367,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　鋼龍戦隊所属のパイロット。内気で心優しい少年。",
+    "　物事を悲観的に捉えがち。他人に自分の気持ちを伝えるのが",
+    "少々下手で、そのことに関して自己嫌悪感を持っている。機械",
+    "いじりが好きで、それが高じて新型<パーソナルトルーパー>の",
+    "開発に携わるようになった。"
+   ]
+  },
+  {
+   "id": 45,
+   "section": "STRI",
+   "offset": 16551,
+   "text_offset": 16577,
+   "role": "display",
+   "refs": [
+    "rec46.text"
+   ],
+   "orig_chars": [
+    14,
+    28,
+    28,
+    27,
+    28,
+    4
+   ],
+   "orig_bytes": 389,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　鋼龍戦隊所属のパイロット。",
+    "　正義感が強く、明朗快活で真面目な女の子。負けず嫌いで、",
+    "自分が正しいと思ったことは、はきはきと発言する。しかし、",
+    "他人に間違いを指摘された時にはそれを認める許容性を持ち",
+    "合わせている。父親は<マオ・インダストリー>の重役である",
+    "ユアン。"
+   ]
+  },
+  {
+   "id": 46,
+   "section": "STRI",
+   "offset": 16966,
+   "text_offset": 16984,
+   "role": "display",
+   "refs": [
+    "rec47.text"
+   ],
+   "orig_chars": [
+    24,
+    31,
+    28,
+    29
+   ],
+   "orig_bytes": 324,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　スペースノア級万能戦闘母艦弐番艦ハガネの艦長。",
+    "　<ＤＣ戦争>、<Ｌ５戦役>での実戦経験を経て一人前に成長し、",
+    "<インスペクター事件>中に戦死したダイテツ・ミナセの跡を",
+    "継いでハガネの艦長に就任した。<修羅の乱>後、中佐に昇進。"
+   ]
+  },
+  {
+   "id": 47,
+   "section": "STRI",
+   "offset": 17308,
+   "text_offset": 17334,
+   "role": "display",
+   "refs": [
+    "rec48.text"
+   ],
+   "orig_chars": [
+    28,
+    5,
+    28,
+    30,
+    28,
+    15
+   ],
+   "orig_bytes": 404,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　スペースノア級万能戦闘母艦弐番艦ハガネのブリッジ・オペ",
+    "レーター。",
+    "　主な担当は電測。オペレート能力は優秀だが、ノリが軽く、",
+    "一言多い性格。<ＤＣ戦争>前、壱番艦シロガネのブリッジ・オペ",
+    "レーターを務めており、その時の縁でテツヤから推薦を受け、",
+    "ハガネへ乗艦することになった。"
+   ]
+  },
+  {
+   "id": 48,
+   "section": "STRI",
+   "offset": 17738,
+   "text_offset": 17764,
+   "role": "display",
+   "refs": [
+    "rec49.text"
+   ],
+   "orig_chars": [
+    28,
+    5,
+    29,
+    27,
+    28,
+    4
+   ],
+   "orig_bytes": 365,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　スペースノア級万能戦闘母艦弐番艦ハガネのブリッジ・オペ",
+    "レーター。",
+    "　主な担当は通信関連。元々は第２艦橋にいたが、<修羅の乱>",
+    "後、第１艦橋に配置換えとなった。大人しく控えめな性格だ",
+    "が、少々おっちょこちょいな所がある。かなりの猫好きで歌が",
+    "上手い。"
+   ]
+  },
+  {
+   "id": 49,
+   "section": "STRI",
+   "offset": 18129,
+   "text_offset": 18151,
+   "role": "display",
+   "refs": [
+    "rec50.text"
+   ],
+   "orig_chars": [
+    20,
+    28,
+    28,
+    28,
+    17
+   ],
+   "orig_bytes": 368,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　鋼龍戦隊オクトパス隊所属のパイロット。",
+    "　脳天気で楽観主義者。勝負事が大好きで、常に自分の運を試",
+    "そうとする自称・勝負師。ノリは軽いが頭の回転は早く、物事",
+    "の洞察力に優れている。また、手先も器用で手品などを得意と",
+    "するが、実は運動音痴。階級は少尉。"
+   ]
+  },
+  {
+   "id": 50,
+   "section": "STRI",
+   "offset": 18519,
+   "text_offset": 18545,
+   "role": "display",
+   "refs": [
+    "rec51.text"
+   ],
+   "orig_chars": [
+    20,
+    28,
+    28,
+    28,
+    28,
+    24
+   ],
+   "orig_bytes": 474,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　鋼龍戦隊オクトパス隊所属のパイロット。",
+    "　ブランシュタイン家の分家であるガーシュタイン家の出身。",
+    "ライやエルザムとは従兄弟同士。冷静でプライドが高く、気も",
+    "強い。他人を寄せ付けない雰囲気を持っているが、背伸びをし",
+    "た生き方をしているので、実は他人の同情に弱い。何でもそつ",
+    "なくこなしそうに見えるが、料理下手。階級は少尉。"
+   ]
+  },
+  {
+   "id": 51,
+   "section": "STRI",
+   "offset": 19019,
+   "text_offset": 19037,
+   "role": "display",
+   "refs": [
+    "rec52.text"
+   ],
+   "orig_chars": [
+    22,
+    27,
+    27,
+    27
+   ],
+   "orig_bytes": 313,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　鋼龍戦隊オクトパス隊（オクト小隊）の隊長。",
+    "　熱血系で我が強く、好戦的な女性。頭より先に身体が動く",
+    "タイプで、口調もキツく、命令違反も数多い。しかし、操縦",
+    "技術は確かで、意外にも部下の面倒見も良い。階級は中尉。"
+   ]
+  },
+  {
+   "id": 52,
+   "section": "STRI",
+   "offset": 19350,
+   "text_offset": 19368,
+   "role": "display",
+   "refs": [
+    "rec53.text"
+   ],
+   "orig_chars": [
+    20,
+    27,
+    28,
+    16
+   ],
+   "orig_bytes": 277,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　鋼龍戦隊オクトパス隊所属のパイロット。",
+    "　気が優しく、大人しい性格。暴走しがちなカチーナを心配",
+    "し、彼女の抑えに回っている。日常や任務中でも他人のサポー",
+    "トに回る、縁の下の力持ち的存在。"
+   ]
+  },
+  {
+   "id": 53,
+   "section": "STRI",
+   "offset": 19645,
+   "text_offset": 19683,
+   "role": "display",
+   "refs": [
+    "rec54.text"
+   ],
+   "orig_chars": [
+    27,
+    3,
+    27,
+    28,
+    27,
+    29,
+    28,
+    29,
+    10
+   ],
+   "orig_bytes": 629,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　鋼龍戦隊の司令で、ヒリュウ級汎用戦闘母艦ヒリュウ改の",
+    "艦長。",
+    "　アステロイドベルトのイカロス基地にある航宙士官学校を",
+    "主席で卒業した才媛。清楚で心配性、涙もろいが、芯はしっか",
+    "りしている。真面目な性格や、任務にひたむきな姿勢から、",
+    "新米艦長ながらもヒリュウ改のクルーからの信頼を集めている。",
+    "ショーンの推薦によって、ヒリュウ改の艦長に大抜擢され、彼",
+    "のサポートを受けつつ、一人前の艦長に成長していく。<修羅の",
+    "乱>後、大佐に昇進。"
+   ]
+  },
+  {
+   "id": 54,
+   "section": "STRI",
+   "offset": 20312,
+   "text_offset": 20346,
+   "role": "display",
+   "refs": [
+    "rec55.text"
+   ],
+   "orig_chars": [
+    21,
+    28,
+    22,
+    28,
+    28,
+    28,
+    30,
+    2
+   ],
+   "orig_bytes": 565,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ヒリュウ級汎用戦闘母艦ヒリュウ改の副長。",
+    "　物腰柔らかな英国紳士。豊かな知識と経験、ユーモアセンス",
+    "を持ち、レフィーナを的確にサポートしている。",
+    "　かつて外宇宙探査航行艦ヒリュウ（艦長はダイテツ）で副長",
+    "を務めていた。本来はヒリュウ中破の引責で更迭されたダイテ",
+    "ツの後任となるはずであったが、彼はそれを辞退し、レフィー",
+    "ナを艦長に推薦した。酒豪で、洋酒通。<修羅の乱>後、中佐に昇",
+    "進。"
+   ]
+  },
+  {
+   "id": 55,
+   "section": "STRI",
+   "offset": 20911,
+   "text_offset": 20933,
+   "role": "display",
+   "refs": [
+    "rec56.text"
+   ],
+   "orig_chars": [
+    26,
+    3,
+    27,
+    27,
+    15
+   ],
+   "orig_bytes": 299,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ヒリュウ級汎用戦闘母艦ヒリュウ改のブリッジオペレー",
+    "ター。",
+    "　真面目で潔癖症の気があるが、人当たりは良い。レフィー",
+    "ナとは航宙士官学校時代の同期であり、いつも彼女のことを",
+    "見守っている。少尉に昇進した。"
+   ]
+  },
+  {
+   "id": 56,
+   "section": "STRI",
+   "offset": 21232,
+   "text_offset": 21254,
+   "role": "display",
+   "refs": [
+    "rec57.text"
+   ],
+   "orig_chars": [
+    21,
+    28,
+    30,
+    28,
+    15
+   ],
+   "orig_bytes": 359,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍><特殊戦技教導隊>の隊長。",
+    "　叩き上げの軍人で、現場主義。かつては鬼隊長と恐れられた",
+    "人物であったが、<Ｌ５戦役>後は幾分か丸くなった。ラトゥーニ",
+    "らと共に主力機用のモーション・データ作成や新型機のテスト",
+    "などを行っている。階級は少佐。"
+   ]
+  },
+  {
+   "id": 57,
+   "section": "STRI",
+   "offset": 21613,
+   "text_offset": 21647,
+   "role": "display",
+   "refs": [
+    "rec58.text"
+   ],
+   "orig_chars": [
+    26,
+    27,
+    27,
+    10,
+    27,
+    29,
+    29,
+    10
+   ],
+   "orig_bytes": 547,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍><特殊戦技教導隊>所属のパイロット。",
+    "　高い戦闘能力や操縦技術を身につけており、性格は機械的",
+    "なまでに沈着冷静。知的で大人しい美女だが、どこか人間離",
+    "れした雰囲気を持つ。",
+    "　その正体は「Ｗシリーズ」と呼ばれる人造人間。かつては",
+    "<シャドウミラー>隊のスパイだったが、キョウスケ達との出会",
+    "いがきっかけとなり自我に目覚める。現在は<教導隊>でカイの",
+    "副官的な立場にいる。"
+   ]
+  },
+  {
+   "id": 58,
+   "section": "STRI",
+   "offset": 22194,
+   "text_offset": 22216,
+   "role": "display",
+   "refs": [
+    "rec59.text"
+   ],
+   "orig_chars": [
+    26,
+    27,
+    33,
+    27,
+    24
+   ],
+   "orig_bytes": 396,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍><特殊戦技教導隊>所属のパイロット。",
+    "　前向きで明るい性格、見た目のノリも軽いが根は真面目。",
+    "<スクール>の出身者で、<Ｌ５戦役>後は<ＤＣ>残党に所属し、キョ",
+    "ウスケ達の敵となった。その後、ラトゥーニ達との出会いを",
+    "きっかけにし、彼女達と行動を共にするようになる。"
+   ]
+  },
+  {
+   "id": 59,
+   "section": "STRI",
+   "offset": 22612,
+   "text_offset": 22634,
+   "role": "display",
+   "refs": [
+    "rec60.text"
+   ],
+   "orig_chars": [
+    26,
+    30,
+    28,
+    28,
+    13
+   ],
+   "orig_bytes": 368,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍><特殊戦技教導隊>所属のパイロット。",
+    "　<スクール>の出身者で、アラドとコンビを組んでいる。真面目",
+    "な優等生タイプで気が強く、短気。思い込みが激しく、怒ると",
+    "怖い。しかし、本当は思いやりがあり、パートナーのアラドの",
+    "ことをいつも心配している。"
+   ]
+  },
+  {
+   "id": 60,
+   "section": "STRI",
+   "offset": 23002,
+   "text_offset": 23024,
+   "role": "display",
+   "refs": [
+    "rec61.text"
+   ],
+   "orig_chars": [
+    26,
+    29,
+    28,
+    27,
+    15
+   ],
+   "orig_bytes": 360,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍><特殊戦技教導隊>所属のパイロット。",
+    "　<スクール>の出身者で、<パーソナルトルーパー>の操縦や",
+    "戦闘で優れた能力を発揮する。<スクール>での過酷な実験や",
+    "訓練が原因で心を閉ざしていたが、リュウセイ達との出会い",
+    "によって人間らしさを取り戻す。"
+   ]
+  },
+  {
+   "id": 61,
+   "section": "STRI",
+   "offset": 23384,
+   "text_offset": 23414,
+   "role": "display",
+   "refs": [
+    "rec62.text"
+   ],
+   "orig_chars": [
+    28,
+    24,
+    27,
+    28,
+    30,
+    28,
+    7
+   ],
+   "orig_bytes": 511,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　かつて<ＤＣ>で進められ、現在は連邦軍管轄下に置かれて",
+    "いる<プロジェクトＴＤ>所属のテストパイロット。",
+    "　性格は一本気で強気。宇宙飛行士として旅立つことを夢見",
+    "ており、そのために苦しい訓練に耐えてきた努力家でもある。",
+    "技量においては<プロジェクトＴＤ>の僚友であるスレイより格段",
+    "に劣り、席次はナンバー０４であるが、その熱意だけは誰にも",
+    "負けていない。"
+   ]
+  },
+  {
+   "id": 62,
+   "section": "STRI",
+   "offset": 23925,
+   "text_offset": 23943,
+   "role": "display",
+   "refs": [
+    "rec63.text"
+   ],
+   "orig_chars": [
+    26,
+    32,
+    28,
+    25
+   ],
+   "orig_bytes": 325,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<プロジェクトＴＤ>のシステム開発チームのチーフ。",
+    "　<イスルギ重工>の支援を受け、<プロジェクトＴＤ>を継続させて",
+    "いる。基本的には世話好きで人当たりのよいしっかり者である",
+    "が、時に非情なまでに理知的な判断を下すことがある。"
+   ]
+  },
+  {
+   "id": 63,
+   "section": "STRI",
+   "offset": 24268,
+   "text_offset": 24286,
+   "role": "display",
+   "refs": [
+    "rec64.text"
+   ],
+   "orig_chars": [
+    13,
+    30,
+    28,
+    19
+   ],
+   "orig_bytes": 270,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ベガリオンのパイロット。",
+    "　<プロジェクトＴＤ>の責任者であるフィリオ・プレスティの実",
+    "妹。敵対する相手には容赦しない苛烈な性格の持ち主。自分の",
+    "技量に絶大な自信と高いプライドを持つ。"
+   ]
+  },
+  {
+   "id": 64,
+   "section": "STRI",
+   "offset": 24556,
+   "text_offset": 24570,
+   "role": "display",
+   "refs": [
+    "rec65.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    25
+   ],
+   "orig_bytes": 240,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　剛胆な性格で、自分の信念を貫く武人。義を重んじ、常に",
+    "正々堂々とした行いを取るよう心がけているが、融通の利か",
+    "ない所もある。格闘戦、特に剣撃戦闘のエキスパート。"
+   ]
+  },
+  {
+   "id": 65,
+   "section": "STRI",
+   "offset": 24810,
+   "text_offset": 24836,
+   "role": "display",
+   "refs": [
+    "rec66.text"
+   ],
+   "orig_chars": [
+    23,
+    28,
+    27,
+    27,
+    28,
+    21
+   ],
+   "orig_bytes": 468,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ハガネやヒリュウ改を陰ながら助ける謎の人物。",
+    "　沈着冷静で誇り高く、大義を重んじる。また、柔軟な思考も",
+    "持ち合わせており、常に大局を見据えて行動を取っている。",
+    "人型機動兵器の操縦技術は天才的で、自分が乗る機体を常に",
+    "愛馬の名前「トロンベ（ドイツ語で“竜巻”という意味）」で",
+    "呼ぶ。かなりの食通で、料理の腕前も超一流。"
+   ]
+  },
+  {
+   "id": 66,
+   "section": "STRI",
+   "offset": 25304,
+   "text_offset": 25326,
+   "role": "display",
+   "refs": [
+    "rec67.text"
+   ],
+   "orig_chars": [
+    28,
+    2,
+    28,
+    28,
+    16
+   ],
+   "orig_bytes": 311,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　スペースノア級万能戦闘母艦参番艦クロガネ所属のパイロッ",
+    "ト。",
+    "　沈着冷静で、常に紳士的な態度を心がけている。卑劣な行動",
+    "を嫌い、弱きを助けることを厭わない。紅茶好きで、淹れ方や",
+    "飲み方にはこだわりを持っている。"
+   ]
+  },
+  {
+   "id": 67,
+   "section": "STRI",
+   "offset": 25637,
+   "text_offset": 25655,
+   "role": "display",
+   "refs": [
+    "rec68.text"
+   ],
+   "orig_chars": [
+    28,
+    9,
+    27,
+    15
+   ],
+   "orig_bytes": 241,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　スペースノア級万能戦闘母艦参番艦クロガネ所属のパイロッ",
+    "ト。通称はカーラ。",
+    "　男勝りで情熱的な女の子。楽観主義者で、些細な悩み事は",
+    "一晩寝ると忘れてしまうタイプ。"
+   ]
+  },
+  {
+   "id": 68,
+   "section": "STRI",
+   "offset": 25896,
+   "text_offset": 25918,
+   "role": "display",
+   "refs": [
+    "rec69.text"
+   ],
+   "orig_chars": [
+    17,
+    27,
+    30,
+    31,
+    20
+   ],
+   "orig_bytes": 364,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍>情報部所属の軍人。",
+    "　性格は沈着冷静、頭脳明晰。どこか謎めいたところがある",
+    "が、義理人情に弱い面も併せ持つ。<ＴＣ‐ＯＳ>の基礎データを",
+    "作成した連邦軍<特殊戦技教導隊>の出身であり、<パーソナルトル",
+    "ーパー>の操縦の腕は超一流。階級は少佐。"
+   ]
+  },
+  {
+   "id": 69,
+   "section": "STRI",
+   "offset": 26282,
+   "text_offset": 26304,
+   "role": "display",
+   "refs": [
+    "rec70.text"
+   ],
+   "orig_chars": [
+    17,
+    27,
+    28,
+    27,
+    5
+   ],
+   "orig_bytes": 313,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<テスラ・ライヒ研究所>の顧問。",
+    "　示現流の達人で、グルンガスト用の剣の開発や、剣撃モー",
+    "ションデータの作成に携わっている。また、ゼンガーやブリッ",
+    "トの師匠でもある。剣の道に関しては厳しいが、普段は気の",
+    "いい老人。"
+   ]
+  },
+  {
+   "id": 70,
+   "section": "STRI",
+   "offset": 26617,
+   "text_offset": 26643,
+   "role": "display",
+   "refs": [
+    "rec71.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    29,
+    29,
+    28,
+    20
+   ],
+   "orig_bytes": 482,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<マオ・インダストリー>のスタッフで、現在は<地球連邦軍>",
+    "<特殊戦技教導隊>に出向し、様々なサポートを行っている。",
+    "　思慮深く、物静かな女性。精神感応能力を持っており、<マオ",
+    "・インダストリー>でマン・マシン・インターフェイスの開発に",
+    "携わっていた。特技はヨガで、他人に困難なアサナ（ヨガのポ",
+    "ーズ）を勧めるため、少々恐れられている。"
+   ]
+  },
+  {
+   "id": 71,
+   "section": "STRI",
+   "offset": 27125,
+   "text_offset": 27143,
+   "role": "display",
+   "refs": [
+    "rec72.text"
+   ],
+   "orig_chars": [
+    27,
+    26,
+    28,
+    11
+   ],
+   "orig_bytes": 280,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　地中海に面する連邦特別自治区・リクセント公国の王女。",
+    "　天真爛漫で好奇心旺盛、思い立ったが吉日の行動派。ラ",
+    "トゥーニと仲が良く、ライディースに淡い思いを抱いている。",
+    "また、予知能力を持つ。"
+   ]
+  },
+  {
+   "id": 72,
+   "section": "STRI",
+   "offset": 27423,
+   "text_offset": 27449,
+   "role": "display",
+   "refs": [
+    "rec73.text"
+   ],
+   "orig_chars": [
+    30,
+    7,
+    28,
+    28,
+    29,
+    10
+   ],
+   "orig_bytes": 386,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<パーソナルトルーパー>の開発メーカー、<マオ・インダスト",
+    "リー>の社長。",
+    "　クールな性格で、合理主義者。マオ社の創業者である父親の",
+    "影響を受けて、<パーソナルトルーパー>のパイロットを目指",
+    "し、<地球連邦軍>極東支部の特殊部隊「ＰＴＸチーム」に所属",
+    "していた過去をもつ。"
+   ]
+  },
+  {
+   "id": 73,
+   "section": "STRI",
+   "offset": 27835,
+   "text_offset": 27857,
+   "role": "display",
+   "refs": [
+    "rec74.text"
+   ],
+   "orig_chars": [
+    20,
+    28,
+    28,
+    28,
+    5
+   ],
+   "orig_bytes": 332,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　エクサランス・レスキューのパイロット。",
+    "　基本的には責任感が強く、細かいことは気にしない熱血漢。",
+    "双子の妹であるフィオナと共に修理や救難作業を請け負う「Ｌ",
+    "＆Ｅコーポレーション」という会社を立ち上げ、その社長を務",
+    "めている。"
+   ]
+  },
+  {
+   "id": 74,
+   "section": "STRI",
+   "offset": 28189,
+   "text_offset": 28215,
+   "role": "display",
+   "refs": [
+    "rec75.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    28,
+    27,
+    27,
+    7
+   ],
+   "orig_bytes": 435,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ラウルの双子の妹。意志が強く、明るい女性。ラウルより",
+    "しっかりしており、他人には彼女の方が姉だと思われがち。",
+    "チャレンジ精神が旺盛で、言い出したら聞かない一面もある。",
+    "ラウル達と共に立ち上げた「Ｌ＆Ｅコーポレーション」では",
+    "営業と炊事洗濯を担当しているが、同社の実質的な経営者で",
+    "あると言える。"
+   ]
+  },
+  {
+   "id": 75,
+   "section": "STRI",
+   "offset": 28650,
+   "text_offset": 28672,
+   "role": "display",
+   "refs": [
+    "rec76.text"
+   ],
+   "orig_chars": [
+    28,
+    30,
+    28,
+    28,
+    2
+   ],
+   "orig_bytes": 349,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　デュミナスによって創り出されたテクニティ・パイデス（人",
+    "工生命体）。<修羅の乱>後、ラウルやフィオナに引き取られ、家",
+    "族の一員となった。ラウル達が立ち上げた会社「Ｌ＆Ｅコーポ",
+    "レーション」ではアシスタントを務める。控えめで物静かな性",
+    "格。"
+   ]
+  },
+  {
+   "id": 76,
+   "section": "STRI",
+   "offset": 29021,
+   "text_offset": 29043,
+   "role": "display",
+   "refs": [
+    "rec77.text"
+   ],
+   "orig_chars": [
+    15,
+    28,
+    28,
+    27,
+    16
+   ],
+   "orig_bytes": 347,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　日本・浅草地区に住む高校生。",
+    "　街の発明家であるキサブロー・アズマの孫。他人にはぶっき",
+    "らぼうな印象を与えるが、正義感の強い少年。喧嘩っ早く、祭",
+    "好きで金遣いが荒い。また、妹思い。ロア・アーマーを装着",
+    "し、ファイター・ロアへ変身する。"
+   ]
+  },
+  {
+   "id": 77,
+   "section": "STRI",
+   "offset": 29390,
+   "text_offset": 29416,
+   "role": "display",
+   "refs": [
+    "rec78.text"
+   ],
+   "orig_chars": [
+    7,
+    27,
+    28,
+    27,
+    28,
+    15
+   ],
+   "orig_bytes": 402,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　コウタの妹。",
+    "　明朗活発な女の子。家事全般は何でもこなす。人当たりが",
+    "よく、学校の人気者。いつもコウタのことを心配しているが、",
+    "面と向かってはついつい小言を言いがち。浪費家のコウタに",
+    "比べて、ケチとも言える倹約家。エミィ・アーマーを装着し、",
+    "ファイター・エミィへ変身する。"
+   ]
+  },
+  {
+   "id": 78,
+   "section": "STRI",
+   "offset": 29818,
+   "text_offset": 29844,
+   "role": "display",
+   "refs": [
+    "rec79.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    28,
+    13
+   ],
+   "orig_bytes": 465,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　大阪にある萬南無（ばんなむ）高校の３年生（留年中）であ",
+    "り、関西ではその名が知れた番長。喧嘩が滅法強く、野性味溢",
+    "れる男。何でも力で解決しようとするが、可愛い女の子には弱",
+    "い。祖父の生まれは大阪だが、その後、東京へ引っ越し、ミチ",
+    "ルが１０歳の頃、また大阪へ戻って来た。そのせいもあって、",
+    "少々怪しげな関西弁を使う。"
+   ]
+  },
+  {
+   "id": 79,
+   "section": "STRI",
+   "offset": 30309,
+   "text_offset": 30359,
+   "role": "display",
+   "refs": [
+    "rec80.text"
+   ],
+   "orig_chars": [
+    23,
+    27,
+    14,
+    26,
+    26,
+    26,
+    27,
+    30,
+    27,
+    29,
+    30,
+    8
+   ],
+   "orig_bytes": 867,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　かつて、<シャドウミラー>に所属していた男。",
+    "　優れた操縦技術、体術の持ち主。基本的にはクールだが、",
+    "内には熱い感情を秘めている。",
+    "　自分達が元々いた世界で謎の力を得たキョウスケ・ナン",
+    "ブと彼の搭乗機であるゲシュペンストＭｋ‐Ⅲを危険視し",
+    "ていた。そのため、この世界にも存在しているキョウスケ",
+    "がいずれ似たような力を得ると予測し、彼を倒そうとした。",
+    "　しかし、<インスペクター事件>末期、<ホワイトスター>内部",
+    "での最終決戦で敗れ、瀕死の重傷を負う。その後、<地球連",
+    "邦軍>の第３特殊作戦<ＰＴ>部隊クライウルブズによって搭乗",
+    "機であるソウルゲインごと回収され、<修羅の乱>ではキョウスケ",
+    "達と共に戦った。"
+   ]
+  },
+  {
+   "id": 80,
+   "section": "STRI",
+   "offset": 31226,
+   "text_offset": 31256,
+   "role": "display",
+   "refs": [
+    "rec81.text"
+   ],
+   "orig_chars": [
+    28,
+    26,
+    27,
+    28,
+    26,
+    28,
+    14
+   ],
+   "orig_bytes": 526,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<アインスト>の中で、唯一人間に近い姿をしている少女。",
+    "エクセレン・ブロウニングのデータを基にして作られたク",
+    "ローン人間的な存在であるため、顔や声が彼女と似ている。",
+    "　<インスペクター事件>中、幾度となくキョウスケ達と戦っ",
+    "たが、次第に人間の“想いの力”にひかれて行き、最終的",
+    "には彼らの味方となり、<アインスト>の首魁であるシュテル",
+    "ン・ノイレジセイアと戦った。"
+   ]
+  },
+  {
+   "id": 81,
+   "section": "STRI",
+   "offset": 31782,
+   "text_offset": 31800,
+   "role": "display",
+   "refs": [
+    "rec84.text"
+   ],
+   "orig_chars": [
+    32,
+    26,
+    26,
+    10
+   ],
+   "orig_bytes": 274,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<コロニー統合軍>の軍人で、<ＤＣ戦争>時は<ＤＣ>に出向し、",
+    "幹部となっていた。反連邦主義者で、ビアンやマイヤーを",
+    "信奉し、世界に劇的な変革をもたらそうとする。慎重さと",
+    "大胆さを併せ持つ男。"
+   ]
+  },
+  {
+   "id": 82,
+   "section": "STRI",
+   "offset": 32074,
+   "text_offset": 32092,
+   "role": "display",
+   "refs": [
+    "rec85.text"
+   ],
+   "orig_chars": [
+    27,
+    6,
+    26,
+    19
+   ],
+   "orig_bytes": 238,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シシオウブレードを携えたガーリオン・カスタム“無明”",
+    "を駆る傭兵。",
+    "　凄腕のパイロットで、自身も剣の達人。人や機動兵器を",
+    "“斬る”ために生きる男。年齢は４５歳。"
+   ]
+  },
+  {
+   "id": 83,
+   "section": "STRI",
+   "offset": 32330,
+   "text_offset": 32344,
+   "role": "display",
+   "refs": [
+    "rec86.text"
+   ],
+   "orig_chars": [
+    25,
+    28,
+    13
+   ],
+   "orig_bytes": 201,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ガイアセイバーズの旗艦、エア・クリスマスの艦長。",
+    "　頭脳明晰、冷徹な性格で、理論構築と遺漏なきその実践こそ",
+    "が完全な勝利と信じている。"
+   ]
+  },
+  {
+   "id": 84,
+   "section": "STRI",
+   "offset": 32545,
+   "text_offset": 32567,
+   "role": "display",
+   "refs": [
+    "rec87.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    21
+   ],
+   "orig_bytes": 404,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ゲスト傭兵部隊の隊長。愛称はロフ。剛胆な武人だが、傭兵",
+    "であるが故に、与えられた任務は何であれ遂行する。が、本心",
+    "では非道な作戦を良しとしておらず、ジレンマを感じている。",
+    "名門の軍人一家の出身だが、家柄だけでその後の地位が確定し",
+    "てしまう社会に嫌気がさし、家を飛び出した。"
+   ]
+  },
+  {
+   "id": 85,
+   "section": "STRI",
+   "offset": 32971,
+   "text_offset": 32985,
+   "role": "display",
+   "refs": [
+    "rec88.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    19
+   ],
+   "orig_bytes": 224,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ゲストの戦闘指揮官。愛称はゼブ。飄々としているが、かな",
+    "りの切れ者。間延びした特徴的な喋り方をする。<インスペク",
+    "ター>のメキボスとは幼馴染みであった。"
+   ]
+  },
+  {
+   "id": 86,
+   "section": "STRI",
+   "offset": 33209,
+   "text_offset": 33223,
+   "role": "display",
+   "refs": [
+    "rec89.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    2
+   ],
+   "orig_bytes": 174,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ゲストの戦闘指揮官。愛称はセティ。理知的な性格で、優秀",
+    "な軍人。ゼゼーナンにその能力を見込まれ、彼の部下となっ",
+    "た。"
+   ]
+  },
+  {
+   "id": 87,
+   "section": "STRI",
+   "offset": 33397,
+   "text_offset": 33427,
+   "role": "display",
+   "refs": [
+    "rec90.text"
+   ],
+   "orig_chars": [
+    30,
+    30,
+    6,
+    27,
+    28,
+    28,
+    13
+   ],
+   "orig_bytes": 485,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ゾヴォーク枢密院から派遣された特使。<インスペクター事件>",
+    "では、<インスペクター>の戦闘指揮官として、鋼龍戦隊と戦闘を",
+    "繰り広げた。",
+    "　言葉遣いは乱暴だが、根は真面目。冷静に戦況を見極める",
+    "判断力を持ち、目的を達するためには手段を選ばない冷徹さも",
+    "持ち合わせる。また、男気もあり、かつて弟のウェンドロをか",
+    "ばって負傷したこともある。"
+   ]
+  },
+  {
+   "id": 88,
+   "section": "STRI",
+   "offset": 33912,
+   "text_offset": 33930,
+   "role": "display",
+   "refs": [
+    "rec91.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    29,
+    18
+   ],
+   "orig_bytes": 309,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ゲストの総司令官。性格は傲慢で自信家、計算高い。権力を",
+    "用いた人心掌握術に長けている。地球人に対しては極端なまで",
+    "の偏見を持って接する。また、<ＤＣ戦争>以前から地球に着目",
+    "し、水面下で干渉や交渉を行っていた。"
+   ]
+  },
+  {
+   "id": 89,
+   "section": "STRI",
+   "offset": 34239,
+   "text_offset": 34265,
+   "role": "display",
+   "refs": [
+    "rec92.text"
+   ],
+   "orig_chars": [
+    28,
+    32,
+    12,
+    26,
+    26,
+    6
+   ],
+   "orig_bytes": 388,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ツェントル・プロジェクトで開発されたＴＥアブゾーバーの",
+    "テストパイロット。元<地球連邦軍>第３特殊作戦<ＰＴ>部隊「クラ",
+    "イウルブズ」のメンバー。",
+    "　幼い頃から貧困と向き合ってきたため、生きることへの",
+    "執着心が強い。感情の起伏は激しい方だが、普段の口数は",
+    "やや少な目。"
+   ]
+  },
+  {
+   "id": 90,
+   "section": "STRI",
+   "offset": 34653,
+   "text_offset": 34675,
+   "role": "display",
+   "refs": [
+    "rec93.text"
+   ],
+   "orig_chars": [
+    29,
+    28,
+    28,
+    28,
+    26
+   ],
+   "orig_bytes": 418,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍>の軍人で、ＴＥアブゾーバーのＤＦＣオペレー",
+    "ター。明るい性格で、おっちょこちょいな面もある。父親は連",
+    "邦議会の上院議員であるテイラー・ケントルム。何不自由なく",
+    "育てられたが、アクアは籠の中の鳥のような日々を嫌い、刺激",
+    "と自分の力で勝負できる環境を求め、連邦軍に入隊した。"
+   ]
+  },
+  {
+   "id": 91,
+   "section": "STRI",
+   "offset": 35093,
+   "text_offset": 35111,
+   "role": "display",
+   "refs": [
+    "rec94.text"
+   ],
+   "orig_chars": [
+    28,
+    30,
+    30,
+    5
+   ],
+   "orig_bytes": 275,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ツェントル・プロジェクトで開発されたＴＥアブゾーバー、",
+    "メディウス・ロクスのテストパイロット。元<地球連邦軍>第３特",
+    "殊作戦<ＰＴ>部隊「クライウルブズ」の隊長。責任感が強く、厳",
+    "格な軍人。"
+   ]
+  },
+  {
+   "id": 92,
+   "section": "STRI",
+   "offset": 35386,
+   "text_offset": 35404,
+   "role": "display",
+   "refs": [
+    "rec95.text"
+   ],
+   "orig_chars": [
+    26,
+    28,
+    28,
+    2
+   ],
+   "orig_bytes": 256,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　人工知能の研究者であり、戦闘用高性能人工知能「ＡＩ",
+    "０（エーアイゼロ）」の開発者。連邦軍士官学校の講師を務め",
+    "ていたことがあり、アクア・ケントルムはその時の教え子であ",
+    "る。"
+   ]
+  },
+  {
+   "id": 93,
+   "section": "STRI",
+   "offset": 35660,
+   "text_offset": 35682,
+   "role": "display",
+   "refs": [
+    "rec96.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    2
+   ],
+   "orig_bytes": 347,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　通称はジョッシュ。南極で発見された謎の遺跡の研究を行う",
+    "リ・テクノロジスト（リ・テク）であるフェリオ・ラドクリフ",
+    "の息子。クリアーナ・リムスカヤという義妹がいる。愛想がい",
+    "い方ではないが、落ち着いた性格。だが、感情的な一面も見せ",
+    "る。"
+   ]
+  },
+  {
+   "id": 94,
+   "section": "STRI",
+   "offset": 36029,
+   "text_offset": 36055,
+   "role": "display",
+   "refs": [
+    "rec97.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    28,
+    28,
+    27,
+    14
+   ],
+   "orig_bytes": 462,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ジョシュア・ラドクリフの義妹。南極の遺跡から発掘され、",
+    "リ・テクノロジストによって復元されたシステム「シュンパ",
+    "ティア」の実験に長期間携わっており、そのせいで二つの人格",
+    "（クリスとリアナ）に分かれてしまう。それぞれ互いの存在を",
+    "認識しており、会話を交わすことも出来る。リアナは気が強",
+    "く、ややドライな性格である。"
+   ]
+  },
+  {
+   "id": 95,
+   "section": "STRI",
+   "offset": 36517,
+   "text_offset": 36543,
+   "role": "display",
+   "refs": [
+    "rec98.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    28,
+    28,
+    28,
+    10
+   ],
+   "orig_bytes": 453,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ジョシュア・ラドクリフの義妹。南極の遺跡から発掘され、",
+    "リ・テクノロジストによって復元されたシステム「シュンパ",
+    "ティア」の実験に長期間携わっており、そのせいで二つの人格",
+    "（クリスとリアナ）に分かれてしまう。それぞれ互いの存在を",
+    "認識しており、会話を交わすことも出来る。クリスは控えめで",
+    "大人しい性格である。"
+   ]
+  },
+  {
+   "id": 96,
+   "section": "STRI",
+   "offset": 36996,
+   "text_offset": 37014,
+   "role": "display",
+   "refs": [
+    "rec99.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    28,
+    20
+   ],
+   "orig_bytes": 313,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ルイーナの疑似生命体「メリオルエッセ」の一人。“破滅の",
+    "王”を復活させるため、負の感情の波動を必要とし、フォル",
+    "ティス・アーラを駆って破壊と殺戮を繰り返す。性格は沈着冷",
+    "静で、刃向かうものに対しては容赦しない。"
+   ]
+  },
+  {
+   "id": 97,
+   "section": "STRI",
+   "offset": 37327,
+   "text_offset": 37345,
+   "role": "display",
+   "refs": [
+    "rec100.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    3
+   ],
+   "orig_bytes": 265,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ルイーナの疑似生命体「メリオルエッセ」の一人。“破滅の",
+    "王”を復活させるため、負の感情の波動を必要とし、インペト",
+    "ゥスを駆って破壊と殺戮を繰り返す。性格は苛烈で、戦いを楽",
+    "しむ。"
+   ]
+  },
+  {
+   "id": 98,
+   "section": "STRI",
+   "offset": 37610,
+   "text_offset": 37628,
+   "role": "display",
+   "refs": [
+    "rec101.text",
+    "rec102.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    18
+   ],
+   "orig_bytes": 310,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ルイーナの疑似生命体「メリオルエッセ」の一人。負の感情",
+    "の波動をエネルギーに変換し、“破滅の王”へ送ることを役目",
+    "とする。それ故、彼は人間の感情を他のメリオルエッセより深",
+    "く理解することが出来るようになった。"
+   ]
+  },
+  {
+   "id": 99,
+   "section": "STRI",
+   "offset": 37938,
+   "text_offset": 37952,
+   "role": "display",
+   "refs": [
+    "rec103.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    8
+   ],
+   "orig_bytes": 192,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ルイーナの疑似生命体「メリオルエッセ」の一人。ジョッ",
+    "シュとシュンパティアを介した精神感応を経て、彼と共に戦う",
+    "ことを決意する。"
+   ]
+  },
+  {
+   "id": 100,
+   "section": "STRI",
+   "offset": 38144,
+   "text_offset": 38162,
+   "role": "display",
+   "refs": [
+    "rec104.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    28,
+    3
+   ],
+   "orig_bytes": 262,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ルイーナの疑似生命体「メリオルエッセ」の一人。“破滅の",
+    "王”を復活させるため、負の感情の波動を必要とし、ファー",
+    "ビュラリスを駆って破壊と殺戮を繰り返す。性格は沈着冷静で",
+    "冷徹。"
+   ]
+  },
+  {
+   "id": 101,
+   "section": "STRI",
+   "offset": 38424,
+   "text_offset": 38450,
+   "role": "display",
+   "refs": [
+    "rec105.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    27,
+    27,
+    28,
+    20
+   ],
+   "orig_bytes": 477,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ルイーナの疑似生命体「メリオルエッセ」の一人。“破滅の",
+    "王”を復活させるため、負の感情の波動を必要とし、ウィオ",
+    "ラーケウムを駆って破壊と殺戮を繰り返す。性格は狡猾で残",
+    "忍。メリオルエッセをまとめるウンブラの副官的な存在で、",
+    "オフィチナス（ルイーナの機動兵器やミーレスを製造するプラ",
+    "ントのようなもの）を管理する役目を持つ。"
+   ]
+  },
+  {
+   "id": 102,
+   "section": "STRI",
+   "offset": 38927,
+   "text_offset": 38941,
+   "role": "display",
+   "refs": [
+    "rec106.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    2
+   ],
+   "orig_bytes": 177,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ルイーナの疑似生命体「メリオルエッセ」のリーダー的存在",
+    "で、“破滅の王”の復活に関わる様々な事柄を取り仕切ってい",
+    "る。"
+   ]
+  },
+  {
+   "id": 103,
+   "section": "STRI",
+   "offset": 39118,
+   "text_offset": 39140,
+   "role": "display",
+   "refs": [
+    "rec107.text"
+   ],
+   "orig_chars": [
+    28,
+    29,
+    28,
+    28,
+    18
+   ],
+   "orig_bytes": 398,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　南極の遺跡「ファブラ・フォレース」を通じ、クロスゲート",
+    "から出現した“破滅の王”。遺跡の研究者であったフェリオ・ラ",
+    "ドクリフの魂を消滅させ、肉体を乗っ取っている。知的生命体",
+    "の負の感情の波動（恐怖、絶望、怒り、悲しみなど）を糧とし",
+    "て、全てのものを破滅させようとする。"
+   ]
+  },
+  {
+   "id": 104,
+   "section": "STRI",
+   "offset": 39538,
+   "text_offset": 39564,
+   "role": "display",
+   "refs": [
+    "rec108.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    28,
+    18
+   ],
+   "orig_bytes": 480,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ハイスクール卒業後、思う所があって数々のアルバイトとボ",
+    "ランティア活動に励んでいた。今風のドライな考えを持つが、",
+    "本質的には真面目な好青年。さっぱりとした気性で面倒見がい",
+    "い。ただ多少、頑固な面があり、一度思い込むと柔軟さを欠く",
+    "ことがある。特技は様々なバイト経験による世知とハイスクー",
+    "ル時代のクラブ活動でやっていた空手。"
+   ]
+  },
+  {
+   "id": 105,
+   "section": "STRI",
+   "offset": 40044,
+   "text_offset": 40062,
+   "role": "display",
+   "refs": [
+    "rec109.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    27,
+    11
+   ],
+   "orig_bytes": 283,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　父カオル・トオミネと共にシステムＬＩＯＨを研究していた",
+    "科学者。戦乱の続く世界を憂い、強い正義感と使命感を持つ",
+    "が、外界と隔絶された環境で研究に没頭していたため、少々",
+    "世間ずれした所がある。"
+   ]
+  },
+  {
+   "id": 106,
+   "section": "STRI",
+   "offset": 40345,
+   "text_offset": 40359,
+   "role": "display",
+   "refs": [
+    "rec111.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    13
+   ],
+   "orig_bytes": 210,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　フリッケライ・ガイストのパイロット。理知的で落ち着いた",
+    "雰囲気を持つ少女。常人より優れた肉体を持ち、人型機動兵器",
+    "の操縦や戦闘に長けている。"
+   ]
+  },
+  {
+   "id": 107,
+   "section": "STRI",
+   "offset": 40569,
+   "text_offset": 40583,
+   "role": "display",
+   "refs": [
+    "rec112.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    3
+   ],
+   "orig_bytes": 180,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　アレス・ガイストのパイロット。頭脳明晰で自尊心が高く、",
+    "苛烈で攻撃的な性格。アリエイル・オーグと深い関わり合いを",
+    "持つ。"
+   ]
+  },
+  {
+   "id": 108,
+   "section": "STRI",
+   "offset": 40763,
+   "text_offset": 40777,
+   "role": "display",
+   "refs": [
+    "rec113.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    23
+   ],
+   "orig_bytes": 242,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　封鎖された<アイドネウス島>から脱走して来た少年。物静かで",
+    "大人しく、口数も少ない。機動兵器の操縦や戦闘で非凡な才能",
+    "を発揮する。その過去や素性は謎に包まれている。"
+   ]
+  },
+  {
+   "id": 109,
+   "section": "STRI",
+   "offset": 41019,
+   "text_offset": 41033,
+   "role": "display",
+   "refs": [
+    "rec116.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    17
+   ],
+   "orig_bytes": 222,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ガイアセイバーズの部隊「アルファ・セイバー」の隊長。優",
+    "秀なパイロットで、キャニス・アルタルフに搭乗する。傲岸不",
+    "遜であり、仮面で素顔を隠している。"
+   ]
+  },
+  {
+   "id": 110,
+   "section": "STRI",
+   "offset": 41255,
+   "text_offset": 41269,
+   "role": "display",
+   "refs": [
+    "rec117.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    27
+   ],
+   "orig_bytes": 252,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ガリルナガンに搭乗し、アルテウルに絶対服従を誓う少女。",
+    "性格はクールで大人びており、プライドが高い。敵に対しては",
+    "非情で、戦闘中に感情が昂ぶると凶暴な性格が露わになる。"
+   ]
+  },
+  {
+   "id": 111,
+   "section": "STRI",
+   "offset": 41521,
+   "text_offset": 41543,
+   "role": "display",
+   "refs": [
+    "rec118.text"
+   ],
+   "orig_chars": [
+    29,
+    29,
+    28,
+    28,
+    7
+   ],
+   "orig_bytes": 360,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦政府>大統領の直轄部隊「ＧＳ」こと「ガイアセイ",
+    "バーズ」の司令官。<インスペクター事件>前後からニブハル・",
+    "ムブハルを通じてグライエン・グラスマンに接近し、その優秀",
+    "さを認められて大統領特別補佐官の座に就く。冷徹な性格で、",
+    "野心的な人物。"
+   ]
+  },
+  {
+   "id": 112,
+   "section": "STRI",
+   "offset": 41903,
+   "text_offset": 41925,
+   "role": "display",
+   "refs": [
+    "rec119.text"
+   ],
+   "orig_chars": [
+    14,
+    30,
+    29,
+    29,
+    5
+   ],
+   "orig_bytes": 310,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ガイアセイバーズの科学者。",
+    "　かつては<ＤＣ>で<エアロゲイター>の機体に用いられていた",
+    "材質の研究を行い、そのデータを基に<マシンセル>と呼ばれる",
+    "金属細胞を開発していた。また、<ゲイム・システム>の開発者",
+    "でもある。"
+   ]
+  },
+  {
+   "id": 113,
+   "section": "STRI",
+   "offset": 42235,
+   "text_offset": 42253,
+   "role": "display",
+   "refs": [
+    "rec121.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    28,
+    5
+   ],
+   "orig_bytes": 268,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　光龍は「がんろん」と読む。バラルの指揮官的存在。ノリは",
+    "軽めで気障な性格、快楽主義者。常に白い背広を着用してい",
+    "る。なお、孫光龍という名は偽名であり、本名はアクラヴ・ア",
+    "ヴォット。"
+   ]
+  },
+  {
+   "id": 114,
+   "section": "STRI",
+   "offset": 42521,
+   "text_offset": 42539,
+   "role": "display",
+   "refs": [
+    "rec122.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    3
+   ],
+   "orig_bytes": 265,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　バラルの一員。元々は古代日本で繁栄していた王国の王女だ",
+    "ったが、バラルの襲撃を受け、国は壊滅。彼女は優れたシャー",
+    "マン能力を持っていたが故に生け捕られ、以後、バラルに付き",
+    "従う。"
+   ]
+  },
+  {
+   "id": 115,
+   "section": "STRI",
+   "offset": 42804,
+   "text_offset": 42822,
+   "role": "display",
+   "refs": [
+    "rec123.text"
+   ],
+   "orig_chars": [
+    22,
+    27,
+    28,
+    15
+   ],
+   "orig_bytes": 276,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍>極東方面軍伊豆基地の司令官。",
+    "　温和な性格で人当たりは良い。外見は小柄な老人で表情も",
+    "柔和、昼行灯的なイメージがあるが、かつては連邦軍統合参謀",
+    "本部で知将として有名であった。"
+   ]
+  },
+  {
+   "id": 116,
+   "section": "STRI",
+   "offset": 43098,
+   "text_offset": 43116,
+   "role": "display",
+   "refs": [
+    "rec124.text"
+   ],
+   "orig_chars": [
+    19,
+    28,
+    27,
+    18
+   ],
+   "orig_bytes": 276,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍>極東方面軍の前副司令。",
+    "　レイカーの右腕的な存在で、優秀な参謀。神経質な現実主義",
+    "者で融通が利かない所もある。だが、それは損害を少しでも",
+    "抑え、部下達の安否を気遣う故である。"
+   ]
+  },
+  {
+   "id": 117,
+   "section": "STRI",
+   "offset": 43392,
+   "text_offset": 43414,
+   "role": "display",
+   "refs": [
+    "rec125.text"
+   ],
+   "orig_chars": [
+    13,
+    27,
+    27,
+    28,
+    12
+   ],
+   "orig_bytes": 326,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　異世界から来た謎の戦士。",
+    "　彼の肉体は過去の戦いで失われており、ロア・アーマーに",
+    "付いているクリスタルに自らの魂を移植している。そして、",
+    "コウタがロア・アーマーを着込んだ時、彼の意識とリンクし、",
+    "的確なアドバイスを行う。"
+   ]
+  },
+  {
+   "id": 118,
+   "section": "STRI",
+   "offset": 43740,
+   "text_offset": 43766,
+   "role": "display",
+   "refs": [
+    "rec126.text"
+   ],
+   "orig_chars": [
+    16,
+    28,
+    29,
+    29,
+    29,
+    23
+   ],
+   "orig_bytes": 456,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＳＲＸ計画>の主要メンバー。",
+    "　ロボット工学の若き天才。陽気で人なつこい性格で、幼い頃",
+    "からロボットに憧れて育った。<テスラ・ライヒ研究所>でグル",
+    "ンガストシリーズの開発に携わり、現在は極東方面軍の<ＳＲＸ",
+    "計画>に参加している。バーニングＰＴの開発者でもあり、リュ",
+    "ウセイとはロボットの話で盛り上がることが多い。"
+   ]
+  },
+  {
+   "id": 119,
+   "section": "STRI",
+   "offset": 44222,
+   "text_offset": 44244,
+   "role": "display",
+   "refs": [
+    "rec127.text"
+   ],
+   "orig_chars": [
+    16,
+    29,
+    28,
+    27,
+    3
+   ],
+   "orig_bytes": 306,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＳＲＸ計画>の主要メンバー。",
+    "　優秀なエンジニアで、<パーソナルトルーパー>の生みの親の",
+    "一人。冷徹な完璧主義者だが、何故か性格が正反対のロバート",
+    "とは気が合う。また、マリオンとはかつて夫婦だったことも",
+    "ある。"
+   ]
+  },
+  {
+   "id": 120,
+   "section": "STRI",
+   "offset": 44550,
+   "text_offset": 44572,
+   "role": "display",
+   "refs": [
+    "rec128.text"
+   ],
+   "orig_chars": [
+    16,
+    30,
+    28,
+    28,
+    26
+   ],
+   "orig_bytes": 381,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＳＲＸ計画>の主要メンバー。",
+    "　<Ｔ‐ＬＩＮＫシステム>の開発者であり、アヤの父親。かつて",
+    "は脳医学会の異端児として有名であり、日本特殊脳医学研究所",
+    "で「人間に潜在する超能力の回帰」をライフワークとし、研究",
+    "を続けていた。寡黙な性格で、人との関わり合いを嫌う。"
+   ]
+  },
+  {
+   "id": 121,
+   "section": "STRI",
+   "offset": 44953,
+   "text_offset": 44975,
+   "role": "display",
+   "refs": [
+    "rec129.text"
+   ],
+   "orig_chars": [
+    15,
+    27,
+    27,
+    28,
+    7
+   ],
+   "orig_bytes": 309,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＡＴＸ計画>の中心的人物。",
+    "　優秀な科学者だが、ワーカーホリックで自己顕示欲や嫉妬",
+    "心が強い。アルトアイゼンやヴァイスリッターの開発者でも",
+    "あり、現在は<マオ・インダストリー>で新たな試作機の開発",
+    "を行っている。"
+   ]
+  },
+  {
+   "id": 122,
+   "section": "STRI",
+   "offset": 45284,
+   "text_offset": 45310,
+   "role": "display",
+   "refs": [
+    "rec130.text"
+   ],
+   "orig_chars": [
+    17,
+    27,
+    27,
+    28,
+    27,
+    5
+   ],
+   "orig_bytes": 395,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<テスラ・ライヒ研究所>の所長。",
+    "　イルムの父親であり、ロバートの元上司。ロボット工学の",
+    "権威で、その分野においてはかつてのビアン・ゾルダークに",
+    "匹敵する才能の持ち主。だが、本人は気楽な性格をしており、",
+    "冗談好きで女好き。また、グルンガストシリーズの生みの親",
+    "でもある。"
+   ]
+  },
+  {
+   "id": 123,
+   "section": "STRI",
+   "offset": 45705,
+   "text_offset": 45731,
+   "role": "display",
+   "refs": [
+    "rec131.text"
+   ],
+   "orig_chars": [
+    28,
+    7,
+    30,
+    27,
+    27,
+    27
+   ],
+   "orig_bytes": 440,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ＬＴＲ（ロスト・テクノロジー・リサーチ）機構、特殊考古",
+    "学部門の主任。",
+    "　古代中国で作られた“<超機人>”の調査と研究を行っている。",
+    "派手目の外見とは裏腹に知性的で落ち着いた女性。研究に対",
+    "する姿勢は情熱的で周りが見えなくなってしまうことが多々",
+    "ある。また、トラブルに巻き込まれやすいタイプでもある。"
+   ]
+  },
+  {
+   "id": 124,
+   "section": "STRI",
+   "offset": 46171,
+   "text_offset": 46193,
+   "role": "display",
+   "refs": [
+    "rec132.text"
+   ],
+   "orig_chars": [
+    28,
+    29,
+    27,
+    27,
+    6
+   ],
+   "orig_bytes": 352,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　プロジェクト・アーク（種の保存計画）のメンバーであり、",
+    "<アースクレイドル>の管理コンピューター・メイガスの開発者",
+    "でもある。理知的な現実主義者であり、美しい外見も伴って",
+    "他人を寄せ付け難い雰囲気を持つが、他人を思いやる優しい",
+    "心の持ち主。"
+   ]
+  },
+  {
+   "id": 125,
+   "section": "STRI",
+   "offset": 46545,
+   "text_offset": 46563,
+   "role": "display",
+   "refs": [
+    "rec133.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    14
+   ],
+   "orig_bytes": 298,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　修理や救難作業を請け負う「Ｌ＆Ｅコーポレーション」の副",
+    "社長。優秀なエンジニアで、興味のないことはどうでも良いと",
+    "いう反面、興味のあることに対しては最優先で行動し、周りが",
+    "見えなくなることもしばしば。"
+   ]
+  },
+  {
+   "id": 126,
+   "section": "STRI",
+   "offset": 46861,
+   "text_offset": 46907,
+   "role": "display",
+   "refs": [
+    "rec134.text"
+   ],
+   "orig_chars": [
+    13,
+    28,
+    29,
+    28,
+    28,
+    7,
+    28,
+    28,
+    28,
+    28,
+    3
+   ],
+   "orig_bytes": 755,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　コウタとショウコの祖父。",
+    "　浅草にあるアズマ研究所の所長（とは言え、所員と呼べる人",
+    "間は経理担当のショウコぐらいである）。正義感が強い熱血漢。",
+    "面倒見がよく、町内会の会長も務めている。いつも役に立たな",
+    "さそうな発明ばかりしているが、実際には非常に優秀なロボッ",
+    "ト工学の学者。",
+    "　ロアとの出会いをきっかけに、地球を狙う悪の存在を知り、",
+    "彼がもたらしたコンパチブルカイザーの修復を行う。いくつも",
+    "のパテントを持つ大金持ちであったが、財産のほとんどをコン",
+    "パチブルカイザーとその関連施設の建造に注ぎ込んでしまって",
+    "いる。"
+   ]
+  },
+  {
+   "id": 127,
+   "section": "STRI",
+   "offset": 47662,
+   "text_offset": 47692,
+   "role": "display",
+   "refs": [
+    "rec135.text"
+   ],
+   "orig_chars": [
+    16,
+    29,
+    12,
+    28,
+    27,
+    26,
+    8
+   ],
+   "orig_bytes": 433,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<プロジェクトＴＤ>の責任者。",
+    "　元は<ＤＣ>に所属していたロボット工学者で、リオンシリー",
+    "ズの基礎計画者でもある。",
+    "　<ＤＣ>壊滅後は連邦軍の管理下でプロジェクトを継続させ",
+    "るが、シリーズ７７が軍事目的に利用されていることに心を",
+    "痛めている。温和で真面目な性格とその才能により幅広い",
+    "交友関係を持つ。"
+   ]
+  },
+  {
+   "id": 128,
+   "section": "STRI",
+   "offset": 48125,
+   "text_offset": 48143,
+   "role": "display",
+   "refs": [
+    "rec136.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    12
+   ],
+   "orig_bytes": 285,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　カイルやジジ達と共に<ＡＭＮシステム>やＯＤＥシステムの",
+    "開発を行っていた女性。元々はヴィルヘルム・Ｖ・ユルゲン",
+    "博士の研究室にいた優秀な研究員であり、彼の願いを受けて",
+    "プロジェクトへ参加した。"
+   ]
+  },
+  {
+   "id": 129,
+   "section": "STRI",
+   "offset": 48428,
+   "text_offset": 48442,
+   "role": "display",
+   "refs": [
+    "rec137.text"
+   ],
+   "orig_chars": [
+    26,
+    26,
+    6
+   ],
+   "orig_bytes": 177,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ツェントル・プロジェクトに所属しているマン・マシー",
+    "ン・インターフェイスの研究者。ウェンディゴの開発に携",
+    "わっている。"
+   ]
+  },
+  {
+   "id": 130,
+   "section": "STRI",
+   "offset": 48619,
+   "text_offset": 48633,
+   "role": "display",
+   "refs": [
+    "rec138.text"
+   ],
+   "orig_chars": [
+    22,
+    28,
+    18
+   ],
+   "orig_bytes": 207,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　リクセント公国の王女、シャインのお目付役。",
+    "　お転婆なシャインに手を焼きつつも、時には口やかましく、",
+    "時には温かく彼女を見守り続けている。"
+   ]
+  },
+  {
+   "id": 131,
+   "section": "STRI",
+   "offset": 48840,
+   "text_offset": 48862,
+   "role": "display",
+   "refs": [
+    "rec139.text"
+   ],
+   "orig_chars": [
+    17,
+    28,
+    28,
+    27,
+    5
+   ],
+   "orig_bytes": 316,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<マオ・インダストリー>の重役。",
+    "　リオの父親。リンの父親と共にマオ社を創設したメンバーの",
+    "一人であり、現在はリンの右腕的存在となっている。娘には過",
+    "保護気味で、自分の意に反して軍に入った彼女をいつも心配",
+    "している。"
+   ]
+  },
+  {
+   "id": 132,
+   "section": "STRI",
+   "offset": 49178,
+   "text_offset": 49208,
+   "role": "display",
+   "refs": [
+    "rec140.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    27,
+    29,
+    27,
+    4
+   ],
+   "orig_bytes": 507,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　海運業者、プロモーター、情報屋、リゾート・ホテル経営",
+    "者、元ボクシング・チャンピオンなど様々な顔を持つ若き富",
+    "豪。裏社会にも顔が利く。レーツェルとは旧知の中で、クロ",
+    "ガネの補給などを請け負う。「ＡＭバトリング」と呼ばれる",
+    "<アーマードモジュール>を用いた非公式の競技会を取り仕切っ",
+    "ており、自分自身の専用機（ガーリオンの改造機）を所有し",
+    "ている。"
+   ]
+  },
+  {
+   "id": 133,
+   "section": "STRI",
+   "offset": 49715,
+   "text_offset": 49729,
+   "role": "display",
+   "refs": [
+    "rec141.text"
+   ],
+   "orig_chars": [
+    16,
+    27,
+    23
+   ],
+   "orig_bytes": 197,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍>政府の前大統領。",
+    "　元々は１０基のスペースコロニーを統括するコロニー統合",
+    "府の大統領だった。有能な政治家で、平和主義者。"
+   ]
+  },
+  {
+   "id": 134,
+   "section": "STRI",
+   "offset": 49926,
+   "text_offset": 49944,
+   "role": "display",
+   "refs": [
+    "rec142.text"
+   ],
+   "orig_chars": [
+    22,
+    27,
+    27,
+    15
+   ],
+   "orig_bytes": 273,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍>極東方面軍伊豆基地の司令官。",
+    "　権力志向が強い軍人で、物事を力で解決しようとするタイ",
+    "プ。自分の功績ばかりを気にし、部下を酷使している。その",
+    "ため、下からの評判は良くない。"
+   ]
+  },
+  {
+   "id": 135,
+   "section": "STRI",
+   "offset": 50217,
+   "text_offset": 50243,
+   "role": "display",
+   "refs": [
+    "rec143.text"
+   ],
+   "orig_chars": [
+    11,
+    28,
+    28,
+    27,
+    28,
+    16
+   ],
+   "orig_bytes": 420,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　マサキのファミリア。",
+    "　彼の無意識の一部を切り取った使い魔で、性格が似ていない",
+    "のはペルソナの一つだからである。マサキと共にサイバスター",
+    "へ搭乗し、彼のサポートを行う。割とノンビリとした性格を",
+    "しているが、どちらかといえば心配性で、無茶をしがちなシロ",
+    "やマサキをたしなめることが多い。"
+   ]
+  },
+  {
+   "id": 136,
+   "section": "STRI",
+   "offset": 50663,
+   "text_offset": 50685,
+   "role": "display",
+   "refs": [
+    "rec144.text"
+   ],
+   "orig_chars": [
+    11,
+    28,
+    28,
+    27,
+    26
+   ],
+   "orig_bytes": 365,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　マサキのファミリア。",
+    "　彼の無意識の一部を切り取った使い魔で、性格が似ていない",
+    "のはペルソナの一つだからである。マサキと共にサイバスター",
+    "へ搭乗し、彼のサポートを行う。割とノンビリとした性格を",
+    "しているが、どちらかといえば勝ち気な性格で一言多い。"
+   ]
+  },
+  {
+   "id": 137,
+   "section": "STRI",
+   "offset": 51050,
+   "text_offset": 51068,
+   "role": "display",
+   "refs": [
+    "rec145.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    2
+   ],
+   "orig_bytes": 262,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ヤンロンのファミリア。古代中国の幻獣、風生獣の姿をして",
+    "いる。本来は貂のような姿らしいが、ヤンロンの気が変わった",
+    "ため、豹の姿になっている。性格は沈着冷静で、物腰は柔らか",
+    "い。"
+   ]
+  },
+  {
+   "id": 138,
+   "section": "STRI",
+   "offset": 51330,
+   "text_offset": 51344,
+   "role": "display",
+   "refs": [
+    "rec146.text",
+    "rec147.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    22
+   ],
+   "orig_bytes": 237,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　テュッティのファミリア。狼の姿をしている。フレキもゲリ",
+    "もよく似ているため、ほとんど区別はつかない。物腰が柔らか",
+    "で、従順。名前の由来は北欧神話に出て来る狼。"
+   ]
+  },
+  {
+   "id": 139,
+   "section": "STRI",
+   "offset": 51581,
+   "text_offset": 51591,
+   "role": "display",
+   "refs": [
+    "rec148.text"
+   ],
+   "orig_chars": [
+    27,
+    10
+   ],
+   "orig_bytes": 113,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ミオのファミリア。カモノハシの姿をしている。元ネタは",
+    "「西遊記」の孫悟空。"
+   ]
+  },
+  {
+   "id": 140,
+   "section": "STRI",
+   "offset": 51704,
+   "text_offset": 51714,
+   "role": "display",
+   "refs": [
+    "rec149.text"
+   ],
+   "orig_chars": [
+    27,
+    10
+   ],
+   "orig_bytes": 113,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ミオのファミリア。カモノハシの姿をしている。元ネタは",
+    "「西遊記」の猪八戒。"
+   ]
+  },
+  {
+   "id": 141,
+   "section": "STRI",
+   "offset": 51827,
+   "text_offset": 51837,
+   "role": "display",
+   "refs": [
+    "rec150.text"
+   ],
+   "orig_chars": [
+    27,
+    23
+   ],
+   "orig_bytes": 152,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ミオのファミリア。カモノハシの姿をしている。元ネタは",
+    "「西遊記」の沙悟浄。彼だけ何故か関西弁である。"
+   ]
+  },
+  {
+   "id": 142,
+   "section": "STRI",
+   "offset": 51989,
+   "text_offset": 52003,
+   "role": "display",
+   "refs": [
+    "rec151.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    12
+   ],
+   "orig_bytes": 209,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　シュウの使い魔。シュウが地上にいた間は、<ラ・ギアス>で留",
+    "守番をさせられていた。口やかましく、金に汚い。放っておく",
+    "といつまでも喋り続ける。"
+   ]
+  },
+  {
+   "id": 143,
+   "section": "STRI",
+   "offset": 52212,
+   "text_offset": 52230,
+   "role": "display",
+   "refs": [
+    "rec152.text"
+   ],
+   "orig_chars": [
+    13,
+    26,
+    26,
+    3
+   ],
+   "orig_bytes": 204,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦政府>大統領。",
+    "　異星人に対し徹底抗戦を唱えるタカ派の政治家で、その",
+    "容貌と根回しの巧みさから「ウィザード」というあだ名を",
+    "持つ。"
+   ]
+  },
+  {
+   "id": 144,
+   "section": "STRI",
+   "offset": 52434,
+   "text_offset": 52456,
+   "role": "display",
+   "refs": [
+    "rec153.text"
+   ],
+   "orig_chars": [
+    13,
+    27,
+    27,
+    28,
+    21
+   ],
+   "orig_bytes": 345,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<イスルギ重工>の社長。",
+    "　<Ｌ５戦役>時に死亡した前社長レンジ・イスルギの娘。",
+    "　見た目はおっとり系の美人で、物腰や口調も柔らかいが、",
+    "実際はかなりのやり手。自社の利益をあげることを第一とし、",
+    "そのための手段とビジネスの相手は選ばない。"
+   ]
+  },
+  {
+   "id": 145,
+   "section": "STRI",
+   "offset": 52801,
+   "text_offset": 52819,
+   "role": "display",
+   "refs": [
+    "rec154.text"
+   ],
+   "orig_chars": [
+    17,
+    28,
+    28,
+    8
+   ],
+   "orig_bytes": 247,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ツェントル・プロジェクトの主幹。",
+    "　自分の研究のためにガイアセイバーズを利用し、自分もまた",
+    "利用されていることを知りつつ、金と名誉のためにプロジェク",
+    "トを進めている。"
+   ]
+  },
+  {
+   "id": 146,
+   "section": "STRI",
+   "offset": 53066,
+   "text_offset": 53076,
+   "role": "display",
+   "refs": [
+    "rec156.text"
+   ],
+   "orig_chars": [
+    27,
+    19
+   ],
+   "orig_bytes": 140,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　連邦政府大統領特別補佐官。政財界の要人との面識が深い",
+    "が、その素性や過去には不明な点が多い。"
+   ]
+  },
+  {
+   "id": 147,
+   "section": "STRI",
+   "offset": 53216,
+   "text_offset": 53230,
+   "role": "display",
+   "refs": [
+    "rec157.text"
+   ],
+   "orig_chars": [
+    28,
+    26,
+    25
+   ],
+   "orig_bytes": 236,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　かつて<ＥＯＴＩ機関>に所属していた優秀な科学者で、現",
+    "在はツェントル・プロジェクトで新型機動兵器の開発を進",
+    "めている。また、グランゾンの設計者の一人でもある。"
+   ]
+  },
+  {
+   "id": 148,
+   "section": "STRI",
+   "offset": 53466,
+   "text_offset": 53496,
+   "role": "display",
+   "refs": [
+    "rec158.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    30,
+    27,
+    28,
+    11,
+    0
+   ],
+   "orig_bytes": 461,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　元<ＤＣ>所属の優秀なロボット工学者。ガイアセイバーズに所",
+    "属してから、「システムＺＬＡＩ」、「システムＬＩＯＨ」を",
+    "開発。また、<ＤＣ>総帥ビアン・ゾルダークが遺したＤＧＧ３号",
+    "機の設計図を流用して、ジンライを作り上げる。猜疑心が強",
+    "く、他人の評価を気にする小心者で、自分の能力を認めなかっ",
+    "たビアンを激しく憎む。",
+    ""
+   ]
+  },
+  {
+   "id": 149,
+   "section": "STRI",
+   "offset": 53957,
+   "text_offset": 53975,
+   "role": "display",
+   "refs": [
+    "rec159.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    17,
+    25
+   ],
+   "orig_bytes": 294,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　陽気な性格で派手好き。ワイルドな外見をしているが、ノリ",
+    "は軽い。無類の音楽好き。ガーネットの恋人でもあるが、プラ",
+    "イベートでは彼女に頭が上がらない。",
+    "　<Ｌ５戦役>後、軍を辞め、ガーネットと結婚した。"
+   ]
+  },
+  {
+   "id": 150,
+   "section": "STRI",
+   "offset": 54269,
+   "text_offset": 54295,
+   "role": "display",
+   "refs": [
+    "rec160.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    27,
+    14,
+    29,
+    9
+   ],
+   "orig_bytes": 407,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　明るく、おおらかな女性。大雑把で粗雑な所もあり、さらに",
+    "早とちりで少々短絡的、細かいことを気にしないタイプ。他の",
+    "年下の女の子（特にラトゥーニ）に化粧をさせたり、大胆な",
+    "格好をさせたりするのが趣味。",
+    "　<Ｌ５戦役>後、軍を辞め、ジャーダと結婚。双子を出産し、",
+    "現在育児中である。"
+   ]
+  },
+  {
+   "id": 151,
+   "section": "STRI",
+   "offset": 54702,
+   "text_offset": 54720,
+   "role": "display",
+   "refs": [
+    "rec163.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    4
+   ],
+   "orig_bytes": 268,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　リ・テクノロジストの一人で、エール・シュヴァリアーやブ",
+    "ランシュネージュの開発者の一人。風変わりな人物で合理主義",
+    "者。ジョッシュやリムとは仲が良く、彼らのことを気遣う兄的",
+    "な存在。"
+   ]
+  },
+  {
+   "id": 152,
+   "section": "STRI",
+   "offset": 54988,
+   "text_offset": 55006,
+   "role": "display",
+   "refs": [
+    "rec164.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    17
+   ],
+   "orig_bytes": 307,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　南極で発見された遺跡の発掘と研究に従事するリ・テクノロ",
+    "ジストの中心人物。ジョッシュの実父であり、リムの養父。自",
+    "分の研究を何よりも優先し、家庭を顧みなかった。そのことで",
+    "ジョッシュとは何度も衝突している。"
+   ]
+  },
+  {
+   "id": 153,
+   "section": "STRI",
+   "offset": 55313,
+   "text_offset": 55323,
+   "role": "display",
+   "refs": [
+    "rec165.text"
+   ],
+   "orig_chars": [
+    27,
+    26
+   ],
+   "orig_bytes": 161,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　コモディン島でアイビス達が救出した少女。過去の記憶を",
+    "失っており、その素性は不明。大人しく、心優しい性格。"
+   ]
+  },
+  {
+   "id": 154,
+   "section": "STRI",
+   "offset": 55484,
+   "text_offset": 55510,
+   "role": "display",
+   "refs": [
+    "rec166.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    27,
+    28,
+    28,
+    5
+   ],
+   "orig_bytes": 438,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「マシアフ」、「ガンエデンの巫女」とも呼ばれる強念者。",
+    "その役目は人造神ガンエデンのコアとなることと、地球を守護",
+    "しようとする者の力や意思を調査し、バラルへ導くことであ",
+    "る。ただし、彼女はガンエデンに造り出された存在ではなく、",
+    "その素質を見込まれ、マシアフとしての使命と力を与えられた",
+    "者である。"
+   ]
+  },
+  {
+   "id": 155,
+   "section": "STRI",
+   "offset": 55948,
+   "text_offset": 55966,
+   "role": "display",
+   "refs": [
+    "rec168.text"
+   ],
+   "orig_chars": [
+    25,
+    32,
+    28,
+    30
+   ],
+   "orig_bytes": 337,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　スペースノア級万能戦闘母艦参番艦クロガネの艦長。",
+    "　元々は<コロニー統合軍>の軍人で、レーツェルと共に<ＤＣ>へ出",
+    "向し、スペースノア級万能戦闘母艦クロガネの副長を務めた。",
+    "<Ｌ５戦役>後もレーツェルと行動を共にし、クロガネを預かる。"
+   ]
+  },
+  {
+   "id": 156,
+   "section": "STRI",
+   "offset": 56303,
+   "text_offset": 56321,
+   "role": "display",
+   "refs": [
+    "rec175.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28
+   ],
+   "orig_bytes": 340,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　破壊神サーヴァ・ヴォルクルスに仕えるシュウの部下。「紅",
+    "蓮のサフィーネ」の異名を持つ。シュウやルオゾールの命令に",
+    "より、各種の破壊活動や諜報活動、敵対組織のかく乱を行う。",
+    "見た目は妖艶な美女であるが、数多くの倒錯した趣味を持つ。"
+   ]
+  },
+  {
+   "id": 157,
+   "section": "STRI",
+   "offset": 56661,
+   "text_offset": 56675,
+   "role": "display",
+   "refs": [
+    "rec176.text"
+   ],
+   "orig_chars": [
+    28,
+    30,
+    7
+   ],
+   "orig_bytes": 194,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　神聖ラングラン王国の神官で、ソラティス神殿の神官長。マ",
+    "サキ達<魔装機神>操者と縁が深く、ファミリアは彼女によって製",
+    "作されている。"
+   ]
+  },
+  {
+   "id": 158,
+   "section": "STRI",
+   "offset": 56869,
+   "text_offset": 56883,
+   "role": "display",
+   "refs": [
+    "rec177.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    24
+   ],
+   "orig_bytes": 243,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「Ｌ＆Ｅコーポレーション」の一員で、エクサランス・レス",
+    "キューの設計者。健気で頑張り屋。本来の望み通り、新しいエ",
+    "クサランスを救難活動用のマシンとして作り上げた。"
+   ]
+  },
+  {
+   "id": 159,
+   "section": "STRI",
+   "offset": 57126,
+   "text_offset": 57148,
+   "role": "display",
+   "refs": [
+    "rec178.text"
+   ],
+   "orig_chars": [
+    10,
+    26,
+    28,
+    28,
+    10
+   ],
+   "orig_bytes": 311,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　リュウセイの母親。",
+    "　見た目はおっとりしているが、芯のしっかりした女性。",
+    "リュウセイの父親が死んでから、彼を女手一つで育て上げた。",
+    "身体が弱く、入退院を繰り返していたが、現在は快方に向かっ",
+    "ており、自宅療養中。"
+   ]
+  },
+  {
+   "id": 160,
+   "section": "STRI",
+   "offset": 57459,
+   "text_offset": 57477,
+   "role": "display",
+   "refs": [
+    "rec179.text"
+   ],
+   "orig_chars": [
+    32,
+    28,
+    28,
+    5
+   ],
+   "orig_bytes": 275,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<スクール>出身の<ブーステッド・チルドレン>。そのトップであ",
+    "るアウルム・クラスに次ぐアルジャン・クラスの一員だった。",
+    "勝ち気な性格でプライドが高く、手柄を立て、金を稼ぐことに",
+    "固執する。"
+   ]
+  },
+  {
+   "id": 161,
+   "section": "STRI",
+   "offset": 57752,
+   "text_offset": 57770,
+   "role": "display",
+   "refs": [
+    "rec180.text"
+   ],
+   "orig_chars": [
+    32,
+    28,
+    28,
+    6
+   ],
+   "orig_bytes": 278,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<スクール>出身の<ブーステッド・チルドレン>。そのトップであ",
+    "るアウルム・クラスに次ぐアルジャン・クラスの一員だった。",
+    "性格は好戦的で残忍。負け組になることを嫌い、勝ち組になる",
+    "ことに拘る。"
+   ]
+  },
+  {
+   "id": 162,
+   "section": "STRI",
+   "offset": 58048,
+   "text_offset": 58062,
+   "role": "display",
+   "refs": [
+    "rec181.text"
+   ],
+   "orig_chars": [
+    32,
+    28,
+    24
+   ],
+   "orig_bytes": 247,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<スクール>出身の<ブーステッド・チルドレン>。そのトップであ",
+    "るアウルム・クラスに次ぐアルジャン・クラスの一員だった。",
+    "シニカルな性格で、口数は少なく、面倒くさがり屋。"
+   ]
+  },
+  {
+   "id": 163,
+   "section": "STRI",
+   "offset": 58309,
+   "text_offset": 58343,
+   "role": "display",
+   "refs": [
+    "rec182.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    27,
+    28,
+    27,
+    4
+   ],
+   "orig_bytes": 602,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「かなん」と読む。バラルの仙人。物腰は穏やかだが、プラ",
+    "イドが高い。見た目も立ち振る舞いも男性的で、その内面には",
+    "激しさを秘めている。人間を蔑んでいるわけではなく、いまだ",
+    "物の道理を理解していない年の離れた弟妹に、行くべき道を示",
+    "してやらねばならぬという義務感めいた想いを持っている。",
+    "　尸解（しかい；人間の肉体を捨て、仙人になること）を行う",
+    "前は男装の麗人だった。フルネームは「夏喃潤（かなんじゅ",
+    "ん）」。"
+   ]
+  },
+  {
+   "id": 164,
+   "section": "STRI",
+   "offset": 58945,
+   "text_offset": 58971,
+   "role": "display",
+   "refs": [
+    "rec183.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    28,
+    28,
+    7
+   ],
+   "orig_bytes": 447,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「たいほう」と読む。バラルの仙人。「善哉、善哉」と基本",
+    "的に全肯定の人で、事に抗うことも従うことも、生きることも",
+    "死ぬことも無為であると悟っている。夏喃の師匠的存在である",
+    "が、彼女の言動や行動も「善哉、善哉」と認めつつ、自分の娘",
+    "のように接している。フルネームは「泰北三太遊（たいほうさ",
+    "んだゆう）」。"
+   ]
+  },
+  {
+   "id": 165,
+   "section": "STRI",
+   "offset": 59418,
+   "text_offset": 59440,
+   "role": "display",
+   "refs": [
+    "rec184.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    28,
+    27,
+    9
+   ],
+   "orig_bytes": 362,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「ほう」と読む。バラルの獣仙（仙狐）。かつて泰北に命を",
+    "助けられたことがあり、以後、彼を師と仰いで付き従ってい",
+    "る。バラルの情報収集役であり、機人召生符を用いて妖機人を",
+    "召喚し、操る。冷静で物腰は穏やか。フルネームは「蓬瓜尊",
+    "（ほうかそん）」。"
+   ]
+  },
+  {
+   "id": 166,
+   "section": "STRI",
+   "offset": 59802,
+   "text_offset": 59820,
+   "role": "display",
+   "refs": [
+    "rec185.text"
+   ],
+   "orig_chars": [
+    32,
+    27,
+    30,
+    2
+   ],
+   "orig_bytes": 265,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ノイエＤＣ>残党のパイロット。かつて、<ノイエＤＣ>の首魁で",
+    "あったバン・バ・チュンと共にオペレーション・プランタジ",
+    "ネットに参加。その際、<アインスト>の襲撃を受け、顔に傷を負",
+    "う。"
+   ]
+  },
+  {
+   "id": 167,
+   "section": "STRI",
+   "offset": 60085,
+   "text_offset": 60095,
+   "role": "display",
+   "refs": [
+    "rec186.text"
+   ],
+   "orig_chars": [
+    30,
+    26
+   ],
+   "orig_bytes": 166,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<イスルギ重工>に雇われた傭兵。戦闘中も憎しみや敵意で昂ぶ",
+    "ることはなく、淡々と戦闘をこなすが、根は冷酷で残忍。"
+   ]
+  },
+  {
+   "id": 168,
+   "section": "STRI",
+   "offset": 60261,
+   "text_offset": 60267,
+   "role": "display",
+   "refs": [
+    "rec187.text"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "　シュテドニアス軍特殊工作隊の一員で、ザンボスの副官。"
+  },
+  {
+   "id": 169,
+   "section": "STRI",
+   "offset": 60349,
+   "text_offset": 60367,
+   "role": "display",
+   "refs": [
+    "rec188.text"
+   ],
+   "orig_chars": [
+    28,
+    30,
+    28,
+    5
+   ],
+   "orig_bytes": 273,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　アルテウル・シュタインベックの正体。「ゼ・バルマリィ帝",
+    "国監察軍」という異星人勢力の一員で、かつて地球へ<メテオ３>",
+    "を落下させ、さらに自動惑星ネビーイームを太陽系へ送り込ん",
+    "だ張本人。"
+   ]
+  },
+  {
+   "id": 170,
+   "section": "STRI",
+   "offset": 60640,
+   "text_offset": 60650,
+   "role": "display",
+   "refs": [
+    "rec189.text"
+   ],
+   "orig_chars": [
+    27,
+    2
+   ],
+   "orig_bytes": 89,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　フェイル軍の筆頭参謀。優秀な人物だが、少々口やかまし",
+    "い。"
+   ]
+  },
+  {
+   "id": 171,
+   "section": "STRI",
+   "offset": 60739,
+   "text_offset": 60749,
+   "role": "display",
+   "refs": [
+    "rec190.text"
+   ],
+   "orig_chars": [
+    28,
+    2
+   ],
+   "orig_bytes": 92,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　神聖ラングラン王国の大神官で、戴冠式にて即位宣言を行っ",
+    "た。"
+   ]
+  },
+  {
+   "id": 172,
+   "section": "STRI",
+   "offset": 60841,
+   "text_offset": 60855,
+   "role": "display",
+   "refs": [
+    "rec191.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    24
+   ],
+   "orig_bytes": 245,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍>宇宙軍軌道哨戒第３戦隊司令。宇宙軍の中では比",
+    "較的珍しい、地球出身でありながら艦長職に就いた男。鋼龍戦",
+    "隊のような特化戦力の存在を好ましく思っていない。"
+   ]
+  },
+  {
+   "id": 173,
+   "section": "STRI",
+   "offset": 61100,
+   "text_offset": 61110,
+   "role": "display",
+   "refs": [
+    "rec192.text"
+   ],
+   "orig_chars": [
+    29,
+    24
+   ],
+   "orig_bytes": 157,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍>元帥。大局を見据え、清濁を併せ呑む計算高い",
+    "知将。ドライな性格だが、酒と孫をこよなく愛する。"
+   ]
+  },
+  {
+   "id": 174,
+   "section": "STRI",
+   "offset": 61267,
+   "text_offset": 61285,
+   "role": "display",
+   "refs": [
+    "rec193.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    28,
+    2
+   ],
+   "orig_bytes": 264,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍>統合参謀本部議長。階級は大将。ギャスパルの右",
+    "腕的存在。慎重派で官僚気質。そのため、実行派であり、地球",
+    "圏防衛委員会を設立したノーマン・スレイとは馬が合わなかっ",
+    "た。"
+   ]
+  },
+  {
+   "id": 175,
+   "section": "STRI",
+   "offset": 61549,
+   "text_offset": 61575,
+   "role": "display",
+   "refs": [
+    "rec194.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    13,
+    28,
+    28,
+    24
+   ],
+   "orig_bytes": 455,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍>情報部長官。階級は中将。ギリアム・イェーガー",
+    "の上官。政財界に強力なパイプを持つ、相当な切れ者。かつて",
+    "は優秀な特殊工作員だった。",
+    "　ギリアムは彼に絶対の信頼を寄せ、彼もまたギリアムの能力",
+    "を認めている。気に入った女性は必ずお洒落に、スマートに口",
+    "説く。結婚歴が１回あるが、事故で妻を失っている。"
+   ]
+  },
+  {
+   "id": 176,
+   "section": "STRI",
+   "offset": 62030,
+   "text_offset": 62044,
+   "role": "display",
+   "refs": [
+    "rec195.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    13
+   ],
+   "orig_bytes": 212,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦政府>議会の上院議員。アクア・ケントルムの実父。",
+    "性格は真面目。子煩悩で心配性。家を飛び出して軍に入ったア",
+    "クアをいつも心配している。"
+   ]
+  },
+  {
+   "id": 177,
+   "section": "STRI",
+   "offset": 62256,
+   "text_offset": 62270,
+   "role": "display",
+   "refs": [
+    "rec196.text"
+   ],
+   "orig_chars": [
+    32,
+    28,
+    20
+   ],
+   "orig_bytes": 235,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<地球連邦軍>第３特殊作戦<ＰＴ>部隊「クライウルブズ」のメン",
+    "バー。クライウルブズの隊長、アルベロ・エストの息子。気さ",
+    "くな性格で、ヒューゴと特に仲が良かった。"
+   ]
+  }
+ ],
+ "inline_strings": []
+}

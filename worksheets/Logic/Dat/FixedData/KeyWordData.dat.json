@@ -1,0 +1,3922 @@
+{
+ "file": "KeyWordData.dat",
+ "format": "FIXH 1.0 big-endian",
+ "sections": [
+  {
+   "magic": "DOFS",
+   "header_offset": 16,
+   "payload_offset": 24,
+   "size": 260,
+   "count": null
+  },
+  {
+   "magic": "DATA",
+   "header_offset": 284,
+   "payload_offset": 296,
+   "size": 520,
+   "count": 65
+  },
+  {
+   "magic": "SOFS",
+   "header_offset": 816,
+   "payload_offset": 824,
+   "size": 520,
+   "count": null
+  },
+  {
+   "magic": "STRI",
+   "header_offset": 1344,
+   "payload_offset": 1356,
+   "size": 48192,
+   "count": 130
+  }
+ ],
+ "records": {
+  "count": 65,
+  "size": 8
+ },
+ "dofs": {
+  "entries": 65,
+  "unused_ids": 0
+ },
+ "string_fields": [
+  {
+   "offset": 2,
+   "width": 1,
+   "label": "name",
+   "kind": "display"
+  },
+  {
+   "offset": 3,
+   "width": 1,
+   "label": "name_b",
+   "kind": "display"
+  },
+  {
+   "offset": 4,
+   "width": 1,
+   "label": "name_c",
+   "kind": "display"
+  },
+  {
+   "offset": 5,
+   "width": 1,
+   "label": "desc",
+   "kind": "display"
+  }
+ ],
+ "notes": [
+  "Edit 'text' (single-line entries) or 'lines' (multi-line entries / entries with embedded newlines).",
+  "Do not add or remove entries: records reference strings by index.",
+  "role: display = shown in game; comment = developer note (never displayed, safe to leave untranslated); internal = identifier/path; orphan = referenced by no record; unknown = not established."
+ ],
+ "strings": [
+  {
+   "id": 0,
+   "section": "STRI",
+   "offset": 1356,
+   "text_offset": 1362,
+   "role": "display",
+   "refs": [
+    "rec0.name",
+    "rec0.name_b",
+    "rec0.name_c"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ダミー"
+  },
+  {
+   "id": 1,
+   "section": "STRI",
+   "offset": 1372,
+   "text_offset": 1378,
+   "role": "display",
+   "refs": [
+    "rec0.desc"
+   ],
+   "orig_chars": [
+    1
+   ],
+   "orig_bytes": 4,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "　"
+  },
+  {
+   "id": 2,
+   "section": "STRI",
+   "offset": 1382,
+   "text_offset": 1388,
+   "role": "display",
+   "refs": [
+    "rec1.name",
+    "rec1.name_b",
+    "rec1.name_c"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "アースクレイドル"
+  },
+  {
+   "id": 3,
+   "section": "STRI",
+   "offset": 1413,
+   "text_offset": 1467,
+   "role": "display",
+   "refs": [
+    "rec1.desc"
+   ],
+   "orig_chars": [
+    28,
+    25,
+    27,
+    27,
+    12,
+    27,
+    27,
+    19,
+    27,
+    27,
+    17,
+    26,
+    5
+   ],
+   "orig_bytes": 887,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＥＯＴ特別審議会>が推進していたプロジェクト・アーク",
+    "（種の保存計画）において建造中の巨大人工冬眠施設。",
+    "　アフリカ・ケニア地区の地下に存在し、ソフィア・ネート",
+    "博士が開発した自律型のスーパーコンピューター・メイガス",
+    "によって管理されている。",
+    "　来るべきエアロゲイターとの侵略戦争を生き延びるために",
+    "数千人規模の人間が人工冬眠に入る予定であったが、<ＤＣ",
+    "戦争>が勃発したため建造は中断された。",
+    "　戦争終結後、ＤＣ残存部隊に制圧され、彼らの拠点となっ",
+    "たが、クロガネ隊との戦闘で大破。以後は連邦軍の特殊研究",
+    "機関の管轄下に置かれることとなる。",
+    "　なお、月にも同様の施設である「ムーンクレイドル」が",
+    "存在する。"
+   ]
+  },
+  {
+   "id": 4,
+   "section": "STRI",
+   "offset": 2354,
+   "text_offset": 2360,
+   "role": "display",
+   "refs": [
+    "rec2.name",
+    "rec2.name_b",
+    "rec2.name_c"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "アーマードモジュール"
+  },
+  {
+   "id": 5,
+   "section": "STRI",
+   "offset": 2391,
+   "text_offset": 2421,
+   "role": "display",
+   "refs": [
+    "rec2.desc"
+   ],
+   "orig_chars": [
+    26,
+    26,
+    26,
+    27,
+    8,
+    28,
+    15
+   ],
+   "orig_bytes": 467,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　戦闘機から発展した対異星人戦闘用の機動兵器の総称。",
+    "　重力質量・慣性質量分離能を有した高効率反動推進装置",
+    "<テスラ・ドライブ>によって単体での飛行が可能な上、",
+    "戦闘機を凌駕した空中運動性を持つ。ＤＣ戦争中、ＤＣ側の",
+    "主戦力となった。",
+    "　戦争終結後も<イスルギ重工>で生産が続行され、連邦軍の",
+    "主力兵器として運用されている。"
+   ]
+  },
+  {
+   "id": 6,
+   "section": "STRI",
+   "offset": 2888,
+   "text_offset": 2894,
+   "role": "display",
+   "refs": [
+    "rec3.name",
+    "rec3.name_b",
+    "rec3.name_c"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＩＦＦ"
+  },
+  {
+   "id": 7,
+   "section": "STRI",
+   "offset": 2904,
+   "text_offset": 2914,
+   "role": "display",
+   "refs": [
+    "rec3.desc"
+   ],
+   "orig_chars": [
+    24,
+    20
+   ],
+   "orig_bytes": 134,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「Ｉｄｅｎｔｉｆｉｃａｔｉｏｎ　Ｆｒｉｅｎｄ　",
+    "Ｆｏｅ」の略称で、敵味方識別装置のこと。"
+   ]
+  },
+  {
+   "id": 8,
+   "section": "STRI",
+   "offset": 3048,
+   "text_offset": 3054,
+   "role": "display",
+   "refs": [
+    "rec4.name",
+    "rec4.name_b",
+    "rec4.name_c"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "アイドネウス島"
+  },
+  {
+   "id": 9,
+   "section": "STRI",
+   "offset": 3076,
+   "text_offset": 3122,
+   "role": "display",
+   "refs": [
+    "rec4.desc"
+   ],
+   "orig_chars": [
+    26,
+    16,
+    29,
+    27,
+    14,
+    29,
+    26,
+    4,
+    28,
+    27,
+    21
+   ],
+   "orig_bytes": 732,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　南太平洋マーケサズ諸島沖の孤島で、新西暦１７９年に",
+    "謎の隕石メテオ３が落下した場所。",
+    "　その解析のため、同島には<ＥＯＴＩ機関>の本部が置かれ、",
+    "そこで研究された<ＥＯＴ>や対異星人兵器技術はそのまま",
+    "<ＤＣ>の戦力基盤となった。",
+    "　なお、島全体が<ＥＯＴ>機密保持の名目のもとで要塞化され",
+    "ている。要塞は地理的条件から防空と航空戦力主体の構造",
+    "を有す。",
+    "　<Ｌ５戦役>での対セプタギン戦において、施設類はほぼ破",
+    "壊されたが、ＧＳによって改修され、その本拠地となってい",
+    "る。現在の名称は「グランド・クリスマス」。"
+   ]
+  },
+  {
+   "id": 10,
+   "section": "STRI",
+   "offset": 3854,
+   "text_offset": 3860,
+   "role": "display",
+   "refs": [
+    "rec5.name",
+    "rec5.name_b",
+    "rec5.name_c"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "アインスト"
+  },
+  {
+   "id": 11,
+   "section": "STRI",
+   "offset": 3876,
+   "text_offset": 3958,
+   "role": "display",
+   "refs": [
+    "rec5.desc"
+   ],
+   "orig_chars": [
+    26,
+    6,
+    26,
+    27,
+    26,
+    26,
+    26,
+    11,
+    26,
+    26,
+    26,
+    25,
+    26,
+    14,
+    25,
+    26,
+    26,
+    26,
+    26,
+    17
+   ],
+   "orig_bytes": 1409,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　新西暦１８７年から１８８年にかけて地球圏に出現した",
+    "異形の集団。",
+    "　アインストシリーズと呼ばれる謎の生体兵器群を主戦力",
+    "とし、当初は局地での不可解な戦闘行動を繰り返していた。",
+    "明確な意思や知能、コミュニケーション能力を持ったもの",
+    "は、レジセイアと呼ばれる上級のアインストと、アルフィ",
+    "ミィという名の少女ぐらいであり、組織形態はハチやアリ",
+    "などのそれと似ている。",
+    "　また、アインスト自体は太古の昔から異空間（アインス",
+    "ト空間）に存在しており、現世の知的生命体の行動を監視",
+    "していたようだが、詳細は不明。互いに争い続け、宇宙の",
+    "静寂を乱す人間を殲滅し、新たな知的生命体を創り出す",
+    "ことが目的であったが、最終的にアインスト空間と現世を",
+    "つなげ、侵蝕を行おうとする。",
+    "　アインストはハガネ、クロガネ、ヒリュウ改と幾度と",
+    "なく戦い、最終決戦でノイレジセイアがホワイトスターと",
+    "融合。超大型機動兵器シュテルン・ノイレジセイアへ変貌",
+    "するが、クロガネやヒリュウ改に敗れた。なお、シュテル",
+    "ン・ノイレジセイアの消滅後、各地で活動していたアイン",
+    "ストシリーズも同様の運命を辿った。"
+   ]
+  },
+  {
+   "id": 12,
+   "section": "STRI",
+   "offset": 5367,
+   "text_offset": 5373,
+   "role": "display",
+   "refs": [
+    "rec6.name",
+    "rec6.name_b",
+    "rec6.name_c"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 18,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "αリンク系数"
+  },
+  {
+   "id": 13,
+   "section": "STRI",
+   "offset": 5391,
+   "text_offset": 5413,
+   "role": "display",
+   "refs": [
+    "rec6.desc"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    29,
+    10
+   ],
+   "orig_bytes": 356,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<テレキネシスαパルス>の測定数値の表し方の代表例。",
+    "集中力に優れた人間はこの数値が高い傾向にあり、一定値を",
+    "超えると人並み外れた念の力、すなわち念動力を持っている",
+    "ことになる。また、<Ｔ‐ＬＩＮＫシステム>と被験者の適合度",
+    "を見ることができる。"
+   ]
+  },
+  {
+   "id": 14,
+   "section": "STRI",
+   "offset": 5769,
+   "text_offset": 5775,
+   "role": "display",
+   "refs": [
+    "rec7.name",
+    "rec7.name_b",
+    "rec7.name_c"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＥＯＴ"
+  },
+  {
+   "id": 15,
+   "section": "STRI",
+   "offset": 5785,
+   "text_offset": 5819,
+   "role": "display",
+   "refs": [
+    "rec7.desc"
+   ],
+   "orig_chars": [
+    26,
+    27,
+    11,
+    28,
+    27,
+    11,
+    29,
+    25
+   ],
+   "orig_bytes": 552,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　Ｅｘｔｒａ　Ｏｖｅｒ　Ｔｅｃｈｎｏｌｏｇｙの略で、",
+    "アイドネウス島へ落下した隕石「メテオ３」から発見された",
+    "異星人の超技術の総称。",
+    "　ビアン・ゾルダーク博士が責任者を務める<ＥＯＴＩ機関>",
+    "によって解析・研究され、様々な分野、特に軍事技術に革新",
+    "的な進歩をもたらした。",
+    "　ただし、その技術や情報は<ＥＯＴ特別審議会>によって管理",
+    "され、一般社会に応用されることはほとんどなかった。"
+   ]
+  },
+  {
+   "id": 16,
+   "section": "STRI",
+   "offset": 6371,
+   "text_offset": 6377,
+   "role": "display",
+   "refs": [
+    "rec8.name",
+    "rec8.name_b",
+    "rec8.name_c"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＥＯＴＩ機関"
+  },
+  {
+   "id": 17,
+   "section": "STRI",
+   "offset": 6396,
+   "text_offset": 6434,
+   "role": "display",
+   "refs": [
+    "rec8.desc"
+   ],
+   "orig_chars": [
+    23,
+    21,
+    25,
+    29,
+    8,
+    27,
+    23,
+    27,
+    29
+   ],
+   "orig_bytes": 633,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　Ｅｘｔｒａ　Ｏｖｅｒ　Ｔｅｃｈｎｏｌｏｇｙ　",
+    "Ｉｎｑｕｉｒｙ　Ｏｒｇａｎｉｚａｔｉｏｎ。",
+    "　新西暦１８０年、アイドネウス島へ落下した謎の隕石",
+    "「メテオ３」から発見された<ＥＯＴ>を解析・研究するために",
+    "結成された組織。",
+    "　世界中から優秀な科学者が集められ、稀代の天才科学者と",
+    "称されたビアン・ゾルダークが総責任者を務めた。",
+    "　<ＤＣ>の母体となり、ここに所属していた科学者達は、",
+    "引き続き<ＤＣ>で様々な兵器やシステムなどの開発を行った。"
+   ]
+  },
+  {
+   "id": 18,
+   "section": "STRI",
+   "offset": 7067,
+   "text_offset": 7073,
+   "role": "display",
+   "refs": [
+    "rec9.name",
+    "rec9.name_b",
+    "rec9.name_c"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＥＯＴ特別審議会"
+  },
+  {
+   "id": 19,
+   "section": "STRI",
+   "offset": 7098,
+   "text_offset": 7144,
+   "role": "display",
+   "refs": [
+    "rec9.desc"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    24,
+    26,
+    28,
+    27,
+    26,
+    28,
+    8,
+    27,
+    21
+   ],
+   "orig_bytes": 806,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　メテオ３やエアロゲイターにまつわる機密を扱う連邦政府",
+    "の高等機関で、連邦安全保障委員会の主幹メンバー１３名で",
+    "構成される。<ＥＯＴＩ機関>の上位組織でもある。",
+    "　議長は連邦安全保障委員会の副委員長でもあるカール・",
+    "シュトレーゼマン。メテオ３や<ＥＯＴ>の調査結果によって",
+    "エアロゲイターの強大さを知った彼らは、徹底抗戦を唱える",
+    "ビアンを危険視し、彼の動きを監視・妨害していた。そし",
+    "て、それが結果的としてビアンに<ＤＣ>決起を決意させる要",
+    "因の一つとなる。",
+    "　Ｌ５戦役中、カール・シュトレーゼマンを始めとするメン",
+    "バー全員が死亡し、組織自体は消滅している。"
+   ]
+  },
+  {
+   "id": 20,
+   "section": "STRI",
+   "offset": 7950,
+   "text_offset": 7956,
+   "role": "display",
+   "refs": [
+    "rec10.name",
+    "rec10.name_b",
+    "rec10.name_c"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "イスルギ重工"
+  },
+  {
+   "id": 21,
+   "section": "STRI",
+   "offset": 7975,
+   "text_offset": 8013,
+   "role": "display",
+   "refs": [
+    "rec10.desc"
+   ],
+   "orig_chars": [
+    25,
+    27,
+    20,
+    27,
+    29,
+    24,
+    28,
+    26,
+    20
+   ],
+   "orig_bytes": 675,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　造船、発電所設備、航空機などを総合的に扱う企業。",
+    "業界大手で歴史も古い。特に航空宇宙分野では豊富な実績を",
+    "誇り、軍需産業界でも重要な位置を占める。",
+    "　かつては連邦軍へ主力戦闘機Ｆ‐３２シュヴェールトなど",
+    "を供給する一方で<ＥＯＴＩ機関>と関係を持ち、<ＤＣ戦争>",
+    "時には秘密裏にリオンシリーズの量産を行っていた。",
+    "　<Ｌ５戦役>後、皮肉にも同シリーズは連邦軍の主力機とし",
+    "て使用されることになり、安定した生産ラインを確保する",
+    "ため、ＤＣへ荷担した件は不問に付された。"
+   ]
+  },
+  {
+   "id": 22,
+   "section": "STRI",
+   "offset": 8688,
+   "text_offset": 8694,
+   "role": "display",
+   "refs": [
+    "rec11.name",
+    "rec11.name_b",
+    "rec11.name_c"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "インスペクター"
+  },
+  {
+   "id": 23,
+   "section": "STRI",
+   "offset": 8716,
+   "text_offset": 8790,
+   "role": "display",
+   "refs": [
+    "rec11.desc"
+   ],
+   "orig_chars": [
+    26,
+    26,
+    25,
+    17,
+    26,
+    26,
+    26,
+    26,
+    26,
+    28,
+    25,
+    28,
+    26,
+    6,
+    26,
+    25,
+    26,
+    15
+   ],
+   "orig_bytes": 1297,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　インスペクターとは、別の星系より到来し、地球の文明",
+    "を監査していた異星人集団である。飽くなき闘争心を持つ",
+    "地球人類がやがて銀河の秩序を乱すと判断し、地球圏を",
+    "自分達の支配下に置こうと目論んだ。",
+    "　なお、インスペクター（監査官）という名称は、彼らの",
+    "戦闘指揮官であるヴィガジがヒリュウ改との戦闘中、便宜",
+    "的に使用したものであり、それがそのまま地球側のコード",
+    "ネームとなった。故に、彼らの本当の名称は不明である。",
+    "　新西暦１８７年に武力侵攻を開始し、電撃作戦によって",
+    "<ホワイトスター>や月、北米地区主要部を占拠するに至る。",
+    "　しかし、地球連邦軍側の反攻作戦「オペレーション・",
+    "プランタジネット」や、<アインスト>シリーズの大量発生に",
+    "よって起きた混乱に巻き込まれ、地球上からの撤退を余儀",
+    "なくされる。",
+    "　その後、ホワイトスターにおけるクロガネやヒリュウ改",
+    "との決戦で敗れ、総司令官であるウェンドロら主要メン",
+    "バーが戦死。インスペクターは壊滅した。が、彼らは先遣",
+    "部隊に過ぎないという説もある。"
+   ]
+  },
+  {
+   "id": 24,
+   "section": "STRI",
+   "offset": 10087,
+   "text_offset": 10093,
+   "role": "display",
+   "refs": [
+    "rec12.name",
+    "rec12.name_b",
+    "rec12.name_c"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "インスペクター事件"
+  },
+  {
+   "id": 25,
+   "section": "STRI",
+   "offset": 10121,
+   "text_offset": 10167,
+   "role": "display",
+   "refs": [
+    "rec12.desc"
+   ],
+   "orig_chars": [
+    26,
+    11,
+    27,
+    27,
+    27,
+    10,
+    26,
+    27,
+    26,
+    27,
+    6
+   ],
+   "orig_bytes": 731,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　新西暦１８７年から１８８年にかけて起きたインスペク",
+    "ターによる争乱の名称。",
+    "　インスペクターとは、別の星系より到来し、地球の文明を",
+    "監査していた異星人集団。飽くなき闘争心を持つ地球人類が",
+    "やがて銀河の秩序を乱すと判断し、地球圏を自分達の支配下",
+    "に置こうと目論んだ。",
+    "　新西暦１８７年に武力侵攻を開始し、電撃作戦によって",
+    "月や北米地区を占拠するに至る。しかし、その後アインスト",
+    "シリーズの大量発生による混乱に巻き込まれて地球からの",
+    "撤退を余儀なくされ、クロガネやヒリュウ改との決戦に敗れ",
+    "て全滅する。"
+   ]
+  },
+  {
+   "id": 26,
+   "section": "STRI",
+   "offset": 10898,
+   "text_offset": 10904,
+   "role": "display",
+   "refs": [
+    "rec13.name",
+    "rec13.name_b",
+    "rec13.name_c"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ウラヌス・システム"
+  },
+  {
+   "id": 27,
+   "section": "STRI",
+   "offset": 10932,
+   "text_offset": 10990,
+   "role": "display",
+   "refs": [
+    "rec13.desc"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    27,
+    27,
+    27,
+    26,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27
+   ],
+   "orig_bytes": 1143,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　特定の<Ｔ‐ＬＩＮＫシステム>搭載機に取り付けられている",
+    "装置。表向きにはＴ‐ＬＩＮＫシステムの補助装置だが、あ",
+    "る条件下で強制的に起動し、念動力応用装置のみならず機体",
+    "制御や火器管制、ジェネレーターの出力調整まで司る。その",
+    "結果、機体は短時間ながらもカタログデータ以上の性能を発",
+    "揮するが、Ｔ‐ＬＩＮＫシステム使用者の脳や機体に激しい",
+    "負担をかける。「火事場の馬鹿力を誘発するためのシステ",
+    "ム」と表されることもあるが、ウラヌス・システムの詳細を",
+    "知っているのは<ＳＲＸ計画>のごく一部のメンバーのみ。",
+    "　一説によると、このシステムはかつてＳＲＸ計画の中心的",
+    "人物で、エアロゲイターの特殊工作員でもあったイングラム",
+    "・プリスケンがもたらした物であり、その中枢はブラック・",
+    "ボックス化されていて、Ｔ‐ＬＩＮＫシステムの開発者であ",
+    "るケンゾウ・コバヤシ博士にも完全な解析は不可能らしい。"
+   ]
+  },
+  {
+   "id": 28,
+   "section": "STRI",
+   "offset": 12133,
+   "text_offset": 12139,
+   "role": "display",
+   "refs": [
+    "rec14.name",
+    "rec14.name_b",
+    "rec14.name_c"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "エアロゲイター"
+  },
+  {
+   "id": 29,
+   "section": "STRI",
+   "offset": 12161,
+   "text_offset": 12203,
+   "role": "display",
+   "refs": [
+    "rec14.desc"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    22,
+    26,
+    26,
+    26,
+    26,
+    26,
+    4
+   ],
+   "orig_bytes": 721,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　エアロゲイターとはＬ５宙域に突如現れた自動惑星「ネビ",
+    "ーイーム」を拠点とし、昆虫型の機動兵器「メギロート」な",
+    "どで地球圏を襲撃した集団のことである（なお、「エアロゲ",
+    "イター」は地球側でつけられたコードネーム）。",
+    "　彼らは地球人の優れた戦闘能力に着目し、自らの戦力と",
+    "して利用しようと画策したが、Ｌ５戦役の最終作戦「オペ",
+    "レーションＳＲＷ」において地球側に敗北。戦後、彼らの",
+    "正体は何者かに精神操作・調整を受けた地球人であること",
+    "が判明した。なお、この事実は極秘とされ、公にはされて",
+    "いない。"
+   ]
+  },
+  {
+   "id": 30,
+   "section": "STRI",
+   "offset": 12924,
+   "text_offset": 12930,
+   "role": "display",
+   "refs": [
+    "rec15.name",
+    "rec15.name_b",
+    "rec15.name_c"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＡＭ"
+  },
+  {
+   "id": 31,
+   "section": "STRI",
+   "offset": 12937,
+   "text_offset": 12943,
+   "role": "display",
+   "refs": [
+    "rec15.desc"
+   ],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 48,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "　<アーマードモジュール>の略称。"
+  },
+  {
+   "id": 32,
+   "section": "STRI",
+   "offset": 12991,
+   "text_offset": 12997,
+   "role": "display",
+   "refs": [
+    "rec16.name",
+    "rec16.name_b",
+    "rec16.name_c"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＡＭＮシステム"
+  },
+  {
+   "id": 33,
+   "section": "STRI",
+   "offset": 13019,
+   "text_offset": 13053,
+   "role": "display",
+   "refs": [
+    "rec16.desc"
+   ],
+   "orig_chars": [
+    27,
+    6,
+    27,
+    26,
+    14,
+    29,
+    26,
+    2
+   ],
+   "orig_bytes": 467,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ＡＭＮとは、Ａｒｍｏｒｅｄ　Ｍｏｄｕｌｅ　Ｎｅｔｗ‐",
+    "ｏｒｋの略。",
+    "　１機の<アーマードモジュール>が得た戦闘データを迅速",
+    "かつ正確に他機へ伝達し、さらに複数の機体間で共有する",
+    "ためのネットワークシステム。",
+    "　かつての<ＥＯＴＩ機関>や<ＤＣ>で開発が進められていた",
+    "が、相互情報交換速度に難点があり、採用には至らなかっ",
+    "た。"
+   ]
+  },
+  {
+   "id": 34,
+   "section": "STRI",
+   "offset": 13520,
+   "text_offset": 13526,
+   "role": "display",
+   "refs": [
+    "rec17.name",
+    "rec17.name_b",
+    "rec17.name_c"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＡＴＸ計画"
+  },
+  {
+   "id": 35,
+   "section": "STRI",
+   "offset": 13542,
+   "text_offset": 13572,
+   "role": "display",
+   "refs": [
+    "rec17.desc"
+   ],
+   "orig_chars": [
+    16,
+    27,
+    27,
+    15,
+    26,
+    26,
+    6
+   ],
+   "orig_bytes": 428,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　強襲用人型機動兵器の開発計画。",
+    "　<ＳＲＸ計画>と双璧を成すプロジェクトであり、開発責",
+    "任者のマリオン・ラドム博士の意向で<ＥＯＴ>を基本的に",
+    "使用しない機体が作られている。",
+    "　本来の目的は連邦軍の次期主力機の開発であるが、実際",
+    "にはエースパイロットが使用するカスタム機の開発に移行",
+    "しつつある。"
+   ]
+  },
+  {
+   "id": 36,
+   "section": "STRI",
+   "offset": 14000,
+   "text_offset": 14006,
+   "role": "display",
+   "refs": [
+    "rec18.name",
+    "rec18.name_b",
+    "rec18.name_c"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＳＲＸ計画"
+  },
+  {
+   "id": 37,
+   "section": "STRI",
+   "offset": 14022,
+   "text_offset": 14036,
+   "role": "display",
+   "refs": [
+    "rec18.desc"
+   ],
+   "orig_chars": [
+    22,
+    26,
+    10
+   ],
+   "orig_bytes": 173,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　対異星人戦闘用特殊人型機動兵器の開発計画。",
+    "　Ｒシリーズなど<ＥＯＴ>が積極的に応用された機体の",
+    "開発が行われている。"
+   ]
+  },
+  {
+   "id": 38,
+   "section": "STRI",
+   "offset": 14209,
+   "text_offset": 14215,
+   "role": "display",
+   "refs": [
+    "rec19.name",
+    "rec19.name_b",
+    "rec19.name_c"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "エネルギーフィールド"
+  },
+  {
+   "id": 39,
+   "section": "STRI",
+   "offset": 14246,
+   "text_offset": 14280,
+   "role": "display",
+   "refs": [
+    "rec19.desc"
+   ],
+   "orig_chars": [
+    27,
+    26,
+    20,
+    26,
+    26,
+    26,
+    26,
+    9
+   ],
+   "orig_bytes": 566,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　敵の攻撃を無効化させる防御的兵器一般を指す「バリア」",
+    "の内、電磁波、重力波、念動力、光子など何らかの非物質",
+    "エネルギーを直接展開しているタイプの物。",
+    "　攻撃の種類に応じて使い分けるのが一般的。その原理も",
+    "中和、拡散、均質化、圧縮、相殺、歪曲など多岐に渡る。",
+    "　力場表層では、大気中元素などに影響を及ぼしての結晶",
+    "薄膜化現象が起きることがあり、力場消失時に“割れて”",
+    "見えることもある。"
+   ]
+  },
+  {
+   "id": 40,
+   "section": "STRI",
+   "offset": 14846,
+   "text_offset": 14852,
+   "role": "display",
+   "refs": [
+    "rec20.name",
+    "rec20.name_b",
+    "rec20.name_c"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＭＡＰＷ"
+  },
+  {
+   "id": 41,
+   "section": "STRI",
+   "offset": 14865,
+   "text_offset": 14887,
+   "role": "display",
+   "refs": [
+    "rec20.desc"
+   ],
+   "orig_chars": [
+    26,
+    17,
+    27,
+    26,
+    18
+   ],
+   "orig_bytes": 347,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　Ｍａｓｓ　Ａｍｐｌｉｔｕｄｅ　Ｐｒｅｅｍｐｔｉｖｅ",
+    "ｓｔｒｉｋｅ　Ｗｅａｐｏｎの略称。",
+    "　大量広域先制攻撃兵器のこと。なお、ＭＡＰＷは影響範囲",
+    "に応じ直線発射系、円型放射系、着弾点散布系などに大別",
+    "される。「マップ兵器」とも呼ばれる。"
+   ]
+  },
+  {
+   "id": 42,
+   "section": "STRI",
+   "offset": 15234,
+   "text_offset": 15240,
+   "role": "display",
+   "refs": [
+    "rec21.name",
+    "rec21.name_b",
+    "rec21.name_c"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "Ｌ５戦役"
+  },
+  {
+   "id": 43,
+   "section": "STRI",
+   "offset": 15253,
+   "text_offset": 15303,
+   "role": "display",
+   "refs": [
+    "rec21.desc"
+   ],
+   "orig_chars": [
+    28,
+    24,
+    26,
+    26,
+    26,
+    8,
+    26,
+    26,
+    26,
+    26,
+    26,
+    4
+   ],
+   "orig_bytes": 824,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　新西暦１８７年、<ＤＣ>戦争後に起きたエアロゲイターに",
+    "よる争乱の名称。「エルファイブせんえき」と読む。",
+    "　エアロゲイターとはＬ５宙域に突如現れた自動惑星「ネ",
+    "ビーイーム（コードネーム；ホワイトスター）」を拠点と",
+    "し、昆虫型の機動兵器「メギロート」などで地球圏を襲撃",
+    "した集団である。",
+    "　彼らは地球人の優れた戦闘能力に着目し、自らの戦力と",
+    "して利用しようと画策したが、Ｌ５戦役の最終作戦「オペ",
+    "レーションＳＲＷ」において地球側に敗北。戦後、彼らの",
+    "正体は何者かに精神操作・調整を受けた地球人であること",
+    "が判明した。なお、この事実は極秘とされ、公にはされて",
+    "いない。"
+   ]
+  },
+  {
+   "id": 44,
+   "section": "STRI",
+   "offset": 16127,
+   "text_offset": 16133,
+   "role": "display",
+   "refs": [
+    "rec22.name",
+    "rec22.name_b",
+    "rec22.name_c"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "エルピス"
+  },
+  {
+   "id": 45,
+   "section": "STRI",
+   "offset": 16146,
+   "text_offset": 16248,
+   "role": "display",
+   "refs": [
+    "rec22.desc"
+   ],
+   "orig_chars": [
+    26,
+    3,
+    28,
+    3,
+    27,
+    27,
+    27,
+    27,
+    26,
+    27,
+    14,
+    27,
+    27,
+    4,
+    26,
+    27,
+    27,
+    28,
+    18,
+    26,
+    27,
+    26,
+    27,
+    27,
+    7
+   ],
+   "orig_bytes": 1694,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　新西暦０７５年に完成した人類初の密閉型スペースコロ",
+    "ニー。",
+    "　コロニー統合府と、<コロニー統合軍>総司令部が置かれて",
+    "いる。",
+    "　新西暦１８０年代に至るまでのスペースコロニーの歴史は",
+    "苦難の連続で、まず０７６年には第一次宇宙移民に施された",
+    "宇宙環境適応手術の失敗による内乱、１５７年には独立自治",
+    "権獲得を目的とした大型テロ事件（ノゾミ事件）、１７２年",
+    "にはコロニー隔壁爆破事件（ホープ事件）、１８４年には",
+    "ＢＣ兵器によるテロ事件（エルピス事件）が発生し、それぞ",
+    "れ多くの死亡者を出している。",
+    "　しかし、１６０年代初めから、平和的な手段で地球連邦政",
+    "府からの独立自治権を得ようとする運動（ＮＩＤ４）が展開",
+    "された。",
+    "　指導者のブライアン・ミッドクリッドは地球側の世論を",
+    "味方につけ、１８４年にコロニーを独立させることに成功、",
+    "コロニー統合府の初代大統領に就任した（同時にコロニーに",
+    "駐留していた地球連邦宇宙軍が<コロニー統合軍>として再編",
+    "成され、マイヤーが総司令官に就任）。",
+    "　なお、スペースコロニーは１０基あり、１号基はエルピ",
+    "ス、２号基はノゾミ、３号基はホフヌング、４号基はウィッ",
+    "シュ、５号基はエスポワール、６号基はホープ、７号基は",
+    "スペース、８号基はエスペランサ、９号基はスペランツァ、",
+    "１０号基はナディエジーダと名付けられ、全基がＬ４宙域に",
+    "存在している。"
+   ]
+  },
+  {
+   "id": 46,
+   "section": "STRI",
+   "offset": 17942,
+   "text_offset": 17948,
+   "role": "display",
+   "refs": [
+    "rec23.name",
+    "rec23.name_b",
+    "rec23.name_c"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "教導隊"
+  },
+  {
+   "id": 47,
+   "section": "STRI",
+   "offset": 17958,
+   "text_offset": 17964,
+   "role": "display",
+   "refs": [
+    "rec23.desc"
+   ],
+   "orig_chars": [
+    14
+   ],
+   "orig_bytes": 39,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "　<特殊戦技教導隊>のこと。"
+  },
+  {
+   "id": 48,
+   "section": "STRI",
+   "offset": 18003,
+   "text_offset": 18009,
+   "role": "display",
+   "refs": [
+    "rec24.name",
+    "rec24.name_b",
+    "rec24.name_c"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ゲイム・システム"
+  },
+  {
+   "id": 49,
+   "section": "STRI",
+   "offset": 18034,
+   "text_offset": 18072,
+   "role": "display",
+   "refs": [
+    "rec24.desc"
+   ],
+   "orig_chars": [
+    29,
+    26,
+    16,
+    27,
+    27,
+    27,
+    26,
+    26,
+    10
+   ],
+   "orig_bytes": 647,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　巨大人工冬眠施設<アースクレイドル>の科学者、イーグレッ",
+    "ト・フェフがアードラーの支援を受けて開発を進めている",
+    "マン・マシン・インターフェイス。",
+    "　パイロットと機体をダイレクト・リンクさせ、よりスムー",
+    "ズに機体制御を行うためのシステム。また、機体側からパイ",
+    "ロットに干渉し、強制的に闘争心や反応速度などを向上させ",
+    "る機能も備わっている。現時点では、このシステムを使う",
+    "パイロットは何らかの強化措置を受けなければ、長時間の",
+    "使用に耐えられない。"
+   ]
+  },
+  {
+   "id": 50,
+   "section": "STRI",
+   "offset": 18719,
+   "text_offset": 18725,
+   "role": "display",
+   "refs": [
+    "rec25.name",
+    "rec25.name_b",
+    "rec25.name_c"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "コロニー統合軍"
+  },
+  {
+   "id": 51,
+   "section": "STRI",
+   "offset": 18747,
+   "text_offset": 18825,
+   "role": "display",
+   "refs": [
+    "rec25.desc"
+   ],
+   "orig_chars": [
+    27,
+    25,
+    16,
+    26,
+    27,
+    26,
+    23,
+    26,
+    26,
+    26,
+    27,
+    27,
+    27,
+    27,
+    27,
+    6,
+    26,
+    26,
+    10
+   ],
+   "orig_bytes": 1372,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　新西暦１８４年、１０基のスペースコロニーが統合されて",
+    "独立国家となった際、それまでコロニーに駐在していた",
+    "地球連邦宇宙軍を再編成した軍隊。",
+    "　名目上は別組織だが、実際は連邦軍の管轄下に置かれて",
+    "いるといっても良い（コロニー統合軍の一部将校はこのこと",
+    "に不満を抱いている）。高度な宙間作戦任務、宙間戦闘を",
+    "こなす必要があるため、優秀な人材が揃っている。",
+    "　新西暦１８６年末、ＤＣと共に連邦政府並びに連邦軍へ",
+    "宣戦布告。当時の在宙戦力のほとんどがコロニー統合軍で",
+    "占められていたため、短期間での制宙圏獲得に成功した。",
+    "　その後は地上で展開されるＤＣの作戦を支援していたが、",
+    "総司令マイヤー・Ｖ・ブランシュタインの戦死をきっかけと",
+    "して、連邦軍へ降伏した。だが、それは来るべき異星人との",
+    "決戦に備えてのことであり、事実Ｌ５戦役の最終作戦である",
+    "「オペレーションＳＲＷ」には、多くのコロニー統合軍部隊",
+    "が参加した。",
+    "　戦後は連邦軍の管轄下となり、上層部がすげ替えられて",
+    "その名が形骸化するものの、在宙戦力の大半を占めている",
+    "ことに変わりはない。"
+   ]
+  },
+  {
+   "id": 52,
+   "section": "STRI",
+   "offset": 20197,
+   "text_offset": 20203,
+   "role": "display",
+   "refs": [
+    "rec26.name",
+    "rec26.name_b",
+    "rec26.name_c"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "シャドウミラー"
+  },
+  {
+   "id": 53,
+   "section": "STRI",
+   "offset": 20225,
+   "text_offset": 20263,
+   "role": "display",
+   "refs": [
+    "rec26.desc"
+   ],
+   "orig_chars": [
+    26,
+    10,
+    27,
+    28,
+    7,
+    27,
+    27,
+    27,
+    7
+   ],
+   "orig_bytes": 563,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　空間・次元転移装置「システムＸＮ」によって並行世界",
+    "からやってきた集団。",
+    "　その前身は、並行世界での地球連邦軍特殊任務実行部隊。",
+    "<Ｌ５戦役>後から暗躍し、ＤＣ残党に協力してその軍事蜂起",
+    "を手助けした。",
+    "　彼らはシステムＸＮをより完全なものにし、その量産型を",
+    "搭載した機動兵器や「Ｗシリーズ」と呼ばれる人造人間達に",
+    "よって戦争状態の維持を目論んだが、ハガネやヒリュウ改に",
+    "打ち倒される。"
+   ]
+  },
+  {
+   "id": 54,
+   "section": "STRI",
+   "offset": 20826,
+   "text_offset": 20832,
+   "role": "display",
+   "refs": [
+    "rec27.name",
+    "rec27.name_b",
+    "rec27.name_c"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "修羅神"
+  },
+  {
+   "id": 55,
+   "section": "STRI",
+   "offset": 20842,
+   "text_offset": 20940,
+   "role": "display",
+   "refs": [
+    "rec27.desc"
+   ],
+   "orig_chars": [
+    27,
+    11,
+    27,
+    27,
+    18,
+    27,
+    28,
+    28,
+    27,
+    27,
+    27,
+    20,
+    27,
+    27,
+    27,
+    28,
+    27,
+    8,
+    27,
+    27,
+    18,
+    27,
+    27,
+    9
+   ],
+   "orig_bytes": 1743,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　修羅神とは修羅が使用する兵器であり、繰者の生体エネル",
+    "ギーによって稼動する。",
+    "　「烈級」、「轟級」、「超級」などのランクが存在し、最",
+    "下層の烈級修羅神は一定以上の覇気（生命エネルギー）と技",
+    "能を持つ修羅であれば搭乗可能である。",
+    "　しかし、轟級や超級の修羅神はさらに乗り手を選び、その",
+    "繰者となるには相応の実力と試練、儀式が必要となる。また、",
+    "一度繰者が決定し、その者が死ぬまでの間は、他者が搭乗し、",
+    "操ることは基本的に不可能。一説によると轟級や超級の修羅",
+    "神は意思のようなものを持ち、自らが繰者として認めた者で",
+    "ないと搭乗を許さないと言う（非適格者が搭乗した場合は、",
+    "修羅神に覇気を吸い尽くされ、死亡する）。",
+    "　また、轟級以上の修羅神は、ロストテクノロジーで作られ",
+    "ており、現状の修羅達は新たな機体を開発することが出来な",
+    "い。そのため、轟級や超級の修羅神の数は限られており、中",
+    "には数百年にわたって使い続けられているものもある。また、",
+    "繰者が見つからぬまま封印されている修羅神もいくつか存在",
+    "しているらしい。",
+    "　轟級の修羅神の繰者は、修羅達の中でも一目置かれ、一定",
+    "の権限を持つ。また、修羅の将軍の座に就くには、超級修羅",
+    "神の繰者となることが必須条件となる。",
+    "　なお、烈級修羅神は、残存する轟級修羅神を参考にして作",
+    "られたものであり、性能は大幅に低下しているものの量産が",
+    "可能となっている。"
+   ]
+  },
+  {
+   "id": 56,
+   "section": "STRI",
+   "offset": 22683,
+   "text_offset": 22689,
+   "role": "display",
+   "refs": [
+    "rec28.name",
+    "rec28.name_b",
+    "rec28.name_c"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "修羅の乱"
+  },
+  {
+   "id": 57,
+   "section": "STRI",
+   "offset": 22702,
+   "text_offset": 22760,
+   "role": "display",
+   "refs": [
+    "rec28.desc"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    27,
+    27,
+    29,
+    29,
+    27,
+    27,
+    27,
+    27,
+    12,
+    27,
+    18
+   ],
+   "orig_bytes": 1080,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　異世界「修羅界」より地球圏へ転移した戦闘集団「修羅」",
+    "による戦乱。修羅界は滅亡の危機に瀕しており、その中の一",
+    "国「羅国」の王・アルカイドは、次元転移機能を有した剣状",
+    "の巨大構造物「転空魔城（地球側でのコードネームはソーデ",
+    "ィアン）」に修羅達を導き、新天地を求めて次元転移を行っ",
+    "た。そして、彼らは<インスペクター事件>後の地球圏に辿り着",
+    "き、<修羅神>と呼ばれる機動兵器を用いて、地球各地を侵攻し",
+    "た。いくつかの都市が修羅によって制圧されたが、ハガネと",
+    "ヒリュウ改の部隊が転空魔城内への突入作戦「オペレーショ",
+    "ン・オーバーゲート」を敢行。修羅の生き様に疑問を感じ、",
+    "地球人側に味方するフォルカ・アルバークらと共にアルカイ",
+    "ドを倒すことに成功した。",
+    "　戦乱終結後、フォルカは生き残った修羅達と共に転空魔城",
+    "で次元転移を行い、地球圏から去った。"
+   ]
+  },
+  {
+   "id": 58,
+   "section": "STRI",
+   "offset": 23840,
+   "text_offset": 23846,
+   "role": "display",
+   "refs": [
+    "rec29.name",
+    "rec29.name_b",
+    "rec29.name_c"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "スクール"
+  },
+  {
+   "id": 59,
+   "section": "STRI",
+   "offset": 23859,
+   "text_offset": 23961,
+   "role": "display",
+   "refs": [
+    "rec29.desc"
+   ],
+   "orig_chars": [
+    27,
+    29,
+    29,
+    27,
+    27,
+    7,
+    26,
+    27,
+    11,
+    26,
+    27,
+    27,
+    27,
+    27,
+    27,
+    22,
+    26,
+    26,
+    27,
+    5,
+    27,
+    17,
+    27,
+    27,
+    28
+   ],
+   "orig_bytes": 1822,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　かつて連邦軍内に存在していた人型機動兵器パイロットの",
+    "養成機関。<特殊戦技教導隊>の結成とほぼ同時に設立された。",
+    "　当初は既存兵器のパイロットに<パーソナルトルーパー>など",
+    "人型機動兵器への機種転換訓練を実施していたが、アードラ",
+    "ー・コッホがスクールの責任者となってからは、その目指す",
+    "所が一変した。",
+    "　彼は、既存兵器のパイロットを機種転換させるのではな",
+    "く、最初から人型機動兵器に乗ることを前提としたパイロッ",
+    "トを養成しようとした。",
+    "　そして、彼は係累がなく、反射神経や動体視力に優れた",
+    "子供達を極秘裏に集めた。さらに日本特殊脳医学研究所から",
+    "アギラ・セトメ博士を招へいし、子供達の記憶消去や操作を",
+    "担当させた。その上でアードラーは彼らに精神操作や薬物投",
+    "与を行い、特殊訓練を施した。彼は人型機動兵器の操縦や戦",
+    "闘に特化した能力を持つ人間……「ブーステッド・チルドレ",
+    "ン」を“短期間”で作り出そうとしたのである。",
+    "　子供達はアウルム（金）、アルジャン（銀）、ブロンゾ",
+    "（青銅）、イエロ（鉄）、ラトゥーニ（真鍮）など金属の",
+    "名称を持ったクラスに分けられ、様々な用途に応じた調整を",
+    "施された。",
+    "　だが、強引な手法がたたってか、優秀な成績を出すまでに",
+    "至った子供達はごくわずかであった。",
+    "　そして、非人道的な育成方法とそれに見合わぬ結果が問題",
+    "となり、スクールは解散。しかし、ブーステッド・チルドレ",
+    "ンの訓練は、場所を<ＤＣ>に移して続けられることとなる。"
+   ]
+  },
+  {
+   "id": 60,
+   "section": "STRI",
+   "offset": 25783,
+   "text_offset": 25789,
+   "role": "display",
+   "refs": [
+    "rec30.name",
+    "rec30.name_b",
+    "rec30.name_c"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "地球連邦軍"
+  },
+  {
+   "id": 61,
+   "section": "STRI",
+   "offset": 25805,
+   "text_offset": 25831,
+   "role": "display",
+   "refs": [
+    "rec30.desc"
+   ],
+   "orig_chars": [
+    25,
+    7,
+    26,
+    25,
+    26,
+    27
+   ],
+   "orig_bytes": 414,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　旧西暦の国連特別軍が礎となった地球連邦政府管轄の",
+    "国際軍事組織。",
+    "　連邦政府成立時の特殊状況から、経済や行政等が従来の",
+    "国家間調整に留まっているのに対し、軍事は最も明確に",
+    "地球規模で統括された構造を持つ。旧西暦時代の国家軍事",
+    "組織が母体となっているため、各方面軍ごとに特徴がある。"
+   ]
+  },
+  {
+   "id": 62,
+   "section": "STRI",
+   "offset": 26245,
+   "text_offset": 26251,
+   "role": "display",
+   "refs": [
+    "rec31.name",
+    "rec31.name_b",
+    "rec31.name_c"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "地球連邦政府"
+  },
+  {
+   "id": 63,
+   "section": "STRI",
+   "offset": 26270,
+   "text_offset": 26300,
+   "role": "display",
+   "refs": [
+    "rec31.desc"
+   ],
+   "orig_chars": [
+    27,
+    26,
+    10,
+    27,
+    26,
+    27,
+    22
+   ],
+   "orig_bytes": 502,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　旧西暦２０１２年の隕石災害（ダブル・インパクト）以降",
+    "の世界的混乱を経て、国際連合内の暫定組織から発展した",
+    "地球規模の政治機構。",
+    "　旧来の各国家＝自治体の集合体上に存在する国際的な管理",
+    "機関ではあるが、全地球人類の政治機能が単一に集まった",
+    "わけではなく、成立以前の中・小規模紛争などの国際問題も",
+    "各自治体間にそのまま引き継いでしまっている。"
+   ]
+  },
+  {
+   "id": 64,
+   "section": "STRI",
+   "offset": 26802,
+   "text_offset": 26808,
+   "role": "display",
+   "refs": [
+    "rec32.name",
+    "rec32.name_b",
+    "rec32.name_c"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "超機人"
+  },
+  {
+   "id": 65,
+   "section": "STRI",
+   "offset": 26818,
+   "text_offset": 26860,
+   "role": "display",
+   "refs": [
+    "rec32.desc"
+   ],
+   "orig_chars": [
+    27,
+    26,
+    26,
+    27,
+    27,
+    27,
+    16,
+    27,
+    27,
+    12
+   ],
+   "orig_bytes": 736,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「百邪」と呼ばれる悪魔や妖怪と戦うために古代中国人が",
+    "作り出した半生体兵器の称号。自律型思考回路を持ってお",
+    "り、単独でも行動できるが、内部に自らが操縦者と認めた",
+    "念動力者（強念者）が搭乗しなければ、本来の力を発揮しな",
+    "い。なお、場合によっては普通の人間が搭乗・操縦すること",
+    "も出来るが、代償として魂力（生命の力）を超機人に吸収さ",
+    "れ、最悪の場合は死亡してしまう。",
+    "　超機人には「四霊」、「四神」、「四凶」などのランクが",
+    "あり、龍虎王や虎龍王以外の機体も存在していると思われる",
+    "が、詳細は定かではない。"
+   ]
+  },
+  {
+   "id": 66,
+   "section": "STRI",
+   "offset": 27596,
+   "text_offset": 27602,
+   "role": "display",
+   "refs": [
+    "rec33.name",
+    "rec33.name_b",
+    "rec33.name_c"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "調和の結界"
+  },
+  {
+   "id": 67,
+   "section": "STRI",
+   "offset": 27618,
+   "text_offset": 27632,
+   "role": "display",
+   "refs": [
+    "rec33.desc"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    15
+   ],
+   "orig_bytes": 212,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　『調和の塔』と呼ばれる塔から、<ラ・ギアス>全土を覆って",
+    "いる特殊な結界。全世界に向けて魔力を供給し、さらに大規",
+    "模な魔法の使用を制限している。"
+   ]
+  },
+  {
+   "id": 68,
+   "section": "STRI",
+   "offset": 27844,
+   "text_offset": 27850,
+   "role": "display",
+   "refs": [
+    "rec34.name",
+    "rec34.name_b",
+    "rec34.name_c"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "Ｄコン"
+  },
+  {
+   "id": 69,
+   "section": "STRI",
+   "offset": 27860,
+   "text_offset": 27866,
+   "role": "display",
+   "refs": [
+    "rec34.desc"
+   ],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 52,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "　一般的な高性能携帯端末機の名称。"
+  },
+  {
+   "id": 70,
+   "section": "STRI",
+   "offset": 27918,
+   "text_offset": 27924,
+   "role": "display",
+   "refs": [
+    "rec35.name",
+    "rec35.name_b",
+    "rec35.name_c"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＤＣ"
+  },
+  {
+   "id": 71,
+   "section": "STRI",
+   "offset": 27931,
+   "text_offset": 27937,
+   "role": "display",
+   "refs": [
+    "rec35.desc"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 57,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "　<ディバイン・クルセイダーズ>の略称。"
+  },
+  {
+   "id": 72,
+   "section": "STRI",
+   "offset": 27994,
+   "text_offset": 28000,
+   "role": "display",
+   "refs": [
+    "rec36.name",
+    "rec36.name_b",
+    "rec36.name_c"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＴＣ‐ＯＳ"
+  },
+  {
+   "id": 73,
+   "section": "STRI",
+   "offset": 28016,
+   "text_offset": 28074,
+   "role": "display",
+   "refs": [
+    "rec36.desc"
+   ],
+   "orig_chars": [
+    26,
+    17,
+    29,
+    27,
+    27,
+    27,
+    20,
+    27,
+    26,
+    27,
+    23,
+    27,
+    27,
+    25
+   ],
+   "orig_bytes": 1075,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　タクティカル・サイバネティクス・オペレーティング・",
+    "システム（戦術的動作思考型ＯＳ）。",
+    "　<パーソナルトルーパー>を始めとする人型機動兵器のＯＳ。",
+    "例えば、「敵機を殴る」という行動をパイロットが選択した",
+    "場合、現在の自機の位置と敵機の位置を計算し、機体に蓄積",
+    "されている複数のモーションパターンデータの中から、最も",
+    "効率的かつ適切な物を人工知能が選択する。",
+    "　これにより、パイロットは人型機動兵器の繁雑な操縦から",
+    "解放され、状況判断に徹して最小限の操作を行うだけで、",
+    "機体自身がオートマチックに適切なモーションを選び、パイ",
+    "ロットが意図した行動を達成してくれるのである。",
+    "　さらにモーションパターンデータの種類や実行の優先順位",
+    "はパイロットが任意に設定出来るため、自身の好みや操縦の",
+    "クセに合わせて機体の動きを最適化することが出来る。"
+   ]
+  },
+  {
+   "id": 74,
+   "section": "STRI",
+   "offset": 29149,
+   "text_offset": 29155,
+   "role": "display",
+   "refs": [
+    "rec37.name",
+    "rec37.name_b",
+    "rec37.name_c"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＤＣ戦争"
+  },
+  {
+   "id": 75,
+   "section": "STRI",
+   "offset": 29168,
+   "text_offset": 29198,
+   "role": "display",
+   "refs": [
+    "rec37.desc"
+   ],
+   "orig_chars": [
+    27,
+    5,
+    27,
+    26,
+    26,
+    26,
+    19
+   ],
+   "orig_bytes": 467,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　新西暦１８６年末から１８７年にかけて起きた<ＤＣ>に",
+    "よる争乱。",
+    "　地球連邦政府及び連邦軍へ反旗を翻し、<アーマードモジ",
+    "ュール>による電撃作戦で地球圏各地の軍事拠点の制圧に",
+    "成功。しかし、ハガネによるアイドネウス島奇襲作戦で、",
+    "総帥であるビアン・ゾルダークが戦死。彼を失ったＤＣは",
+    "組織に混乱をきたし、連邦軍に敗北した。"
+   ]
+  },
+  {
+   "id": 76,
+   "section": "STRI",
+   "offset": 29665,
+   "text_offset": 29671,
+   "role": "display",
+   "refs": [
+    "rec38.name",
+    "rec38.name_b",
+    "rec38.name_c"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "Ｔ‐ＬＩＮＫシステム"
+  },
+  {
+   "id": 77,
+   "section": "STRI",
+   "offset": 29702,
+   "text_offset": 29764,
+   "role": "display",
+   "refs": [
+    "rec38.desc"
+   ],
+   "orig_chars": [
+    27,
+    14,
+    26,
+    26,
+    6,
+    27,
+    27,
+    11,
+    27,
+    26,
+    19,
+    27,
+    19,
+    25,
+    23
+   ],
+   "orig_bytes": 999,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＳＲＸ計画>に参加しているケンゾウ・コバヤシ博士が",
+    "開発した念動力感知増幅装置。",
+    "　人の思念を司る特殊な深層脳波「Ｔ‐αパルス」を抽出",
+    "し、それによって物体の運動制御や機動兵器類の操縦補助",
+    "などを行う。",
+    "　また、念動フィールドと呼ばれる力場を発生させることも",
+    "でき、防御壁を展開したり、力場自体を敵機にぶつけて損傷",
+    "を与えることも出来る。",
+    "　さらに思念の増幅によってシステム使用者の特殊な認識力",
+    "（触感に近い第六感）が広範囲で展開されるため、敵機の",
+    "捕捉や位置の把握もある程度可能となる。",
+    "　ただし、システムの機能は使用者の精神状態に左右され、",
+    "過度のリンクは脳に著しい負担をかける。",
+    "　なお、一定値以上のＴ‐αパルスが検出された人間を",
+    "ケンゾウのプロジェクトでは「念動力者」と呼ぶ。"
+   ]
+  },
+  {
+   "id": 78,
+   "section": "STRI",
+   "offset": 30763,
+   "text_offset": 30769,
+   "role": "display",
+   "refs": [
+    "rec39.name",
+    "rec39.name_b",
+    "rec39.name_c"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ディバイン・クルセイダーズ"
+  },
+  {
+   "id": 79,
+   "section": "STRI",
+   "offset": 30809,
+   "text_offset": 30911,
+   "role": "display",
+   "refs": [
+    "rec39.desc"
+   ],
+   "orig_chars": [
+    25,
+    23,
+    25,
+    24,
+    27,
+    27,
+    27,
+    27,
+    28,
+    14,
+    27,
+    26,
+    26,
+    27,
+    27,
+    19,
+    25,
+    27,
+    27,
+    27,
+    3,
+    27,
+    26,
+    27,
+    27
+   ],
+   "orig_bytes": 1854,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　異星人の侵略を予見したビアン・ゾルダーク博士が、",
+    "<ＥＯＴＩ機関>を母体として結成した軍事結社。",
+    "　その目的は地球侵略を目論む異星人に対抗するため、",
+    "地球圏に強大な軍事政権を打ち立てることであった。",
+    "　ＥＯＴＩ機関のメンバー以外にも連邦政府の要員や連邦軍",
+    "の一部軍人、反地球連邦主義者や民族解放戦線の闘士達が参",
+    "加しており、<コロニー統合軍>も協力態勢を示していた。",
+    "　新西暦１８６年末、<地球連邦政府>及び連邦軍へ反旗を",
+    "翻し、<アーマードモジュール>による電撃作戦で地球圏各地",
+    "の軍事拠点の制圧に成功した。",
+    "　だが、ビアンやコロニー統合軍総司令マイヤー・Ｖ・ブラ",
+    "ンシュタインがとったその手段は、両刃の剣でもあった。",
+    "　自らが「敵」となることで地球人類に自分達が置かれた",
+    "状況を模擬的に認識させ、早急に未曾有の脅威へ立ち向かう",
+    "意欲を煽ろうとしたのだが、内戦状態の継続は地球側の戦力",
+    "そのものを疲弊させる危険性が高かった。",
+    "　それ故に彼らはＤＣ戦争の早期決着を望みつつ、敵側",
+    "（連邦軍側）の戦力をある程度温存させるという策を取らざ",
+    "るを得なかった。また、ビアンは自分を倒す程の力を持った",
+    "者達が現れた場合、彼らに地球圏の未来を託そうとも考えて",
+    "いた。",
+    "　その矛盾した考えがビアン自身に敗北を呼び込み、利己的",
+    "な目的でＤＣを利用する者達の増長を許したとも言える。",
+    "　なお、ビアンはハガネによるＤＣ本拠地奇襲作戦で戦死。",
+    "彼を失ったＤＣは組織に混乱をきたし、連邦軍に敗北した。"
+   ]
+  },
+  {
+   "id": 80,
+   "section": "STRI",
+   "offset": 32765,
+   "text_offset": 32771,
+   "role": "display",
+   "refs": [
+    "rec40.name",
+    "rec40.name_b",
+    "rec40.name_c"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "テスラ・ドライブ"
+  },
+  {
+   "id": 81,
+   "section": "STRI",
+   "offset": 32796,
+   "text_offset": 32850,
+   "role": "display",
+   "refs": [
+    "rec40.desc"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    26,
+    27,
+    6,
+    27,
+    27,
+    28,
+    26,
+    6,
+    28,
+    26,
+    7
+   ],
+   "orig_bytes": 871,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<テスラ・ライヒ研究所>で開発された高効率反動推進装置。",
+    "　重力質量（重さ）と慣性質量（動かしにくさ）を別個に変",
+    "化させることができ、これによって従来の推進剤を加速さ",
+    "せ、物体を効率的に推進させる仕組み。一種の重力制御装置",
+    "とも言える。",
+    "　大気圏内飛行や宇宙航行が容易となるが、開発当初は装置",
+    "が大型化し、艦艇クラスにしか搭載できなかった。しかし、",
+    "メテオ３の<ＥＯＴ>解析情報によって重力制御系物理理論が",
+    "大幅に進歩し、テスラ・ドライブそのものも超高性能化・",
+    "小型化した。",
+    "　そして、<ＤＣ>で開発されたアーマードモジュールを皮切",
+    "りとして、２０メートルクラスの人型機動兵器への搭載も",
+    "可能となった。"
+   ]
+  },
+  {
+   "id": 82,
+   "section": "STRI",
+   "offset": 33721,
+   "text_offset": 33727,
+   "role": "display",
+   "refs": [
+    "rec41.name",
+    "rec41.name_b",
+    "rec41.name_c"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "テスラ・ライヒ研究所"
+  },
+  {
+   "id": 83,
+   "section": "STRI",
+   "offset": 33758,
+   "text_offset": 33804,
+   "role": "display",
+   "refs": [
+    "rec41.desc"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    3,
+    27,
+    17,
+    29,
+    29,
+    20,
+    27,
+    11,
+    18
+   ],
+   "orig_bytes": 704,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　北米コロラドに存在するオーバーテクノロジーの総合研究",
+    "機関。新西暦１７１年、ビアン・ゾルダークによって設立さ",
+    "れた。",
+    "　ロボット工学の権威であるジョナサン・カザハラ、エリッ",
+    "ク・ワンなど数々の天才を輩出した。",
+    "　<ＥＯＴＩ機関>設立に伴い、大半のメンバーが移籍するも、",
+    "独自に<ＥＯＴ>の研究や、<テスラ・ドライブ>の改良、グル",
+    "ンガストシリーズの開発などを続けている。",
+    "　なお、名前の由来は発明家ニコラ・テスラと科学者ウイル",
+    "ヘイム・ライヒの両名。",
+    "　現在の所長はジョナサン・カザハラ。"
+   ]
+  },
+  {
+   "id": 84,
+   "section": "STRI",
+   "offset": 34508,
+   "text_offset": 34514,
+   "role": "display",
+   "refs": [
+    "rec42.name",
+    "rec42.name_b",
+    "rec42.name_c"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "テレキネシスαパルス"
+  },
+  {
+   "id": 85,
+   "section": "STRI",
+   "offset": 34544,
+   "text_offset": 34558,
+   "role": "display",
+   "refs": [
+    "rec42.desc"
+   ],
+   "orig_chars": [
+    27,
+    26,
+    7
+   ],
+   "orig_bytes": 183,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　特殊脳医学の権威、ケンゾウ・コバヤシ博士が提唱した、",
+    "人の思念作用を司る深層脳波の一種。念動力者の素質判定",
+    "に使用される。"
+   ]
+  },
+  {
+   "id": 86,
+   "section": "STRI",
+   "offset": 34741,
+   "text_offset": 34747,
+   "role": "display",
+   "refs": [
+    "rec43.name",
+    "rec43.name_b",
+    "rec43.name_c"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "特殊戦技教導隊"
+  },
+  {
+   "id": 87,
+   "section": "STRI",
+   "offset": 34769,
+   "text_offset": 34827,
+   "role": "display",
+   "refs": [
+    "rec43.desc"
+   ],
+   "orig_chars": [
+    27,
+    12,
+    29,
+    27,
+    16,
+    26,
+    27,
+    27,
+    11,
+    28,
+    27,
+    14,
+    29,
+    3
+   ],
+   "orig_bytes": 915,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　人型機動兵器の戦技研究・構築やモーションデータの作成",
+    "のため、結成された部隊。",
+    "　現在のパーソナルトルーパーに搭載されている<ＴＣ‐ＯＳ>",
+    "の基本的なモーションデータは、彼らが度重なる試験運用の",
+    "末に作り出していったものである。",
+    "　隊長であるカーウァイ・ラウを始め、カイ・キタムラ、",
+    "テンペスト・ホーカー、ゼンガー・ゾンボルト、エルザム・",
+    "Ｖ・ブランシュタイン、ギリアム・イェーガーら６名の精鋭",
+    "により構成されていた。",
+    "　新西暦１８４年に起きた事件がきっかけとなって解散してい",
+    "るが、個性に富んだ面々と彼らが挙げた成果によって、連邦",
+    "軍内外で半ば伝説化している。",
+    "　<Ｌ５戦役>後、再結成され、カイ・キタムラが隊長を務めて",
+    "いる。"
+   ]
+  },
+  {
+   "id": 88,
+   "section": "STRI",
+   "offset": 35742,
+   "text_offset": 35748,
+   "role": "display",
+   "refs": [
+    "rec44.name",
+    "rec44.name_b",
+    "rec44.name_c"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "特機"
+  },
+  {
+   "id": 89,
+   "section": "STRI",
+   "offset": 35755,
+   "text_offset": 35769,
+   "role": "display",
+   "refs": [
+    "rec44.desc"
+   ],
+   "orig_chars": [
+    26,
+    27,
+    13
+   ],
+   "orig_bytes": 201,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　特殊人型機動兵器、俗に言うスーパーロボットのこと。",
+    "主に全長４０メートル以上、特殊な動力源やシステムを搭載",
+    "した機体のことをこう呼ぶ。"
+   ]
+  },
+  {
+   "id": 90,
+   "section": "STRI",
+   "offset": 35970,
+   "text_offset": 35976,
+   "role": "display",
+   "refs": [
+    "rec45.name",
+    "rec45.name_b",
+    "rec45.name_c"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "トロニウム"
+  },
+  {
+   "id": 91,
+   "section": "STRI",
+   "offset": 35992,
+   "text_offset": 36062,
+   "role": "display",
+   "refs": [
+    "rec45.desc"
+   ],
+   "orig_chars": [
+    15,
+    26,
+    26,
+    3,
+    27,
+    27,
+    27,
+    27,
+    26,
+    26,
+    26,
+    26,
+    26,
+    26,
+    27,
+    26,
+    11
+   ],
+   "orig_bytes": 1207,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　メテオ３から発見された物質。",
+    "　少なくとも太陽系内では産出されることがなく、発見時",
+    "には明らかに人工物と思われる容器内へ封印されていたと",
+    "いう。",
+    "　米粒大の金属物質で、内部には膨大なエネルギーが内包さ",
+    "れている。メテオ３内には６個のトロニウムが存在し、それ",
+    "らは<ＥＯＴＩ機関>によって解析・研究された。その内、",
+    "いくつかは様々な取引（ＳＲＸ計画のイングラム・プリスケ",
+    "ン少佐が関わっていた）を経て、連邦軍側へ提供された。",
+    "　トロニウムの無尽蔵とも言えるエネルギーを取り出し、",
+    "動力に転換する機関がトロニウム・エンジンであり、時間",
+    "単位あたりのエネルギー変換量は計測不可能なほど。その",
+    "ため、地球人類の技術レベルでは発生する高エネルギーに",
+    "対してエンジンの素材が耐えられないため、リミッターが",
+    "取り付けられている。また、出力を上げると加速度的にエネ",
+    "ルギー発生量が増加するため、出力調整が非常に難しいと",
+    "いう問題を抱えている。"
+   ]
+  },
+  {
+   "id": 92,
+   "section": "STRI",
+   "offset": 37269,
+   "text_offset": 37275,
+   "role": "display",
+   "refs": [
+    "rec46.name",
+    "rec46.name_b",
+    "rec46.name_c"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "南極事件"
+  },
+  {
+   "id": 93,
+   "section": "STRI",
+   "offset": 37288,
+   "text_offset": 37390,
+   "role": "display",
+   "refs": [
+    "rec46.desc"
+   ],
+   "orig_chars": [
+    27,
+    6,
+    27,
+    29,
+    27,
+    27,
+    28,
+    3,
+    27,
+    27,
+    19,
+    27,
+    27,
+    27,
+    16,
+    27,
+    34,
+    17,
+    29,
+    26,
+    20,
+    29,
+    27,
+    28,
+    6
+   ],
+   "orig_bytes": 1754,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　新西暦１８６年、地球連邦軍南極コーツランド基地で起き",
+    "た反乱事件。",
+    "　当時、基地では最新鋭艦であるスペースノア級万能戦闘母",
+    "艦の壱番艦シロガネと、<ＥＯＴＩ機関>で開発された人型機動",
+    "兵器グランゾンの披露式典が行われていた。しかし、それは",
+    "カムフラージュであり、水面下では「ゲスト」というコード",
+    "ネームで呼ばれる地球外知的生命体との和平会談が進められて",
+    "いた。",
+    "　しかし、その内容は地球側がゲスト側に対して全面降伏に",
+    "近い形で迎合するものであり、事実を知る者の中にはそれに",
+    "対して憤りを感じる者が少なくなかった。",
+    "　会談中、グランゾンの開発者の一人であり、テストパイロ",
+    "ットでもあるシュウ・シラカワ博士が突如ゲスト側の航宙艦",
+    "を攻撃。さらに彼は連邦軍側にも牙を剥き、結果としてコー",
+    "ツランド基地は壊滅状態に陥った。",
+    "　この事件によって、ゲスト側との交渉は決裂。また、直後",
+    "に<ＤＣ>が蜂起し、後の戦乱（<ＤＣ戦争>、<Ｌ５戦役>、<インスペ",
+    "クター事件>）のきっかけとなった。",
+    "　なお、会談前にゲストは<エアロゲイター>の航宙艦に乗って",
+    "コーツランド基地上空へ現れており、事件当時はゲストと",
+    "エアロゲイターを同一視する者が多かった。",
+    "　だが、<インスペクター事件>を経た現在では、ゲストが使用",
+    "したものは偽装艦であり、彼らはエアロゲイターではなく、",
+    "<インスペクター>と深い関係にある勢力だという説が有力視",
+    "されている。"
+   ]
+  },
+  {
+   "id": 94,
+   "section": "STRI",
+   "offset": 39144,
+   "text_offset": 39150,
+   "role": "display",
+   "refs": [
+    "rec47.name",
+    "rec47.name_b",
+    "rec47.name_c"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ノイエＤＣ"
+  },
+  {
+   "id": 95,
+   "section": "STRI",
+   "offset": 39166,
+   "text_offset": 39212,
+   "role": "display",
+   "refs": [
+    "rec47.desc"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    5,
+    27,
+    27,
+    26,
+    7,
+    27,
+    27,
+    26,
+    14
+   ],
+   "orig_bytes": 731,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<Ｌ５戦役>後、バン・バ・チュンが<シャドウミラー>の協力",
+    "を得て、<ＤＣ>残党と反連邦主義者をまとめあげて結成した",
+    "軍事組織。",
+    "　新西暦１８７年に軍事蜂起し、地球圏の武力統一を目論ん",
+    "だ。しかし、彼らの真の敵は地球圏の侵略を目論む異星人で",
+    "あり、インスペクターの襲来をきっかけとして、連邦軍と",
+    "一時休戦する。",
+    "　だが、北米地区奪還作戦展開中に、バンはシャドウミラー",
+    "の奸計にはまって戦死。その後、組織は瓦解した。しかし、",
+    "一部勢力は現在も潜伏しており、ゲリラ化して反地球連邦",
+    "運動を続けている者達もいる。"
+   ]
+  },
+  {
+   "id": 96,
+   "section": "STRI",
+   "offset": 39943,
+   "text_offset": 39949,
+   "role": "display",
+   "refs": [
+    "rec48.name",
+    "rec48.name_b",
+    "rec48.name_c"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "パーソナルトルーパー"
+  },
+  {
+   "id": 97,
+   "section": "STRI",
+   "offset": 39980,
+   "text_offset": 40030,
+   "role": "display",
+   "refs": [
+    "rec48.desc"
+   ],
+   "orig_chars": [
+    26,
+    27,
+    6,
+    27,
+    27,
+    13,
+    27,
+    19,
+    29,
+    26,
+    27,
+    3
+   ],
+   "orig_bytes": 775,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　エアロゲイターが保有していると思われる１０メートル",
+    "以上の有関節型機動兵器に対抗するため開発された人型機動",
+    "兵器の総称。",
+    "　記念すべき初のパーソナルトルーパーは、新西暦１８０年",
+    "にロールアウトした<マオ・インダストリー>製のＰＴＸ‐",
+    "００１「ゲシュペンスト」。",
+    "　マニピュレーターの搭載による武装換装の簡便性、二足歩",
+    "行やホバリングによる高い踏破性が特徴。",
+    "　また、<ＴＣ‐ＯＳ>によってパイロットは状況判断に徹し、",
+    "最小限の操作をするだけで機体自身がオートマティックに",
+    "適切なモーションを選択、パイロットが意図した行動を達成",
+    "する。"
+   ]
+  },
+  {
+   "id": 98,
+   "section": "STRI",
+   "offset": 40805,
+   "text_offset": 40811,
+   "role": "display",
+   "refs": [
+    "rec49.name",
+    "rec49.name_b",
+    "rec49.name_c"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＰＴ"
+  },
+  {
+   "id": 99,
+   "section": "STRI",
+   "offset": 40818,
+   "text_offset": 40824,
+   "role": "display",
+   "refs": [
+    "rec49.desc"
+   ],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 48,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "　<パーソナルトルーパー>の略称。"
+  },
+  {
+   "id": 100,
+   "section": "STRI",
+   "offset": 40872,
+   "text_offset": 40878,
+   "role": "display",
+   "refs": [
+    "rec50.name",
+    "rec50.name_b",
+    "rec50.name_c"
+   ],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ブーステッド・チルドレン"
+  },
+  {
+   "id": 101,
+   "section": "STRI",
+   "offset": 40915,
+   "text_offset": 40945,
+   "role": "display",
+   "refs": [
+    "rec50.desc"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    27,
+    29,
+    27,
+    14
+   ],
+   "orig_bytes": 539,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　かつて<スクール>で養成されていた人型機動兵器のパイロッ",
+    "トのこと。係累がなく、反射神経や動体視力に優れた子供達",
+    "にマインド・コントロールや薬物投与を行い、特殊訓練を施",
+    "している。スクールに入れられた時点で過去の記憶は抹消さ",
+    "れており、重度の<リマコン>で精神を崩壊させた者も多い。な",
+    "お、アラド、ゼオラ、ラトゥーニはブーステッド・チルドレ",
+    "ンの数少ない生き残りである。"
+   ]
+  },
+  {
+   "id": 102,
+   "section": "STRI",
+   "offset": 41484,
+   "text_offset": 41490,
+   "role": "display",
+   "refs": [
+    "rec51.name",
+    "rec51.name_b",
+    "rec51.name_c"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "プラーナ"
+  },
+  {
+   "id": 103,
+   "section": "STRI",
+   "offset": 41503,
+   "text_offset": 41521,
+   "role": "display",
+   "refs": [
+    "rec51.desc"
+   ],
+   "orig_chars": [
+    27,
+    29,
+    27,
+    3
+   ],
+   "orig_bytes": 258,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　人の持つ生気。オーラ、気と同類の意味。常に人の表層を",
+    "覆っており、感情によって大きく増減する。<ラ・ギアス>の人",
+    "間は地上の人間に比べ、プラーナの増減の振幅に乏しいとさ",
+    "れる。"
+   ]
+  },
+  {
+   "id": 104,
+   "section": "STRI",
+   "offset": 41779,
+   "text_offset": 41785,
+   "role": "display",
+   "refs": [
+    "rec52.name",
+    "rec52.name_b",
+    "rec52.name_c"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "プロジェクトＴＤ"
+  },
+  {
+   "id": 105,
+   "section": "STRI",
+   "offset": 41810,
+   "text_offset": 41844,
+   "role": "display",
+   "refs": [
+    "rec52.desc"
+   ],
+   "orig_chars": [
+    28,
+    26,
+    2,
+    28,
+    27,
+    18,
+    29,
+    11
+   ],
+   "orig_bytes": 503,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ＤＣ>で進められていた中型艦艇による恒星間航行計画。",
+    "恒星間航行船の開発と、そのパイロットの養成を行ってい",
+    "る。",
+    "　ＤＣ壊滅後は<イスルギ重工>の支援を受け、連邦軍の管轄",
+    "下でプロジェクトが続行されており、その成果物である機体",
+    "やシステムは軍事にも転用されている。",
+    "　なお、「ＴＤ」は「<テスラ・ドライブ>」、「テレストリア",
+    "ル・ドリーム」の意味。"
+   ]
+  },
+  {
+   "id": 106,
+   "section": "STRI",
+   "offset": 42347,
+   "text_offset": 42353,
+   "role": "display",
+   "refs": [
+    "rec53.name",
+    "rec53.name_b",
+    "rec53.name_c"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ホワイトスター"
+  },
+  {
+   "id": 107,
+   "section": "STRI",
+   "offset": 42375,
+   "text_offset": 42449,
+   "role": "display",
+   "refs": [
+    "rec53.desc"
+   ],
+   "orig_chars": [
+    30,
+    25,
+    26,
+    8,
+    25,
+    25,
+    26,
+    26,
+    26,
+    26,
+    25,
+    15,
+    25,
+    27,
+    28,
+    26,
+    25,
+    24
+   ],
+   "orig_bytes": 1316,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<Ｌ５戦役>において、<エアロゲイター>が本拠地として使用",
+    "していた球状の超大型宇宙要塞。正式名称は「自動惑星",
+    "ネビーイーム」であり、ホワイトスターとは地球側のコー",
+    "ドネームである。",
+    "　内部に機動兵器のプラント、宇宙港、疑似天候機能を",
+    "有した１Ｇ居住区、マルチプル・ファームなどがあり、",
+    "移動型スペースコロニーであるとも言える。高い闘争心と",
+    "戦闘能力を有した地球人を大量にエアロゲイターの本星へ",
+    "持ち帰るためのものだという説もあるが、定かではない。",
+    "　Ｌ５戦役終盤、地球側のオペレーションＳＲＷ連合宇宙",
+    "艦隊の総攻撃によって大破し、その機能を停止。戦後は",
+    "地球連邦軍の管轄下に置かれた。",
+    "　しかし、新西暦１８７年に地球圏へ武力侵攻を行った",
+    "異星人<インスペクター>によって制圧され、以後は彼らの",
+    "本拠地となった。さらにその後、<アインスト>の首魁である",
+    "ノイレジセイアと融合し、超大型兵器シュテルン・ノイレ",
+    "ジセイアへ変貌。クロガネやヒリュウ改と共に異空間へ",
+    "転移し、彼らと激戦を繰り広げた末に消滅している。"
+   ]
+  },
+  {
+   "id": 108,
+   "section": "STRI",
+   "offset": 43765,
+   "text_offset": 43771,
+   "role": "display",
+   "refs": [
+    "rec54.name",
+    "rec54.name_b",
+    "rec54.name_c"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "マオ・インダストリー"
+  },
+  {
+   "id": 109,
+   "section": "STRI",
+   "offset": 43802,
+   "text_offset": 43828,
+   "role": "display",
+   "refs": [
+    "rec54.desc"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    5,
+    27,
+    27,
+    20
+   ],
+   "orig_bytes": 405,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　新西暦１７６年、ティン・マオがユアン・メイロンらと共",
+    "に、月面の恒久居住都市セレヴィス・シティに設立した重機",
+    "メーカー。",
+    "　当初は月面作業用の二足歩行機械を生産していたが、現在",
+    "は主にパーソナルトルーパーの開発および生産に携わってい",
+    "る。現社長はティンの娘であるリン・マオ。"
+   ]
+  },
+  {
+   "id": 110,
+   "section": "STRI",
+   "offset": 44233,
+   "text_offset": 44239,
+   "role": "display",
+   "refs": [
+    "rec55.name",
+    "rec55.name_b",
+    "rec55.name_c"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "マシンセル"
+  },
+  {
+   "id": 111,
+   "section": "STRI",
+   "offset": 44255,
+   "text_offset": 44297,
+   "role": "display",
+   "refs": [
+    "rec55.desc"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    19,
+    31,
+    27,
+    27,
+    30,
+    28,
+    25
+   ],
+   "orig_bytes": 798,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　イーグレット・フェフ博士が作り出した自己再生・自己進",
+    "化機能を備えた金属細胞。侵蝕能力も持っており、接触した",
+    "対象物の組成を短時間で組み替え、素材の特性を大幅に強化",
+    "しつつ自らの支配下に置くことも出来る。",
+    "　開発は<ＤＣ戦争>以前から行われていたが、<エアロゲイター>",
+    "の機動兵器に使用されていた自律・自覚型金属細胞（ズフィ",
+    "ルード・クリスタル）のサンプル入手によって飛躍的に性能",
+    "が向上した。また、マシンセルは<インスペクター事件>中、<ノ",
+    "イエＤＣ>側の人型機動兵器であったスレードゲルミルやベル",
+    "ゲルミルにも用いられ、驚異的な再生能力を発揮した。"
+   ]
+  },
+  {
+   "id": 112,
+   "section": "STRI",
+   "offset": 45095,
+   "text_offset": 45101,
+   "role": "display",
+   "refs": [
+    "rec56.name",
+    "rec56.name_b",
+    "rec56.name_c"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "魔装機"
+  },
+  {
+   "id": 113,
+   "section": "STRI",
+   "offset": 45111,
+   "text_offset": 45129,
+   "role": "display",
+   "refs": [
+    "rec56.desc"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    12
+   ],
+   "orig_bytes": 285,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　<ラ・ギアス>で用いられる人型汎用兵器。本来は神聖ラング",
+    "ラン王国で製作された１６機の魔装機のみを指す言葉であっ",
+    "たが、量産機などの登場により、ラ・ギアスの人型汎用兵器",
+    "全体を指す言葉になった。"
+   ]
+  },
+  {
+   "id": 114,
+   "section": "STRI",
+   "offset": 45414,
+   "text_offset": 45420,
+   "role": "display",
+   "refs": [
+    "rec57.name",
+    "rec57.name_b",
+    "rec57.name_c"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "魔装機神"
+  },
+  {
+   "id": 115,
+   "section": "STRI",
+   "offset": 45433,
+   "text_offset": 45455,
+   "role": "display",
+   "refs": [
+    "rec57.desc"
+   ],
+   "orig_chars": [
+    28,
+    29,
+    27,
+    27,
+    3
+   ],
+   "orig_bytes": 339,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　高位の精霊と契約した<魔装機>で、自らの意志で操者を選",
+    "ぶ。<ラ・ギアス>全体に対する脅威に対抗するため、神聖ラン",
+    "グラン王国で製作された。魔装機神は全部で４体存在し、そ",
+    "れぞれ「風」、「炎」、「水」、「大地」を守護精霊として",
+    "いる。"
+   ]
+  },
+  {
+   "id": 116,
+   "section": "STRI",
+   "offset": 45794,
+   "text_offset": 45800,
+   "role": "display",
+   "refs": [
+    "rec58.name",
+    "rec58.name_b",
+    "rec58.name_c"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "メテオ３"
+  },
+  {
+   "id": 117,
+   "section": "STRI",
+   "offset": 45813,
+   "text_offset": 45859,
+   "role": "display",
+   "refs": [
+    "rec58.desc"
+   ],
+   "orig_chars": [
+    27,
+    12,
+    28,
+    20,
+    27,
+    29,
+    27,
+    7,
+    26,
+    26,
+    27
+   ],
+   "orig_bytes": 771,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　新西暦１７９年、南太平洋マーケサズ諸島沖にあるアイド",
+    "ネウス島へ落下した隕石。",
+    "　<ＥＯＴＩ機関>の調査により、エアロゲイターが意図的に",
+    "地球へ飛来させたものだと推測されている。",
+    "　その理由として、Ｌ５宙域に突然出現した後で地球へ落下",
+    "したこと、落着前に自ら減速したこと、内部に<ＥＯＴ>が他者",
+    "に閲覧されるのを前提とした状態で封入されていたことなど",
+    "が挙げられる。",
+    "　なお、メテオ３の名称は、旧西暦時代にニューヨークと",
+    "モスクワに落下し、地球文明の進歩を著しく阻害した隕石",
+    "「メテオ１」及び「メテオ２」に次ぐものを意味している。"
+   ]
+  },
+  {
+   "id": 118,
+   "section": "STRI",
+   "offset": 46630,
+   "text_offset": 46636,
+   "role": "display",
+   "refs": [
+    "rec59.name",
+    "rec59.name_b",
+    "rec59.name_c"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＭＯＳＳ"
+  },
+  {
+   "id": 119,
+   "section": "STRI",
+   "offset": 46649,
+   "text_offset": 46679,
+   "role": "display",
+   "refs": [
+    "rec59.desc"
+   ],
+   "orig_chars": [
+    26,
+    15,
+    26,
+    26,
+    26,
+    27,
+    27
+   ],
+   "orig_bytes": 526,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「Ｍｏｏｎ　Ｏｒｂｉｔａｌ　Ｓｅａｒｃｈ　Ｓｙｓｔ",
+    "ｅｍ」の略称。「モス」と読む。",
+    "　月軌道を外周とする球面の上に点在している複数の無人",
+    "人工天体（プローブ）による自動警戒監視システム。サテ",
+    "ライト・リンク・システム（複数の軍事衛星による防空指",
+    "揮管制システム）の上位体系であり、ＤＣ戦争前、コロニー",
+    "統合軍によって設置された。現在は連邦軍が管理している。"
+   ]
+  },
+  {
+   "id": 120,
+   "section": "STRI",
+   "offset": 47205,
+   "text_offset": 47211,
+   "role": "display",
+   "refs": [
+    "rec60.name",
+    "rec60.name_b",
+    "rec60.name_c"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ラ・ギアス"
+  },
+  {
+   "id": 121,
+   "section": "STRI",
+   "offset": 47227,
+   "text_offset": 47245,
+   "role": "display",
+   "refs": [
+    "rec60.desc"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    26,
+    18
+   ],
+   "orig_bytes": 298,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　地球内部に存在する世界のこと。形状としては地球空洞説",
+    "のように球面内部の形をしているが、実際に地球の裏側とし",
+    "て存在している訳ではなく、位相（フェーズ）がずれてい",
+    "る。ラ・ギアスとは『真の大地』の意。"
+   ]
+  },
+  {
+   "id": 122,
+   "section": "STRI",
+   "offset": 47543,
+   "text_offset": 47549,
+   "role": "display",
+   "refs": [
+    "rec61.name",
+    "rec61.name_b",
+    "rec61.name_c"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "リマコン"
+  },
+  {
+   "id": 123,
+   "section": "STRI",
+   "offset": 47562,
+   "text_offset": 47600,
+   "role": "display",
+   "refs": [
+    "rec61.desc"
+   ],
+   "orig_chars": [
+    22,
+    28,
+    28,
+    27,
+    27,
+    27,
+    28,
+    27,
+    15
+   ],
+   "orig_bytes": 688,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「Ｒｅ－Ｍｉｎｄ　Ｃｏｎｔｒｏｌ」の略語。",
+    "　元々、記憶操作や特殊な暗示を受けている者（<ブーステッ",
+    "ド・チルドレン>など）に対し、任務内容に応じて記憶調整や",
+    "精神制御を行うこと。ただし、過度な記憶の書き換えは精神",
+    "崩壊のリスクを高める。また、全く違う概念や記憶を植え込",
+    "むことにも危険が伴うため、通常は関連情報を徐々に書き換",
+    "える。特に<ブーステッド・チルドレン>は、愛情や友情、敵",
+    "意、怨恨といった感情をキーにしてリマコンすると、スペッ",
+    "ク以上の能力を発揮し易くなる。"
+   ]
+  },
+  {
+   "id": 124,
+   "section": "STRI",
+   "offset": 48288,
+   "text_offset": 48294,
+   "role": "display",
+   "refs": [
+    "rec62.name",
+    "rec62.name_b",
+    "rec62.name_c"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "レイオス・プラン"
+  },
+  {
+   "id": 125,
+   "section": "STRI",
+   "offset": 48319,
+   "text_offset": 48365,
+   "role": "display",
+   "refs": [
+    "rec62.desc"
+   ],
+   "orig_chars": [
+    13,
+    26,
+    25,
+    26,
+    8,
+    28,
+    27,
+    7,
+    27,
+    27,
+    9
+   ],
+   "orig_bytes": 676,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　ＲｅＥＯＴＨ　ＰＬＡＮ。",
+    "　ＲｅＥＯＴＨ（レイオス）とは、「Ｒｅｌｉａｂｌｅ　",
+    "Ｅｘｔｒａ　Ｏｖｅｒ　Ｔｅｃｈｎｏｌｏｇｉｃａｌ　",
+    "Ｈｙｂｒｉｄ」の略で、「高信頼化された異星人技術複合",
+    "体」という意味。",
+    "　安定性に欠ける<ＥＯＴ>を根本的に見直し、地球側の最新",
+    "技術を導入することによって、その信頼性と安定性を高める",
+    "ためのプラン。",
+    "　既存のＥＯＴ搭載機の性能を向上させるだけでなく、将来",
+    "的にはＲシリーズの後継機や今後の量産機へのＲｅＥＯＴＨ",
+    "導入も目的とする。"
+   ]
+  },
+  {
+   "id": 126,
+   "section": "STRI",
+   "offset": 49041,
+   "text_offset": 49047,
+   "role": "display",
+   "refs": [
+    "rec63.name",
+    "rec63.name_b",
+    "rec63.name_c"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "ＲＥＢ"
+  },
+  {
+   "id": 127,
+   "section": "STRI",
+   "offset": 49057,
+   "text_offset": 49067,
+   "role": "display",
+   "refs": [
+    "rec63.desc"
+   ],
+   "orig_chars": [
+    27,
+    4
+   ],
+   "orig_bytes": 95,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　「レブ」と読む。ソラティス神殿にある量子コンピュータ",
+    "の愛称。"
+   ]
+  },
+  {
+   "id": 128,
+   "section": "STRI",
+   "offset": 49162,
+   "text_offset": 49168,
+   "role": "display",
+   "refs": [
+    "rec64.name",
+    "rec64.name_b",
+    "rec64.name_c"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "text": "歪曲フィールド"
+  },
+  {
+   "id": 129,
+   "section": "STRI",
+   "offset": 49190,
+   "text_offset": 49212,
+   "role": "display",
+   "refs": [
+    "rec64.desc"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    12,
+    27,
+    17
+   ],
+   "orig_bytes": 335,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "lines": [
+    "　機体周辺に発生させた均質化力場によって、球状フィール",
+    "ド外縁を通過しようとする運動エネルギーを歪曲し、境界面",
+    "に沿って張力拡散させる。",
+    "　電磁波も波そのものを喪失するため、ビーム・実体弾問わ",
+    "ず、威力が無効化される場合がある。"
+   ]
+  }
+ ],
+ "inline_strings": []
+}

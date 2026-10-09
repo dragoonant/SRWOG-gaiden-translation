@@ -1,0 +1,40 @@
+{
+ "file": "ExtraPilotData.dat",
+ "format": "FIXH 1.0 big-endian",
+ "sections": [
+  {
+   "magic": "DATA",
+   "header_offset": 16,
+   "payload_offset": 28,
+   "size": 16,
+   "count": 2
+  },
+  {
+   "magic": "SOFS",
+   "header_offset": 44,
+   "payload_offset": 52,
+   "size": 0,
+   "count": null
+  },
+  {
+   "magic": "STRI",
+   "header_offset": 52,
+   "payload_offset": 64,
+   "size": 0,
+   "count": 0
+  }
+ ],
+ "records": {
+  "count": 2,
+  "size": 8
+ },
+ "dofs": null,
+ "string_fields": [],
+ "notes": [
+  "Edit 'text' (single-line entries) or 'lines' (multi-line entries / entries with embedded newlines).",
+  "Do not add or remove entries: records reference strings by index.",
+  "role: display = shown in game; comment = developer note (never displayed, safe to leave untranslated); internal = identifier/path; orphan = referenced by no record; unknown = not established."
+ ],
+ "strings": [],
+ "inline_strings": []
+}

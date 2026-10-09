@@ -1,168 +1,143 @@
-# 2nd Super Robot Wars OG (PS3, BLJS10133) English Translation: Course of Action
+# 2nd Super Robot Wars OG (PS3, BLJS10133) English Translation: Plan
 
-## 0. What already exists (read this first)
+## Decisions (locked)
 
-Two things cover most of the ground, and both are public.
+- **Independent project.** Our own tools, our own translation from the Japanese. We do not fork,
+  reuse, or ask permission from the existing MTL patch (srwogs2ndeng/og2-translation) or the
+  read-along site (2ndsrwoge.com). Their public write-ups are useful as a list of pitfalls to
+  verify against, nothing more. Every format is confirmed on our own dump.
+- **Terminology canon:** the fan patches of *OG: Original Generations* (PS2, Kingcom) and
+  *OG Gaiden* (PS2, camd11). Those two games precede 2nd OG directly and their naming is what
+  players already know. Not used: *Moon Dwellers* (official but poorly edited, chronologically
+  later) and the GBA OG1/OG2 names where they differ from the PS2 patches.
+- **Translation workflow:** full AI pass over every string first, then Anthony edits line by line.
+- **Target platform:** RPCS3 only. No real-hardware track (the PS3 on hand is not jailbroken).
+- **Division of labour:** Anthony supplies the game data, the decrypted EBOOT, playtesting, and
+  the edit pass. Claude does everything else: reverse engineering, tools, extraction, glossary,
+  AI translation, reinsertion, builds, regression checks, release packaging.
 
-**A. A full machine-translated patch with open tools.**
-`srwogs2ndeng/og2-translation` on GitHub (v1.0.22, 2026-09-13; first release 2026-09-04).
-- About 87,000 strings: story script, battle quotes, menus, library, help, skills, parts, map names.
-- About 50 Python scripts (PSARC extract/pack, SDAT decrypt/encrypt, FIXH/WTD/BMD/script tools,
-  30 EBOOT code patches for Latin glyph spacing and auto-fit, fSELF builder, deploy with rollback).
-- Translations stored as JSON worksheets keyed by Japanese file offset; builds are reproducible
-  from a pristine extract; no game data in the repo.
-- `docs/HACKING.md` documents the containers and text formats. `PROCESS.md` documents the
-  AI workflow and QA gates.
-- Weak point, stated by its own author: the 41,473 dialogue lines were LLM-translated in
-  ~180-line chunks and only spot-checked. Expect stiff dialogue, wrong pronouns, flattened jokes.
-- Tested on RPCS3 only (Windows end to end; Linux and Steam Deck boot). Never run on a real PS3.
-- No license file. Default copyright applies, so forking or reusing code needs the author's OK.
-  The repo is anonymous (one commit, "anon snapshot" tooling) but has an issue tracker.
+## What already exists (for awareness, not reuse)
 
-**B. A full human story translation.**
-Ian "NrvnqsrKhaos" Maatta, https://2ndsrwoge.com/. All story dialogue plus narration across
-roughly 90 chapter pages covering every route (Lune/Masaki, Earth/Space branches, both endings).
-Informal register with strong language by the translator's own description. Contact:
-2ndSRWOGTranslation@gmail.com.
+- srwogs2ndeng/og2-translation: machine-translated patch, ~87,000 strings, RPCS3 only,
+  released 2026-09-04, now v1.0.22. Dialogue was LLM-translated and spot-checked only.
+- 2ndsrwoge.com by NrvnqsrKhaos: human read-along translation of the full story, by route and
+  chapter. Not a patch.
+- Our differentiator when we release: every line human-edited, names consistent with the PS2
+  OGs and OG Gaiden patches.
 
-**What is actually missing**, and therefore the project worth doing:
-1. A human-quality script inside the game. Nobody has combined A's insertion pipeline with
-   a properly edited English script.
-2. Real-hardware support and testing (PS3 with HEN/CFW).
-3. A licensed, documented toolchain others can build on.
+## What Anthony does (the complete list)
 
-## 1. Decision: build on the open toolchain, spend your effort on the script
+1. **Supply the game data once.** Either the full ISO or a zip of `PS3_GAME/USRDIR` from your
+   BLJS10133 dump, via a direct-download link (a Google Drive "anyone with the link" share is
+   fine). If the ISO came from a PC Blu-ray drive it is encrypted and needs the 32-hex-character
+   disc key (`.dkey`); include it. Never put game data in the GitHub repo.
+2. **Decrypt the EBOOT once.** In RPCS3: install firmware, add the game, confirm it boots in
+   Japanese. Then Utilities > Decrypt PS3 Binaries on `PS3_GAME/USRDIR/EBOOT.BIN`. Upload the
+   resulting `EBOOT.ELF` the same way as step 1. Claude cannot do this: it needs the firmware
+   keys that only your RPCS3 install has.
+3. **Sign off the names list** before the AI pass starts (section 4). One review of a short table.
+4. **Playtest each build in RPCS3.** Copy the build's output over your RPCS3 game folder as the
+   build script instructs, play, and report bugs with a screenshot and roughly where you were.
+   Claude fixes and rebuilds.
+5. **Edit pass.** Edit the English column of the worksheet files in the repo (plain text or
+   spreadsheet export, your choice). Commit or send them back. Claude rebuilds, re-runs the
+   fit checks, and flags anything that no longer fits.
+6. **Rename the repo** on github.com to `srw-2nd-og-translation` (Claude's proxy cannot change
+   repo settings).
 
-Do not re-derive the file formats from scratch. That work is done and documented. Your
-"cut my teeth" value comes from (a) running and understanding every step of the pipeline on
-your own dump, (b) fixing what the MTL project left broken, and (c) producing the script.
+Optional: an Anthropic API key as an environment secret lets the AI pass run as a batch job
+instead of inside interactive sessions. Faster and cheaper for 87,000 strings; not required.
 
-Before writing code, open an issue on og2-translation asking the author to add a license
-(MIT or GPLv3) and whether they welcome a script-quality fork. If no answer within a couple of
-weeks, reimplement the tools yourself using HACKING.md as the spec. The format knowledge is
-not copyrightable; the code is.
+## What Claude does
 
-Also email NrvnqsrKhaos asking permission to use the 2ndsrwoge.com translation as a reference
-for an in-game script, with credit. Their text is a meaning reference, not drop-in dialogue:
-the register and profanity would need editing to match the game's tone anyway.
+### Phase 1: pipeline bring-up (first session after data arrives)
 
-## 2. Legal and repo hygiene
+1. Decrypt the ISO if needed, extract `PS3_GAME/USRDIR`, inventory every file with sizes and magics.
+2. Decrypt the five SDAT-wrapped PSARC archives (Logic, Battle, Common, General2d, General3d).
+   SDAT without a licence uses a fixed key scheme; implement decrypt and encrypt in Python and
+   verify every per-block HMAC on re-encryption. RPCS3 treats a bad block as fatal.
+3. Extract each PSARC. Repack unchanged. Diff must be byte-identical before any edit.
+4. Catalogue every text carrier by reading the bytes, not by trusting anyone's docs. Expected:
+   story scripts under `Logic/Dat/logic/talk/`, FIXH containers under `Logic/Dat/FixedData/`
+   (unit, pilot, weapon, skill, parts, help, spirit, ACE bonus data), battle-quote files,
+   the menu window data in General2d, terrain name records, Q&A screens, and the EBOOT
+   string table. Document each in `docs/formats.md` with offsets and worked examples.
+5. Write the tools in `tools/`, each with a round-trip test:
+   `sdat.py`, `psarc.py`, `fixh.py`, `script.py`, `battle.py`, `wtd.py`, `eboot_strings.py`,
+   `worksheet.py` (JSON per game file keyed by offset: JP, EN, budget, control codes),
+   `build.py` (pristine extract + worksheets -> patched archives + fSELF), `deploy.py`
+   (copy into an RPCS3 game folder with backup and rollback).
 
-- Dump BLJS10133 from a disc you own. The retail disc, not the Premium Edition, unless you
-  verify that both share the same USRDIR contents.
-- Never commit game data. `.gitignore` covers `*.psarc`, `*.sdat`, `EBOOT*`, `*.self`,
-  `*.elf`, `work/`, `build/`. The repo holds tools, JSON worksheets (JP + EN), glossary,
-  docs, and release scripts. The user rebuilds from their own dump, exactly as og2 does.
-- Rename this GitHub repo; it is still named for OG Gaiden.
+### Phase 2: rendering (needs the decrypted EBOOT)
 
-## 3. Workstation
+1. Disassemble the EBOOT (Ghidra headless, PPC64, plus capstone scripts). Locate the text
+   measure, draw, auto-fit and justify routines and the font-size setter.
+2. Expected problems, to confirm on our binary: Latin glyphs advanced with Japanese metrics
+   (too wide), auto-fit shrinking long English lines to unreadable sizes, measurement and
+   drawing using different scale factors, ASCII `<>` parsed as control tags.
+3. Write the code patches into an unused run of zeroes in the EBOOT, with a patch script that
+   asserts the target bytes before writing. Rebuild as an fSELF for RPCS3.
+4. Anthony playtests a Japanese build with only the renderer patches applied, to separate
+   rendering bugs from text bugs.
 
-| Need | Tool |
-|---|---|
-| Emulator | RPCS3 (latest). For renderer work, a custom build with `HAS_MEMORY_BREAKPOINTS` as og2 did |
-| Disassembly | Ghidra with the PS3/Cell PPC64 loader for the decrypted EBOOT; capstone for scripted analysis |
-| Decryption | RPCS3 Utilities > Decrypt PS3 Binaries for EBOOT; `decrypt_sdat.py` lineage (make_npdata, GPLv3) for SDAT |
-| Hex | ImHex or 010 Editor |
-| Textures | DDS (og2 has `dds_tool.py`); GIMP or Photoshop with DDS plugin for redraws |
-| Python | 3.10+, `cryptography`, `capstone`, `Pillow` |
-| Hardware | A PS3 on HEN or CFW, with webMAN, for the hardware track (section 7) |
+### Phase 3: glossary
 
-## 4. Pipeline bring-up (weeks 1 to 2)
+1. Build the names table from the PS2 patches. Two sources, cross-checked:
+   - Dump the English pilot, unit, weapon, Spirit, skill and terrain tables from patched OGs and
+     OG Gaiden ISOs (Anthony applies the patches to his own PS2 dumps; Claude writes the dumper).
+   - The Akurasu wiki pages documenting those patches, as a secondary check.
+2. For 2nd OG-only characters, units and attacks (the Masou Kishin cast beyond what Gaiden had,
+   the MX and Alpha 3 guests, the new antagonists), propose a romanization table and get
+   Anthony's sign-off.
+3. Store the glossary as data (`glossary/*.tsv`) that the fit-check step enforces: a build fails
+   if any English string uses a non-canonical form of a glossary term.
+4. Write the style guide: honorifics policy, speech patterns per pilot, attack-name casing,
+   battle-bark register, punctuation rules (half-width ASCII, no `;` where the engine treats it
+   as a line break, which brackets are control tags).
 
-Goal: a no-op round trip that is byte-identical, on your dump, with tools you understand.
+### Phase 4: AI translation pass
 
-1. Decrypt the five SDAT-wrapped PSARCs (Logic, Battle, Common, General2d, General3d).
-   Confirm every SDAT block HMAC validates after re-encryption; RPCS3 treats a bad block as fatal.
-2. Extract and inventory. Known text carriers:
-   - `Logic/Dat/logic/talk/ls*.bin`: story script (growable)
-   - `Logic/Dat/FixedData/*.dat`: FIXH containers (SOFS 32-bit BE offsets, STRI block;
-     some files are position-addressed and must keep exact byte lengths)
-   - BMD: battle quotes
-   - `General2d/.../windowdataMain.wtd`: menu UI, per-record font size floats
-   - MTI: 1024 fixed 84-byte terrain records
-   - CSB: Q&A screens
-   - EBOOT string table: ~2,000 system strings, no length growth allowed
-3. Re-pack unchanged, re-encrypt, deploy to RPCS3, boot. Then diff: must be byte-identical.
-4. Write `docs/formats.md` in your own words as you verify each format. Treat HACKING.md as
-   a claim to check, not gospel; the 16-bit-offset misread they shipped for a while shows why.
+- Story: one scene at a time, in route order, with speaker names, the previous scene, the
+  glossary, the style guide, and each line's byte or pixel budget. Output is structured and
+  validated: control codes preserved, budget respected, glossary respected. Anything that fails
+  falls back to the Japanese and is logged for the edit pass.
+- Battle quotes: deduplicated first (tens of thousands of lines, heavily repeated), translated
+  with pilot context, genders left unspecified where the Japanese leaves them unspecified.
+- Menus, library, help, skills, parts, EBOOT strings: translated against hard byte limits,
+  shortened by rule where needed, and the shortening decisions listed for Anthony.
+- Bracketed engine keys and anything the engine byte-matches stay Japanese on purpose.
+- Deliverable: a complete English build Anthony can play end to end, plus the worksheets.
 
-## 5. Script dump and alignment (weeks 2 to 4)
+### Phase 5: edit pass support
 
-1. Dump every `ls*.bin` to a worksheet: file, offset, speaker ID, JP text, control codes,
-   byte budget. Resolve speaker IDs to names. Keep the bracketed `[...]-` engine keys and
-   anything else the engine byte-matches untouched (og2 found ~10,300 of these).
-2. Map script files to the game's stage/route structure so a translator works in story
-   order with route context.
-3. Pull og2's existing English worksheets (if licensed) as a third column: a machine draft
-   to edit against rather than a blank page. If not licensed, generate your own draft (step 6).
-4. Build a glossary before translating a line. Sources, in priority order:
-   - Official English names from OG: The Moon Dwellers (PS4 Asia English) and OG1/OG2 (GBA, Atlus)
-   - Kingcom's OGs patch for anything only in the PS2 games
-   - Consistent romanizations for 2nd OG-only terms (Four Gods, Boundary Realm, etc.)
-   Store it as data the tools enforce, not a wiki page.
+- Worksheets exported in whatever form Anthony prefers (TSV, spreadsheet, or a small local web
+  viewer with speaker portraits if useful).
+- Every re-import is rebuilt and re-checked; lines that now overflow are listed with the
+  budget they exceed.
 
-## 6. Translation (weeks 4 to 16, the bulk of the project)
+### Phase 6: QA gates and release
 
-- 41,473 dialogue lines plus ~34,000 battle lines (mostly short, highly repetitive after dedup).
-- AI first pass, done properly: feed one scene at a time with the glossary, speaker names,
-  the previous scene, the matching 2ndsrwoge.com chapter as a meaning reference, and the
-  pixel/byte budget. Require JSON output, reject anything that drops a control code or
-  overflows, fall back to Japanese rather than ship a broken line.
-- Human edit pass, every line, in context, in the game or in a script viewer with speaker
-  portraits. This is the deliverable that separates this project from the MTL. Budget it
-  honestly: 41k lines at a few hundred edited lines per hour is well over 100 hours.
-- Style guide: honorifics policy, how each pilot talks, attack-name capitalisation,
-  battle-bark tone. Write it before the edit pass, not after.
-- Keep JP and EN side by side in git so reviewers can send corrections as pull requests.
+- Gates on every build: byte-identical no-op rebuild, every SDAT HMAC valid, format specifiers
+  and control markers preserved, fixed-length records unchanged in length, every line within
+  budget, glossary clean.
+- Anthony plays every route (Lune and Masaki routes, Earth and Space branches, both endings).
+- Release: an installer that rebuilds from the user's own dump (no game data distributed),
+  README (coverage, intentionally Japanese strings, known issues), CHANGELOG, posts to
+  r/SuperRobotWars, RetroGameTalk, GBAtemp.
 
-## 7. Rendering and hardware (parallel track, weeks 2 onward)
+## Repo layout
 
-- The RPCS3 rendering problem is solved: 30 EBOOT patches (glyph advance K=0.57, font-size
-  floor, auto-fit comparison fixed to measure at K, justify path redirect) in a code cave at
-  `0xc45928`. Reproduce them on your dump and read every one until you understand it.
-- Known leftovers to fix: opening crawl centering (currently ragged), ASCII `<>` parsed as
-  control tags in command menu labels, weapon name width limit below 25 chars, route cards
-  overflow.
-- Hardware: og2 ships a fake-signed SELF, which runs on HEN/CFW but not OFW. Test on a real
-  PS3 early. The OG Gaiden PS2 project found a memory-corruption bug that the emulator hid and
-  hardware exposed; expect the same class of bug here, especially around the code cave and
-  stack red-zone use (og2 crashed once on exactly that).
-- Art: title logo and any baked-in English-needed textures live in DDS inside General2d.
-  og2's override repack appends the changed file and repoints the TOC instead of rebuilding
-  the 638 MB archive; keep that technique.
+```
+tools/        Python tools (MIT licence)
+docs/         formats.md, style-guide.md, install.md
+glossary/     names, attacks, spirits, terrain (TSV)
+worksheets/   one JSON per game file: JP, EN, budget, flags
+build/        output, gitignored
+work/         pristine extracts, gitignored
+```
 
-## 8. QA gates (automated, run on every build)
+## Session logistics
 
-- No-op rebuild is byte-identical.
-- Every SDAT block HMAC validates.
-- EBOOT strings: format specifiers and `@`/`\n` markers preserved, no length increase.
-- Position-addressed FIXH files: every segment keeps its original byte length.
-- Every dialogue line fits its measured width at the patched font metrics.
-- Glossary check: no non-canonical name in any English string.
-- Then a full playthrough of every route on RPCS3, and at least the main route on hardware.
-
-## 9. Release
-
-- Installer that rebuilds from the user's own dump (no game data distributed), with
-  pre-deploy backups and rollback, like og2's `apply.py`.
-- README with what is translated, what is intentionally Japanese, tested platforms, known issues.
-- CHANGELOG. Post to r/SuperRobotWars, RetroGameTalk fan translations, GBAtemp, romhacking.net.
-- Credit og2-translation for the toolchain research and NrvnqsrKhaos for the reference
-  translation, per whatever terms they give you.
-
-## 10. How this session can help
-
-- Reimplement or review any of the tools once you can give me extracted, decrypted files
-  (a few FIXH files, two or three `ls*.bin`, the WTD, the decrypted EBOOT). Do not push them
-  to GitHub; upload to the session or run my scripts locally.
-- Build the glossary from official English sources and the enforcement tooling.
-- Run the AI first pass with scene context, glossary, and budget checks.
-- Write the regression gates in section 8.
-- Draft the license and permission requests to the two existing authors.
-
-## Sources
-
-- https://github.com/srwogs2ndeng/og2-translation (README, docs/HACKING.md, PROCESS.md, CHANGELOG.md)
-- https://2ndsrwoge.com/ and https://akurasu.net/wiki/Super_Robot_Wars/OG2nd/Story_Translation
-- https://github.com/nutsamasan/srw-ogmd-tools (Moon Dwellers PS3 tools, GPLv3, same era and publisher)
-- https://github.com/camd11/srw-og-gaiden-en (OG Gaiden PS2; hardware-vs-emulator lessons)
+The cloud container is ephemeral. Tools, worksheets, glossary and docs live in git and are
+pushed after every session. Game data is re-downloaded from Anthony's link when a fresh
+container starts; the build is reproducible from the pristine extract, so nothing is lost.

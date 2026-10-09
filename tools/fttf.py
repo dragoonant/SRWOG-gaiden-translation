@@ -188,6 +188,62 @@ def preview(font, cps, cols=16, scale=2):
 DESCENDER_DROP = {"g": 2, "j": 2, "p": 2, "q": 2, "y": 2, ",": 0, ";": 0}
 
 
+def free_cell(f):
+    """An empty texture cell that no glyph entry references (searched from the
+    bottom of the texture up)."""
+    used = set()
+    for page in range(256):
+        blk = struct.unpack_from(">I", f.d, 0x54 + 4 * page)[0]
+        if blk:
+            for i in range(256):
+                o = blk + 4 * i
+                if f.d[o + 1]:
+                    used.add((f.d[o + 2], f.d[o + 3]))
+    cols, rows = f.tw // f.cell_w, f.th // f.cell_h
+    for row in range(rows - 1, -1, -1):
+        for col in range(cols - 1, -1, -1):
+            if (col, row) in used:
+                continue
+            img = f.read_cell(col, row)
+            if all(p[3] == 0 for r in img for p in r):
+                return col, row
+    raise ValueError("no free glyph cell")
+
+
+def with_diaeresis(base, thr=128):
+    """Return a copy of a processed lowercase glyph with two dots drawn above
+    its x-height (the game font has no diaeresis to borrow)."""
+    h, w = len(base), len(base[0])
+    ink = [(x, y) for y in range(h) for x in range(w) if base[y][x][3] > thr]
+    top = min(y for _, y in ink)
+    xs = [x for x, _ in ink]
+    cx = (min(xs) + max(xs)) / 2
+    colour = next(base[y][x] for x, y in ink)[:3]
+    out = [list(r) for r in base]
+    dot_w, dot_h, gap = 4, 4, 4
+    y0 = max(0, top - dot_h - 2)
+    for left in (round(cx - gap / 2 - dot_w), round(cx + gap / 2)):
+        for y in range(y0, y0 + dot_h):
+            for x in range(left, left + dot_w):
+                corner = (y in (y0, y0 + dot_h - 1)) and (x in (left, left + dot_w - 1))
+                a = 110 if corner else 255
+                if 0 <= x < w and a > out[y][x][3]:
+                    out[y][x] = colour + (a,)
+    return out
+
+
+def add_umlauts(f, thr=128):
+    """ä: redraw its cell as a + dots. ü: compose u + dots in a free cell and
+    add the U+00FC entry (Lüne, Wildwürger; Sänger, Rätsel)."""
+    ga, gä, gu = f.glyph(0x61), f.glyph(0xE4), f.glyph(0x75)
+    f.write_cell(gä[1], gä[2], with_diaeresis(f.read_cell(ga[1], ga[2]), thr))
+    f.d[f.entry_off(0xE4) + 1] = f.d[f.entry_off(0x61) + 1]
+    col, row = free_cell(f)
+    f.write_cell(col, row, with_diaeresis(f.read_cell(gu[1], gu[2]), thr))
+    o = f.entry_off(0xFC)
+    f.d[o:o + 4] = bytes([0, f.d[f.entry_off(0x75) + 1], col, row])
+
+
 def make_proportional(f, gap=2, space=8, left=0, thr=128, write=True):
     """Move each printable-ASCII glyph's ink to `left` px from its cell edge
     and set advance = ink width + gap. Returns {codepoint: advance}. With
@@ -216,6 +272,10 @@ def make_proportional(f, gap=2, space=8, left=0, thr=128, write=True):
                     for x in range(w)] for y in range(h)]
             f.write_cell(g[1], g[2], img)
         adv[cp] = left + (x1 - x0 + 1) + gap
+    if 0x75 in adv and 0x61 in adv:      # ä, ü = a, u + drawn dots
+        adv[0xE4], adv[0xFC] = adv[0x61], adv[0x75]
+        if write:
+            add_umlauts(f, thr)
     digits = [adv[c] for c in range(0x30, 0x3A) if c in adv]
     for c in range(0x30, 0x3A):
         if c in adv:

@@ -11,12 +11,13 @@ disagree), **done**.
 ## Names and terms
 
 1. **OGs vs Akurasu picks**: open. 50 rows in `deviations.md` (Pick column).
-   Until you pick, builds use the OGs form.
+   Until you pick, builds use the OGs form. Approved 2026-10-09: translate now
+   with defaults; your picks get swapped in afterwards across all worksheets.
 2. **Style for the 785 names the OGs patch never uses**: open. Akurasu writes
    long vowels (Ryuune, Kouta); OGs drops them (Lune, Kota) and keeps umlauts.
    Suggested: follow OGs style for consistency (short vowels, umlauts where the
    German original has them). One answer covers all 785.
-3. **The ü glyph**: open. The game font has ä but no ü, so "Lüne" and
+3. **The ü glyph**: done (approved 2026-10-09: add ü to the font). The game font has ä but no ü, so "Lüne" and
    "Wildwürger" can't display as-is. Options: (a) I draw a ü into the font from
    the existing u and ä glyphs; (b) plain "Lune" / "Wildwurger". Suggested: (a).
 4. **206 uncertain name proposals**: open. Rows in `glossary/signoff.tsv` whose
@@ -61,10 +62,11 @@ disagree), **done**.
 
 ## Translation pass
 
-14. **Model**: suggested Claude Opus 5.5 for story and battle quotes (quality
+14. **Model**: done (approved 2026-10-09: Opus 5.5 for everything). Was: suggested Claude Opus 5.5 for story and battle quotes (quality
     matters most), estimated $40-$100 for the whole game via the Batch API.
     Claude Sonnet 5.5 would be about half that. Say if you'd rather use Sonnet
     for menus and data tables, or for everything.
-15. **Spend cap**: open. I'll run one chapter first and report its exact cost
+15. **Spend cap**: done (approved 2026-10-09: full pass tonight, stop at $75 total
+    including retries). Was: open. I'll run one chapter first and report its exact cost
     before the full run. A monthly limit in the Anthropic console is the hard
     safety net; tell me the number you set so I can stay under it.

@@ -42,7 +42,11 @@ PRICES = {
     "claude-opus-5-5": {"in": 2.0, "out": 10.0},
     "claude-sonnet-5-5": {"in": 1.0, "out": 5.0},
 }
-BREAK = {"LDBI": "@", "LOGO": "@", "ELF": "@", "BMD": "/", "FIXH": "\\n", "CSB": "\\n", "WTD": "\\n"}
+# Line-break marker per format. For FIXH/CSB/WTD it is a real newline
+# character (JSON "\n"), which the build tools split on.
+BREAK = {"LDBI": "@", "LOGO": "@", "ELF": "@", "BMD": "/", "FIXH": "\n", "CSB": "\n", "WTD": "\n"}
+COST_PER_CHAR = 0.26 / 40944   # measured on chapter 1 (Opus 5.5, batch): $ per char of request text
+SPENT_PATH = os.path.join(REPO, "translations", "spent.json")
 AVG_PX = 17  # average advance of English text with the proportional font
 
 SCHEMA = {
@@ -80,8 +84,17 @@ def system_prompt():
         "- Line breaks: use the break marker given in the request, at most the given number of "
         "lines, each line within the given length. Break at natural phrase boundaries.\n"
         "- Speaker-name items (short labels) get the short English name only.\n"
+        "- Items with max_bytes must fit in that many UTF-8 bytes.\n"
+        "- When the line break marker is a newline character, put real line breaks "
+        "(\\n in the JSON string) between lines.\n"
         "- Return every id you were given, once, in the JSON format required."
     )
+
+
+def load_spent():
+    if os.path.exists(SPENT_PATH):
+        return json.load(open(SPENT_PATH, encoding="utf-8"))
+    return {"total": 0.0, "batches": {}}
 
 
 def load_tm():
@@ -123,8 +136,16 @@ def build_requests(paths, model, effort, chunk, tm):
     font = fitcheck.Font(fitcheck.DEFAULT_FONT)
     glossary = fitcheck.load_glossary()
     kw_en = {jp: en for jp, en, _ in glossary}
+    # Keyword tags display KeyWordData's names; once that table is translated,
+    # its English is what the player sees in place of each <tag>.
+    kwp = os.path.join(REPO, "worksheets", "Logic", "Dat", "FixedData", "KeyWordData.dat.json")
+    if os.path.exists(kwp):
+        for e in json.load(open(kwp, encoding="utf-8"))["strings"]:
+            if e.get("en") and e.get("text"):
+                kw_en[e["text"]] = e["en"]
     sysmsg = [{"type": "text", "text": system_prompt(), "cache_control": {"type": "ephemeral"}}]
     requests, plan, prefilled = [], {}, 0
+    queued = set()          # (format, jp) already in this submission
     for path in paths:
         rel = os.path.relpath(path, REPO)
         ws = json.load(open(path, encoding="utf-8"))
@@ -139,6 +160,9 @@ def build_requests(paths, model, effort, chunk, tm):
                 e["en"] = tm[key]
                 prefilled += 1
                 continue
+            if key in queued:
+                continue    # duplicate in this submission: filled from memory after collect
+            queued.add(key)
             todo.append(e)
         if prefilled:
             json.dump(ws, open(path, "w", encoding="utf-8", newline="\n"), ensure_ascii=False, indent=1)
@@ -153,6 +177,8 @@ def build_requests(paths, model, effort, chunk, tm):
                         "max_chars_per_line": max(4, px // AVG_PX)}
                 if e["id"] in spk:
                     item["speaker"] = spk[e["id"]]
+                if fmt == "ELF":
+                    item["max_bytes"] = e["budget"]   # replaced in place in the executable
                 if e.get("kind") == "name":
                     item["type"] = "speaker-name or label"
                 items.append(item)
@@ -202,10 +228,17 @@ def cmd_submit(argv):
     tm = load_tm()
     requests, plan, prefilled = build_requests(paths, model, effort, chunk, tm)
     chars = sum(len(r["params"]["messages"][0]["content"]) for r in requests)
+    estimate = chars * COST_PER_CHAR * (0.5 if model == "claude-sonnet-5-5" else 1.0)
+    spent = load_spent()["total"]
+    cap = float(opt("--cap", "75"))
     print("%d worksheet(s), %d request(s), %d entries prefilled from memory, ~%d chars of request text"
           % (len(paths), len(requests), prefilled, chars))
+    print("estimated cost $%.2f; spent so far $%.2f; cap $%.2f" % (estimate, spent, cap))
     if "--dry-run" in argv or not requests:
         return 0
+    if spent + estimate * 1.3 > cap:       # 30% safety margin on the estimate
+        print("refusing: estimate with margin would exceed the cap")
+        return 1
     from anthropic.types.message_create_params import MessageCreateParamsNonStreaming
     from anthropic.types.messages.batch_create_params import Request
     batch = client().messages.batches.create(requests=[
@@ -272,7 +305,13 @@ def cmd_collect(argv):
     pr = PRICES.get(state["model"], PRICES["claude-opus-5-5"])
     cost = (usage["in"] * pr["in"] + usage["cw"] * pr["in"] * 1.25 + usage["cr"] * pr["in"] * 0.1
             + usage["out"] * pr["out"]) / 1e6
+    sp = load_spent()
+    if bid not in sp["batches"]:
+        sp["batches"][bid] = round(cost, 4)
+        sp["total"] = round(sum(sp["batches"].values()), 4)
+        json.dump(sp, open(SPENT_PATH, "w", encoding="utf-8"), indent=1)
     print("filled %d entries in %d worksheet(s)" % (filled, len(sheets)))
+    print("total spent across batches: $%.2f" % sp["total"])
     print("tokens: input %d, cache write %d, cache read %d, output %d" % (usage["in"], usage["cw"], usage["cr"], usage["out"]))
     print("cost: $%.2f (batch prices for %s)" % (cost, state["model"]))
     for p in problems:

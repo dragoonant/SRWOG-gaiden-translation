@@ -93,23 +93,26 @@ def split_lines(fmt, s):
 
 
 def load_glossary():
-    terms = []
+    """Canon: glossary/signoff.tsv "en" (OGs basis, Anthony's picks) for every
+    data-table name; the older glossary TSVs only for terms signoff lacks
+    (factions, terrain, ...). Reference tables are not canon."""
+    REFERENCE = ("signoff.tsv", "akurasu_og2nd.tsv")
+    canon = {}
+    p = os.path.join(REPO, "glossary", "signoff.tsv")
+    if os.path.exists(p):
+        with open(p, encoding="utf-8") as f:
+            for r in csv.DictReader(f, delimiter="\t"):
+                if r.get("en") and len(r["jp"]) >= 2:
+                    canon[r["jp"]] = r["en"]
     for p in glob.glob(os.path.join(REPO, "glossary", "*.tsv")):
-        if p.endswith("signoff.tsv"):
+        if os.path.basename(p) in REFERENCE:
             continue
         with open(p, encoding="utf-8") as f:
             for r in csv.DictReader(f, delimiter="\t"):
                 jp, en = (r.get("jp") or "").strip(), (r.get("en") or "").strip()
                 if len(jp) >= 2 and en:
-                    terms.append((jp, en))
-    p = os.path.join(REPO, "glossary", "signoff.tsv")
-    if os.path.exists(p):
-        with open(p, encoding="utf-8") as f:
-            for r in csv.DictReader(f, delimiter="\t"):
-                if r.get("signed", "").strip().lower() in ("y", "yes", "1") and r.get("en"):
-                    terms.append((r["jp"], r["en"]))
-    terms.sort(key=lambda t: -len(t[0]))
-    return terms
+                    canon.setdefault(jp, en)
+    return sorted(canon.items(), key=lambda t: -len(t[0]))
 
 
 def main(argv):

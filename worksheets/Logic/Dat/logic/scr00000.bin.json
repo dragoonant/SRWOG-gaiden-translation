@@ -670,7 +670,7 @@
    "id": 5,
    "pool": "B",
    "jp": "１．　３ターン味方フェイズ以内に、？？？（プレイヤーキャラ）を",
-   "en": "",
+   "en": "1. Move ??? (player character) to the target point by",
    "kind": "text",
    "keep": false
   },
@@ -678,7 +678,7 @@
    "id": 6,
    "pool": "B",
    "jp": "<W=63>　</W>指定ポイントへ到達させる。",
-   "en": "",
+   "en": "<W=63>　</W>the Player Phase of Turn 3.",
    "kind": "text",
    "keep": false
   },
@@ -686,7 +686,7 @@
    "id": 7,
    "pool": "B",
    "jp": "１．　３ターン味方フェイズ以内に、勝利条件を満たせなかった場合。",
-   "en": "",
+   "en": "1. Victory condition is not met by the Player Phase of Turn 3.",
    "kind": "text",
    "keep": false
   },
@@ -694,7 +694,7 @@
    "id": 8,
    "pool": "B",
    "jp": "２．　？？？（プレイヤーキャラ）の撃墜。",
-   "en": "",
+   "en": "2. ??? (player character) is shot down.",
    "kind": "text",
    "keep": false
   },
@@ -702,7 +702,7 @@
    "id": 9,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   },
@@ -710,7 +710,7 @@
    "id": 10,
    "pool": "B",
    "jp": "ゲームオーバー",
-   "en": "",
+   "en": "Game Over",
    "kind": "name",
    "keep": false
   },
@@ -718,7 +718,7 @@
    "id": 11,
    "pool": "B",
    "jp": "ゲームオーバー",
-   "en": "",
+   "en": "Game Over",
    "kind": "name",
    "keep": false
   },
@@ -726,7 +726,7 @@
    "id": 12,
    "pool": "B",
    "jp": "非表示",
-   "en": "",
+   "en": "Off",
    "kind": "name",
    "keep": false
   },
@@ -766,7 +766,7 @@
    "id": 17,
    "pool": "B",
    "jp": "実戦",
-   "en": "",
+   "en": "Live",
    "kind": "name",
    "keep": false
   }

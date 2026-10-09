@@ -55,3 +55,22 @@ The other font files (`exFont01..05.bin`) share the format.
 - Find where the per-glyph x step is computed and the font-size setter.
 - Find the line-width limit used by the message window, if any, to plan
   wrapping (manual `@` insertion by the build is the fallback).
+
+## EBOOT advance patch, tested 2026-10-08
+
+`tools/eboot_patch.py` (16 words; see `docs/eboot-renderer.md`) applied to
+the pristine EBOOT.elf, deployed as EBOOT.BIN (RPCS3 boots the plain ELF; no
+game-data reinstall needed for an EBOOT-only change). Result in the opening
+monologue:
+
+- Latin text now steps by the font table's advance (22 px for every ASCII
+  letter), so a 49-character line (`ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklm
+  0123456789`) fits on one dialogue line. `@` breaks still work.
+- Capitals look right; lowercase shows gaps because narrow glyphs sit
+  centred in a uniform 22 px advance. Next step: measure each ASCII glyph's
+  ink width from the font bitmaps and write per-letter advances into
+  `font.bin` (no further code change needed). fitcheck.py picks up the new
+  widths automatically.
+- Japanese text unaffected in the frames seen so far; still to check: menus,
+  centred/right-aligned text, the battle screen and the scrolling text the
+  renderer agent flagged (routine at 0x63060).

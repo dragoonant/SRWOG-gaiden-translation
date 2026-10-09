@@ -16,6 +16,10 @@ foreach ($k in ($Keys -split ',')) {
     $k = $k.Trim().ToUpper()
     if ($k -eq '') { continue }
     if ($k -like 'WAIT*') { Start-Sleep -Seconds ([double]$k.Substring(4)); continue }
+    if ($k -eq 'RESUME') {   # RPCS3 pauses on focus loss; resume = hold START ~2 s
+        [W.K]::keybd_event($map['START'], 0, 0, [UIntPtr]::Zero); Start-Sleep -Milliseconds 2200
+        [W.K]::keybd_event($map['START'], 0, 2, [UIntPtr]::Zero); Start-Sleep -Milliseconds 500; continue
+    }
     if (-not $map.ContainsKey($k)) { Write-Error "unknown key $k"; exit 1 }
     Press $map[$k]
 }

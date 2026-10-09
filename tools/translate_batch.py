@@ -132,6 +132,8 @@ def budget_text(fmt, e, font, path=""):
     else:
         jl = fitcheck.split_lines(fmt, jp_of(e))
         lines, px = fitcheck.line_limit(fmt, path, len(jl)), max(font.width(l) for l in jl)
+        if len(jl) == 1:
+            px = fitcheck.width_limit(fmt, px)
     return lines, px
 
 

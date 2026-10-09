@@ -50,6 +50,16 @@ LABEL_PX = 160   # Japanese width of a 5-character label
 SCROLLING = ("KeyWordData.dat", "UnitDictionaryData.dat", "PilotDictionaryData.dat")
 
 
+def width_limit(fmt, jp_px):
+    """Pixel budget for one line of a non-dialogue field. Short labels (up to
+    10 Japanese characters) sit in boxes much wider than their Japanese text
+    (seen in game: the map command menu fits ~9 letters for 2-character
+    words), so they get 2.2x the Japanese width, at least 160 px."""
+    if jp_px <= 320:
+        return max(160, int(jp_px * 2.2))
+    return jp_px
+
+
 def line_limit(fmt, path, jp_lines):
     if fmt in DIALOGUE:
         return 3
@@ -244,7 +254,8 @@ def main(argv):
             if fmt in DIALOGUE:
                 max_lines, max_w = 3, budget.get(fmt, 99999)
             else:
-                max_lines, max_w = line_limit(fmt, path, len(jl)), max(font.width(l) for l in jl)
+                max_lines = line_limit(fmt, path, len(jl))
+                max_w = width_limit(fmt, max(font.width(l) for l in jl)) if len(jl) == 1 else max(font.width(l) for l in jl)
             if len(el) > max_lines:
                 report("lines", path, e, "%d lines > %d" % (len(el), max_lines))
             for l in el:

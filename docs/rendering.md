@@ -82,3 +82,24 @@ its cell and writes fitted advances. In game: sentences read naturally, the
 two-line test wraps cleanly, Japanese lines are unchanged, and the full
 alphabet line takes about two thirds of the box. Capitals sat slightly tight
 with a 1 px gap, so the default gap is now 2 px (not yet re-checked in game).
+
+## Full English build, tested 2026-10-09
+
+All 84,516 translatable entries built and deployed (EBOOT text, menus, data
+tables, Q&A, story, battle quotes). Observed in game:
+
+- System dialogs (install prompts) and the scenario-select menu are in
+  English and lay out correctly (centred text, italic headings, button hints).
+- Story dialogue in both box types fits. The game draws text at about 0.81
+  scale on screen, so the map-scene box (portrait on the left, ~700 screen
+  px of text) holds about 865 font px; the LDBI budget of 832 px is safe.
+- Speaker name boxes centre the English names; unit names ("Canis") show in
+  the unit panel.
+- The map command menu box fits about 9 letters, so 2-character Japanese
+  commands do not need abbreviations. The first pass had squeezed short
+  labels to the Japanese width ("Atk", "Spr", "Abl", stage titles like
+  "God Stirs"); fitcheck/translate_batch now allow short labels 2.2x their
+  Japanese width (min 160 px) and those 2,559 entries are being redone.
+- Still unverified: library pages scrolling, intermission menus, battle
+  screen and battle quotes, the stage-script words kept Japanese, and
+  image-based text (title menu, legal notice, logos).

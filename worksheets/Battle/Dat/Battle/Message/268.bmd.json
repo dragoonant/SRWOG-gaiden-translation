@@ -16,7 +16,7 @@
     268
    ],
    "jp": "「よし、今だ！」",
-   "en": "",
+   "en": "All right, now!",
    "refs": [
     {
      "line": 0,
@@ -156,7 +156,7 @@
     268
    ],
    "jp": "「そこかっ！」",
-   "en": "",
+   "en": "There!",
    "refs": [
     {
      "line": 1,
@@ -242,7 +242,7 @@
     268
    ],
    "jp": "「もらった！」",
-   "en": "",
+   "en": "You're mine!",
    "refs": [
     {
      "line": 2,
@@ -364,7 +364,7 @@
     268
    ],
    "jp": "「この距離なら！」",
-   "en": "",
+   "en": "At this range!",
    "refs": [
     {
      "line": 3,
@@ -450,7 +450,7 @@
     268
    ],
    "jp": "「目標捕捉！」",
-   "en": "",
+   "en": "Target acquired!",
    "refs": [
     {
      "line": 4,
@@ -612,7 +612,8 @@
     }
    ],
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "retry_note": "BMD: \"I won't let you do as you please with this country!\" failed (width: 735px > 704px: \"I won't let you do as you please with this country\")"
   },
   {
    "id": 6,
@@ -622,7 +623,7 @@
     268
    ],
    "jp": "「シュテドニアスの連中め！」",
-   "en": "",
+   "en": "Damn those Shtedonians!",
    "refs": [
     {
      "line": 6,
@@ -654,7 +655,7 @@
     268
    ],
    "jp": "「行くぞ、地上人！」",
-   "en": "",
+   "en": "Here I come, surface dweller!",
    "refs": [
     {
      "line": 7,
@@ -686,7 +687,7 @@
     268
    ],
    "jp": "「何者であろうと、敵ならば！」",
-   "en": "",
+   "en": "Whoever you are, if you're an enemy...!",
    "refs": [
     {
      "line": 8,
@@ -718,7 +719,7 @@
     268
    ],
    "jp": "「こっちから行くぞ！」",
-   "en": "",
+   "en": "I'm coming at you!",
    "refs": [
     {
      "line": 9,
@@ -750,7 +751,7 @@
     268
    ],
    "jp": "「逃がすものか！」",
-   "en": "",
+   "en": "You're not getting away!",
    "refs": [
     {
      "line": 10,
@@ -782,7 +783,7 @@
     268
    ],
    "jp": "「反撃する！」",
-   "en": "",
+   "en": "Counterattacking!",
    "refs": [
     {
      "line": 11,
@@ -814,7 +815,7 @@
     268
    ],
    "jp": "「や、やられた！」",
-   "en": "",
+   "en": "I-I'm hit!",
    "refs": [
     {
      "line": 12,
@@ -846,7 +847,7 @@
     268
    ],
    "jp": "「ここまでかっ！！」",
-   "en": "",
+   "en": "Is this the end?!",
    "refs": [
     {
      "line": 13,
@@ -878,7 +879,7 @@
     268
    ],
    "jp": "「む、無念！！」",
-   "en": "",
+   "en": "I-I've failed!!",
    "refs": [
     {
      "line": 14,
@@ -910,7 +911,7 @@
     268
    ],
    "jp": "「うぐっ！　動力系にダメージが！」",
-   "en": "",
+   "en": "Ugh! The power systems are damaged!",
    "refs": [
     {
      "line": 15,
@@ -942,7 +943,7 @@
     268
    ],
    "jp": "「こ、これ以上はもたんか……！？」",
-   "en": "",
+   "en": "I-I can't hold out much longer...?!",
    "refs": [
     {
      "line": 16,
@@ -974,7 +975,7 @@
     268
    ],
    "jp": "「ぐっ！　国境警備隊の意地を見せてやる！」",
-   "en": "",
+   "en": "Ngh! I'll show you the Border Guard's grit!",
    "refs": [
     {
      "line": 17,
@@ -1006,7 +1007,7 @@
     268
    ],
    "jp": "「ぐううっ……！/　中尉達の足を引っ張るわけには……！」",
-   "en": "",
+   "en": "Nggh...!/　I can't be a burden to the Lieutenants...!",
    "refs": [
     {
      "line": 18,
@@ -1038,7 +1039,7 @@
     268
    ],
    "jp": "「ちいっ！　やってくれる！」",
-   "en": "",
+   "en": "Tch! Not bad!",
    "refs": [
     {
      "line": 19,
@@ -1070,7 +1071,7 @@
     268
    ],
    "jp": "「この程度で我らは怯まんぞ！」",
-   "en": "",
+   "en": "This won't make us flinch!",
    "refs": [
     {
      "line": 20,
@@ -1102,7 +1103,7 @@
     268
    ],
    "jp": "「まだだ、まだいける！」",
-   "en": "",
+   "en": "Not yet, I can still go!",
    "refs": [
     {
      "line": 21,
@@ -1134,7 +1135,7 @@
     268
    ],
    "jp": "「致命傷じゃない、まだ戦える！」",
-   "en": "",
+   "en": "It's not fatal. I can still fight!",
    "refs": [
     {
      "line": 22,
@@ -1166,7 +1167,7 @@
     268
    ],
    "jp": "「避けきれなかったか！」",
-   "en": "",
+   "en": "Couldn't dodge it all!",
    "refs": [
     {
      "line": 23,
@@ -1216,7 +1217,7 @@
     268
    ],
    "jp": "「奴め、速いな！」",
-   "en": "",
+   "en": "Damn, he's fast!",
    "refs": [
     {
      "line": 24,
@@ -1248,7 +1249,7 @@
     268
    ],
    "jp": "「かすり傷程度で！」",
-   "en": "",
+   "en": "It's just a scratch!",
    "refs": [
     {
      "line": 25,
@@ -1280,7 +1281,7 @@
     268
    ],
    "jp": "「くっ、対応できなかった！」",
-   "en": "",
+   "en": "Ngh, I couldn't react in time!",
    "refs": [
     {
      "line": 26,
@@ -1312,7 +1313,7 @@
     268
    ],
    "jp": "「当たるものか！」",
-   "en": "",
+   "en": "As if that'd hit me!",
    "refs": [
     {
      "line": 27,
@@ -1362,7 +1363,7 @@
     268
    ],
    "jp": "「甘い！」",
-   "en": "",
+   "en": "Too slow!",
    "refs": [
     {
      "line": 28,
@@ -1448,7 +1449,7 @@
     268
    ],
    "jp": "「遅いぞ！」",
-   "en": "",
+   "en": "Too slow!",
    "refs": [
     {
      "line": 29,
@@ -1480,7 +1481,7 @@
     268
    ],
    "jp": "「そんなもの！」",
-   "en": "",
+   "en": "That's nothing!",
    "refs": [
     {
      "line": 30,
@@ -1584,7 +1585,7 @@
     268
    ],
    "jp": "「………」",
-   "en": "",
+   "en": "...",
    "refs": [
     {
      "line": 40,
@@ -1616,7 +1617,7 @@
     268
    ],
    "jp": "「くっ、手が出せない！」",
-   "en": "",
+   "en": "Ngh, I can't touch it!",
    "refs": [
     {
      "line": 41,
@@ -1648,7 +1649,7 @@
     268
    ],
    "jp": "「反撃できないとは……！」",
-   "en": "",
+   "en": "I can't counter...!",
    "refs": [
     {
      "line": 42,
@@ -1698,7 +1699,7 @@
     268
    ],
    "jp": "「くっ、敵を見失った！」",
-   "en": "",
+   "en": "Ngh, I lost the enemy!",
    "refs": [
     {
      "line": 43,
@@ -1730,7 +1731,7 @@
     268
    ],
    "jp": "「奴め、どこへ行った！？」",
-   "en": "",
+   "en": "Where did they go?!",
    "refs": [
     {
      "line": 44,
@@ -1762,7 +1763,7 @@
     268
    ],
    "jp": "「援護します！」",
-   "en": "",
+   "en": "I'll provide support!",
    "refs": [
     {
      "line": 46,
@@ -1794,7 +1795,7 @@
     268
    ],
    "jp": "「続きます！」",
-   "en": "",
+   "en": "I'll follow!",
    "refs": [
     {
      "line": 47,
@@ -1826,7 +1827,7 @@
     268
    ],
    "jp": "「中尉、援護します！」",
-   "en": "",
+   "en": "Lieutenant, I'll cover you!",
    "refs": [
     {
      "line": 48,
@@ -1858,7 +1859,7 @@
     268
    ],
    "jp": "「マサキ殿、援護します！」",
-   "en": "",
+   "en": "Masaki, I'll cover you!",
    "refs": [
     {
      "line": 49,
@@ -1890,7 +1891,7 @@
     268
    ],
    "jp": "「リューネ殿、後は自分が！」",
-   "en": "",
+   "en": "Lüne, leave the rest to me!",
    "refs": [
     {
      "line": 50,
@@ -1922,7 +1923,7 @@
     268
    ],
    "jp": "「ミオ殿、後はお任せを！」",
-   "en": "",
+   "en": "Mio, leave the rest to me!",
    "refs": [
     {
      "line": 51,
@@ -1954,7 +1955,7 @@
     268
    ],
    "jp": "「ヤンロン殿、援護します！」",
-   "en": "",
+   "en": "Yang Long, I'll cover you!",
    "refs": [
     {
      "line": 52,
@@ -1986,7 +1987,7 @@
     268
    ],
    "jp": "「テュッティ殿、後は自分が！」",
-   "en": "",
+   "en": "Tytti, leave the rest to me!",
    "refs": [
     {
      "line": 53,
@@ -2018,7 +2019,7 @@
     268
    ],
    "jp": "「やらせるものか！」",
-   "en": "",
+   "en": "I won't let you!",
    "refs": [
     {
      "line": 54,
@@ -2050,7 +2051,7 @@
     268
    ],
    "jp": "「ここは自分が！」",
-   "en": "",
+   "en": "Leave this to me!",
    "refs": [
     {
      "line": 55,
@@ -2082,7 +2083,7 @@
     268
    ],
    "jp": "「中尉、下がってください！」",
-   "en": "",
+   "en": "Lieutenant, please fall back!",
    "refs": [
     {
      "line": 56,
@@ -2114,7 +2115,7 @@
     268
    ],
    "jp": "「マサキ殿、後退を！」",
-   "en": "",
+   "en": "Masaki, fall back!",
    "refs": [
     {
      "line": 57,
@@ -2146,7 +2147,7 @@
     268
    ],
    "jp": "「ミオ殿、ここは自分が！」",
-   "en": "",
+   "en": "Mio, I'll handle this!",
    "refs": [
     {
      "line": 58,
@@ -2178,7 +2179,7 @@
     268
    ],
    "jp": "「リューネ殿、離脱を！」",
-   "en": "",
+   "en": "Lüne, pull out!",
    "refs": [
     {
      "line": 59,
@@ -2210,7 +2211,7 @@
     268
    ],
    "jp": "「ヤンロン殿、ここは引き受けます！」",
-   "en": "",
+   "en": "Yang Long, I'll take it from here!",
    "refs": [
     {
      "line": 60,
@@ -2242,7 +2243,7 @@
     268
    ],
    "jp": "「テュッティ殿、下がってください！」",
-   "en": "",
+   "en": "Tytti, please fall back!",
    "refs": [
     {
      "line": 61,
@@ -2274,7 +2275,7 @@
     268
    ],
    "jp": "「もう一撃っ！」",
-   "en": "",
+   "en": "One more hit!",
    "refs": [
     {
      "line": 72,
@@ -2306,7 +2307,7 @@
     268
    ],
    "jp": "「まだ行ける！」",
-   "en": "",
+   "en": "I can still keep going!",
    "refs": [
     {
      "line": 73,
@@ -2338,7 +2339,7 @@
     268
    ],
    "jp": "「たあっ！」",
-   "en": "",
+   "en": "Hyaah!",
    "refs": [
     {
      "line": 87,
@@ -2388,7 +2389,7 @@
     268
    ],
    "jp": "「やあっ！」",
-   "en": "",
+   "en": "Yaah!",
    "refs": [
     {
      "line": 88,
@@ -2438,7 +2439,7 @@
     268
    ],
    "jp": "「とうっ！」",
-   "en": "",
+   "en": "Hup!",
    "refs": [
     {
      "line": 89,
@@ -2488,7 +2489,7 @@
     268
    ],
    "jp": "「でえいっ！」",
-   "en": "",
+   "en": "Hyaah!",
    "refs": [
     {
      "line": 90,
@@ -2538,7 +2539,7 @@
     268
    ],
    "jp": "「パルスレーザー、発射！」",
-   "en": "",
+   "en": "Pulse Laser, fire!",
    "refs": [
     {
      "line": 91,
@@ -2570,7 +2571,7 @@
     268
    ],
    "jp": "「パルスレーザー！」",
-   "en": "",
+   "en": "Pulse Laser!",
    "refs": [
     {
      "line": 92,
@@ -2602,7 +2603,7 @@
     268
    ],
    "jp": "「ミサイル、発射！」",
-   "en": "",
+   "en": "Missile, fire!",
    "refs": [
     {
      "line": 93,
@@ -2652,7 +2653,7 @@
     268
    ],
    "jp": "「ミサイル！」",
-   "en": "",
+   "en": "Missile!",
    "refs": [
     {
      "line": 94,
@@ -2702,7 +2703,7 @@
     268
    ],
    "jp": "「リニアレールガン！　行けっ！」",
-   "en": "",
+   "en": "Linear Railgun! Go!",
    "refs": [
     {
      "line": 99,
@@ -2734,7 +2735,7 @@
     268
    ],
    "jp": "「リニアレールガン、発射！」",
-   "en": "",
+   "en": "Linear Railgun, fire!",
    "refs": [
     {
      "line": 100,

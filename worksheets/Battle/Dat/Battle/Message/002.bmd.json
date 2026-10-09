@@ -16,7 +16,7 @@
     2
    ],
    "jp": "「遅いっ！！」",
-   "en": "",
+   "en": "Too slow!!",
    "refs": [
     {
      "line": 0,
@@ -120,7 +120,7 @@
     2
    ],
    "jp": "「当たれっ！！」",
-   "en": "",
+   "en": "Hit, damn it!!",
    "refs": [
     {
      "line": 1,
@@ -224,7 +224,7 @@
     2
    ],
    "jp": "「もらったぜ！」",
-   "en": "",
+   "en": "You're mine!",
    "refs": [
     {
      "line": 2,
@@ -310,7 +310,7 @@
     2
    ],
    "jp": "「やるかよっ！」",
-   "en": "",
+   "en": "Like hell!",
    "refs": [
     {
      "line": 3,
@@ -360,7 +360,7 @@
     2
    ],
    "jp": "「させるかよっ！！」",
-   "en": "",
+   "en": "Not on my watch!!",
    "refs": [
     {
      "line": 4,
@@ -428,7 +428,7 @@
     2
    ],
    "jp": "「気に入らねえんだよっ！！」",
-   "en": "",
+   "en": "I don't like your face!!",
    "refs": [
     {
      "line": 5,
@@ -478,7 +478,7 @@
     2
    ],
    "jp": "「この野郎！！」",
-   "en": "",
+   "en": "You bastard!!",
    "refs": [
     {
      "line": 6,
@@ -528,7 +528,7 @@
     2
    ],
    "jp": "「さっさとやられちまいなっ！」",
-   "en": "",
+   "en": "Just hurry up and go down!",
    "refs": [
     {
      "line": 7,
@@ -596,7 +596,7 @@
     2
    ],
    "jp": "「やらせるかよっ！！」",
-   "en": "",
+   "en": "Like hell I'll let you!!",
    "refs": [
     {
      "line": 8,
@@ -682,7 +682,7 @@
     2
    ],
    "jp": "「行くぜ、サイバスター！」",
-   "en": "",
+   "en": "Let's go, Cybuster!",
    "refs": [
     {
      "line": 9,
@@ -862,7 +862,8 @@
     }
    ],
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "retry_note": "BMD: \"I'll show you the power of the Wind Elemental Lord!\" failed (width: 739px > 704px: \"I'll show you the power of the Wind Elemental Lord\")"
   },
   {
    "id": 11,
@@ -872,7 +873,7 @@
     2
    ],
    "jp": "「見せてやるぜ！　魔装機神の力ってのをな！」",
-   "en": "",
+   "en": "I'll show you! The power of an Elemental Lord!",
    "refs": [
     {
      "line": 11,
@@ -904,7 +905,7 @@
     190
    ],
    "jp": "「マサキ、敵が来るニャ！」",
-   "en": "",
+   "en": "Masaki, enemies incoming, meow!",
    "refs": [
     {
      "line": 12,
@@ -936,7 +937,7 @@
     2
    ],
    "jp": "「ああ、わかったぜ！」",
-   "en": "",
+   "en": "Yeah, got it!",
    "refs": [
     {
      "line": 13,
@@ -986,7 +987,7 @@
     190
    ],
    "jp": "「マサキ、正面ニャ！」",
-   "en": "",
+   "en": "Masaki, dead ahead, meow!",
    "refs": [
     {
      "line": 14,
@@ -1018,7 +1019,7 @@
     2
    ],
    "jp": "「よし、行くぜ！」",
-   "en": "",
+   "en": "All right, let's go!",
    "refs": [
     {
      "line": 15,
@@ -1050,7 +1051,7 @@
     2
    ],
    "jp": "「ヘッ、おいでなすったな！　行くぜ！」",
-   "en": "",
+   "en": "Heh, here they come! Let's do this!",
    "refs": [
     {
      "line": 16,
@@ -1136,7 +1137,7 @@
     190
    ],
    "jp": "「マサキ、ちゃんと狙ってニャ！」",
-   "en": "",
+   "en": "Masaki, aim properly, meow!",
    "refs": [
     {
      "line": 17,
@@ -1186,7 +1187,7 @@
     2
    ],
    "jp": "「クロ、しっかり掴まってろよ！」",
-   "en": "",
+   "en": "Kuro, hold on tight!",
    "refs": [
     {
      "line": 18,
@@ -1237,7 +1238,7 @@
     191
    ],
    "jp": "「わかったニャ！」",
-   "en": "",
+   "en": "Got it, meow!",
    "refs": [
     {
      "line": 19,
@@ -1323,7 +1324,7 @@
     191
    ],
    "jp": "「マサキ、こっちに気づいたニャ！」",
-   "en": "",
+   "en": "Masaki, they've spotted us, meow!",
    "refs": [
     {
      "line": 20,
@@ -1355,7 +1356,7 @@
     2
    ],
    "jp": "「させるかよっ！」",
-   "en": "",
+   "en": "Not a chance!",
    "refs": [
     {
      "line": 21,
@@ -1387,7 +1388,7 @@
     191
    ],
    "jp": "「マサキ、しっかり頼むニャ！」",
-   "en": "",
+   "en": "Masaki, don't mess this up, meow!",
    "refs": [
     {
      "line": 24,
@@ -1419,7 +1420,7 @@
     2
    ],
    "jp": "「まったくよ、以前とは見違えたぜ、カークス！/　てめえがこれほどの野心家だったとはな！」",
-   "en": "",
+   "en": "Man, you've really changed, Kirkus!/　Never knew you were this ambitious!",
    "refs": [
     {
      "line": 34,
@@ -1451,7 +1452,7 @@
     2
    ],
    "jp": "「あの昼行灯のおっさんが、/　よくもここまでやったもんだ！/　そこだけは褒めてやるぜ！」",
-   "en": "",
+   "en": "That do-nothing old geezer actually/　pulled all this off!/　I'll give you credit for that much!",
    "refs": [
     {
      "line": 35,
@@ -1483,7 +1484,7 @@
     2
    ],
    "jp": "「てめえはやり過ぎたんだよ、カークス！/　過ぎた野心は、身を滅ぼす元だっ！」",
-   "en": "",
+   "en": "You went too far, Kirkus!/　Too much ambition is what ruins a man!",
    "refs": [
     {
      "line": 36,
@@ -1515,7 +1516,7 @@
     2
    ],
    "jp": "「ちっ、良くも悪くも頑固な爺さんだぜ！/　しかも、結構厄介な相手と来た」",
-   "en": "",
+   "en": "Tch! That old man's stubborn,/　for better or worse! And he's/　a real pain to fight, too.",
    "refs": [
     {
      "line": 37,
@@ -1547,7 +1548,7 @@
     2
    ],
    "jp": "「トロイア訛りのおっさんか……/　けど、何でトロイア訛りって/　関西弁に聞こえるんだ？」",
-   "en": "",
+   "en": "The old guy with the Troia accent.../　But why does a Troia accent/　sound like Kansai dialect?",
    "refs": [
     {
      "line": 38,
@@ -1579,7 +1580,7 @@
     2
    ],
    "jp": "「どうも、あのおっさんが相手だと/　勝手が違うんだよなぁ……」",
-   "en": "",
+   "en": "Somehow, fighting that old guy/　just feels different...",
    "refs": [
     {
      "line": 39,
@@ -1611,7 +1612,7 @@
     2
    ],
    "jp": "「おっさん、悪いことは言わねえ！/　さっさと降参しちまいな！」",
-   "en": "",
+   "en": "Old man, take my advice!/　Just give up already!",
    "refs": [
     {
      "line": 40,
@@ -1643,7 +1644,7 @@
     2
    ],
    "jp": "「山賊風情がなめんじゃねぇ！/　思い知らせてやるぜっ！」",
-   "en": "",
+   "en": "Bandit scum like you can't look down on me!/　I'll teach you a lesson!",
    "refs": [
     {
      "line": 41,
@@ -1675,7 +1676,7 @@
     2
    ],
    "jp": "「ここんとこ、ちょいと腕が鈍ってたからな、/　リハビリにゃちょうどいいぜ！」",
-   "en": "",
+   "en": "I've been a little rusty lately,/　so this'll be perfect rehab!",
    "refs": [
     {
      "line": 42,
@@ -1707,7 +1708,7 @@
     2
    ],
    "jp": "「観念しな、山賊！」",
-   "en": "",
+   "en": "Give it up, Bandit!",
    "refs": [
     {
      "line": 43,
@@ -1739,7 +1740,7 @@
     2
    ],
    "jp": "「あいつ……ただの兵士じゃねえな。/　いい反応してやがるぜ」",
-   "en": "",
+   "en": "That guy... he's no ordinary soldier./　He's got good reflexes.",
    "refs": [
     {
      "line": 44,
@@ -1771,7 +1772,7 @@
     2
    ],
    "jp": "「なかなかの腕みてえだが、相手が悪かったな！/　覚悟しやがれ！」",
-   "en": "",
+   "en": "You're pretty good, but you picked/　the wrong opponent! Brace yourself!",
    "refs": [
     {
      "line": 45,
@@ -1803,7 +1804,7 @@
     2
    ],
    "jp": "「デカい口を叩く割に、セコい手を使いやがる！/　てめえなんざ、俺の敵じゃねえんだよ！」",
-   "en": "",
+   "en": "Big talk, but you fight dirty!/　Scum like you is no match for me!",
    "refs": [
     {
      "line": 46,
@@ -1835,7 +1836,7 @@
     2
    ],
    "jp": "「ＲＥＢから切り離しちまえばこっちのモンだ！/　諦めな！」",
-   "en": "",
+   "en": "Once you're cut off from the REB,/　you're mine! Give it up!",
    "refs": [
     {
      "line": 47,
@@ -1867,7 +1868,7 @@
     2
    ],
    "jp": "「要するに、てめえは口先だけなんだよ！/　単純な脅しに引っ掛かりやがって！」",
-   "en": "",
+   "en": "Point is, you're all talk!/　Falling for a simple bluff like that!",
    "refs": [
     {
      "line": 48,
@@ -1899,7 +1900,7 @@
     2
    ],
    "jp": "「へぇ、/　少しは手応えがありそうな相手じゃねえか。/　期待を裏切るなよ！」",
-   "en": "",
+   "en": "Heh,/　looks like you might actually be a challenge./　Don't betray my hopes!",
    "refs": [
     {
      "line": 49,
@@ -1931,7 +1932,7 @@
     2
    ],
    "jp": "「てめえにはてめえの正義があるんだろうよ、/　アハマド！　けど、俺は絶対認めねぇ！」",
-   "en": "",
+   "en": "You've got your own brand of justice,/　Ahmad! But I'll never accept it!",
    "refs": [
     {
      "line": 50,
@@ -1963,7 +1964,7 @@
     2
    ],
    "jp": "「御前試合以来か……/　まさか、ガチでやり合う羽目になるとはな、/　アハマドよ！」",
-   "en": "",
+   "en": "Not since the royal tournament.../　Never thought we'd end up fighting/　for real, Ahmad!",
    "refs": [
     {
      "line": 51,
@@ -1995,7 +1996,7 @@
     2
    ],
    "jp": "「ラテルっつったな、あんた？/　お互い望まねえ戦いだ。死ぬんじゃねえぞ」",
-   "en": "",
+   "en": "Ratel, was it? Neither of us wants this/　fight, so don't go dying on me.",
    "refs": [
     {
      "line": 52,
@@ -2027,7 +2028,7 @@
     2
    ],
    "jp": "「ちっ！/　カークスが余計なことを始めなけりゃ、/　こんな事にゃあならなかったのによ！」",
-   "en": "",
+   "en": "Tch!/　If Kirkus hadn't started this mess,/　it never would've come to this!",
    "refs": [
     {
      "line": 53,
@@ -2059,7 +2060,7 @@
     2
    ],
    "jp": "「あんたは悪い奴じゃなさそうだが……/　戦うってんなら容赦はしねぇ！」",
-   "en": "",
+   "en": "You don't seem like a bad guy, but.../　if you want a fight, I won't hold back!",
    "refs": [
     {
      "line": 54,
@@ -2091,7 +2092,7 @@
     2
    ],
    "jp": "「馬鹿野郎！/　そんな機体でサイバスターに勝てると思うなよ！」",
-   "en": "",
+   "en": "You idiot!/　Don't think you can beat Cybuster with that!",
    "refs": [
     {
      "line": 55,
@@ -2123,7 +2124,7 @@
     2
    ],
    "jp": "「戻ってカークスに伝えな！/　てめえの野望は終わったってな！」",
-   "en": "",
+   "en": "Go back and tell Kirkus/　his ambitions are finished!",
    "refs": [
     {
      "line": 56,
@@ -2155,7 +2156,7 @@
     2
    ],
    "jp": "「アハマドなんぞに、そそのかされやがって！」",
-   "en": "",
+   "en": "Letting Ahmad of all people lead you on!",
    "refs": [
     {
      "line": 57,
@@ -2187,7 +2188,7 @@
     2
    ],
    "jp": "「スクールの生き残りか……！」",
-   "en": "",
+   "en": "A survivor of The School...!",
    "refs": [
     {
      "line": 58,
@@ -2219,7 +2220,7 @@
     2
    ],
    "jp": "「ガキに用はねえんだよ！」",
-   "en": "",
+   "en": "I've got no business with kids!",
    "refs": [
     {
      "line": 59,
@@ -2251,7 +2252,7 @@
     2
    ],
    "jp": "「アルジャン兄弟め、性懲りもなく！」",
-   "en": "",
+   "en": "Those Argent brothers--they never learn!",
    "refs": [
     {
      "line": 60,
@@ -2283,7 +2284,7 @@
     2
    ],
    "jp": "「アレス・ガイスト……/　スピードで攪乱してやるぜ！」",
-   "en": "",
+   "en": "Ares Geist.../　I'll throw it off with my speed!",
    "refs": [
     {
      "line": 61,
@@ -2315,7 +2316,7 @@
     2
    ],
    "jp": "「行くぜ、ドゥバン！」",
-   "en": "",
+   "en": "Here I come, Duban!",
    "refs": [
     {
      "line": 62,
@@ -2347,7 +2348,7 @@
     2
    ],
    "jp": "「ドゥバン！　ここでケリをつけてやるぜ！」",
-   "en": "",
+   "en": "Duban! I'm settling this here and now!",
    "refs": [
     {
      "line": 63,
@@ -2379,7 +2380,7 @@
     2
    ],
    "jp": "「アルテウル！　覚悟しやがれ！」",
-   "en": "",
+   "en": "Arteur! Brace yourself!",
    "refs": [
     {
      "line": 64,
@@ -2411,7 +2412,7 @@
     2
    ],
    "jp": "「行くぜ、イグニス！」",
-   "en": "",
+   "en": "Here I come, Ignis!",
    "refs": [
     {
      "line": 65,
@@ -2443,7 +2444,7 @@
     2
    ],
    "jp": "「メリオルエッセか……/　手応えありそうじゃねえか！」",
-   "en": "",
+   "en": "A Meliores Esse.../　Looks like a real challenge!",
    "refs": [
     {
      "line": 66,
@@ -2547,7 +2548,7 @@
     2
    ],
    "jp": "「あのメリオルエッセは俺に任せな！」",
-   "en": "",
+   "en": "Leave that Meliores Esse to me!",
    "refs": [
     {
      "line": 67,
@@ -2651,7 +2652,7 @@
     2
    ],
    "jp": "「ニヤついてんじゃねえぞ、コンターギオ！」",
-   "en": "",
+   "en": "Wipe that smirk off your face, Contagio!",
    "refs": [
     {
      "line": 68,
@@ -2683,7 +2684,7 @@
     2
    ],
    "jp": "「勝負だ、アクイラ！」",
-   "en": "",
+   "en": "Let's settle this, Aquila!",
    "refs": [
     {
      "line": 71,
@@ -2715,7 +2716,7 @@
     2
    ],
    "jp": "「行くぜ、ウンブラ！」",
-   "en": "",
+   "en": "Here I come, Umbra!",
    "refs": [
     {
      "line": 76,
@@ -2747,7 +2748,7 @@
     2
    ],
    "jp": "「ペルフェクティオ！/　無に還るのは、てめえの方だ！」",
-   "en": "",
+   "en": "Perfectio!/　You're the one going back to nothing!",
    "refs": [
     {
      "line": 79,
@@ -2779,7 +2780,7 @@
     2
    ],
    "jp": "「恐怖、絶望……/　それを振り払って、てめえを倒す！」",
-   "en": "",
+   "en": "Fear, despair.../　I'll shake 'em off and take you down!",
    "refs": [
     {
      "line": 80,
@@ -2811,7 +2812,7 @@
     2
    ],
    "jp": "「ロフ！　真っ向勝負だ！」",
-   "en": "",
+   "en": "Rof! Let's settle this head-on!",
    "refs": [
     {
      "line": 81,
@@ -2843,7 +2844,7 @@
     2
    ],
    "jp": "「行くぜ、ロフ！」",
-   "en": "",
+   "en": "Here I come, Rof!",
    "refs": [
     {
      "line": 82,
@@ -2875,7 +2876,7 @@
     2
    ],
    "jp": "「ふざけた喋り方をしやがって！」",
-   "en": "",
+   "en": "Cut out that stupid way of talkin'!",
    "refs": [
     {
      "line": 83,
@@ -2907,7 +2908,7 @@
     2
    ],
    "jp": "「てめえの口調は、イライラすんだよ！」",
-   "en": "",
+   "en": "The way you talk gets on my nerves!",
    "refs": [
     {
      "line": 84,
@@ -2939,7 +2940,7 @@
     2
    ],
    "jp": "「行くぜ、セティ！」",
-   "en": "",
+   "en": "Here I come, Sety!",
    "refs": [
     {
      "line": 85,
@@ -2971,7 +2972,7 @@
     2
    ],
    "jp": "「セティ！/　てめえじゃ俺を捉えることは出来ねえ！」",
-   "en": "",
+   "en": "Sety!/　There's no way you can catch me!",
    "refs": [
     {
      "line": 86,
@@ -3003,7 +3004,7 @@
     2
    ],
    "jp": "「ゼゼーナン！/　過ぎた野心は身を滅ぼすんだよ！」",
-   "en": "",
+   "en": "Zezenan!/　Too much ambition'll be your downfall!",
    "refs": [
     {
      "line": 87,
@@ -3035,7 +3036,7 @@
     2
    ],
    "jp": "「さっさと観念しやがれ、ゼゼーナン！」",
-   "en": "",
+   "en": "Give it up already, Zezenan!",
    "refs": [
     {
      "line": 88,
@@ -3067,7 +3068,7 @@
     2
    ],
    "jp": "「ある意味、シュウの被害者か。/　だが、同情する気なんざ更々ねえ！」",
-   "en": "",
+   "en": "In a way, you're one of Shu's victims./　But I don't feel sorry for you one bit!",
    "refs": [
     {
      "line": 89,
@@ -3117,7 +3118,7 @@
     2
    ],
    "jp": "「行くぜ、夏喃！」",
-   "en": "",
+   "en": "Here I come, Kanan!",
    "refs": [
     {
      "line": 91,
@@ -3149,7 +3150,7 @@
     2
    ],
    "jp": "「いつまでも余裕を見せてられると思うなよ！」",
-   "en": "",
+   "en": "Don't think you can stay cocky forever!",
    "refs": [
     {
      "line": 92,
@@ -3199,7 +3200,7 @@
     2
    ],
    "jp": "「桃源郷なんぞに興味はねえんだよ！」",
-   "en": "",
+   "en": "I don't give a damn about Shangri-La!",
    "refs": [
     {
      "line": 93,
@@ -3249,7 +3250,7 @@
     2
    ],
    "jp": "「孫光龍！　てめえ、何様のつもりだ！」",
-   "en": "",
+   "en": "Koryu Son!/　Who the hell do you think you are?!",
    "refs": [
     {
      "line": 96,
@@ -3281,7 +3282,7 @@
     2
    ],
    "jp": "「光龍！　てめえの態度がまず気に入らねえ！」",
-   "en": "",
+   "en": "Koryu!/　First off, I hate your attitude!",
    "refs": [
     {
      "line": 97,
@@ -3313,7 +3314,7 @@
     2
    ],
    "jp": "「光龍にヤンロン、紛らわしいんだよ！」",
-   "en": "",
+   "en": "Koryu, Yang Long... way too confusing!",
    "refs": [
     {
      "line": 98,
@@ -3345,7 +3346,7 @@
     2
    ],
    "jp": "「あいつの尻尾を切るのは、/　ちょいと面倒だな……！」",
-   "en": "",
+   "en": "Cutting off that tail's/　gonna be a bit of a pain...!",
    "refs": [
     {
      "line": 99,
@@ -3377,7 +3378,7 @@
     2
    ],
    "jp": "「行くぜ、ガイアセイバーズ！」",
-   "en": "",
+   "en": "Here I come, Gaia Savers!",
    "refs": [
     {
      "line": 100,
@@ -3409,7 +3410,7 @@
     2
    ],
    "jp": "「てめえら、/　地上で色々とやってくれたそうじゃねえか！」",
-   "en": "",
+   "en": "You guys!/　Heard you've been busy up on the surface!",
    "refs": [
     {
      "line": 101,
@@ -3441,7 +3442,7 @@
     2
    ],
    "jp": "「邪魔をするんじゃねえぜ、/　ガイアセイバーズ！」",
-   "en": "",
+   "en": "Stay outta my way,/　Gaia Savers!",
    "refs": [
     {
      "line": 102,
@@ -3473,7 +3474,7 @@
     2
    ],
    "jp": "「フェイル……わからねえ……/　俺にはわからねえ！　何でこんなことを！」",
-   "en": "",
+   "en": "Feil... I don't get it.../　I just don't get it!/　Why would you do this?!",
    "refs": [
     {
      "line": 103,
@@ -3505,7 +3506,7 @@
     2
    ],
    "jp": "「俺は……あんたとだけは/　戦いたくなかったぜ、フェイル……！/　けど、やるしかねえんだな！」",
-   "en": "",
+   "en": "You're... the one guy I never/　wanted to fight, Feil...!/　But I've got no choice, huh!",
    "refs": [
     {
      "line": 104,
@@ -3537,7 +3538,7 @@
     2
    ],
    "jp": "「どこだ……/　いったい、どこで道を間違っちまったんだ、/　フェイル！」",
-   "en": "",
+   "en": "Where...?/　Where the hell did you go wrong,/　Feil?!",
    "refs": [
     {
      "line": 105,
@@ -3569,7 +3570,7 @@
     2
    ],
    "jp": "「もう……引き返せねえんだな、フェイル……/　だったらせめて、この俺が幕を引いてやる！！」",
-   "en": "",
+   "en": "No turning back now, huh, Feil.../　Then at least I'll be the one to end it!!",
    "refs": [
     {
      "line": 106,
@@ -3601,7 +3602,7 @@
     2
    ],
    "jp": "「あんな化け物が神だってのかよ！？/　どうかしてやがるぜ！」",
-   "en": "",
+   "en": "That monster's supposed to be a god?!/　That's insane!",
    "refs": [
     {
      "line": 110,
@@ -3633,7 +3634,7 @@
     2
    ],
    "jp": "「神だか何だか知らねえが、/　あんな奴を野放しに出来るか！/　ぶっ倒す！」",
-   "en": "",
+   "en": "God or whatever, I don't care!/　I can't let that thing run loose!/　I'm takin' it down!",
    "refs": [
     {
      "line": 111,
@@ -3665,7 +3666,7 @@
     2
    ],
    "jp": "「こいつぁマジで、神っていうより/　幽霊や亡霊の類だな……/　だったら、成仏させてやるぜ！」",
-   "en": "",
+   "en": "Man, this thing's less like a god/　and more like a ghost or a phantom.../　Then I'll lay it to rest!",
    "refs": [
     {
      "line": 112,
@@ -3697,7 +3698,7 @@
     2
    ],
    "jp": "「勝負だ、忍者野郎！」",
-   "en": "",
+   "en": "Bring it on, ninja boy!",
    "refs": [
     {
      "line": 113,
@@ -3747,7 +3748,7 @@
     2
    ],
    "jp": "「ヘッ、どんな忍法を使うってんだよ！」",
-   "en": "",
+   "en": "Heh, what kinda ninja tricks you got?!",
    "refs": [
     {
      "line": 114,
@@ -3797,7 +3798,7 @@
     2
    ],
    "jp": "「てめえがどう進化しようと！」",
-   "en": "",
+   "en": "I don't care how much you evolve!",
    "refs": [
     {
      "line": 117,
@@ -3829,7 +3830,7 @@
     2
    ],
    "jp": "「行くぜ、メディウス・ロクス！」",
-   "en": "",
+   "en": "Here I come, Medius Locus!",
    "refs": [
     {
      "line": 118,
@@ -3861,7 +3862,7 @@
     2
    ],
    "jp": "「速そうな機体だな。/　だが、サイバスターにゃ敵わねえぜ！」",
-   "en": "",
+   "en": "Looks like a fast machine./　But it's no match for Cybuster!",
    "refs": [
     {
      "line": 119,
@@ -3911,7 +3912,7 @@
     2
    ],
    "jp": "「観念しやがれ、エグレッタ！」",
-   "en": "",
+   "en": "Give it up, Egretta!",
    "refs": [
     {
      "line": 120,
@@ -3943,7 +3944,7 @@
     2
    ],
    "jp": "「ヒュッケバインもどきなんざ、/　叩き落としてやる！」",
-   "en": "",
+   "en": "I'll knock this fake Hückebein/　right outta the sky!",
    "refs": [
     {
      "line": 122,
@@ -3975,7 +3976,7 @@
     2
    ],
    "jp": "「その斧で俺を斬れると思うなよ！」",
-   "en": "",
+   "en": "Don't think that axe'll cut me down!",
    "refs": [
     {
      "line": 123,
@@ -4007,7 +4008,7 @@
     2
    ],
    "jp": "「何が究極の機動兵器だ！/　ぶっ壊してやるぜ！」",
-   "en": "",
+   "en": "Ultimate mobile weapon, my ass!/　I'll smash it to pieces!",
    "refs": [
     {
      "line": 124,
@@ -4039,7 +4040,7 @@
     2
    ],
    "jp": "「ＡＩ１！/　てめえがこれ以上進化することはねえ！」",
-   "en": "",
+   "en": "AI1!/　You're not evolving any further!",
    "refs": [
     {
      "line": 125,
@@ -4071,7 +4072,7 @@
     2
    ],
    "jp": "「覚悟しやがれ、エルデ・ミッテ！」",
-   "en": "",
+   "en": "You're finished, Erde Mitte!",
    "refs": [
     {
      "line": 126,
@@ -4103,7 +4104,7 @@
     2
    ],
    "jp": "「四神の超機人か。/　相手にとって不足はねえぜ！」",
-   "en": "",
+   "en": "A Choukijin of the Four Gods, huh?/　You'll make a worthy opponent!",
    "refs": [
     {
      "line": 127,
@@ -4189,7 +4190,7 @@
     2
    ],
    "jp": "「その翼、叩き斬ってやるぜ！」",
-   "en": "",
+   "en": "I'll cut those wings right off!",
    "refs": [
     {
      "line": 128,
@@ -4221,7 +4222,7 @@
     2
    ],
    "jp": "「行くぜ、武雀王！」",
-   "en": "",
+   "en": "Here I come, BuJakuOh!",
    "refs": [
     {
      "line": 130,
@@ -4253,7 +4254,7 @@
     2
    ],
    "jp": "「四凶だか何だか知らねえが！/　好きにはやらせねえ！」",
-   "en": "",
+   "en": "Four Fiends or whatever, I don't care!/　I won't let you do as you please!",
    "refs": [
     {
      "line": 133,
@@ -4303,7 +4304,7 @@
     2
    ],
    "jp": "「超機人にも色んな奴がいるんだな……！」",
-   "en": "",
+   "en": "Takes all kinds of Choukijin, huh...!",
    "refs": [
     {
      "line": 134,
@@ -4353,7 +4354,7 @@
     2
    ],
    "jp": "「その尻尾も羽根もぶった切ってやる！」",
-   "en": "",
+   "en": "I'll slice off that tail and those wings!",
    "refs": [
     {
      "line": 135,
@@ -4385,7 +4386,7 @@
     2
    ],
    "jp": "「チッ、気色悪い超機人だぜ！」",
-   "en": "",
+   "en": "Tch, what a creepy Choukijin!",
    "refs": [
     {
      "line": 138,
@@ -4417,7 +4418,7 @@
     2
    ],
    "jp": "「てめえが神だと？/　ふざけんな、ただの機械じゃねえか！」",
-   "en": "",
+   "en": "You, a god?/　Gimme a break, you're just a machine!",
    "refs": [
     {
      "line": 139,
@@ -4449,7 +4450,7 @@
     2
    ],
    "jp": "「ガンエデン……/　地球の封印なんざやらせるか！」",
-   "en": "",
+   "en": "Gan Eden.../　I won't let you seal off the Earth!",
    "refs": [
     {
      "line": 140,
@@ -4481,7 +4482,7 @@
     2
    ],
    "jp": "「ユーゼス！/　てめえの過去も未来も、ここで抹消してやる！」",
-   "en": "",
+   "en": "Euzeth!/　I'll wipe out your past and future here!",
    "refs": [
     {
      "line": 141,
@@ -4513,7 +4514,7 @@
     2
    ],
    "jp": "「大それた野望は身を滅ぼす……/　ユーゼス、てめえにもそれを教えてやる！」",
-   "en": "",
+   "en": "Grand ambitions lead to ruin.../　Euzeth, I'll teach you that lesson too!",
    "refs": [
     {
      "line": 142,
@@ -4545,7 +4546,7 @@
     2
    ],
    "jp": "「化け物なんざ、蹴散らしてやる！」",
-   "en": "",
+   "en": "I'll send these monsters flying!",
    "refs": [
     {
      "line": 143,
@@ -4577,7 +4578,7 @@
     2
    ],
    "jp": "「雑魚の妖機人に用はねえ！」",
-   "en": "",
+   "en": "No time for Yokijin small fry!",
    "refs": [
     {
      "line": 144,
@@ -4609,7 +4610,7 @@
     2
    ],
    "jp": "「退治してやるぜ、妖機人！」",
-   "en": "",
+   "en": "Time to exterminate you, Yokijin!",
    "refs": [
     {
      "line": 145,
@@ -4641,7 +4642,7 @@
     2
    ],
    "jp": "「ルイーナなんざ、とっちめてやる！」",
-   "en": "",
+   "en": "I'll give the Ruina what for!",
    "refs": [
     {
      "line": 146,
@@ -4673,7 +4674,7 @@
     2
    ],
    "jp": "「ルイーナ！　これ以上はやらせねえ！」",
-   "en": "",
+   "en": "Ruina! This is as far as you go!",
    "refs": [
     {
      "line": 147,
@@ -4705,7 +4706,7 @@
     2
    ],
    "jp": "「ルイーナの雑魚に用はねえ！」",
-   "en": "",
+   "en": "No time for Ruina small fry!",
    "refs": [
     {
      "line": 148,
@@ -4737,7 +4738,7 @@
     2
    ],
    "jp": "「雑魚が……邪魔すんじゃねぇ！」",
-   "en": "",
+   "en": "Small fry... Outta my way!",
    "refs": [
     {
      "line": 149,
@@ -4787,7 +4788,7 @@
     2
    ],
    "jp": "「いい加減、地球征服なんざ諦めな！」",
-   "en": "",
+   "en": "Give up on conquering Earth already!",
    "refs": [
     {
      "line": 150,
@@ -4819,7 +4820,7 @@
     2
    ],
    "jp": "「てめえらが何度地球へ来ようと、/　結果は同じだぜ！」",
-   "en": "",
+   "en": "However many times you come to Earth,/　it'll end the same way!",
    "refs": [
     {
      "line": 151,
@@ -4851,7 +4852,7 @@
     2
    ],
    "jp": "「ゲスト！　返り討ちにしてやるぜ！」",
-   "en": "",
+   "en": "Guest! I'll send you packing!",
    "refs": [
     {
      "line": 152,
@@ -4883,7 +4884,7 @@
     2
    ],
    "jp": "「インスペクターだのゲストだの……/　いい加減にしろってんだ！」",
-   "en": "",
+   "en": "Inspectors this, Guests that.../　Give it a rest already!",
    "refs": [
     {
      "line": 153,
@@ -4915,7 +4916,7 @@
     2
    ],
    "jp": "「やりやがったなっ！！」",
-   "en": "",
+   "en": "You'll pay for that!!",
    "refs": [
     {
      "line": 155,
@@ -4947,7 +4948,7 @@
     2
    ],
    "jp": "「お返しだぜっ！」",
-   "en": "",
+   "en": "Here's some payback!",
    "refs": [
     {
      "line": 156,
@@ -4979,7 +4980,7 @@
     2
    ],
    "jp": "「こいつはおつりだっ！　とっときなっ！！」",
-   "en": "",
+   "en": "Here's your change! Keep it!!",
    "refs": [
     {
      "line": 157,
@@ -5011,7 +5012,7 @@
     2
    ],
    "jp": "「受けた分は、きっちり返すぜっ！」",
-   "en": "",
+   "en": "Whatever I take, I pay back in full!",
    "refs": [
     {
      "line": 158,
@@ -5043,7 +5044,7 @@
     2
    ],
    "jp": "「さあて、反撃開始と行くかっ！！」",
-   "en": "",
+   "en": "Time to start the counterattack!!",
    "refs": [
     {
      "line": 159,
@@ -5075,7 +5076,7 @@
     2
    ],
    "jp": "「まだまだ！　これからだぜっ！！」",
-   "en": "",
+   "en": "Not yet! I'm just getting started!!",
    "refs": [
     {
      "line": 160,
@@ -5125,7 +5126,7 @@
     2
    ],
    "jp": "「ここから本領発揮だぜっ！」",
-   "en": "",
+   "en": "Now I get serious!",
    "refs": [
     {
      "line": 161,
@@ -5157,7 +5158,7 @@
     2
    ],
    "jp": "「次はこっちの番だっ！」",
-   "en": "",
+   "en": "My turn now!",
    "refs": [
     {
      "line": 162,
@@ -5189,7 +5190,7 @@
     2
    ],
    "jp": "「ただで帰れると思うなよっ！」",
-   "en": "",
+   "en": "Don't think you're leaving in one piece!",
    "refs": [
     {
      "line": 163,
@@ -5221,7 +5222,7 @@
     2
    ],
    "jp": "「好きにさせるかっ！」",
-   "en": "",
+   "en": "I won't let you have your way!",
    "refs": [
     {
      "line": 164,
@@ -5253,7 +5254,7 @@
     2
    ],
    "jp": "「いい気になるなよっ！」",
-   "en": "",
+   "en": "Don't get cocky!",
    "refs": [
     {
      "line": 165,
@@ -5285,7 +5286,7 @@
     2
    ],
    "jp": "「ちっ！！/　オレもヤキがまわったもんだぜ！！」",
-   "en": "",
+   "en": "Tch!!/　Guess I'm losing my touch!!",
    "refs": [
     {
      "line": 167,
@@ -5317,7 +5318,7 @@
     2
    ],
    "jp": "「ちきしょう！/　このままじゃやられちまうぜっ！」",
-   "en": "",
+   "en": "Dammit!/　At this rate, I'm done for!",
    "refs": [
     {
      "line": 168,
@@ -5349,7 +5350,7 @@
     2
    ],
    "jp": "「何ぃっ！？　こいつ、/　これ程のパワーがあったのか！？」",
-   "en": "",
+   "en": "What?! This guy had/　this much power?!",
    "refs": [
     {
      "line": 169,
@@ -5381,7 +5382,7 @@
     2
    ],
    "jp": "「くっそおっ！！/　こんな事でやられてたまるかっ！！」",
-   "en": "",
+   "en": "Damn it!!/　I'm not going down like this!!",
    "refs": [
     {
      "line": 170,
@@ -5413,7 +5414,7 @@
     2
    ],
    "jp": "「うあぁっ！！/　ちっ、まずい事になってきやがった……！」",
-   "en": "",
+   "en": "Gaah!!/　Tch, this is getting bad...!",
    "refs": [
     {
      "line": 171,
@@ -5463,7 +5464,7 @@
     2
    ],
    "jp": "「どうした、サイバスター！/　お前の力はそんなもんじゃねえだろ！？」",
-   "en": "",
+   "en": "What's wrong, Cybuster?!/　You're stronger than that, aren't you?!",
    "refs": [
     {
      "line": 172,
@@ -5495,7 +5496,7 @@
     2
    ],
    "jp": "「ぐぅっ！！/　ダメージを受け過ぎちまったか……」",
-   "en": "",
+   "en": "Gugh!!/　I've taken too much damage...",
    "refs": [
     {
      "line": 173,
@@ -5545,7 +5546,7 @@
     2
    ],
    "jp": "「ぐぁっ！？/　こ、この……パワーだけはありやがる……」",
-   "en": "",
+   "en": "Gah?!/　Wh-Why you... You've got power,/　I'll give you that...",
    "refs": [
     {
      "line": 174,
@@ -5595,7 +5596,7 @@
     2
    ],
    "jp": "「うおっ！？　まずい、追い詰められてる！」",
-   "en": "",
+   "en": "Whoa?! Crap, I'm being cornered!",
    "refs": [
     {
      "line": 175,
@@ -5627,7 +5628,7 @@
     2
    ],
    "jp": "「ぐあっ！！　お、押されてるのかよ！」",
-   "en": "",
+   "en": "Gah!! Am I... being pushed back?!",
    "refs": [
     {
      "line": 176,
@@ -5659,7 +5660,7 @@
     2
    ],
    "jp": "「ちっ……いくらサイバスターでも、/　このままじゃヤベぇぜ……」",
-   "en": "",
+   "en": "Tch... Even Cybuster can't take/　much more of this...",
    "refs": [
     {
      "line": 177,
@@ -5691,7 +5692,7 @@
     2
    ],
    "jp": "「くっ！　このままじゃヤバいぜ……！」",
-   "en": "",
+   "en": "Ngh! This is getting dicey...!",
    "refs": [
     {
      "line": 178,
@@ -5723,7 +5724,7 @@
     191
    ],
    "jp": "「しっかりしてくれニャ！/　こんニャところでマサキと心中はいやだニャ！」",
-   "en": "",
+   "en": "Get a grip, meow!/　I don't wanna die here/　with Masaki, meow!",
    "refs": [
     {
      "line": 179,
@@ -5755,7 +5756,7 @@
     2
    ],
    "jp": "「ぐあっ！　やべえっ！！」",
-   "en": "",
+   "en": "Gah! Crap!!",
    "refs": [
     {
      "line": 180,
@@ -5787,7 +5788,7 @@
     190
    ],
    "jp": "「マサキ、本当にまずいわよ！」",
-   "en": "",
+   "en": "Masaki, this is really bad!",
    "refs": [
     {
      "line": 181,
@@ -5819,7 +5820,7 @@
     191
    ],
    "jp": "「ニャんとかしてくれニャ～！」",
-   "en": "",
+   "en": "Do something, meowww!",
    "refs": [
     {
      "line": 182,
@@ -5851,7 +5852,7 @@
     190
    ],
    "jp": "「こ、これ以上ダメージを受けたら……！」",
-   "en": "",
+   "en": "I-If we take any more damage...!",
    "refs": [
     {
      "line": 183,
@@ -5883,7 +5884,7 @@
     2
    ],
    "jp": "「心配すんな！/　もう奴の攻撃には当たらねえ！」",
-   "en": "",
+   "en": "Don't worry!/　That guy's not landing another hit!",
    "refs": [
     {
      "line": 184,
@@ -5915,7 +5916,7 @@
     190
    ],
    "jp": "「ニャニャッ！/　死んだら化けて出てやるから！」",
-   "en": "",
+   "en": "Nyah!/　If I die, I'll come back and haunt you!",
    "refs": [
     {
      "line": 185,
@@ -5947,7 +5948,7 @@
     2
    ],
    "jp": "「ヘッ、化け猫なんて御免だぜ……！」",
-   "en": "",
+   "en": "Heh, I don't need a ghost cat...!",
    "refs": [
     {
      "line": 186,
@@ -5979,7 +5980,7 @@
     2
    ],
    "jp": "「くそっ！/　サイバスターがここまでのダメージを食らうとは！！」",
-   "en": "",
+   "en": "Dammit!/　I can't believe Cybuster's/　taken this much damage!!",
    "refs": [
     {
      "line": 187,
@@ -6011,7 +6012,7 @@
     191
    ],
    "jp": "「お、おいらもビックリニャ」",
-   "en": "",
+   "en": "I-I'm surprised too, meow.",
    "refs": [
     {
      "line": 188,
@@ -6043,7 +6044,7 @@
     2
    ],
    "jp": "「うあぁっ！/　だが、サイバスターはまだやれるぜ！！」",
-   "en": "",
+   "en": "Gaah!/　But Cybuster can still fight!!",
    "refs": [
     {
      "line": 189,
@@ -6075,7 +6076,7 @@
     191
    ],
    "jp": "「そうニャ、マサキ！/　こっから巻き返すニャ！」",
-   "en": "",
+   "en": "That's right, Masaki!/　Let's turn this around, meow!",
    "refs": [
     {
      "line": 190,
@@ -6107,7 +6108,7 @@
     2
    ],
    "jp": "「くそっ！！/　デュラクシール……何てパワーだ！」",
-   "en": "",
+   "en": "Dammit!!/　Duraxyll... What power!",
    "refs": [
     {
      "line": 191,
@@ -6139,7 +6140,7 @@
     2
    ],
    "jp": "「ぐっ！！　やっぱりアハマド相手じゃ、/　一筋縄にはいかねえな……！」",
-   "en": "",
+   "en": "Ngh!! Ahmad's no pushover,/　just like I figured...!",
    "refs": [
     {
      "line": 192,
@@ -6171,7 +6172,7 @@
     2
    ],
    "jp": "「なっ……マジかよ！？/　これがブローウェルのパワーか！？」",
-   "en": "",
+   "en": "Wh-- Seriously?!/　Is this Blowell's power?!",
    "refs": [
     {
      "line": 193,
@@ -6203,7 +6204,7 @@
     2
    ],
    "jp": "「ちっ、/　さすがに自慢するだけのことはあるな……/　こいつはかなりの強敵だぜ！」",
-   "en": "",
+   "en": "Tch,/　guess he had a reason to brag.../　This guy's a tough one!",
    "refs": [
     {
      "line": 194,
@@ -6235,7 +6236,7 @@
     2
    ],
    "jp": "「くっ！！/　まずいな……おっさんを甘く見てたぜ」",
-   "en": "",
+   "en": "Ngh!!/　Crap... I underestimated the old man.",
    "refs": [
     {
      "line": 195,
@@ -6267,7 +6268,7 @@
     2
    ],
    "jp": "「何ぃっ、嘘だろ！？/　山賊相手にこんな苦戦するか！？」",
-   "en": "",
+   "en": "What, no way?!/　A Bandit's giving me this much trouble?!",
    "refs": [
     {
      "line": 196,
@@ -6299,7 +6300,7 @@
     2
    ],
    "jp": "「うあっ！！/　こ、こいつ、ただもんじゃねえな！」",
-   "en": "",
+   "en": "Gah!!/　Th-This guy's no ordinary opponent!",
    "refs": [
     {
      "line": 197,
@@ -6331,7 +6332,7 @@
     2
    ],
    "jp": "「ま、まずいっ！/　あんな奴、まともに相手してられるか！」",
-   "en": "",
+   "en": "Th-This is bad!/　I can't take on a guy like that head-on!",
    "refs": [
     {
      "line": 198,
@@ -6363,7 +6364,7 @@
     2
    ],
    "jp": "「くそっ！　またいつもの無敵モードかよ！/　こいつを破る方法はねぇのか？」",
-   "en": "",
+   "en": "Dammit! His invincible mode again?!/　Isn't there any way to break it?",
    "refs": [
     {
      "line": 199,
@@ -6395,7 +6396,7 @@
     2
    ],
    "jp": "「無敵モードだって、/　いつまでも続けられるもんじゃねえはずだ。/　何とかしてやってやる！」",
-   "en": "",
+   "en": "Even invincible mode/　can't last forever./　I'll find a way!",
    "refs": [
     {
      "line": 200,
@@ -6427,7 +6428,7 @@
     2
    ],
    "jp": "「ちっ、あいつの相手をしても/　どうしようもねえってのに……」",
-   "en": "",
+   "en": "Tch, fighting that guy/　won't get me anywhere...",
    "refs": [
     {
      "line": 201,
@@ -6459,7 +6460,7 @@
     2
    ],
    "jp": "「なっ……おいおい、嘘だろ！？/　何でこんな雑魚に手こずるんだよ！」",
-   "en": "",
+   "en": "Wh-- Hey, hey, no way?!/　Why's this small fry so tough?!",
    "refs": [
     {
      "line": 202,
@@ -6491,7 +6492,7 @@
     2
    ],
    "jp": "「ちいっ！/　こっちに集中して来やがった！/　侮れねえ！」　",
-   "en": "",
+   "en": "Tch!/　They're all focusing on me!/　Can't underestimate them!",
    "refs": [
     {
      "line": 203,
@@ -6523,7 +6524,7 @@
     2
    ],
    "jp": "「うおっ！？/　こ、こいつ……やりやがる！」",
-   "en": "",
+   "en": "Whoa?!/　Th-This guy... he's good!",
    "refs": [
     {
      "line": 204,
@@ -6555,7 +6556,7 @@
     2
    ],
    "jp": "「ちいぃっ！/　油断したとは思いたくねえが……/　まずいぞ、こいつは！」",
-   "en": "",
+   "en": "Tch!/　I'd hate to say I got careless.../　but this is bad!",
    "refs": [
     {
      "line": 205,
@@ -6587,7 +6588,7 @@
     2
    ],
    "jp": "「ぐうっ！　エグレッタめ！」",
-   "en": "",
+   "en": "Ngh! Damn you, Egretta!",
    "refs": [
     {
      "line": 206,
@@ -6637,7 +6638,7 @@
     2
    ],
    "jp": "「やりやがったな、イグニス！」",
-   "en": "",
+   "en": "You'll pay for that, Ignis!",
    "refs": [
     {
      "line": 207,
@@ -6687,7 +6688,7 @@
     2
    ],
    "jp": "「ぐっ！　メリオルエッセを/　甘く見たつもりはねえが……！」",
-   "en": "",
+   "en": "Ngh! I wasn't taking the/　Meliores Esse lightly, but...!",
    "refs": [
     {
      "line": 208,
@@ -6845,7 +6846,7 @@
     2
    ],
    "jp": "「コンターギオ！　まだ勝負はついてねえぜ！」",
-   "en": "",
+   "en": "Contagio! This fight isn't over yet!",
    "refs": [
     {
      "line": 209,
@@ -6895,7 +6896,7 @@
     2
    ],
    "jp": "「アクイラめ、やりやがる！」",
-   "en": "",
+   "en": "Damn Aquila, he's good!",
    "refs": [
     {
      "line": 211,
@@ -6945,7 +6946,7 @@
     2
    ],
    "jp": "「ロフめ、いい攻撃しやがるぜ！」",
-   "en": "",
+   "en": "Damn you, Rof, that was a good hit!",
    "refs": [
     {
      "line": 214,
@@ -6995,7 +6996,7 @@
     2
    ],
    "jp": "「あの口調でやられると、マジで腹が立つ！」",
-   "en": "",
+   "en": "Getting hit by someone who talks like/　that really ticks me off!",
    "refs": [
     {
      "line": 215,
@@ -7045,7 +7046,7 @@
     2
    ],
    "jp": "「うぐっ！　セティめ、やるな！」",
-   "en": "",
+   "en": "Ugh! Not bad, Sety!",
    "refs": [
     {
      "line": 216,
@@ -7095,7 +7096,7 @@
     2
    ],
    "jp": "「ちいっ！　調子に乗るなよ、ゼゼーナン！」",
-   "en": "",
+   "en": "Tch! Don't get cocky, Zezenan!",
    "refs": [
     {
      "line": 217,
@@ -7145,7 +7146,7 @@
     2
    ],
    "jp": "「か、夏喃……！　俺はまだ戦えるぜ！」",
-   "en": "",
+   "en": "K-Kanan...! I can still fight!",
    "refs": [
     {
      "line": 218,
@@ -7195,7 +7196,7 @@
     2
    ],
    "jp": "「ぐううっ！　あの爺さん、何てパワーだ！」",
-   "en": "",
+   "en": "Gnngh! What power from that old geezer!",
    "refs": [
     {
      "line": 219,
@@ -7245,7 +7246,7 @@
     2
    ],
    "jp": "「ぐああっ！　光龍め、よくも！」",
-   "en": "",
+   "en": "Gaah! Koryu, you'll pay for that!",
    "refs": [
     {
      "line": 220,
@@ -7295,7 +7296,7 @@
     2
    ],
    "jp": "「ぐうう……！/　“破滅の王”なんぞに負けてたまるか！」",
-   "en": "",
+   "en": "Grrr...!/　Like I'd lose to some/　\"King of Destruction\"!",
    "refs": [
     {
      "line": 221,
@@ -7345,7 +7346,7 @@
     2
    ],
    "jp": "「ぐっ！！/　こ、こんな化け物にやられてたまるかっ！」",
-   "en": "",
+   "en": "Ngh!!/　L-Like hell I'll lose to this monster!",
    "refs": [
     {
      "line": 222,
@@ -7377,7 +7378,7 @@
     2
    ],
    "jp": "「メディウス・ロクスめ、やってくれるぜ！」",
-   "en": "",
+   "en": "You got me good, Medius Locus!",
    "refs": [
     {
      "line": 223,
@@ -7427,7 +7428,7 @@
     2
    ],
    "jp": "「パワーもスピードも、/　ヒュッケバイン以上か！」",
-   "en": "",
+   "en": "Its power and speed.../　It's beyond the Hückebein!",
    "refs": [
     {
      "line": 224,
@@ -7477,7 +7478,7 @@
     2
    ],
    "jp": "「くそっ！/　ルイーナにしてやられるなんてよ！」",
-   "en": "",
+   "en": "Damn it!/　Getting shown up by the Ruina!",
    "refs": [
     {
      "line": 225,
@@ -7527,7 +7528,7 @@
     2
    ],
    "jp": "「ぐうっ！　ゲストなんぞに！」",
-   "en": "",
+   "en": "Ngh! Not to some Guest!",
    "refs": [
     {
      "line": 226,
@@ -7577,7 +7578,7 @@
     2
    ],
    "jp": "「くそっ！　化け物にやられてたまるか！」",
-   "en": "",
+   "en": "Damn! Like I'd let a monster beat me!",
    "refs": [
     {
      "line": 227,
@@ -7627,7 +7628,7 @@
     2
    ],
    "jp": "「ぐうっ！　これが雀武王の力か！」",
-   "en": "",
+   "en": "Ngh! So this is JakuBuOh's power!",
    "refs": [
     {
      "line": 228,
@@ -7677,7 +7678,7 @@
     2
    ],
    "jp": "「化け物め、やりやがったな！」",
-   "en": "",
+   "en": "Damn monster, you'll pay for that!",
    "refs": [
     {
      "line": 229,
@@ -7727,7 +7728,7 @@
     2
    ],
    "jp": "「あ、あの虎、速いじゃねえか！」",
-   "en": "",
+   "en": "Wh-Whoa, that tiger's fast!",
    "refs": [
     {
      "line": 230,
@@ -7777,7 +7778,7 @@
     2
    ],
    "jp": "「あ、あんな化け物に取り込まれてたまるか！」",
-   "en": "",
+   "en": "I-I won't be absorbed by that monster!",
    "refs": [
     {
      "line": 231,
@@ -7827,7 +7828,7 @@
     2
    ],
    "jp": "「これが神の力だと……！？/　認めてたまるか！」",
-   "en": "",
+   "en": "This is the power of a god...?!/　I refuse to accept that!",
    "refs": [
     {
      "line": 232,
@@ -7877,7 +7878,7 @@
     2
    ],
    "jp": "「くううっ！/　ユーゼス、何としてもてめえを！」",
-   "en": "",
+   "en": "Grrgh!/　Euzeth, I'll get you no matter what!",
    "refs": [
     {
      "line": 233,
@@ -7927,7 +7928,7 @@
     2
    ],
    "jp": "「ちっ！！　やるじゃねえかっ！！」",
-   "en": "",
+   "en": "Tch!! Not bad at all!!",
    "refs": [
     {
      "line": 234,
@@ -7977,7 +7978,7 @@
     2
    ],
    "jp": "「くっ、このっ！/　サイバスターをなめるなっ！！」",
-   "en": "",
+   "en": "Ngh, why you!/　Don't underestimate Cybuster!!",
    "refs": [
     {
      "line": 235,
@@ -8009,7 +8010,7 @@
     2
    ],
    "jp": "「くっ！　てめえなんぞにっ！！」",
-   "en": "",
+   "en": "Ngh! Not to the likes of you!!",
    "refs": [
     {
      "line": 236,
@@ -8041,7 +8042,7 @@
     2
    ],
    "jp": "「つっ……！　なんの、まだっ！！」",
-   "en": "",
+   "en": "Agh...! Not yet! I'm still going!!",
    "refs": [
     {
      "line": 237,
@@ -8073,7 +8074,7 @@
     2
    ],
    "jp": "「ぐっ！　まともに当たっちまった！」",
-   "en": "",
+   "en": "Ngh! Took that one head-on!",
    "refs": [
     {
      "line": 238,
@@ -8105,7 +8106,7 @@
     2
    ],
    "jp": "「いってぇ……！/　やりやがったな、こんちきしょう！！」",
-   "en": "",
+   "en": "Owww...!/　You'll pay for that, you son of a gun!!",
    "refs": [
     {
      "line": 239,
@@ -8137,7 +8138,7 @@
     2
    ],
    "jp": "「くそっ！　やるじゃねぇかよ！」",
-   "en": "",
+   "en": "Damn! You're pretty good!",
    "refs": [
     {
      "line": 240,
@@ -8169,7 +8170,7 @@
     2
    ],
    "jp": "「ちいっ！　こんなにパワーがあったのかよ！」",
-   "en": "",
+   "en": "Tch! It had this much power?!",
    "refs": [
     {
      "line": 241,
@@ -8201,7 +8202,7 @@
     2
    ],
    "jp": "「この程度でサイバスターが落ちるかよ！」",
-   "en": "",
+   "en": "Like Cybuster's going down from this!",
    "refs": [
     {
      "line": 242,
@@ -8233,7 +8234,7 @@
     2
    ],
    "jp": "「あたた……油断しちまったぜ」",
-   "en": "",
+   "en": "Ow ow... I got careless.",
    "refs": [
     {
      "line": 243,
@@ -8265,7 +8266,7 @@
     191
    ],
    "jp": "「頼むから、しっかりやってくれニャ！」",
-   "en": "",
+   "en": "Come on, do this right, meow!",
    "refs": [
     {
      "line": 244,
@@ -8315,7 +8316,7 @@
     2
    ],
    "jp": "「あいてっ！　よくもやりやがったなっ！！」",
-   "en": "",
+   "en": "Ouch! You're gonna pay for that!!",
    "refs": [
     {
      "line": 245,
@@ -8347,7 +8348,7 @@
     190
    ],
    "jp": "「マサキ、早くニャんとかしニャさいよ！」",
-   "en": "",
+   "en": "Masaki, hurry and do something, meow!",
    "refs": [
     {
      "line": 246,
@@ -8379,7 +8380,7 @@
     190
    ],
    "jp": "「フニャッ！！」",
-   "en": "",
+   "en": "Fnyah!!",
    "refs": [
     {
      "line": 247,
@@ -8411,7 +8412,7 @@
     191
    ],
    "jp": "「あ……頭、ぶつけちゃったニャ」",
-   "en": "",
+   "en": "I... I bumped my head, meow.",
    "refs": [
     {
      "line": 248,
@@ -8443,7 +8444,7 @@
     2
    ],
    "jp": "「大丈夫か？　クロ、シロ！」",
-   "en": "",
+   "en": "Kuro, Shiro! You okay?",
    "refs": [
     {
      "line": 249,
@@ -8475,7 +8476,7 @@
     2
    ],
    "jp": "「いてて……今度は俺が頭をぶつけちまったぜ」",
-   "en": "",
+   "en": "Ow... This time I bumped my head.",
    "refs": [
     {
      "line": 250,
@@ -8507,7 +8508,7 @@
     2
    ],
    "jp": "「うあっ！！」",
-   "en": "",
+   "en": "Agh!!",
    "refs": [
     {
      "line": 252,
@@ -8539,7 +8540,7 @@
     190
    ],
    "jp": "「マサキ、しっかりして！」",
-   "en": "",
+   "en": "Masaki, pull yourself together!",
    "refs": [
     {
      "line": 253,
@@ -8571,7 +8572,7 @@
     2
    ],
    "jp": "「クロ、どこにくらった！？」",
-   "en": "",
+   "en": "Kuro, where'd you get hit?!",
    "refs": [
     {
      "line": 254,
@@ -8603,7 +8604,7 @@
     190
    ],
    "jp": "「左側の翼ニャ！」",
-   "en": "",
+   "en": "The left wing, meow!",
    "refs": [
     {
      "line": 255,
@@ -8635,7 +8636,7 @@
     2
    ],
    "jp": "「あたた……避けたと思ったんだが……」",
-   "en": "",
+   "en": "Ow ow... I thought I dodged that...",
    "refs": [
     {
      "line": 256,
@@ -8667,7 +8668,7 @@
     190
    ],
    "jp": "「マサキ、調子に乗り過ぎ！」",
-   "en": "",
+   "en": "Masaki, you're getting too cocky!",
    "refs": [
     {
      "line": 257,
@@ -8699,7 +8700,7 @@
     2
    ],
    "jp": "「くっ……フェイル、本気なんだな！？」",
-   "en": "",
+   "en": "Ngh... Feil, you're serious about this?!",
    "refs": [
     {
      "line": 258,
@@ -8731,7 +8732,7 @@
     2
    ],
    "jp": "「ちっ、腐ってもソルガディってことかよ！/　やるじゃねえか！」",
-   "en": "",
+   "en": "Tch, a Solgady's still a Solgady, huh!/　Not bad!",
    "refs": [
     {
      "line": 259,
@@ -8763,7 +8764,7 @@
     2
    ],
    "jp": "「ちっ！/　ただのブローウェルじゃねえってのは/　ホントみてぇだな」",
-   "en": "",
+   "en": "Tch!/　Guess it's true this isn't/　just any Blowell.",
    "refs": [
     {
      "line": 260,
@@ -8795,7 +8796,7 @@
     2
    ],
    "jp": "「量産型ブローウェルのくせに、/　ここまで動きがいいとはな……/　改造マニアかよ！」",
-   "en": "",
+   "en": "For a mass-produced Blowell,/　this thing moves pretty damn well.../　What are you, a mod freak?!",
    "refs": [
     {
      "line": 261,
@@ -8827,7 +8828,7 @@
     2
    ],
    "jp": "「つっ！/　思ったよりやるじゃねえかよ、おっさん！」",
-   "en": "",
+   "en": "Ow!/　You're better than I thought, old man!",
    "refs": [
     {
      "line": 262,
@@ -8859,7 +8860,7 @@
     2
    ],
    "jp": "「くそっ！/　山賊なんぞに、まともに食らっちまった！」",
-   "en": "",
+   "en": "Damn it!/　Took a clean hit from a Bandit!",
    "refs": [
     {
      "line": 263,
@@ -8891,7 +8892,7 @@
     2
    ],
    "jp": "「こいつ……なかなかやりやがるな」",
-   "en": "",
+   "en": "This guy... he's pretty good.",
    "refs": [
     {
      "line": 264,
@@ -8923,7 +8924,7 @@
     2
    ],
    "jp": "「ちっ！/　あいつ、いい勘してやがるぜ！」",
-   "en": "",
+   "en": "Tch!/　That guy's got good instincts!",
    "refs": [
     {
      "line": 265,
@@ -8955,7 +8956,7 @@
     2
    ],
    "jp": "「なるほどな、/　それなりに場数を踏んでるってことか……/　ちょいと気を付けねえとな」",
-   "en": "",
+   "en": "I see,/　so you've seen your share of battles.../　Better watch myself a bit.",
    "refs": [
     {
      "line": 266,
@@ -9005,7 +9006,7 @@
     2
    ],
    "jp": "「くっ！/　相変わらず嫌な攻撃をしてきやがるぜ！」",
-   "en": "",
+   "en": "Ngh!/　Still throwing nasty attacks, as usual!",
    "refs": [
     {
      "line": 267,
@@ -9037,7 +9038,7 @@
     2
    ],
    "jp": "「何っ！？/　まともに当たったってのか！？」",
-   "en": "",
+   "en": "What?!/　That was a direct hit?!",
    "refs": [
     {
      "line": 268,
@@ -9069,7 +9070,7 @@
     2
    ],
    "jp": "「くそっ！/　なかなかいい腕してやがる！/　振り切れねぇ！」",
-   "en": "",
+   "en": "Damn!/　This one's pretty skilled!/　I can't shake 'em!",
    "refs": [
     {
      "line": 269,
@@ -9101,7 +9102,7 @@
     2
    ],
    "jp": "「ちっ、/　サイバスターの速度に反応してやがるのか！？」",
-   "en": "",
+   "en": "Tch,/　it's keeping up with Cybuster's speed?!",
    "refs": [
     {
      "line": 271,
@@ -9133,7 +9134,7 @@
     2
    ],
    "jp": "「こいつ……思ったよりやる！」",
-   "en": "",
+   "en": "This one's better than I thought!",
    "refs": [
     {
      "line": 272,
@@ -9165,7 +9166,7 @@
     2
    ],
    "jp": "「くっ！/　やっぱ、見た目分程度の力はあるってか！」",
-   "en": "",
+   "en": "Ngh!/　Guess it's as strong as it looks!",
    "refs": [
     {
      "line": 293,
@@ -9197,7 +9198,7 @@
     2
    ],
    "jp": "「ヘッ、こっちのスピードに/　追いつきやがったか！」",
-   "en": "",
+   "en": "Heh, so you caught up/　to my speed!",
    "refs": [
     {
      "line": 305,
@@ -9247,7 +9248,7 @@
     2
    ],
    "jp": "「へん、その程度かよ！」",
-   "en": "",
+   "en": "Heh, is that all you got?!",
    "refs": [
     {
      "line": 306,
@@ -9297,7 +9298,7 @@
     2
    ],
    "jp": "「ヘヘン！　効いてないぜ！」",
-   "en": "",
+   "en": "Heh heh! Didn't even feel it!",
    "refs": [
     {
      "line": 307,
@@ -9347,7 +9348,7 @@
     2
    ],
    "jp": "「何だよ、そんなんで/　この俺に向かって来るってのか？」",
-   "en": "",
+   "en": "What, you're coming at me/　with just that?",
    "refs": [
     {
      "line": 308,
@@ -9397,7 +9398,7 @@
     2
    ],
    "jp": "「なんでえ、そんなもんかよ！」",
-   "en": "",
+   "en": "What, that's it?!",
    "refs": [
     {
      "line": 309,
@@ -9447,7 +9448,7 @@
     2
    ],
    "jp": "「こんなもん、当たった内に入らねぇ！」",
-   "en": "",
+   "en": "That doesn't even count as a hit!",
    "refs": [
     {
      "line": 310,
@@ -9497,7 +9498,7 @@
     2
    ],
    "jp": "「その程度で、/　サイバスターがやれると思ってんのか！」",
-   "en": "",
+   "en": "You think that's enough/　to take down Cybuster?",
    "refs": [
     {
      "line": 311,
@@ -9529,7 +9530,7 @@
     2
    ],
    "jp": "「もうちょっと、ましな攻撃をしてきな！」",
-   "en": "",
+   "en": "Try hitting me with something decent!",
    "refs": [
     {
      "line": 312,
@@ -9561,7 +9562,7 @@
     191
    ],
    "jp": "「……ニャンて言って、/　次にすんごいのが来たらどうするつもりニャ？」",
-   "en": "",
+   "en": "...Big talk. What'll you do if/　something really nasty comes next?",
    "refs": [
     {
      "line": 313,
@@ -9611,7 +9612,7 @@
     2
    ],
    "jp": "「ヘッ、手加減なんていらねえぜ！」",
-   "en": "",
+   "en": "Heh, don't hold back on my account!",
    "refs": [
     {
      "line": 314,
@@ -9643,7 +9644,7 @@
     190
    ],
    "jp": "「マサキ、大丈夫？」",
-   "en": "",
+   "en": "Masaki, you okay?",
    "refs": [
     {
      "line": 316,
@@ -9675,7 +9676,7 @@
     2
    ],
    "jp": "「ああ、何でもねえぜ」",
-   "en": "",
+   "en": "Yeah, it's nothing.",
    "refs": [
     {
      "line": 317,
@@ -9707,7 +9708,7 @@
     190
    ],
    "jp": "「マサキ、敵の動きをしっかり見ニャさいよ！」",
-   "en": "",
+   "en": "Masaki, keep your eyes on the enemy!",
    "refs": [
     {
      "line": 318,
@@ -9739,7 +9740,7 @@
     2
    ],
    "jp": "「わかってるよ！」",
-   "en": "",
+   "en": "I know!",
    "refs": [
     {
      "line": 319,
@@ -9771,7 +9772,7 @@
     190
    ],
    "jp": "「追いつかれちゃったニャ！」",
-   "en": "",
+   "en": "It caught up to us!",
    "refs": [
     {
      "line": 320,
@@ -9803,7 +9804,7 @@
     2
    ],
    "jp": "「見てろ、引き離してやるぜ！」",
-   "en": "",
+   "en": "Watch this, I'll shake 'em off!",
    "refs": [
     {
      "line": 321,
@@ -9835,7 +9836,7 @@
     2
    ],
    "jp": "「いてて！　クロ、シロ、大丈夫か？」",
-   "en": "",
+   "en": "Ow, ow! Kuro, Shiro, you okay?",
    "refs": [
     {
      "line": 322,
@@ -9885,7 +9886,7 @@
     191
    ],
    "jp": "「おいらは平気だけど……/　マサキ、たんこぶが出来てるニャ」",
-   "en": "",
+   "en": "I'm fine, but.../　Masaki, you've got a bump on your head.",
    "refs": [
     {
      "line": 323,
@@ -9917,7 +9918,7 @@
     190
    ],
    "jp": "「マサキのヘタクソ！/　ちゃんと敵を見ニャいから……！」",
-   "en": "",
+   "en": "Masaki, you klutz!/　That's what you get for not watching!",
    "refs": [
     {
      "line": 325,
@@ -9949,7 +9950,7 @@
     191
    ],
    "jp": "「あいつ、結構やるニャ！」",
-   "en": "",
+   "en": "That one's pretty good!",
    "refs": [
     {
      "line": 327,
@@ -9981,7 +9982,7 @@
     2
    ],
    "jp": "「どうした、フェイル！/　この期に及んで手加減かよ！」",
-   "en": "",
+   "en": "What's wrong, Feil?/　You're holding back now, of all times?",
    "refs": [
     {
      "line": 328,
@@ -10013,7 +10014,7 @@
     2
    ],
    "jp": "「何だ、そりゃ？/　小手調べとでも言いたいのか？」",
-   "en": "",
+   "en": "What was that?/　Just feeling me out, is that it?",
    "refs": [
     {
      "line": 329,
@@ -10045,7 +10046,7 @@
     2
    ],
    "jp": "「どうした、アハマド！/　今更手加減したってんじゃねえだろうな！」　",
-   "en": "",
+   "en": "What's wrong, Ahmad?/　Don't tell me you're holding back now!",
    "refs": [
     {
      "line": 330,
@@ -10077,7 +10078,7 @@
     2
    ],
    "jp": "「くそっ！/　同じラングランの魔装機操者同士で戦いかよ！/　これじゃ内戦だろうが！」",
-   "en": "",
+   "en": "Damn it! Langran's own Masouki/　pilots fighting each other?/　This is basically a civil war!",
    "refs": [
     {
      "line": 331,
@@ -10109,7 +10110,7 @@
     2
    ],
    "jp": "「改造したって割にゃ、貧弱だな！」",
-   "en": "",
+   "en": "Pretty weak for a souped-up machine!",
    "refs": [
     {
      "line": 332,
@@ -10141,7 +10142,7 @@
     2
    ],
    "jp": "「そんなもんで落ちると思ってんのか、/　おっさんよ！」",
-   "en": "",
+   "en": "You think that'll drop me,/　old man?",
    "refs": [
     {
      "line": 333,
@@ -10173,7 +10174,7 @@
     2
    ],
    "jp": "「へっ、/　所詮山賊の力なんざ、この程度ってことだ」",
-   "en": "",
+   "en": "Heh./　That's all a bandit's got, after all.",
    "refs": [
     {
      "line": 334,
@@ -10205,7 +10206,7 @@
     2
    ],
    "jp": "「ちっ、/　こっちの回避パターンを読みやがったか！」",
-   "en": "",
+   "en": "Tch,/　so you've read my evasion pattern!",
    "refs": [
     {
      "line": 335,
@@ -10237,7 +10238,7 @@
     2
    ],
    "jp": "「おっと！/　何でぇ、ナグツァートにしちゃ、非力だな」",
-   "en": "",
+   "en": "Whoa!/　What, that's pretty weak for a Nagzadd.",
    "refs": [
     {
      "line": 336,
@@ -10269,7 +10270,7 @@
     2
    ],
    "jp": "「どうした、どうした！/　大口叩いといてこれか！」",
-   "en": "",
+   "en": "C'mon, c'mon!/　All that big talk, and this is it?",
    "refs": [
     {
      "line": 337,
@@ -10301,7 +10302,7 @@
     2
    ],
    "jp": "「ちっ、大した被害じゃねぇが、/　ねちっこい攻撃してきやがる」",
-   "en": "",
+   "en": "Tch, no real damage,/　but what a nasty, nagging attack.",
    "refs": [
     {
      "line": 338,
@@ -10333,7 +10334,7 @@
     2
    ],
    "jp": "「おっと、ただの雑魚かと思ってたが、/　ちょっとは出来る相手みてえだな。/　要注意っと」",
-   "en": "",
+   "en": "Whoa, figured it was just small fry,/　but looks like it's got some skill./　Better watch out.",
    "refs": [
     {
      "line": 339,
@@ -10365,7 +10366,7 @@
     2
    ],
    "jp": "「ちっ、当ててくるたぁな……/　けど、大したダメージじゃねえ」",
-   "en": "",
+   "en": "Tch, didn't think it'd land.../　But that's no real damage.",
    "refs": [
     {
      "line": 340,
@@ -10397,7 +10398,7 @@
     2
    ],
    "jp": "「ふん、やめとけ！　その程度じゃ、/　サイバスターの相手にゃ力不足だっての！」",
-   "en": "",
+   "en": "Hmph, give it up! That's not nearly/　enough to take on Cybuster!",
    "refs": [
     {
      "line": 341,
@@ -10429,7 +10430,7 @@
     2
    ],
    "jp": "「やるな、イグニス！」",
-   "en": "",
+   "en": "Not bad, Ignis!",
    "refs": [
     {
      "line": 342,
@@ -10461,7 +10462,7 @@
     2
    ],
    "jp": "「浅いぜ、コンターギオ！」",
-   "en": "",
+   "en": "Too shallow, Contagio!",
    "refs": [
     {
      "line": 343,
@@ -10493,7 +10494,7 @@
     2
    ],
    "jp": "「ロフめ、やりやがるぜ！」",
-   "en": "",
+   "en": "Damn, Rof's good!",
    "refs": [
     {
      "line": 344,
@@ -10525,7 +10526,7 @@
     2
    ],
    "jp": "「ま、インスペクターと大差ねえな」",
-   "en": "",
+   "en": "Eh, no different from the Inspectors.",
    "refs": [
     {
      "line": 345,
@@ -10611,7 +10612,7 @@
     2
    ],
    "jp": "「チッ、攻撃は素早いな！」",
-   "en": "",
+   "en": "Tch, that attack's fast!",
    "refs": [
     {
      "line": 346,
@@ -10643,7 +10644,7 @@
     2
    ],
    "jp": "「そんなもんか、セティ！」",
-   "en": "",
+   "en": "Is that all, Sety?",
    "refs": [
     {
      "line": 348,
@@ -10675,7 +10676,7 @@
     2
    ],
    "jp": "「ゼゼーナンめ、当ててきやがったか！」",
-   "en": "",
+   "en": "Damn you, Zezenan, you landed one!",
    "refs": [
     {
      "line": 350,
@@ -10707,7 +10708,7 @@
     2
    ],
    "jp": "「何でぇ、思ったより大したことねえな！」",
-   "en": "",
+   "en": "Huh, that's weaker than I expected!",
    "refs": [
     {
      "line": 352,
@@ -10739,7 +10740,7 @@
     2
    ],
    "jp": "「メディウス・ロクスめ、/　合わせてきやがったか！」",
-   "en": "",
+   "en": "Damn Medius Locus,/　it's keeping pace with me!",
    "refs": [
     {
      "line": 353,
@@ -10771,7 +10772,7 @@
     2
    ],
    "jp": "「チッ、厄介だな、あの斧は！」",
-   "en": "",
+   "en": "Tch, that axe is a real pain!",
    "refs": [
     {
      "line": 354,
@@ -10857,7 +10858,7 @@
     2
    ],
    "jp": "「チッ、妖機人に食いつかれるたぁな」",
-   "en": "",
+   "en": "Tch, a Yokijin's got its teeth in me.",
    "refs": [
     {
      "line": 359,
@@ -10889,7 +10890,7 @@
     2
    ],
    "jp": "「狙いが甘いぜ！！」",
-   "en": "",
+   "en": "Your aim's sloppy!!",
    "refs": [
     {
      "line": 360,
@@ -10939,7 +10940,7 @@
     2
    ],
    "jp": "「へたくそっ！！」",
-   "en": "",
+   "en": "You suck!!",
    "refs": [
     {
      "line": 361,
@@ -10971,7 +10972,7 @@
     2
    ],
    "jp": "「当たるかよっ！！」",
-   "en": "",
+   "en": "Like that'd hit me!!",
    "refs": [
     {
      "line": 362,
@@ -11039,7 +11040,7 @@
     2
    ],
    "jp": "「風の魔装機神は、ダテじゃねえんだよっ！」",
-   "en": "",
+   "en": "The Wind Masoukishin isn't for show!",
    "refs": [
     {
      "line": 363,
@@ -11071,7 +11072,7 @@
     2
    ],
    "jp": "「おおっと！　ハズレだぜ」",
-   "en": "",
+   "en": "Whoa there! Missed me.",
    "refs": [
     {
      "line": 364,
@@ -11103,7 +11104,7 @@
     2
    ],
    "jp": "「ヘッ、当たらねえな！」",
-   "en": "",
+   "en": "Heh, can't hit me!",
    "refs": [
     {
      "line": 365,
@@ -11153,7 +11154,7 @@
     2
    ],
    "jp": "「ヘッ、俺を相手にするのはやめときな！」",
-   "en": "",
+   "en": "Heh, you don't want to fight me!",
    "refs": [
     {
      "line": 366,
@@ -11203,7 +11204,7 @@
     2
    ],
    "jp": "「遅いな！　あくびが出るぜ」",
-   "en": "",
+   "en": "Too slow! I'm yawning here.",
    "refs": [
     {
      "line": 367,
@@ -11235,7 +11236,7 @@
     2
    ],
    "jp": "「へへん、余裕だぜ！」",
-   "en": "",
+   "en": "Heh heh, piece of cake!",
    "refs": [
     {
      "line": 368,
@@ -11267,7 +11268,7 @@
     190
    ],
    "jp": "「……そうでもなかったニャ」",
-   "en": "",
+   "en": "...Didn't look that way to me.",
    "refs": [
     {
      "line": 369,
@@ -11299,7 +11300,7 @@
     2
    ],
    "jp": "「おっと！　ギリギリセーフだぜ！」",
-   "en": "",
+   "en": "Whoa! Just made it!",
    "refs": [
     {
      "line": 370,
@@ -11331,7 +11332,7 @@
     191
    ],
    "jp": "「もっとちゃんと避けてくれニャ～！」",
-   "en": "",
+   "en": "Come on, dodge properly!",
    "refs": [
     {
      "line": 371,
@@ -11363,7 +11364,7 @@
     2
    ],
    "jp": "「よせ、フェイル！/　サイバスターのスピードに/　ついてこられる機体なんてねえんだ！」",
-   "en": "",
+   "en": "Stop it, Feil!/　No machine can keep up/　with Cybuster's speed!",
    "refs": [
     {
      "line": 372,
@@ -11413,7 +11414,7 @@
     2
    ],
    "jp": "「どうしちまったんだ、フェイル……/　あんたは、そんな人じゃなかったはずだろう！」",
-   "en": "",
+   "en": "What's happened to you, Feil.../　You were never that kind of man!",
    "refs": [
     {
      "line": 373,
@@ -11463,7 +11464,7 @@
     2
    ],
    "jp": "「俺に魔装機神操者の権利と義務を/　教えてくれたのは、あんただったよな、フェイル……/　それなのによっ！」",
-   "en": "",
+   "en": "You're the one who taught me the rights/　and duties of a Masoukishin pilot, Feil.../　And yet...!",
    "refs": [
     {
      "line": 374,
@@ -11513,7 +11514,7 @@
     2
    ],
    "jp": "「腕が鈍ったんじゃねえか、アハマド！」",
-   "en": "",
+   "en": "You've gotten rusty, Ahmad!",
    "refs": [
     {
      "line": 375,
@@ -11545,7 +11546,7 @@
     2
    ],
    "jp": "「へっ！　いくら改造した所で、/　このサイバスターのスピードにゃ/　ついてこられねえぜ！」",
-   "en": "",
+   "en": "Heh! No matter how much you modify it,/　it'll never keep up with/　Cybuster's speed!",
    "refs": [
     {
      "line": 376,
@@ -11577,7 +11578,7 @@
     2
    ],
    "jp": "「ははっ！　残念だったな、おっさんよ」",
-   "en": "",
+   "en": "Ha! Tough luck, old man.",
    "refs": [
     {
      "line": 377,
@@ -11609,7 +11610,7 @@
     2
    ],
    "jp": "「山賊ごときの攻撃が当たるかよ！」",
-   "en": "",
+   "en": "Like a bandit's attack could hit me!",
    "refs": [
     {
      "line": 378,
@@ -11641,7 +11642,7 @@
     2
    ],
    "jp": "「おおっと！/　てめえのやり口はお見通しなんだよ、/　ルオゾール！」",
-   "en": "",
+   "en": "Whoa there!/　I see right through your tricks,/　Luozorl!",
    "refs": [
     {
      "line": 379,
@@ -11673,7 +11674,7 @@
     2
    ],
    "jp": "「けっ、/　偉そうな口を叩いといてそれかよ！/　雑魚が！」",
-   "en": "",
+   "en": "Tch,/　all that big talk and this is it?/　Small fry!",
    "refs": [
     {
      "line": 380,
@@ -11705,7 +11706,7 @@
     2
    ],
    "jp": "「ははっ！/　狙いは良かったが、相手が悪かったな！」",
-   "en": "",
+   "en": "Ha ha! Nice aim,/　but you picked the wrong opponent!",
    "refs": [
     {
      "line": 381,
@@ -11737,7 +11738,7 @@
     2
    ],
    "jp": "「やめとけ！　やるだけ無駄だっての！」",
-   "en": "",
+   "en": "Give it up! It's a total waste of time!",
    "refs": [
     {
      "line": 382,
@@ -11769,7 +11770,7 @@
     2
    ],
    "jp": "「無駄だ、エグレッタ！」",
-   "en": "",
+   "en": "It's no use, Egretta!",
    "refs": [
     {
      "line": 383,
@@ -11801,7 +11802,7 @@
     2
    ],
    "jp": "「ロフ、どこ見てやがる！」",
-   "en": "",
+   "en": "Where are you looking, Rof?!",
    "refs": [
     {
      "line": 384,
@@ -11833,7 +11834,7 @@
     2
    ],
    "jp": "「甘いぜ、ロフ！」",
-   "en": "",
+   "en": "Too easy, Rof!",
    "refs": [
     {
      "line": 385,
@@ -11865,7 +11866,7 @@
     2
    ],
    "jp": "「遅いぜ、セティ！」",
-   "en": "",
+   "en": "Too slow, Sety!",
    "refs": [
     {
      "line": 386,
@@ -11897,7 +11898,7 @@
     2
    ],
    "jp": "「遅いぜ、夏喃！」",
-   "en": "",
+   "en": "Too slow, Kanan!",
    "refs": [
     {
      "line": 387,
@@ -11929,7 +11930,7 @@
     2
    ],
    "jp": "「遅いぜ、ヒュッケバインもどき！」",
-   "en": "",
+   "en": "Too slow, you Hückebein knockoff!",
    "refs": [
     {
      "line": 389,
@@ -11961,7 +11962,7 @@
     2
    ],
    "jp": "「ユーゼス、てめえが何をやろうと！」",
-   "en": "",
+   "en": "Euzeth, whatever you're planning...!",
    "refs": [
     {
      "line": 390,
@@ -11993,7 +11994,7 @@
     2
    ],
    "jp": "「ルイーナなんぞにやられるか！」",
-   "en": "",
+   "en": "Like I'd lose to the Ruina!",
    "refs": [
     {
      "line": 391,
@@ -12025,7 +12026,7 @@
     2
    ],
    "jp": "「妖機人なんぞに！」",
-   "en": "",
+   "en": "Not to some Yokijin!",
    "refs": [
     {
      "line": 392,
@@ -12057,7 +12058,7 @@
     2
    ],
    "jp": "「バーカ、もっとよく狙いな！」",
-   "en": "",
+   "en": "Idiot! Try aiming properly!",
    "refs": [
     {
      "line": 393,
@@ -12089,7 +12090,7 @@
     2
    ],
    "jp": "「笑わせんな！/　そんな腕で勝負するつもりかよ？」",
-   "en": "",
+   "en": "Don't make me laugh!/　You wanna fight me with skills like that?",
    "refs": [
     {
      "line": 394,
@@ -12121,7 +12122,7 @@
     2
    ],
    "jp": "「それじゃ、サイバスターに/　触れることは出来ねえぜ！」",
-   "en": "",
+   "en": "With moves like that, you'll never/　lay a finger on Cybuster!",
    "refs": [
     {
      "line": 395,
@@ -12153,7 +12154,7 @@
     190
    ],
    "jp": "「……今のはちょっと危なかったニャ」",
-   "en": "",
+   "en": "...That was a little close, nya.",
    "refs": [
     {
      "line": 396,
@@ -12185,7 +12186,7 @@
     2
    ],
    "jp": "「結果オーライでいいんだよ！」",
-   "en": "",
+   "en": "Hey, it worked out, didn't it!",
    "refs": [
     {
      "line": 397,
@@ -12217,7 +12218,7 @@
     2
    ],
    "jp": "「ヘッ、おととい来やがれってんだ！」",
-   "en": "",
+   "en": "Heh, get lost and don't come back!",
    "refs": [
     {
      "line": 398,
@@ -12249,7 +12250,7 @@
     190
    ],
    "jp": "「マサキ、調子に乗っちゃダメニャ」",
-   "en": "",
+   "en": "Masaki, don't get cocky, nya.",
    "refs": [
     {
      "line": 399,
@@ -12281,7 +12282,7 @@
     190
    ],
    "jp": "「かわせたニャ！」",
-   "en": "",
+   "en": "We dodged it, nya!",
    "refs": [
     {
      "line": 400,
@@ -12313,7 +12314,7 @@
     2
    ],
    "jp": "「あれぐらい、軽いもんだぜ！」",
-   "en": "",
+   "en": "That was a piece of cake!",
    "refs": [
     {
      "line": 401,
@@ -12345,7 +12346,7 @@
     2
    ],
    "jp": "「てめえじゃ、/　サイバスターに触れることも出来ねえぜ！」",
-   "en": "",
+   "en": "Someone like you/　can't even lay a finger on Cybuster!",
    "refs": [
     {
      "line": 402,
@@ -12377,7 +12378,7 @@
     191
    ],
    "jp": "「その通りだニャ！」",
-   "en": "",
+   "en": "That's right, nya!",
    "refs": [
     {
      "line": 403,
@@ -12409,7 +12410,7 @@
     2
    ],
    "jp": "「残念だったな。また今度相手をしてやるよ」",
-   "en": "",
+   "en": "Too bad. I'll take you on another time.",
    "refs": [
     {
      "line": 404,
@@ -12441,7 +12442,7 @@
     191
    ],
    "jp": "「おいらは勘弁ニャ」",
-   "en": "",
+   "en": "Count me out, nya.",
    "refs": [
     {
      "line": 405,
@@ -12473,7 +12474,7 @@
     2
    ],
    "jp": "「見たか、カークス！/　こいつがサイバスターの真骨頂だ！」",
-   "en": "",
+   "en": "See that, Kirkus?!/　This is Cybuster's true power!",
    "refs": [
     {
      "line": 406,
@@ -12505,7 +12506,7 @@
     2
    ],
    "jp": "「ちったぁやるようだが……詰めが甘いぜ！」",
-   "en": "",
+   "en": "Not bad... but you got careless!",
    "refs": [
     {
      "line": 407,
@@ -12537,7 +12538,7 @@
     2
    ],
    "jp": "「あんたの腕じゃ、俺に当てんのは無理だな」",
-   "en": "",
+   "en": "With your skills, you'll never hit me.",
    "refs": [
     {
      "line": 408,
@@ -12569,7 +12570,7 @@
     2
    ],
    "jp": "「当たらねえぜ、ドゥバン！」",
-   "en": "",
+   "en": "You can't hit me, Duban!",
    "refs": [
     {
      "line": 409,
@@ -12601,7 +12602,7 @@
     2
    ],
    "jp": "「ハッ！　何やってんだ、イグニス！」",
-   "en": "",
+   "en": "Ha! What're you doing, Ignis?!",
    "refs": [
     {
      "line": 410,
@@ -12633,7 +12634,7 @@
     2
    ],
    "jp": "「メリオルエッセってのも、/　大したことはねえな」",
-   "en": "",
+   "en": "So these Meliores Esse/　aren't such a big deal after all.",
    "refs": [
     {
      "line": 411,
@@ -12719,7 +12720,7 @@
     2
    ],
    "jp": "「甘いぜ、コンターギオ！」",
-   "en": "",
+   "en": "Too easy, Contagio!",
    "refs": [
     {
      "line": 412,
@@ -12751,7 +12752,7 @@
     2
    ],
    "jp": "「遅いぜ、アクイラ！」",
-   "en": "",
+   "en": "Too slow, Aquila!",
    "refs": [
     {
      "line": 414,
@@ -12783,7 +12784,7 @@
     2
    ],
    "jp": "「ゼブ、俺はここだ！」",
-   "en": "",
+   "en": "Over here, Zeb!",
    "refs": [
     {
      "line": 417,
@@ -12815,7 +12816,7 @@
     2
    ],
    "jp": "「ホントにイライラするぜ、あの喋り方」",
-   "en": "",
+   "en": "Man, that way of talking/　really gets on my nerves.",
    "refs": [
     {
      "line": 418,
@@ -12847,7 +12848,7 @@
     2
    ],
    "jp": "「何でえ、インスペクターより弱いな」",
-   "en": "",
+   "en": "What, you're weaker than the Inspectors.",
    "refs": [
     {
      "line": 419,
@@ -12915,7 +12916,7 @@
     2
    ],
    "jp": "「口先だけだな、ゼゼーナン！」",
-   "en": "",
+   "en": "You're all talk, Zezenan!",
    "refs": [
     {
      "line": 421,
@@ -12947,7 +12948,7 @@
     2
    ],
    "jp": "「ふん、俺を狙ったって無駄だ、ゼゼーナン」",
-   "en": "",
+   "en": "Hmph, aiming at me won't work, Zezenan.",
    "refs": [
     {
      "line": 422,
@@ -12979,7 +12980,7 @@
     2
    ],
    "jp": "「仙人ってのも、大したことねえな！」",
-   "en": "",
+   "en": "Guess immortals aren't such a big deal!",
    "refs": [
     {
      "line": 423,
@@ -13029,7 +13030,7 @@
     2
    ],
    "jp": "「光龍！　サイバスターを甘く見るな！」",
-   "en": "",
+   "en": "Koryu! Don't underestimate Cybuster!",
    "refs": [
     {
      "line": 425,
@@ -13061,7 +13062,7 @@
     2
    ],
    "jp": "「どうした、それが“破滅の王”の力か！」",
-   "en": "",
+   "en": "What's wrong? Is that the power/　of the \"King of Ruin\"?!",
    "refs": [
     {
      "line": 426,
@@ -13093,7 +13094,7 @@
     2
    ],
    "jp": "「へっ、図体がデカいだけのでくの坊かよ！」",
-   "en": "",
+   "en": "Heh, you're just a big, dumb lump!",
    "refs": [
     {
      "line": 430,
@@ -13125,7 +13126,7 @@
     2
    ],
    "jp": "「てめえの忍法なんざ、通用しねえんだよ！」",
-   "en": "",
+   "en": "Your ninja tricks won't work on me!",
    "refs": [
     {
      "line": 431,
@@ -13175,7 +13176,7 @@
     2
    ],
    "jp": "「そんなもんか、メディウス・ロクス！」",
-   "en": "",
+   "en": "Is that all, Medius Locus?!",
    "refs": [
     {
      "line": 433,
@@ -13207,7 +13208,7 @@
     2
    ],
    "jp": "「どう見ても妖怪そのものだな、ありゃ」",
-   "en": "",
+   "en": "No matter how you look at it,/　that thing's a straight-up yokai.",
    "refs": [
     {
      "line": 435,
@@ -13239,7 +13240,7 @@
     2
    ],
    "jp": "「どうした、化け物！　それで終わりか！」",
-   "en": "",
+   "en": "What's wrong, monster?! Is that it?!",
    "refs": [
     {
      "line": 436,
@@ -13289,7 +13290,7 @@
     2
    ],
    "jp": "「てめえなんぞに食われてたまるか！」",
-   "en": "",
+   "en": "Like hell I'm getting eaten by you!",
    "refs": [
     {
      "line": 438,
@@ -13339,7 +13340,7 @@
     2
    ],
    "jp": "「ヘッ、虎龍王の方が速いぜ！」",
-   "en": "",
+   "en": "Heh, KoRyuOh is faster than that!",
    "refs": [
     {
      "line": 439,
@@ -13389,7 +13390,7 @@
     2
    ],
    "jp": "「遅い、遅い！　亀だけにな！」",
-   "en": "",
+   "en": "Slow, slow! Just like a turtle!",
    "refs": [
     {
      "line": 441,
@@ -13439,7 +13440,7 @@
     2
    ],
    "jp": "「エルデ！/　サイバスターを取り込めると思うなよ！」",
-   "en": "",
+   "en": "Erde!/　Don't think you can absorb Cybuster!",
    "refs": [
     {
      "line": 444,
@@ -13471,7 +13472,7 @@
     2
    ],
    "jp": "「それで究極の兵器だと？　笑わせるぜ！」",
-   "en": "",
+   "en": "That's your ultimate weapon?/　Don't make me laugh!",
    "refs": [
     {
      "line": 445,
@@ -13503,7 +13504,7 @@
     2
    ],
    "jp": "「ガンエデン！/　てめえの加護なんざいらねえ！」",
-   "en": "",
+   "en": "Gan Eden!/　I don't need your protection!",
    "refs": [
     {
      "line": 446,
@@ -13535,7 +13536,7 @@
     2
    ],
    "jp": "「ユーゼスめ、/　わけのわからねえこと言いやがって！」",
-   "en": "",
+   "en": "Damn you, Euzeth,/　spouting nonsense like that!",
    "refs": [
     {
      "line": 447,
@@ -13567,7 +13568,7 @@
     2
    ],
    "jp": "「フン、効かねえぜ！」",
-   "en": "",
+   "en": "Hmph, that didn't work!",
    "refs": [
     {
      "line": 452,
@@ -13617,7 +13618,7 @@
     2
    ],
    "jp": "「そんなもんが効くかよっ！！」",
-   "en": "",
+   "en": "Like that's gonna work on me!!",
    "refs": [
     {
      "line": 453,
@@ -13667,7 +13668,7 @@
     2
    ],
    "jp": "「………」",
-   "en": "",
+   "en": "...",
    "refs": [
     {
      "line": 460,
@@ -13699,7 +13700,7 @@
     2
    ],
    "jp": "「くそっ！　弾切れになっちまった！！」",
-   "en": "",
+   "en": "Damn! I'm out of ammo!!",
    "refs": [
     {
      "line": 461,
@@ -13731,7 +13732,7 @@
     2
    ],
    "jp": "「使える武器がねえだと！？」",
-   "en": "",
+   "en": "What?! No weapons I can use?!",
    "refs": [
     {
      "line": 462,
@@ -13799,7 +13800,7 @@
     190
    ],
    "jp": "「いったん離れるニャ！」",
-   "en": "",
+   "en": "Let's back off for now, nya!",
    "refs": [
     {
      "line": 463,
@@ -13849,7 +13850,7 @@
     2
    ],
    "jp": "「ちっ！　こっからじゃ届かねえ！！」",
-   "en": "",
+   "en": "Tch! Can't reach from here!!",
    "refs": [
     {
      "line": 466,
@@ -13881,7 +13882,7 @@
     2
    ],
    "jp": "「どこ見てんだ！　隙だらけだぜ！！」",
-   "en": "",
+   "en": "Where're you looking?!/　You're wide open!!",
    "refs": [
     {
      "line": 468,
@@ -13913,7 +13914,7 @@
     2
    ],
    "jp": "「まだだ！　もう一撃！！」",
-   "en": "",
+   "en": "Not yet! One more hit!!",
    "refs": [
     {
      "line": 469,
@@ -13963,7 +13964,7 @@
     2
    ],
    "jp": "「こいつはおまけだ！　とっときなっ！！」",
-   "en": "",
+   "en": "Here's a little extra! Take it!!",
    "refs": [
     {
      "line": 470,
@@ -13995,7 +13996,7 @@
     2
    ],
    "jp": "「助太刀するぜっ！」",
-   "en": "",
+   "en": "I'll lend a hand!",
    "refs": [
     {
      "line": 471,
@@ -14027,7 +14028,7 @@
     2
    ],
    "jp": "「まだだっ！　次は俺が行く！」",
-   "en": "",
+   "en": "Not done yet! I'm up next!",
    "refs": [
     {
      "line": 472,
@@ -14059,7 +14060,7 @@
     2
    ],
    "jp": "「援護するぜ！」",
-   "en": "",
+   "en": "I've got your back!",
    "refs": [
     {
      "line": 473,
@@ -14091,7 +14092,7 @@
     2
    ],
    "jp": "「次は俺が相手だっ！」",
-   "en": "",
+   "en": "I'm your opponent now!",
    "refs": [
     {
      "line": 474,
@@ -14123,7 +14124,7 @@
     2
    ],
    "jp": "「ここは俺に任せなっ！」",
-   "en": "",
+   "en": "Leave this one to me!",
    "refs": [
     {
      "line": 475,
@@ -14155,7 +14156,7 @@
     2
    ],
    "jp": "「まだ終わってねぇぜっ！」",
-   "en": "",
+   "en": "It ain't over yet!",
    "refs": [
     {
      "line": 476,
@@ -14187,7 +14188,7 @@
     191
    ],
    "jp": "「チャンスニャ、マサキ！」",
-   "en": "",
+   "en": "Now's your chance, Masaki!",
    "refs": [
     {
      "line": 477,
@@ -14219,7 +14220,7 @@
     2
    ],
    "jp": "「よ～し、もういっちょ！」",
-   "en": "",
+   "en": "All right, one more time!",
    "refs": [
     {
      "line": 478,
@@ -14269,7 +14270,7 @@
     190
    ],
    "jp": "「敵機が逃げていくニャ！」",
-   "en": "",
+   "en": "The enemy's running away!",
    "refs": [
     {
      "line": 479,
@@ -14301,7 +14302,7 @@
     190
    ],
    "jp": "「まだいけるニャ！」",
-   "en": "",
+   "en": "We can still go!",
    "refs": [
     {
      "line": 481,
@@ -14333,7 +14334,7 @@
     2
    ],
    "jp": "「リューネ、ここは任せなっ！」",
-   "en": "",
+   "en": "Lüne, leave this to me!",
    "refs": [
     {
      "line": 483,
@@ -14365,7 +14366,7 @@
     2
    ],
    "jp": "「リューネ、手を貸すぜ！！」",
-   "en": "",
+   "en": "Lüne, I'll give you a hand!!",
    "refs": [
     {
      "line": 484,
@@ -14397,7 +14398,7 @@
     2
    ],
    "jp": "「後は俺に任せろ、リューネ！」",
-   "en": "",
+   "en": "Leave the rest to me, Lüne!",
    "refs": [
     {
      "line": 485,
@@ -14429,7 +14430,7 @@
     2
    ],
    "jp": "「リューネ！　後は俺に任せなっ！」",
-   "en": "",
+   "en": "Lüne! Leave the rest to me!",
    "refs": [
     {
      "line": 486,
@@ -14461,7 +14462,7 @@
     2
    ],
    "jp": "「シュウ……！　妙な真似をしやがったら……/　このままてめえを撃つ！」",
-   "en": "",
+   "en": "Shu...! Try anything funny.../　and I'll shoot you right here!",
    "refs": [
     {
      "line": 487,
@@ -14493,7 +14494,7 @@
     2
    ],
    "jp": "「ちっ、シュウめ。/　てめえの後始末くらい自分でやれっての！」",
-   "en": "",
+   "en": "Tch, Shu./　Clean up your own mess, will ya!",
    "refs": [
     {
      "line": 488,
@@ -14525,7 +14526,7 @@
     2
    ],
    "jp": "「手を貸すぜ、リュウセイ！」",
-   "en": "",
+   "en": "I'll lend you a hand, Ryusei!",
    "refs": [
     {
      "line": 489,
@@ -14557,7 +14558,7 @@
     2
    ],
    "jp": "「リュウセイ！　後は任せな！」",
-   "en": "",
+   "en": "Ryusei! Leave the rest to me!",
    "refs": [
     {
      "line": 490,
@@ -14589,7 +14590,7 @@
     2
    ],
    "jp": "「手伝うぜ、ブリット！」",
-   "en": "",
+   "en": "I'll help you out, Bullet!",
    "refs": [
     {
      "line": 491,
@@ -14621,7 +14622,7 @@
     2
    ],
    "jp": "「援護するぜ、キョウスケ！」",
-   "en": "",
+   "en": "I've got your back, Kyosuke!",
    "refs": [
     {
      "line": 492,
@@ -14653,7 +14654,7 @@
     2
    ],
    "jp": "「正面突破はおめえらの十八番だろ！/　先に行け！」",
-   "en": "",
+   "en": "Charging head-on is your specialty!/　Go on ahead!",
    "refs": [
     {
      "line": 493,
@@ -14703,7 +14704,7 @@
     2
    ],
    "jp": "「エクセレン、後は俺がやっとくぜ！」",
-   "en": "",
+   "en": "Excellen, I'll handle the rest!",
    "refs": [
     {
      "line": 494,
@@ -14735,7 +14736,7 @@
     2
    ],
    "jp": "「アラド！　おめえは先に行け！」",
-   "en": "",
+   "en": "Arado! You go on ahead!",
    "refs": [
     {
      "line": 496,
@@ -14767,7 +14768,7 @@
     2
    ],
    "jp": "「アイビス！　後は任せな！」",
-   "en": "",
+   "en": "Ibis! Leave the rest to me!",
    "refs": [
     {
      "line": 497,
@@ -14799,7 +14800,7 @@
     2
    ],
    "jp": "「援護するぜ、ジョッシュ！」",
-   "en": "",
+   "en": "I've got your back, Josh!",
    "refs": [
     {
      "line": 498,
@@ -14831,7 +14832,7 @@
     2
    ],
    "jp": "「リム、後は任せな！」",
-   "en": "",
+   "en": "Rim, leave the rest to me!",
    "refs": [
     {
      "line": 499,
@@ -14863,7 +14864,7 @@
     2
    ],
    "jp": "「アリエイル、後は俺がやる！」",
-   "en": "",
+   "en": "Arieil, I'll take it from here!",
    "refs": [
     {
      "line": 500,
@@ -14895,7 +14896,7 @@
     2
    ],
    "jp": "「イング、後は任せな！」",
-   "en": "",
+   "en": "Ing, leave the rest to me!",
    "refs": [
     {
      "line": 501,
@@ -14927,7 +14928,7 @@
     2
    ],
    "jp": "「トウマ、手伝ってやるぜ！」",
-   "en": "",
+   "en": "Touma, I'll help you out!",
    "refs": [
     {
      "line": 502,
@@ -14959,7 +14960,7 @@
     2
    ],
    "jp": "「ミチル、後始末は任せな！」",
-   "en": "",
+   "en": "Michiru, leave the cleanup to me!",
    "refs": [
     {
      "line": 503,
@@ -14991,7 +14992,7 @@
     2
    ],
    "jp": "「テュッティ、後は任せな！」",
-   "en": "",
+   "en": "Tytti, leave the rest to me!",
    "refs": [
     {
      "line": 504,
@@ -15023,7 +15024,7 @@
     2
    ],
    "jp": "「どうした、ヤンロン？/　俺がとどめ刺していいのか？」",
-   "en": "",
+   "en": "What's wrong, Yang Long?/　Mind if I finish this one?",
    "refs": [
     {
      "line": 505,
@@ -15055,7 +15056,7 @@
     2
    ],
    "jp": "「よーし、ミオ！　俺が片を付けてやるぜ！」",
-   "en": "",
+   "en": "All right, Mio! I'll finish this!",
    "refs": [
     {
      "line": 506,
@@ -15087,7 +15088,7 @@
     2
    ],
    "jp": "「俺に任せときな、セニア！」",
-   "en": "",
+   "en": "Leave it to me, Xenia!",
    "refs": [
     {
      "line": 507,
@@ -15119,7 +15120,7 @@
     2
    ],
    "jp": "「後は俺がやってやるぜ、ゲンナジー！」",
-   "en": "",
+   "en": "I'll take it from here, Gennacy!",
    "refs": [
     {
      "line": 508,
@@ -15151,7 +15152,7 @@
     2
    ],
    "jp": "「おし、おっさん！/　後は俺が片を付けてやるぜ！」",
-   "en": "",
+   "en": "Okay, old man!/　I'll settle this from here!",
    "refs": [
     {
      "line": 509,
@@ -15183,7 +15184,7 @@
     2
    ],
    "jp": "「討ち漏らしたな、ザッシュ。/　ま、後は俺がやってやるよ」",
-   "en": "",
+   "en": "You missed one, Zash./　Well, I'll handle the rest.",
    "refs": [
     {
      "line": 510,
@@ -15215,7 +15216,7 @@
     2
    ],
    "jp": "「てめえの手伝いなんざ御免だが、/　ま、今回は特別だ」",
-   "en": "",
+   "en": "I don't do favors for you,/　but this time's special.",
    "refs": [
     {
      "line": 511,
@@ -15247,7 +15248,7 @@
     2
    ],
    "jp": "「ちっ！　やらせるかよっ！」",
-   "en": "",
+   "en": "Tch! Like hell I'll let you!",
    "refs": [
     {
      "line": 514,
@@ -15279,7 +15280,7 @@
     2
    ],
    "jp": "「このっ！　させるか！」",
-   "en": "",
+   "en": "Why you! Not on my watch!",
    "refs": [
     {
      "line": 515,
@@ -15311,7 +15312,7 @@
     2
    ],
    "jp": "「俺が受け止めてやるっ！」",
-   "en": "",
+   "en": "I'll take the hit!",
    "refs": [
     {
      "line": 516,
@@ -15343,7 +15344,7 @@
     2
    ],
    "jp": "「俺が護ってやる！」",
-   "en": "",
+   "en": "I'll protect you!",
    "refs": [
     {
      "line": 517,
@@ -15375,7 +15376,7 @@
     2
    ],
    "jp": "「下がれ、リューネ！」",
-   "en": "",
+   "en": "Fall back, Lüne!",
    "refs": [
     {
      "line": 518,
@@ -15407,7 +15408,7 @@
     2
    ],
    "jp": "「リューネ！　突っ込み過ぎだ！」",
-   "en": "",
+   "en": "Lüne! You're charging in too far!",
    "refs": [
     {
      "line": 519,
@@ -15439,7 +15440,7 @@
     2
    ],
    "jp": "「させるかっ！　リューネ、俺に任せろっ！」",
-   "en": "",
+   "en": "Not a chance! Lüne, leave it to me!",
    "refs": [
     {
      "line": 520,
@@ -15471,7 +15472,7 @@
     2
    ],
    "jp": "「しょうがねえ……！　助けてやるぜ！」",
-   "en": "",
+   "en": "Fine...! I'll bail you out!",
    "refs": [
     {
      "line": 521,
@@ -15503,7 +15504,7 @@
     2
    ],
    "jp": "「ちっ、シュウ、てめえを守るとはな。/　まったく、世も末だぜ」",
-   "en": "",
+   "en": "Tch, me protecting you, Shu.../　The world's really going to hell.",
    "refs": [
     {
      "line": 522,
@@ -15535,7 +15536,7 @@
     2
    ],
    "jp": "「下がれ、ジョッシュ！」",
-   "en": "",
+   "en": "Fall back, Josh!",
    "refs": [
     {
      "line": 523,
@@ -15567,7 +15568,7 @@
     2
    ],
    "jp": "「リム、早く逃げろ！」",
-   "en": "",
+   "en": "Rim, get outta here!",
    "refs": [
     {
      "line": 524,
@@ -15599,7 +15600,7 @@
     2
    ],
    "jp": "「下がれ、アリエイル！」",
-   "en": "",
+   "en": "Fall back, Arieil!",
    "refs": [
     {
      "line": 525,
@@ -15631,7 +15632,7 @@
     2
    ],
    "jp": "「イング、ここは任せろ！」",
-   "en": "",
+   "en": "Ing, leave this to me!",
    "refs": [
     {
      "line": 526,
@@ -15663,7 +15664,7 @@
     2
    ],
    "jp": "「下がれ、トウマ！」",
-   "en": "",
+   "en": "Fall back, Touma!",
    "refs": [
     {
      "line": 527,
@@ -15695,7 +15696,7 @@
     2
    ],
    "jp": "「ミチル、何やってんだ！」",
-   "en": "",
+   "en": "Michiru, what are you doing!",
    "refs": [
     {
      "line": 528,
@@ -15727,7 +15728,7 @@
     2
    ],
    "jp": "「テュッティ、俺の後ろに下がれ！」",
-   "en": "",
+   "en": "Tytti, get behind me!",
    "refs": [
     {
      "line": 529,
@@ -15759,7 +15760,7 @@
     2
    ],
    "jp": "「無理すんな、ヤンロン！」",
-   "en": "",
+   "en": "Don't push it, Yang Long!",
    "refs": [
     {
      "line": 530,
@@ -15791,7 +15792,7 @@
     2
    ],
    "jp": "「ちっ、/　ザムジードのタフさを過信しすぎだぞ、ミオ！」",
-   "en": "",
+   "en": "Tch,/　Don't overrate Zamzeed's toughness, Mio!",
    "refs": [
     {
      "line": 531,
@@ -15823,7 +15824,7 @@
     2
    ],
    "jp": "「無理すんな、セニア！」",
-   "en": "",
+   "en": "Don't push it, Xenia!",
    "refs": [
     {
      "line": 532,
@@ -15855,7 +15856,7 @@
     2
    ],
    "jp": "「危ねえっ！　プレシア、下がれ！！」",
-   "en": "",
+   "en": "Look out! Precia, fall back!!",
    "refs": [
     {
      "line": 533,
@@ -15887,7 +15888,7 @@
     2
    ],
    "jp": "「ゲンナジー、俺が受け持つ！」",
-   "en": "",
+   "en": "Gennacy, I'll take this one!",
    "refs": [
     {
      "line": 534,
@@ -15919,7 +15920,7 @@
     2
    ],
    "jp": "「おっさん！　無理すんなって！」",
-   "en": "",
+   "en": "Old man! Don't push yourself!",
    "refs": [
     {
      "line": 535,
@@ -15951,7 +15952,7 @@
     2
    ],
    "jp": "「何やってる、ザッシュ！/　ぼーっとしてんじゃねぇ！」",
-   "en": "",
+   "en": "What're you doing, Zash!?/　Quit spacing out!",
    "refs": [
     {
      "line": 536,
@@ -15983,7 +15984,7 @@
     2
    ],
    "jp": "「まとめて片づけてやるぜ！」",
-   "en": "",
+   "en": "I'll take you all out at once!",
    "refs": [
     {
      "line": 537,
@@ -16033,7 +16034,7 @@
     2
    ],
    "jp": "「もう一撃、叩き込んでやる！」",
-   "en": "",
+   "en": "Here's one more hit!",
    "refs": [
     {
      "line": 545,
@@ -16065,7 +16066,7 @@
     2
    ],
    "jp": "「ヘッ、/　まだそんな所でグズグズしてやがったか！」",
-   "en": "",
+   "en": "Heh,/　you're still dawdling around there!?",
    "refs": [
     {
      "line": 546,
@@ -16097,7 +16098,7 @@
     2
    ],
    "jp": "「サイバスターなら、まだ行ける！」",
-   "en": "",
+   "en": "Cybuster can still keep going!",
    "refs": [
     {
      "line": 547,
@@ -16129,7 +16130,7 @@
     2
    ],
    "jp": "「いけぇっ！　カロリックミサイル！！」",
-   "en": "",
+   "en": "Go! Caloric Missile!!",
    "refs": [
     {
      "line": 562,
@@ -16179,7 +16180,7 @@
     2
    ],
    "jp": "「いっけぇぇっ！！/　サイフラァァァッシュ！！」",
-   "en": "",
+   "en": "Here goes!!/　Cyflaaaaash!!",
    "refs": [
     {
      "line": 563,
@@ -16229,7 +16230,7 @@
     2
    ],
    "jp": "「いけっ！　ハイファミリア！！」",
-   "en": "",
+   "en": "Go! High Familiar!!",
    "refs": [
     {
      "line": 564,
@@ -16351,7 +16352,7 @@
     191
    ],
    "jp": "「待ってましたニャ！」",
-   "en": "",
+   "en": "We've been waiting, nya!",
    "refs": [
     {
      "line": 565,
@@ -16473,7 +16474,7 @@
     190
    ],
    "jp": "「あたし達にまかせて！」",
-   "en": "",
+   "en": "Leave it to us!",
    "refs": [
     {
      "line": 566,
@@ -16559,7 +16560,7 @@
     191
    ],
    "jp": "「おいら達にまかせときニャって！」",
-   "en": "",
+   "en": "Just leave it to us, nya!",
    "refs": [
     {
      "line": 568,
@@ -16645,7 +16646,7 @@
     190
    ],
    "jp": "「行くニャ、シロ！」",
-   "en": "",
+   "en": "Let's go, Shiro, nya!",
    "refs": [
     {
      "line": 569,
@@ -16803,7 +16804,7 @@
     190
    ],
    "jp": "「あたし達に、おまかせニャ！」",
-   "en": "",
+   "en": "Leave it to us, nya!",
    "refs": [
     {
      "line": 572,
@@ -16853,7 +16854,7 @@
     2
    ],
    "jp": "「たのんだぜ、クロ、シロ！」",
-   "en": "",
+   "en": "I'm counting on you, Kuro, Shiro!",
    "refs": [
     {
      "line": 573,
@@ -16957,7 +16958,7 @@
     191
    ],
    "jp": "「ＯＫニャ！」",
-   "en": "",
+   "en": "OK, nya!",
    "refs": [
     {
      "line": 574,
@@ -17043,7 +17044,7 @@
     2
    ],
    "jp": "「クロ、シロ！　お前達の出番だぜ！」",
-   "en": "",
+   "en": "Kuro, Shiro! You're up!",
    "refs": [
     {
      "line": 579,
@@ -17093,7 +17094,7 @@
     2
    ],
    "jp": "「よし、ハイファミリアだ！」",
-   "en": "",
+   "en": "All right, High Familiar!",
    "refs": [
     {
      "line": 582,
@@ -17179,7 +17180,7 @@
     2
    ],
    "jp": "「やってやるぜっ！！」",
-   "en": "",
+   "en": "Let's do this!!",
    "refs": [
     {
      "line": 583,
@@ -17229,7 +17230,7 @@
     190
    ],
    "jp": "「やるのはあたし達ニャんだケドね……」",
-   "en": "",
+   "en": "Except we're the ones doing it, nya...",
    "refs": [
     {
      "line": 584,
@@ -17279,7 +17280,7 @@
     191
    ],
    "jp": "「ニャ～んか最近、/　おいら達の扱いが荒くなってきたニャ……」",
-   "en": "",
+   "en": "Nyaa... lately he's been treating us/　pretty rough, nya...",
    "refs": [
     {
      "line": 586,
@@ -17311,7 +17312,7 @@
     190
    ],
    "jp": "「ぶつくさ言わニャいの！」",
-   "en": "",
+   "en": "Quit grumbling, nya!",
    "refs": [
     {
      "line": 587,
@@ -17343,7 +17344,7 @@
     2
    ],
    "jp": "「任せたぜ！　クロ、シロ！」",
-   "en": "",
+   "en": "It's all yours! Kuro, Shiro!",
    "refs": [
     {
      "line": 591,
@@ -17393,7 +17394,7 @@
     191
    ],
    "jp": "「猫使いが荒いニャ～！」",
-   "en": "",
+   "en": "He works us cats too hard, nya~!",
    "refs": [
     {
      "line": 592,
@@ -17443,7 +17444,7 @@
     190
    ],
    "jp": "「そんニャこと言ってる場合じゃ/　ニャいでしょ！」",
-   "en": "",
+   "en": "This is no time to be saying that,/　nya!",
    "refs": [
     {
      "line": 593,
@@ -17493,7 +17494,7 @@
     2
    ],
    "jp": "「行けっ、クロ、シロ！」",
-   "en": "",
+   "en": "Go, Kuro, Shiro!",
    "refs": [
     {
      "line": 594,
@@ -17543,7 +17544,7 @@
     190
    ],
    "jp": "「ＯＫ！」",
-   "en": "",
+   "en": "OK!",
    "refs": [
     {
      "line": 595,
@@ -17593,7 +17594,7 @@
     191
    ],
    "jp": "「任せるニャ！」",
-   "en": "",
+   "en": "Leave it to us, nya!",
    "refs": [
     {
      "line": 596,
@@ -17643,7 +17644,7 @@
     2
    ],
    "jp": "「クロ、シロ、出番だぜ！！」",
-   "en": "",
+   "en": "Kuro, Shiro, you're up!!",
    "refs": [
     {
      "line": 597,
@@ -17693,7 +17694,7 @@
     190
    ],
    "jp": "「待ってたニャン！」",
-   "en": "",
+   "en": "Been waiting for this, nyan!",
    "refs": [
     {
      "line": 598,
@@ -17743,7 +17744,7 @@
     191
    ],
    "jp": "「いっちょやってやるニャ！」",
-   "en": "",
+   "en": "Let's give 'em what for, nya!",
    "refs": [
     {
      "line": 599,
@@ -17793,7 +17794,7 @@
     2
    ],
    "jp": "「お前らに任せるぜ！！」",
-   "en": "",
+   "en": "I'm leaving it to you two!!",
    "refs": [
     {
      "line": 600,
@@ -17843,7 +17844,7 @@
     190
    ],
    "jp": "「やれやれ」",
-   "en": "",
+   "en": "Good grief.",
    "refs": [
     {
      "line": 601,
@@ -17893,7 +17894,7 @@
     191
    ],
    "jp": "「ファミリア使いが荒いニャ」",
-   "en": "",
+   "en": "He works his familiars too hard, nya.",
    "refs": [
     {
      "line": 602,
@@ -17943,7 +17944,7 @@
     2
    ],
    "jp": "「ディスカッター、霞斬り！」",
-   "en": "",
+   "en": "Discutter, Mist Slash!",
    "refs": [
     {
      "line": 604,
@@ -17993,7 +17994,7 @@
     2
    ],
    "jp": "「おらおらおらおらっ！！」",
-   "en": "",
+   "en": "Ora ora ora ora!!",
    "refs": [
     {
      "line": 606,
@@ -18043,7 +18044,7 @@
     2
    ],
    "jp": "「行くぞ！　ディスカッター、霞斬りぃっ！」",
-   "en": "",
+   "en": "Here I go! Discutter, Mist Slaaash!",
    "refs": [
     {
      "line": 608,
@@ -18093,7 +18094,7 @@
     2
    ],
    "jp": "「ディスカッターでぶった斬ってやる！」",
-   "en": "",
+   "en": "I'll cut you down with the Discutter!",
    "refs": [
     {
      "line": 610,
@@ -18125,7 +18126,7 @@
     2
    ],
    "jp": "「魔法剣エーテルちゃぶ台返し！」",
-   "en": "",
+   "en": "Magic Sword: Ether Table Flip!",
    "refs": [
     {
      "line": 611,
@@ -18157,7 +18158,7 @@
     190
    ],
    "jp": "「そんな技、ニャいニャ」",
-   "en": "",
+   "en": "There's nyo such move, nya.",
    "refs": [
     {
      "line": 612,
@@ -18189,7 +18190,7 @@
     2
    ],
    "jp": "「てめえの存在、その何もかもを/　アカシックレコードから消してやる！」",
-   "en": "",
+   "en": "I'll erase every last trace of you/　from the Akashic Records!",
    "refs": [
     {
      "line": 613,
@@ -18221,7 +18222,7 @@
     2
    ],
    "jp": "「サイバード・チェンジ！」",
-   "en": "",
+   "en": "Cybird Change!",
    "refs": [
     {
      "line": 614,
@@ -18271,7 +18272,7 @@
     2
    ],
    "jp": "「アァァカシックバスタァァァァァッ！！」",
-   "en": "",
+   "en": "Aaakashic Busteeeeer!!",
    "refs": [
     {
      "line": 615,
@@ -18303,7 +18304,7 @@
     2
    ],
    "jp": "「行くぞ、アカシックレコードサーチ！」",
-   "en": "",
+   "en": "Here goes, Akashic Record Search!",
    "refs": [
     {
      "line": 616,
@@ -18335,7 +18336,7 @@
     2
    ],
    "jp": "「くらえっ！/　アァァカシックバスタァァァッ！！」",
-   "en": "",
+   "en": "Take this!/　Aaakashic Busteeer!!",
    "refs": [
     {
      "line": 618,
@@ -18367,7 +18368,7 @@
     2
    ],
    "jp": "「貫けぇぇぇっ！！」",
-   "en": "",
+   "en": "Pierce throoough!!",
    "refs": [
     {
      "line": 619,
@@ -18399,7 +18400,7 @@
     2
    ],
    "jp": "「行っけぇぇぇぇぇっ！！」",
-   "en": "",
+   "en": "Goooooo!!",
    "refs": [
     {
      "line": 620,
@@ -18431,7 +18432,7 @@
     2
    ],
    "jp": "「こいつのパワーは桁違いだぜ！」",
-   "en": "",
+   "en": "This thing's power is off the charts!",
    "refs": [
     {
      "line": 621,
@@ -18463,7 +18464,7 @@
     190
    ],
    "jp": "「マクスウェルコイル、充電完了！」",
-   "en": "",
+   "en": "Maxwell Coil, fully charged!",
    "refs": [
     {
      "line": 622,
@@ -18495,7 +18496,7 @@
     191
    ],
    "jp": "「全自動追尾、セットＯＫ！」",
-   "en": "",
+   "en": "Full auto-tracking, set and ready!",
    "refs": [
     {
      "line": 623,
@@ -18527,7 +18528,7 @@
     2
    ],
    "jp": "「こいつは痛いぜっ！！　コスモノヴァ！！」",
-   "en": "",
+   "en": "This one's gonna hurt!! Cosmo Nova!!",
    "refs": [
     {
      "line": 624,
@@ -18559,7 +18560,7 @@
     2
    ],
    "jp": "「全エネルギーを集中！！」",
-   "en": "",
+   "en": "Focusing all energy!!",
    "refs": [
     {
      "line": 625,
@@ -18591,7 +18592,7 @@
     190
    ],
    "jp": "「プラーニャ指数、限界値突破！」",
-   "en": "",
+   "en": "Prana index, past the limit!",
    "refs": [
     {
      "line": 626,
@@ -18623,7 +18624,7 @@
     191
    ],
    "jp": "「行けるニャ、マサキ！！」",
-   "en": "",
+   "en": "We're good to go, Masaki, nya!!",
    "refs": [
     {
      "line": 627,
@@ -18655,7 +18656,7 @@
     2
    ],
    "jp": "「これで終わりだっ！！　コスモノヴァ！！」",
-   "en": "",
+   "en": "This ends now!! Cosmo Nova!!",
    "refs": [
     {
      "line": 628,
@@ -18687,7 +18688,7 @@
     2
    ],
    "jp": "「バニティリッパー！」",
-   "en": "",
+   "en": "Vanity Ripper!",
    "refs": [
     {
      "line": 629,
@@ -18719,7 +18720,7 @@
     2
    ],
    "jp": "「とっておきを見せてやるぜ！」",
-   "en": "",
+   "en": "I'll show you my ace in the hole!",
    "refs": [
     {
      "line": 630,
@@ -18751,7 +18752,7 @@
     2
    ],
    "jp": "「でえいっ！」",
-   "en": "",
+   "en": "Hyaah!",
    "refs": [
     {
      "line": 631,
@@ -18819,7 +18820,7 @@
     2
    ],
    "jp": "「まだまだ！」",
-   "en": "",
+   "en": "Not done yet!",
    "refs": [
     {
      "line": 632,
@@ -18869,7 +18870,7 @@
     2
    ],
    "jp": "「これで！」",
-   "en": "",
+   "en": "Take this!",
    "refs": [
     {
      "line": 633,
@@ -18901,7 +18902,7 @@
     2
    ],
    "jp": "「とどめだっ！！」",
-   "en": "",
+   "en": "Time to finish this!!",
    "refs": [
     {
      "line": 634,
@@ -18933,7 +18934,7 @@
     2
    ],
    "jp": "「バニティリッパー！！」",
-   "en": "",
+   "en": "Vanity Ripper!!",
    "refs": [
     {
      "line": 637,
@@ -18965,7 +18966,7 @@
     2
    ],
    "jp": "「おりゃああっ！！」",
-   "en": "",
+   "en": "Hyaaaah!!",
    "refs": [
     {
      "line": 638,
@@ -18997,7 +18998,7 @@
     2
    ],
    "jp": "「はぁぁぁ……」",
-   "en": "",
+   "en": "Haaah...",
    "refs": [
     {
      "line": 639,
@@ -19029,7 +19030,7 @@
     2
    ],
    "jp": "「秘剣！　ディスカッター乱舞の太刀！」",
-   "en": "",
+   "en": "Secret Sword! Discutter Frenzy Slash!",
    "refs": [
     {
      "line": 640,
@@ -19061,7 +19062,7 @@
     2
    ],
    "jp": "「こいつを見切れると思うなよ！」",
-   "en": "",
+   "en": "Don't think you can read this one!",
    "refs": [
     {
      "line": 641,
@@ -19093,7 +19094,7 @@
     2
    ],
    "jp": "「はあっ！」",
-   "en": "",
+   "en": "Hah!",
    "refs": [
     {
      "line": 642,
@@ -19125,7 +19126,7 @@
     2
    ],
    "jp": "「たああっ！」",
-   "en": "",
+   "en": "Taaah!",
    "refs": [
     {
      "line": 644,
@@ -19157,7 +19158,7 @@
     2
    ],
    "jp": "「うおおおおおおおお！！」",
-   "en": "",
+   "en": "Raaaaaaaaah!!",
    "refs": [
     {
      "line": 645,
@@ -19189,7 +19190,7 @@
     2
    ],
    "jp": "「とどめだぁぁぁぁぁ！！」",
-   "en": "",
+   "en": "This is the end for youuuu!!",
    "refs": [
     {
      "line": 646,
@@ -19221,7 +19222,7 @@
     2
    ],
    "jp": "「てめえを許すわけにはいかねえ！」",
-   "en": "",
+   "en": "There's no way I'm letting you get away!",
    "refs": [
     {
      "line": 647,

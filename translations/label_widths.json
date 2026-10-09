@@ -856,22 +856,22 @@
  {
   "path": "worksheets\\EBOOT.elf.json",
   "id": 1700,
-  "en": "Gold",
-  "px": 64,
+  "en": "Gld",
+  "px": 46,
   "jp_px": 32
  },
  {
   "path": "worksheets\\EBOOT.elf.json",
   "id": 1701,
-  "en": "Slvr",
-  "px": 61,
+  "en": "Slv",
+  "px": 46,
   "jp_px": 32
  },
  {
   "path": "worksheets\\EBOOT.elf.json",
   "id": 1702,
-  "en": "Brnz",
-  "px": 72,
+  "en": "Brz",
+  "px": 55,
   "jp_px": 32
  },
  {
@@ -1944,6 +1944,20 @@
   "en": "Dummy",
   "px": 103,
   "jp_px": 96
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\KeyWordData.dat.json",
+  "id": 31,
+  "en": "Short for <アーマードモジュール>.",
+  "px": 161,
+  "jp_px": 160
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\KeyWordData.dat.json",
+  "id": 122,
+  "en": "Remacon",
+  "px": 129,
+  "jp_px": 128
  },
  {
   "path": "worksheets\\Logic\\Dat\\FixedData\\PartsData.dat.json",

@@ -1,0 +1,627 @@
+{
+ "batch_id": "msgbatch_01R3EDQhaJpSQasPXwyPhG5R",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "created": 1791565643.8667789,
+ "plan": {
+  "r00000": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\002.bmd.json",
+   "format": "BMD",
+   "ids": [
+    10
+   ]
+  },
+  "r00001": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\018.bmd.json",
+   "format": "BMD",
+   "ids": [
+    96
+   ]
+  },
+  "r00002": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\026.bmd.json",
+   "format": "BMD",
+   "ids": [
+    0
+   ]
+  },
+  "r00003": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\036.bmd.json",
+   "format": "BMD",
+   "ids": [
+    60,
+    63
+   ]
+  },
+  "r00004": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\038.bmd.json",
+   "format": "BMD",
+   "ids": [
+    303
+   ]
+  },
+  "r00005": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\040.bmd.json",
+   "format": "BMD",
+   "ids": [
+    286
+   ]
+  },
+  "r00006": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\042.bmd.json",
+   "format": "BMD",
+   "ids": [
+    31,
+    125
+   ]
+  },
+  "r00007": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\044.bmd.json",
+   "format": "BMD",
+   "ids": [
+    88,
+    110
+   ]
+  },
+  "r00008": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\045.bmd.json",
+   "format": "BMD",
+   "ids": [
+    149,
+    173
+   ]
+  },
+  "r00009": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\047.bmd.json",
+   "format": "BMD",
+   "ids": [
+    44,
+    110
+   ]
+  },
+  "r00010": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\051.bmd.json",
+   "format": "BMD",
+   "ids": [
+    117
+   ]
+  },
+  "r00011": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\053.bmd.json",
+   "format": "BMD",
+   "ids": [
+    59
+   ]
+  },
+  "r00012": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\059.bmd.json",
+   "format": "BMD",
+   "ids": [
+    27,
+    355
+   ]
+  },
+  "r00013": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\060.bmd.json",
+   "format": "BMD",
+   "ids": [
+    236
+   ]
+  },
+  "r00014": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\062.bmd.json",
+   "format": "BMD",
+   "ids": [
+    38,
+    65,
+    167
+   ]
+  },
+  "r00015": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\063.bmd.json",
+   "format": "BMD",
+   "ids": [
+    500
+   ]
+  },
+  "r00016": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\065.bmd.json",
+   "format": "BMD",
+   "ids": [
+    63
+   ]
+  },
+  "r00017": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\067.bmd.json",
+   "format": "BMD",
+   "ids": [
+    431
+   ]
+  },
+  "r00018": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\073.bmd.json",
+   "format": "BMD",
+   "ids": [
+    61
+   ]
+  },
+  "r00019": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\086.bmd.json",
+   "format": "BMD",
+   "ids": [
+    54
+   ]
+  },
+  "r00020": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\106.bmd.json",
+   "format": "BMD",
+   "ids": [
+    267,
+    298
+   ]
+  },
+  "r00021": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\107.bmd.json",
+   "format": "BMD",
+   "ids": [
+    195,
+    216,
+    221
+   ]
+  },
+  "r00022": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\117.bmd.json",
+   "format": "BMD",
+   "ids": [
+    0
+   ]
+  },
+  "r00023": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\121.bmd.json",
+   "format": "BMD",
+   "ids": [
+    145,
+    152
+   ]
+  },
+  "r00024": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\122.bmd.json",
+   "format": "BMD",
+   "ids": [
+    64,
+    83
+   ]
+  },
+  "r00025": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\123.bmd.json",
+   "format": "BMD",
+   "ids": [
+    241
+   ]
+  },
+  "r00026": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\126.bmd.json",
+   "format": "BMD",
+   "ids": [
+    42
+   ]
+  },
+  "r00027": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\128.bmd.json",
+   "format": "BMD",
+   "ids": [
+    57,
+    58
+   ]
+  },
+  "r00028": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\133.bmd.json",
+   "format": "BMD",
+   "ids": [
+    52
+   ]
+  },
+  "r00029": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\168.bmd.json",
+   "format": "BMD",
+   "ids": [
+    4,
+    22,
+    40
+   ]
+  },
+  "r00030": {
+   "path": "worksheets\\Battle\\Dat\\Battle\\Message\\267.bmd.json",
+   "format": "BMD",
+   "ids": [
+    5
+   ]
+  },
+  "r00031": {
+   "path": "worksheets\\Common\\Dat\\Option\\QA\\2og_Q&A.csb.json",
+   "format": "CSB",
+   "ids": [
+    175,
+    208,
+    386,
+    387
+   ]
+  },
+  "r00032": {
+   "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+   "format": "WTD",
+   "ids": [
+    865,
+    866,
+    867,
+    968
+   ]
+  },
+  "r00033": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\KeyWordData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    50,
+    51,
+    52,
+    53,
+    54,
+    55
+   ]
+  },
+  "r00034": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\KeyWordData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+   ]
+  },
+  "r00035": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\KeyWordData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67
+   ]
+  },
+  "r00036": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\KeyWordData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    68,
+    69,
+    70,
+    71,
+    72,
+    73
+   ]
+  },
+  "r00037": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\KeyWordData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ]
+  },
+  "r00038": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\KeyWordData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    80,
+    81,
+    82,
+    83,
+    84,
+    85
+   ]
+  },
+  "r00039": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\KeyWordData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    86,
+    87,
+    88,
+    89,
+    90,
+    91
+   ]
+  },
+  "r00040": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\KeyWordData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    92,
+    93,
+    94,
+    95,
+    96,
+    97
+   ]
+  },
+  "r00041": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\KeyWordData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    98,
+    99,
+    100
+   ]
+  },
+  "r00042": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\PilotData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    522
+   ]
+  },
+  "r00043": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\PilotDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+   ]
+  },
+  "r00044": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\PilotDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+   ]
+  },
+  "r00045": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\PilotDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68
+   ]
+  },
+  "r00046": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\PilotDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    69,
+    70,
+    71,
+    72,
+    73,
+    74
+   ]
+  },
+  "r00047": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\PilotDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    75
+   ]
+  },
+  "r00048": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\UnitDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    52,
+    53,
+    54,
+    55,
+    56,
+    57
+   ]
+  },
+  "r00049": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\UnitDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+   ]
+  },
+  "r00050": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\UnitDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+   ]
+  },
+  "r00051": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\UnitDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    70,
+    71,
+    72,
+    73,
+    74,
+    75
+   ]
+  },
+  "r00052": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\UnitDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ]
+  },
+  "r00053": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\UnitDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87
+   ]
+  },
+  "r00054": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\UnitDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    88,
+    89,
+    90,
+    91,
+    92,
+    93
+   ]
+  },
+  "r00055": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\UnitDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    94,
+    95,
+    96,
+    97,
+    98,
+    99
+   ]
+  },
+  "r00056": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\UnitDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105
+   ]
+  },
+  "r00057": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\UnitDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    106,
+    107,
+    108,
+    109,
+    110,
+    111
+   ]
+  },
+  "r00058": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\UnitDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    112,
+    113,
+    114,
+    115,
+    116,
+    117
+   ]
+  },
+  "r00059": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\UnitDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    118,
+    119,
+    120,
+    121,
+    122,
+    123
+   ]
+  },
+  "r00060": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\UnitDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    124,
+    125,
+    126
+   ]
+  },
+  "r00061": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    186,
+    355,
+    449,
+    502
+   ]
+  },
+  "r00062": {
+   "path": "worksheets\\Logic\\Dat\\logic\\talk\\ls016.bin.json",
+   "format": "LDBI",
+   "ids": [
+    443
+   ]
+  },
+  "r00063": {
+   "path": "worksheets\\Logic\\Dat\\logic\\talk\\ls045.bin.json",
+   "format": "LDBI",
+   "ids": [
+    275
+   ]
+  },
+  "r00064": {
+   "path": "worksheets\\Logic\\Dat\\logic\\talk\\ls065.bin.json",
+   "format": "LDBI",
+   "ids": [
+    471,
+    726
+   ]
+  },
+  "r00065": {
+   "path": "worksheets\\Logic\\Dat\\logic\\talk\\ls069.bin.json",
+   "format": "LDBI",
+   "ids": [
+    503
+   ]
+  },
+  "r00066": {
+   "path": "worksheets\\Logic\\Dat\\logic\\talk\\ls089.bin.json",
+   "format": "LDBI",
+   "ids": [
+    1042
+   ]
+  }
+ }
+}

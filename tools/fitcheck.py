@@ -45,6 +45,17 @@ PRINTF = re.compile(r"%[-+#0]?\d*(?:\.\d+)?[hl]?[diouxXfcs]")
 JPCHAR = re.compile(r"[\u3040-\u30ff\u4e00-\u9fff]")
 DIALOGUE = {"LDBI", "BMD"}
 LABEL_PX = 160   # Japanese width of a 5-character label
+# Library pages (encyclopedia text) are assumed to scroll: English may use up
+# to 1.6x the Japanese line count. To verify in game.
+SCROLLING = ("KeyWordData.dat", "UnitDictionaryData.dat", "PilotDictionaryData.dat")
+
+
+def line_limit(fmt, path, jp_lines):
+    if fmt in DIALOGUE:
+        return 3
+    if any(name in path for name in SCROLLING):
+        return max(1, -(-jp_lines * 8 // 5))
+    return max(1, jp_lines)
 
 
 class Font:
@@ -115,6 +126,22 @@ def load_variants():
 
 
 VARIANTS = load_variants()
+
+
+def load_game_terms():
+    """Spirit and skill names: enforced in menus/help, not in dialogue, where
+    突撃 is just "Charge!" and 加速 just "accelerate"."""
+    out = set()
+    p = os.path.join(REPO, "glossary", "signoff.tsv")
+    if os.path.exists(p):
+        with open(p, encoding="utf-8") as f:
+            for r in csv.DictReader(f, delimiter="	"):
+                if r.get("category") in ("spirit", "skill"):
+                    out.add(r["jp"])
+    return out
+
+
+GAME_TERMS = load_game_terms()
 
 
 def load_glossary():
@@ -198,8 +225,17 @@ def main(argv):
                 continue
             if fmt == "ELF" and len(en.encode("utf-8")) > e.get("budget", 1 << 30):
                 report("bytes", path, e, "%d bytes > %d (replaced in place)" % (len(en.encode("utf-8")), e["budget"]))
-            if collections.Counter(TAG.findall(jp)) != collections.Counter(TAG.findall(en)):
-                report("tag", path, e, "tags %s vs %s" % (TAG.findall(jp), TAG.findall(en)))
+            # Formatting tags (<W=28>, </C>, ...) must match exactly. Keyword
+            # tags (<ラ・ギアス>) may appear fewer times in English, never new
+            # ones; a line break inside a Japanese keyword tag is ignored.
+            jt = [t.replace("\n", "").replace("@", "") for t in TAG.findall(jp)]
+            et = [t.replace("\n", "").replace("@", "") for t in TAG.findall(en)]
+            fmt_j = collections.Counter(t for t in jt if "=" in t or t.startswith("</"))
+            fmt_e = collections.Counter(t for t in et if "=" in t or t.startswith("</"))
+            kw_j = collections.Counter(t for t in jt if t not in fmt_j)
+            kw_e = collections.Counter(t for t in et if t not in fmt_e)
+            if fmt_j != fmt_e or any(kw_e[t] > kw_j[t] for t in kw_e):
+                report("tag", path, e, "tags %s vs %s" % (jt, et))
             if PRINTF.findall(jp) != PRINTF.findall(en):
                 report("printf", path, e, "%s vs %s" % (PRINTF.findall(jp), PRINTF.findall(en)))
             if re.search(r"[<>]", TAG.sub("", en)):
@@ -208,7 +244,7 @@ def main(argv):
             if fmt in DIALOGUE:
                 max_lines, max_w = 3, budget.get(fmt, 99999)
             else:
-                max_lines, max_w = max(1, len(jl)), max(font.width(l) for l in jl)
+                max_lines, max_w = line_limit(fmt, path, len(jl)), max(font.width(l) for l in jl)
             if len(el) > max_lines:
                 report("lines", path, e, "%d lines > %d" % (len(el), max_lines))
             for l in el:
@@ -229,6 +265,8 @@ def main(argv):
             # only counted.
             jp_plain, en_plain = TAG.sub("", jp), TAG.sub("", en)
             for gjp, gen, rx in glossary:
+                if fmt in DIALOGUE and gjp in GAME_TERMS:
+                    continue        # spirit/skill names in speech are ordinary words
                 if gjp in jp_plain and rx.search(jp_plain):
                     bad = [v for v in VARIANTS.get(gjp, ()) if re.search(r"\b%s\b" % re.escape(v), en_plain)]
                     if bad:

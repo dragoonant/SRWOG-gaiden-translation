@@ -92,7 +92,8 @@
     }
    ],
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "retry_note": "BMD: 'Whittle down their forces, however slightly. The basics of war.' failed (width: 930px > 704px: 'Whittle down their forces, however slightly. The b')"
   },
   {
    "id": 1,
@@ -102,7 +103,7 @@
     26
    ],
    "jp": "「先手さえ取れば、勝率が上がる」",
-   "en": "",
+   "en": "Strike first, and the odds favor you.",
    "refs": [
     {
      "line": 1,
@@ -170,7 +171,7 @@
     26
    ],
    "jp": "「少しでも敵の数を減らす、/　それが兵法の常道だ！」",
-   "en": "",
+   "en": "Reduce the enemy's numbers bit by bit./　That is the textbook way of war!",
    "refs": [
     {
      "line": 2,
@@ -256,7 +257,7 @@
     26
    ],
    "jp": "「敵機を捕捉した。これより攻撃を開始する」",
-   "en": "",
+   "en": "Enemy unit acquired. Commencing attack.",
    "refs": [
     {
      "line": 3,
@@ -306,7 +307,7 @@
     26
    ],
    "jp": "「相手が何者であろうと、/　ここで退くわけにはいかん」",
-   "en": "",
+   "en": "Whoever my opponent may be,/　I cannot fall back here.",
    "refs": [
     {
      "line": 4,
@@ -356,7 +357,7 @@
     26
    ],
    "jp": "「地上人よ、覚悟してもらおうか！」",
-   "en": "",
+   "en": "Surface dweller, prepare yourself!",
    "refs": [
     {
      "line": 5,
@@ -388,7 +389,7 @@
     26
    ],
    "jp": "「地上人……相手にとって不足はないわ！」",
-   "en": "",
+   "en": "A surface dweller... A worthy opponent!",
    "refs": [
     {
      "line": 6,
@@ -420,7 +421,7 @@
     26
    ],
    "jp": "「魔装機神、いざ勝負！」",
-   "en": "",
+   "en": "Masoukishin, have at you!",
    "refs": [
     {
      "line": 7,
@@ -452,7 +453,7 @@
     26
    ],
    "jp": "「行くぞ、魔装機神め！」",
-   "en": "",
+   "en": "Here I come, Masoukishin!",
    "refs": [
     {
      "line": 8,
@@ -484,7 +485,7 @@
     26
    ],
    "jp": "「逃がさん！」",
-   "en": "",
+   "en": "You won't escape!",
    "refs": [
     {
      "line": 9,
@@ -516,7 +517,7 @@
     26
    ],
    "jp": "「返すぞ！」",
-   "en": "",
+   "en": "Take this back!",
    "refs": [
     {
      "line": 10,
@@ -548,7 +549,7 @@
     26
    ],
    "jp": "「今度はこちらからだ！」",
-   "en": "",
+   "en": "Now it's my turn!",
    "refs": [
     {
      "line": 11,
@@ -580,7 +581,7 @@
     26
    ],
    "jp": "「ぬうっ！　不覚！」",
-   "en": "",
+   "en": "Nngh! Careless!",
    "refs": [
     {
      "line": 12,
@@ -612,7 +613,7 @@
     26
    ],
    "jp": "「また負け戦か……！！」",
-   "en": "",
+   "en": "Another losing battle...!!",
    "refs": [
     {
      "line": 13,
@@ -644,7 +645,7 @@
     26
    ],
    "jp": "「こ、これほどのダメージを受けては！」",
-   "en": "",
+   "en": "Wh-With this much damage...!",
    "refs": [
     {
      "line": 14,
@@ -676,7 +677,7 @@
     26
    ],
    "jp": "「ば、馬鹿な！」",
-   "en": "",
+   "en": "I-Impossible!",
    "refs": [
     {
      "line": 15,
@@ -708,7 +709,7 @@
     26
    ],
    "jp": "「ぬおっ！　私の読みが浅かったか！」",
-   "en": "",
+   "en": "Nuoh! Did I misread the situation?!",
    "refs": [
     {
      "line": 16,
@@ -740,7 +741,7 @@
     26
    ],
    "jp": "「わ、私に驕りはなかった……！/　なのに、ここまでの損害を受けるとは！」",
-   "en": "",
+   "en": "I-I was not overconfident...!/　And yet I've taken this much damage!",
    "refs": [
     {
      "line": 17,
@@ -772,7 +773,7 @@
     26
    ],
    "jp": "「ぐうう……ここまで押されては！」",
-   "en": "",
+   "en": "Guhh... Pushed back this far...!",
    "refs": [
     {
      "line": 18,
@@ -804,7 +805,7 @@
     26
    ],
    "jp": "「な、何という力だ、地上人め！」",
-   "en": "",
+   "en": "Wh-What power, surface dweller!",
    "refs": [
     {
      "line": 19,
@@ -836,7 +837,7 @@
     26
    ],
    "jp": "「ま、魔装機神……恐るべきパワーだ！」",
-   "en": "",
+   "en": "Th-The Masoukishin... Fearsome power!",
    "refs": [
     {
      "line": 20,
@@ -868,7 +869,7 @@
     26
    ],
    "jp": "「むっ！　想定したよりもダメージが大きいな」",
-   "en": "",
+   "en": "Hm! More damage than I anticipated.",
    "refs": [
     {
      "line": 21,
@@ -900,7 +901,7 @@
     26
    ],
    "jp": "「ぬう、意外とやるではないか」",
-   "en": "",
+   "en": "Nngh, you're better than I expected.",
    "refs": [
     {
      "line": 22,
@@ -932,7 +933,7 @@
     26
    ],
    "jp": "「さすがだ、一筋縄ではいかんな」",
-   "en": "",
+   "en": "Impressive. You won't go down easily.",
    "refs": [
     {
      "line": 23,
@@ -964,7 +965,7 @@
     26
    ],
    "jp": "「ええい、この程度の攻撃を避けきれんとは！」",
-   "en": "",
+   "en": "Blast! I couldn't dodge an attack this weak?!",
    "refs": [
     {
      "line": 24,
@@ -996,7 +997,7 @@
     26
    ],
    "jp": "「いかん、まともに受け過ぎたか！」",
-   "en": "",
+   "en": "No good, I took that one head-on!",
    "refs": [
     {
      "line": 25,
@@ -1028,7 +1029,7 @@
     26
    ],
    "jp": "「くっ！　地上人の力を侮ったか！」",
-   "en": "",
+   "en": "Tch! I underestimated the surface dweller!",
    "refs": [
     {
      "line": 26,
@@ -1060,7 +1061,7 @@
     26
    ],
    "jp": "「ぬうう！　やるな、魔装機神！」",
-   "en": "",
+   "en": "Nnngh! Well done, Masoukishin!",
    "refs": [
     {
      "line": 27,
@@ -1092,7 +1093,7 @@
     26
    ],
    "jp": "「戯れ事を！」",
-   "en": "",
+   "en": "Nonsense!",
    "refs": [
     {
      "line": 28,
@@ -1142,7 +1143,7 @@
     26
    ],
    "jp": "「どうした、それで終わりか？」",
-   "en": "",
+   "en": "What's wrong? Is that all?",
    "refs": [
     {
      "line": 29,
@@ -1192,7 +1193,7 @@
     26
    ],
    "jp": "「その程度の力で、私に挑むか」",
-   "en": "",
+   "en": "You challenge me with power like that?",
    "refs": [
     {
      "line": 30,
@@ -1242,7 +1243,7 @@
     26
    ],
    "jp": "「ふん、見かけ倒しか」",
-   "en": "",
+   "en": "Hmph. All show, no substance.",
    "refs": [
     {
      "line": 31,
@@ -1274,7 +1275,7 @@
     26
    ],
    "jp": "「ほう、当たったか。だが、それだけだな」",
-   "en": "",
+   "en": "Oh, a hit. But that's all it was.",
    "refs": [
     {
      "line": 32,
@@ -1306,7 +1307,7 @@
     26
    ],
    "jp": "「ふっ……遠慮はいらんぞ、地上人」",
-   "en": "",
+   "en": "Heh... Don't hold back, surface dweller.",
    "refs": [
     {
      "line": 33,
@@ -1338,7 +1339,7 @@
     26
    ],
    "jp": "「そんなものか、魔装機神の力は」",
-   "en": "",
+   "en": "Is that the power of a Masoukishin?",
    "refs": [
     {
      "line": 34,
@@ -1370,7 +1371,7 @@
     26
    ],
    "jp": "「当たらんよ！」",
-   "en": "",
+   "en": "You'll never hit me!",
    "refs": [
     {
      "line": 35,
@@ -1420,7 +1421,7 @@
     26
    ],
    "jp": "「甘いな！」",
-   "en": "",
+   "en": "Not good enough!",
    "refs": [
     {
      "line": 36,
@@ -1506,7 +1507,7 @@
     26
    ],
    "jp": "「ふむ、こちらの推測が的中したな」",
-   "en": "",
+   "en": "Hm, my prediction was right on the mark.",
    "refs": [
     {
      "line": 37,
@@ -1538,7 +1539,7 @@
     26
    ],
    "jp": "「計算通りだ」",
-   "en": "",
+   "en": "Just as calculated.",
    "refs": [
     {
      "line": 38,
@@ -1606,7 +1607,7 @@
     26
    ],
    "jp": "「………」",
-   "en": "",
+   "en": "...",
    "refs": [
     {
      "line": 48,
@@ -1638,7 +1639,7 @@
     26
    ],
    "jp": "「何たる失態……！」",
-   "en": "",
+   "en": "What a blunder...!",
    "refs": [
     {
      "line": 49,
@@ -1670,7 +1671,7 @@
     26
    ],
    "jp": "「くっ、反撃できんとは……！」",
-   "en": "",
+   "en": "Tch, I can't even counter...!",
    "refs": [
     {
      "line": 50,
@@ -1720,7 +1721,7 @@
     26
    ],
    "jp": "「私に任せてもらおう！」",
-   "en": "",
+   "en": "Leave this to me!",
    "refs": [
     {
      "line": 52,
@@ -1752,7 +1753,7 @@
     26
    ],
    "jp": "「やらせんっ！」",
-   "en": "",
+   "en": "Not while I stand!",
    "refs": [
     {
      "line": 53,
@@ -1784,7 +1785,7 @@
     26
    ],
    "jp": "「もう一撃！」",
-   "en": "",
+   "en": "One more strike!",
    "refs": [
     {
      "line": 59,
@@ -1816,7 +1817,7 @@
     26
    ],
    "jp": "「この好機、逃しはせん！」",
-   "en": "",
+   "en": "I won't let this chance slip by!",
    "refs": [
     {
      "line": 60,
@@ -1848,7 +1849,7 @@
     26
    ],
    "jp": "「行くぞ！」",
-   "en": "",
+   "en": "Here I come!",
    "refs": [
     {
      "line": 65,
@@ -1916,7 +1917,7 @@
     26
    ],
    "jp": "「この一撃で！」",
-   "en": "",
+   "en": "With this blow!",
    "refs": [
     {
      "line": 66,
@@ -1966,7 +1967,7 @@
     26
    ],
    "jp": "「受けてみよ！」",
-   "en": "",
+   "en": "Take this!",
    "refs": [
     {
      "line": 68,
@@ -2070,7 +2071,7 @@
     26
    ],
    "jp": "「好きにはやらせんぞ！」",
-   "en": "",
+   "en": "I won't let you have your way!",
    "refs": [
     {
      "line": 69,
@@ -2102,7 +2103,7 @@
     26
    ],
    "jp": "「そこか！」",
-   "en": "",
+   "en": "There!",
    "refs": [
     {
      "line": 70,
@@ -2170,7 +2171,7 @@
     26
    ],
    "jp": "「くらえい！」",
-   "en": "",
+   "en": "Take this!",
    "refs": [
     {
      "line": 71,
@@ -2238,7 +2239,7 @@
     26
    ],
    "jp": "「むうん！」",
-   "en": "",
+   "en": "Hrmm!",
    "refs": [
     {
      "line": 74,
@@ -2288,7 +2289,7 @@
     26
    ],
    "jp": "「でえい！」",
-   "en": "",
+   "en": "Deeyah!",
    "refs": [
     {
      "line": 75,
@@ -2374,7 +2375,7 @@
     26
    ],
    "jp": "「おりゃあ！」",
-   "en": "",
+   "en": "Orryaah!",
    "refs": [
     {
      "line": 76,
@@ -2424,7 +2425,7 @@
     26
    ],
    "jp": "「バリオン・ビーム砲、発射用意！」",
-   "en": "",
+   "en": "Baryon Beam Cannon, prepare to fire!",
    "refs": [
     {
      "line": 91,
@@ -2456,7 +2457,7 @@
     26
    ],
    "jp": "「撃てい！！」",
-   "en": "",
+   "en": "Fire!!",
    "refs": [
     {
      "line": 92,
@@ -2506,7 +2507,7 @@
     26
    ],
    "jp": "「主砲、発射用意！」",
-   "en": "",
+   "en": "Main Cannon, ready to fire!",
    "refs": [
     {
      "line": 93,

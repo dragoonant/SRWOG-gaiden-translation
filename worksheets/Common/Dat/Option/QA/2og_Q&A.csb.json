@@ -7,11 +7,10 @@
   {
    "id": 1,
    "jp": "２８ｄｏｔで７文字",
-   "en": "",
+   "en": "28dot: 7 chars",
    "cell": "r0c2",
    "kind": "name",
-   "keep": false,
-   "retry_note": "CSB: '7 chars @ 28dot' failed (lines: 2 lines > 1)"
+   "keep": false
   },
   {
    "id": 2,
@@ -81,11 +80,10 @@
   {
    "id": 15,
    "jp": "戦闘・能力編",
-   "en": "",
+   "en": "Battle/Stat",
    "cell": "r3c2",
    "kind": "name",
-   "keep": false,
-   "retry_note": "CSB: 'Combat/Stat' failed (width: 202px > 192px: 'Combat/Stat')"
+   "keep": false
   },
   {
    "id": 16,
@@ -654,7 +652,7 @@
   {
    "id": 130,
    "jp": "<W=24>Ｑ</W><W=16>１０</W>．全体攻撃とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=16>10</W>. What is an ALL Attack?",
    "cell": "r28c4",
    "kind": "text",
    "keep": false
@@ -662,7 +660,7 @@
   {
    "id": 131,
    "jp": "Ａ．全体攻撃武器を使用した攻撃方法です。",
-   "en": "",
+   "en": "A. An attack made with ALL weapons.",
    "cell": "r28c5",
    "kind": "text",
    "keep": false
@@ -670,7 +668,7 @@
   {
    "id": 132,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>全体攻撃武器を使用した攻撃方法です。</C></H></W>\n\n　●全体攻撃は<LINK=0>全体攻撃武器</LINK><I=30><S=-79><I=32><S=39>を使用した攻撃方法で、<LINK=1>ツインユニット</LINK>が全体攻撃\n　　を行う場合、サブ側の機体が全体攻撃武器を使用可能な状態では、両方の機体共、\n　　全体攻撃武器による攻撃を行うことができます。\n\n　●全体攻撃に対しては<LINK=2>援護攻撃</LINK>（再攻撃）、<LINK=3>援護防御</LINK>を行うことはできません。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3><I=30><S=-30><I=33><S=6>と表示される全体攻撃武器は、攻撃目標に隣接する部隊も同時に攻撃可能\n　　　な<LINK=4>ダブルアタック</LINK>を行うことができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>An attack made with ALL weapons.</C></H></W>\n\n　●An ALL Attack uses <LINK=0>ALL weapons</LINK><I=30><S=-79><I=32><S=39>. When a <LINK=1>Twin Unit</LINK> makes\n　　an ALL Attack and the sub machine can also use an ALL weapon, both\n　　machines attack with ALL weapons.\n\n　●<LINK=2>Support Attack</LINK> (Attack Again) and <LINK=3>Support Defense</LINK> can't be\n　　used against ALL Attacks.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3><I=30><S=-30><I=33><S=6> ALL weapons can also hit units adjacent to\n　　　the target in a <LINK=4>Double Attack</LINK>.\n",
    "cell": "r28c6",
    "kind": "text",
    "keep": false
@@ -678,7 +676,7 @@
   {
    "id": 135,
    "jp": "<W=24>Ｑ</W><W=16>１１</W>．マップ兵器とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=16>11</W>. What is a MAP Weapon?",
    "cell": "r29c4",
    "kind": "text",
    "keep": false
@@ -686,7 +684,7 @@
   {
    "id": 136,
    "jp": "Ａ．攻撃範囲内の、全部隊にダメージを与える武器です。",
-   "en": "",
+   "en": "A. A weapon that damages all units in its range.",
    "cell": "r29c5",
    "kind": "text",
    "keep": false
@@ -694,7 +692,7 @@
   {
    "id": 137,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>攻撃範囲内の、全部隊にダメージを与える武器です。</C></H></W>\n\n　●マップ兵器<I=30><S=-81><I=31><S=33>は攻撃範囲内の、攻撃対象になる全ての部隊にダメージを与える\n　　ことができます。マップ兵器での攻撃は、攻撃を行う部隊が<LINK=0>ツインユニット</LINK>であっ\n　　ても、１機のみで攻撃を行います。\n\n　●マップ兵器による攻撃に対しては、<LINK=1>反撃</LINK>及び<LINK=2>援護攻撃</LINK>（再攻撃）、<LINK=3>援護防御</LINK>を行う\n　　ことはできません。\n\n　●マップ兵器には以下の形式があります。\n\n　<T=30>『自機中心』</T>\n　・射程内が攻撃範囲になります。\n\n　<T=30>『方向指定』</T>\n　・攻撃範囲を自機中心の４方向から選択します。\n\n　<T=30>『着弾地点指定』</T>\n　・攻撃範囲を射程内の任意の場所から選択します。\n\n　<T=30>『軌道指定』</T>\n　・自機と射程内の任意の場所を結ぶ直線が攻撃範囲になります。\n\n　<S=8><Y=-3><W=32><H=32><I=152></H></W></Y><S=3>マップ兵器は攻撃範囲の部隊を敵味方関係なく攻撃します。例外として、敵味方\n　　　識別が「有効」の場合、敵属性の部隊のみを攻撃することができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>A weapon that damages all units in its range.</C></H></W>\n\n　●MAP Weapons<I=30><S=-81><I=31><S=33> damage every valid target in their attack\n　　range. Even if the attacker is a <LINK=0>Twin Unit</LINK>, only one machine\n　　attacks.\n\n　●MAP Weapon attacks can't be met with a <LINK=1>Counterattack</LINK>,\n　　<LINK=2>Support Attack</LINK> (Attack Again) or <LINK=3>Support Defense</LINK>.\n\n　●MAP Weapons come in the following types:\n\n　<T=30>\"Self-Centered\"</T>\n　・The weapon's range is the attack area.\n\n　<T=30>\"Directional\"</T>\n　・Choose the attack area from 4 directions around the unit.\n\n　<T=30>\"Target Point\"</T>\n　・Choose the attack area anywhere within range.\n\n　<T=30>\"Line\"</T>\n　・The area is a straight line from the unit to any point in range.\n\n　<S=8><Y=-3><W=32><H=32><I=152></H></W></Y><S=3>MAP Weapons hit all units in the area, friend or foe.\n　　　Exception: if Friend/Foe ID is \"On,\" only enemies are hit.\n",
    "cell": "r29c6",
    "kind": "text",
    "keep": false
@@ -702,7 +700,7 @@
   {
    "id": 140,
    "jp": "<W=24>Ｑ</W><W=16>１２</W>．ダブルアタックとは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=16>12</W>. What is a Double Attack?",
    "cell": "r30c4",
    "kind": "text",
    "keep": false
@@ -710,7 +708,7 @@
   {
    "id": 141,
    "jp": "Ａ．攻撃目標と、それに隣接する部隊を攻撃する攻撃方法です。",
-   "en": "",
+   "en": "A. An attack on the target and a unit adjacent to it.",
    "cell": "r30c5",
    "kind": "text",
    "keep": false
@@ -718,7 +716,7 @@
   {
    "id": 142,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>攻撃目標と、それに隣接する部隊を攻撃する攻撃方法です。</C></H></W>\n\n　●<LINK=0>全体攻撃</LINK>の一種で、<I=30><S=-30><I=33><S=6>と表示される武器を使用します。目標の部隊と、それに\n　　隣接する部隊の合計２部隊（最大で４機）にダメージを与えることができます。た\n　　だし、消費ＥＮ・弾数は通常時の２倍必要になります。攻撃を行う部隊が<LINK=1>ツインユ\n　≡ニット</LINK>であっても、１機のみで攻撃を行います。\n\n　●ダブルアタックに対しては<LINK=2>援護攻撃</LINK>（再攻撃）、<LINK=3>援護防御</LINK>を行うことはできません。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>An attack on the target and a unit adjacent to it.</C></H></W>\n\n　●A type of <LINK=0>ALL Attack</LINK> using weapons marked <I=30><S=-30><I=33><S=6>. It damages\n　　the target and one adjacent unit, 2 units in all (up to 4 machines),\n　　but costs twice the usual EN and ammo. Even if the attacker is a\n　　<LINK=1>Twin Unit</LINK>, only one machine attacks.\n\n　●Double Attacks can't be met with a <LINK=2>Support Attack</LINK> (Attack Again)\n　　or <LINK=3>Support Defense</LINK>.\n",
    "cell": "r30c6",
    "kind": "text",
    "keep": false
@@ -726,7 +724,7 @@
   {
    "id": 145,
    "jp": "<W=24>Ｑ</W><W=16>１３</W>．マキシマムブレイクとは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=16>13</W>. What is a Maximum Break?",
    "cell": "r31c4",
    "kind": "text",
    "keep": false
@@ -734,7 +732,7 @@
   {
    "id": 146,
    "jp": "Ａ．隣接するツインユニット２部隊で行う攻撃方法です。",
-   "en": "",
+   "en": "A. An attack made by two adjacent Twin Units.",
    "cell": "r31c5",
    "kind": "text",
    "keep": false
@@ -742,7 +740,7 @@
   {
    "id": 147,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>隣接するツインユニット２部隊で行う攻撃方法です。</C></H></W>\n\n　●隣接する２部隊が攻撃目標を攻撃します。攻撃を行う両部隊は<LINK=0>ツインユニット</LINK>であ\n　　る必要があります。最初に４機で<I=7><S=-8><Y=-6><I=158></Y>と表示される支援武器を使用して攻撃を行った\n　　後、それぞれの機体が攻撃を行います。\n\n　●マキシマムブレイクに使用できる武器は<LINK=1>通常攻撃武器</LINK><I=30>だけです。\n\n　●マキシマムブレイクを発生させるための条件は以下の通りです。\n\n　・攻撃を実行した機体のメインパイロットが、<LINK=2>特殊スキル</LINK>「統率」を保有する。\n　・戦闘に参加する、全てのメインパイロットの気力が１４０以上。\n　・戦闘に参加する、全ての機体が攻撃目標に対し攻撃可能な支援武器を持っている。\n\n　●マキシマムブレイクに対しては<LINK=3>援護攻撃</LINK>（再攻撃）、<LINK=4>援護防御</LINK>を行うことはできま\n　　せん。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>武器性能・武器選択ウィンドウでは、<I=30><S=-31><I=185><S=7>と表示されている武器の中から支援\n　　　武器を自由に設定することができます。\n\n　<S=8><Y=-3><W=32><H=32><I=152></H></W></Y><S=3>マキシマムブレイクを行った場合、攻撃を実行したユニットのメインパイロット\n　　　（メイン側、サブ側の２人共）の気力は１０下がります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>An attack made by two adjacent Twin Units.</C></H></W>\n\n　●Two adjacent units attack the target. Both must be <LINK=0>Twin Units</LINK>.\n　　First all 4 machines attack with Support Weapons marked <I=7><S=-8><Y=-6><I=158></Y>,\n　　then each machine attacks in turn.\n\n　●Only <LINK=1>Normal Weapons</LINK><I=30> can be used in a Maximum Break.\n\n　●A Maximum Break requires the following:\n\n　・The attacker's main pilot has the <LINK=2>Special Skill</LINK> \"Leadership.\"\n　・All participating main pilots have 140 Will or more.\n　・All participating machines have a Support Weapon that can hit the target.\n\n　●Maximum Breaks can't be met with a <LINK=3>Support Attack</LINK> (Attack Again)\n　　or <LINK=4>Support Defense</LINK>.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>In the Weapon Stats and Weapon Select windows, any weapon\n　　　marked <I=30><S=-31><I=185><S=7> can be freely set as a Support Weapon.\n\n　<S=8><Y=-3><W=32><H=32><I=152></H></W></Y><S=3>After a Maximum Break, the attacking unit's main pilots\n　　　(both main and sub) lose 10 Will.\n",
    "cell": "r31c6",
    "kind": "text",
    "keep": false
@@ -750,7 +748,7 @@
   {
    "id": 150,
    "jp": "<W=24>Ｑ</W><W=16>１４</W>．コンビネーション攻撃とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=16>14</W>. What is a Combination Attack?",
    "cell": "r32c4",
    "kind": "text",
    "keep": false
@@ -758,7 +756,7 @@
   {
    "id": 151,
    "jp": "Ａ．攻撃目標と、それに連なる部隊を攻撃する攻撃方法です。",
-   "en": "",
+   "en": "A. Attacks the target and the units linked to it.",
    "cell": "r32c5",
    "kind": "text",
    "keep": false
@@ -766,7 +764,7 @@
   {
    "id": 152,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>攻撃目標と、それに連なる部隊を攻撃する攻撃方法です。</C></H></W>\n\n　●<I=30><S=-31><I=34><S=7>と表示される武器を使用します。攻撃目標の部隊と、それに連なる複数の部\n　　隊にダメージを与えることができます。攻撃を行う部隊が<LINK=0>ツインユニット</LINK>であって\n　　も、１機のみで攻撃を行います。\n\n　●コンビネーション攻撃を発生させるための条件は以下の通りです。\n\n　・攻撃を行うユニットが攻撃目標と隣接している。\n　・メインパイロットが<LINK=1>特殊スキル</LINK>「連続攻撃」を持っている。\n\n　●攻撃可能な機体数の条件は以下の通りです。\n\n　・<LINK=1>特殊スキル</LINK>「連続攻撃」の「レベル数」＋１＝「攻撃可能な機体数」。\n　・攻撃目標が<LINK=0>ツインユニット</LINK>の場合、２機としてカウント。また、<LINK=0>ツインユニット</LINK>の\n　　片側の機体のみを攻撃することはできない。\n\n　●攻撃目標へ与えるダメージは２機目以降から７０％、６５％、６０％、５５％と徐\n　　々に減少します。\n\n　●コンビネーション攻撃に対しては<LINK=2>援護攻撃</LINK>（再攻撃）、<LINK=3>援護防御</LINK>を行うことはでき\n　　ません。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>複数の機体を攻撃する場合でも、消費ＥＮ・弾数は１機を攻撃する場合と同じに\n　　　なります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Attacks the target and the units linked to it.</C></H></W>\n\n　●Uses weapons marked <I=30><S=-31><I=34><S=7>. Damages the target unit and the\n　　units linked to it. Even if the attacker is a <LINK=0>Twin Unit</LINK>, only\n　　one machine attacks.\n\n　●A Combination Attack requires the following:\n\n　・The attacking unit is adjacent to the target.\n　・The main pilot has the <LINK=1>Special Skill</LINK> \"Continuous Attack.\"\n\n　●The number of machines that can be hit is set as follows:\n\n　・<LINK=1>Special Skill</LINK> \"Continuous Attack\" level + 1 = machines hit.\n　・A <LINK=0>Twin Unit</LINK> target counts as 2 machines. You can't attack\n　　only one side of a <LINK=0>Twin Unit</LINK>.\n\n　●Damage drops from the 2nd machine on: 70%, 65%, 60%, 55%.\n\n　●Combination Attacks can't be met with a <LINK=2>Support Attack</LINK> (Attack\n　　Again) or <LINK=3>Support Defense</LINK>.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Even when hitting several machines, EN and ammo costs\n　　　are the same as for hitting one.\n",
    "cell": "r32c6",
    "kind": "text",
    "keep": false
@@ -774,7 +772,7 @@
   {
    "id": 156,
    "jp": "<W=24>Ｑ</W><W=16>１５</W>．合体攻撃武器とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=16>15</W>. What are Combined Attacks?",
    "cell": "r33c4",
    "kind": "text",
    "keep": false
@@ -782,7 +780,7 @@
   {
    "id": 157,
    "jp": "Ａ．一定の条件を満たしている場合に使用できる武器です。",
-   "en": "",
+   "en": "A. Weapons usable when certain conditions are met.",
    "cell": "r33c5",
    "kind": "text",
    "keep": false
@@ -790,7 +788,7 @@
   {
    "id": 158,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>一定の条件を満たしている場合に使用できる武器です。</C></H></W>\n\n　●通常、合体攻撃武器は武器の一覧には表示されず、マップ上でその合体攻撃に必要\n　　な機体同士が周囲８マスで接続していてかつ、必要なパイロットが搭乗している場\n　　合のみ表示されます。使用するためには、参加する全ての機体について武器の消費\n　　ＥＮ、必要気力、必要スキルの条件を満たす必要があります。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>合体攻撃武器には武器種別に<I=40>が表示されています。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>合体攻撃を実行した機体と、その合体攻撃に参加する他の機体が同じ<LINK=0>ツインユニッ\n　　≡ト</LINK>に所属する場合、ダメージが１．２倍になります。また、合体攻撃は攻撃対象\n　　　に<LINK=1>特殊スキル</LINK>「カウンター」、<LINK=2>援護防御</LINK>、バリア系<LINK=3>特殊能力</LINK>を発動させません。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Weapons usable when certain conditions are met.</C></H></W>\n\n　●Combined Attack weapons normally don't appear in the weapon list. They\n　　only appear when the required machines are linked within the 8 squares\n　　around each other on the map, with the required pilots aboard. To use\n　　one, every participating machine must meet its EN, Will and Skill needs.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Combined Attack weapons show <I=40> as their type.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>If the attacker and another participant share a <LINK=0>Twin Unit</LINK>,\n　　　damage is multiplied by 1.2. Combined Attacks also don't trigger\n　　　the <LINK=1>Special Skill</LINK> \"Counter,\" <LINK=2>Support Defense</LINK> or\n　　　barrier-type <LINK=3>Special Abilities</LINK>.\n",
    "cell": "r33c6",
    "kind": "text",
    "keep": false
@@ -798,7 +796,7 @@
   {
    "id": 161,
    "jp": "気力について",
-   "en": "",
+   "en": "About Will",
    "cell": "r34c3",
    "kind": "name",
    "keep": false
@@ -806,7 +804,7 @@
   {
    "id": 162,
    "jp": "パイロットの気力についてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A about pilot Will.",
    "cell": "r34c6",
    "kind": "text",
    "keep": false
@@ -814,7 +812,7 @@
   {
    "id": 164,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．気力とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What is Will?",
    "cell": "r35c4",
    "kind": "text",
    "keep": false
@@ -822,7 +820,7 @@
   {
    "id": 165,
    "jp": "Ａ．パイロットの士気を表します。",
-   "en": "",
+   "en": "A. It shows a pilot's morale.",
    "cell": "r35c5",
    "kind": "text",
    "keep": false
@@ -830,7 +828,7 @@
   {
    "id": 166,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>パイロットの士気を表します。</C></H></W>\n\n　●気力は基本的に５０～１５０の数値で表されます。ステージ開始時、各ユニットが\n　　マップに配置された時点での気力は、基本的に１００から始まります。\n\n　●<LINK=0>戦闘</LINK>に参加したり、敵や味方の機体が撃墜された場合、気力の値は増減します。増\n　　減する値はパイロットによって異なります。\n\n　●武器の中には一定の気力に達していない場合、使用できないものがあります。強力\n　　な武器ほど必要気力は高くなる傾向にあります。\n\n　●機体の<LINK=1>特殊能力</LINK>、パイロットの<LINK=2>特殊スキル</LINK>の中には一定の気力に達していない場合、　\n　　その能力を発揮しないものがあります。\n\n　●気力が高いほど戦闘で与えるダメージが増加し、受けるダメージが減少します。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>特殊スキル「気力限界突破」を修得しているパイロットは、気力上限が１７０に\n　　　なります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>It shows a pilot's morale.</C></H></W>\n\n　●Will normally ranges from 50 to 150. At the start of a stage, each unit's\n　　Will usually starts at 100 when it's placed on the map.\n\n　●Will rises or falls when taking part in <LINK=0>Battle</LINK> or when enemy or\n　　allied machines are shot down. The amount varies by pilot.\n\n　●Some weapons can't be used until Will reaches a certain level. Stronger\n　　weapons tend to require more Will.\n\n　●Some machine <LINK=1>Special Abilities</LINK> and pilot <LINK=2>Special Skills</LINK>\n　　don't take effect until Will reaches a certain level.\n\n　●The higher the Will, the more damage dealt and the less damage taken.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Pilots with the Special Skill \"Will Limit Break\" have a\n　　　Will cap of 170.\n",
    "cell": "r35c6",
    "kind": "text",
    "keep": false
@@ -838,7 +836,7 @@
   {
    "id": 169,
    "jp": "<W=24>Ｑ</W><W=32>２</W>．気力を上げるためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>2</W>. How do I raise Will?",
    "cell": "r36c4",
    "kind": "text",
    "keep": false
@@ -846,7 +844,7 @@
   {
    "id": 170,
    "jp": "Ａ．パイロット養成、精神コマンド、強化パーツなどを利用します。",
-   "en": "",
+   "en": "A. Use Pilot Training, Spirit Commands, Parts, and more.",
    "cell": "r36c5",
    "kind": "text",
    "keep": false
@@ -854,7 +852,7 @@
   {
    "id": 171,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の方法があります。</C></H></W>\n\n　●敵を撃墜します。自分で撃墜した場合は更に気力が上昇します。味方が撃墜された\n　　場合などにも、気力が上昇する可能性はありますが、パイロットによっては逆に、\n　　気力が低下する場合もあるので注意が必要になります。\n\n　●戦闘に参加させます。敵にダメージを与えた、攻撃を回避した、ダメージを受けた\n　　場合などに、気力が上昇する可能性があります。パイロットによって気力の上昇値\n　　は異なります。攻撃によって目標にダメージを与えられない場合などにも、気力が\n　　上昇する可能性はありますが、パイロットによっては逆に、気力が低下する場合も\n　　あるので注意が必要になります。\n\n　●<LINK=0>パイロット養成</LINK>で「気力＋（命中）」などを修得します。\n\n　●<LINK=1>精神コマンド</LINK>「気合」などを使用します。\n\n　●<LINK=2>強化パーツ</LINK>「ハチマキ」などを装備します。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>個別コマンド「補給」の対象になった場合、気力は１０下がります。また、戦艦\n　　　に搭載させた場合、気力は５下がります。ただし、搭載によって気力が１００未\n　　　満になることはありません。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>There are several methods.</C></H></W>\n\n　●Shoot down enemies. Will rises even more if the pilot makes the kill\n　　personally. Will may also rise when an ally is shot down, but be careful:\n　　depending on the pilot, it may drop instead.\n\n　●Have the pilot take part in battle. Will may rise when dealing damage,\n　　evading an attack, or taking damage. How much it rises varies by pilot.\n　　Will may also rise when an attack fails to damage the target, but be\n　　careful: depending on the pilot, it may drop instead.\n\n　●Learn \"Will+ (Hit)\" or similar skills through <LINK=0>Pilot Training</LINK>.\n\n　●Use the <LINK=1>Spirit Command</LINK> \"Spirit\" or similar.\n\n　●Equip the <LINK=2>Part</LINK> \"Headband\" or similar.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>A pilot targeted by the unit command \"Resupply\" loses 10 Will.\n　　　Boarding a battleship lowers Will by 5. However, boarding will never\n　　　drop Will below 100.\n",
    "cell": "r36c6",
    "kind": "text",
    "keep": false
@@ -862,7 +860,7 @@
   {
    "id": 174,
    "jp": "<W=24>Ｑ</W><W=32>３</W>．敵の気力を下げるためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>3</W>. How do I lower enemy Will?",
    "cell": "r37c4",
    "kind": "text",
    "keep": false
@@ -873,12 +871,13 @@
    "en": "",
    "cell": "r37c5",
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "retry_note": "CSB: 'A. Use Spirit Commands, Special Effect 1, and more.' failed (width: 774px > 736px: 'A. Use Spirit Commands, Special Effect 1, and more')"
   },
   {
    "id": 176,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の方法があります。</C></H></W>\n\n　●<LINK=0>精神コマンド</LINK>「脱力」などを使用します。\n\n　●<LINK=1>特殊効果１</LINK>の「気力ダウンＬ（Ｐ系）」がある武器で攻撃します。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>ボスクラスの敵は仲間の機体の撃墜や、戦闘での気力の低下は期待できません。\n　　　また、気力がすぐ最大になるので、攻撃を行う直前に気力を下げるようにします。\n　　　気力を下げる精神コマンドを持つパイロットは限られていますので、気力を上げ\n　　　させないような作戦も重要になります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>There are several methods.</C></H></W>\n\n　●Use the <LINK=0>Spirit Command</LINK> \"Exhaust\" or similar.\n\n　●Attack with a weapon that has the <LINK=1>Special Effect 1</LINK> \"Will Down L (P)\".\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Boss-class enemies won't lose Will from allies being shot down or\n　　　from battle. Their Will also maxes out quickly, so lower it right before\n　　　you attack. Few pilots have Spirit Commands that lower Will, so tactics\n　　　that keep the enemy's Will from rising are also important.\n",
    "cell": "r37c6",
    "kind": "text",
    "keep": false
@@ -886,7 +885,7 @@
   {
    "id": 179,
    "jp": "地形効果について",
-   "en": "",
+   "en": "Terrain Effects",
    "cell": "r38c3",
    "kind": "name",
    "keep": false
@@ -894,7 +893,7 @@
   {
    "id": 180,
    "jp": "マップの地形効果についてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A about map terrain effects.",
    "cell": "r38c6",
    "kind": "text",
    "keep": false
@@ -902,7 +901,7 @@
   {
    "id": 182,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．地形効果とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What are terrain effects?",
    "cell": "r39c4",
    "kind": "text",
    "keep": false
@@ -910,7 +909,7 @@
   {
    "id": 183,
    "jp": "Ａ．マップのマスに設定された、防御や回避、ＨＰ・ＥＮ回復の効果です。",
-   "en": "",
+   "en": "A. Defense, evasion and HP/EN recovery bonuses of map squares.",
    "cell": "r39c5",
    "kind": "text",
    "keep": false
@@ -918,7 +917,7 @@
   {
    "id": 184,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>マップのマスに設定された、防御や回避、ＨＰ・ＥＮ回復の効果です。</C></H></W>\n\n　●マップの各マスには地形の種類によって異なる、地形効果が設定されています。地\n　　形効果は、そのマスに位置するユニットに対し、以下のような効果を与えます。\n\n　<T=30>『防御率』</T>\n　・その地形にいる機体が攻撃をうけた場合に増加する、防御力の割合を表します。\n\n　<T=30>『回避率』</T>\n　・その地形にいる機体が攻撃をうけた場合に、相手の攻撃の命中率を減少させる値を\n　　表します。\n\n　<T=30>『ＨＰ回復率』</T>\n　・その地形にいる機体のＨＰが自軍フェイズ開始時に、最大値の何％分回復するかを\n　　表します。\n\n　<T=30>『ＥＮ回復率』</T>\n　・その地形にいる機体のＥＮが自軍フェイズ開始時に、最大値の何％分回復するかを\n　　表します。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>効果を確認したいマスで<S=-4><Y=-3><W=32><H=32><I=116></H></W></Y><S=-4>を押すと、地形効果を表示することができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Defense, evasion and HP/EN recovery bonuses of map squares.</C></H></W>\n\n　●Each map square has terrain effects that depend on its terrain type.\n　　Terrain effects give the unit on that square the following bonuses.\n\n　<T=30>\"Defense Rate\"</T>\n　・How much a unit's defense increases when it's attacked on that terrain.\n\n　<T=30>\"Evasion Rate\"</T>\n　・How much the enemy's hit rate drops when a unit on that terrain is\n　　attacked.\n\n　<T=30>\"HP Recovery Rate\"</T>\n　・What percentage of max HP a unit on that terrain recovers at the start\n　　of the player phase.\n\n　<T=30>\"EN Recovery Rate\"</T>\n　・What percentage of max EN a unit on that terrain recovers at the start\n　　of the player phase.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Press <S=-4><Y=-3><W=32><H=32><I=116></H></W></Y><S=-4> on a square to view its terrain effects.\n",
    "cell": "r39c6",
    "kind": "text",
    "keep": false
@@ -926,7 +925,7 @@
   {
    "id": 186,
    "jp": "<W=24>Ｑ</W><W=32>２</W>．敵からのダメージを減らすためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>2</W>. How do I reduce enemy damage?",
    "cell": "r40c4",
    "kind": "text",
    "keep": false
@@ -934,7 +933,7 @@
   {
    "id": 187,
    "jp": "Ａ．高い防御率が設定されているマスへユニットを移動させます。",
-   "en": "",
+   "en": "A. Move the unit to a square with a high defense rate.",
    "cell": "r40c5",
    "kind": "text",
    "keep": false
@@ -942,7 +941,7 @@
   {
    "id": 188,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>高い防御率が設定されているマスへユニットを移動させます。</C></H></W>\n\n　●防御率の効果はユニットが空中に位置する場合、得ることができません。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>道路や平原など遮蔽物が少ない地形では効果は得られず、逆に建物や森など遮蔽\n　　　物が多い地形では高い効果を得ることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Move the unit to a square with a high defense rate.</C></H></W>\n\n　●Units in the air don't receive the defense rate bonus.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Terrain with little cover, like roads and plains, gives no bonus,\n　　　while terrain with lots of cover, like buildings and forests, gives\n　　　a high bonus.\n",
    "cell": "r40c6",
    "kind": "text",
    "keep": false
@@ -950,7 +949,7 @@
   {
    "id": 190,
    "jp": "<W=24>Ｑ</W><W=32>３</W>．回避率を上げるためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>3</W>. How do I raise evasion?",
    "cell": "r41c4",
    "kind": "text",
    "keep": false
@@ -958,7 +957,7 @@
   {
    "id": 191,
    "jp": "Ａ．高い回避率が設定されているマスへユニットを移動させます。",
-   "en": "",
+   "en": "A. Move the unit to a square with a high evasion rate.",
    "cell": "r41c5",
    "kind": "text",
    "keep": false
@@ -966,7 +965,7 @@
   {
    "id": 192,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>高い回避率が設定されているマスへユニットを移動させます。</C></H></W>\n\n　●回避率の効果はユニットが空中に位置する場合、得ることができません。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>道路や平原など遮蔽物が少ない地形では効果は得られず、逆に建物や森など遮蔽\n　　　物が多い地形では高い効果を得ることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Move the unit to a square with a high evasion rate.</C></H></W>\n\n　●Units in the air don't receive the evasion rate bonus.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Terrain with little cover, like roads and plains, gives no bonus,\n　　　while terrain with lots of cover, like buildings and forests, gives\n　　　a high bonus.\n",
    "cell": "r41c6",
    "kind": "text",
    "keep": false
@@ -974,7 +973,7 @@
   {
    "id": 194,
    "jp": "<W=24>Ｑ</W><W=32>４</W>．ＨＰ・ＥＮを回復させるためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>4</W>. How do I recover HP/EN?",
    "cell": "r42c4",
    "kind": "text",
    "keep": false
@@ -982,7 +981,7 @@
   {
    "id": 195,
    "jp": "Ａ．ＨＰ・ＥＮ回復率が設定されているマスへユニットを移動させます。",
-   "en": "",
+   "en": "A. Move the unit to a square with an HP/EN recovery rate.",
    "cell": "r42c5",
    "kind": "text",
    "keep": false
@@ -990,7 +989,7 @@
   {
    "id": 196,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>ＨＰ・ＥＮ回復率が設定されているマスへユニットを移動させます。</C></H></W>\n\n　●地形効果によるＨＰ・ＥＮの回復は自軍フェイズ開始時に行われます。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>ＨＰ・ＥＮ回復率が設定されている主な地形としては基地、ビルなどの施設やエ\n　　　ネルギータンクなどがあります。\n\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Move the unit to a square with an HP/EN recovery rate.</C></H></W>\n\n　●HP/EN recovery from terrain happens at the start of the player phase.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Terrain with HP/EN recovery rates mainly includes facilities\n　　　like bases and buildings, as well as energy tanks.\n\n",
    "cell": "r42c6",
    "kind": "text",
    "keep": false
@@ -998,7 +997,7 @@
   {
    "id": 198,
    "jp": "戦闘に関係するシステムについて",
-   "en": "",
+   "en": "Battle-Related Systems",
    "cell": "r43c3",
    "kind": "name",
    "keep": false
@@ -1006,7 +1005,7 @@
   {
    "id": 199,
    "jp": "戦闘に関係するシステムについてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A about battle-related systems.",
    "cell": "r43c6",
    "kind": "text",
    "keep": false
@@ -1014,7 +1013,7 @@
   {
    "id": 201,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．援護攻撃とはなんですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What is a Support Attack?",
    "cell": "r44c4",
    "kind": "text",
    "keep": false
@@ -1022,7 +1021,7 @@
   {
    "id": 202,
    "jp": "Ａ．通常攻撃後に他の味方のユニットが行う追加攻撃のことです。",
-   "en": "",
+   "en": "A. A follow-up attack by another ally after a normal attack.",
    "cell": "r44c5",
    "kind": "text",
    "keep": false
@@ -1030,7 +1029,7 @@
   {
    "id": 203,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>通常攻撃後に他の味方のユニットが行う追加攻撃のことです。</C></H></W>\n\n　●攻撃を実行したユニットが<LINK=0>通常攻撃</LINK>を行った場合、味方のユニットが続けて攻撃を\n　　行います。援護攻撃を行うことができる機体の条件は以下の通りです。\n\n　・攻撃を実行したユニットに隣接している。\n　・行動終了していない。\n　・攻撃を実行したユニットの位置する地形に進入可能な<LINK=1>移動タイプ</LINK>を持つ。\n　・メインパイロットが<LINK=2>特殊スキル</LINK>「援護攻撃」を持っていて、かつ援護回数が残ってい\n　　る。\n　・攻撃目標に対し攻撃可能な武器を持っている。\n　・攻撃を実行したユニットの<LINK=3>合体攻撃</LINK>に参加していない。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>援護攻撃では通常時に比べ命中率は＋２０、与えるダメージは７５％になります。\n　　　また、１フェイズで援護可能な回数は、スキルレベルと同じになります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>A follow-up attack by another ally after a normal attack.</C></H></W>\n\n　●When the attacking unit makes a <LINK=0>Normal Attack</LINK>, an allied unit follows up\n　　with its own attack. A unit can make a Support Attack if it:\n\n　・Is adjacent to the attacking unit.\n　・Has not finished its action.\n　・Has a <LINK=1>Movement Type</LINK> that can enter the attacking unit's terrain.\n　・Has a main pilot with the <LINK=2>Special Skill</LINK> \"Support Attack\" and supports\n　　remaining.\n　・Has a weapon that can attack the target.\n　・Is not taking part in the attacking unit's <LINK=3>Combination Attack</LINK>.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Support Attacks get +20 hit rate but deal 75 percent of normal damage.\n　　　The number of supports per phase equals the skill level.\n",
    "cell": "r44c6",
    "kind": "text",
    "keep": false
@@ -1038,7 +1037,7 @@
   {
    "id": 206,
    "jp": "<W=24>Ｑ</W><W=32>２</W>．援護防御とはなんですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>2</W>. What is Support Defense?",
    "cell": "r45c4",
    "kind": "text",
    "keep": false
@@ -1046,7 +1045,7 @@
   {
    "id": 207,
    "jp": "Ａ．受けるダメージを、他の味方の機体が肩代わりする行動です。",
-   "en": "",
+   "en": "A. An ally unit takes the damage in another's place.",
    "cell": "r45c5",
    "kind": "text",
    "keep": false
@@ -1057,12 +1056,13 @@
    "en": "",
    "cell": "r45c6",
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "retry_note": "CSB: '<W=28><H=28>A. <C=FF8000FF>An ally unit takes the damage in another\\'s place.</C></H></W>\\n\\n\\u3000●When a unit is hit by a <LINK=0>Normal Attack</LINK>, an ally takes the damage instead.\\n\\u3000\\u3000A unit can Support Defend if it:\\n\\n\\u3000・Is adjacent to the unit under attack.\\n\\u3000・Has a <LINK=1>Move Type</LINK> that can enter the attacked unit\\'s terrain.\\n\\u3000・Has a main pilot with the <LINK=2>Special Skill</LINK> \"Support Defense\" and supports left.\\n\\u3000・Is not part of the attacked unit\\'s <LINK=3>Combination Attack</LINK>.\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Support Defense takes the hit while defending, so damage\\n\\u3000\\u3000\\u3000is 50% of normal. Supports per phase equal the skill level.\\n' failed (glossary: 援護防御 is 'Support Defend' here; canon is 'Support Defense')"
   },
   {
    "id": 210,
    "jp": "<W=24>Ｑ</W><W=32>３</W>．プレースメントとは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>3</W>. What is Placement?",
    "cell": "r46c4",
    "kind": "text",
    "keep": false
@@ -1070,7 +1070,7 @@
   {
    "id": 211,
    "jp": "Ａ．攻撃目標をプレイヤーユニットで囲むことにより発生する効果です。",
-   "en": "",
+   "en": "A. A bonus for surrounding a target with your units.",
    "cell": "r46c5",
    "kind": "text",
    "keep": false
@@ -1078,7 +1078,7 @@
   {
    "id": 212,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>攻撃目標をプレイヤーユニットで囲むことにより発生する効果です。</C></H></W>\n\n　●攻撃目標ユニットに隣接する、「攻撃」コマンドを実行したユニット以外の自軍ユ\n　　ニットの数によって与えるダメージが変化します。\n\n　<T=30>『２～３ユニット』</T>\n　・ダメージ＋５％\n\n　<T=30>『４ユニット』</T>\n　・ダメージ＋１０％\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>A bonus for surrounding a target with your units.</C></H></W>\n\n　●Damage varies with the number of your units adjacent to the target,\n　　excluding the attacking unit.\n\n　<T=30>2-3 Units</T>\n　・Damage +5%\n\n　<T=30>4 Units</T>\n　・Damage +10%\n",
    "cell": "r46c6",
    "kind": "text",
    "keep": false
@@ -1086,7 +1086,7 @@
   {
    "id": 214,
    "jp": "<W=24>Ｑ</W><W=32>４</W>．連続ターゲット補正とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>4</W>. What is Consecutive Targeting?",
    "cell": "r47c4",
    "kind": "text",
    "keep": false
@@ -1094,7 +1094,7 @@
   {
    "id": 215,
    "jp": "Ａ．同一フェイズ内で、攻撃を回避し続けることが困難になる効果です。",
-   "en": "",
+   "en": "A. Evading repeatedly in one phase becomes harder.",
    "cell": "r47c5",
    "kind": "text",
    "keep": false
@@ -1102,7 +1102,7 @@
   {
    "id": 216,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>同一フェイズ内で、攻撃を回避し続けることが困難になる効果です。</C></H></W>\n\n　●それぞれの機体は攻撃を回避（バリア等でダメージを受けなかった場合も含む）す\n　　るごとに、回避回数が最大４０回までカウントされ、「カウント数」×５（％）だ\n　　け、次回の戦闘では回避することが難しくなります。カウント数は回避に失敗する\n　　か、各フェイズ終了時にリセットされます。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3><LINK=0>精神コマンド</LINK>「ひらめき」で回避した場合はカウントされません。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Evading repeatedly in one phase becomes harder.</C></H></W>\n\n　●Each evasion (including blocking all damage with a barrier, etc.) adds 1\n　　to a unit's count, up to 40. Evasion drops by count x 5% in its next\n　　battle. The count resets on a failed evasion or at phase end.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Evading with Flash, one of the <LINK=0>Spirit Commands</LINK>, isn't counted.\n",
    "cell": "r47c6",
    "kind": "text",
    "keep": false
@@ -1110,7 +1110,7 @@
   {
    "id": 219,
    "jp": "機体の特殊能力について",
-   "en": "",
+   "en": "Unit Abilities",
    "cell": "r48c3",
    "kind": "name",
    "keep": false
@@ -1118,7 +1118,7 @@
   {
    "id": 220,
    "jp": "機体の特殊能力についてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A about unit special abilities.",
    "cell": "r48c6",
    "kind": "text",
    "keep": false
@@ -1126,7 +1126,7 @@
   {
    "id": 222,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．特殊能力とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What are Abilities?",
    "cell": "r49c4",
    "kind": "text",
    "keep": false
@@ -1134,7 +1134,7 @@
   {
    "id": 223,
    "jp": "Ａ．機体が持つ、特殊な能力です。",
-   "en": "",
+   "en": "A. Special powers a unit has.",
    "cell": "r49c5",
    "kind": "text",
    "keep": false
@@ -1142,7 +1142,7 @@
   {
    "id": 224,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>機体が持つ、特殊な能力です。</C></H></W>\n\n　●特殊能力とは一部の機体が持つ能力のことで、別形態に変形する能力、ＨＰ・ＥＮ\n　　を回復する能力、攻撃を完全に無効化する回避系特殊能力、武器の特殊効果を無効\n　　化するブロック系特殊能力、ダメージを減少させるバリア系特殊能力などがありま\n　　す。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3><LINK=0>強化パーツ</LINK>によって、特殊能力と同等の効果を得られる場合があります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Special powers a unit has.</C></H></W>\n\n　●Some units have abilities: transforming, HP/EN recovery, evasion\n　　types that negate attacks, block types that negate weapon effects,\n　　barrier types that reduce damage, and more.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3><LINK=0>Parts</LINK> can grant similar effects.\n",
    "cell": "r49c6",
    "kind": "text",
    "keep": false
@@ -1150,7 +1150,7 @@
   {
    "id": 227,
    "jp": "<W=24>Ｑ</W><W=32>２</W>．移動力（移動範囲）を増やすためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>2</W>. How can I extend movement range?",
    "cell": "r50c4",
    "uses": 4,
    "kind": "text",
@@ -1159,7 +1159,7 @@
   {
    "id": 228,
    "jp": "Ａ．特殊能力「変形」「合体」「分離」を利用します。",
-   "en": "",
+   "en": "A. Use Transform, Combine, or Separate.",
    "cell": "r50c5",
    "kind": "text",
    "keep": false
@@ -1167,7 +1167,7 @@
   {
    "id": 229,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>特殊能力「変形」「合体」「分離」を利用します。</C></H></W>\n\n　●変形、合体、分離の特殊能力を持つ機体はそれぞれ、個別コマンド「変形」「合体」\n　　「分離」を使用でき、機体を別形態へ変化させることができます。それによって、\n　　機体の<LINK=0>移動力</LINK>や<LINK=1>移動タイプ</LINK>が変化する場合があります。地形の種類に合わせて機体\n　　を変形させることで、ユニットの移動範囲を増やすことが可能になります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use Transform, Combine, or Separate.</C></H></W>\n\n　●Units with these abilities can use the unit commands \"Transform,\"\n　　\"Combine,\" and \"Separate\" to change form, which may change their\n　　<LINK=0>Move</LINK> or <LINK=1>Move Type</LINK>. Changing form to suit the terrain\n　　can extend a unit's movement range.\n",
    "cell": "r50c6",
    "kind": "text",
    "keep": false
@@ -1175,7 +1175,7 @@
   {
    "id": 232,
    "jp": "<W=24>Ｑ</W><W=32>３</W>．敵からのダメージを減らすためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>3</W>. How can I reduce damage taken?",
    "cell": "r51c4",
    "kind": "text",
    "keep": false
@@ -1183,7 +1183,7 @@
   {
    "id": 233,
    "jp": "Ａ．特殊能力「ＡＢフィールド」「Ｅフィールド」「パッシブ・ビット」「ＴＥスフィア」「ビームコート」「Ｇ・ウォール」\n　　「Ｇ・テリトリー」「念動フィールド」を利用します。",
-   "en": "",
+   "en": "A. Use AB Field, E Field, Passive Bit, TE Sphere, Beam Coat, G-Wall,\n　　G-Territory, or TK Field.",
    "cell": "r51c5",
    "kind": "text",
    "keep": false
@@ -1191,7 +1191,7 @@
   {
    "id": 234,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の特殊能力を利用します。</C></H></W>\n\n　●バリア系特殊能力を利用します。バリア系特殊能力はＥＮを消費して、一定のダメー\n　　ジを軽減、もしくは無効化することができます。必要なＥＮが不足している場合、\n　　バリアは発生しません。また他の発動条件として、一定値以上のパイロットの気力\n　　や特殊能力が必要になる場合があります。\n\n　<T=30>『ＡＢフィールド』</T>\n　・１２００ダメージ軽減、消費ＥＮ１０。ビーム兵器のみに有効。\n\n　<T=30>『Ｅフィールド』</T>\n　・１５００ダメージ軽減、消費ＥＮ１５、必要気力１２０。\n\n　<T=30>『パッシブ・ビット』</T>\n　・１１００ダメージ軽減、消費ＥＮ５。ビーム兵器のみに有効。\n\n　<T=30>『ＴＥスフィア』</T>\n　・１５００ダメージ軽減、消費ＥＮ５、必要気力１２０。\n\n　<T=30>『ビームコート』</T>\n　・９００ダメージ軽減、消費ＥＮ５。ビーム兵器のみに有効。\n\n　<T=30>『Ｇ・ウォール』</T>\n　・８００ダメージ無効、消費ＥＮ５、必要気力１２０。\n\n　<T=30>『Ｇ・テリトリー』</T>\n　・１８００ダメージ無効、消費ＥＮ１５、必要気力１２０。\n\n　<T=30>『念動フィールド』</T>\n　・<LINK=0>特殊スキル</LINK>「念動力」の「レベル数」×２００ダメージ無効、消費ＥＮ５、必要気\n　　力１１０。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>軽減タイプのバリアは、受けるダメージがバリアの効果だけ軽減されます。無効\n　　　化タイプは受けるダメージがバリアの効果以下の場合、ダメージを０にします。\n　　　それ以外は通常通りのダメージを受けます。\n\n　●変形、合体、分離の特殊能力を利用します。変形、合体、分離の特殊能力を持つ機\n　　体はそれぞれ、個別コマンド「変形」「合体」「分離」を使用でき、機体を別形態\n　　へ変化させることができます。それによって、機体の装甲値が変化する場合があり\n　　ます。\n\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the following abilities.</C></H></W>\n\n　●Use barrier abilities. Barriers spend EN to reduce or nullify a set\n　　amount of damage. They won't activate without enough EN, and some\n　　also require a minimum pilot Will or another ability.\n\n　<T=30>AB Field</T>\n　・Reduces damage by 1200. Costs 10 EN. Beam weapons only.\n\n　<T=30>E Field</T>\n　・Reduces damage by 1500. Costs 15 EN. Requires 120 Will.\n\n　<T=30>Passive Bit</T>\n　・Reduces damage by 1100. Costs 5 EN. Beam weapons only.\n\n　<T=30>TE Sphere</T>\n　・Reduces damage by 1500. Costs 5 EN. Requires 120 Will.\n\n　<T=30>Beam Coat</T>\n　・Reduces damage by 900. Costs 5 EN. Beam weapons only.\n\n　<T=30>G-Wall</T>\n　・Nullifies up to 800 damage. Costs 5 EN. Requires 120 Will.\n\n　<T=30>G-Territory</T>\n　・Nullifies up to 1800 damage. Costs 15 EN. Requires 120 Will.\n\n　<T=30>TK Field</T>\n　・Nullifies up to 200 x the <LINK=0>Special Skill</LINK> Telekinesis level. Costs 5 EN.\n　　Requires 110 Will.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Reducing barriers lower damage by their value. Nullifying barriers\n　　　cut damage to 0 if it's at or below their value; otherwise, full\n　　　damage is taken.\n\n　●Use Transform, Combine, or Separate. Units with these abilities can use\n　　the unit commands \"Transform,\" \"Combine,\" and \"Separate\" to change\n　　form, which may change their Armor.\n\n",
    "cell": "r51c6",
    "kind": "text",
    "keep": false
@@ -1199,7 +1199,7 @@
   {
    "id": 237,
    "jp": "<W=24>Ｑ</W><W=32>４</W>．ステータス異常を受けないためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>4</W>. How do I avoid status ailments?",
    "cell": "r52c4",
    "kind": "text",
    "keep": false
@@ -1207,7 +1207,7 @@
   {
    "id": 238,
    "jp": "Ａ．特殊能力「パイロットブロック」「ロボットブロック」「フルブロック」を利用します。",
-   "en": "",
+   "en": "A. Use Pilot Block, Robot Block, or Full Block.",
    "cell": "r52c5",
    "kind": "text",
    "keep": false
@@ -1215,7 +1215,7 @@
   {
    "id": 239,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>ブロック系特殊能力を利用します。</C></H></W>\n\n　●武器の中には攻撃目標に対し、ステータス異常を発生させる<LINK=0>特殊効果１</LINK>を持つもの\n　　があります。特殊効果にはＲ系とＰ系があり、Ｒ系は機体に、Ｐ系はパイロットに\n　　ステータス異常を発生させます。ブロック系特殊能力はこの特殊効果を無効化する\n　　ことができます。\n\n　<T=30>『パイロットブロック』</T>\n　・Ｐ系全ての特殊効果を無効化します。\n\n　<T=30>『ロボットブロック』</T>\n　・Ｒ系全ての特殊効果を無効化します。\n\n　<T=30>『フルブロック』</T>\n　・全ての特殊効果を無効化します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use block abilities.</C></H></W>\n\n　●Some weapons have a <LINK=0>Special Effect 1</LINK> that inflicts status ailments\n　　on the target. R-type effects affect units, and P-type effects affect\n　　pilots. Block abilities can nullify these effects.\n\n　<T=30>Pilot Block</T>\n　・Nullifies all P-type effects.\n\n　<T=30>Robot Block</T>\n　・Nullifies all R-type effects.\n\n　<T=30>Full Block</T>\n　・Nullifies all special effects.\n",
    "cell": "r52c6",
    "kind": "text",
    "keep": false
@@ -1223,7 +1223,7 @@
   {
    "id": 242,
    "jp": "<W=24>Ｑ</W><W=32>５</W>．回避率を上げるためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>5</W>. How can I raise evasion?",
    "cell": "r53c4",
    "kind": "text",
    "keep": false
@@ -1231,7 +1231,7 @@
   {
    "id": 243,
    "jp": "Ａ．特殊能力「分身」「ジャマー」を利用します。",
-   "en": "",
+   "en": "A. Use Afterimage or Jammer.",
    "cell": "r53c5",
    "kind": "text",
    "keep": false
@@ -1239,7 +1239,7 @@
   {
    "id": 244,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の特殊能力を利用します。</C></H></W>\n\n　●回避系特殊能力を利用します。\n\n　<T=30>『分身』</T>\n　・パイロットの気力が１３０以上の場合、５０％の確率で攻撃を回避できます。\n\n　<T=30>『ジャマー』</T>\n　・ミサイル系の攻撃を５０％の確率で無効化します。\n\n　●変形、合体、分離の特殊能力を利用します。変形、合体、分離の特殊能力を持つ機\n　　体はそれぞれ、個別コマンド「変形」「合体」「分離」を使用でき、機体を別形態\n　　へ変化させることができます。それによって、機体の運動性が変化する場合があり\n　　ます。\n\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the following special abilities.</C></H></W>\n\n　●Use evasion abilities.\n\n　<T=30>Afterimage</T>\n　・50% chance to evade attacks when the pilot's Will is 130+.\n\n　<T=30>Jammer</T>\n　・50% chance to nullify missile attacks.\n\n　●Use Transform, Combine or Separate. Units with these abilities can\n　　use the matching unit command to change form, which may change\n　　their Mobility.\n\n",
    "cell": "r53c6",
    "kind": "text",
    "keep": false
@@ -1247,7 +1247,7 @@
   {
    "id": 246,
    "jp": "パイロットの特殊スキルについて",
-   "en": "",
+   "en": "About Pilot Skills",
    "cell": "r54c3",
    "kind": "name",
    "keep": false
@@ -1255,7 +1255,7 @@
   {
    "id": 247,
    "jp": "パイロットの特殊スキルについてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A about pilots' special skills.",
    "cell": "r54c6",
    "kind": "text",
    "keep": false
@@ -1263,7 +1263,7 @@
   {
    "id": 249,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．特殊スキルとは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What are special skills?",
    "cell": "r55c4",
    "kind": "text",
    "keep": false
@@ -1271,7 +1271,7 @@
   {
    "id": 250,
    "jp": "Ａ．パイロットが持つ、特殊な技能です。",
-   "en": "",
+   "en": "A. Special talents pilots have.",
    "cell": "r55c5",
    "kind": "text",
    "keep": false
@@ -1279,7 +1279,7 @@
   {
    "id": 251,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>パイロットが持つ、特殊な技能です。</C></H></W>\n\n　●特殊スキルとはパイロットの特殊な技能のことです。特殊スキルには、レベル制の\n　　ものとそうでないものがあり、パイロットのレベル上昇時、特殊スキルのレベルが\n　　上がる場合があります。\n\n　●特殊スキルにはインターミッションの「<LINK=0>パイロット養成</LINK>」コマンドで修得可能なも\n　　のと、特定のパイロットが覚える、修得不可能なものがあります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Special talents pilots have.</C></H></W>\n\n　●Special skills are a pilot's special talents. Some have levels, which may rise\n　　when the pilot levels up.\n\n　●Some can be learned via the Intermission command <LINK=0>Pilot Training</LINK>;\n　　others belong to specific pilots and can't be learned.\n",
    "cell": "r55c6",
    "kind": "text",
    "keep": false
@@ -1287,7 +1287,7 @@
   {
    "id": 254,
    "jp": "Ａ．特殊スキル「インファイト」を利用します。",
-   "en": "",
+   "en": "A. Use the In-Fighter special skill.",
    "cell": "r56c5",
    "kind": "text",
    "keep": false
@@ -2014,7 +2014,7 @@
    "cell": "r90c5",
    "kind": "text",
    "keep": false,
-   "retry_note": "CSB: 'A. Use Vigor, Super Guts, Trust, Friendship and Bond.' failed (glossary: 根性 is 'Guts' here; canon is 'Vigor')"
+   "retry_note": "CSB: 'A. Use Vigor, Super Guts, Trust, Friendship or Bond.' failed (glossary: 根性 is 'Guts' here; canon is 'Vigor')"
   },
   {
    "id": 387,
@@ -2653,11 +2653,10 @@
   {
    "id": 506,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>弱点を補い、長所を伸ばすようにします。以下は一例です。</C></H></W>\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>固定武器が格闘系の機体は格闘タイプの換装武器を、射撃系の場合は射撃タイプ\n　　　の換装武器を装備させます。\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>サポートユニットには修理装置や補給装置を装備させます。<LINK=0>修理</LINK>や<LINK=1>補給</LINK>を行えば、\n　　　戦闘に不向きな機体でも経験値を得ることができます。\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>ＥＮ消費型の固定武器を多く持つなど、ＥＮの消費が激しい機体には、弾数消費\n　　　型の換装武器を、逆の場合はＥＮ消費型の武器を装備させます。\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>射程の短い固定武器しか持たない機体には、射程の長い換装武器を、逆の場合は\n　　　近接戦用の武器を装備させます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Cover weaknesses and boost strengths. For example:</C></H></W>\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Give melee-focused units melee replaceable weapons, and ranged\n　　　units ranged ones.\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Equip support units with a Repair Module or Resupply Module.\n　　　<LINK=0>Repair</LINK> and <LINK=1>Resupply</LINK> let even non-combat units earn EXP.\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Give EN-hungry units, such as those with many EN-based fixed\n　　　weapons, ammo-based replaceable weapons, and vice versa.\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Give units with only short-range fixed weapons long-range\n　　　replaceable weapons, and vice versa.\n",
    "cell": "r119c6",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: '<W=28><H=28>A. <C=FF8000FF>Cover weaknesses and build on strengths. Some examples:</C></H></W>\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Give units with melee fixed weapons melee-type replaceable weapons,\\n\\u3000\\u3000\\u3000and units with ranged fixed weapons ranged-type ones.\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Equip support units with a Repair Module or Resupply Module. Using\\n\\u3000\\u3000\\u3000<LINK=0>Repair</LINK> or <LINK=1>Resupply</LINK> lets even non-combat units earn EXP.\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Give EN-hungry units, such as those with many EN-based fixed weapons,\\n\\u3000\\u3000\\u3000ammo-based replaceable weapons, and EN-based ones in the opposite case.\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Give units with only short-range fixed weapons long-range replaceable\\n\\u3000\\u3000\\u3000weapons, and close-combat weapons in the opposite case.\\n' failed (width: 9230px > 8704px: '<W=28><H=28>A. <C=FF8000FF>Cover weaknesses and bu')"
+   "keep": false
   },
   {
    "id": 509,
@@ -2735,11 +2734,10 @@
   {
    "id": 522,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>長所を伸ばすようにします。</C></H></W>\n\n　<T=30>『格闘』</T>\n　・格闘武器のダメージを増やしたい場合に上昇させます。\n\n　<T=30>『射撃』</T>\n　・射撃武器のダメージを増やしたい場合に上昇させます。\n\n　<T=30>『技量』</T>\n　・クリティカル発生率、特殊スキル「カウンター」の発生率、特殊スキル「再攻撃」、\n　　精神コマンド「てかげん」の発生条件などを満たしたい場合に上昇させます。\n\n　<T=30>『防御』</T>\n　・受けるダメージを減らしたい場合に上昇させます。\n\n　<T=30>『回避』</T>\n　・回避率を上げたい場合に上昇させます。\n\n　<T=30>『命中』</T>\n　・命中率を上げたい場合に上昇させます。\n\n　<T=30>『地形適応』</T>\n　・パイロットと機体の地形適応の組合せから、戦闘時の回避率と受けるダメージに影\n　　響を与える総合地形適応が決定します。パイロットが搭乗することによって、機体\n　　が得意とする地形の適応が下がってしまう場合などに上昇させます。\n\n　　　　　　　　<T=30><C=FF8000FF>パイロット</C></T>\n　　　　　　<C=0080FFFF>Ｓ　Ａ　Ｂ　Ｃ　Ｄ</C>\n　　　　<C=0080FFFF>Ｓ</C>　Ｓ　Ｓ　Ａ　Ｂ　Ｂ\n　　　<T=30><C=FF8000FF>機</C></T><C=0080FFFF>Ａ</C>　Ｓ　Ａ　Ｂ　Ｂ　Ｃ\n　　　　<C=0080FFFF>Ｂ</C>　Ａ　Ｂ　Ｂ　Ｃ　Ｃ\n　　　<T=30><C=FF8000FF>体</C></T><C=0080FFFF>Ｃ</C>　Ｂ　Ｂ　Ｃ　Ｃ　Ｄ\n　　　　<C=0080FFFF>Ｄ</C>　Ｂ　Ｃ　Ｃ　Ｄ　Ｄ\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>地形適応のランクが１つ変わると回避率及び、受けるダメージが１割程度、変わ\n　　　る可能性があります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Build on strengths.</C></H></W>\n\n　<T=30>Mel</T>\n　・Raise to increase damage from melee weapons.\n\n　<T=30>Rng</T>\n　・Raise to increase damage from ranged weapons.\n\n　<T=30>Skl</T>\n　・Raise to improve critical rate and the Counter skill's activation rate, and\n　　to meet the conditions for the Attack Again skill, the Mercy spirit command, etc.\n\n　<T=30>Def</T>\n　・Raise to reduce damage taken.\n\n　<T=30>Eva</T>\n　・Raise to improve evasion.\n\n　<T=30>Acc</T>\n　・Raise to improve accuracy.\n\n　<T=30>Terrain Ability</T>\n　・The pilot's and unit's Terrain Ability combine into an overall rating that\n　　affects evasion and damage taken in battle. Raise it when, for example, a\n　　pilot lowers the unit's rating in terrain the unit excels at.\n\n　　　　　　　　<T=30><C=FF8000FF>Pilot</C></T>\n　　　　　　<C=0080FFFF>S　A　B　C　D</C>\n　　　　<C=0080FFFF>S</C>　S　S　A　B　B\n　　<T=30><C=FF8000FF>Unit</C></T><C=0080FFFF>A</C>　S　A　B　B　C\n　　　　<C=0080FFFF>B</C>　A　B　B　C　C\n　　　<T=30><C=FF8000FF>　</C></T><C=0080FFFF>C</C>　B　B　C　C　D\n　　　　<C=0080FFFF>D</C>　B　C　C　D　D\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>A one-rank change in Terrain Ability can change evasion and damage\n　　　taken by about 10%.\n",
    "cell": "r123c6",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: \"<W=28><H=28>A. <C=FF8000FF>Build on strengths.</C></H></W>\\n\\n\\u3000<T=30>『Mel』</T>\\n\\u3000・Raise to increase damage from melee weapons.\\n\\n\\u3000<T=30>『Rng』</T>\\n\\u3000・Raise to increase damage from ranged weapons.\\n\\n\\u3000<T=30>『Skl』</T>\\n\\u3000・Raise to improve critical rate and the Counter skill's activation rate, and\\n\\u3000\\u3000to meet the conditions for the Attack Again skill and the Mercy spirit command.\\n\\n\\u3000<T=30>『Def』</T>\\n\\u3000・Raise to reduce damage taken.\\n\\n\\u3000<T=30>『Eva』</T>\\n\\u3000・Raise to improve evasion.\\n\\n\\u3000<T=30>『Acc』</T>\\n\\u3000・Raise to improve accuracy.\\n\\n\\u3000<T=30>『Terrain Ability』</T>\\n\\u3000・The pilot's and unit's Terrain Ability combine into an overall rating that\\n\\u3000\\u3000affects evasion and damage taken in battle. Raise it when, for example, a\\n\\u3000\\u3000pilot lowers the unit's rating in terrain the unit excels at.\\n\\n\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000<T=30><C=FF8000FF>Pilot</C></T>\\n\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000<C=0080FFFF>S\\u3000A\\u3000B\\u3000C\\u3000D</C>\\n\\u3000\\u3000\\u3000\\u3000<C=0080FFFF>S</C>\\u3000S\\u3000S\\u3000A\\u3000B\\u3000B\\n\\u3000\\u3000\\u3000\\u3000<C=0080FFFF>A</C>\\u3000S\\u3000A\\u3000B\\u3000B\\u3000C\\n\\u3000\\u3000<T=30><C=FF8000FF>Unit</C></T><C=0080FFFF>B</C>\\u3000A\\u3000B\\u3000B\\u3000C\\u3000C\\n\\u3000\\u3000\\u3000\\u3000<C=0080FFFF>C</C>\\u3000B\\u3000B\\u3000C\\u3000C\\u3000D\\n\\u3000\\u3000\\u3000\\u3000<C=0080FFFF>D</C>\\u3000B\\u3000C\\u3000C\\u3000D\\u3000D\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>A one-rank change in Terrain Ability can change evasion and damage\\n\\u3000\\u3000\\u3000taken by about 10%.\\n\" failed (tag: tags ['<W=28>', '<H=28>', '<C=FF8000FF>', '</C>', '</H>', '</W>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '<C=FF8000FF>', '</C>', '</T>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<T=30>', '<C=FF8000FF>', '</C>', '</T>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<T=30>', '<C=FF8000FF>', '</C>', '</T>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<S=8>', '<Y=-3>', '<W=32>', '<H=32>', '<I=156>', '</H>', '</W>', '</Y>', '<S=3>'] vs ['<W=28>', '<H=28>', '<C=FF8000FF>', '</C>', '</H>', '</W>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '<C=FF8000FF>', '</C>', '</T>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<T=30>', '<C=FF8000FF>', '</C>', '</T>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<S=8>', '<Y=-3>', '<W=32>', '<H=32>', '<I=156>', '</H>', '</W>', '</Y>', '<S=3>'])"
+   "keep": false
   },
   {
    "id": 524,
@@ -2912,11 +2910,10 @@
   {
    "id": 557,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下が移動タイプを変更させる、代表的な強化パーツです。</C></H></W>\n\n　<T=30>『テスラ・ドライブ』</T>\n　・機体に移動タイプ「空」を与え、機体と武器の地形適応「空」をＡにします。\n\n　<T=30>『スラスターモジュール』</T>\n　・機体と武器の地形適応「宇」をＳにします。\n\n　<T=30>『防塵装置』</T>\n　・機体に移動タイプ「陸」を与え、機体と武器の地形適応「陸」をＳにします。\n\n　<T=30>『スクリューモジュール』</T>\n　・機体に移動タイプ「水」を与え、機体と武器の地形適応「海」をＳにします。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Typical parts that change move type:</C></H></W>\n\n　<T=30>Tesla Drive</T>\n　・Gives the unit the Air move type and sets its and its weapons' Air rating to A.\n\n　<T=30>Thruster Module</T>\n　・Sets the Space rating of the unit and its weapons to S.\n\n　<T=30>Dustproofer</T>\n　・Gives the unit the Land move type and sets its and its weapons' Land rating to S.\n\n　<T=30>Water Jet</T>\n　・Gives the unit the Water move type and sets its and its weapons' Sea rating to S.\n",
    "cell": "r132c6",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: \"<W=28><H=28>A. <C=FF8000FF>These are the typical parts that change move type:</C></H></W>\\n\\n\\u3000<T=30>『Tesla Drive』</T>\\n\\u3000・Gives the unit the Air move type and sets its and its weapons' Air rating to A.\\n\\n\\u3000<T=30>『Thruster Module』</T>\\n\\u3000・Sets the Space rating of the unit and its weapons to S.\\n\\n\\u3000<T=30>『Dustproofer』</T>\\n\\u3000・Gives the unit the Land move type and sets its and its weapons' Land rating to S.\\n\\n\\u3000<T=30>『Water Jet』</T>\\n\\u3000・Gives the unit the Water move type and sets its and its weapons' Sea rating to S.\\n\" failed (width: 6600px > 6592px: '<W=28><H=28>A. <C=FF8000FF>These are the typical p')"
+   "keep": false
   },
   {
    "id": 559,

@@ -49,6 +49,7 @@ PRICES = {
 BREAK = {"LDBI": "@", "LOGO": "@", "ELF": "@", "BMD": "/", "FIXH": "\n", "CSB": "\n", "WTD": "\n"}
 COST_PER_CHAR = 0.26 / 40944   # measured on chapter 1 (Opus 5.5, batch): $ per char of request text
 SPENT_PATH = os.path.join(REPO, "translations", "spent.json")
+MAX_TOKENS = 32000
 AVG_PX = 17  # average advance of English text with the proportional font
 
 SCHEMA = {
@@ -125,12 +126,12 @@ def speakers_for(rel, ws):
     return {line: strings[spk]["jp"] for line, spk in script.ldbi_speakers(data).items()}
 
 
-def budget_text(fmt, e, font):
+def budget_text(fmt, e, font, path=""):
     if fmt in fitcheck.DIALOGUE:
         lines, px = 3, {"LDBI": 832, "BMD": 704}[fmt]
     else:
         jl = fitcheck.split_lines(fmt, jp_of(e))
-        lines, px = max(1, len(jl)), max(font.width(l) for l in jl)
+        lines, px = fitcheck.line_limit(fmt, path, len(jl)), max(font.width(l) for l in jl)
     return lines, px
 
 
@@ -174,7 +175,7 @@ def build_requests(paths, model, effort, chunk, tm):
             items, terms, tags = [], {}, {}
             for e in part:
                 jp = jp_of(e)
-                lines, px = budget_text(fmt, e, font)
+                lines, px = budget_text(fmt, e, font, rel)
                 item = {"id": e["id"], "jp": jp, "max_lines": lines,
                         "max_chars_per_line": max(4, px // AVG_PX)}
                 if e["id"] in spk:
@@ -207,7 +208,7 @@ def build_requests(paths, model, effort, chunk, tm):
                 "custom_id": cid,
                 "params": {
                     "model": model,
-                    "max_tokens": 32000,
+                    "max_tokens": MAX_TOKENS,
                     "system": sysmsg,
                     "output_config": {"effort": effort, "format": {"type": "json_schema", "schema": SCHEMA}},
                     "messages": [{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
@@ -227,6 +228,8 @@ def client():
 def cmd_submit(argv):
     opt = lambda k, d: argv[argv.index(k) + 1] if k in argv else d
     model, effort, chunk = opt("--model", "claude-opus-5-5"), opt("--effort", "medium"), int(opt("--chunk", "80"))
+    global MAX_TOKENS
+    MAX_TOKENS = int(opt("--max-tokens", "32000"))
     pats = [a for a in argv[2:] if not a.startswith("--") and a not in (model, effort, str(chunk))]
     paths = sorted({p for pat in pats for p in glob.glob(os.path.join(REPO, pat), recursive=True)})
     tm = load_tm()

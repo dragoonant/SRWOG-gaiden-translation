@@ -146,7 +146,8 @@
     }
    ],
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "retry_note": "BMD: 'Perish, you lifeforms who call yourselves human.' failed (width: 712px > 704px: 'Perish, you lifeforms who call yourselves human.')"
   },
   {
    "id": 1,
@@ -156,7 +157,7 @@
     117
    ],
    "jp": "「これは、我の一つの力の顕れ……」",
-   "en": "",
+   "en": "This is but one manifestation of my power...",
    "refs": [
     {
      "line": 1,
@@ -260,7 +261,7 @@
     117
    ],
    "jp": "「お前達も我の力となるがいい……」",
-   "en": "",
+   "en": "You too shall become part of my power...",
    "refs": [
     {
      "line": 2,
@@ -382,7 +383,7 @@
     117
    ],
    "jp": "「滅びよ……/　全ての命あるものよ、全ての形あるものよ」",
-   "en": "",
+   "en": "Perish.../　All that lives, all that has form.",
    "refs": [
     {
      "line": 3,
@@ -468,7 +469,7 @@
     117
    ],
    "jp": "「この世界が破滅へ導かれる時が来た」",
-   "en": "",
+   "en": "The time has come for this world to fall.",
    "refs": [
     {
      "line": 4,
@@ -572,7 +573,7 @@
     117
    ],
    "jp": "「我は無限、我は混沌……/　全てを飲み込み、力と成して無へと還すもの」",
-   "en": "",
+   "en": "I am infinite, I am chaos.../　That which devours all, makes it power,/　and returns it to nothingness.",
    "refs": [
     {
      "line": 5,
@@ -658,7 +659,7 @@
     117
    ],
    "jp": "「創造主たる我に刃向かうか……」",
-   "en": "",
+   "en": "You dare defy me, your creator...?",
    "refs": [
     {
      "line": 6,
@@ -708,7 +709,7 @@
     117
    ],
    "jp": "「無へ還れ、偽りの生命よ」",
-   "en": "",
+   "en": "Return to nothing, false life.",
    "refs": [
     {
      "line": 7,
@@ -758,7 +759,7 @@
     117
    ],
    "jp": "「鍵は門を開き、閉じもする……」",
-   "en": "",
+   "en": "A key both opens and closes the gate...",
    "refs": [
     {
      "line": 10,
@@ -808,7 +809,7 @@
     117
    ],
    "jp": "「人よ……/　もはやその鍵はお前が持つべき物ではない」",
-   "en": "",
+   "en": "Human.../　That key is no longer yours to hold.",
    "refs": [
     {
      "line": 11,
@@ -858,7 +859,7 @@
     117
    ],
    "jp": "「あり得ぬ……/　こんなことはあり得ぬはずだ……！！」",
-   "en": "",
+   "en": "Impossible.../　This should not be possible...!!",
    "refs": [
     {
      "line": 14,
@@ -890,7 +891,7 @@
     117
    ],
    "jp": "「何だ……これは？　我の力が…………」",
-   "en": "",
+   "en": "What... is this? My power is...",
    "refs": [
     {
      "line": 15,
@@ -922,7 +923,7 @@
     117
    ],
    "jp": "「何と……仮初めとは言え、/　我の力をこれほど退けるというのか……」",
-   "en": "",
+   "en": "What... Though only a temporary form,/　you can drive back my power this far...?",
    "refs": [
     {
      "line": 16,
@@ -954,7 +955,7 @@
     117
    ],
    "jp": "「何故だ……ただの生命体ごときが……！」",
-   "en": "",
+   "en": "Why...? Mere lifeforms like you...!",
    "refs": [
     {
      "line": 17,
@@ -986,7 +987,7 @@
     117
    ],
    "jp": "「あがくな……宿命を受け入れよ…………！」",
-   "en": "",
+   "en": "Do not struggle... Accept your fate...!",
    "refs": [
     {
      "line": 18,
@@ -1018,7 +1019,7 @@
     117
    ],
    "jp": "「肉と機械の器が……！」",
-   "en": "",
+   "en": "A vessel of flesh and machine...!",
    "refs": [
     {
      "line": 19,
@@ -1050,7 +1051,7 @@
     117
    ],
    "jp": "「あのような力……存在してはならぬ……！」",
-   "en": "",
+   "en": "Such power... must not exist...!",
    "refs": [
     {
      "line": 20,
@@ -1082,7 +1083,7 @@
     117
    ],
    "jp": "「我と相反する存在……力……」",
-   "en": "",
+   "en": "A being opposed to me... a power...",
    "refs": [
     {
      "line": 21,
@@ -1114,7 +1115,7 @@
     117
    ],
    "jp": "「つながせぬ……脆弱たる意志とはいえ……！」",
-   "en": "",
+   "en": "You shall not connect.../　feeble though your will may be...!",
    "refs": [
     {
      "line": 22,
@@ -1164,7 +1165,7 @@
     117
    ],
    "jp": "「お前は鍵の用法を誤っている……！」",
-   "en": "",
+   "en": "You are misusing the key...!",
    "refs": [
     {
      "line": 23,
@@ -1214,7 +1215,7 @@
     117
    ],
    "jp": "「共鳴するのか……あの鍵によって……！」",
-   "en": "",
+   "en": "They resonate...? Through that key...!",
    "refs": [
     {
      "line": 24,
@@ -1264,7 +1265,7 @@
     117
    ],
    "jp": "「この機械体を傷つけても、無駄だ」",
-   "en": "",
+   "en": "Wounding this mechanical body is futile.",
    "refs": [
     {
      "line": 28,
@@ -1296,7 +1297,7 @@
     117
    ],
    "jp": "「我の力は無限に存在する。/　我を退けることは出来ぬ」",
-   "en": "",
+   "en": "My power exists without end./　You cannot drive me back.",
    "refs": [
     {
      "line": 29,
@@ -1328,7 +1329,7 @@
     117
    ],
    "jp": "「儚き生命よ……/　このようなことで滅びは免れぬ」",
-   "en": "",
+   "en": "Fleeting life.../　This will not spare you from ruin.",
    "refs": [
     {
      "line": 30,
@@ -1360,7 +1361,7 @@
     117
    ],
    "jp": "「流れ込む……この身に力が……」",
-   "en": "",
+   "en": "It flows in... power, into this body...",
    "refs": [
     {
      "line": 31,
@@ -1392,7 +1393,7 @@
     117
    ],
    "jp": "「気が済むまで抗うがいい」",
-   "en": "",
+   "en": "Resist all you like.",
    "refs": [
     {
      "line": 32,
@@ -1424,7 +1425,7 @@
     117
    ],
    "jp": "「滅尽の宿命は変えられぬ」",
-   "en": "",
+   "en": "The fate of annihilation cannot be changed.",
    "refs": [
     {
      "line": 33,
@@ -1456,7 +1457,7 @@
     117
    ],
    "jp": "「無駄だ……/　我は死と滅びを糧として存在するが故に。/　我を滅ぼすことは出来ぬ」",
-   "en": "",
+   "en": "Futile.../　For I feed upon death and ruin./　You cannot destroy me.",
    "refs": [
     {
      "line": 34,
@@ -1488,7 +1489,7 @@
     117
    ],
    "jp": "「人よ……/　お前にはその鍵の全てを使いこなせぬ」",
-   "en": "",
+   "en": "Human.../　You cannot master all of that key's power.",
    "refs": [
     {
      "line": 35,
@@ -1538,7 +1539,7 @@
     117
    ],
    "jp": "「我を封じるには、力が足りぬ……」",
-   "en": "",
+   "en": "You lack the power to seal me...",
    "refs": [
     {
      "line": 36,
@@ -1588,7 +1589,7 @@
     117
    ],
    "jp": "「……」",
-   "en": "",
+   "en": "...",
    "refs": [
     {
      "line": 39,
@@ -1692,7 +1693,7 @@
     117
    ],
    "jp": "「我の力に抗うなど、無駄なこと……」",
-   "en": "",
+   "en": "Resisting my power is futile...",
    "refs": [
     {
      "line": 40,
@@ -1742,7 +1743,7 @@
     117
    ],
    "jp": "「感じるぞ……お前達の叫びを」",
-   "en": "",
+   "en": "I can feel it... your screams.",
    "refs": [
     {
      "line": 41,
@@ -1774,7 +1775,7 @@
     117
    ],
    "jp": "「絶望の果てに滅びを迎えよ」",
-   "en": "",
+   "en": "Meet your end at the far edge of despair.",
    "refs": [
     {
      "line": 42,
@@ -1824,7 +1825,7 @@
     117
    ],
    "jp": "「そうやって、命を消尽するがいい」",
-   "en": "",
+   "en": "Yes, spend your lives like that.",
    "refs": [
     {
      "line": 43,
@@ -1874,7 +1875,7 @@
     117
    ],
    "jp": "「お前達の情念すら取り込んでくれる……」",
-   "en": "",
+   "en": "Even your passions shall be mine to absorb...",
    "refs": [
     {
      "line": 44,
@@ -1924,7 +1925,7 @@
     117
    ],
    "jp": "「もはやその鍵で我を封じることは出来ぬ」",
-   "en": "",
+   "en": "That key can no longer seal me.",
    "refs": [
     {
      "line": 45,
@@ -1974,7 +1975,7 @@
     117
    ],
    "jp": "「その鍵もろとも、飲み込むまで……」",
-   "en": "",
+   "en": "Then I shall devour you, key and all...",
    "refs": [
     {
      "line": 46,
@@ -2024,7 +2025,7 @@
     117
    ],
    "jp": "「この我の偽りの身体すら、/　お前達は傷つけられぬ」",
-   "en": "",
+   "en": "You cannot even wound/　this false body of mine.",
    "refs": [
     {
      "line": 49,
@@ -2092,7 +2093,7 @@
     117
    ],
    "jp": "「無駄だ……」",
-   "en": "",
+   "en": "Futile...",
    "refs": [
     {
      "line": 50,
@@ -2178,7 +2179,7 @@
     117
    ],
    "jp": "「我の力を打ち破ることは出来ぬ」",
-   "en": "",
+   "en": "My power cannot be broken.",
    "refs": [
     {
      "line": 51,
@@ -2228,7 +2229,7 @@
     117
    ],
    "jp": "「………」",
-   "en": "",
+   "en": "...",
    "refs": [
     {
      "line": 61,
@@ -2260,7 +2261,7 @@
     117
    ],
    "jp": "「抗拒せず、摂理を受け入れよ」",
-   "en": "",
+   "en": "Do not resist. Accept the natural order.",
    "refs": [
     {
      "line": 79,
@@ -2292,7 +2293,7 @@
     117
    ],
    "jp": "「原初の闇へと戻るがいい」",
-   "en": "",
+   "en": "Return to the primordial darkness.",
    "refs": [
     {
      "line": 90,
@@ -2360,7 +2361,7 @@
     117
    ],
    "jp": "「受け入れよ……！/　滅びんがために生まれた者達よ！」",
-   "en": "",
+   "en": "Accept it...!/　You who were born only to perish!",
    "refs": [
     {
      "line": 95,
@@ -2392,7 +2393,7 @@
     117
    ],
    "jp": "「原初の闇へ戻るがいい……！/　儚き生命は、寂滅すべし！」",
-   "en": "",
+   "en": "Return to the primordial darkness...!/　Fleeting life must fade into oblivion!",
    "refs": [
     {
      "line": 96,
@@ -2424,7 +2425,7 @@
     117
    ],
    "jp": "「絶望と恐怖の闇…………」",
-   "en": "",
+   "en": "Darkness of despair and terror...",
    "refs": [
     {
      "line": 97,
@@ -2456,7 +2457,7 @@
     117
    ],
    "jp": "「其は絶望、其は恐怖……」",
-   "en": "",
+   "en": "It is despair, it is terror...",
    "refs": [
     {
      "line": 98,
@@ -2488,7 +2489,7 @@
     117
    ],
    "jp": "「これは死をもたらすもの！」",
-   "en": "",
+   "en": "This is the bringer of death!",
    "refs": [
     {
      "line": 99,
@@ -2520,7 +2521,7 @@
     117
    ],
    "jp": "「受容せよ！」",
-   "en": "",
+   "en": "Accept it!",
    "refs": [
     {
      "line": 100,
@@ -2552,7 +2553,7 @@
     117
    ],
    "jp": "「受け入れよ……！」",
-   "en": "",
+   "en": "Accept it...!",
    "refs": [
     {
      "line": 101,
@@ -2584,7 +2585,7 @@
     117
    ],
    "jp": "「原初の闇へ戻るがいい……！」",
-   "en": "",
+   "en": "Return to the primordial darkness...!",
    "refs": [
     {
      "line": 102,
@@ -2616,7 +2617,7 @@
     117
    ],
    "jp": "「滅びんがために生まれた者達よ！」",
-   "en": "",
+   "en": "You who were born only to perish!",
    "refs": [
     {
      "line": 104,
@@ -2648,7 +2649,7 @@
     117
    ],
    "jp": "「儚き生命は、寂滅すべし！」",
-   "en": "",
+   "en": "Fleeting life must fade into oblivion!",
    "refs": [
     {
      "line": 105,
@@ -2698,7 +2699,7 @@
     117
    ],
    "jp": "「絶望の男面、恐怖の女面……」",
-   "en": "",
+   "en": "The male face of despair,/　the female face of terror...",
    "refs": [
     {
      "line": 107,
@@ -2730,7 +2731,7 @@
     117
    ],
    "jp": "「轟哭！」",
-   "en": "",
+   "en": "Roaring Lament!",
    "refs": [
     {
      "line": 108,
@@ -2762,7 +2763,7 @@
     117
    ],
    "jp": "「混沌へ堕ちよ！」",
-   "en": "",
+   "en": "Fall into chaos!",
    "refs": [
     {
      "line": 109,
@@ -2812,7 +2813,7 @@
     117
    ],
    "jp": "「享笑！」",
-   "en": "",
+   "en": "Reveling Laughter!",
    "refs": [
     {
      "line": 110,
@@ -2862,7 +2863,7 @@
     117
    ],
    "jp": "「ふうっ……はあっ……」",
-   "en": "",
+   "en": "Haah... hahh...",
    "refs": [
     {
      "line": 111,
@@ -2912,7 +2913,7 @@
     117
    ],
    "jp": "「我は破滅を司るもの」",
-   "en": "",
+   "en": "I am the one who governs ruin.",
    "refs": [
     {
      "line": 112,
@@ -2944,7 +2945,7 @@
     117
    ],
    "jp": "「破滅を導くもの」",
-   "en": "",
+   "en": "The one who leads to ruin.",
    "refs": [
     {
      "line": 113,
@@ -2976,7 +2977,7 @@
     117
    ],
    "jp": "「そして！！」",
-   "en": "",
+   "en": "And now!!",
    "refs": [
     {
      "line": 114,
@@ -3026,7 +3027,7 @@
     117
    ],
    "jp": "「破滅そのもの！！」",
-   "en": "",
+   "en": "Ruin itself!!",
    "refs": [
     {
      "line": 115,
@@ -3058,7 +3059,7 @@
     117
    ],
    "jp": "「我は無限、我は混沌……」",
-   "en": "",
+   "en": "I am the infinite, I am chaos...",
    "refs": [
     {
      "line": 119,
@@ -3090,7 +3091,7 @@
     117
    ],
    "jp": "「全てを飲み込み……」",
-   "en": "",
+   "en": "Swallowing all things...",
    "refs": [
     {
      "line": 120,
@@ -3122,7 +3123,7 @@
     117
    ],
    "jp": "「力と成して無へと還すもの！！」",
-   "en": "",
+   "en": "Turning it into power,/　and returning it to the void!!",
    "refs": [
     {
      "line": 122,

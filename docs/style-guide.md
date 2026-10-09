@@ -43,10 +43,11 @@ Sources: engine tests in `docs/rendering.md`, the OGs PS2 fan patch text
   -chan or -sama in 53,168 dialogue lines. The one exception it keeps is
   "Rishu-sensei"; keep that where the Japanese has it. Ranks are written in
   full ("Captain", "Lieutenant", "Commander"), never "Lt.", plus "sir".
-- Japanese quote brackets 「」 and （） become plain English: spoken lines get
-  no quotation marks (the name box shows the speaker); inner thoughts stay in
-  parentheses. **decide**: the original keeps 「」 on every spoken line; dropping
-  them gains two characters of width per line.
+- Japanese quote brackets: spoken lines get no quotation marks (the name box
+  shows the speaker); inner thoughts （…） stay in parentheses. Decided from
+  the OGs patch, which writes "Aya: Hey! It's that unit again!" and
+  "Ryusei: (If I just had some better air...". Also saves two characters of
+  width per line.
 - Register: natural, contraction-heavy English. Keep each character's voice:
   Masaki brash, Shu cool and formal, Ryusei excited, Kyosuke terse,
   Excellen playful. Per-character notes grow in this file as the edit pass

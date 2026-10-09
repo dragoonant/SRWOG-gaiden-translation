@@ -1,19 +1,17 @@
 #!/usr/bin/env python3
 """Copy a build into an RPCS3 install, and roll it back.
 
-How the game handles its data (confirmed on BLJS10133 in RPCS3):
+How the game checks its data (confirmed on BLJS10133 in RPCS3, 2026-10-09):
 on first boot it copies the five .psarc.sdat archives from the disc folder
-to dev_hdd0/game/BLJS10133/USRDIR/PSARC ("game data install") and from then
-on reads that copy. If the two copies disagree it shows
-「ゲームデータが壊れています」 and refuses to start. Patching both copies in
-place also triggers the message. What works: put the patched archives in
-the disc folder only, delete dev_hdd0/game/BLJS10133, boot, and confirm the
-install prompt. The game then installs the patched archives.
+to dev_hdd0/game/BLJS10133/USRDIR/PSARC and gives each copy the disc file's
+modification time. On every later boot it compares size and modification
+time (stat) of the two copies and shows 「ゲームデータが壊れています」 if they
+differ. Contents are not compared.
 
-The installed folder holds nothing but copies of disc files plus
-PARAM.SFO/ICON0.PNG; save data lives in dev_hdd0/home, so deleting it is
-safe. Rollback copies the pristine files back and wipes the installed
-copy the same way.
+So install copies each archive to BOTH places with the same timestamp and
+the game boots straight in, no reinstall. If the installed folder does not
+exist yet, the game installs it on first boot as usual. --reinstall restores
+the old behaviour (wipe the installed copy and let the game reinstall).
 
 Usage:
   deploy.py install BUILD_DIR   BUILD_DIR/USRDIR/{EBOOT.BIN, PSARC/*.psarc.sdat}
@@ -46,7 +44,18 @@ def wipe_installed(rpcs3):
         print("  removed installed game data %s (the game reinstalls it on boot)" % gd)
 
 
-def install(build_dir, rpcs3):
+def copy_both(src, disc_dst, hdd_dst, reinstall=False):
+    """Copy to the disc folder and, if the game data is installed, to the
+    installed copy too, with one identical modification time (the game's
+    check compares size and mtime)."""
+    shutil.copy2(src, disc_dst)
+    if not reinstall and os.path.isdir(os.path.dirname(hdd_dst)):
+        shutil.copy2(src, hdd_dst)
+        st = os.stat(disc_dst)
+        os.utime(hdd_dst, ns=(st.st_atime_ns, st.st_mtime_ns))
+
+
+def install(build_dir, rpcs3, reinstall=False):
     disc = disc_usrdir(rpcs3)
     usrdir = os.path.join(build_dir, "USRDIR")
     n = 0
@@ -56,6 +65,7 @@ def install(build_dir, rpcs3):
         print("  installed EBOOT.BIN")
         n += 1
     archives = 0
+    hdd_psarc = os.path.join(rpcs3, "dev_hdd0", "game", SERIAL, "USRDIR", "PSARC")
     psarc_dir = os.path.join(usrdir, "PSARC")
     if os.path.isdir(psarc_dir):
         for f in sorted(os.listdir(psarc_dir)):
@@ -64,12 +74,12 @@ def install(build_dir, rpcs3):
                 if os.path.exists(dst) and filecmp.cmp(src, dst, shallow=False):
                     print("  %s unchanged" % f)
                     continue
-                shutil.copy2(src, dst)
+                copy_both(src, dst, os.path.join(hdd_psarc, f), reinstall)
                 print("  installed %s" % f)
                 n += 1
                 archives += 1
-    if archives:
-        wipe_installed(rpcs3)   # only archives are checked against the installed copy
+    if archives and reinstall:
+        wipe_installed(rpcs3)
     print("deployed %d file(s)" % n)
 
 
@@ -80,7 +90,8 @@ def rollback(rpcs3, pristine):
         src = os.path.join(pristine, "PSARC", a + ".psarc.sdat")
         dst = os.path.join(disc, "PSARC", a + ".psarc.sdat")
         if not filecmp.cmp(src, dst, shallow=False):
-            shutil.copy2(src, dst)
+            copy_both(src, dst, os.path.join(rpcs3, "dev_hdd0", "game", SERIAL, "USRDIR", "PSARC",
+                                             a + ".psarc.sdat"))
             print("  restored %s" % dst)
             n += 1
     src = os.path.join(pristine, "EBOOT.BIN")
@@ -89,8 +100,6 @@ def rollback(rpcs3, pristine):
         shutil.copy2(src, dst)
         print("  restored %s" % dst)
         n += 1
-    if n:
-        wipe_installed(rpcs3)
     print("rolled back %d file(s)" % n)
 
 
@@ -116,7 +125,7 @@ def main(argv):
             del argv[i:i + 2]
     cmd = argv[1] if len(argv) > 1 else ""
     if cmd == "install":
-        install(argv[2], rpcs3)
+        install(argv[2], rpcs3, "--reinstall" in argv)
     elif cmd == "rollback":
         rollback(rpcs3, pristine)
     elif cmd == "status":

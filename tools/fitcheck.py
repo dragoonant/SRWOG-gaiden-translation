@@ -41,13 +41,15 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEFAULT_FONT = r"C:\Users\antho\srw2og-work\ext\Common\Dat\Font\font.bin"
 TAG = re.compile(r"<[^<>]*>")
+FMT_TAG = re.compile(r"<(?:/[^<>]*|[^<>]*=[^<>]*)>")
 PRINTF = re.compile(r"%[-+#0]?\d*(?:\.\d+)?[hl]?[diouxXfcs]")
 JPCHAR = re.compile(r"[\u3040-\u30ff\u4e00-\u9fff]")
 DIALOGUE = {"LDBI", "BMD"}
 LABEL_PX = 160   # Japanese width of a 5-character label
 # Library pages (encyclopedia text) are assumed to scroll: English may use up
 # to 1.6x the Japanese line count. To verify in game.
-SCROLLING = ("KeyWordData.dat", "UnitDictionaryData.dat", "PilotDictionaryData.dat")
+SCROLLING = ("KeyWordData.dat", "UnitDictionaryData.dat", "PilotDictionaryData.dat",
+             "Archive_OG", "Roll_01_cnv", "Telop_")   # archive recaps and the intro crawl scroll too
 
 
 def width_limit(fmt, jp_px):
@@ -95,7 +97,9 @@ class Font:
         return adv
 
     def width(self, s):
-        return sum(self.advance(c) for c in TAG.sub("", s))
+        s = FMT_TAG.sub("", s)                              # <W=28>, </C>: no width
+        s = TAG.sub(lambda m: m.group(0)[1:-1], s)          # keyword tags show their text
+        return sum(self.advance(c) for c in s)
 
 
 def fmt_of(ws):
@@ -113,8 +117,8 @@ def jp_of(e):
 def split_lines(fmt, s):
     if fmt == "BMD":
         return re.split(r"/\u3000?", s)
-    if fmt == "FIXH":
-        return s.split("\n")
+    if fmt in ("FIXH", "CSB", "WTD"):
+        return s.split("\n")       # these formats use real newlines
     return s.split("@")
 
 
@@ -152,6 +156,22 @@ def load_game_terms():
 
 
 GAME_TERMS = load_game_terms()
+
+
+def load_keyword_names():
+    """KeyWordData Japanese name -> English. In-game, a keyword tag prints the
+    text inside it, so translations carry <English name> (tools/keyword_tags.py)."""
+    p = os.path.join(REPO, "worksheets", "Logic", "Dat", "FixedData", "KeyWordData.dat.json")
+    out = {}
+    if os.path.exists(p):
+        for e in json.load(open(p, encoding="utf-8"))["strings"]:
+            t = e.get("text")
+            if t and e.get("en") and "\n" not in t and "\n" not in e["en"]:
+                out[t] = e["en"]
+    return out
+
+
+KW_EN = load_keyword_names()
 
 
 def load_glossary():
@@ -242,7 +262,7 @@ def main(argv):
             et = [t.replace("\n", "").replace("@", "") for t in TAG.findall(en)]
             fmt_j = collections.Counter(t for t in jt if "=" in t or t.startswith("</"))
             fmt_e = collections.Counter(t for t in et if "=" in t or t.startswith("</"))
-            kw_j = collections.Counter(t for t in jt if t not in fmt_j)
+            kw_j = collections.Counter(KW_EN.get(t[1:-1], t[1:-1]).join("<>") for t in jt if t not in fmt_j)
             kw_e = collections.Counter(t for t in et if t not in fmt_e)
             if fmt_j != fmt_e or any(kw_e[t] > kw_j[t] for t in kw_e):
                 report("tag", path, e, "tags %s vs %s" % (jt, et))

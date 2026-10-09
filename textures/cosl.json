@@ -1,0 +1,18 @@
+{
+ "texture": "Battle/Dat/Battle/Console/Dds/cosl.dds",
+ "note": "Battle HUD popup labels. Boxes are the ink bounds of the Japanese labels. Wording follows the OGs patch where it has the term.",
+ "fill": [188, 254, 255],
+ "glow": [30, 47, 255],
+ "font": "bahnschrift.ttf",
+ "labels": [
+  {"box": [470, 118, 727, 146], "jp": "コンビネーション攻撃", "en": "Combination Attack"},
+  {"box": [793, 118, 972, 145], "jp": "ダブルアタック", "en": "Double Attack"},
+  {"box": [315, 157, 547, 185], "jp": "マキシマムブレイク", "en": "Maximum Break"},
+  {"box": [315, 197, 418, 225], "jp": "包囲攻撃", "en": "Surround Attack"},
+  {"box": [459, 197, 562, 225], "jp": "援護攻撃", "en": "Support Attack"},
+  {"box": [20, 230, 122, 258], "jp": "援護防御", "en": "Support Defense"},
+  {"box": [162, 230, 265, 258], "jp": "合体攻撃", "en": "Combo Attack"},
+  {"box": [308, 237, 411, 265], "jp": "全体攻撃", "en": "ALL Attack"},
+  {"box": [447, 237, 524, 265], "jp": "再攻撃", "en": "Re-Attack"}
+ ]
+}

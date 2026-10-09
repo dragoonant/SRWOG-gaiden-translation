@@ -23,6 +23,7 @@ Usage:
 Always applied: GENERATED files (proportional font) and the EBOOT renderer
 patch (tools/eboot_patch.py), unless --no-eboot.
 """
+import glob
 import json
 import os
 import shutil
@@ -111,7 +112,14 @@ def build(work, out, only=None, check_only=False, no_eboot=False):
         return problems == 0
     # Generated files: built from pristine game data by our tools, never
     # stored in the repo.
-    for archive, inner, args in GENERATED:
+    generated = list(GENERATED)
+    # Texture repaints: every textures/*.json names its texture as
+    # "<Archive>/<path inside the archive>".
+    for spec in sorted(glob.glob(os.path.join(REPO, "textures", "*.json"))):
+        target = json.load(open(spec, encoding="utf-8"))["texture"]
+        archive, inner = target.split("/", 1)
+        generated.append((archive, inner, ["texture_text.py", spec, "{orig}", "{dst}"]))
+    for archive, inner, args in generated:
         if only and archive not in only:
             continue
         orig = os.path.join(work, "ext", archive, *inner.split("/"))

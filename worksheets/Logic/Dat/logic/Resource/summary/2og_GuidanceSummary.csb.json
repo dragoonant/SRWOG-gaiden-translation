@@ -25,10 +25,11 @@
   {
    "id": 3,
    "jp": "＜KeyWords＞\n●ここに記入したモノがそのまま表示されます。\n●スペース的には最大３行分表示できます。\n●全ての表示文字は全角で入力、改行は「半角\\n」を記述するか、\n　「Altキー＋Enter」の操作で改行させたものが、そのまま反映されます。",
-   "en": "＜KeyWords＞\n●Whatever is entered here is displayed as-is.\n●Up to 3 lines fit in the space.\n●Enter all display characters full-width. Line breaks written as a half-width \\n,\n　or made with Alt+Enter, are reflected as-is.",
+   "en": "",
    "cell": "r0c5",
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "retry_note": "CSB: '＜KeyWords＞\\n●Whatever is entered here is displayed as-is.\\n●Up to 3 lines fit in the space.\\n●Enter all display characters full-width. Line breaks written as a half-width \\\\n,\\n\\u3000or made with Alt+Enter, are reflected as-is.' failed (width: 1191px > 1090px: '●Enter all display characters full-width. Line bre')"
   },
   {
    "id": 4,

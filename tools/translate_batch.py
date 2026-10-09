@@ -79,9 +79,10 @@ def system_prompt():
         "- Translate each item's jp into natural, idiomatic English that keeps the speaker's "
         "voice and the scene's tone. Do not add or drop information. No translator notes.\n"
         "- Use the glossary forms given in the request for every name and term, exactly.\n"
-        "- Keyword tags like <ラ・ギアス> must be copied unchanged, Japanese inside, at the "
-        "point in the sentence where that term belongs. The game replaces the tag with the "
-        "English given for it in the request, so write the sentence around that English.\n"
+        "- Keyword tags like <ラ・ギアス> become the English name given for them in "
+        "keyword_tags_display_as, kept inside angle brackets (e.g. <La Gias>), placed where "
+        "that term belongs in the English sentence. The game prints the text inside the tag "
+        "as a highlighted dictionary link, so use each tag at most as often as the Japanese.\n"
         "- Keep other tags (<W=..>, </W>, etc.) and printf codes (%d, %s, %02d) exactly.\n"
         "- Never write ASCII < or > except inside copied tags.\n"
         "- Line breaks: use the break marker given in the request, at most the given number of "
@@ -193,7 +194,8 @@ def build_requests(paths, model, effort, chunk, tm):
                     if gjp in jp and rx.search(jp):
                         terms[gjp] = gen
                 for t in re.findall(r"<([^<>/=]+)>", jp):
-                    tags["<%s>" % t] = kw_en.get(t, "(keyword; use the natural English term)")
+                    key = t.replace("\n", "").replace("@", "")
+                    tags["<%s>" % t] = "<%s>" % kw_en.get(key, key)
                 if item.get("speaker") and item["speaker"] in kw_en:
                     terms[item["speaker"]] = kw_en[item["speaker"]]
             payload = {

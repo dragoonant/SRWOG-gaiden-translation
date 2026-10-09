@@ -1,0 +1,311 @@
+{
+ "batch_id": "msgbatch_01SEJXKEKzd7pbqzGkUZrnEw",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "created": 1791571956.7685823,
+ "plan": {
+  "r00000": {
+   "path": "worksheets\\Common\\Dat\\Archive\\Csb\\Archive_OG1.csb.json",
+   "format": "CSB",
+   "ids": [
+    6,
+    9,
+    11,
+    13,
+    15,
+    17,
+    19,
+    21
+   ]
+  },
+  "r00001": {
+   "path": "worksheets\\Common\\Dat\\Archive\\Csb\\Archive_OG1.csb.json",
+   "format": "CSB",
+   "ids": [
+    23,
+    32,
+    45,
+    51,
+    59,
+    64,
+    69,
+    74
+   ]
+  },
+  "r00002": {
+   "path": "worksheets\\Common\\Dat\\Archive\\Csb\\Archive_OG1.csb.json",
+   "format": "CSB",
+   "ids": [
+    79,
+    85,
+    90,
+    96,
+    101,
+    109,
+    115,
+    120
+   ]
+  },
+  "r00003": {
+   "path": "worksheets\\Common\\Dat\\Archive\\Csb\\Archive_OG1.csb.json",
+   "format": "CSB",
+   "ids": [
+    125,
+    131,
+    139,
+    144,
+    149,
+    155,
+    160,
+    168
+   ]
+  },
+  "r00004": {
+   "path": "worksheets\\Common\\Dat\\Archive\\Csb\\Archive_OG1.csb.json",
+   "format": "CSB",
+   "ids": [
+    174,
+    182
+   ]
+  },
+  "r00005": {
+   "path": "worksheets\\Common\\Dat\\Archive\\Csb\\Archive_OG2.csb.json",
+   "format": "CSB",
+   "ids": [
+    6,
+    9,
+    11,
+    13,
+    17,
+    28,
+    42,
+    50
+   ]
+  },
+  "r00006": {
+   "path": "worksheets\\Common\\Dat\\Archive\\Csb\\Archive_OG2.csb.json",
+   "format": "CSB",
+   "ids": [
+    55,
+    61,
+    67,
+    72,
+    77,
+    83,
+    89,
+    95
+   ]
+  },
+  "r00007": {
+   "path": "worksheets\\Common\\Dat\\Archive\\Csb\\Archive_OG2.csb.json",
+   "format": "CSB",
+   "ids": [
+    103,
+    109,
+    114,
+    120,
+    128,
+    133,
+    141,
+    147
+   ]
+  },
+  "r00008": {
+   "path": "worksheets\\Common\\Dat\\Archive\\Csb\\Archive_OG2.csb.json",
+   "format": "CSB",
+   "ids": [
+    153,
+    161,
+    169,
+    175,
+    181,
+    187,
+    195,
+    201
+   ]
+  },
+  "r00009": {
+   "path": "worksheets\\Common\\Dat\\Archive\\Csb\\Archive_OG2.csb.json",
+   "format": "CSB",
+   "ids": [
+    206,
+    212,
+    218,
+    223,
+    231,
+    239
+   ]
+  },
+  "r00010": {
+   "path": "worksheets\\Common\\Dat\\Archive\\Csb\\Archive_OGg.csb.json",
+   "format": "CSB",
+   "ids": [
+    9,
+    11,
+    13,
+    15,
+    17,
+    21,
+    32,
+    39
+   ]
+  },
+  "r00011": {
+   "path": "worksheets\\Common\\Dat\\Archive\\Csb\\Archive_OGg.csb.json",
+   "format": "CSB",
+   "ids": [
+    51,
+    59,
+    64,
+    70,
+    75,
+    83,
+    91,
+    97
+   ]
+  },
+  "r00012": {
+   "path": "worksheets\\Common\\Dat\\Archive\\Csb\\Archive_OGg.csb.json",
+   "format": "CSB",
+   "ids": [
+    102,
+    110,
+    116,
+    124,
+    130,
+    136,
+    144,
+    152
+   ]
+  },
+  "r00013": {
+   "path": "worksheets\\Common\\Dat\\Archive\\Csb\\Archive_OGg.csb.json",
+   "format": "CSB",
+   "ids": [
+    158,
+    166,
+    172,
+    177,
+    182,
+    188,
+    196,
+    204
+   ]
+  },
+  "r00014": {
+   "path": "worksheets\\Common\\Dat\\Archive\\Csb\\Archive_OGg.csb.json",
+   "format": "CSB",
+   "ids": [
+    210
+   ]
+  },
+  "r00015": {
+   "path": "worksheets\\Common\\Dat\\Option\\QA\\2og_Q&A.csb.json",
+   "format": "CSB",
+   "ids": [
+    3,
+    82,
+    122,
+    132,
+    142,
+    158,
+    188,
+    192
+   ]
+  },
+  "r00016": {
+   "path": "worksheets\\Common\\Dat\\Option\\QA\\2og_Q&A.csb.json",
+   "format": "CSB",
+   "ids": [
+    284,
+    351,
+    403,
+    454,
+    472,
+    557
+   ]
+  },
+  "r00017": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\KeyWordData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    75,
+    111
+   ]
+  },
+  "r00018": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\PilotDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    16,
+    68,
+    85
+   ]
+  },
+  "r00019": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\UnitDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    10,
+    69,
+    71,
+    75,
+    77,
+    81,
+    92,
+    120
+   ]
+  },
+  "r00020": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\UnitDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    126
+   ]
+  },
+  "r00021": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    168
+   ]
+  },
+  "r00022": {
+   "path": "worksheets\\Logic\\Dat\\Roll\\Csb\\Roll_01_cnv.csb.json",
+   "format": "CSB",
+   "ids": [
+    28,
+    30
+   ]
+  },
+  "r00023": {
+   "path": "worksheets\\Logic\\Dat\\Roll\\Csb\\Telop_001.csb.json",
+   "format": "CSB",
+   "ids": [
+    32,
+    36,
+    38,
+    39,
+    40
+   ]
+  },
+  "r00024": {
+   "path": "worksheets\\Logic\\Dat\\Roll\\Csb\\Telop_002.csb.json",
+   "format": "CSB",
+   "ids": [
+    16,
+    32,
+    37,
+    38
+   ]
+  },
+  "r00025": {
+   "path": "worksheets\\Logic\\Dat\\Roll\\Csb\\Telop_003.csb.json",
+   "format": "CSB",
+   "ids": [
+    21,
+    29
+   ]
+  }
+ }
+}

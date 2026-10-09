@@ -115,7 +115,10 @@ def build(path, ws, out_path):
             continue
         b = en.encode("utf-8")
         if len(b) > e["budget"]:
-            raise ValueError("string %d exceeds budget %d: %r" % (e["id"], e["budget"], en))
+            # Too long to replace in place: keep the Japanese so the build
+            # still works, and say so (fitcheck reports these as "bytes").
+            print("skipped string %d: %d bytes > budget %d: %r" % (e["id"], len(b), e["budget"], en))
+            continue
         off = e["offset"]
         if elf[off:off + e["budget"]] != e["jp"].encode("utf-8"):
             raise ValueError("string %d: original bytes do not match at 0x%X" % (e["id"], off))

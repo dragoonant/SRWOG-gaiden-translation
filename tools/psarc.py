@@ -25,8 +25,9 @@ shrink it, and the data region keeps the same alignment (none).
 Usage:
   psarc.py list    ARCHIVE
   psarc.py extract ARCHIVE OUTDIR
-  psarc.py pack    TEMPLATE_ARCHIVE INDIR OUT_ARCHIVE
-      Names, order and flags come from TEMPLATE; file bodies from INDIR.
+  psarc.py pack    TEMPLATE_ARCHIVE INDIR OUT_ARCHIVE [BASEDIR]
+      Names, order and flags come from TEMPLATE; file bodies from INDIR,
+      falling back to BASEDIR for files INDIR lacks.
   psarc.py check   ARCHIVE           (inflate every block, report stats)
 """
 import hashlib
@@ -182,7 +183,10 @@ def compress_block(data):
     return c
 
 
-def cmd_pack(template, indir, outpath):
+def cmd_pack(template, indir, outpath, base=None):
+    """Pack INDIR using TEMPLATE for names/order/flags. Files missing from
+    INDIR are taken from BASE (the pristine extract), so a build tree only
+    needs the files that changed."""
     t = Psarc(template)
     names = [e.name for e in t.entries[1:]]
     manifest = "\n".join(names).encode("utf-8")
@@ -190,6 +194,8 @@ def cmd_pack(template, indir, outpath):
     for n in names:
         rel = n.lstrip("/").replace("\\", "/")
         src = os.path.join(indir, *rel.split("/"))
+        if base is not None and not os.path.exists(src):
+            src = os.path.join(base, *rel.split("/"))
         with open(src, "rb") as f:
             bodies.append(f.read())
     bs = t.block_size
@@ -269,7 +275,7 @@ def main(argv):
     elif cmd == "extract":
         cmd_extract(argv[2], argv[3])
     elif cmd == "pack":
-        cmd_pack(argv[2], argv[3], argv[4])
+        cmd_pack(argv[2], argv[3], argv[4], argv[5] if len(argv) > 5 else None)
     elif cmd == "check":
         return 0 if cmd_check(argv[2]) else 1
     else:

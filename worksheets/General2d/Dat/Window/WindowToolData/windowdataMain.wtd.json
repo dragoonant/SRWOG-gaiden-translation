@@ -1,0 +1,7928 @@
+{
+ "file": "windowdataMain.wtd",
+ "format": "WTD",
+ "occurrences": 3380,
+ "untouched": "ASCII-only strings (widget/texture ids, <I=n> tags) and all non-text data",
+ "strings": [
+  {
+   "id": 0,
+   "jp": "ザシュフォード・ザン・ヴァルハレビア",
+   "en": "",
+   "count": 4,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 1,
+   "jp": "アルフィミィ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 2,
+   "jp": "：勢力切替",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 3,
+   "jp": "：選択",
+   "en": "",
+   "count": 7,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 4,
+   "jp": "：出撃",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 5,
+   "jp": "＋",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 6,
+   "jp": "：改造値入力",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 7,
+   "jp": "：売却実行",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 8,
+   "jp": "：50音順",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 9,
+   "jp": "：分類順",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 10,
+   "jp": "：武器変更（参加サブ）",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 11,
+   "jp": "：決定",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 12,
+   "jp": "：全マーク",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 13,
+   "jp": "：－－",
+   "en": "",
+   "count": 7,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 14,
+   "jp": "：戻る",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 15,
+   "jp": "：カスタム設定",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 16,
+   "jp": "：能力",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 17,
+   "jp": "：リスト選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 18,
+   "jp": "：武器変更（参加メイン）",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 19,
+   "jp": "：全隊逆順配置",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 20,
+   "jp": "：マーク",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 21,
+   "jp": "：武器変更（サブ）",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 22,
+   "jp": "＜出撃準備＞出撃の準備を行います。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 23,
+   "jp": "＜出撃選択＞並び替える部隊を指定します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 24,
+   "jp": "＜出撃選択＞入れ替える部隊／場所を指定します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 25,
+   "jp": "マキシマムブレイクに参加する部隊を選択してください。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 26,
+   "jp": "メッセージ",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 27,
+   "jp": "＜修理＞　味方の部隊を選択します",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 28,
+   "jp": "＜補給＞　味方の部隊を選択します",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 29,
+   "jp": "＜補給＞　味方の機体を選択します",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 30,
+   "jp": "＜回収＞味方の部隊を選択します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 31,
+   "jp": "：－－－－－－－－",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 32,
+   "jp": "：サブ情報",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 33,
+   "jp": "：パイロット変更",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 34,
+   "jp": "：項目切換",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 35,
+   "jp": "：矢印切換",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 36,
+   "jp": "：分類切換",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 37,
+   "jp": "：機体変更",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 38,
+   "jp": "：ソート",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 39,
+   "jp": "：援護設定",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 40,
+   "jp": "：－－－－－－",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 41,
+   "jp": "：頁頭へ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 42,
+   "jp": "：頁末へ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 43,
+   "jp": "：一覧表示",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 44,
+   "jp": "：通常表示",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 45,
+   "jp": "：右側情報",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 46,
+   "jp": "：昇順ソート",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 47,
+   "jp": "：降順ソート",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 48,
+   "jp": "：左側情報",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 49,
+   "jp": "：部隊",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 50,
+   "jp": "：機体",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 51,
+   "jp": "：精神",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 52,
+   "jp": "：戻す",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 53,
+   "jp": "：切換",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 54,
+   "jp": "：外す",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 55,
+   "jp": "：確認",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 56,
+   "jp": "：メイン",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 57,
+   "jp": "：表示",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 58,
+   "jp": "：事典",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 59,
+   "jp": "：図鑑",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 60,
+   "jp": "：デモ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 61,
+   "jp": "：終了",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 62,
+   "jp": "：マップ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 63,
+   "jp": "換装",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 64,
+   "jp": "合体",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 65,
+   "jp": "解散",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 66,
+   "jp": "説得",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 67,
+   "jp": "移動",
+   "en": "",
+   "count": 19,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 68,
+   "jp": "攻撃",
+   "en": "",
+   "count": 7,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 69,
+   "jp": "空中",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 70,
+   "jp": "地中",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 71,
+   "jp": "変形",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 72,
+   "jp": "分離",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 73,
+   "jp": "パーツ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 74,
+   "jp": "修理",
+   "en": "",
+   "count": 19,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 75,
+   "jp": "補給",
+   "en": "",
+   "count": 19,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 76,
+   "jp": "メイン",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 77,
+   "jp": "精神",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 78,
+   "jp": "能力",
+   "en": "",
+   "count": 11,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 79,
+   "jp": "ＳＲポイント",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 80,
+   "jp": "６９",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 81,
+   "jp": "ターン数",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 82,
+   "jp": "２４６８",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 83,
+   "jp": "資金",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 84,
+   "jp": "１２，３４５，６７８",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 85,
+   "jp": "出撃部隊",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 86,
+   "jp": "隊",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 87,
+   "jp": "フェイズ<W=6> </W>終了",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 88,
+   "jp": "出撃選択へ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 89,
+   "jp": "機体系",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 90,
+   "jp": "出撃へ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 91,
+   "jp": "検索",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 92,
+   "jp": "パイロット系",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 93,
+   "jp": "部隊表",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 94,
+   "jp": "<C=00AAFFFF><W=25><H=25>味方部隊／</H></W></C><C=AA0033FF><W=19><H=19>敵部隊</H></W></C>",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 95,
+   "jp": "<C=0099CCFF><W=19><H=19>味方部隊</H></W></C><C=FF3333FF><W=25><H=25>／敵部隊</H></W></C>",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 96,
+   "jp": "部隊編成",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 97,
+   "jp": "<C=00AAFFFF>味方部隊</C>",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 98,
+   "jp": "<C=FF3333FF>敵部隊</C>",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 99,
+   "jp": "作戦目的",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 100,
+   "jp": "オプション",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 101,
+   "jp": "戦況報告",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 102,
+   "jp": "マップ配置変更",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 103,
+   "jp": "データ管理",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 104,
+   "jp": "マップをみる",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 105,
+   "jp": "システム",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 106,
+   "jp": "途中セーブ",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 107,
+   "jp": "次のマップへ",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 108,
+   "jp": "第",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 109,
+   "jp": "最終話",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 110,
+   "jp": "９",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 111,
+   "jp": "９９",
+   "en": "",
+   "count": 17,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 112,
+   "jp": "９９９",
+   "en": "",
+   "count": 44,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 113,
+   "jp": "話",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 114,
+   "jp": "（　　　　　）ターン",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 115,
+   "jp": "ＥＸハードモード",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 116,
+   "jp": "スペシャルモード",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 117,
+   "jp": "ノーマルモード",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 118,
+   "jp": "『ステージ名』<W=24><H=24>までクリア</W></H>",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 119,
+   "jp": "NEXT出撃部隊",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 120,
+   "jp": "機体一覧",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 121,
+   "jp": "パイロット一覧",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 122,
+   "jp": "セーブ",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 123,
+   "jp": "<C=00ffffff>セーブ<W=15> </W><W=22><H=22>日時順／</H></W></C><C=666666ff><W=18><H=18>話数順</W></H></C>",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 124,
+   "jp": "<C=00ffffff>セーブ</C><W=15> </W><C=666666ff><W=18><H=18>日時順</H></W></C><C=00ffffff><W=22><H=22>／話数順</H></W></C>",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 125,
+   "jp": "機体・武器改造",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 126,
+   "jp": "パイロット養成",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 127,
+   "jp": "ロード",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 128,
+   "jp": "<C=00ffffff>ロード<W=15> </W><W=22><H=22>日時順／</H></W><C=666666ff><W=18><H=18>話数順</W></H></C>",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 129,
+   "jp": "<C=00ffffff>ロード</C><W=15> </W><C=666666ff><W=18><H=18>日時順</H></W></C><C=00ffffff><W=22><H=22>／話数順</H></W></C>",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 130,
+   "jp": "強化パーツ装備",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 131,
+   "jp": "乗せ換え",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 132,
+   "jp": "強化パーツ売却",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 133,
+   "jp": "アビリティ",
+   "en": "",
+   "count": 15,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 134,
+   "jp": "換装パーツ",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 135,
+   "jp": "武器換装",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 136,
+   "jp": "パイロット",
+   "en": "",
+   "count": 17,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 137,
+   "jp": "機体",
+   "en": "",
+   "count": 27,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 138,
+   "jp": "部隊",
+   "en": "",
+   "count": 18,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 139,
+   "jp": "－－－－",
+   "en": "",
+   "count": 33,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 140,
+   "jp": "－－－－－",
+   "en": "",
+   "count": 22,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 141,
+   "jp": "９９９９９",
+   "en": "",
+   "count": 33,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 142,
+   "jp": "－",
+   "en": "",
+   "count": 102,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 143,
+   "jp": "１",
+   "en": "",
+   "count": 12,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 144,
+   "jp": "／",
+   "en": "",
+   "count": 68,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 145,
+   "jp": "大",
+   "en": "",
+   "count": 11,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 146,
+   "jp": "ＥＮ・弾薬を節約",
+   "en": "",
+   "count": 11,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 147,
+   "jp": "（　　　）",
+   "en": "",
+   "count": 38,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 148,
+   "jp": "ＢＧＭ名",
+   "en": "",
+   "count": 50,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 149,
+   "jp": "全パイロットを基本曲にする",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 150,
+   "jp": "全機体を基本曲にする",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 151,
+   "jp": "♪",
+   "en": "",
+   "count": 32,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 152,
+   "jp": "＃",
+   "en": "",
+   "count": 30,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 153,
+   "jp": "－－",
+   "en": "",
+   "count": 17,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 154,
+   "jp": "＜全パイロット設定＞",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 155,
+   "jp": "＜全機体設定＞",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 156,
+   "jp": "ＨＰ・ＥＮ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 157,
+   "jp": "パイロット情報",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 158,
+   "jp": "特殊能力・特殊スキル",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 159,
+   "jp": "移動情報",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 160,
+   "jp": "最大攻撃力",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 161,
+   "jp": "パイロット・Ｌｖ",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 162,
+   "jp": "機体性能１",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 163,
+   "jp": "機体性能２",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 164,
+   "jp": "特殊能力",
+   "en": "",
+   "count": 11,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 165,
+   "jp": "能力１",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 166,
+   "jp": "能力２",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 167,
+   "jp": "特殊スキル",
+   "en": "",
+   "count": 12,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 168,
+   "jp": "機体性能",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 169,
+   "jp": "精神コマンド（メイン）",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 170,
+   "jp": "精神コマンド（サブ）",
+   "en": "",
+   "count": 2,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 171,
+   "jp": "機体情報",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 172,
+   "jp": "改造度",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 173,
+   "jp": "検索項目",
+   "en": "",
+   "count": 7,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 174,
+   "jp": "【　　　　　　　　　　　　】",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 175,
+   "jp": "×",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 176,
+   "jp": "ＳＰ",
+   "en": "",
+   "count": 31,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 177,
+   "jp": "気力",
+   "en": "",
+   "count": 22,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 178,
+   "jp": "撃墜数",
+   "en": "",
+   "count": 10,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 179,
+   "jp": "換装武器数",
+   "en": "",
+   "count": 7,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 180,
+   "jp": "換装可能なパーツ数",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 181,
+   "jp": "残りウェポンゲージ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 182,
+   "jp": "装備中のパーツ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 183,
+   "jp": "ＣＲＴ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 184,
+   "jp": "命中",
+   "en": "",
+   "count": 18,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 185,
+   "jp": "射程",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 186,
+   "jp": "攻撃力",
+   "en": "",
+   "count": 16,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 187,
+   "jp": "属性",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 188,
+   "jp": "種別",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 189,
+   "jp": "武器名",
+   "en": "",
+   "count": 9,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 190,
+   "jp": "バリア無効",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 191,
+   "jp": "バリア貫通",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 192,
+   "jp": "バリア弱体",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 193,
+   "jp": "着弾地点指定型Ⅱ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 194,
+   "jp": "宇",
+   "en": "",
+   "count": 27,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 195,
+   "jp": "海",
+   "en": "",
+   "count": 27,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 196,
+   "jp": "陸",
+   "en": "",
+   "count": 33,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 197,
+   "jp": "空",
+   "en": "",
+   "count": 49,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 198,
+   "jp": "有効",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 199,
+   "jp": "特殊スキル名",
+   "en": "",
+   "count": 12,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 200,
+   "jp": "１５０",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 201,
+   "jp": "（　　　　）",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 202,
+   "jp": "MAP兵器",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 203,
+   "jp": "射撃武器",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 204,
+   "jp": "）",
+   "en": "",
+   "count": 2,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 205,
+   "jp": "改造段階",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 206,
+   "jp": "特殊効果２",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 207,
+   "jp": "形式",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 208,
+   "jp": "特殊効果１",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 209,
+   "jp": "合体攻撃",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 210,
+   "jp": "敵味方識別",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 211,
+   "jp": "地形適応",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 212,
+   "jp": "Wゲージ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 213,
+   "jp": "必要スキル",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 214,
+   "jp": "必要気力",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 215,
+   "jp": "消費ＥＮ",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 216,
+   "jp": "名前",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 217,
+   "jp": "弾数",
+   "en": "",
+   "count": 13,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 218,
+   "jp": "分類",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 219,
+   "jp": "９９９９",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 220,
+   "jp": "装甲",
+   "en": "",
+   "count": 25,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 221,
+   "jp": "運動性",
+   "en": "",
+   "count": 19,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 222,
+   "jp": "照準値",
+   "en": "",
+   "count": 19,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 223,
+   "jp": "サイズ",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 224,
+   "jp": "強化パーツ",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 225,
+   "jp": "－－－",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 226,
+   "jp": "Ｌｖ",
+   "en": "",
+   "count": 29,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 227,
+   "jp": "ＰＰ",
+   "en": "",
+   "count": 11,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 228,
+   "jp": "Ｎｅｘｔ",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 229,
+   "jp": "格闘",
+   "en": "",
+   "count": 15,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 230,
+   "jp": "射撃",
+   "en": "",
+   "count": 15,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 231,
+   "jp": "技量",
+   "en": "",
+   "count": 13,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 232,
+   "jp": "防御",
+   "en": "",
+   "count": 22,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 233,
+   "jp": "回避",
+   "en": "",
+   "count": 18,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 234,
+   "jp": "命",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 235,
+   "jp": "技",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 236,
+   "jp": "防",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 237,
+   "jp": "回",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 238,
+   "jp": "格",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 239,
+   "jp": "射",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 240,
+   "jp": "エースボーナス説明文",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 241,
+   "jp": "修得していません",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 242,
+   "jp": "特殊能力名",
+   "en": "",
+   "count": 16,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 243,
+   "jp": "－－－－－－－－－－",
+   "en": "",
+   "count": 13,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 244,
+   "jp": "改造ボーナス",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 245,
+   "jp": "ツイン精神／ＳＰ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 246,
+   "jp": "エースボーナス",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 247,
+   "jp": "精神コマンド／ＳＰ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 248,
+   "jp": "ＮｅｘｔーＬｖ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 249,
+   "jp": "経験値",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 250,
+   "jp": "１００％",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 251,
+   "jp": "カスタムボーナス名",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 252,
+   "jp": "機体改造度",
+   "en": "",
+   "count": 8,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 253,
+   "jp": "カスタムボーナス",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 254,
+   "jp": "タイプ",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 255,
+   "jp": "▼装甲Ｌ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 256,
+   "jp": "▼装甲Ｌ１",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 257,
+   "jp": "▼運動Ｌ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 258,
+   "jp": "▼運動Ｌ１",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 259,
+   "jp": "▼照準Ｌ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 260,
+   "jp": "▼照準Ｌ１",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 261,
+   "jp": "▼移動力",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 262,
+   "jp": "▼攻撃Ｌ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 263,
+   "jp": "▼攻撃Ｌ１",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 264,
+   "jp": "▼射程",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 265,
+   "jp": "▼能力Ｌ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 266,
+   "jp": "▼能力Ｌ１",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 267,
+   "jp": "戦闘不能",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 268,
+   "jp": "精神禁止",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 269,
+   "jp": "（      ）",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 270,
+   "jp": "消費ＳＰ",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 271,
+   "jp": "【味方部隊表】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 272,
+   "jp": "【敵部隊表】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 273,
+   "jp": "【第３軍部隊表】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 274,
+   "jp": "【第４軍部隊表】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 275,
+   "jp": "【中立軍部隊表】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 276,
+   "jp": "【味方部隊表】部隊選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 277,
+   "jp": "【敵部隊表】部隊選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 278,
+   "jp": "【第３軍部隊表】部隊選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 279,
+   "jp": "【第４軍部隊表】部隊選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 280,
+   "jp": "【中立軍部隊表】部隊選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 281,
+   "jp": "「ひらめき」",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 282,
+   "jp": "「特殊能力名」",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 283,
+   "jp": "「特殊スキル名」",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 284,
+   "jp": "＜あと<W=14> </W> 部隊＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 285,
+   "jp": "精神コマンド",
+   "en": "",
+   "count": 24,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 286,
+   "jp": "武器性能",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 287,
+   "jp": "機体能力",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 288,
+   "jp": "パイロット能力",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 289,
+   "jp": "ユニット能力",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 290,
+   "jp": "テスラ・ライヒ研究所",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 291,
+   "jp": "防御率",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 292,
+   "jp": "回避率",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 293,
+   "jp": "ＨＰ回復率",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 294,
+   "jp": "ＥＮ回復率",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 295,
+   "jp": "＋９９％",
+   "en": "",
+   "count": 8,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 296,
+   "jp": "変化無し",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 297,
+   "jp": "±０％",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 298,
+   "jp": "【　　　 　　　　　　　】",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 299,
+   "jp": "：コマンド",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 300,
+   "jp": "：－－－",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 301,
+   "jp": "ＥＮ",
+   "en": "",
+   "count": 26,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 302,
+   "jp": "ＨＰ",
+   "en": "",
+   "count": 25,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 303,
+   "jp": "９９９９９９",
+   "en": "",
+   "count": 37,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 304,
+   "jp": "あ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 305,
+   "jp": "運動",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 306,
+   "jp": "照準",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 307,
+   "jp": "戦闘",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 308,
+   "jp": "ＨＰ／ＭＡＸ",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 309,
+   "jp": "機体特性",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 310,
+   "jp": "アビリティ（機体）",
+   "en": "",
+   "count": 6,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 311,
+   "jp": "移動力",
+   "en": "",
+   "count": 25,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 312,
+   "jp": "通常",
+   "en": "",
+   "count": 24,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 313,
+   "jp": "ＥＮ／ＭＡＸ",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 314,
+   "jp": "ＡＬＬ",
+   "en": "",
+   "count": 18,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 315,
+   "jp": "合計",
+   "en": "",
+   "count": 13,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 316,
+   "jp": "アビリティ（部隊）",
+   "en": "",
+   "count": 12,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 317,
+   "jp": "援護攻撃",
+   "en": "",
+   "count": 18,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 318,
+   "jp": "移動タイプ",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 319,
+   "jp": "ＭＡＰ",
+   "en": "",
+   "count": 12,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 320,
+   "jp": "援護防御",
+   "en": "",
+   "count": 18,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 321,
+   "jp": "特殊",
+   "en": "",
+   "count": 15,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 322,
+   "jp": "水",
+   "en": "",
+   "count": 18,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 323,
+   "jp": "地",
+   "en": "",
+   "count": 18,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 324,
+   "jp": "キョウスケ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 325,
+   "jp": "シュウ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 326,
+   "jp": "エクセレン",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 327,
+   "jp": "テリウス",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 328,
+   "jp": "量産型ゲシュペンストMK-II改・タイプC",
+   "en": "",
+   "count": 2,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 329,
+   "jp": "パートナー",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 330,
+   "jp": "効果",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 331,
+   "jp": "スキルＬｖ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 332,
+   "jp": "修理費",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 333,
+   "jp": "撃墜",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 334,
+   "jp": "反撃設定",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 335,
+   "jp": "使用回数",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 336,
+   "jp": "効力",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 337,
+   "jp": "個別攻撃",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 338,
+   "jp": "マキシマムブレイク",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 339,
+   "jp": "包囲攻撃",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 340,
+   "jp": "コンビネーション攻撃",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 341,
+   "jp": "ダブルアタック",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 342,
+   "jp": "集中攻撃",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 343,
+   "jp": "通常攻撃",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 344,
+   "jp": "？？？",
+   "en": "",
+   "count": 12,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 345,
+   "jp": "精神名",
+   "en": "",
+   "count": 32,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 346,
+   "jp": "？？？？",
+   "en": "",
+   "count": 23,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 347,
+   "jp": "【　　　　　　　　　】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 348,
+   "jp": "－－－－－－－－－－－－－－－－",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 349,
+   "jp": "『大激励』",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 350,
+   "jp": "『スーパーリペアキット』",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 351,
+   "jp": "『補給』",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 352,
+   "jp": "・決定",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 353,
+   "jp": "・目標を変更する",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 354,
+   "jp": "・防御する",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 355,
+   "jp": "・武器を変更する",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 356,
+   "jp": "・援護防御する",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 357,
+   "jp": "・援護攻撃する",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 358,
+   "jp": "・回避する",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 359,
+   "jp": "・援護攻撃しない",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 360,
+   "jp": "・援護防御しない",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 361,
+   "jp": "・参加しない",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 362,
+   "jp": "危険度",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 363,
+   "jp": "ああああああああああああああああああああああああああああ",
+   "en": "",
+   "count": 15,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 364,
+   "jp": "このメンバーで出撃しますか？",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 365,
+   "jp": "下記の理由により、使用できません。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 366,
+   "jp": "よし、総員出撃！",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 367,
+   "jp": "・弾数不足",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 368,
+   "jp": "マップ上で配置を変更しよう。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 369,
+   "jp": "・ＥＮ不足",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 370,
+   "jp": "いや、ちょっと待て。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 371,
+   "jp": "・気力不足",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 372,
+   "jp": "出撃準備画面に戻る。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 373,
+   "jp": "・地形適応による制限",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 374,
+   "jp": "・射程範囲外",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 375,
+   "jp": "・移動後に使用不可",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 376,
+   "jp": "・----------------",
+   "en": "",
+   "count": 2,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 377,
+   "jp": "・合体攻撃への参加機体が、参加するための条件を満たしていない",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 378,
+   "jp": "・あいうえお",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 379,
+   "jp": "はい",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 380,
+   "jp": "いいえ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 381,
+   "jp": "中止する",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 382,
+   "jp": "　　　　　　　　　　",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 383,
+   "jp": "感応",
+   "en": "",
+   "count": 48,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 384,
+   "jp": "【被撃墜機体清算】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 385,
+   "jp": "【フル改造ボーナス選択】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 386,
+   "jp": "現在の資金",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 387,
+   "jp": "獲得資金",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 388,
+   "jp": "獲得経験値",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 389,
+   "jp": "獲得ＰＰ",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 390,
+   "jp": "獲得ボーナス",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 391,
+   "jp": "【作戦目的】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 392,
+   "jp": "【戦況報告】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 393,
+   "jp": "『ステージ名』",
+   "en": "",
+   "count": 3,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 394,
+   "jp": "『－－』",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 395,
+   "jp": "説明文",
+   "en": "",
+   "count": 38,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 396,
+   "jp": "勝利条件",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 397,
+   "jp": "敗北条件",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 398,
+   "jp": "ＳＲポイント獲得条件",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 399,
+   "jp": "プロペラントタンクＳ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 400,
+   "jp": "攻撃方法",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 401,
+   "jp": "行動設定",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 402,
+   "jp": "自動反撃です（　　：手動設定）。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 403,
+   "jp": "援護設定",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 404,
+   "jp": "デモ：ＯＦＦ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 405,
+   "jp": "デモ：ＯＮ",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 406,
+   "jp": "戦闘開始",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 407,
+   "jp": "援攻",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 408,
+   "jp": "コンボ",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 409,
+   "jp": "ダブル",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 410,
+   "jp": "包囲",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 411,
+   "jp": "待機",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 412,
+   "jp": "援防",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 413,
+   "jp": "機体名",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 414,
+   "jp": "愛称",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 415,
+   "jp": "？",
+   "en": "",
+   "count": 28,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 416,
+   "jp": "＜使用する武器を選択して下さい＞",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 417,
+   "jp": "機体系の操作を行います。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 418,
+   "jp": "機体一覧から能力を表示します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 419,
+   "jp": "機体性能強化・武器攻撃力アップを行います。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 420,
+   "jp": "機体に強化パーツを装備させます。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 421,
+   "jp": "強化パーツの売却を行います。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 422,
+   "jp": "機体に専用の換装パーツを装備させます。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 423,
+   "jp": "機体に換装武器を装備させます。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 424,
+   "jp": "機体・パイロットにアビリティを装備させます。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 425,
+   "jp": "特殊能力や機体特性を検索します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 426,
+   "jp": "パイロット系の操作を行います。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 427,
+   "jp": "パイロット一覧から能力を表示します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 428,
+   "jp": "パイロットの能力強化やスキル修得を行います。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 429,
+   "jp": "パイロットを別の機体に乗せ換えます。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 430,
+   "jp": "精神コマンドや特殊スキルを検索します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 431,
+   "jp": "部隊の編成内容を変更します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 432,
+   "jp": "各種設定を行います。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 433,
+   "jp": "セーブ・ロードを行います。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 434,
+   "jp": "セーブを行います。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 435,
+   "jp": "ロードを行います。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 436,
+   "jp": "インターミッションを終了します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 437,
+   "jp": "コマンドが使用できない場合",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 438,
+   "jp": "＜機体・場所を選択して下さい＞",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 439,
+   "jp": "＜移動させる機体を選択して下さい＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 440,
+   "jp": "＜移動先を選択して下さい（　　：置く）＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 441,
+   "jp": "＜移動先を選択して下さい（　　：持ち替え）＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 442,
+   "jp": "＜移動先を選択して下さい＞",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 443,
+   "jp": "＜移動させる部隊・場所を選択して下さい＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 444,
+   "jp": "＜移動させる位置を選択して下さい＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 445,
+   "jp": "＜交換する部隊・場所を選択して下さい＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 446,
+   "jp": "＜自動編成を除外する部隊を選択して下さい＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 447,
+   "jp": "＜前詰めを除外する部隊を選択して下さい＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 448,
+   "jp": "＜ツインユニットを解散させる部隊を選択して下さい＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 449,
+   "jp": "＜機体・パイロットを選択して下さい＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 450,
+   "jp": "＜変形形態を選択して下さい＞",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 451,
+   "jp": "攻撃目標を選択して下さい。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 452,
+   "jp": "メイン側機体の行動を選択して下さい。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 453,
+   "jp": "サブ側機体の行動を選択して下さい。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 454,
+   "jp": "機体の行動を選択して下さい。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 455,
+   "jp": "＜この組み合わせでよろしいですか？ 　はい ／ いいえ ＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 456,
+   "jp": "・戦闘終了後のＢＧＭ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 457,
+   "jp": "・カーソルの移動方式",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 458,
+   "jp": "・振動機能",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 459,
+   "jp": "・戦闘ＢＧＭのタイプ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 460,
+   "jp": "・属性表示切換",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 461,
+   "jp": "・パイロット・機体ＢＧＭ選曲",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 462,
+   "jp": "・気力表示",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 463,
+   "jp": "・全体ＢＧＭ選曲",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 464,
+   "jp": "・ピース移動スピード",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 465,
+   "jp": "・クイックコマンド（　　／　　）",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 466,
+   "jp": "・カーソルジャンプ",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 467,
+   "jp": "・自動反撃設定",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 468,
+   "jp": "・ＢＧＭの音量",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 469,
+   "jp": "・戦闘アニメの初期設定",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 470,
+   "jp": "・ソート・サブ情報の記憶",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 471,
+   "jp": "・援護防御の初期設定",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 472,
+   "jp": "・ＢＧＭ置き換え",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 473,
+   "jp": "・グリッド表示",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 474,
+   "jp": "・画面の回転",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 475,
+   "jp": "【　　　　　　　　　　　　　　　　　　　　　　　　　　　】",
+   "en": "",
+   "count": 9,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 476,
+   "jp": "固定",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 477,
+   "jp": "マップ",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 478,
+   "jp": "＜ロボット大図鑑＞",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 479,
+   "jp": "切換",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 480,
+   "jp": "画面",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 481,
+   "jp": "＜キャラクター事典＞",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 482,
+   "jp": "明滅",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 483,
+   "jp": "全体",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 484,
+   "jp": "属性カラー",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 485,
+   "jp": "ＯＮ",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 486,
+   "jp": "＜設定画面へ＞",
+   "en": "",
+   "count": 9,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 487,
+   "jp": "＜用語辞典＞",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 488,
+   "jp": "ＯＦＦ",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 489,
+   "jp": "遅い",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 490,
+   "jp": "＜サウンドセレクト＞",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 491,
+   "jp": "速い",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 492,
+   "jp": "スライド",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 493,
+   "jp": "＜シナリオチャート＞",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 494,
+   "jp": "ダイレクト",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 495,
+   "jp": "＜攻略Ｑ＆Ａ＞",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 496,
+   "jp": "入る",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 497,
+   "jp": "入らない",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 498,
+   "jp": "９０度きざみ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 499,
+   "jp": "任意",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 500,
+   "jp": "＜ゲームシステムの設定を行います。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 501,
+   "jp": "＜戦闘アニメ終了時にＢＧＭを継続して再生します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 502,
+   "jp": "＜戦闘アニメ終了時にＢＧＭをマップ曲に戻します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 503,
+   "jp": "＜戦闘アニメ時にパイロットに設定されているＢＧＭを再生します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 504,
+   "jp": "＜戦闘アニメ時に機体に設定されているＢＧＭを再生します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 505,
+   "jp": "＜戦闘アニメ時に全体ＢＧＭ設定のＢＧＭを再生します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 506,
+   "jp": "＜戦闘ＢＧＭをパイロット・機体に対して、詳細に設定します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 507,
+   "jp": "＜戦闘ＢＧＭを全体一括で設定します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 508,
+   "jp": "＜クイックコマンドを設定します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 509,
+   "jp": "＜反撃時の行動を設定します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 510,
+   "jp": "＜戦闘時、戦闘アニメを再生します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 511,
+   "jp": "＜戦闘時、戦闘アニメを再生しません。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 512,
+   "jp": "＜援護防御に入れる機体がいる場合、援護防御を行います。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 513,
+   "jp": "＜援護防御に入れる機体がいる場合でも、援護防御を行いません。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 514,
+   "jp": "＜マップに区切り線を表示します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 515,
+   "jp": "＜マップに区切り線を表示しません。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 516,
+   "jp": "＜画面を回転させた場合、９０度きざみで回転します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 517,
+   "jp": "＜画面を回転させる場合、任意の角度を設定できます。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 518,
+   "jp": "＜マップのマスに沿ってカーソルが移動します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 519,
+   "jp": "＜画面の上下左右に従ってカーソルが移動します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 520,
+   "jp": "＜ユニットを通常表示します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 521,
+   "jp": "＜ユニットを通常表示と属性カラーとの明滅状態で表示します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 522,
+   "jp": "＜ユニットを属性カラーで表示します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 523,
+   "jp": "＜ユニットに気力を表示します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 524,
+   "jp": "＜ユニットに気力を表示しません。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 525,
+   "jp": "＜ピースの移動スピードを遅めに設定します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 526,
+   "jp": "＜ピースの移動スピードを速めに設定します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 527,
+   "jp": "＜カーソルの移動時、目的地までスクロールします。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 528,
+   "jp": "＜カーソルの移動時、目的地まで直接ジャンプします。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 529,
+   "jp": "＜ゲーム中のＢＧＭ音量を設定します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 530,
+   "jp": "＜ゲーム中にアナログコントローラが振動します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 531,
+   "jp": "＜アナログコントローラは振動しません。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 532,
+   "jp": "＜ソート・サブ情報の位置を記憶します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 533,
+   "jp": "＜ソート・サブ情報の位置を記憶しません。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 534,
+   "jp": "＜ゲームデータライブラリを観閲します。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 535,
+   "jp": "ゲーム中に登場したロボットのデータを閲覧できます。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 536,
+   "jp": "ゲーム中に登場したキャラクターのデータを閲覧できます。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 537,
+   "jp": "ゲーム中に登場した特殊な用語の解説を閲覧できます。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 538,
+   "jp": "ゲーム中に使用されたＢＧＭを聴く事ができます。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 539,
+   "jp": "プレイしたルートの確認ができます。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 540,
+   "jp": "ゲーム攻略のコツや豆知識を閲覧できます。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 541,
+   "jp": "ゲームシステムの設定を行います。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 542,
+   "jp": "Ｅｖ",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 543,
+   "jp": "個数",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 544,
+   "jp": "ウェポンゲージ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 545,
+   "jp": "武器",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 546,
+   "jp": "ヒュッケバインＭｋ－ＩＩ・タイプＲ",
+   "en": "",
+   "count": 2,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 547,
+   "jp": "シュテドニアス兵",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 548,
+   "jp": "エクセレン・ブロウニング",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 549,
+   "jp": "ウェイスト・スマッシャー（単体）",
+   "en": "",
+   "count": 3,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 550,
+   "jp": "マグネットコーティング",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 551,
+   "jp": "全パーツ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 552,
+   "jp": "換装パーツ名",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 553,
+   "jp": "無し",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 554,
+   "jp": "なし",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 555,
+   "jp": "特殊効果名",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 556,
+   "jp": "てかげん",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 557,
+   "jp": "ラインヴァイスリッターＭＫ－Ⅱ０９",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 558,
+   "jp": "エクセレンん",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 559,
+   "jp": "エクセレンンンン",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 560,
+   "jp": "ライディース・Ｆ・ブランシュタイン",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 561,
+   "jp": "熱",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 562,
+   "jp": "魂",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 563,
+   "jp": "闘",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 564,
+   "jp": "閃",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 565,
+   "jp": "不",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 566,
+   "jp": "鉄",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 567,
+   "jp": "信",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 568,
+   "jp": "集",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 569,
+   "jp": "必",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 570,
+   "jp": "加",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 571,
+   "jp": "覚",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 572,
+   "jp": "手",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 573,
+   "jp": "同",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 574,
+   "jp": "狙",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 575,
+   "jp": "突",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 576,
+   "jp": "直",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 577,
+   "jp": "連",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 578,
+   "jp": "幸",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 579,
+   "jp": "努",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 580,
+   "jp": "修",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 581,
+   "jp": "乱",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 582,
+   "jp": "  +　=",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 583,
+   "jp": "回避￤",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 584,
+   "jp": "移動力￢",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 585,
+   "jp": "援護防￤",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 586,
+   "jp": "経験値￢",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 587,
+   "jp": "援護攻￤",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 588,
+   "jp": "ダメージなし/念動フィールドS/コクピットブロック",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 589,
+   "jp": "○",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 590,
+   "jp": "Ｘ",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 591,
+   "jp": "情報１",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 592,
+   "jp": "情報２",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 593,
+   "jp": "情報３",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 594,
+   "jp": "ああああああああああ",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 595,
+   "jp": "「□あいうえお□□□□□□□□□□□□□□□□□□□",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 596,
+   "jp": "　□□□□あいうえお□□□□□□□□□□□□□□□□",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 597,
+   "jp": "　あいうえお□□□□□□□□□□□□□□□□□□□□",
+   "en": "",
+   "count": 2,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 598,
+   "jp": "　□□□□□かきくけこ□□□□□□□□あああああ□□」",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 599,
+   "jp": "フィリオ・プレスティ墓前",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 600,
+   "jp": "□□□□□□□□□□テスラライヒ研究所□□□□□□□□□□",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 601,
+   "jp": "あああああ□□□□□□□□□□□□□□□□□□□□□",
+   "en": "",
+   "count": 6,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 602,
+   "jp": "□□□□□□□□□□□□□□□□□□□□□□□□□□",
+   "en": "",
+   "count": 15,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 603,
+   "jp": "□□□□□□□□□□",
+   "en": "",
+   "count": 30,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 604,
+   "jp": "＜指定した精神コマンドの所持パイロットを検索します＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 605,
+   "jp": "＜指定した特殊能力の所持機体を検索します＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 606,
+   "jp": "＜指定した特殊スキルの所持パイロットを検索します＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 607,
+   "jp": "＜指定したアビリティの所持機体・パイロットを検索します＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 608,
+   "jp": "＜反撃を禁止するシチュエーションの設定を行います。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 609,
+   "jp": "＜防御や回避についての設定を行います。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 610,
+   "jp": "＜使用を禁止する武器の設定を行います。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 611,
+   "jp": "＜攻撃目標の撃墜を禁止するシチュエーションの設定を行います。＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 612,
+   "jp": "全体コマンドの『フェイズ終了』を開始します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 613,
+   "jp": "全体コマンドの『検索』を開始します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 614,
+   "jp": "全体コマンドの『部隊表』を開始します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 615,
+   "jp": "全体コマンドの『セーブ』を開始します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 616,
+   "jp": "ボタンを押している間、ＭＡＰカーソルの移動速度が速くなります。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 617,
+   "jp": "ユニット属性の表示方法を切り換えます。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 618,
+   "jp": "ユニットへの気力表示を切り換えます。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 619,
+   "jp": "ユニットの表示方法を変更します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 620,
+   "jp": "クイックコマンドを設定しません。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 621,
+   "jp": "メイン機体が変形可能な場合、変形させます。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 622,
+   "jp": "ステータスウィンドウを表示します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 623,
+   "jp": "個別コマンドの『精神』を開始します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 624,
+   "jp": "個別コマンドの『能力』を開始します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 625,
+   "jp": "ユニットのメイン機体を変更します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 626,
+   "jp": "＜指定したパイロットのBGMを設定します＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 627,
+   "jp": "＜指定した機体のBGMを設定します＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 628,
+   "jp": "コンビネーション攻撃可能な武器で攻撃を行った場合に、コンビネーション攻撃を発生させる能力です。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 629,
+   "jp": "＜パイロットの能力を上昇させます＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 630,
+   "jp": "味方パイロット",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 631,
+   "jp": "□□□□□□□□□□□□□□□□□□□□□",
+   "en": "",
+   "count": 2,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 632,
+   "jp": "対象",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 633,
+   "jp": "機体BGM",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 634,
+   "jp": "パイロットBGM",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 635,
+   "jp": "設定１",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 636,
+   "jp": "システム設定",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 637,
+   "jp": "反撃禁止設定",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 638,
+   "jp": "能力値上昇",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 639,
+   "jp": "設定２",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 640,
+   "jp": "ライブラリ",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 641,
+   "jp": "防御・回避",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 642,
+   "jp": "スキル修得",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 643,
+   "jp": "使用禁止武器",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 644,
+   "jp": "撃墜禁止設定",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 645,
+   "jp": "残りＷゲージ",
+   "en": "",
+   "count": 7,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 646,
+   "jp": "固定武器",
+   "en": "",
+   "count": 7,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 647,
+   "jp": "検索1",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 648,
+   "jp": "武器改造度",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 649,
+   "jp": "換装武器",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 650,
+   "jp": "検索2",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 651,
+   "jp": "盾",
+   "en": "",
+   "count": 7,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 652,
+   "jp": "連続攻撃",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 653,
+   "jp": "検索3",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 654,
+   "jp": "バリア",
+   "en": "",
+   "count": 7,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 655,
+   "jp": "検索4",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 656,
+   "jp": "検索5",
+   "en": "",
+   "count": 6,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 657,
+   "jp": "用語",
+   "en": "",
+   "count": 47,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 658,
+   "jp": "特",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 659,
+   "jp": "殊",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 660,
+   "jp": "能",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 661,
+   "jp": "力",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 662,
+   "jp": "強",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 663,
+   "jp": "化",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 664,
+   "jp": "パ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 665,
+   "jp": "｜",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 666,
+   "jp": "ツ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 667,
+   "jp": "残",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 668,
+   "jp": "総",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 669,
+   "jp": "<武器を追加する>",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 670,
+   "jp": "＜はずす＞",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 671,
+   "jp": "＜武器庫へ＞",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 672,
+   "jp": "最大射程",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 673,
+   "jp": "（部隊）",
+   "en": "",
+   "count": 3,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 674,
+   "jp": "特殊付加",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 675,
+   "jp": "あり",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 676,
+   "jp": "－－－－－－－－",
+   "en": "",
+   "count": 34,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 677,
+   "jp": "台詞の自動送り&速度調節",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 678,
+   "jp": "選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 679,
+   "jp": "早送り（入力中）",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 680,
+   "jp": "台詞送り（＋　　高速）",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 681,
+   "jp": "決定",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 682,
+   "jp": "終了",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 683,
+   "jp": "一時停止（入力中）",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 684,
+   "jp": "バックログ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 685,
+   "jp": "遅送り（入力中）",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 686,
+   "jp": "用語表示（<C=00ffffff>文字色が緑色時</C>）",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 687,
+   "jp": "+　　台詞スキップ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 688,
+   "jp": "チャプタ移動（ 前／ 次）",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 689,
+   "jp": "ヘルプ（コマンド）",
+   "en": "",
+   "count": 5,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 690,
+   "jp": "経過ターン数",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 691,
+   "jp": "総ターン数",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 692,
+   "jp": "総資金",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 693,
+   "jp": "戦力",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 694,
+   "jp": "獲得済",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 695,
+   "jp": "未獲得",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 696,
+   "jp": "機",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 697,
+   "jp": "（　　）",
+   "en": "",
+   "count": 10,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 698,
+   "jp": "（　　）　",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 699,
+   "jp": "総撃墜数",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 700,
+   "jp": "被撃墜数",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 701,
+   "jp": "全アビリティ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 702,
+   "jp": "置換元のＢＧＭ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 703,
+   "jp": "置換後のＢＧＭ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 704,
+   "jp": "①反撃時の命中率が<C=00FF00FF>50%</C>以下になる場合",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 705,
+   "jp": "①防御と回避の優先",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 706,
+   "jp": "①攻撃後、ENが<C=00FF00FF>20%</C>以下になる武器",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 707,
+   "jp": "①パイロットの撃墜数が<C=00FF00FF>50</C>機以上の場合",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 708,
+   "jp": "②戦闘で攻撃対象に与えるダメージが<C=00FF00FF>1000</C>未満の場合",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 709,
+   "jp": "②防御した時、HPが<C=00FF00FF>1</C>以上残ってかつ、",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 710,
+   "jp": "②武器の必要ENが<C=00FF00FF>80</C>以上の武器",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 711,
+   "jp": "②自機と敵のパイロットのレベル差が<C=00FF00FF>4</C>以上の場合",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 712,
+   "jp": "③攻撃対象のHPを<C=00FF00FF>50%</C>以下にできない場合",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 713,
+   "jp": "　ダメージが<C=00FF00FF>2000</C>以下の場合は防御する",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 714,
+   "jp": "③EN使用武器について、使用回数が<C=00FF00FF>1</C>回以下の武器",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 715,
+   "jp": "③パイロットのPPが<C=00FF00FF>200</C>以上の場合",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 716,
+   "jp": "④敵からの攻撃の命中率が<C=00FF00FF>50%</C>以上でかつ、",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 717,
+   "jp": "③回避時、被命中率が<C=00FF00FF>50%</C>未満になる場合は回避する",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 718,
+   "jp": "④弾数が<C=00FF00FF>1</C>以下の武器",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 719,
+   "jp": "④パイロットの気力が<C=00FF00FF>130</C>以上の場合",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 720,
+   "jp": "　戦闘で受けるダメージが<C=00FF00FF>2000</C>以上の場合",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 721,
+   "jp": "⑤敵からの攻撃の命中率が<C=00FF00FF>50%</C>以上でかつ、",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 722,
+   "jp": "　自機のHPが<C=00FF00FF>1</C>以上残らない場合",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 723,
+   "jp": "⑥自機に攻撃系精神コマンド効果がある場合",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 724,
+   "jp": "⑦自機に攻撃系以外の精神コマンド効果がある場合",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 725,
+   "jp": "【　　　　　　　　　　　　　　】",
+   "en": "",
+   "count": 7,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 726,
+   "jp": "カーソルが地形上【全体コマンド系】",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 727,
+   "jp": "カーソルがユニット上【個別コマンド系】",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 728,
+   "jp": "フェイズ終了",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 729,
+   "jp": "カーソル速度アップ",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 730,
+   "jp": "属性表示",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 731,
+   "jp": "気力表示",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 732,
+   "jp": "ツインユニット表示",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 733,
+   "jp": "ステータス",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 734,
+   "jp": "メイン機体変更",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 735,
+   "jp": "・積極的に",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 736,
+   "jp": "・値で設定する",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 737,
+   "jp": "・バランスよく",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 738,
+   "jp": "・％で設定する",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 739,
+   "jp": "・慎重に",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 740,
+   "jp": "・EN・弾薬を節約",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 741,
+   "jp": "・効率よく",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 742,
+   "jp": "・反撃するな",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 743,
+   "jp": "・マニュアル",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 744,
+   "jp": "自動反撃を行わず、プレイヤーがマニュアルで",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 745,
+   "jp": "：増減（1ずつ）",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 746,
+   "jp": "破壊される可能性がある場合のみ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 747,
+   "jp": "バランスよく反撃します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 748,
+   "jp": "極力、ダメージを受けないように反撃します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 749,
+   "jp": "ENと弾薬を節約しながらバランスよく反撃します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 750,
+   "jp": "敵を撃墜可能な時、自分よりレベルの低い場合は",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 751,
+   "jp": "回避・防御して反撃しません。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 752,
+   "jp": "プレイヤーが細かく反撃設定を行います。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 753,
+   "jp": "反撃設定を行います。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 754,
+   "jp": "：増減（10ずつ）",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 755,
+   "jp": "回避・防御します。",
+   "en": "",
+   "count": 2,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 756,
+   "jp": "：増減（100ずつ）",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 757,
+   "jp": "：増減（1000ずつ）",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 758,
+   "jp": "極めて遠く、限りなく近い世界に(Ver.OG)",
+   "en": "",
+   "count": 11,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 759,
+   "jp": "＜ランダム＞",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 760,
+   "jp": "♪　極めて遠く、限りなく近い世界に(Ver.OG)",
+   "en": "",
+   "count": 3,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 761,
+   "jp": "＜　　　　　　　　　　　　　　　　　　＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 762,
+   "jp": "全種",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 763,
+   "jp": "内蔵曲",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 764,
+   "jp": "追加曲",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 765,
+   "jp": "外部曲",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 766,
+   "jp": "地形",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 767,
+   "jp": "消費",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 768,
+   "jp": "獲得",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 769,
+   "jp": "％",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 770,
+   "jp": "Ｍ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 771,
+   "jp": "Ｓ",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 772,
+   "jp": "基本攻撃力",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 773,
+   "jp": "改造ボーナス取得可能",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 774,
+   "jp": "改造ボーナス取得済み",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 775,
+   "jp": "必要Ｗゲージ",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 776,
+   "jp": "最大Ｗゲージ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 777,
+   "jp": "所持PP",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 778,
+   "jp": "費用",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 779,
+   "jp": "使用Ｗゲージ",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 780,
+   "jp": "必要PP",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 781,
+   "jp": "残金",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 782,
+   "jp": "総額",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 783,
+   "jp": "残りPP",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 784,
+   "jp": "＜新規追加＞",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 785,
+   "jp": "Ｅv",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 786,
+   "jp": "売却価格",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 787,
+   "jp": "未装備数",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 788,
+   "jp": "所持数",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 789,
+   "jp": "Ｗゲージ",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 790,
+   "jp": "改造値",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 791,
+   "jp": "売却数",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 792,
+   "jp": "小計",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 793,
+   "jp": "フル改造ボーナス説明文",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 794,
+   "jp": "地形適応【空】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 795,
+   "jp": "地形適応【陸】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 796,
+   "jp": "地形適応【海】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 797,
+   "jp": "地形適応【宇】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 798,
+   "jp": "＜機体のステータス＞",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 799,
+   "jp": "ス",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 800,
+   "jp": "キ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 801,
+   "jp": "ル",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 802,
+   "jp": "所持スキル",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 803,
+   "jp": "上昇値",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 804,
+   "jp": "修得スキル",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 805,
+   "jp": "消費PP",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 806,
+   "jp": "＜援護攻撃なし＞",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 807,
+   "jp": "＜援護防御なし＞",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 808,
+   "jp": "説明",
+   "en": "",
+   "count": 12,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 809,
+   "jp": "♪　ＢＧＭ名",
+   "en": "",
+   "count": 13,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 810,
+   "jp": "全長",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 811,
+   "jp": "重量",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 812,
+   "jp": "声優",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 813,
+   "jp": "声優名",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 814,
+   "jp": "Q1.移動力とは何ですか？",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 815,
+   "jp": "自動編成の方針を選択してください。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 816,
+   "jp": "プレイするシナリオを選択してください。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 817,
+   "jp": "プレイするモードを選択してください。",
+   "en": "",
+   "count": 2,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 818,
+   "jp": "確認するストーリーを選択してください。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 819,
+   "jp": "ベーシックオーダー",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 820,
+   "jp": "本編シナリオ",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 821,
+   "jp": "予め設定された機体への乗せ換えと、",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 822,
+   "jp": "ゲーム本編をプレイします。",
+   "en": "",
+   "count": 2,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 823,
+   "jp": "・通常のプレイです。",
+   "en": "",
+   "count": 4,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 824,
+   "jp": "OGsのOG1のストーリーを確認します。",
+   "en": "",
+   "count": 2,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 825,
+   "jp": "部隊編成を行います。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 826,
+   "jp": "バランスオーダー",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 827,
+   "jp": "ガイダンスシナリオ",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 828,
+   "jp": "EXハードモード",
+   "en": "",
+   "count": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 829,
+   "jp": "レベルや移動力、移動タイプなどを元に、",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 830,
+   "jp": "ゲームの基本を学べます。全１面。",
+   "en": "",
+   "count": 2,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 831,
+   "jp": "・機体と武器の<C=FF0000FF>改造</C>とパイロットの<C=FF0000FF>養成</C>が<C=FF0000FF>不可</C>になります。",
+   "en": "",
+   "count": 4,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 832,
+   "jp": "OGsのOG2のストーリーを確認します。",
+   "en": "",
+   "count": 2,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 833,
+   "jp": "バランスよく、部隊編成を行います。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 834,
+   "jp": "・<C=FF0000FF>敵パイロット</C>がノーマルモードよりも<C=FF0000FF>強化</C>されます。",
+   "en": "",
+   "count": 4,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 835,
+   "jp": "・<C=FF0000FF>難易度</C>が常に<C=FF0000FF>HARD</C>になります。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 836,
+   "jp": "アーカイブ",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 837,
+   "jp": "OG外伝",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 838,
+   "jp": "指定した部隊を残して、他の部隊を",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 839,
+   "jp": "過去作品のストーリーを確認できます。",
+   "en": "",
+   "count": 2,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 840,
+   "jp": "・機体と武器が<C=00FF00FF>15段階</C>まで<C=00FF00FF>改造可能</C>になります。",
+   "en": "",
+   "count": 2,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 841,
+   "jp": "OG外伝のストーリーを確認します。",
+   "en": "",
+   "count": 2,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 842,
+   "jp": "バランスよく、再編成します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 843,
+   "jp": "・ゲーム開始時から<C=00FF00FF>全ての強化パーツ</C>を<C=00FF00FF>保有</C>します。",
+   "en": "",
+   "count": 2,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 844,
+   "jp": "・ゲーム開始時から<C=00FF00FF>一部の換装武器</C>を<C=00FF00FF>保有</C>します。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 845,
+   "jp": "・クリアデータの各パイロットの<C=66FFAAFF>撃墜数を引き継ぎます</C>。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 846,
+   "jp": "・クリアデータの<C=66FFAAFF>獲得資金&PPを引き継ぎます</C>。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 847,
+   "jp": "＜２周目：<C=66FFAAFF>５０％</C>　３周目：<C=66FFAAFF>７５％</C>　４周目～：<C=66FFAAFF>１００％</C>＞",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 848,
+   "jp": "【　　】部隊選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 849,
+   "jp": "【　　 】部隊選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 850,
+   "jp": "【　 　 】部隊選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 851,
+   "jp": "【　　　　 】部隊選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 852,
+   "jp": "【　　　　　 】部隊選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 853,
+   "jp": "【　　　　　　 】部隊選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 854,
+   "jp": "【　　　　　　　 】部隊選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 855,
+   "jp": "【　　　　　　　　 】部隊選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 856,
+   "jp": "【　　　　　　　　　 】部隊選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 857,
+   "jp": "【　　　　　　　　　　 】部隊選択",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 858,
+   "jp": "【　　】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 859,
+   "jp": "【　　 】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 860,
+   "jp": "【　 　 】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 861,
+   "jp": "【　　　　 】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 862,
+   "jp": "【　　　　　 】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 863,
+   "jp": "【　　　　　　 】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 864,
+   "jp": "【　　　　　　　 】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 865,
+   "jp": "【　　　　　　　　 】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 866,
+   "jp": "【　　　　　　　　　 】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 867,
+   "jp": "【　　　　　　　　　　 】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 868,
+   "jp": "【　　】対象選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 869,
+   "jp": "【　　 】対象選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 870,
+   "jp": "【　 　 】対象選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 871,
+   "jp": "【　　】パイロット選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 872,
+   "jp": "【　  】パイロット選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 873,
+   "jp": "【　 　 】パイロット選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 874,
+   "jp": "【　　　　 】パイロット選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 875,
+   "jp": "【　　　　　 】パイロット選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 876,
+   "jp": "【　　　　　　 】パイロット選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 877,
+   "jp": "【　　　　　　　 】パイロット選択",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 878,
+   "jp": "【　　　　　　　　 】パイロット選択",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 879,
+   "jp": "【　　　　　　　　　 】パイロット選択",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 880,
+   "jp": "【　　　　　　　　　　 】パイロット選択",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 881,
+   "jp": "【検索】所持確認",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 882,
+   "jp": "【精神コマンド】選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 883,
+   "jp": "【ＯＴＨＥＲＳコマンド】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 884,
+   "jp": "【システム】設定変更",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 885,
+   "jp": "【システム】項目選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 886,
+   "jp": "【オプション】項目選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 887,
+   "jp": "【オプション】システム設定",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 888,
+   "jp": "【機体一覧】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 889,
+   "jp": "【パイロット一覧】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 890,
+   "jp": "【乗せ換え】パイロット選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 891,
+   "jp": "【乗せ換え】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 892,
+   "jp": "【強化パーツ】装備機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 893,
+   "jp": "【強化パーツ】スロット選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 894,
+   "jp": "【強化パーツ】パーツ選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 895,
+   "jp": "【強化パーツ】＜外し＞選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 896,
+   "jp": "【出撃選択】部隊選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 897,
+   "jp": "【アビリティ】装備対象選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 898,
+   "jp": "【アビリティ】スロット選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 899,
+   "jp": "【アビリティ】アビリティ選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 900,
+   "jp": "【アビリティ】＜外し＞選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 901,
+   "jp": "【検索】項目選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 902,
+   "jp": "【検索】条件選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 903,
+   "jp": "【被撃墜機体】確認",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 904,
+   "jp": "【撃墜数・各】確認",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 905,
+   "jp": "【反撃設定】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 906,
+   "jp": "【反撃設定】項目選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 907,
+   "jp": "【反撃設定】設定選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 908,
+   "jp": "【クイックコマンド】設定変更",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 909,
+   "jp": "【BGM】項目選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 910,
+   "jp": "【BGM設定】対象",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 911,
+   "jp": "【BGM選曲】変更",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 912,
+   "jp": "【機体武器改造】改造値設定",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 913,
+   "jp": "【武器換装】武器選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 914,
+   "jp": "【換装武器改造】改造値設定",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 915,
+   "jp": "【武器換装】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 916,
+   "jp": "【換装機体】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 917,
+   "jp": "【機体武器改造】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 918,
+   "jp": "【強化パーツ売却】パーツ選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 919,
+   "jp": "【パイロット養成】パイロット選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 920,
+   "jp": "【パイロット養成】項目選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 921,
+   "jp": "【パイロット養成】上昇値設定",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 922,
+   "jp": "【パイロット養成】スキル選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 923,
+   "jp": "【パイロット養成】修得先選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 924,
+   "jp": "【乗せ換え】実行確認",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 925,
+   "jp": "【換装武器】武器選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 926,
+   "jp": "【換装パーツ】パーツ選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 927,
+   "jp": "【ロボット大図鑑】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 928,
+   "jp": "【キャラクター事典】キャラクター選択",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 929,
+   "jp": "【用語辞典】用語選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 930,
+   "jp": "【サウンドセレクト】BGM選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 931,
+   "jp": "【ロボット大図鑑】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 932,
+   "jp": "【キャラクター事典】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 933,
+   "jp": "【攻略Q&A】項目選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 934,
+   "jp": "【攻略Q&A】質問選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 935,
+   "jp": "【シナリオチャート】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 936,
+   "jp": "【ライブラリ】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 937,
+   "jp": "【システム】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 938,
+   "jp": "【強化パーツ】装備機体",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 939,
+   "jp": "【オプション】ライブラリ",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 940,
+   "jp": "【ＢＧＭ置き換え】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 941,
+   "jp": "期待",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 942,
+   "jp": "猫猫猫",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 943,
+   "jp": "猫猫猫猫猫",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 944,
+   "jp": "猫猫猫猫猫猫",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 945,
+   "jp": "猫猫猫猫猫猫猫",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 946,
+   "jp": "猫猫猫猫猫猫猫猫",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 947,
+   "jp": "猫猫猫猫猫猫猫猫猫",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 948,
+   "jp": "猫猫猫猫猫猫猫猫猫猫",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 949,
+   "jp": "猫猫猫猫猫猫猫猫猫猫猫",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 950,
+   "jp": "第　話",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 951,
+   "jp": "第　　話",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 952,
+   "jp": "第　　　話",
+   "en": "",
+   "count": 2,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 953,
+   "jp": "あああああああああああああああああああああああああああああああああ",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 954,
+   "jp": "【部隊編成】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 955,
+   "jp": "【編入】機体選択",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 956,
+   "jp": "【部隊ソート】　　　　",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 957,
+   "jp": "【バランスオーダー】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 958,
+   "jp": "【前詰め】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 959,
+   "jp": "【部隊解散】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 960,
+   "jp": "【ベーシックオーダー】",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 961,
+   "jp": "＜NEXT  ＞",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 962,
+   "jp": "移動モード",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 963,
+   "jp": "交換モード",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 964,
+   "jp": "『検索内容』",
+   "en": "",
+   "count": 6,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 965,
+   "jp": "『　　　　　　』",
+   "en": "",
+   "count": 7,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 966,
+   "jp": "：サポート",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 967,
+   "jp": "：",
+   "en": "",
+   "count": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 968,
+   "jp": "＜検索なし＞",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 969,
+   "jp": "『気力＋ダメージ』",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 970,
+   "jp": "自動編成",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 971,
+   "jp": "部隊ソート",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 972,
+   "jp": "前詰め",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 973,
+   "jp": "全やり直し",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 974,
+   "jp": "やり直し",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 975,
+   "jp": "編入",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 976,
+   "jp": "【　　/　　　　　　　】",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 977,
+   "jp": "：設定の切換",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 978,
+   "jp": "：優先の切換",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 979,
+   "jp": "：検索項目の設定",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 980,
+   "jp": "：指定のクリア",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 981,
+   "jp": "：設定終了",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 982,
+   "jp": "検索の優先",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 983,
+   "jp": "・・・・・",
+   "en": "",
+   "count": 5,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 984,
+   "jp": "『　 　　　　　』",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 985,
+   "jp": "『　　　　　　　』",
+   "en": "",
+   "count": 4,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 986,
+   "jp": "ルートを選択してください（下部はカーソル位置のルートに参加するメンバー）。",
+   "en": "",
+   "count": 1,
+   "kind": "text",
+   "keep": false
+  },
+  {
+   "id": 987,
+   "jp": "ルート１名",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 988,
+   "jp": "ルート２名",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 989,
+   "jp": "エクセレンんん",
+   "en": "",
+   "count": 1,
+   "kind": "name",
+   "keep": false
+  }
+ ]
+}

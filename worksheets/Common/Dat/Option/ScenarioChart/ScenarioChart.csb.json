@@ -1,0 +1,87 @@
+{
+ "file": "ScenarioChart.csb",
+ "format": "CSB",
+ "pool_strings": 140,
+ "untouched": "strings without non-ASCII characters (numbers, file names, ids)",
+ "strings": [
+  {
+   "id": 0,
+   "jp": "シナリオチャート",
+   "en": "",
+   "cell": "r0c0",
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 2,
+   "jp": "│─┌┐└┘┬┴┼┤├",
+   "en": "",
+   "cell": "r0c3",
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 8,
+   "jp": "│",
+   "en": "",
+   "cell": "r3c2",
+   "uses": 81,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 11,
+   "jp": "┌",
+   "en": "",
+   "cell": "r5c1",
+   "uses": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 12,
+   "jp": "┴",
+   "en": "",
+   "cell": "r5c2",
+   "uses": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 13,
+   "jp": "┐",
+   "en": "",
+   "cell": "r5c3",
+   "uses": 4,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 47,
+   "jp": "└",
+   "en": "",
+   "cell": "r37c1",
+   "uses": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 48,
+   "jp": "┬",
+   "en": "",
+   "cell": "r37c2",
+   "uses": 3,
+   "kind": "name",
+   "keep": false
+  },
+  {
+   "id": 49,
+   "jp": "┘",
+   "en": "",
+   "cell": "r37c3",
+   "uses": 3,
+   "kind": "name",
+   "keep": false
+  }
+ ]
+}

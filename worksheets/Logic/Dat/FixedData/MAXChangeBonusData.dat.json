@@ -69,7 +69,7 @@
    "text": "最大ＨＰ　＋１０％",
    "kind": "name",
    "keep": false,
-   "en": "Max HP +10%"
+   "en": "Maximum HP +10%"
   },
   {
    "id": 1,
@@ -113,7 +113,7 @@
    "text": "最大ＥＮ　＋１０％",
    "kind": "name",
    "keep": false,
-   "en": "Max EN +10%"
+   "en": "Maximum EN +10%"
   },
   {
    "id": 3,
@@ -289,7 +289,7 @@
    "text": "移動力　＋１",
    "kind": "name",
    "keep": false,
-   "en": "Move +1"
+   "en": "Movement +1"
   },
   {
    "id": 11,
@@ -509,7 +509,7 @@
    "text": "最大ＨＰ　＋２０００",
    "kind": "name",
    "keep": false,
-   "en": "Max HP +2000"
+   "en": "Maximum HP +2000"
   },
   {
    "id": 21,
@@ -553,7 +553,7 @@
    "text": "最大ＨＰ　＋５０００",
    "kind": "name",
    "keep": false,
-   "en": "Max HP +5000"
+   "en": "Maximum HP +5000"
   },
   {
    "id": 23,
@@ -597,7 +597,7 @@
    "text": "最大ＥＮ　＋５０",
    "kind": "name",
    "keep": false,
-   "en": "Max EN +50"
+   "en": "Maximum EN +50"
   },
   {
    "id": 25,
@@ -641,7 +641,7 @@
    "text": "最大ＥＮ　＋７０",
    "kind": "name",
    "keep": false,
-   "en": "Max EN +70"
+   "en": "Maximum EN +70"
   },
   {
    "id": 27,
@@ -1653,7 +1653,7 @@
    "text": "特殊能力「分身」装備",
    "kind": "text",
    "keep": false,
-   "en": "Adds Afterimage"
+   "en": "Grants Special Ability: Afterimage"
   },
   {
    "id": 73,
@@ -1785,7 +1785,7 @@
    "text": "分身発生率　＋２０％",
    "kind": "name",
    "keep": false,
-   "en": "Afterimage +20%"
+   "en": "Afterimage Activation Rate +20%"
   },
   {
    "id": 79,
@@ -2665,7 +2665,7 @@
    "text": "移動力　＋３",
    "kind": "name",
    "keep": false,
-   "en": "Move +3"
+   "en": "Movement +3"
   },
   {
    "id": 119,
@@ -2867,7 +2867,8 @@
    "text": "ダミー０３",
    "kind": "name",
    "keep": false,
-   "en": "Dummy 03"
+   "en": "Dummy 03",
+   "retry_note": "Earlier version 'Dummy 03' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 128,
@@ -2890,7 +2891,8 @@
    "text": "ダミー０４",
    "kind": "name",
    "keep": false,
-   "en": "Dummy 04"
+   "en": "Dummy 04",
+   "retry_note": "Earlier version 'Dummy 04' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 129,
@@ -2913,7 +2915,8 @@
    "text": "ダミー０５",
    "kind": "name",
    "keep": false,
-   "en": "Dummy 05"
+   "en": "Dummy 05",
+   "retry_note": "Earlier version 'Dummy 05' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 130,
@@ -2936,7 +2939,8 @@
    "text": "ダミー０６",
    "kind": "name",
    "keep": false,
-   "en": "Dummy 06"
+   "en": "Dummy 06",
+   "retry_note": "Earlier version 'Dummy 06' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 131,
@@ -2959,7 +2963,8 @@
    "text": "ダミー０７",
    "kind": "name",
    "keep": false,
-   "en": "Dummy 07"
+   "en": "Dummy 07",
+   "retry_note": "Earlier version 'Dummy 07' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 132,
@@ -3290,7 +3295,8 @@
    "text": "ダミー０８",
    "kind": "name",
    "keep": false,
-   "en": "Dummy 08"
+   "en": "Dummy 08",
+   "retry_note": "Earlier version 'Dummy 08' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 147,
@@ -3884,7 +3890,7 @@
    "text": "移動力　＋２",
    "kind": "name",
    "keep": false,
-   "en": "Move +2"
+   "en": "Movement +2"
   },
   {
    "id": 174,
@@ -4104,7 +4110,7 @@
    "text": "ＭＡＰ兵器無効",
    "kind": "name",
    "keep": false,
-   "en": "MAP Immunity"
+   "en": "Immune to MAP Weapons"
   },
   {
    "id": 184,
@@ -4148,7 +4154,7 @@
    "text": "遠距離攻撃無効",
    "kind": "name",
    "keep": false,
-   "en": "Ranged Immune"
+   "en": "Immune to Ranged Attacks"
   },
   {
    "id": 186,

@@ -345,7 +345,7 @@
    "text": "やり込み派",
    "kind": "name",
    "keep": false,
-   "en": "Dedicated"
+   "en": "Completionist"
   },
   {
    "id": 13,
@@ -433,7 +433,7 @@
    "text": "全ＳＲポイント獲得",
    "kind": "name",
    "keep": false,
-   "en": "All SR Points"
+   "en": "All SR Points Obtained"
   },
   {
    "id": 17,
@@ -697,7 +697,7 @@
    "text": "ゲームクリア",
    "kind": "name",
    "keep": false,
-   "en": "Game Clear"
+   "en": "Game Cleared"
   },
   {
    "id": 29,
@@ -785,7 +785,7 @@
    "text": "撃墜王",
    "kind": "name",
    "keep": false,
-   "en": "Elite"
+   "en": "Ace of Aces"
   },
   {
    "id": 33,
@@ -873,7 +873,7 @@
    "text": "総力戦",
    "kind": "name",
    "keep": false,
-   "en": "Total"
+   "en": "All-Out War"
   },
   {
    "id": 37,
@@ -1049,7 +1049,7 @@
    "text": "奇跡の生還",
    "kind": "name",
    "keep": false,
-   "en": "Miracle"
+   "en": "Miracle Survivor"
   },
   {
    "id": 45,
@@ -1137,7 +1137,7 @@
    "text": "よくある事",
    "kind": "name",
    "keep": false,
-   "en": "Classic"
+   "en": "It Happens"
   },
   {
    "id": 49,
@@ -1225,7 +1225,7 @@
    "text": "ギリギリセーフ！",
    "kind": "text",
    "keep": false,
-   "en": "Close Call!"
+   "en": "Just Barely Safe!"
   },
   {
    "id": 53,
@@ -1401,7 +1401,7 @@
    "text": "艦長の風格",
    "kind": "name",
    "keep": false,
-   "en": "Captaincy"
+   "en": "A Captain's Poise"
   },
   {
    "id": 61,
@@ -1665,7 +1665,7 @@
    "text": "財布ラッシュ！？",
    "kind": "text",
    "keep": false,
-   "en": "Cash Flash!?"
+   "en": "Wallet Rush!?"
   },
   {
    "id": 73,
@@ -1753,7 +1753,8 @@
    "text": "分の悪い賭け",
    "kind": "name",
    "keep": false,
-   "en": "A Bad Bet"
+   "en": "Long-Odds Gamble",
+   "retry_note": "Earlier version 'A Bad Bet' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 77,
@@ -1841,7 +1842,7 @@
    "text": "若葉マーク",
    "kind": "name",
    "keep": false,
-   "en": "Rookie"
+   "en": "Beginner's Mark"
   },
   {
    "id": 81,
@@ -1929,7 +1930,8 @@
    "text": "流星、夜を切り裂いて",
    "kind": "text",
    "keep": false,
-   "en": "Meteor Rends Night"
+   "en": "Meteor, Tear Through the Night",
+   "retry_note": "Earlier version 'Meteor Rends Night' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 85,
@@ -2017,7 +2019,7 @@
    "text": "実戦",
    "kind": "name",
    "keep": false,
-   "en": "War"
+   "en": "Live Fire"
   },
   {
    "id": 89,
@@ -2281,7 +2283,7 @@
    "text": "撃墜され王",
    "kind": "name",
    "keep": false,
-   "en": "Fall Guy"
+   "en": "Shot-Down King"
   },
   {
    "id": 101,
@@ -2369,7 +2371,7 @@
    "text": "フル改造",
    "kind": "name",
    "keep": false,
-   "en": "Maxed"
+   "en": "Fully Upgraded"
   },
   {
    "id": 105,
@@ -2457,7 +2459,7 @@
    "text": "一騎当千",
    "kind": "name",
    "keep": false,
-   "en": "Rampage"
+   "en": "One-Man Army"
   },
   {
    "id": 109,
@@ -2545,7 +2547,7 @@
    "text": "狙撃王",
    "kind": "name",
    "keep": false,
-   "en": "Eagle"
+   "en": "Sniper King"
   },
   {
    "id": 113,
@@ -2633,7 +2635,7 @@
    "text": "一網打尽！？",
    "kind": "text",
    "keep": false,
-   "en": "Round-Up!?"
+   "en": "In One Fell Swoop!?"
   },
   {
    "id": 117,
@@ -2721,7 +2723,7 @@
    "text": "韋駄天",
    "kind": "name",
    "keep": false,
-   "en": "Swift"
+   "en": "Speed Demon"
   },
   {
    "id": 121,
@@ -2809,7 +2811,7 @@
    "text": "その漢、鉄壁",
    "kind": "text",
    "keep": false,
-   "en": "He's a Wall"
+   "en": "That Man Is a Wall"
   },
   {
    "id": 125,
@@ -2897,7 +2899,7 @@
    "text": "エース番長",
    "kind": "name",
    "keep": false,
-   "en": "Ace Boss"
+   "en": "Ace Gang Leader"
   },
   {
    "id": 129,
@@ -2985,7 +2987,7 @@
    "text": "愛の戦士",
    "kind": "name",
    "keep": false,
-   "en": "Cupid"
+   "en": "Warrior of Love"
   },
   {
    "id": 133,
@@ -3073,7 +3075,7 @@
    "text": "熱血部隊",
    "kind": "name",
    "keep": false,
-   "en": "Valiant"
+   "en": "Valor Squad"
   },
   {
    "id": 137,
@@ -3161,7 +3163,7 @@
    "text": "さすが教導隊隊長！",
    "kind": "text",
    "keep": false,
-   "en": "Top Instructor!"
+   "en": "Worthy of the Instructor Captain!"
   },
   {
    "id": 141,
@@ -3425,7 +3427,8 @@
    "text": "遙かなる戦い、開幕",
    "kind": "text",
    "keep": false,
-   "en": "A Far War Begins"
+   "en": "A Distant Battle Begins",
+   "retry_note": "Earlier version 'A Far War Begins' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 153,
@@ -3513,7 +3516,7 @@
    "text": "休息の時",
    "kind": "name",
    "keep": false,
-   "en": "Respite"
+   "en": "Time to Rest"
   },
   {
    "id": 157,

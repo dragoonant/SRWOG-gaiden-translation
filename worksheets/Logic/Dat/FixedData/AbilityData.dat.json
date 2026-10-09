@@ -108,7 +108,7 @@
    "text": "ＡＢフィールド",
    "kind": "name",
    "keep": false,
-   "en": "AB Field"
+   "en": "Anti-Beam Field"
   },
   {
    "id": 2,
@@ -153,7 +153,7 @@
    "text": "Ｅフィールド",
    "kind": "name",
    "keep": false,
-   "en": "E Field"
+   "en": "Energy Field"
   },
   {
    "id": 4,
@@ -583,7 +583,7 @@
    "text": "歪曲フィールド",
    "kind": "name",
    "keep": false,
-   "en": "Dist. Field"
+   "en": "Distortion Field"
   },
   {
    "id": 22,
@@ -628,7 +628,7 @@
    "text": "ＨＰ回復（小）",
    "kind": "text",
    "keep": false,
-   "en": "HP Heal (S)"
+   "en": "HP Recovery (Small)"
   },
   {
    "id": 24,
@@ -652,7 +652,7 @@
    "text": "ＨＰ回復",
    "kind": "name",
    "keep": false,
-   "en": "HP Heal"
+   "en": "HP Recovery"
   },
   {
    "id": 25,
@@ -698,7 +698,7 @@
    "text": "ＨＰ回復（中）",
    "kind": "text",
    "keep": false,
-   "en": "HP Heal (M)"
+   "en": "HP Recovery (Medium)"
   },
   {
    "id": 27,
@@ -720,7 +720,7 @@
    "text": "ＨＰ回復（大）",
    "kind": "text",
    "keep": false,
-   "en": "HP Heal (L)"
+   "en": "HP Recovery (Large)"
   },
   {
    "id": 28,
@@ -742,7 +742,7 @@
    "text": "ＥＮ回復（小）",
    "kind": "text",
    "keep": false,
-   "en": "EN Heal (S)"
+   "en": "EN Recovery (Small)"
   },
   {
    "id": 29,
@@ -766,7 +766,7 @@
    "text": "ＥＮ回復",
    "kind": "name",
    "keep": false,
-   "en": "EN Heal"
+   "en": "EN Recovery"
   },
   {
    "id": 30,
@@ -812,7 +812,7 @@
    "text": "ＥＮ回復（中）",
    "kind": "text",
    "keep": false,
-   "en": "EN Heal (M)"
+   "en": "EN Recovery (Medium)"
   },
   {
    "id": 32,
@@ -834,7 +834,7 @@
    "text": "ＥＮ回復（大）",
    "kind": "text",
    "keep": false,
-   "en": "EN Heal (L)"
+   "en": "EN Recovery (Large)"
   },
   {
    "id": 33,
@@ -1172,7 +1172,7 @@
    "text": "強化パーツ使用",
    "kind": "name",
    "keep": false,
-   "en": "Use Parts"
+   "en": "Use Enhancement Parts"
   },
   {
    "id": 48,
@@ -1217,7 +1217,7 @@
    "text": "ガンエデンの守護",
    "kind": "name",
    "keep": false,
-   "en": "Gan Eden Aegis"
+   "en": "Gan Eden's Protection"
   },
   {
    "id": 50,
@@ -1307,7 +1307,7 @@
    "text": "ピンポイント爆撃",
    "kind": "name",
    "keep": false,
-   "en": "Pinpoint Strike"
+   "en": "Pinpoint Bombing"
   },
   {
    "id": 54,
@@ -1352,7 +1352,7 @@
    "text": "闇の領域",
    "kind": "name",
    "keep": false,
-   "en": "Abyss"
+   "en": "Dark Domain"
   },
   {
    "id": 56,
@@ -1397,7 +1397,7 @@
    "text": "逆鱗",
    "kind": "name",
    "keep": false,
-   "en": "Rage"
+   "en": "Wrath"
   },
   {
    "id": 58,
@@ -1442,7 +1442,7 @@
    "text": "エネルギー吸収",
    "kind": "name",
    "keep": false,
-   "en": "Energy Absorb"
+   "en": "Energy Absorption"
   },
   {
    "id": 60,
@@ -1511,7 +1511,7 @@
    "text": "監視の目",
    "kind": "name",
    "keep": false,
-   "en": "Watcher"
+   "en": "Watchful Eye"
   },
   {
    "id": 63,
@@ -1556,7 +1556,7 @@
    "text": "味方精神（仮）",
    "kind": "text",
    "keep": false,
-   "en": "Ally SP (TBD)"
+   "en": "Ally Spirit (Temp)"
   },
   {
    "id": 65,
@@ -1601,7 +1601,7 @@
    "text": "味方回復（仮）",
    "kind": "text",
    "keep": false,
-   "en": "Ally HP (TBD)"
+   "en": "Ally Recovery (Temp)"
   },
   {
    "id": 67,
@@ -1646,7 +1646,7 @@
    "text": "いたら精神（仮）",
    "kind": "text",
    "keep": false,
-   "en": "Pilot SP (TBD)"
+   "en": "Presence Spirit (Temp)"
   },
   {
    "id": 69,
@@ -1691,7 +1691,7 @@
    "text": "神僕の盾",
    "kind": "name",
    "keep": false,
-   "en": "Bulwark"
+   "en": "Servant's Shield"
   },
   {
    "id": 71,
@@ -1714,7 +1714,7 @@
    "text": "神の盾",
    "kind": "name",
    "keep": false,
-   "en": "Aegis"
+   "en": "God's Shield"
   },
   {
    "id": 72,
@@ -1737,7 +1737,7 @@
    "text": "四凶邪視",
    "kind": "name",
    "keep": false,
-   "en": "Hex Eye"
+   "en": "Four Fiends Gaze"
   },
   {
    "id": 73,
@@ -1782,7 +1782,7 @@
    "text": "神獣盾",
    "kind": "name",
    "keep": false,
-   "en": "Ward"
+   "en": "Beast Shield"
   },
   {
    "id": 75,
@@ -2103,7 +2103,7 @@
    "text": "（単）分離",
    "kind": "text",
    "keep": false,
-   "en": "(S)Separate"
+   "en": "Separate (Single)"
   },
   {
    "id": 89,
@@ -2239,7 +2239,7 @@
    "text": "盾装備",
    "kind": "name",
    "keep": false,
-   "en": "Shield"
+   "en": "Shield Equip"
   },
   {
    "id": 95,

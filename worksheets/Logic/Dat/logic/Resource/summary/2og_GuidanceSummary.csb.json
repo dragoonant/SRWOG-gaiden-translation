@@ -7,11 +7,11 @@
   {
    "id": 1,
    "jp": "２８ｄｏｔで７文字",
-   "en": "28dot: 7 chars",
+   "en": "7 Characters at 28-Dot Size",
    "cell": "r0c2",
    "kind": "name",
    "keep": false,
-   "retry_note": "CSB: '7 chars @ 28dot' failed (lines: 2 lines > 1)"
+   "retry_note": "Earlier version '28dot: 7 chars' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 2,
@@ -41,10 +41,11 @@
   {
    "id": 5,
    "jp": "ソート用ID",
-   "en": "Sort ID",
+   "en": "ID for Sorting",
    "cell": "r2c0",
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "retry_note": "Earlier version 'Sort ID' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 6,

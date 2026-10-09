@@ -4289,7 +4289,7 @@
    "text": "背景を設定します。",
    "kind": "text",
    "keep": false,
-   "en": "Set background."
+   "en": "Sets the background."
   },
   {
    "id": 179,
@@ -4580,7 +4580,8 @@
    "text": "ダミー",
    "kind": "name",
    "keep": false,
-   "en": "Dummy"
+   "en": "Dummy",
+   "retry_note": "Earlier version 'Dummy' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 192,
@@ -5994,7 +5995,7 @@
    "text": "声優名を表します。",
    "kind": "text",
    "keep": false,
-   "en": "Voice actor."
+   "en": "Shows the voice actor's name."
   },
   {
    "id": 252,
@@ -11591,7 +11592,7 @@
    "text": "ＢＧＭを設定します。",
    "kind": "text",
    "keep": false,
-   "en": "Sets the BGM."
+   "en": "Sets the background music."
   },
   {
    "id": 492,
@@ -17263,7 +17264,7 @@
    "text": "「換装」コマンド",
    "kind": "text",
    "keep": false,
-   "en": "Replace Cmd"
+   "en": "\"Replace\" Command"
   },
   {
    "id": 732,
@@ -17659,7 +17660,7 @@
    "text": "機体を削除します。",
    "kind": "text",
    "keep": false,
-   "en": "Delete the unit."
+   "en": "Deletes the unit."
   },
   {
    "id": 750,

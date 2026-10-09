@@ -79,7 +79,8 @@
    "text": "－－－－－－",
    "kind": "name",
    "keep": false,
-   "en": "－－－－－－"
+   "en": "－－－－－－",
+   "retry_note": "Earlier version '－－－－－－' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 1,
@@ -583,7 +584,8 @@
    "text": "テスラ・ドライブ",
    "kind": "name",
    "keep": false,
-   "en": "Tesla Drive"
+   "en": "Tesla Drive",
+   "retry_note": "Earlier version 'Tesla Drive' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 23,
@@ -1093,7 +1095,7 @@
    "text": "Ｔ－ＬＩＮＫセンサー",
    "kind": "name",
    "keep": false,
-   "en": "T-LINK Sensor"
+   "en": "T-Link Sensor"
   },
   {
    "id": 45,
@@ -1615,7 +1617,8 @@
    "text": "鋼の魂",
    "kind": "name",
    "keep": false,
-   "en": "Spirit of Steel"
+   "en": "Steel Spirit",
+   "retry_note": "FIXH: 'Spirit of Steel' failed (width: 215px > 211px: 'Spirit of Steel')"
   },
   {
    "id": 67,
@@ -1843,7 +1846,8 @@
    "text": "ビームコート",
    "kind": "name",
    "keep": false,
-   "en": "Beam Coat"
+   "en": "Beam Coat",
+   "retry_note": "Earlier version 'Beam Coat' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 77,
@@ -1891,7 +1895,8 @@
    "text": "ＡＢフィールド",
    "kind": "name",
    "keep": false,
-   "en": "AB Field"
+   "en": "Anti-Beam Field",
+   "retry_note": "Earlier version 'AB Field' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 79,
@@ -1939,7 +1944,8 @@
    "text": "Ｇ・ウォール",
    "kind": "name",
    "keep": false,
-   "en": "G Wall"
+   "en": "G Wall",
+   "retry_note": "Earlier version 'G Wall' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 81,
@@ -1987,7 +1993,8 @@
    "text": "Ｇ・テリトリー",
    "kind": "name",
    "keep": false,
-   "en": "G Territory"
+   "en": "G Territory",
+   "retry_note": "Earlier version 'G Territory' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 83,
@@ -2083,7 +2090,7 @@
    "text": "ねじりハチマキ",
    "kind": "name",
    "keep": false,
-   "en": "Twisty Band"
+   "en": "Twisty Headband"
   },
   {
    "id": 87,

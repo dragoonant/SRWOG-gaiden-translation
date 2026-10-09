@@ -107,7 +107,7 @@
    "text": "装甲ダウンＬ（Ｒ系）",
    "kind": "text",
    "keep": false,
-   "en": "Def Down L (R)"
+   "en": "Large Armor Down (Robot)"
   },
   {
    "id": 3,
@@ -129,7 +129,7 @@
    "text": "移動力ダウン（Ｒ系）",
    "kind": "text",
    "keep": false,
-   "en": "Move Down (R)"
+   "en": "Movement Down (Robot)"
   },
   {
    "id": 4,
@@ -151,7 +151,7 @@
    "text": "攻撃ダウンＬ（Ｒ系）",
    "kind": "text",
    "keep": false,
-   "en": "Atk Down L (R)"
+   "en": "Large Attack Down (Robot)"
   },
   {
    "id": 5,
@@ -173,7 +173,7 @@
    "text": "射程ダウン（Ｒ系）",
    "kind": "text",
    "keep": false,
-   "en": "Rng Down (R)"
+   "en": "Range Down (Robot)"
   },
   {
    "id": 6,
@@ -217,7 +217,7 @@
    "text": "ＥＮダウンＬ（Ｒ系）",
    "kind": "text",
    "keep": false,
-   "en": "EN Down L (R)"
+   "en": "Large EN Down (Robot)"
   },
   {
    "id": 8,
@@ -239,7 +239,7 @@
    "text": "ＥＮ吸収Ｌ（Ｒ系）",
    "kind": "text",
    "keep": false,
-   "en": "EN Drain L (R)"
+   "en": "Large EN Drain (Robot)"
   },
   {
    "id": 9,
@@ -261,7 +261,7 @@
    "text": "能力ダウンＬ（Ｐ系）",
    "kind": "text",
    "keep": false,
-   "en": "Stats Down L (P)"
+   "en": "Large Stats Down (Pilot)"
   },
   {
    "id": 10,
@@ -283,7 +283,7 @@
    "text": "戦闘不能（Ｐ系）",
    "kind": "text",
    "keep": false,
-   "en": "Disabled (P)"
+   "en": "Incapacitated (Pilot)"
   },
   {
    "id": 11,
@@ -305,7 +305,7 @@
    "text": "気力ダウンＬ（Ｐ系）",
    "kind": "text",
    "keep": false,
-   "en": "Will Down L (P)"
+   "en": "Large Will Down (Pilot)"
   },
   {
    "id": 12,
@@ -327,7 +327,7 @@
    "text": "ＳＰ吸収Ｌ（Ｐ系）",
    "kind": "text",
    "keep": false,
-   "en": "SP Drain L (P)"
+   "en": "Large SP Drain (Pilot)"
   },
   {
    "id": 13,
@@ -349,7 +349,7 @@
    "text": "精神禁止（Ｐ系）",
    "kind": "text",
    "keep": false,
-   "en": "Spirit Seal (P)"
+   "en": "Spirit Commands Sealed (Pilot)"
   }
  ],
  "inline_strings": []

@@ -69,7 +69,8 @@
    "text": "－－－－－－",
    "kind": "name",
    "keep": false,
-   "en": "－－－－－－"
+   "en": "－－－－－－",
+   "retry_note": "Earlier version '－－－－－－' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 1,
@@ -584,7 +585,7 @@
    "text": "連続攻撃",
    "kind": "name",
    "keep": false,
-   "en": "Continuous Attack"
+   "en": "Continuous Atk"
   },
   {
    "id": 24,
@@ -1428,7 +1429,7 @@
    "text": "連携攻撃",
    "kind": "name",
    "keep": false,
-   "en": "Cooperative Attack"
+   "en": "Cooperative Atk"
   },
   {
    "id": 62,
@@ -1560,7 +1561,7 @@
    "text": "気力限界突破",
    "kind": "name",
    "keep": false,
-   "en": "Will Limit+"
+   "en": "Will Limit Break"
   },
   {
    "id": 68,
@@ -1872,7 +1873,7 @@
    "text": "統率",
    "kind": "name",
    "keep": false,
-   "en": "Leadership"
+   "en": "Leader"
   },
   {
    "id": 82,
@@ -1960,7 +1961,7 @@
    "text": "連続行動",
    "kind": "name",
    "keep": false,
-   "en": "Continuous Action"
+   "en": "Continuous Move"
   },
   {
    "id": 86,

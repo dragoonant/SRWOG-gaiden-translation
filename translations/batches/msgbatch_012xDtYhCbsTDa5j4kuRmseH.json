@@ -1,0 +1,154 @@
+{
+ "batch_id": "msgbatch_012xDtYhCbsTDa5j4kuRmseH",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "created": 1791568845.226279,
+ "plan": {
+  "r00000": {
+   "path": "worksheets\\EBOOT.elf.json",
+   "format": "ELF",
+   "ids": [
+    323,
+    580,
+    581,
+    583,
+    584,
+    604,
+    617,
+    635,
+    638,
+    641,
+    642,
+    693,
+    694,
+    736,
+    737,
+    763,
+    768,
+    802,
+    820,
+    1183
+   ]
+  },
+  "r00001": {
+   "path": "worksheets\\EBOOT.elf.json",
+   "format": "ELF",
+   "ids": [
+    1233,
+    1285,
+    1286,
+    1295,
+    1297,
+    1298,
+    1299,
+    1300,
+    1311,
+    1312,
+    1329,
+    1374,
+    1376,
+    1380,
+    1383,
+    1385,
+    1388,
+    1394,
+    1559,
+    1560
+   ]
+  },
+  "r00002": {
+   "path": "worksheets\\EBOOT.elf.json",
+   "format": "ELF",
+   "ids": [
+    1564,
+    1566,
+    1567,
+    1568,
+    1569,
+    1571,
+    1574,
+    1576,
+    1577,
+    1579,
+    1580,
+    1584,
+    1585,
+    1586,
+    1590,
+    1591,
+    1592,
+    1594,
+    1597,
+    1598
+   ]
+  },
+  "r00003": {
+   "path": "worksheets\\EBOOT.elf.json",
+   "format": "ELF",
+   "ids": [
+    1599,
+    1612,
+    1613,
+    1629
+   ]
+  },
+  "r00004": {
+   "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+   "format": "WTD",
+   "ids": [
+    585,
+    652
+   ]
+  },
+  "r00005": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\AbilityElementData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    14,
+    18
+   ]
+  },
+  "r00006": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\BGMData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    39
+   ]
+  },
+  "r00007": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\PilotData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    6,
+    397,
+    402
+   ]
+  },
+  "r00008": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\SpiritData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    80
+   ]
+  },
+  "r00009": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\UnitData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    395
+   ]
+  },
+  "r00010": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    168,
+    170,
+    349,
+    450,
+    500,
+    538
+   ]
+  }
+ }
+}

@@ -94,7 +94,8 @@
    "text": "ダミー",
    "kind": "name",
    "keep": false,
-   "en": "Dummy"
+   "en": "Dummy",
+   "retry_note": "Earlier version 'Dummy' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 1,
@@ -138,7 +139,7 @@
    "text": "君の笑顔が、そこに",
    "kind": "text",
    "keep": false,
-   "en": "Where You Smile"
+   "en": "Your Smile Is There"
   },
   {
    "id": 3,
@@ -160,7 +161,7 @@
    "text": "終わらない冬",
    "kind": "name",
    "keep": false,
-   "en": "Ever Winter"
+   "en": "Endless Winter"
   },
   {
    "id": 4,
@@ -182,7 +183,7 @@
    "text": "記憶の底へ",
    "kind": "name",
    "keep": false,
-   "en": "Deep Past"
+   "en": "To Memory's Depths"
   },
   {
    "id": 5,
@@ -270,7 +271,7 @@
    "text": "蠢く影",
    "kind": "name",
    "keep": false,
-   "en": "Shade"
+   "en": "Shadows Stir"
   },
   {
    "id": 9,
@@ -292,7 +293,7 @@
    "text": "戦友よ、奮い立て",
    "kind": "text",
    "keep": false,
-   "en": "Rise, Comrades"
+   "en": "Rise Up, Comrades-in-Arms"
   },
   {
    "id": 10,
@@ -314,7 +315,7 @@
    "text": "休みも大事",
    "kind": "name",
    "keep": false,
-   "en": "Take Five"
+   "en": "Rest Matters Too"
   },
   {
    "id": 11,
@@ -336,7 +337,7 @@
    "text": "戦慄の旋律",
    "kind": "name",
    "keep": false,
-   "en": "Dreadsong"
+   "en": "Melody of Dread"
   },
   {
    "id": 12,
@@ -358,7 +359,7 @@
    "text": "驚異的な脅威",
    "kind": "name",
    "keep": false,
-   "en": "Mega Menace"
+   "en": "A Phenomenal Menace"
   },
   {
    "id": 13,
@@ -380,7 +381,7 @@
    "text": "絶対に絶体絶命",
    "kind": "name",
    "keep": false,
-   "en": "Surely Doomed"
+   "en": "Absolutely Cornered"
   },
   {
    "id": 14,
@@ -402,7 +403,7 @@
    "text": "“彼女”の問い掛け",
    "kind": "name",
    "keep": false,
-   "en": "\"Her\" Question"
+   "en": "The Question \"She\" Asks"
   },
   {
    "id": 15,
@@ -468,7 +469,7 @@
    "text": "分の悪い賭け",
    "kind": "name",
    "keep": false,
-   "en": "A Bad Bet"
+   "en": "Long-Odds Gamble"
   },
   {
    "id": 18,
@@ -490,7 +491,7 @@
    "text": "“諦めろ”と奴が囁く",
    "kind": "name",
    "keep": false,
-   "en": "\"Give Up,\" He Says"
+   "en": "\"Give Up,\" He Whispers"
   },
   {
    "id": 19,
@@ -534,7 +535,7 @@
    "text": "沈黙する者の属性",
    "kind": "name",
    "keep": false,
-   "en": "Silent Nature"
+   "en": "Nature of the Silent One"
   },
   {
    "id": 21,
@@ -666,7 +667,7 @@
    "text": "忌むべき訪問者",
    "kind": "name",
    "keep": false,
-   "en": "Vile Visitor"
+   "en": "The Abhorrent Visitor"
   },
   {
    "id": 27,
@@ -732,7 +733,7 @@
    "text": "ラ・ギアスの風",
    "kind": "name",
    "keep": false,
-   "en": "La Gias Winds"
+   "en": "Winds of La Gias"
   },
   {
    "id": 30,
@@ -952,7 +953,7 @@
    "text": "鋼の魂",
    "kind": "name",
    "keep": false,
-   "en": "Spirit of Steel"
+   "en": "Steel Spirit"
   },
   {
    "id": 40,
@@ -974,7 +975,7 @@
    "text": "鋼の方舟",
    "kind": "name",
    "keep": false,
-   "en": "Steel Ark"
+   "en": "The Steel Ark"
   },
   {
    "id": 41,
@@ -1018,7 +1019,7 @@
    "text": "悪を断つ剣",
    "kind": "name",
    "keep": false,
-   "en": "Evilsbane"
+   "en": "Evil-Cleaving Sword"
   },
   {
    "id": 43,
@@ -1106,7 +1107,7 @@
    "text": "虚空からの使者",
    "kind": "name",
    "keep": false,
-   "en": "Void Envoy"
+   "en": "Envoy from the Void"
   },
   {
    "id": 47,
@@ -1128,7 +1129,7 @@
    "text": "全能なる調停者",
    "kind": "name",
    "keep": false,
-   "en": "Godly Arbiter"
+   "en": "The Almighty Arbiter"
   },
   {
    "id": 48,
@@ -1326,7 +1327,7 @@
    "text": "我ニ敵ナシ",
    "kind": "name",
    "keep": false,
-   "en": "Unrivaled"
+   "en": "I Have No Equal"
   },
   {
    "id": 57,
@@ -1348,7 +1349,7 @@
    "text": "剣・魂・一・擲",
    "kind": "name",
    "keep": false,
-   "en": "All-In Blade"
+   "en": "Sword, Soul, Stake It All"
   },
   {
    "id": 58,
@@ -1370,7 +1371,7 @@
    "text": "流星、夜を切り裂いて",
    "kind": "text",
    "keep": false,
-   "en": "Meteor Rends Night"
+   "en": "Meteor, Tear Through the Night"
   },
   {
    "id": 59,
@@ -1458,7 +1459,7 @@
    "text": "鋼鉄の孤狼",
    "kind": "name",
    "keep": false,
-   "en": "Lone Wolf"
+   "en": "Lone Wolf of Steel"
   },
   {
    "id": 63,
@@ -1480,7 +1481,7 @@
    "text": "白銀の堕天使",
    "kind": "name",
    "keep": false,
-   "en": "Fallen Angel"
+   "en": "The Silver Fallen Angel"
   },
   {
    "id": 64,
@@ -1502,7 +1503,7 @@
    "text": "揺れる心の錬金術師",
    "kind": "name",
    "keep": false,
-   "en": "Torn Alchemist"
+   "en": "Alchemist of a Wavering Heart"
   },
   {
    "id": 65,
@@ -1524,7 +1525,7 @@
    "text": "招かれざる異邦人",
    "kind": "name",
    "keep": false,
-   "en": "Uninvited Alien"
+   "en": "The Uninvited Stranger"
   },
   {
    "id": 66,
@@ -1546,7 +1547,7 @@
    "text": "遙かなる戦い、開幕",
    "kind": "text",
    "keep": false,
-   "en": "A Far War Begins"
+   "en": "A Distant Battle Begins"
   },
   {
    "id": 67,
@@ -1590,7 +1591,7 @@
    "text": "静寂と動乱",
    "kind": "name",
    "keep": false,
-   "en": "Calm&Chaos"
+   "en": "Silence and Turmoil"
   },
   {
    "id": 69,
@@ -1702,7 +1703,7 @@
    "text": "凶星の監察官",
    "kind": "name",
    "keep": false,
-   "en": "Dark Warden"
+   "en": "Evil Star's Inspector"
   },
   {
    "id": 74,
@@ -1746,7 +1747,7 @@
    "text": "始まりの地",
    "kind": "name",
    "keep": false,
-   "en": "Origins"
+   "en": "Land of Beginnings"
   },
   {
    "id": 76,
@@ -1791,7 +1792,7 @@
    "text": "激闘への間奏曲",
    "kind": "name",
    "keep": false,
-   "en": "War Interlude"
+   "en": "Interlude to Fierce Battle"
   },
   {
    "id": 78,
@@ -1813,7 +1814,7 @@
    "text": "戦火の狭間で",
    "kind": "name",
    "keep": false,
-   "en": "Lull in War"
+   "en": "Amid the Flames of War"
   },
   {
    "id": 79,
@@ -1835,7 +1836,7 @@
    "text": "再起を心に誓え",
    "kind": "name",
    "keep": false,
-   "en": "Swear to Rise"
+   "en": "Swear in Your Heart to Rise"
   },
   {
    "id": 80,
@@ -1879,7 +1880,7 @@
    "text": "雪解けの詩",
    "kind": "name",
    "keep": false,
-   "en": "Thaw Song"
+   "en": "Song of the Thaw"
   },
   {
    "id": 82,
@@ -1901,7 +1902,7 @@
    "text": "英雄戦記",
    "kind": "name",
    "keep": false,
-   "en": "Heroics"
+   "en": "Heroic Chronicle"
   },
   {
    "id": 83,
@@ -1967,7 +1968,7 @@
    "text": "天翔る龍",
    "kind": "name",
    "keep": false,
-   "en": "Dragon"
+   "en": "Soaring Dragon"
   },
   {
    "id": 86,
@@ -1989,7 +1990,7 @@
    "text": "真鍮の真心",
    "kind": "name",
    "keep": false,
-   "en": "Brass Vow"
+   "en": "True Heart of Brass"
   },
   {
    "id": 87,
@@ -2033,7 +2034,7 @@
    "text": "鋼鉄のコックピット",
    "kind": "name",
    "keep": false,
-   "en": "Steel Cockpit"
+   "en": "The Steel Cockpit"
   },
   {
    "id": 89,
@@ -2143,7 +2144,7 @@
    "text": "絆を信じて",
    "kind": "name",
    "keep": false,
-   "en": "Our Bonds"
+   "en": "Believe in Our Bonds"
   },
   {
    "id": 94,
@@ -2165,7 +2166,7 @@
    "text": "破念のアサナ",
    "kind": "name",
    "keep": false,
-   "en": "Asana Break"
+   "en": "Asana of Broken Will"
   },
   {
    "id": 95,
@@ -2187,7 +2188,7 @@
    "text": "裁く者、裁かれし者",
    "kind": "text",
    "keep": false,
-   "en": "Judge and Judged"
+   "en": "The Judge and the Judged"
   },
   {
    "id": 96,
@@ -2209,7 +2210,7 @@
    "text": "呪われし闘士",
    "kind": "name",
    "keep": false,
-   "en": "Cursed Hero"
+   "en": "The Cursed Warrior"
   },
   {
    "id": 97,
@@ -2231,7 +2232,7 @@
    "text": "闇黒の叡智",
    "kind": "name",
    "keep": false,
-   "en": "Dark Lore"
+   "en": "Wisdom of Darkness"
   },
   {
    "id": 98,
@@ -2319,7 +2320,7 @@
    "text": "求めていた「答え」",
    "kind": "text",
    "keep": false,
-   "en": "Sought \"Answer\""
+   "en": "The \"Answer\" I Sought"
   },
   {
    "id": 102,
@@ -2363,7 +2364,7 @@
    "text": "最後の審判者",
    "kind": "name",
    "keep": false,
-   "en": "Final Judge"
+   "en": "The Final Judge"
   },
   {
    "id": 104,
@@ -2517,7 +2518,7 @@
    "text": "第三の戦端",
    "kind": "name",
    "keep": false,
-   "en": "3rd Front"
+   "en": "The Third Front"
   },
   {
    "id": 111,
@@ -2605,7 +2606,7 @@
    "text": "戦士達の記録",
    "kind": "name",
    "keep": false,
-   "en": "Warrior Log"
+   "en": "Record of the Warriors"
   },
   {
    "id": 115,
@@ -2693,7 +2694,7 @@
    "text": "闇に息づく野望",
    "kind": "name",
    "keep": false,
-   "en": "Dark Ambition"
+   "en": "Ambition Lurking in Darkness"
   },
   {
    "id": 119,
@@ -2715,7 +2716,7 @@
    "text": "生と死の分岐点",
    "kind": "name",
    "keep": false,
-   "en": "Life or Death"
+   "en": "Crossroads of Life and Death"
   },
   {
    "id": 120,
@@ -2737,7 +2738,7 @@
    "text": "静かなる戦術",
    "kind": "name",
    "keep": false,
-   "en": "Calm Tactic"
+   "en": "Silent Tactics"
   },
   {
    "id": 121,
@@ -2759,7 +2760,7 @@
    "text": "勝利者への機構",
    "kind": "name",
    "keep": false,
-   "en": "Victor Engine"
+   "en": "Machinery for the Victor"
   },
   {
    "id": 122,
@@ -2781,7 +2782,7 @@
    "text": "試される戦略",
    "kind": "name",
    "keep": false,
-   "en": "Tested Plan"
+   "en": "Strategy Put to the Test"
   },
   {
    "id": 123,
@@ -2803,7 +2804,7 @@
    "text": "傷だらけの指揮者",
    "kind": "name",
    "keep": false,
-   "en": "Scarred Leader"
+   "en": "The Battle-Scarred Commander"
   },
   {
    "id": 124,
@@ -2825,7 +2826,7 @@
    "text": "猛き巨神の交響曲",
    "kind": "name",
    "keep": false,
-   "en": "Titan Symphony"
+   "en": "Symphony of the Fierce Titan"
   },
   {
    "id": 125,
@@ -2847,7 +2848,7 @@
    "text": "我が望むは勝利の福音",
    "kind": "name",
    "keep": false,
-   "en": "Gospel of Victory"
+   "en": "What I Desire Is the Gospel of Victory"
   },
   {
    "id": 126,
@@ -3133,7 +3134,7 @@
    "text": "雀武周天",
    "kind": "name",
    "keep": false,
-   "en": "Jakubu"
+   "en": "Jakubu Shuten"
   },
   {
    "id": 139,
@@ -3177,7 +3178,7 @@
    "text": "炎の中華体育教師",
    "kind": "name",
    "keep": false,
-   "en": "Fire PE Teacher"
+   "en": "The Fiery Chinese PE Teacher"
   },
   {
    "id": 141,
@@ -3199,7 +3200,7 @@
    "text": "水と沼の国から",
    "kind": "name",
    "keep": false,
-   "en": "From the Fens"
+   "en": "From Lands of Water and Bogs"
   },
   {
    "id": 142,
@@ -3243,7 +3244,7 @@
    "text": "春風のプレシア",
    "kind": "name",
    "keep": false,
-   "en": "Spring Precia"
+   "en": "Precia of the Spring Breeze"
   },
   {
    "id": 144,
@@ -3265,7 +3266,7 @@
    "text": "終わりなき戦い",
    "kind": "name",
    "keep": false,
-   "en": "Endless War"
+   "en": "The Never-Ending Battle"
   },
   {
    "id": 145,
@@ -3287,7 +3288,7 @@
    "text": "巨大な闇",
    "kind": "name",
    "keep": false,
-   "en": "Abyss"
+   "en": "Vast Darkness"
   },
   {
    "id": 146,
@@ -3309,7 +3310,7 @@
    "text": "迫り来る敵",
    "kind": "name",
    "keep": false,
-   "en": "Foes Near"
+   "en": "The Approaching Foe"
   },
   {
    "id": 147,
@@ -3331,7 +3332,7 @@
    "text": "ラングランの風",
    "kind": "name",
    "keep": false,
-   "en": "Langran Wind"
+   "en": "The Winds of Langran"
   },
   {
    "id": 148,
@@ -3353,7 +3354,7 @@
    "text": "情熱のプリンセス",
    "kind": "name",
    "keep": false,
-   "en": "Ardent Princess"
+   "en": "Princess of Passion"
   },
   {
    "id": 149,
@@ -3397,7 +3398,7 @@
    "text": "Ｄｕｏｌｏｇｕｅ",
    "kind": "name",
    "keep": false,
-   "en": "Dologue"
+   "en": "Duologue"
   },
   {
    "id": 151,
@@ -3485,7 +3486,7 @@
    "text": "うつろな魂",
    "kind": "name",
    "keep": false,
-   "en": "Void Soul"
+   "en": "Hollow Soul"
   },
   {
    "id": 155,
@@ -3595,7 +3596,7 @@
    "text": "月夜の晩に",
    "kind": "name",
    "keep": false,
-   "en": "Moonlight"
+   "en": "On a Moonlit Night"
   },
   {
    "id": 160,
@@ -3639,7 +3640,7 @@
    "text": "作戦立てる？",
    "kind": "text",
    "keep": false,
-   "en": "Plan Ahead?"
+   "en": "Shall We Make a Plan?"
   },
   {
    "id": 162,
@@ -3661,7 +3662,7 @@
    "text": "ねぇ、作戦立てる？",
    "kind": "text",
    "keep": false,
-   "en": "Hey, Plan Ahead?"
+   "en": "Hey, Shall We Make a Plan?"
   },
   {
    "id": 163,
@@ -3683,7 +3684,7 @@
    "text": "予感",
    "kind": "name",
    "keep": false,
-   "en": "Omen"
+   "en": "Presage"
   },
   {
    "id": 164,
@@ -3727,7 +3728,7 @@
    "text": "精霊の加護",
    "kind": "name",
    "keep": false,
-   "en": "Blessing"
+   "en": "Blessing of Spirits"
   },
   {
    "id": 166,
@@ -3749,7 +3750,7 @@
    "text": "時を越えて",
    "kind": "name",
    "keep": false,
-   "en": "Timeless"
+   "en": "Beyond Time"
   },
   {
    "id": 167,
@@ -3793,7 +3794,7 @@
    "text": "力と技",
    "kind": "name",
    "keep": false,
-   "en": "Might"
+   "en": "Power & Art"
   },
   {
    "id": 169,
@@ -3815,7 +3816,7 @@
    "text": "１００光年の勇気",
    "kind": "name",
    "keep": false,
-   "en": "100 LY of Valor"
+   "en": "100 Light-Years of Courage"
   },
   {
    "id": 170,
@@ -3881,7 +3882,7 @@
    "text": "衝撃",
    "kind": "name",
    "keep": false,
-   "en": "Jolt"
+   "en": "Impact"
   },
   {
    "id": 173,
@@ -3969,7 +3970,7 @@
    "text": "君がいるから",
    "kind": "name",
    "keep": false,
-   "en": "You're Here"
+   "en": "Because You're Here"
   },
   {
    "id": 177,
@@ -3991,7 +3992,7 @@
    "text": "悲しみは消えず",
    "kind": "name",
    "keep": false,
-   "en": "Grief Lingers"
+   "en": "The Sorrow Never Fades"
   },
   {
    "id": 178,
@@ -4058,7 +4059,7 @@
    "text": "暴虐の超機人",
    "kind": "name",
    "keep": false,
-   "en": "Cruel Titan"
+   "en": "The Tyrannical Chokijin"
   },
   {
    "id": 181,
@@ -4080,7 +4081,7 @@
    "text": "四龍の長",
    "kind": "name",
    "keep": false,
-   "en": "Eldest"
+   "en": "4 Dragons' Elder"
   },
   {
    "id": 182,
@@ -4146,7 +4147,7 @@
    "text": "奔る黒影",
    "kind": "name",
    "keep": false,
-   "en": "Shadow"
+   "en": "Black Shade Runs"
   },
   {
    "id": 185,
@@ -4212,7 +4213,7 @@
    "text": "古の忌憶",
    "kind": "name",
    "keep": false,
-   "en": "Old Woe"
+   "en": "Cursed Memories"
   },
   {
    "id": 188,
@@ -4278,7 +4279,7 @@
    "text": "想い、届くことなく",
    "kind": "text",
    "keep": false,
-   "en": "Feelings Unsent"
+   "en": "Feelings That Never Reached You"
   },
   {
    "id": 191,
@@ -4322,7 +4323,7 @@
    "text": "君とのひととき",
    "kind": "name",
    "keep": false,
-   "en": "Time With You"
+   "en": "A Moment With You"
   },
   {
    "id": 193,
@@ -4344,7 +4345,7 @@
    "text": "正義は我にあり",
    "kind": "name",
    "keep": false,
-   "en": "Right Is Ours"
+   "en": "Justice Is on My Side"
   },
   {
    "id": 194,
@@ -4388,7 +4389,7 @@
    "text": "軍神が災いを呼ぶ",
    "kind": "name",
    "keep": false,
-   "en": "War God's Curse"
+   "en": "The War God Brings Calamity"
   },
   {
    "id": 196,
@@ -4410,7 +4411,7 @@
    "text": "あの青い空へ",
    "kind": "name",
    "keep": false,
-   "en": "To Blue Sky"
+   "en": "To That Blue Sky"
   },
   {
    "id": 197,
@@ -4498,7 +4499,7 @@
    "text": "バラルの園",
    "kind": "name",
    "keep": false,
-   "en": "Baral Den"
+   "en": "Garden of Baral"
   },
   {
    "id": 201,
@@ -4564,7 +4565,7 @@
    "text": "闘志、果てなく",
    "kind": "text",
    "keep": false,
-   "en": "Mettle Always"
+   "en": "Mettle Without End"
   },
   {
    "id": 204,
@@ -4652,7 +4653,7 @@
    "text": "黒焔の狩人",
    "kind": "name",
    "keep": false,
-   "en": "Blackfire"
+   "en": "Black Flame Hunter"
   },
   {
    "id": 208,
@@ -4740,7 +4741,7 @@
    "text": "鋼の救世主",
    "kind": "name",
    "keep": false,
-   "en": "Iron Hero"
+   "en": "Savior of Steel"
   },
   {
    "id": 212,
@@ -4828,7 +4829,7 @@
    "text": "迷宮のプリズナー",
    "kind": "name",
    "keep": false,
-   "en": "Maze Prisoner"
+   "en": "Prisoner of the Labyrinth"
   },
   {
    "id": 216,

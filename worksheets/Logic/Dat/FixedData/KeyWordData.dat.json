@@ -93,7 +93,8 @@
    "text": "ダミー",
    "kind": "name",
    "keep": false,
-   "en": "Dummy"
+   "en": "Dummy",
+   "retry_note": "Earlier version 'Dummy' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 1,
@@ -321,7 +322,7 @@
    "text": "アイドネウス島",
    "kind": "name",
    "keep": false,
-   "en": "Aidoneus Isle"
+   "en": "Aidoneus Island"
   },
   {
    "id": 9,
@@ -475,7 +476,7 @@
    "text": "αリンク系数",
    "kind": "name",
    "keep": false,
-   "en": "Alpha Link"
+   "en": "Alpha Link Coefficient"
   },
   {
    "id": 13,
@@ -593,7 +594,7 @@
    "text": "ＥＯＴＩ機関",
    "kind": "name",
    "keep": false,
-   "en": "EOTI Org."
+   "en": "EOTI Institute"
   },
   {
    "id": 17,
@@ -657,7 +658,7 @@
    "text": "ＥＯＴ特別審議会",
    "kind": "name",
    "keep": false,
-   "en": "EOT Council"
+   "en": "EOT Special Council"
   },
   {
    "id": 19,
@@ -725,7 +726,7 @@
    "text": "イスルギ重工",
    "kind": "name",
    "keep": false,
-   "en": "Isurugi"
+   "en": "Isurugi Heavy Industries"
   },
   {
    "id": 21,
@@ -871,7 +872,7 @@
    "text": "インスペクター事件",
    "kind": "name",
    "keep": false,
-   "en": "Inspector Affair"
+   "en": "Inspector Incident"
   },
   {
    "id": 25,
@@ -1101,7 +1102,7 @@
    "text": "　<アーマードモジュール>の略称。",
    "kind": "text",
    "keep": false,
-   "en": "Short for <アーマードモジュール>."
+   "en": "Short for\n<アーマードモジュール>."
   },
   {
    "id": 32,
@@ -1187,7 +1188,7 @@
    "text": "ＡＴＸ計画",
    "kind": "name",
    "keep": false,
-   "en": "ATX Plan"
+   "en": "ATX Project"
   },
   {
    "id": 35,
@@ -1247,7 +1248,7 @@
    "text": "ＳＲＸ計画",
    "kind": "name",
    "keep": false,
-   "en": "SRX Plan"
+   "en": "SRX Project"
   },
   {
    "id": 37,
@@ -1361,7 +1362,7 @@
    "text": "ＭＡＰＷ",
    "kind": "name",
    "keep": false,
-   "en": "MAPW"
+   "en": "MAP Weapon"
   },
   {
    "id": 41,
@@ -1417,7 +1418,7 @@
    "text": "Ｌ５戦役",
    "kind": "name",
    "keep": false,
-   "en": "L5 War"
+   "en": "L5 Campaign"
   },
   {
    "id": 43,
@@ -1583,7 +1584,7 @@
    "text": "教導隊",
    "kind": "name",
    "keep": false,
-   "en": "Instr"
+   "en": "Instructors"
   },
   {
    "id": 47,
@@ -1605,7 +1606,7 @@
    "text": "　<特殊戦技教導隊>のこと。",
    "kind": "text",
    "keep": false,
-   "en": "See <特殊戦技教導隊>."
+   "en": "Refers to the\n<特殊戦技教導隊>."
   },
   {
    "id": 48,
@@ -1693,7 +1694,7 @@
    "text": "コロニー統合軍",
    "kind": "name",
    "keep": false,
-   "en": "United Colony\nCorps"
+   "en": "United Colony Corps"
   },
   {
    "id": 51,
@@ -1841,7 +1842,7 @@
    "text": "修羅神",
    "kind": "name",
    "keep": false,
-   "en": "Shura\nGod"
+   "en": "Shura God"
   },
   {
    "id": 55,
@@ -1935,7 +1936,7 @@
    "text": "修羅の乱",
    "kind": "name",
    "keep": false,
-   "en": "Shura\nRevolt"
+   "en": "Shura Revolt"
   },
   {
    "id": 57,
@@ -2009,7 +2010,7 @@
    "text": "スクール",
    "kind": "name",
    "keep": false,
-   "en": "The\nSchool"
+   "en": "The School"
   },
   {
    "id": 59,
@@ -2105,7 +2106,7 @@
    "text": "地球連邦軍",
    "kind": "name",
    "keep": false,
-   "en": "Earth\nFed. Army"
+   "en": "Earth Federation\nArmy"
   },
   {
    "id": 61,
@@ -2223,7 +2224,7 @@
    "text": "超機人",
    "kind": "name",
    "keep": false,
-   "en": "Chou-\nkijin"
+   "en": "Choukijin"
   },
   {
    "id": 65,
@@ -2289,7 +2290,7 @@
    "text": "調和の結界",
    "kind": "name",
    "keep": false,
-   "en": "Harmony\nBarrier"
+   "en": "Harmony Barrier"
   },
   {
    "id": 67,
@@ -2811,7 +2812,7 @@
    "text": "テスラ・ライヒ研究所",
    "kind": "name",
    "keep": false,
-   "en": "Tesla Reich\nInstitute"
+   "en": "Tesla Reich Institute"
   },
   {
    "id": 83,
@@ -2879,7 +2880,7 @@
    "text": "テレキネシスαパルス",
    "kind": "name",
    "keep": false,
-   "en": "Telekinesis\nAlpha Pulse"
+   "en": "Telekinesis Alpha Pulse"
   },
   {
    "id": 85,
@@ -2931,7 +2932,7 @@
    "text": "特殊戦技教導隊",
    "kind": "name",
    "keep": false,
-   "en": "Tactical\nInstructors"
+   "en": "Special Tactics\nInstructor Unit"
   },
   {
    "id": 87,
@@ -3005,7 +3006,7 @@
    "text": "特機",
    "kind": "name",
    "keep": false,
-   "en": "SR"
+   "en": "Super\nRobot"
   },
   {
    "id": 89,
@@ -3137,7 +3138,7 @@
    "text": "南極事件",
    "kind": "name",
    "keep": false,
-   "en": "S. Pole\nAffair"
+   "en": "Antarctic\nIncident"
   },
   {
    "id": 93,
@@ -3733,7 +3734,7 @@
    "text": "マシンセル",
    "kind": "name",
    "keep": false,
-   "en": "Mach Cell"
+   "en": "Machine Cell"
   },
   {
    "id": 111,
@@ -3799,7 +3800,7 @@
    "text": "魔装機",
    "kind": "name",
    "keep": false,
-   "en": "Masou"
+   "en": "Masouki"
   },
   {
    "id": 113,
@@ -3853,7 +3854,7 @@
    "text": "魔装機神",
    "kind": "name",
    "keep": false,
-   "en": "Kishin"
+   "en": "Masoukishin"
   },
   {
    "id": 115,
@@ -3909,7 +3910,7 @@
    "text": "メテオ３",
    "kind": "name",
    "keep": false,
-   "en": "Meteor3"
+   "en": "Meteor 3"
   },
   {
    "id": 117,
@@ -4091,7 +4092,7 @@
    "text": "リマコン",
    "kind": "name",
    "keep": false,
-   "en": "Remacon"
+   "en": "Remote Control"
   },
   {
    "id": 123,
@@ -4273,8 +4274,8 @@
    "text": "歪曲フィールド",
    "kind": "name",
    "keep": false,
-   "en": "Dist. Field",
-   "retry_note": "FIXH: 'Distortion Field' failed (width: 233px > 224px: 'Distortion Field')"
+   "en": "Distortion Field",
+   "retry_note": "Earlier version 'Dist. Field' was squeezed into a limit that was far too strict. Use the full natural English term (no abbreviations unless standard, like HP/EN/SP) within the new max_chars_per_line."
   },
   {
    "id": 129,

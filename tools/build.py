@@ -77,7 +77,7 @@ def build(work, out, only=None, check_only=False):
         ws = json.load(open(jpath, encoding="utf-8"))
         if not worksheet_has_edits(ws):
             continue
-        tool = TOOL_FOR_FORMAT.get(ws.get("format"))
+        tool = TOOL_FOR_FORMAT.get(str(ws.get("format", "")).split()[0])
         if tool is None:
             print("!! %s: unknown format %r" % (jpath, ws.get("format")))
             problems += 1

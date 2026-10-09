@@ -67,7 +67,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "エースボーナスは獲得できません"
+   "text": "エースボーナスは獲得できません",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 1,
@@ -90,7 +93,10 @@
    "lines": [
     "援護攻撃の最終ダメージ＋１０％",
     "援護防御の最終ダメージ－２０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 2,
@@ -109,7 +115,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "援護攻撃の最終ダメージ＋１０％、援護防御の最終ダメージ－２０％"
+   "text": "援護攻撃の最終ダメージ＋１０％、援護防御の最終ダメージ－２０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 3,
@@ -132,7 +141,10 @@
    "lines": [
     "最終命中率＋１０％",
     "クリティカル発生率＋２０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 4,
@@ -151,7 +163,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終命中率＋１０％、クリティカル発生率＋２０％"
+   "text": "最終命中率＋１０％、クリティカル発生率＋２０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 5,
@@ -174,7 +189,10 @@
    "lines": [
     "援護防御の最終ダメージ－２０％",
     "獲得経験値＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 6,
@@ -193,7 +211,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "援護防御の最終ダメージ－２０％、獲得経験値＋１０％"
+   "text": "援護防御の最終ダメージ－２０％、獲得経験値＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 7,
@@ -216,7 +237,10 @@
    "lines": [
     "獲得経験値＋１０％",
     "獲得資金＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 8,
@@ -235,7 +259,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "獲得経験値＋１０％、獲得資金＋１０％"
+   "text": "獲得経験値＋１０％、獲得資金＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 9,
@@ -258,7 +285,10 @@
    "lines": [
     "獲得経験値＋１０％",
     "技量＋１０"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 10,
@@ -277,7 +307,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "獲得経験値＋１０％、技量＋１０"
+   "text": "獲得経験値＋１０％、技量＋１０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 11,
@@ -300,7 +333,10 @@
    "lines": [
     "ラッキーの発生率＋１０％",
     "精神コマンド「幸運」の消費ＳＰ１５"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 12,
@@ -319,7 +355,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ラッキーの発生率＋１０％、精神コマンド「幸運」の消費ＳＰ１５"
+   "text": "ラッキーの発生率＋１０％、精神コマンド「幸運」の消費ＳＰ１５",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 13,
@@ -342,7 +381,10 @@
    "lines": [
     "最終命中率＋１０％",
     "最終回避率＋５％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 14,
@@ -361,7 +403,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終命中率＋１０％、最終回避率＋５％"
+   "text": "最終命中率＋１０％、最終回避率＋５％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 15,
@@ -384,7 +429,10 @@
    "lines": [
     "最終回避率＋１０％",
     "クリティカル発生率＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 16,
@@ -403,7 +451,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終回避率＋１０％、クリティカル発生率＋１０％"
+   "text": "最終回避率＋１０％、クリティカル発生率＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 17,
@@ -426,7 +477,10 @@
    "lines": [
     "獲得資金＋１０％",
     "最終命中率＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 18,
@@ -445,7 +499,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "獲得資金＋１０％、最終命中率＋１０％"
+   "text": "獲得資金＋１０％、最終命中率＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 19,
@@ -468,7 +525,10 @@
    "lines": [
     "念動系武器の与える、",
     "最終ダメージ＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 20,
@@ -487,7 +547,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "念動系武器の与える、最終ダメージ＋１０％"
+   "text": "念動系武器の与える、最終ダメージ＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 21,
@@ -510,7 +573,10 @@
    "lines": [
     "最終命中率＋１０％",
     "最終回避率＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 22,
@@ -529,7 +595,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終命中率＋１０％、最終回避率＋１０％"
+   "text": "最終命中率＋１０％、最終回避率＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 23,
@@ -552,7 +621,10 @@
    "lines": [
     "最終命中率＋１０％",
     "ＳＰ＋２０"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 24,
@@ -571,7 +643,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終命中率＋１０％、ＳＰ＋２０"
+   "text": "最終命中率＋１０％、ＳＰ＋２０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 25,
@@ -594,7 +669,10 @@
    "lines": [
     "クリティカル率＋２０％",
     "技量＋１０"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 26,
@@ -613,7 +691,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "クリティカル率＋２０％、技量＋１０"
+   "text": "クリティカル率＋２０％、技量＋１０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 27,
@@ -637,7 +718,10 @@
    "lines": [
     "最終回避率＋１０％",
     "ＳＰ＋２０"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 28,
@@ -657,7 +741,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終回避率＋１０％、ＳＰ＋２０"
+   "text": "最終回避率＋１０％、ＳＰ＋２０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 29,
@@ -680,7 +767,10 @@
    "lines": [
     "与える最終ダメージ＋５％",
     "最終命中率＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 30,
@@ -699,7 +789,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "与える最終ダメージ＋５％、最終命中率＋１０％"
+   "text": "与える最終ダメージ＋５％、最終命中率＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 31,
@@ -719,7 +812,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "与える最終ダメージ＋１０％"
+   "text": "与える最終ダメージ＋１０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 32,
@@ -742,7 +838,10 @@
    "lines": [
     "マップ兵器及び射程１以外の",
     "武器からの最終ダメージ－２０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 33,
@@ -761,7 +860,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "マップ兵器及び射程１以外の、武器からの最終ダメージ－２０％"
+   "text": "マップ兵器及び射程１以外の、武器からの最終ダメージ－２０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 34,
@@ -781,7 +883,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "精神コマンド「愛」の消費ＳＰ４５"
+   "text": "精神コマンド「愛」の消費ＳＰ４５",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 35,
@@ -806,7 +911,10 @@
     "命中率＋１０％",
     "回避率＋１０％",
     "クリティカル発生率＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 36,
@@ -825,7 +933,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "命中率＋１０％、回避率＋１０％、クリティカル発生率＋１０％"
+   "text": "命中率＋１０％、回避率＋１０％、クリティカル発生率＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 37,
@@ -848,7 +959,10 @@
    "lines": [
     "格闘武器の与える、",
     "最終ダメージ＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 38,
@@ -867,7 +981,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "格闘武器の与える、最終ダメージ＋１０％"
+   "text": "格闘武器の与える、最終ダメージ＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 39,
@@ -890,7 +1007,10 @@
    "lines": [
     "射撃武器の与える、",
     "最終ダメージ＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 40,
@@ -909,7 +1029,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "射撃武器の与える、最終ダメージ＋１０％"
+   "text": "射撃武器の与える、最終ダメージ＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 41,
@@ -932,7 +1055,10 @@
    "lines": [
     "受ける最終ダメージ－１０％",
     "獲得資金＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 42,
@@ -951,7 +1077,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "受ける最終ダメージ－１０％、獲得資金＋１０％"
+   "text": "受ける最終ダメージ－１０％、獲得資金＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 43,
@@ -974,7 +1103,10 @@
    "lines": [
     "最終回避率＋１０％",
     "獲得経験値＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 44,
@@ -993,7 +1125,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終回避率＋１０％、獲得経験値＋１０％"
+   "text": "最終回避率＋１０％、獲得経験値＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 45,
@@ -1016,7 +1151,10 @@
    "lines": [
     "反撃時に与える、",
     "最終ダメージ＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 46,
@@ -1035,7 +1173,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "反撃時に与える、最終ダメージ＋１０％"
+   "text": "反撃時に与える、最終ダメージ＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 47,
@@ -1055,7 +1196,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力＋１"
+   "text": "移動力＋１",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 48,
@@ -1078,7 +1222,10 @@
    "lines": [
     "指揮効果＋５％",
     "クリティカル発生率＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 49,
@@ -1097,7 +1244,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "指揮効果＋５％、クリティカル発生率＋１０％"
+   "text": "指揮効果＋５％、クリティカル発生率＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 50,
@@ -1117,7 +1267,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終回避率＋１５％"
+   "text": "最終回避率＋１５％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 51,
@@ -1137,7 +1290,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "獲得経験値＋２０％"
+   "text": "獲得経験値＋２０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 52,
@@ -1157,7 +1313,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "獲得資金＋２０％"
+   "text": "獲得資金＋２０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 53,
@@ -1180,7 +1339,10 @@
    "lines": [
     "最終命中率＋１０％",
     "受ける最終ダメージ－１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 54,
@@ -1199,7 +1361,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終命中率＋１０％、受ける最終ダメージ－１０％"
+   "text": "最終命中率＋１０％、受ける最終ダメージ－１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 55,
@@ -1219,7 +1384,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "援護防御の最終ダメージ－３０％"
+   "text": "援護防御の最終ダメージ－３０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 56,
@@ -1239,7 +1407,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "受ける最終ダメージ－１０％"
+   "text": "受ける最終ダメージ－１０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 57,
@@ -1262,7 +1433,10 @@
    "lines": [
     "マップ兵器及び射程１以外の",
     "武器からの最終ダメージ－１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 58,
@@ -1281,7 +1455,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "マップ兵器及び射程１以外の、武器からの最終ダメージ－１０％"
+   "text": "マップ兵器及び射程１以外の、武器からの最終ダメージ－１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 59,
@@ -1301,7 +1478,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "指揮効果＋５％"
+   "text": "指揮効果＋５％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 60,
@@ -1321,7 +1501,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "クリティカル発生率＋４０％"
+   "text": "クリティカル発生率＋４０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 61,
@@ -1341,7 +1524,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "気力１３０以上で、受ける最終ダメージ－１５％"
+   "text": "気力１３０以上で、受ける最終ダメージ－１５％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 62,
@@ -1364,7 +1550,10 @@
    "lines": [
     "最終命中率＋２０％",
     "受ける最終ダメージ－１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 63,
@@ -1383,7 +1572,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終命中率＋２０％、受ける最終ダメージ－１０％"
+   "text": "最終命中率＋２０％、受ける最終ダメージ－１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 64,
@@ -1408,7 +1600,10 @@
     "射撃武器の与える、",
     "最終ダメージ＋１０％",
     "回避率＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 65,
@@ -1427,7 +1622,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "射撃武器の与える、最終ダメージ＋１０％、回避率＋１０％"
+   "text": "射撃武器の与える、最終ダメージ＋１０％、回避率＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 66,
@@ -1450,7 +1648,10 @@
    "lines": [
     "指揮効果＋５％",
     "受ける最終ダメージ－１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 67,
@@ -1469,7 +1670,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "指揮効果＋５％、受ける最終ダメージ－１０％"
+   "text": "指揮効果＋５％、受ける最終ダメージ－１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 68,
@@ -1492,7 +1696,10 @@
    "lines": [
     "回避率＋１０％",
     "クリティカル発生率＋２０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 69,
@@ -1511,7 +1718,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "回避率＋１０％、クリティカル発生率＋２０％"
+   "text": "回避率＋１０％、クリティカル発生率＋２０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 70,
@@ -1536,7 +1746,10 @@
     "命中率＋１０％",
     "反撃時に与える、",
     "最終ダメージ＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 71,
@@ -1555,7 +1768,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "命中率＋１０％、反撃時に与える、最終ダメージ＋１０％"
+   "text": "命中率＋１０％、反撃時に与える、最終ダメージ＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 72,
@@ -1578,7 +1794,10 @@
    "lines": [
     "受ける最終ダメージ－５％",
     "回避率＋５％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 73,
@@ -1597,7 +1816,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "受ける最終ダメージ－５％、回避率＋５％"
+   "text": "受ける最終ダメージ－５％、回避率＋５％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 74,
@@ -1622,7 +1844,10 @@
     "命中率＋５％",
     "回避率＋５％",
     "クリティカル発生率＋５％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 75,
@@ -1641,7 +1866,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "命中率＋５％、回避率＋５％、クリティカル発生率＋５％"
+   "text": "命中率＋５％、回避率＋５％、クリティカル発生率＋５％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 76,
@@ -1664,7 +1892,10 @@
    "lines": [
     "受ける最終ダメージ－５％",
     "命中率＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 77,
@@ -1683,7 +1914,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "受ける最終ダメージ－５％、命中率＋１０％"
+   "text": "受ける最終ダメージ－５％、命中率＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 78,
@@ -1703,7 +1937,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "受ける最終ダメージ－２０％"
+   "text": "受ける最終ダメージ－２０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 79,
@@ -1723,7 +1960,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "命中率＋１０％"
+   "text": "命中率＋１０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 80,
@@ -1743,7 +1983,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "クリティカル発生率＋１０％"
+   "text": "クリティカル発生率＋１０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 81,
@@ -1763,7 +2006,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "回避率＋２０％"
+   "text": "回避率＋２０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 82,
@@ -1783,7 +2029,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "クリティカル発生率＋２０％"
+   "text": "クリティカル発生率＋２０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 83,
@@ -1803,7 +2052,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "命中率＋２０％"
+   "text": "命中率＋２０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 84,
@@ -1823,7 +2075,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終命中率＋１５％"
+   "text": "最終命中率＋１５％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 85,
@@ -1846,7 +2101,10 @@
    "lines": [
     "与える最終ダメージ＋２０％",
     "クリティカル発生率＋３０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 86,
@@ -1865,7 +2123,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "与える最終ダメージ＋２０％、クリティカル発生率＋３０％"
+   "text": "与える最終ダメージ＋２０％、クリティカル発生率＋３０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 87,
@@ -1885,7 +2146,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "与える最終ダメージ＋５％"
+   "text": "与える最終ダメージ＋５％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 88,
@@ -1908,7 +2172,10 @@
    "lines": [
     "射撃武器の与える、",
     "最終ダメージ＋５％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 89,
@@ -1927,7 +2194,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "射撃武器の与える、最終ダメージ＋５％"
+   "text": "射撃武器の与える、最終ダメージ＋５％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 90,
@@ -1947,7 +2217,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "受ける最終ダメージ－５％"
+   "text": "受ける最終ダメージ－５％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 91,
@@ -1967,7 +2240,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終命中率＋１０％"
+   "text": "最終命中率＋１０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 92,
@@ -1990,7 +2266,10 @@
    "lines": [
     "命中率＋５％",
     "回避率＋５％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 93,
@@ -2009,7 +2288,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "命中率＋５％、回避率＋５％"
+   "text": "命中率＋５％、回避率＋５％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 94,
@@ -2029,7 +2311,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "クリティカル発生率＋５％"
+   "text": "クリティカル発生率＋５％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 95,
@@ -2052,7 +2337,10 @@
    "lines": [
     "カウンター発生率＋１５％",
     "クリティカル率＋２５％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 96,
@@ -2071,7 +2359,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "カウンター発生率＋１５％、クリティカル率＋２５％"
+   "text": "カウンター発生率＋１５％、クリティカル率＋２５％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 97,
@@ -2091,7 +2382,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＳＰ＋３０"
+   "text": "ＳＰ＋３０",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 98,
@@ -2114,7 +2408,10 @@
    "lines": [
     "獲得経験値＋１０％",
     "精神コマンド「祝福」の消費ＳＰ２０"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 99,
@@ -2133,7 +2430,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "獲得経験値＋１０％、精神コマンド「祝福」の消費ＳＰ２０"
+   "text": "獲得経験値＋１０％、精神コマンド「祝福」の消費ＳＰ２０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 100,
@@ -2156,7 +2456,10 @@
    "lines": [
     "最終回避率＋１０％",
     "受ける最終ダメージ－１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 101,
@@ -2175,7 +2478,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終回避率＋１０％、受ける最終ダメージ－１０％"
+   "text": "最終回避率＋１０％、受ける最終ダメージ－１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 102,
@@ -2195,7 +2501,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "回避率＋１０％"
+   "text": "回避率＋１０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 103,
@@ -2218,7 +2527,10 @@
    "lines": [
     "反撃時に与える、",
     "最終ダメージ＋５％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 104,
@@ -2237,7 +2549,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "反撃時に与える、最終ダメージ＋５％"
+   "text": "反撃時に与える、最終ダメージ＋５％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 105,
@@ -2262,7 +2577,10 @@
     "クリティカル発生率＋１０％",
     "反撃時に与える、",
     "最終ダメージ＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 106,
@@ -2281,7 +2599,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "クリティカル発生率＋１０％、反撃時に与える、最終ダメージ＋１０％"
+   "text": "クリティカル発生率＋１０％、反撃時に与える、最終ダメージ＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 107,
@@ -2304,7 +2625,10 @@
    "lines": [
     "与える最終ダメージ＋１０％",
     "命中率＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 108,
@@ -2323,7 +2647,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "与える最終ダメージ＋１０％、命中率＋１０％"
+   "text": "与える最終ダメージ＋１０％、命中率＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 109,
@@ -2346,7 +2673,10 @@
    "lines": [
     "ラッキーの発生率＋１０％",
     "最終回避率＋５％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 110,
@@ -2365,7 +2695,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ラッキーの発生率＋１０％、最終回避率＋５％"
+   "text": "ラッキーの発生率＋１０％、最終回避率＋５％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 111,
@@ -2385,7 +2718,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "受ける最終ダメージ－１５％"
+   "text": "受ける最終ダメージ－１５％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 112,
@@ -2405,7 +2741,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "クリティカル発生率＋３０％"
+   "text": "クリティカル発生率＋３０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 113,
@@ -2428,7 +2767,10 @@
    "lines": [
     "指揮効果＋５％",
     "最終命中率＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 114,
@@ -2447,7 +2789,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "指揮効果＋５％、最終命中率＋１０％"
+   "text": "指揮効果＋５％、最終命中率＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 115,
@@ -2467,7 +2812,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "気力１６０以上で、自軍フェイズ開始時に「覚醒」が掛かる"
+   "text": "気力１６０以上で、自軍フェイズ開始時に「覚醒」が掛かる",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 116,
@@ -2490,7 +2838,10 @@
    "lines": [
     "獲得資金＋１０％",
     "ＳＰ＋１５"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 117,
@@ -2509,7 +2860,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "獲得資金＋１０％、ＳＰ＋１５"
+   "text": "獲得資金＋１０％、ＳＰ＋１５",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 118,
@@ -2534,7 +2888,10 @@
     "与える最終ダメージ＋２０％",
     "最終命中率＋１５％",
     "クリティカル発生率＋１５％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 119,
@@ -2557,7 +2914,10 @@
    "lines": [
     "与える最終ダメージ＋２０％、最終命中率＋１５％、",
     "クリティカル発生率＋１５％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 120,
@@ -2582,7 +2942,10 @@
     "与える最終ダメージ＋１５％",
     "最終命中率＋１０％",
     "クリティカル発生率＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 121,
@@ -2605,7 +2968,10 @@
    "lines": [
     "与える最終ダメージ＋１５％、最終命中率＋１０％、",
     "クリティカル発生率＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 122,
@@ -2630,7 +2996,10 @@
     "与える最終ダメージ＋１０％",
     "最終命中率＋１０％",
     "クリティカル発生率＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 123,
@@ -2653,7 +3022,10 @@
    "lines": [
     "与える最終ダメージ＋１０％、最終命中率＋１０％、",
     "クリティカル発生率＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 124,
@@ -2676,7 +3048,10 @@
    "lines": [
     "受ける最終ダメージ－５％",
     "最終回避率＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 125,
@@ -2695,7 +3070,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "受ける最終ダメージ－５％、最終回避率＋１０％"
+   "text": "受ける最終ダメージ－５％、最終回避率＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 126,
@@ -2718,7 +3096,10 @@
    "lines": [
     "最終命中率＋１０％",
     "クリティカル発生率＋１５％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 127,
@@ -2737,7 +3118,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終命中率＋１０％、クリティカル発生率＋１５％"
+   "text": "最終命中率＋１０％、クリティカル発生率＋１５％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 128,
@@ -2757,7 +3141,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "精神コマンド「再動」の消費ＳＰ４５"
+   "text": "精神コマンド「再動」の消費ＳＰ４５",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 129,
@@ -2782,7 +3169,10 @@
     "クリティカル発生率＋３０％",
     "格闘武器の与える、",
     "最終ダメージ＋５％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 130,
@@ -2805,7 +3195,10 @@
    "lines": [
     "クリティカル発生率＋３０％、格闘武器の与える、",
     "最終ダメージ＋５％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 131,
@@ -2828,7 +3221,10 @@
    "lines": [
     "最終回避率＋１０％",
     "クリティカル発生率＋１５％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 132,
@@ -2847,7 +3243,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終回避率＋１０％、クリティカル発生率＋１５％"
+   "text": "最終回避率＋１０％、クリティカル発生率＋１５％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 133,
@@ -2867,7 +3266,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "援護攻撃の最終ダメージ＋１５％"
+   "text": "援護攻撃の最終ダメージ＋１５％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 134,
@@ -2890,7 +3292,10 @@
    "lines": [
     "最終命中率＋５％",
     "クリティカル発生率＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 135,
@@ -2909,7 +3314,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終命中率＋５％、クリティカル発生率＋１０％"
+   "text": "最終命中率＋５％、クリティカル発生率＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 136,
@@ -2932,7 +3340,10 @@
    "lines": [
     "最終回避率＋５％",
     "クリティカル発生率＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 137,
@@ -2951,7 +3362,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終回避率＋５％、クリティカル発生率＋１０％"
+   "text": "最終回避率＋５％、クリティカル発生率＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 138,
@@ -2971,7 +3385,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "カウンター発生率＋４０％"
+   "text": "カウンター発生率＋４０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 139,
@@ -2994,7 +3411,10 @@
    "lines": [
     "最終命中率＋５％",
     "最終回避率＋５％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 140,
@@ -3013,7 +3433,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終命中率＋５％、最終回避率＋５％"
+   "text": "最終命中率＋５％、最終回避率＋５％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 141,
@@ -3033,7 +3456,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＨＰ３０％以下になると、一度だけ「鉄壁」が掛かる"
+   "text": "ＨＰ３０％以下になると、一度だけ「鉄壁」が掛かる",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 142,
@@ -3053,7 +3479,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "技量＋２５"
+   "text": "技量＋２５",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 143,
@@ -3073,7 +3502,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＨＰ３０％以下になると、一度だけ「気迫」が掛かる"
+   "text": "ＨＰ３０％以下になると、一度だけ「気迫」が掛かる",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 144,
@@ -3093,7 +3525,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "精神コマンド「修行」の消費ＳＰ２５"
+   "text": "精神コマンド「修行」の消費ＳＰ２５",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 145,
@@ -3113,7 +3548,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "精神コマンド「脱力」の消費ＳＰ２０"
+   "text": "精神コマンド「脱力」の消費ＳＰ２０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 146,
@@ -3136,7 +3574,10 @@
    "lines": [
     "マップ兵器及び射程１以外の",
     "武器の射程＋１"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 147,
@@ -3155,7 +3596,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "マップ兵器及び射程１以外の、武器の射程＋１"
+   "text": "マップ兵器及び射程１以外の、武器の射程＋１",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 148,
@@ -3175,7 +3619,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "精神コマンド「補給」の消費ＳＰ４０"
+   "text": "精神コマンド「補給」の消費ＳＰ４０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 149,
@@ -3195,7 +3642,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自軍フェイズ開始時に「幸運」が掛かる"
+   "text": "自軍フェイズ開始時に「幸運」が掛かる",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 150,
@@ -3215,7 +3665,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "気力１３０以上で、自軍フェイズ開始時に「努力」が掛かる"
+   "text": "気力１３０以上で、自軍フェイズ開始時に「努力」が掛かる",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 151,
@@ -3235,7 +3688,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "気力１３０以上で、最終命中率＋１５％、最終回避率＋１５％"
+   "text": "気力１３０以上で、最終命中率＋１５％、最終回避率＋１５％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 152,
@@ -3255,7 +3711,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＨＰ５０％以下で、一度だけ「かく乱」を使用する"
+   "text": "ＨＰ５０％以下で、一度だけ「かく乱」を使用する",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 153,
@@ -3275,7 +3734,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "気力１４０以上で、自軍フェイズ開始時に「集中」が掛かる"
+   "text": "気力１４０以上で、自軍フェイズ開始時に「集中」が掛かる",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 154,
@@ -3295,7 +3757,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＨＰ６０％以下で、一度だけ「覚醒」が掛かる"
+   "text": "ＨＰ６０％以下で、一度だけ「覚醒」が掛かる",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 155,
@@ -3315,7 +3780,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "全ての地形適応が「Ｓ」になる"
+   "text": "全ての地形適応が「Ｓ」になる",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 156,
@@ -3335,7 +3803,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＨＰ３０％以下で、自軍フェイズ開始時に「集中」が掛かる"
+   "text": "ＨＰ３０％以下で、自軍フェイズ開始時に「集中」が掛かる",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 157,
@@ -3355,7 +3826,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "精神コマンド「覚醒」の消費ＳＰ３０"
+   "text": "精神コマンド「覚醒」の消費ＳＰ３０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 158,
@@ -3375,7 +3849,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "精神コマンド「ド根性」の消費ＳＰ１５"
+   "text": "精神コマンド「ド根性」の消費ＳＰ１５",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 159,
@@ -3395,7 +3872,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＨＰ５０％以下で、最終命中率＋２０％"
+   "text": "ＨＰ５０％以下で、最終命中率＋２０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 160,
@@ -3415,7 +3895,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "技量＋３０、最終命中率＋１５％"
+   "text": "技量＋３０、最終命中率＋１５％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 161,
@@ -3438,7 +3921,10 @@
    "lines": [
     "最終命中率＋１５％",
     "ＳＰ＋１５"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 162,
@@ -3457,7 +3943,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最終命中率＋１５％、ＳＰ＋１５"
+   "text": "最終命中率＋１５％、ＳＰ＋１５",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 163,
@@ -3477,7 +3966,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "気力１４０以上で、一度だけ「絆」を使用する"
+   "text": "気力１４０以上で、一度だけ「絆」を使用する",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 164,
@@ -3497,7 +3989,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "気力１３０以上で、自軍フェイズ開始時に「直撃」が掛かる"
+   "text": "気力１３０以上で、自軍フェイズ開始時に「直撃」が掛かる",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 165,
@@ -3517,7 +4012,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＨＰ４０％以下になると、一度だけ「愛」が掛かる"
+   "text": "ＨＰ４０％以下になると、一度だけ「愛」が掛かる",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 166,
@@ -3537,7 +4035,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＨＰ１０％以下になると、一度だけ「祝福」が掛かる"
+   "text": "ＨＰ１０％以下になると、一度だけ「祝福」が掛かる",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 167,
@@ -3557,7 +4058,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "精神コマンド「信頼」の消費ＳＰ１０"
+   "text": "精神コマンド「信頼」の消費ＳＰ１０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 168,
@@ -3577,7 +4081,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "カウンター発生率＋２０％"
+   "text": "カウンター発生率＋２０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 169,
@@ -3597,7 +4104,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＨＰ４０％以下で、一度だけ「かく乱」を使用する"
+   "text": "ＨＰ４０％以下で、一度だけ「かく乱」を使用する",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 170,
@@ -3617,7 +4127,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＨＰ２０％以下で、自軍フェイズ開始時に「闘志」が掛かる"
+   "text": "ＨＰ２０％以下で、自軍フェイズ開始時に「闘志」が掛かる",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 171,
@@ -3640,7 +4153,10 @@
    "lines": [
     "クリティカル発生率＋１０％",
     "援護攻撃の最終ダメージ＋１０％"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 172,
@@ -3659,7 +4175,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "クリティカル発生率＋１０％、援護攻撃の最終ダメージ＋１０％"
+   "text": "クリティカル発生率＋１０％、援護攻撃の最終ダメージ＋１０％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   }
  ],
  "inline_strings": []

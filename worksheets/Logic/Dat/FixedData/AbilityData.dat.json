@@ -82,7 +82,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "－－－－－－"
+   "text": "－－－－－－",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 1,
@@ -102,7 +105,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＡＢフィールド"
+   "text": "ＡＢフィールド",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 2,
@@ -121,7 +127,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＥＮが１０以上の場合、ビーム攻撃（バリア貫通系武器を除く）によるダメージを１２００だけ軽減します。"
+   "text": "ＥＮが１０以上の場合、ビーム攻撃（バリア貫通系武器を除く）によるダメージを１２００だけ軽減します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 3,
@@ -141,7 +150,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｅフィールド"
+   "text": "Ｅフィールド",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 4,
@@ -164,7 +176,10 @@
    "lines": [
     "ＥＮが１５以上、気力が１２０以上の場合、全ての攻撃（バリア貫通系武器を除く）によるダメージを１５００だけ",
     "軽減します。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 5,
@@ -184,7 +199,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｇ・ウォール"
+   "text": "Ｇ・ウォール",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 6,
@@ -207,7 +225,10 @@
    "lines": [
     "ＥＮが５以上、気力が１２０以上の場合、全ての攻撃（バリア貫通系武器を除く）による８００までのダメージを",
     "無効化します。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 7,
@@ -227,7 +248,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｇ・テリトリー"
+   "text": "Ｇ・テリトリー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 8,
@@ -250,7 +274,10 @@
    "lines": [
     "ＥＮが１５以上、気力が１２０以上の場合、全ての攻撃（バリア貫通系武器を除く）による１８００までのダメージを",
     "無効化します。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 9,
@@ -270,7 +297,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "パッシブ・ビット"
+   "text": "パッシブ・ビット",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 10,
@@ -289,7 +319,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＥＮが５以上の場合、ビーム攻撃（バリア貫通系武器を除く）によるダメージを１１００だけ軽減します。"
+   "text": "ＥＮが５以上の場合、ビーム攻撃（バリア貫通系武器を除く）によるダメージを１１００だけ軽減します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 11,
@@ -309,7 +342,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＴＥスフィア"
+   "text": "ＴＥスフィア",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 12,
@@ -333,7 +369,10 @@
    "lines": [
     "ＥＮが５以上、気力が１２０以上の場合、全ての攻撃（バリア貫通系武器を除く）によるダメージを１５００だけ",
     "軽減します。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 13,
@@ -353,7 +392,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ビームコート"
+   "text": "ビームコート",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 14,
@@ -372,7 +414,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＥＮが５以上の場合、ビーム攻撃（バリア貫通系武器を除く）によるダメージを９００だけ軽減します。"
+   "text": "ＥＮが５以上の場合、ビーム攻撃（バリア貫通系武器を除く）によるダメージを９００だけ軽減します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 15,
@@ -392,7 +437,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ビーム吸収"
+   "text": "ビーム吸収",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 16,
@@ -411,7 +459,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ビーム攻撃（バリア貫通系武器を除く）による、本来受けるはずのダメージ分だけ自機の現ＨＰを回復します。"
+   "text": "ビーム攻撃（バリア貫通系武器を除く）による、本来受けるはずのダメージ分だけ自機の現ＨＰを回復します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 17,
@@ -431,7 +482,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "念動フィールド"
+   "text": "念動フィールド",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 18,
@@ -454,7 +508,10 @@
    "lines": [
     "ＥＮが５以上、気力が１１０以上の場合、全ての攻撃（バリア貫通系武器を除く）による、パイロット特殊スキル",
     "「念動力」の「スキルレベル」×２００までのダメージを無効化します。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 19,
@@ -474,7 +531,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "念動フィールドＳ"
+   "text": "念動フィールドＳ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 20,
@@ -497,7 +557,10 @@
    "lines": [
     "ＥＮが５以上、気力が１１０以上の場合、全ての攻撃（バリア貫通系武器を除く）による、パイロット特殊スキル",
     "「念動力」の「スキルレベル」×２５０までのダメージを無効化します。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 21,
@@ -517,7 +580,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "歪曲フィールド"
+   "text": "歪曲フィールド",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 22,
@@ -537,7 +603,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＥＮが１０以上の場合、全ての攻撃（バリア貫通系武器を除く）によるダメージを半減します。"
+   "text": "ＥＮが１０以上の場合、全ての攻撃（バリア貫通系武器を除く）によるダメージを半減します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 23,
@@ -556,7 +625,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＨＰ回復（小）"
+   "text": "ＨＰ回復（小）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 24,
@@ -577,7 +649,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＨＰ回復"
+   "text": "ＨＰ回復",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 25,
@@ -598,7 +673,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自軍フェイズ開始時に、ＨＰが回復します。"
+   "text": "自軍フェイズ開始時に、ＨＰが回復します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 26,
@@ -617,7 +695,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＨＰ回復（中）"
+   "text": "ＨＰ回復（中）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 27,
@@ -636,7 +717,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＨＰ回復（大）"
+   "text": "ＨＰ回復（大）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 28,
@@ -655,7 +739,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＥＮ回復（小）"
+   "text": "ＥＮ回復（小）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 29,
@@ -676,7 +763,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＥＮ回復"
+   "text": "ＥＮ回復",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 30,
@@ -697,7 +787,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自軍フェイズ開始時に、ＥＮが回復します。"
+   "text": "自軍フェイズ開始時に、ＥＮが回復します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 31,
@@ -716,7 +809,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＥＮ回復（中）"
+   "text": "ＥＮ回復（中）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 32,
@@ -735,7 +831,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＥＮ回復（大）"
+   "text": "ＥＮ回復（大）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 33,
@@ -755,7 +854,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "システムＬＩＯＨ"
+   "text": "システムＬＩＯＨ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 34,
@@ -774,7 +876,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "気力が１３０以上の場合、メインパイロットの格闘・命中・技量が２０だけ上昇します。"
+   "text": "気力が１３０以上の場合、メインパイロットの格闘・命中・技量が２０だけ上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 35,
@@ -794,7 +899,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＯＤＥシステム"
+   "text": "ＯＤＥシステム",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 36,
@@ -813,7 +921,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自軍フェイズ開始時に、特殊能力「ＯＤＥシステム」を保有するマップ上の機体の、パイロットの気力がその中で最も高いパイロットの気力と同じになります。また、最終命中率・回避率が「マップ上のＯＤＥシステム搭載機の数」＋「経過ターン数」×２だけ上昇します。"
+   "text": "自軍フェイズ開始時に、特殊能力「ＯＤＥシステム」を保有するマップ上の機体の、パイロットの気力がその中で最も高いパイロットの気力と同じになります。また、最終命中率・回避率が「マップ上のＯＤＥシステム搭載機の数」＋「経過ターン数」×２だけ上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 37,
@@ -833,7 +944,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ジャマー"
+   "text": "ジャマー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 38,
@@ -852,7 +966,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ミサイル系の攻撃を５０％の確率で無効化します。"
+   "text": "ミサイル系の攻撃を５０％の確率で無効化します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 39,
@@ -872,7 +989,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "分身"
+   "text": "分身",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 40,
@@ -891,7 +1011,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "パイロットの気力が１３０以上の場合、５０％の確率で攻撃を回避できます。"
+   "text": "パイロットの気力が１３０以上の場合、５０％の確率で攻撃を回避できます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 41,
@@ -911,7 +1034,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "パイロットブロック"
+   "text": "パイロットブロック",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 42,
@@ -930,7 +1056,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｐ系全ての特殊効果を無効化します。"
+   "text": "Ｐ系全ての特殊効果を無効化します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 43,
@@ -950,7 +1079,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ロボットブロック"
+   "text": "ロボットブロック",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 44,
@@ -969,7 +1101,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｒ系全ての特殊効果を無効化します。"
+   "text": "Ｒ系全ての特殊効果を無効化します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 45,
@@ -989,7 +1124,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "フルブロック"
+   "text": "フルブロック",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 46,
@@ -1008,7 +1146,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "全ての特殊効果を無効化します。"
+   "text": "全ての特殊効果を無効化します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 47,
@@ -1028,7 +1169,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "強化パーツ使用"
+   "text": "強化パーツ使用",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 48,
@@ -1047,7 +1191,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "隣接した機体に装備中の強化パーツ（コマンドで使用可能なもの）を使用できます。"
+   "text": "隣接した機体に装備中の強化パーツ（コマンドで使用可能なもの）を使用できます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 49,
@@ -1067,7 +1214,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ガンエデンの守護"
+   "text": "ガンエデンの守護",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 50,
@@ -1086,7 +1236,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "攻撃を受けた場合、マップ上に存在する、しもべの機体数×１００だけ、最終ダメージが減少します。"
+   "text": "攻撃を受けた場合、マップ上に存在する、しもべの機体数×１００だけ、最終ダメージが減少します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 51,
@@ -1106,7 +1259,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "パッシーオ"
+   "text": "パッシーオ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 52,
@@ -1125,7 +1281,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自軍フェイズ開始時に、マップ上に存在する敵対勢力の全パイロットの気力を２下げます。"
+   "text": "自軍フェイズ開始時に、マップ上に存在する敵対勢力の全パイロットの気力を２下げます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 53,
@@ -1145,7 +1304,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ピンポイント爆撃"
+   "text": "ピンポイント爆撃",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 54,
@@ -1164,7 +1326,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自軍フェイズ開始時に、マップ上に存在する敵対勢力の機体の中からランダムで４機に、その機体の現ＨＰの５０％分のダメージを与えます。"
+   "text": "自軍フェイズ開始時に、マップ上に存在する敵対勢力の機体の中からランダムで４機に、その機体の現ＨＰの５０％分のダメージを与えます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 55,
@@ -1184,7 +1349,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "闇の領域"
+   "text": "闇の領域",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 56,
@@ -1203,7 +1371,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自軍フェイズ終了時に、接続する周囲８マスに存在する敵対勢力のＥＮを３０下げます。"
+   "text": "自軍フェイズ終了時に、接続する周囲８マスに存在する敵対勢力のＥＮを３０下げます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 57,
@@ -1223,7 +1394,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "逆鱗"
+   "text": "逆鱗",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 58,
@@ -1242,7 +1416,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自軍フェイズ開始時にＨＰが６０％以下の場合、精神コマンド「覚醒」を使用します。"
+   "text": "自軍フェイズ開始時にＨＰが６０％以下の場合、精神コマンド「覚醒」を使用します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 59,
@@ -1262,7 +1439,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "エネルギー吸収"
+   "text": "エネルギー吸収",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 60,
@@ -1281,7 +1461,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "受けたダメージの１％分だけ自機の現ＥＮを回復します。"
+   "text": "受けたダメージの１％分だけ自機の現ＥＮを回復します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 61,
@@ -1302,7 +1485,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー"
+   "text": "ダミー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 62,
@@ -1322,7 +1508,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "監視の目"
+   "text": "監視の目",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 63,
@@ -1341,7 +1530,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＨＰが１０％以下になった場合、また自軍フェイズ開始時にＨＰが１０％以下の場合、精神コマンド「必中」を使用します。"
+   "text": "ＨＰが１０％以下になった場合、また自軍フェイズ開始時にＨＰが１０％以下の場合、精神コマンド「必中」を使用します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 64,
@@ -1361,7 +1553,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "味方精神（仮）"
+   "text": "味方精神（仮）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 65,
@@ -1380,7 +1575,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自軍フェイズ開始時に、マップ上に存在する特定の機体（未定）全てに対して、精神コマンド「感応」を使用します。"
+   "text": "自軍フェイズ開始時に、マップ上に存在する特定の機体（未定）全てに対して、精神コマンド「感応」を使用します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 66,
@@ -1400,7 +1598,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "味方回復（仮）"
+   "text": "味方回復（仮）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 67,
@@ -1419,7 +1620,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自軍フェイズ開始時に、マップ上に存在する特定の機体（未定）全てに対して、最大ＨＰの３０％分の現ＨＰを回復させます。"
+   "text": "自軍フェイズ開始時に、マップ上に存在する特定の機体（未定）全てに対して、最大ＨＰの３０％分の現ＨＰを回復させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 68,
@@ -1439,7 +1643,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "いたら精神（仮）"
+   "text": "いたら精神（仮）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 69,
@@ -1458,7 +1665,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自軍フェイズ開始時に、マップ上に特定のパイロット（未定）が存在する場合、精神コマンド（未定）を使用します。"
+   "text": "自軍フェイズ開始時に、マップ上に特定のパイロット（未定）が存在する場合、精神コマンド（未定）を使用します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 70,
@@ -1478,7 +1688,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "神僕の盾"
+   "text": "神僕の盾",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 71,
@@ -1498,7 +1711,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "神の盾"
+   "text": "神の盾",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 72,
@@ -1518,7 +1734,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "四凶邪視"
+   "text": "四凶邪視",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 73,
@@ -1537,7 +1756,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自軍フェイズ開始時に、周囲１～３マス内に存在する、敵対勢力のパイロットの気力を３下げます。"
+   "text": "自軍フェイズ開始時に、周囲１～３マス内に存在する、敵対勢力のパイロットの気力を３下げます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 74,
@@ -1557,7 +1779,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "神獣盾"
+   "text": "神獣盾",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 75,
@@ -1576,7 +1801,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＥＮが５以上、気力が１１０以上の場合、全ての攻撃（バリア貫通系武器を除く）によるダメージを半減します。"
+   "text": "ＥＮが５以上、気力が１１０以上の場合、全ての攻撃（バリア貫通系武器を除く）によるダメージを半減します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 76,
@@ -1596,7 +1824,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー０３"
+   "text": "ダミー０３",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 77,
@@ -1616,7 +1847,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー０４"
+   "text": "ダミー０４",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 78,
@@ -1636,7 +1870,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー０５"
+   "text": "ダミー０５",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 79,
@@ -1656,7 +1893,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー０６"
+   "text": "ダミー０６",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 80,
@@ -1676,7 +1916,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー０７"
+   "text": "ダミー０７",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 81,
@@ -1696,7 +1939,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー０８"
+   "text": "ダミー０８",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 82,
@@ -1716,7 +1962,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー０９"
+   "text": "ダミー０９",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 83,
@@ -1736,7 +1985,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー１０"
+   "text": "ダミー１０",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 84,
@@ -1756,7 +2008,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "変形"
+   "text": "変形",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 85,
@@ -1777,7 +2032,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体を別形態に変化させることができます。"
+   "text": "機体を別形態に変化させることができます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 86,
@@ -1797,7 +2055,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "合体・分離"
+   "text": "合体・分離",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 87,
@@ -1816,7 +2077,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "複数の機体を合体させて、別形態の機体へ変化させたり、元の機体へ分離させることができます。"
+   "text": "複数の機体を合体させて、別形態の機体へ変化させたり、元の機体へ分離させることができます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 88,
@@ -1836,7 +2100,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "（単）分離"
+   "text": "（単）分離",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 89,
@@ -1856,7 +2123,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "換装"
+   "text": "換装",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 90,
@@ -1876,7 +2146,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "修理装置"
+   "text": "修理装置",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 91,
@@ -1895,7 +2168,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "射程内に位置する部隊のＨＰを回復させることができます。"
+   "text": "射程内に位置する部隊のＨＰを回復させることができます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 92,
@@ -1915,7 +2191,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "補給装置"
+   "text": "補給装置",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 93,
@@ -1934,7 +2213,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "射程内に位置する機体のＥＮ、弾数値を最大値まで回復させることができます。"
+   "text": "射程内に位置する機体のＥＮ、弾数値を最大値まで回復させることができます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 94,
@@ -1954,7 +2236,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "盾装備"
+   "text": "盾装備",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 95,
@@ -1973,7 +2258,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "反撃時などに「防御」を行うと、受けるダメージを更に１０％減少させることができます。"
+   "text": "反撃時などに「防御」を行うと、受けるダメージを更に１０％減少させることができます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   }
  ],
  "inline_strings": []

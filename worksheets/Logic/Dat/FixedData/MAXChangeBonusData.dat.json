@@ -66,7 +66,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ＨＰ　＋１０％"
+   "text": "最大ＨＰ　＋１０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 1,
@@ -85,7 +88,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ＨＰを１０％増加させます。"
+   "text": "最大ＨＰを１０％増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 2,
@@ -104,7 +110,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ＥＮ　＋１０％"
+   "text": "最大ＥＮ　＋１０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 3,
@@ -123,7 +132,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ＥＮを１０％増加させます。"
+   "text": "最大ＥＮを１０％増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 4,
@@ -142,7 +154,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値　＋１０％"
+   "text": "装甲値　＋１０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 5,
@@ -161,7 +176,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値を１０％増加させます。"
+   "text": "装甲値を１０％増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 6,
@@ -180,7 +198,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性　＋１０％"
+   "text": "運動性　＋１０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 7,
@@ -199,7 +220,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性を１０％増加させます。"
+   "text": "運動性を１０％増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 8,
@@ -218,7 +242,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "照準値　＋１０％"
+   "text": "照準値　＋１０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 9,
@@ -237,7 +264,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "照準値を１０％増加させます。"
+   "text": "照準値を１０％増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 10,
@@ -256,7 +286,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力　＋１"
+   "text": "移動力　＋１",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 11,
@@ -275,7 +308,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力を１増加させます。"
+   "text": "移動力を１増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 12,
@@ -294,7 +330,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体の地形適応「空」をＳにする"
+   "text": "機体の地形適応「空」をＳにする",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 13,
@@ -313,7 +352,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体の「空」の地形適応を「Ｓ」にします。"
+   "text": "機体の「空」の地形適応を「Ｓ」にします。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 14,
@@ -332,7 +374,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体の地形適応「陸」をＳにする"
+   "text": "機体の地形適応「陸」をＳにする",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 15,
@@ -351,7 +396,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体の「陸」の地形適応を「Ｓ」にします。"
+   "text": "機体の「陸」の地形適応を「Ｓ」にします。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 16,
@@ -370,7 +418,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体の地形適応「海」をＳにする"
+   "text": "機体の地形適応「海」をＳにする",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 17,
@@ -389,7 +440,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体の「海」の地形適応を「Ｓ」にします。"
+   "text": "機体の「海」の地形適応を「Ｓ」にします。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 18,
@@ -408,7 +462,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体の地形適応「宇」をＳにする"
+   "text": "機体の地形適応「宇」をＳにする",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 19,
@@ -427,7 +484,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体の「宇宙」の地形適応を「Ｓ」にします。"
+   "text": "機体の「宇宙」の地形適応を「Ｓ」にします。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 20,
@@ -446,7 +506,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ＨＰ　＋２０００"
+   "text": "最大ＨＰ　＋２０００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 21,
@@ -465,7 +528,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ＨＰを２０００増加させます。"
+   "text": "最大ＨＰを２０００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 22,
@@ -484,7 +550,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ＨＰ　＋５０００"
+   "text": "最大ＨＰ　＋５０００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 23,
@@ -503,7 +572,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ＨＰを５０００増加させます。"
+   "text": "最大ＨＰを５０００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 24,
@@ -522,7 +594,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ＥＮ　＋５０"
+   "text": "最大ＥＮ　＋５０",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 25,
@@ -541,7 +616,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ＥＮを５０増加させます。"
+   "text": "最大ＥＮを５０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 26,
@@ -560,7 +638,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ＥＮ　＋７０"
+   "text": "最大ＥＮ　＋７０",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 27,
@@ -579,7 +660,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ＥＮを７０増加させます。"
+   "text": "最大ＥＮを７０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 28,
@@ -598,7 +682,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性　＋１０"
+   "text": "運動性　＋１０",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 29,
@@ -617,7 +704,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性を１０増加させます。"
+   "text": "運動性を１０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 30,
@@ -636,7 +726,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性　＋２５"
+   "text": "運動性　＋２５",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 31,
@@ -655,7 +748,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性を２５増加させます。"
+   "text": "運動性を２５増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 32,
@@ -674,7 +770,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値　＋２００"
+   "text": "装甲値　＋２００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 33,
@@ -693,7 +792,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値を２００増加させます。"
+   "text": "装甲値を２００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 34,
@@ -712,7 +814,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値　＋１５０、最大ＨＰ　＋１５００"
+   "text": "装甲値　＋１５０、最大ＨＰ　＋１５００",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 35,
@@ -731,7 +836,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値を１５０、最大ＨＰを１５００増加させます。"
+   "text": "装甲値を１５０、最大ＨＰを１５００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 36,
@@ -750,7 +858,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性　＋１５、最大ＥＮ　＋３０"
+   "text": "運動性　＋１５、最大ＥＮ　＋３０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 37,
@@ -769,7 +880,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性を１５、最大ＥＮを３０増加させます。"
+   "text": "運動性を１５、最大ＥＮを３０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 38,
@@ -788,7 +902,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性　＋１０、最大ＥＮ　＋５０"
+   "text": "運動性　＋１０、最大ＥＮ　＋５０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 39,
@@ -807,7 +924,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性を１０、最大ＥＮを５０増加させます。"
+   "text": "運動性を１０、最大ＥＮを５０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 40,
@@ -826,7 +946,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値　＋２００、最大ＨＰ　＋２５００"
+   "text": "装甲値　＋２００、最大ＨＰ　＋２５００",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 41,
@@ -845,7 +968,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値を２００、最大ＨＰを２５００増加させます。"
+   "text": "装甲値を２００、最大ＨＰを２５００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 42,
@@ -864,7 +990,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値　＋２００、最大ＥＮ　＋３５"
+   "text": "装甲値　＋２００、最大ＥＮ　＋３５",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 43,
@@ -883,7 +1012,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値を２００、最大ＥＮを３５増加させます。"
+   "text": "装甲値を２００、最大ＥＮを３５増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 44,
@@ -902,7 +1034,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性　＋１０、最大ＥＮ　＋２５"
+   "text": "運動性　＋１０、最大ＥＮ　＋２５",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 45,
@@ -921,7 +1056,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性を１０、最大ＥＮを２５増加させます。"
+   "text": "運動性を１０、最大ＥＮを２５増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 46,
@@ -940,7 +1078,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性　＋１５、装甲値　＋２００"
+   "text": "運動性　＋１５、装甲値　＋２００",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 47,
@@ -959,7 +1100,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性を１５、装甲値を２００増加させます。"
+   "text": "運動性を１５、装甲値を２００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 48,
@@ -978,7 +1122,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ＨＰ　＋１５００、最大ＥＮ　＋４０"
+   "text": "最大ＨＰ　＋１５００、最大ＥＮ　＋４０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 49,
@@ -997,7 +1144,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ＨＰを１５００、最大ＥＮを４０増加させます。"
+   "text": "最大ＨＰを１５００、最大ＥＮを４０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 50,
@@ -1016,7 +1166,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性　＋１０、最大ＨＰ　＋３０００"
+   "text": "運動性　＋１０、最大ＨＰ　＋３０００",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 51,
@@ -1035,7 +1188,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性を１０、最大ＨＰを３０００増加させます。"
+   "text": "運動性を１０、最大ＨＰを３０００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 52,
@@ -1054,7 +1210,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｗゲージ　＋３０"
+   "text": "Ｗゲージ　＋３０",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 53,
@@ -1073,7 +1232,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ウェポンゲージを３０増加させます。"
+   "text": "最大ウェポンゲージを３０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 54,
@@ -1092,7 +1254,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｗゲージ　＋３０、ＣＴ補正値　＋２０"
+   "text": "Ｗゲージ　＋３０、ＣＴ補正値　＋２０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 55,
@@ -1111,7 +1276,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ウェポンゲージを３０、機体に装備されている武器のＣＴ補正値を２０増加させます。"
+   "text": "最大ウェポンゲージを３０、機体に装備されている武器のＣＴ補正値を２０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 56,
@@ -1130,7 +1298,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｗゲージ　＋４０、最大ＥＮ　＋３０"
+   "text": "Ｗゲージ　＋４０、最大ＥＮ　＋３０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 57,
@@ -1149,7 +1320,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ウェポンゲージを３０、最大ＥＮを３０増加させます。"
+   "text": "最大ウェポンゲージを３０、最大ＥＮを３０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 58,
@@ -1168,7 +1342,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｗゲージ　＋４０、武器の命中補正値　＋１５"
+   "text": "Ｗゲージ　＋４０、武器の命中補正値　＋１５",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 59,
@@ -1187,7 +1364,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ウェポンゲージを４０、機体に装備されている武器の命中補正値を１５増加させます。"
+   "text": "最大ウェポンゲージを４０、機体に装備されている武器の命中補正値を１５増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 60,
@@ -1206,7 +1386,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "強化パーツ最大装備数　＋１"
+   "text": "強化パーツ最大装備数　＋１",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 61,
@@ -1225,7 +1408,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備できる強化パーツの数を１増加させます。"
+   "text": "機体に装備できる強化パーツの数を１増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 62,
@@ -1244,7 +1430,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体の地形適応「空」以外をＳにする"
+   "text": "機体の地形適応「空」以外をＳにする",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 63,
@@ -1263,7 +1452,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体の「陸」「海」「宇宙」の地形適応を「Ｓ」にします。"
+   "text": "機体の「陸」「海」「宇宙」の地形適応を「Ｓ」にします。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 64,
@@ -1282,7 +1474,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "特殊能力「フルブロック」装備"
+   "text": "特殊能力「フルブロック」装備",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 65,
@@ -1301,7 +1496,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "全ての特殊効果を無効化する能力を得ます。"
+   "text": "全ての特殊効果を無効化する能力を得ます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 66,
@@ -1320,7 +1518,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "特殊能力「ＨＰ回復（小）」装備"
+   "text": "特殊能力「ＨＰ回復（小）」装備",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 67,
@@ -1339,7 +1540,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "毎ターン、ＨＰが１０％回復する能力を得ます。"
+   "text": "毎ターン、ＨＰが１０％回復する能力を得ます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 68,
@@ -1358,7 +1562,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "特殊能力「ＥＮ回復（小）」装備"
+   "text": "特殊能力「ＥＮ回復（小）」装備",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 69,
@@ -1377,7 +1584,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "毎ターン、ＥＮが１０％回復する能力を得ます。"
+   "text": "毎ターン、ＥＮが１０％回復する能力を得ます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 70,
@@ -1396,7 +1606,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "特殊能力「ＡＢフィールド」装備"
+   "text": "特殊能力「ＡＢフィールド」装備",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 71,
@@ -1415,7 +1628,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ビームのダメージを１２００軽減させる能力を得ます（必要ＥＮ１０）。"
+   "text": "ビームのダメージを１２００軽減させる能力を得ます（必要ＥＮ１０）。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 72,
@@ -1434,7 +1650,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "特殊能力「分身」装備"
+   "text": "特殊能力「分身」装備",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 73,
@@ -1453,7 +1672,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "攻撃を５０％の確率で回避する能力を得ます（必要気力１３０）。"
+   "text": "攻撃を５０％の確率で回避する能力を得ます（必要気力１３０）。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 74,
@@ -1472,7 +1694,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "特殊能力「ビーム吸収」装備"
+   "text": "特殊能力「ビーム吸収」装備",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 75,
@@ -1491,7 +1716,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ビーム攻撃での、本来受けるダメージ分のＨＰを回復する能力を得ます。"
+   "text": "ビーム攻撃での、本来受けるダメージ分のＨＰを回復する能力を得ます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 76,
@@ -1510,7 +1738,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "念動フィールド　＋３００"
+   "text": "念動フィールド　＋３００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 77,
@@ -1529,7 +1760,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "特殊能力「念動フィールド」の無効化できるダメージを３００増加させます。"
+   "text": "特殊能力「念動フィールド」の無効化できるダメージを３００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 78,
@@ -1548,7 +1782,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "分身発生率　＋２０％"
+   "text": "分身発生率　＋２０％",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 79,
@@ -1567,7 +1804,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "特殊能力「分身」の発生する確率を２０％増加させます。"
+   "text": "特殊能力「分身」の発生する確率を２０％増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 80,
@@ -1586,7 +1826,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "念動武器攻撃力　＋２００"
+   "text": "念動武器攻撃力　＋２００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 81,
@@ -1605,7 +1848,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されている念動武器の攻撃力を２００増加させます。"
+   "text": "機体に装備されている念動武器の攻撃力を２００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 82,
@@ -1624,7 +1870,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "格闘武器の攻撃力　＋２００"
+   "text": "格闘武器の攻撃力　＋２００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 83,
@@ -1643,7 +1892,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されている格闘武器の攻撃力を２００増加させます。"
+   "text": "機体に装備されている格闘武器の攻撃力を２００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 84,
@@ -1662,7 +1914,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "射撃武器の攻撃力　＋２００"
+   "text": "射撃武器の攻撃力　＋２００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 85,
@@ -1681,7 +1936,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されている射撃武器の攻撃力を２００増加させます。"
+   "text": "機体に装備されている射撃武器の攻撃力を２００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 86,
@@ -1700,7 +1958,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "全武器の攻撃力　＋２００"
+   "text": "全武器の攻撃力　＋２００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 87,
@@ -1719,7 +1980,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されている武器の攻撃力を２００増加させます。"
+   "text": "機体に装備されている武器の攻撃力を２００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 88,
@@ -1738,7 +2002,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "固定武器の最大弾数　＋２"
+   "text": "固定武器の最大弾数　＋２",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 89,
@@ -1757,7 +2024,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されている固定武器の弾数を２増加させます。"
+   "text": "機体に装備されている固定武器の弾数を２増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 90,
@@ -1776,7 +2046,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "固定武器の最大弾数　＋４"
+   "text": "固定武器の最大弾数　＋４",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 91,
@@ -1795,7 +2068,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されている固定武器の弾数を４増加させます。"
+   "text": "機体に装備されている固定武器の弾数を４増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 92,
@@ -1814,7 +2090,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "武器の命中補正値　＋１０"
+   "text": "武器の命中補正値　＋１０",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 93,
@@ -1833,7 +2112,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されている武器の命中補正値を１０増加させます。"
+   "text": "機体に装備されている武器の命中補正値を１０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 94,
@@ -1852,7 +2134,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "武器の命中補正値　＋２０"
+   "text": "武器の命中補正値　＋２０",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 95,
@@ -1871,7 +2156,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されている武器の命中補正値を２０増加させます。"
+   "text": "機体に装備されている武器の命中補正値を２０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 96,
@@ -1890,7 +2178,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "固定武器の地形適応をＳにする"
+   "text": "固定武器の地形適応をＳにする",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 97,
@@ -1909,7 +2200,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されている固定武器の、全ての地形適応を「Ｓ」にします。"
+   "text": "機体に装備されている固定武器の、全ての地形適応を「Ｓ」にします。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 98,
@@ -1928,7 +2222,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力　＋１、最大ＨＰ　＋１５００"
+   "text": "移動力　＋１、最大ＨＰ　＋１５００",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 99,
@@ -1947,7 +2244,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力を１、最大ＨＰを１５００増加させます。"
+   "text": "移動力を１、最大ＨＰを１５００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 100,
@@ -1966,7 +2266,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性　＋２０、最大ＥＮ　＋２０"
+   "text": "運動性　＋２０、最大ＥＮ　＋２０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 101,
@@ -1985,7 +2288,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性を２０、最大ＥＮを２０増加させます。"
+   "text": "運動性を２０、最大ＥＮを２０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 102,
@@ -2004,7 +2310,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値　＋２００、最大ＨＰ　＋２０００"
+   "text": "装甲値　＋２００、最大ＨＰ　＋２０００",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 103,
@@ -2023,7 +2332,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値を２００、最大ＨＰを２０００増加させます。"
+   "text": "装甲値を２００、最大ＨＰを２０００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 104,
@@ -2042,7 +2354,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力　＋１、運動性　＋１０"
+   "text": "移動力　＋１、運動性　＋１０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 105,
@@ -2061,7 +2376,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力を１、運動性を１０増加させます。"
+   "text": "移動力を１、運動性を１０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 106,
@@ -2080,7 +2398,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "格闘武器の攻撃力　＋１００"
+   "text": "格闘武器の攻撃力　＋１００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 107,
@@ -2099,7 +2420,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されている格闘武器の攻撃力を１００増加させます。"
+   "text": "機体に装備されている格闘武器の攻撃力を１００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 108,
@@ -2118,7 +2442,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "格闘武器の攻撃力　＋３００"
+   "text": "格闘武器の攻撃力　＋３００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 109,
@@ -2137,7 +2464,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されている格闘武器の攻撃力を３００増加させます。"
+   "text": "機体に装備されている格闘武器の攻撃力を３００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 110,
@@ -2156,7 +2486,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "全武器の攻撃力　＋１００"
+   "text": "全武器の攻撃力　＋１００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 111,
@@ -2175,7 +2508,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されている武器の攻撃力を１００増加させます。"
+   "text": "機体に装備されている武器の攻撃力を１００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 112,
@@ -2194,7 +2530,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動適応に「地中」を追加する"
+   "text": "移動適応に「地中」を追加する",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 113,
@@ -2213,7 +2552,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体の移動適応に「地中」を追加します。"
+   "text": "機体の移動適応に「地中」を追加します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 114,
@@ -2232,7 +2574,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "全武器の攻撃力　＋３００"
+   "text": "全武器の攻撃力　＋３００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 115,
@@ -2251,7 +2596,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されている武器の攻撃力を３００増加させます。"
+   "text": "機体に装備されている武器の攻撃力を３００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 116,
@@ -2270,7 +2618,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "特殊能力「パイロットブロック」装備"
+   "text": "特殊能力「パイロットブロック」装備",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 117,
@@ -2289,7 +2640,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｐ系全ての特殊効果を無効化する能力を得ます。"
+   "text": "Ｐ系全ての特殊効果を無効化する能力を得ます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 118,
@@ -2308,7 +2662,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力　＋３"
+   "text": "移動力　＋３",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 119,
@@ -2327,7 +2684,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力を３増加させます。"
+   "text": "移動力を３増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 120,
@@ -2346,7 +2706,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ＨＰ　＋３０００　最大ＥＮ　＋１００"
+   "text": "最大ＨＰ　＋３０００　最大ＥＮ　＋１００",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 121,
@@ -2365,7 +2728,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "最大ＨＰを３０００、最大ＥＮを１００増加させます。"
+   "text": "最大ＨＰを３０００、最大ＥＮを１００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 122,
@@ -2384,7 +2750,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "念動フィールドＳ　＋４００"
+   "text": "念動フィールドＳ　＋４００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 123,
@@ -2403,7 +2772,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "特殊能力「念動フィールドＳ」の無効化できるダメージを４００増加させます"
+   "text": "特殊能力「念動フィールドＳ」の無効化できるダメージを４００増加させます",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 124,
@@ -2423,7 +2795,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー００"
+   "text": "ダミー００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 125,
@@ -2443,7 +2818,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー０１"
+   "text": "ダミー０１",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 126,
@@ -2463,7 +2841,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー０２"
+   "text": "ダミー０２",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 127,
@@ -2483,7 +2864,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー０３"
+   "text": "ダミー０３",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 128,
@@ -2503,7 +2887,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー０４"
+   "text": "ダミー０４",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 129,
@@ -2523,7 +2910,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー０５"
+   "text": "ダミー０５",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 130,
@@ -2543,7 +2933,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー０６"
+   "text": "ダミー０６",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 131,
@@ -2563,7 +2956,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー０７"
+   "text": "ダミー０７",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 132,
@@ -2582,7 +2978,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "換装武器の攻撃力　＋２００"
+   "text": "換装武器の攻撃力　＋２００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 133,
@@ -2601,7 +3000,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されている換装武器の攻撃力を２００増加させます。"
+   "text": "機体に装備されている換装武器の攻撃力を２００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 134,
@@ -2620,7 +3022,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "武器の命中補正値　＋３０"
+   "text": "武器の命中補正値　＋３０",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 135,
@@ -2639,7 +3044,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されている武器の命中補正値を３０増加させます。"
+   "text": "機体に装備されている武器の命中補正値を３０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 136,
@@ -2658,7 +3066,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "武器の命中、ＣＴ補正値　＋２０"
+   "text": "武器の命中、ＣＴ補正値　＋２０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 137,
@@ -2677,7 +3088,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されている武器の命中補正値、ＣＴ補正値を２０増加させます。"
+   "text": "機体に装備されている武器の命中補正値、ＣＴ補正値を２０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 138,
@@ -2696,7 +3110,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "武器のＣＴ補正値　＋３０"
+   "text": "武器のＣＴ補正値　＋３０",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 139,
@@ -2715,7 +3132,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されている武器のＣＴ補正値を３０増加させます。"
+   "text": "機体に装備されている武器のＣＴ補正値を３０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 140,
@@ -2734,7 +3154,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性、照準値　＋１５"
+   "text": "運動性、照準値　＋１５",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 141,
@@ -2753,7 +3176,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性、照準値を１５増加させます。"
+   "text": "運動性、照準値を１５増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 142,
@@ -2772,7 +3198,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力　＋１、武器のＣＴ補正値　＋２０"
+   "text": "移動力　＋１、武器のＣＴ補正値　＋２０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 143,
@@ -2791,7 +3220,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力を１、機体に装備されている武器のＣＴ補正値を２０増加させます。"
+   "text": "移動力を１、機体に装備されている武器のＣＴ補正値を２０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 144,
@@ -2810,7 +3242,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値　＋２００、武器の命中補正値　＋２０"
+   "text": "装甲値　＋２００、武器の命中補正値　＋２０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 145,
@@ -2829,7 +3264,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値を２００、機体に装備されている武器の命中補正を２０増加させます。"
+   "text": "装甲値を２００、機体に装備されている武器の命中補正を２０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 146,
@@ -2849,7 +3287,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー０８"
+   "text": "ダミー０８",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 147,
@@ -2868,7 +3309,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値　＋１５０、最大ＥＮ　＋５０"
+   "text": "装甲値　＋１５０、最大ＥＮ　＋５０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 148,
@@ -2887,7 +3331,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値を１５０、最大ＥＮを５０増加させます。"
+   "text": "装甲値を１５０、最大ＥＮを５０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 149,
@@ -2906,7 +3353,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "武器「超大型回転衝角」の消費ＥＮ　－１５"
+   "text": "武器「超大型回転衝角」の消費ＥＮ　－１５",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 150,
@@ -2925,7 +3375,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "固定武器「超大型回転衝角」の消費ＥＮを１５減少させます。"
+   "text": "固定武器「超大型回転衝角」の消費ＥＮを１５減少させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 151,
@@ -2944,7 +3397,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力　＋１、最大ＥＮ　＋１５％"
+   "text": "移動力　＋１、最大ＥＮ　＋１５％",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 152,
@@ -2963,7 +3419,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力を１、最大ＥＮを１５％増加させます。"
+   "text": "移動力を１、最大ＥＮを１５％増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 153,
@@ -2982,7 +3441,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "武器「８７１０式龍虎射連打」の攻撃力　＋２００、地形適応をＳにする"
+   "text": "武器「８７１０式龍虎射連打」の攻撃力　＋２００、地形適応をＳにする",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 154,
@@ -3001,7 +3463,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "固定武器「８７１０式龍虎射連打」の攻撃力を２００増加させ、全ての地形適応を「Ｓ」にします。"
+   "text": "固定武器「８７１０式龍虎射連打」の攻撃力を２００増加させ、全ての地形適応を「Ｓ」にします。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 155,
@@ -3020,7 +3485,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "特殊能力「ＥＮ回復（中）」装備"
+   "text": "特殊能力「ＥＮ回復（中）」装備",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 156,
@@ -3039,7 +3507,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "毎ターン、ＥＮが２０％回復する能力を得ます。"
+   "text": "毎ターン、ＥＮが２０％回復する能力を得ます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 157,
@@ -3058,7 +3529,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性　＋１５、最大ＥＮ　＋６０"
+   "text": "運動性　＋１５、最大ＥＮ　＋６０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 158,
@@ -3077,7 +3551,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性を１５、最大ＥＮを６０増加させます。"
+   "text": "運動性を１５、最大ＥＮを６０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 159,
@@ -3096,7 +3573,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性　＋１０、武器「コスモノヴァ」の弾数　＋１"
+   "text": "運動性　＋１０、武器「コスモノヴァ」の弾数　＋１",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 160,
@@ -3115,7 +3595,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性を１０、固定武器「コスモノヴァ」の弾数を１増加させます。"
+   "text": "運動性を１０、固定武器「コスモノヴァ」の弾数を１増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 161,
@@ -3134,7 +3617,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "特殊能力「ＨＰ回復（大）」装備"
+   "text": "特殊能力「ＨＰ回復（大）」装備",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 162,
@@ -3153,7 +3639,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "毎ターン、ＨＰが３０％回復する能力を得ます。"
+   "text": "毎ターン、ＨＰが３０％回復する能力を得ます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 163,
@@ -3172,7 +3661,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値　＋２００、最大ＥＮ　＋５０"
+   "text": "装甲値　＋２００、最大ＥＮ　＋５０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 164,
@@ -3191,7 +3683,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値を２００、最大ＥＮを５０増加させます。"
+   "text": "装甲値を２００、最大ＥＮを５０増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 165,
@@ -3210,7 +3705,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力　＋１、最大ＨＰ　＋１０００"
+   "text": "移動力　＋１、最大ＨＰ　＋１０００",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 166,
@@ -3229,7 +3727,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力を１、最大ＨＰを１０００増加させます。"
+   "text": "移動力を１、最大ＨＰを１０００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 167,
@@ -3248,7 +3749,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "特殊能力「ＨＰ回復（中）」装備"
+   "text": "特殊能力「ＨＰ回復（中）」装備",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 168,
@@ -3267,7 +3771,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "毎ターン、ＨＰが２０％回復する能力を得ます。"
+   "text": "毎ターン、ＨＰが２０％回復する能力を得ます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 169,
@@ -3286,7 +3793,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体、武器の地形適応を全てＳにする"
+   "text": "機体、武器の地形適応を全てＳにする",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 170,
@@ -3305,7 +3815,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体と機体に装備されている武器の、全ての地形適応を「Ｓ」にします。"
+   "text": "機体と機体に装備されている武器の、全ての地形適応を「Ｓ」にします。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 171,
@@ -3324,7 +3837,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体の地形適応を全てＳにする"
+   "text": "機体の地形適応を全てＳにする",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 172,
@@ -3343,7 +3859,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体の、全ての地形適応を「Ｓ」にします。"
+   "text": "機体の、全ての地形適応を「Ｓ」にします。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 173,
@@ -3362,7 +3881,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力　＋２"
+   "text": "移動力　＋２",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 174,
@@ -3381,7 +3903,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力を２増加させます。"
+   "text": "移動力を２増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 175,
@@ -3400,7 +3925,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体と武器の地形適応「空」をＳにする"
+   "text": "機体と武器の地形適応「空」をＳにする",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 176,
@@ -3419,7 +3947,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体と機体に装備されている武器の、「空」の地形適応を「Ｓ」にします。"
+   "text": "機体と機体に装備されている武器の、「空」の地形適応を「Ｓ」にします。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 177,
@@ -3438,7 +3969,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体と武器の地形適応「海」と「宇」をＳにする"
+   "text": "機体と武器の地形適応「海」と「宇」をＳにする",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 178,
@@ -3457,7 +3991,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体と機体に装備されている武器の、「空」と「宇宙」の地形適応を「Ｓ」にします。"
+   "text": "機体と機体に装備されている武器の、「空」と「宇宙」の地形適応を「Ｓ」にします。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 179,
@@ -3476,7 +4013,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体と武器の地形適応「陸」をＳにする"
+   "text": "機体と武器の地形適応「陸」をＳにする",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 180,
@@ -3495,7 +4035,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体と機体に装備されている武器の、「陸」の地形適応を「Ｓ」にします。"
+   "text": "機体と機体に装備されている武器の、「陸」の地形適応を「Ｓ」にします。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 181,
@@ -3514,7 +4057,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値　＋４００"
+   "text": "装甲値　＋４００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 182,
@@ -3533,7 +4079,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値を４００増加させます。"
+   "text": "装甲値を４００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 183,
@@ -3552,7 +4101,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＭＡＰ兵器無効"
+   "text": "ＭＡＰ兵器無効",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 184,
@@ -3571,7 +4123,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "マップ兵器による攻撃を無効化する能力を得ます。"
+   "text": "マップ兵器による攻撃を無効化する能力を得ます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 185,
@@ -3590,7 +4145,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "遠距離攻撃無効"
+   "text": "遠距離攻撃無効",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 186,
@@ -3609,7 +4167,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "射撃武器による攻撃を無効化する能力を得ます。"
+   "text": "射撃武器による攻撃を無効化する能力を得ます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 187,
@@ -3628,7 +4189,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "射撃武器の攻撃力　＋３００"
+   "text": "射撃武器の攻撃力　＋３００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 188,
@@ -3647,7 +4211,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されている射撃武器の攻撃力を３００増加させます。"
+   "text": "機体に装備されている射撃武器の攻撃力を３００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 189,
@@ -3666,7 +4233,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "武器「ネオサンダークラッシュ」にＰ属性を付加"
+   "text": "武器「ネオサンダークラッシュ」にＰ属性を付加",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 190,
@@ -3685,7 +4255,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "固定武器「ネオサンダークラッシュ」を「移動」実行後、攻撃可能にします。"
+   "text": "固定武器「ネオサンダークラッシュ」を「移動」実行後、攻撃可能にします。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 191,
@@ -3704,7 +4277,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "武器「カリドゥム・サギッタ」の攻撃力　＋３００"
+   "text": "武器「カリドゥム・サギッタ」の攻撃力　＋３００",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 192,
@@ -3723,7 +4299,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "固定武器「カリドゥム・サギッタ」の攻撃力を３００増加させます。"
+   "text": "固定武器「カリドゥム・サギッタ」の攻撃力を３００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 193,
@@ -3742,7 +4321,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＭＡＰと射程１以外の武器の射程　＋１"
+   "text": "ＭＡＰと射程１以外の武器の射程　＋１",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 194,
@@ -3761,7 +4343,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機体に装備されているマップ兵器、射程１の武器以外の武器の射程を１増加させます。"
+   "text": "機体に装備されているマップ兵器、射程１の武器以外の武器の射程を１増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 195,
@@ -3780,7 +4365,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "武器ＩＤ２の弾数　＋２"
+   "text": "武器ＩＤ２の弾数　＋２",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 196,
@@ -3799,7 +4387,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "固定武器「ＩＤ２」の弾数を２増加させます。"
+   "text": "固定武器「ＩＤ２」の弾数を２増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 197,
@@ -3818,7 +4409,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値　＋５００"
+   "text": "装甲値　＋５００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 198,
@@ -3837,7 +4431,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲値を５００増加させます。"
+   "text": "装甲値を５００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 199,
@@ -3856,7 +4453,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性　＋３０　装甲値　＋４００"
+   "text": "運動性　＋３０　装甲値　＋４００",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 200,
@@ -3875,7 +4475,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性を３０、装甲値を４００増加させます。"
+   "text": "運動性を３０、装甲値を４００増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 201,
@@ -3894,7 +4497,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "武器「ソニック・アクセラレーション」の必要気力、消費ＥＮ　－１０"
+   "text": "武器「ソニック・アクセラレーション」の必要気力、消費ＥＮ　－１０",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 202,
@@ -3913,7 +4519,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "固定武器「ソニック・アクセラレーション」の必要気力、消費ＥＮを１０減少させます。"
+   "text": "固定武器「ソニック・アクセラレーション」の必要気力、消費ＥＮを１０減少させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 203,
@@ -3932,7 +4541,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "武器の命中、ＣＴ補正値　＋９９"
+   "text": "武器の命中、ＣＴ補正値　＋９９",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 204,
@@ -3951,7 +4563,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "武器の命中補正値、ＣＴ補正値を９９増加させます。"
+   "text": "武器の命中補正値、ＣＴ補正値を９９増加させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 205,
@@ -3970,7 +4585,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "武器ＩＤ４の消費ＥＮ　－１５"
+   "text": "武器ＩＤ４の消費ＥＮ　－１５",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 206,
@@ -3989,7 +4607,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "固定武器「ＩＤ４」の消費ＥＮを１５減少させます。"
+   "text": "固定武器「ＩＤ４」の消費ＥＮを１５減少させます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   }
  ],
  "inline_strings": []

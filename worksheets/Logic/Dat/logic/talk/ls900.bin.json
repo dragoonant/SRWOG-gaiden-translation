@@ -5,22 +5,30 @@
   {
    "id": 0,
    "jp": "",
-   "en": ""
+   "en": "",
+   "kind": "ascii",
+   "keep": true
   },
   {
    "id": 1,
    "jp": "[１]-000",
-   "en": ""
+   "en": "",
+   "kind": "key",
+   "keep": true
   },
   {
    "id": 2,
    "jp": "アヤ",
-   "en": ""
+   "en": "",
+   "kind": "name",
+   "keep": false
   },
   {
    "id": 3,
    "jp": "「マップを変えない」;@「宇宙マップで確認」;@「海マップで確認」",
-   "en": ""
+   "en": "",
+   "kind": "text",
+   "keep": false
   }
  ]
 }

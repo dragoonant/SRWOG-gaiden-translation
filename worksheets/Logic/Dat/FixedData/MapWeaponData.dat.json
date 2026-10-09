@@ -68,7 +68,10 @@
    },
    "lines": [
     "■■■■■■■■■■■\n■■■■■□■■■■■\n■■■■□□□■■■■\n■■■□□□□□■■■\n■■□□□□□□□■■\n■□□□□◎□□□□■\n■■□□□□□□□■■\n■■■□□□□□■■■\n■■■■□□□■■■■\n■■■■■□■■■■■\n■■■■■■■■■■■"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 1,
@@ -90,7 +93,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "◆自機中心型"
+   "text": "◆自機中心型",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 2,
@@ -111,7 +117,10 @@
    },
    "lines": [
     "■■■■■■■■■■■■■\n■■■■■■□■■■■■■\n■■■■■□□□■■■■■\n■■■■□□□□□■■■■\n■■■□□□□□□□■■■\n■■□□□□□□□□□■■\n■□□□□□◎□□□□□■\n■■□□□□□□□□□■■\n■■■□□□□□□□■■■\n■■■■□□□□□■■■■\n■■■■■□□□■■■■■\n■■■■■■□■■■■■■\n■■■■■■■■■■■■■"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 3,
@@ -132,7 +141,10 @@
    },
    "lines": [
     "■■■■■■■■■■■■■■■\n■■■■■■■□■■■■■■■\n■■■■■■□□□■■■■■■\n■■■■■□□□□□■■■■■\n■■■■□□□□□□□■■■■\n■■■□□□□□□□□□■■■\n■■□□□□□□□□□□□■■\n■□□□□□□◎□□□□□□■\n■■□□□□□□□□□□□■■\n■■■□□□□□□□□□■■■\n■■■■□□□□□□□■■■■\n■■■■■□□□□□■■■■■\n■■■■■■□□□■■■■■■\n■■■■■■■□■■■■■■■\n■■■■■■■■■■■■■■■"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 4,
@@ -153,7 +165,10 @@
    },
    "lines": [
     "■■■■■■■■■■■■■\n■■■■■■□■■■■■■\n■■■■■□□□■■■■■\n■■■■□□□□□■■■■\n■■■□□□□□□□■■■\n■■□□□□■□□□□■■\n■□□□□■◎■□□□□■\n■■□□□□■□□□□■■\n■■■□□□□□□□■■■\n■■■■□□□□□■■■■\n■■■■■□□□■■■■■\n■■■■■■□■■■■■■\n■■■■■■■■■■■■■"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 5,
@@ -174,7 +189,10 @@
    },
    "lines": [
     "■■■■■■■\n■■■□■■■\n■■□□□■■\n■□□◎□□■\n■■□□□■■\n■■■□■■■\n■■■■■■■"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 6,
@@ -195,7 +213,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "◆着弾指定型"
+   "text": "◆着弾指定型",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 7,
@@ -216,7 +237,10 @@
    },
    "lines": [
     "■■■■■■■■■\n■■■■□■■■■\n■■■□□□■■■\n■■□□□□□■■\n■□□□◎□□□■\n■■□□□□□■■\n■■■□□□■■■\n■■■■□■■■■\n■■■■■■■■■"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 8,
@@ -235,7 +259,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": ""
+   "text": "",
+   "kind": "ascii",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 9,
@@ -254,7 +281,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "欠番"
+   "text": "欠番",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 10,
@@ -275,7 +305,10 @@
    },
    "lines": [
     "■■■\n■□■\n■□■\n■□■\n■□■\n■□■\n■□■\n■◎■\n■■■"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 11,
@@ -303,7 +336,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "◆方向指定型"
+   "text": "◆方向指定型",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 12,
@@ -324,7 +360,10 @@
    },
    "lines": [
     "■■■\n■□■\n■□■\n■□■\n■□■\n■□■\n■□■\n■□■\n■□■\n■◎■\n■■■"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 13,
@@ -345,7 +384,10 @@
    },
    "lines": [
     "■■■■■\n■□■□■\n■□■□■\n■□■□■\n■□■□■\n■□■□■\n■□■□■\n■□■□■\n■■■■■\n■■◎■■\n■■■■■"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 14,
@@ -366,7 +408,10 @@
    },
    "lines": [
     "■■■■■\n■□□□■\n■□□□■\n■■□■■\n■■◎■■\n■■■■■"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 15,
@@ -387,7 +432,10 @@
    },
    "lines": [
     "■■■■■\n■□□□■\n■□□□■\n■□□□■\n■■□■■\n■■◎■■\n■■■■■"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 16,
@@ -408,7 +456,10 @@
    },
    "lines": [
     "■■■■■\n■■□■■\n■□□□■\n■□□□■\n■■□■■\n■■◎■■\n■■■■■"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 17,
@@ -429,7 +480,10 @@
    },
    "lines": [
     "■■■■■\n■■□■■\n■□□□■\n■□□□■\n■□□□■\n■■◎■■\n■■■■■"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 18,
@@ -450,7 +504,10 @@
    },
    "lines": [
     "■■■■■\n■■□■■\n■□□□■\n■□□□■\n■□□□■\n■□□□■\n■□□□■\n■□□□■\n■□□□■\n■□□□■\n■■◎■■\n■■■■■"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 19,
@@ -471,7 +528,10 @@
    },
    "lines": [
     "■■■■■■■■■\n■□□□□□□□■\n■■□□□□□■■\n■■■□□□■■■\n■■■■□■■■■\n■■■■◎■■■■\n■■■■■■■■■"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 20,
@@ -492,7 +552,10 @@
    },
    "lines": [
     "■■■■■■■\n■□■□■□■\n■□■□■□■\n■□□□□□■\n■■□□□■■\n■■□□□■■\n■■□□□■■\n■■□□□■■\n■■■□■■■\n■■■◎■■■\n■■■■■■■"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 21,
@@ -513,7 +576,10 @@
    },
    "lines": [
     "■■■■■■■■■■■■■■■\n■■■■■■■□■■■■■■■\n■■■■■■■□■■■■■■■\n■■■■■■■□■■■■■■■\n■■■■■■■□■■■■■■■\n■■■■■■■□■■■■■■■\n■■■■■■■□■■■■■■■\n■□□□□□□◎□□□□□□■\n■■■■■■■□■■■■■■■\n■■■■■■■□■■■■■■■\n■■■■■■■□■■■■■■■\n■■■■■■■□■■■■■■■\n■■■■■■■□■■■■■■■\n■■■■■■■□■■■■■■■\n■■■■■■■■■■■■■■■"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   }
  ],
  "inline_strings": []

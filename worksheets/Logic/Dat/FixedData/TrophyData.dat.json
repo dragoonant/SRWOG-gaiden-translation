@@ -78,7 +78,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＯＧマスター"
+   "text": "ＯＧマスター",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 1,
@@ -97,7 +100,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "全てのトロフィーを獲得する。"
+   "text": "全てのトロフィーを獲得する。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 2,
@@ -116,7 +122,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_OG_MASTER"
+   "text": "TROPHY_OG_MASTER",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 3,
@@ -135,7 +144,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_PLATINUM.png"
+   "text": "image\\TROP_PLATINUM.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 4,
@@ -154,7 +166,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＥＸハードモードクリア"
+   "text": "ＥＸハードモードクリア",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 5,
@@ -173,7 +188,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＥＸハードモードでゲームをクリアする。"
+   "text": "ＥＸハードモードでゲームをクリアする。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 6,
@@ -192,7 +210,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_EX_HARD_CLEAR"
+   "text": "TROPHY_EX_HARD_CLEAR",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 7,
@@ -211,7 +232,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_GOLD_01.png"
+   "text": "image\\TROP_GOLD_01.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 8,
@@ -230,7 +254,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "スペシャルモードクリア"
+   "text": "スペシャルモードクリア",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 9,
@@ -249,7 +276,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "スペシャルモードでゲームをクリアする。"
+   "text": "スペシャルモードでゲームをクリアする。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 10,
@@ -268,7 +298,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_SPECIAL_CLEAR"
+   "text": "TROPHY_SPECIAL_CLEAR",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 11,
@@ -287,7 +320,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_GOLD_02.png"
+   "text": "image\\TROP_GOLD_02.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 12,
@@ -306,7 +342,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "やり込み派"
+   "text": "やり込み派",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 13,
@@ -325,7 +364,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ゲームモードを問わず、ゲームを３周クリアする。"
+   "text": "ゲームモードを問わず、ゲームを３周クリアする。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 14,
@@ -344,7 +386,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_YARIKOMI"
+   "text": "TROPHY_YARIKOMI",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 15,
@@ -363,7 +408,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_GOLD_03.png"
+   "text": "image\\TROP_GOLD_03.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 16,
@@ -382,7 +430,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "全ＳＲポイント獲得"
+   "text": "全ＳＲポイント獲得",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 17,
@@ -401,7 +452,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "全てのステージのＳＲポイントを獲得する。"
+   "text": "全てのステージのＳＲポイントを獲得する。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 18,
@@ -420,7 +474,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_ALL_SRPOINT_KAKUTOKU"
+   "text": "TROPHY_ALL_SRPOINT_KAKUTOKU",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 19,
@@ -439,7 +496,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_GOLD_04.png"
+   "text": "image\\TROP_GOLD_04.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 20,
@@ -458,7 +518,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "シナリオコンプリート"
+   "text": "シナリオコンプリート",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 21,
@@ -477,7 +540,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "シナリオチャートに全てのステージを表示させる。"
+   "text": "シナリオチャートに全てのステージを表示させる。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 22,
@@ -496,7 +562,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_SCENARIO_COMPLETE"
+   "text": "TROPHY_SCENARIO_COMPLETE",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 23,
@@ -515,7 +584,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_SILVER_01.png"
+   "text": "image\\TROP_SILVER_01.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 24,
@@ -534,7 +606,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "エキスパート"
+   "text": "エキスパート",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 25,
@@ -553,7 +628,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ゲームオーバー後のリトライを行わずにゲームをクリアする。"
+   "text": "ゲームオーバー後のリトライを行わずにゲームをクリアする。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 26,
@@ -572,7 +650,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_EXPERT"
+   "text": "TROPHY_EXPERT",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 27,
@@ -591,7 +672,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_SILVER_02.png"
+   "text": "image\\TROP_SILVER_02.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 28,
@@ -610,7 +694,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ゲームクリア"
+   "text": "ゲームクリア",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 29,
@@ -629,7 +716,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ゲームをクリアする。"
+   "text": "ゲームをクリアする。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 30,
@@ -648,7 +738,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_GAME_CLEAR"
+   "text": "TROPHY_GAME_CLEAR",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 31,
@@ -667,7 +760,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_SILVER_03.png"
+   "text": "image\\TROP_SILVER_03.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 32,
@@ -686,7 +782,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "撃墜王"
+   "text": "撃墜王",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 33,
@@ -705,7 +804,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "いずれかの味方パイロットの撃墜数を２００機以上にする。"
+   "text": "いずれかの味方パイロットの撃墜数を２００機以上にする。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 34,
@@ -724,7 +826,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_GEKITSUI"
+   "text": "TROPHY_GEKITSUI",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 35,
@@ -743,7 +848,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_SILVER_04.png"
+   "text": "image\\TROP_SILVER_04.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 36,
@@ -762,7 +870,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "総力戦"
+   "text": "総力戦",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 37,
@@ -781,7 +892,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１ステージで全種類の精神コマンドを使用する。"
+   "text": "１ステージで全種類の精神コマンドを使用する。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 38,
@@ -800,7 +914,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_TORAL_WAR"
+   "text": "TROPHY_TORAL_WAR",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 39,
@@ -819,7 +936,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_SILVER_05.png"
+   "text": "image\\TROP_SILVER_05.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 40,
@@ -838,7 +958,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "オンリーワンクラッシュ"
+   "text": "オンリーワンクラッシュ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 41,
@@ -857,7 +980,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "一度の戦闘で、敵１機に１０万以上のダメージを与える。"
+   "text": "一度の戦闘で、敵１機に１０万以上のダメージを与える。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 42,
@@ -876,7 +1002,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_ONLY_ONE"
+   "text": "TROPHY_ONLY_ONE",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 43,
@@ -895,7 +1024,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_SILVER_06.png"
+   "text": "image\\TROP_SILVER_06.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 44,
@@ -914,7 +1046,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "奇跡の生還"
+   "text": "奇跡の生還",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 45,
@@ -933,7 +1068,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "味方戦艦のＨＰが最大ＨＰの１％以下の状態でプレイヤーフェイズを迎える。"
+   "text": "味方戦艦のＨＰが最大ＨＰの１％以下の状態でプレイヤーフェイズを迎える。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 46,
@@ -952,7 +1090,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_MIRACLE"
+   "text": "TROPHY_MIRACLE",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 47,
@@ -971,7 +1112,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_SILVER_07.png"
+   "text": "image\\TROP_SILVER_07.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 48,
@@ -990,7 +1134,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "よくある事"
+   "text": "よくある事",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 49,
@@ -1009,7 +1156,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "戦闘で、敵のＨＰを１桁台にする。"
+   "text": "戦闘で、敵のＨＰを１桁台にする。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 50,
@@ -1028,7 +1178,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_HAPPEN"
+   "text": "TROPHY_HAPPEN",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 51,
@@ -1047,7 +1200,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_SILVER_08.png"
+   "text": "image\\TROP_SILVER_08.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 52,
@@ -1066,7 +1222,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ギリギリセーフ！"
+   "text": "ギリギリセーフ！",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 53,
@@ -1085,7 +1244,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "戦闘で、味方のＨＰが１桁台になる。"
+   "text": "戦闘で、味方のＨＰが１桁台になる。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 54,
@@ -1104,7 +1266,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_SAFE"
+   "text": "TROPHY_SAFE",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 55,
@@ -1123,7 +1288,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_SILVER_09.png"
+   "text": "image\\TROP_SILVER_09.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 56,
@@ -1142,7 +1310,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ヒロインだらけの精鋭部隊"
+   "text": "ヒロインだらけの精鋭部隊",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 57,
@@ -1161,7 +1332,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "女性パイロットを２０人以上エースパイロットにする。"
+   "text": "女性パイロットを２０人以上エースパイロットにする。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 58,
@@ -1180,7 +1354,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_HEROINE"
+   "text": "TROPHY_HEROINE",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 59,
@@ -1199,7 +1376,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_SILVER_10.png"
+   "text": "image\\TROP_SILVER_10.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 60,
@@ -1218,7 +1398,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "艦長の風格"
+   "text": "艦長の風格",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 61,
@@ -1237,7 +1420,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "いずれかの戦艦艦長をエースパイロット（撃墜数５０以上）にする。"
+   "text": "いずれかの戦艦艦長をエースパイロット（撃墜数５０以上）にする。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 62,
@@ -1256,7 +1442,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_CAPTAIN"
+   "text": "TROPHY_CAPTAIN",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 63,
@@ -1275,7 +1464,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_SILVER_11.png"
+   "text": "image\\TROP_SILVER_11.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 64,
@@ -1294,7 +1486,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダブルアタック"
+   "text": "ダブルアタック",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 65,
@@ -1313,7 +1508,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダブルアタックで一度に敵を４機撃墜する。"
+   "text": "ダブルアタックで一度に敵を４機撃墜する。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 66,
@@ -1332,7 +1530,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_DOUBLE_ATTACK"
+   "text": "TROPHY_DOUBLE_ATTACK",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 67,
@@ -1351,7 +1552,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_01.png"
+   "text": "image\\TROP_BRONZE_01.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 68,
@@ -1370,7 +1574,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "コンビネーション攻撃"
+   "text": "コンビネーション攻撃",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 69,
@@ -1389,7 +1596,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "コンビネーション攻撃で一度に敵を５機撃墜する。"
+   "text": "コンビネーション攻撃で一度に敵を５機撃墜する。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 70,
@@ -1408,7 +1618,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_COMBINATION_ATTACK"
+   "text": "TROPHY_COMBINATION_ATTACK",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 71,
@@ -1427,7 +1640,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_02.png"
+   "text": "image\\TROP_BRONZE_02.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 72,
@@ -1446,7 +1662,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "財布ラッシュ！？"
+   "text": "財布ラッシュ！？",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 73,
@@ -1465,7 +1684,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "『熱血』『幸運』『努力』 が掛った状態でサイフラッシュを使用。"
+   "text": "『熱血』『幸運』『努力』 が掛った状態でサイフラッシュを使用。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 74,
@@ -1484,7 +1706,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_CYFLASH"
+   "text": "TROPHY_CYFLASH",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 75,
@@ -1503,7 +1728,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_03.png"
+   "text": "image\\TROP_BRONZE_03.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 76,
@@ -1522,7 +1750,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "分の悪い賭け"
+   "text": "分の悪い賭け",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 77,
@@ -1541,7 +1772,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "キョウスケで命中率０％の敵だけに攻撃する。"
+   "text": "キョウスケで命中率０％の敵だけに攻撃する。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 78,
@@ -1560,7 +1794,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_GAMBLE"
+   "text": "TROPHY_GAMBLE",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 79,
@@ -1579,7 +1816,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_04.png"
+   "text": "image\\TROP_BRONZE_04.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 80,
@@ -1598,7 +1838,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "若葉マーク"
+   "text": "若葉マーク",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 81,
@@ -1617,7 +1860,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ガイダンスシナリオをクリアする。"
+   "text": "ガイダンスシナリオをクリアする。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 82,
@@ -1636,7 +1882,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_WAKABA"
+   "text": "TROPHY_WAKABA",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 83,
@@ -1655,7 +1904,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_05.png"
+   "text": "image\\TROP_BRONZE_05.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 84,
@@ -1674,7 +1926,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "流星、夜を切り裂いて"
+   "text": "流星、夜を切り裂いて",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 85,
@@ -1693,7 +1948,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "宇宙マップでアイビスが撃墜される。"
+   "text": "宇宙マップでアイビスが撃墜される。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 86,
@@ -1712,7 +1970,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_SHOOTING_STAR"
+   "text": "TROPHY_SHOOTING_STAR",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 87,
@@ -1731,7 +1992,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_06.png"
+   "text": "image\\TROP_BRONZE_06.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 88,
@@ -1750,7 +2014,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "実戦"
+   "text": "実戦",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 89,
@@ -1769,7 +2036,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "プロローグのステージをクリアする。"
+   "text": "プロローグのステージをクリアする。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 90,
@@ -1788,7 +2058,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_ZISSEN"
+   "text": "TROPHY_ZISSEN",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 91,
@@ -1807,7 +2080,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_07.png"
+   "text": "image\\TROP_BRONZE_07.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 92,
@@ -1826,7 +2102,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "エースパイロット"
+   "text": "エースパイロット",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 93,
@@ -1845,7 +2124,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "いずれかの味方パイロットをエースパイロット（撃墜数５０以上）にする。"
+   "text": "いずれかの味方パイロットをエースパイロット（撃墜数５０以上）にする。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 94,
@@ -1864,7 +2146,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_ACE_PILOT"
+   "text": "TROPHY_ACE_PILOT",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 95,
@@ -1883,7 +2168,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_08.png"
+   "text": "image\\TROP_BRONZE_08.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 96,
@@ -1902,7 +2190,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "トップエース"
+   "text": "トップエース",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 97,
@@ -1921,7 +2212,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "いずれかの味方パイロットの撃墜数を１００機以上にする。"
+   "text": "いずれかの味方パイロットの撃墜数を１００機以上にする。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 98,
@@ -1940,7 +2234,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_TOP_ACE"
+   "text": "TROPHY_TOP_ACE",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 99,
@@ -1959,7 +2256,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_09.png"
+   "text": "image\\TROP_BRONZE_09.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 100,
@@ -1978,7 +2278,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "撃墜され王"
+   "text": "撃墜され王",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 101,
@@ -1997,7 +2300,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１ステージで５機以上、撃墜される。"
+   "text": "１ステージで５機以上、撃墜される。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 102,
@@ -2016,7 +2322,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_GEKITSUISARE"
+   "text": "TROPHY_GEKITSUISARE",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 103,
@@ -2035,7 +2344,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_10.png"
+   "text": "image\\TROP_BRONZE_10.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 104,
@@ -2054,7 +2366,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "フル改造"
+   "text": "フル改造",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 105,
@@ -2073,7 +2388,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "任意の機体をフル改造する。"
+   "text": "任意の機体をフル改造する。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 106,
@@ -2092,7 +2410,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_FULL_TUNE"
+   "text": "TROPHY_FULL_TUNE",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 107,
@@ -2111,7 +2432,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_11.png"
+   "text": "image\\TROP_BRONZE_11.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 108,
@@ -2130,7 +2454,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "一騎当千"
+   "text": "一騎当千",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 109,
@@ -2149,7 +2476,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１ステージ中、いずれかの味方パイロットで敵を１５機以上撃墜する。"
+   "text": "１ステージ中、いずれかの味方パイロットで敵を１５機以上撃墜する。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 110,
@@ -2168,7 +2498,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_MIGHTY_WARRIOR"
+   "text": "TROPHY_MIGHTY_WARRIOR",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 111,
@@ -2187,7 +2520,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_12.png"
+   "text": "image\\TROP_BRONZE_12.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 112,
@@ -2206,7 +2542,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "狙撃王"
+   "text": "狙撃王",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 113,
@@ -2225,7 +2564,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１４マス以上離れた敵に攻撃を命中させる。"
+   "text": "１４マス以上離れた敵に攻撃を命中させる。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 114,
@@ -2244,7 +2586,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_SNIPER"
+   "text": "TROPHY_SNIPER",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 115,
@@ -2263,7 +2608,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_13.png"
+   "text": "image\\TROP_BRONZE_13.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 116,
@@ -2282,7 +2630,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "一網打尽！？"
+   "text": "一網打尽！？",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 117,
@@ -2301,7 +2652,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "マップ兵器で一度に１０機以上の敵を攻撃する。"
+   "text": "マップ兵器で一度に１０機以上の敵を攻撃する。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 118,
@@ -2320,7 +2674,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_ICHIMOUDAJIN"
+   "text": "TROPHY_ICHIMOUDAJIN",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 119,
@@ -2339,7 +2696,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_14.png"
+   "text": "image\\TROP_BRONZE_14.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 120,
@@ -2358,7 +2718,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "韋駄天"
+   "text": "韋駄天",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 121,
@@ -2377,7 +2740,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "一度に１６マス以上移動する。"
+   "text": "一度に１６マス以上移動する。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 122,
@@ -2396,7 +2762,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_SWIFT_RUNNER"
+   "text": "TROPHY_SWIFT_RUNNER",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 123,
@@ -2415,7 +2784,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_15.png"
+   "text": "image\\TROP_BRONZE_15.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 124,
@@ -2434,7 +2806,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "その漢、鉄壁"
+   "text": "その漢、鉄壁",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 125,
@@ -2453,7 +2828,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１ターンに４回、ラッセルが援護防御を行う。"
+   "text": "１ターンに４回、ラッセルが援護防御を行う。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 126,
@@ -2472,7 +2850,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_EASES"
+   "text": "TROPHY_EASES",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 127,
@@ -2491,7 +2872,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_16.png"
+   "text": "image\\TROP_BRONZE_16.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 128,
@@ -2510,7 +2894,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "エース番長"
+   "text": "エース番長",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 129,
@@ -2529,7 +2916,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ミチルがエースパイロット（撃墜数５０以上）になる。"
+   "text": "ミチルがエースパイロット（撃墜数５０以上）になる。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 130,
@@ -2548,7 +2938,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_BULLY"
+   "text": "TROPHY_BULLY",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 131,
@@ -2567,7 +2960,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_17.png"
+   "text": "image\\TROP_BRONZE_17.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 132,
@@ -2586,7 +2982,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "愛の戦士"
+   "text": "愛の戦士",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 133,
@@ -2605,7 +3004,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１ステージで精神コマンド『愛』を１０回以上使用する。"
+   "text": "１ステージで精神コマンド『愛』を１０回以上使用する。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 134,
@@ -2624,7 +3026,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_LOVE"
+   "text": "TROPHY_LOVE",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 135,
@@ -2643,7 +3048,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_18.png"
+   "text": "image\\TROP_BRONZE_18.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 136,
@@ -2662,7 +3070,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "熱血部隊"
+   "text": "熱血部隊",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 137,
@@ -2681,7 +3092,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１ステージで精神コマンド『熱血』を使用して、敵を１５機以上撃墜する。"
+   "text": "１ステージで精神コマンド『熱血』を使用して、敵を１５機以上撃墜する。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 138,
@@ -2700,7 +3114,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_HOT"
+   "text": "TROPHY_HOT",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 139,
@@ -2719,7 +3136,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_19.png"
+   "text": "image\\TROP_BRONZE_19.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 140,
@@ -2738,7 +3158,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "さすが教導隊隊長！"
+   "text": "さすが教導隊隊長！",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 141,
@@ -2757,7 +3180,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "カイがコンビネーション攻撃で、一度に敵を４機以上撃墜する。"
+   "text": "カイがコンビネーション攻撃で、一度に敵を４機以上撃墜する。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 142,
@@ -2776,7 +3202,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_KYOUDOU"
+   "text": "TROPHY_KYOUDOU",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 143,
@@ -2795,7 +3224,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_20.png"
+   "text": "image\\TROP_BRONZE_20.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 144,
@@ -2814,7 +3246,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "サポーター（アタック）"
+   "text": "サポーター（アタック）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 145,
@@ -2833,7 +3268,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１ステージで援護攻撃で敵を１５機以上撃墜する。"
+   "text": "１ステージで援護攻撃で敵を１５機以上撃墜する。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 146,
@@ -2852,7 +3290,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_SUPPORT_ATTACK"
+   "text": "TROPHY_SUPPORT_ATTACK",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 147,
@@ -2871,7 +3312,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_21.png"
+   "text": "image\\TROP_BRONZE_21.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 148,
@@ -2890,7 +3334,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "サポーター（ブロック）"
+   "text": "サポーター（ブロック）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 149,
@@ -2909,7 +3356,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１ステージで援護防御を１５回以上行う。"
+   "text": "１ステージで援護防御を１５回以上行う。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 150,
@@ -2928,7 +3378,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_SUPPORT_BLOCK"
+   "text": "TROPHY_SUPPORT_BLOCK",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 151,
@@ -2947,7 +3400,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_22.png"
+   "text": "image\\TROP_BRONZE_22.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 152,
@@ -2966,7 +3422,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "遙かなる戦い、開幕"
+   "text": "遙かなる戦い、開幕",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 153,
@@ -2985,7 +3444,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ゲームデータをインストールする。"
+   "text": "ゲームデータをインストールする。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 154,
@@ -3004,7 +3466,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_ON_STAGE"
+   "text": "TROPHY_ON_STAGE",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 155,
@@ -3023,7 +3488,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_23.png"
+   "text": "image\\TROP_BRONZE_23.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 156,
@@ -3042,7 +3510,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "休息の時"
+   "text": "休息の時",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 157,
@@ -3061,7 +3532,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "終了メッセージを見る。"
+   "text": "終了メッセージを見る。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 158,
@@ -3080,7 +3554,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "TROPHY_REST_TIME"
+   "text": "TROPHY_REST_TIME",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 159,
@@ -3099,7 +3576,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "image\\TROP_BRONZE_24.png"
+   "text": "image\\TROP_BRONZE_24.png",
+   "kind": "internal",
+   "keep": true,
+   "en": ""
   }
  ],
  "inline_strings": []

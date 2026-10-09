@@ -66,7 +66,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "－－－－"
+   "text": "－－－－",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 1,
@@ -85,7 +88,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": ""
+   "text": "",
+   "kind": "ascii",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 2,
@@ -104,7 +110,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "格闘￤"
+   "text": "格闘￤",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 3,
@@ -123,7 +132,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットの格闘武器のダメージが５％上昇します。"
+   "text": "自ユニットの格闘武器のダメージが５％上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 4,
@@ -142,7 +154,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "射撃￤"
+   "text": "射撃￤",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 5,
@@ -161,7 +176,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットの射撃武器のダメージが５％上昇します。"
+   "text": "自ユニットの射撃武器のダメージが５％上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 6,
@@ -180,7 +198,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "反撃￤"
+   "text": "反撃￤",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 7,
@@ -199,7 +220,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットの反撃時のダメージが５％上昇します。"
+   "text": "自ユニットの反撃時のダメージが５％上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 8,
@@ -218,7 +242,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ビーム￤"
+   "text": "ビーム￤",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 9,
@@ -237,7 +264,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットのビーム系武器のダメージが５％上昇します。"
+   "text": "自ユニットのビーム系武器のダメージが５％上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 10,
@@ -256,7 +286,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "実弾￤"
+   "text": "実弾￤",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 11,
@@ -275,7 +308,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットの弾数系武器のダメージが５％上昇します。"
+   "text": "自ユニットの弾数系武器のダメージが５％上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 12,
@@ -294,7 +330,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "念動￤"
+   "text": "念動￤",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 13,
@@ -313,7 +352,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットの念動系武器のダメージが５％上昇します。"
+   "text": "自ユニットの念動系武器のダメージが５％上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 14,
@@ -332,7 +374,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "援攻￤"
+   "text": "援攻￤",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 15,
@@ -351,7 +396,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットの援護攻撃時のダメージが５％上昇します。"
+   "text": "自ユニットの援護攻撃時のダメージが５％上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 16,
@@ -370,7 +418,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲￤"
+   "text": "装甲￤",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 17,
@@ -389,7 +440,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットへのダメージが５％減少します。"
+   "text": "自ユニットへのダメージが５％減少します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 18,
@@ -408,7 +462,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "援防￤"
+   "text": "援防￤",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 19,
@@ -427,7 +484,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットの援護防御時のダメージが５％減少します。"
+   "text": "自ユニットの援護防御時のダメージが５％減少します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 20,
@@ -446,7 +506,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "命中￤"
+   "text": "命中￤",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 21,
@@ -465,7 +528,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットの命中率が５だけ上昇します。"
+   "text": "自ユニットの命中率が５だけ上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 22,
@@ -484,7 +550,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "回避￤"
+   "text": "回避￤",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 23,
@@ -503,7 +572,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットの回避率が５だけ上昇します。"
+   "text": "自ユニットの回避率が５だけ上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 24,
@@ -522,7 +594,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＣＲＴ￤"
+   "text": "ＣＲＴ￤",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 25,
@@ -541,7 +616,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットのクリティカル発生率が１０だけ上昇します。"
+   "text": "自ユニットのクリティカル発生率が１０だけ上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 26,
@@ -560,7 +638,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "経験値￢"
+   "text": "経験値￢",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 27,
@@ -579,7 +660,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットの、戦闘での獲得経験値が１０％上昇します。"
+   "text": "自ユニットの、戦闘での獲得経験値が１０％上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 28,
@@ -598,7 +682,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "資金￢"
+   "text": "資金￢",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 29,
@@ -617,7 +704,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットの、戦闘での獲得資金が１０％上昇します。"
+   "text": "自ユニットの、戦闘での獲得資金が１０％上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 30,
@@ -636,7 +726,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "修理￢"
+   "text": "修理￢",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 31,
@@ -655,7 +748,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットの修理時の回復率が１０％上昇します。"
+   "text": "自ユニットの修理時の回復率が１０％上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 32,
@@ -674,7 +770,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＨＰ￢"
+   "text": "ＨＰ￢",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 33,
@@ -693,7 +792,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットの最大ＨＰが５％上昇します。"
+   "text": "自ユニットの最大ＨＰが５％上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 34,
@@ -712,7 +814,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＥＮ￢"
+   "text": "ＥＮ￢",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 35,
@@ -731,7 +836,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットの最大ＥＮが５％上昇します。"
+   "text": "自ユニットの最大ＥＮが５％上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 36,
@@ -750,7 +858,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力￢"
+   "text": "移動力￢",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 37,
@@ -769,7 +880,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットの移動力が１だけ上昇します。"
+   "text": "自ユニットの移動力が１だけ上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 38,
@@ -788,7 +902,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ブロック"
+   "text": "ブロック",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 39,
@@ -807,7 +924,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットに「フルブロック」の特殊能力を与えます。"
+   "text": "自ユニットに「フルブロック」の特殊能力を与えます。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 40,
@@ -826,7 +946,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "バリア￢"
+   "text": "バリア￢",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 41,
@@ -845,7 +968,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットのバリア能力が２００上昇します（バリアが無い場合は無効）。"
+   "text": "自ユニットのバリア能力が２００上昇します（バリアが無い場合は無効）。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 42,
@@ -864,7 +990,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "射程￢"
+   "text": "射程￢",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 43,
@@ -883,7 +1012,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "自ユニットのマップ兵器、射程１以外の武器の射程が１だけ上昇します。"
+   "text": "自ユニットのマップ兵器、射程１以外の武器の射程が１だけ上昇します。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   }
  ],
  "inline_strings": []

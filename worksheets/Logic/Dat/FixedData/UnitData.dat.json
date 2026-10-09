@@ -88,7 +88,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー"
+   "text": "ダミー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 1,
@@ -107,7 +110,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "使用禁止"
+   "text": "使用禁止",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 2,
@@ -282,7 +288,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": ""
+   "text": "",
+   "kind": "ascii",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 3,
@@ -302,7 +311,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｒ‐１"
+   "text": "Ｒ‐１",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 4,
@@ -322,7 +334,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１９．１ｍ"
+   "text": "１９．１ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 5,
@@ -342,7 +357,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５０．２ｔ"
+   "text": "５０．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 6,
@@ -362,7 +380,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｒ‐ウィング"
+   "text": "Ｒ‐ウィング",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 7,
@@ -465,7 +486,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "－－－"
+   "text": "－－－",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 8,
@@ -484,7 +508,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｒ‐２パワード"
+   "text": "Ｒ‐２パワード",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 9,
@@ -504,7 +531,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２４．２ｍ"
+   "text": "２４．２ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 10,
@@ -523,7 +553,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１５２．４ｔ"
+   "text": "１５２．４ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 11,
@@ -542,7 +575,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｒ‐３パワード"
+   "text": "Ｒ‐３パワード",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 12,
@@ -561,7 +597,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２４．７ｍ"
+   "text": "２４．７ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 13,
@@ -580,7 +619,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１８６．２ｔ"
+   "text": "１８６．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 14,
@@ -599,7 +641,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｒ‐ＧＵＮパワード"
+   "text": "Ｒ‐ＧＵＮパワード",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 15,
@@ -618,7 +663,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２９．８ｍ"
+   "text": "２９．８ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 16,
@@ -639,7 +687,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "６６．２ｔ"
+   "text": "６６．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 17,
@@ -658,7 +709,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＳＲＸ"
+   "text": "ＳＲＸ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 18,
@@ -677,7 +731,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５１．２ｍ"
+   "text": "５１．２ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 19,
@@ -696,7 +753,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３８８．８ｔ"
+   "text": "３８８．８ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 20,
@@ -715,7 +775,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＡＲＴ‐１"
+   "text": "ＡＲＴ‐１",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 21,
@@ -737,7 +800,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１９．８ｍ"
+   "text": "１９．８ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 22,
@@ -758,7 +824,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５２．８ｔ"
+   "text": "５２．８ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 23,
@@ -777,7 +846,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＡＲＴ‐ウィング"
+   "text": "ＡＲＴ‐ウィング",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 24,
@@ -796,7 +868,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アルトアイゼン・リーゼ"
+   "text": "アルトアイゼン・リーゼ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 25,
@@ -815,7 +890,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２３．８ｍ"
+   "text": "２３．８ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 26,
@@ -834,7 +912,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "９９．７ｔ"
+   "text": "９９．７ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 27,
@@ -853,7 +934,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ライン・ヴァイスリッター"
+   "text": "ライン・ヴァイスリッター",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 28,
@@ -887,7 +971,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２１．９ｍ"
+   "text": "２１．９ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 29,
@@ -906,7 +993,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "６５．５ｔ"
+   "text": "６５．５ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 30,
@@ -923,7 +1013,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＤＵＭＭＹ"
+   "text": "ＤＵＭＭＹ",
+   "kind": "orphan",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 31,
@@ -942,7 +1035,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "フリッケライ・ガイスト"
+   "text": "フリッケライ・ガイスト",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 32,
@@ -963,7 +1059,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２２．１ｍ"
+   "text": "２２．１ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 33,
@@ -982,7 +1081,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "６９．３ｔ"
+   "text": "６９．３ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 34,
@@ -1002,7 +1104,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アレス・ガイスト"
+   "text": "アレス・ガイスト",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 35,
@@ -1022,7 +1127,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３５．３ｍ"
+   "text": "３５．３ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 36,
@@ -1041,7 +1149,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１８８．１ｔ"
+   "text": "１８８．１ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 37,
@@ -1060,7 +1171,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ペルゼイン・リヒカイト"
+   "text": "ペルゼイン・リヒカイト",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 38,
@@ -1079,7 +1193,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５０．８ｔ"
+   "text": "５０．８ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 39,
@@ -1098,7 +1215,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ヒュッケバイン"
+   "text": "ヒュッケバイン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 40,
@@ -1117,7 +1237,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "６０．４ｔ"
+   "text": "６０．４ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 41,
@@ -1136,7 +1259,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ヒュッケバインＭｋ‐Ⅱ"
+   "text": "ヒュッケバインＭｋ‐Ⅱ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 42,
@@ -1157,7 +1283,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２０．８ｍ"
+   "text": "２０．８ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 43,
@@ -1176,7 +1305,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５２．０ｔ"
+   "text": "５２．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 44,
@@ -1196,7 +1328,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "量産型ヒュッケバインＭｋ‐Ⅱ"
+   "text": "量産型ヒュッケバインＭｋ‐Ⅱ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 45,
@@ -1216,7 +1351,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１９．７ｍ"
+   "text": "１９．７ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 46,
@@ -1236,7 +1374,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４７．４ｔ"
+   "text": "４７．４ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 47,
@@ -1256,7 +1397,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アッシュ"
+   "text": "アッシュ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 48,
@@ -1275,7 +1419,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "傷あり（デフォ）。エクスバイン・アッシュ"
+   "text": "傷あり（デフォ）。エクスバイン・アッシュ",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 49,
@@ -1299,7 +1446,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１９．２ｍ"
+   "text": "１９．２ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 50,
@@ -1319,7 +1469,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４９．０ｔ"
+   "text": "４９．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 51,
@@ -1338,7 +1491,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ヒュッケバインＭｋ‐Ⅲ・タイプＬ"
+   "text": "ヒュッケバインＭｋ‐Ⅲ・タイプＬ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 52,
@@ -1359,7 +1515,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２１．５ｍ"
+   "text": "２１．５ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 53,
@@ -1379,7 +1538,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５４．３ｔ"
+   "text": "５４．３ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 54,
@@ -1398,7 +1560,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ヒュッケバインＭｋ‐Ⅲ・タイプＲ"
+   "text": "ヒュッケバインＭｋ‐Ⅲ・タイプＲ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 55,
@@ -1417,7 +1582,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＡＭガンナー"
+   "text": "ＡＭガンナー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 56,
@@ -1436,7 +1604,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４２．６ｍ"
+   "text": "４２．６ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 57,
@@ -1455,7 +1626,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "８２．１ｔ"
+   "text": "８２．１ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 58,
@@ -1474,7 +1648,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "エグゼクスバイン"
+   "text": "エグゼクスバイン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 59,
@@ -1493,7 +1670,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｍｋ‐Ｘ"
+   "text": "Ｍｋ‐Ｘ",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 60,
@@ -1512,7 +1692,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "６８．１ｔ"
+   "text": "６８．１ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 61,
@@ -1532,7 +1715,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ガリルナガン"
+   "text": "ガリルナガン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 62,
@@ -1552,7 +1738,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２２．０ｍ"
+   "text": "２２．０ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 63,
@@ -1572,7 +1761,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "８０．３ｔ"
+   "text": "８０．３ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 64,
@@ -1594,7 +1786,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "イベント用"
+   "text": "イベント用",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 65,
@@ -1613,7 +1808,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "量産型ベルゲルミル"
+   "text": "量産型ベルゲルミル",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 66,
@@ -1632,7 +1830,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２１．３ｍ"
+   "text": "２１．３ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 67,
@@ -1651,7 +1852,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５０．６ｔ"
+   "text": "５０．６ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 68,
@@ -1670,7 +1874,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "グルンガスト零式"
+   "text": "グルンガスト零式",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 69,
@@ -1689,7 +1896,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５０．３ｍ"
+   "text": "５０．３ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 70,
@@ -1708,7 +1918,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３８０．０ｔ"
+   "text": "３８０．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 71,
@@ -1727,7 +1940,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "グルンガスト改"
+   "text": "グルンガスト改",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 72,
@@ -1746,7 +1962,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４８．７ｍ"
+   "text": "４８．７ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 73,
@@ -1765,7 +1984,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３９９．０ｔ"
+   "text": "３９９．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 74,
@@ -1784,7 +2006,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ウィングガスト改"
+   "text": "ウィングガスト改",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 75,
@@ -1803,7 +2028,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ガストランダー改"
+   "text": "ガストランダー改",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 76,
@@ -1822,7 +2050,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "グルンガスト参式"
+   "text": "グルンガスト参式",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 77,
@@ -1841,7 +2072,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "６０．２ｍ"
+   "text": "６０．２ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 78,
@@ -1860,7 +2094,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３９０．０ｔ"
+   "text": "３９０．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 79,
@@ -1879,7 +2116,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｇラプター"
+   "text": "Ｇラプター",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 80,
@@ -1898,7 +2138,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｇバイソン"
+   "text": "Ｇバイソン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 81,
@@ -1917,7 +2160,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "龍虎王"
+   "text": "龍虎王",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 82,
@@ -1936,7 +2182,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４９．９ｍ"
+   "text": "４９．９ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 83,
@@ -1956,7 +2205,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１５８．０ｔ"
+   "text": "１５８．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 84,
@@ -1975,7 +2227,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "虎龍王"
+   "text": "虎龍王",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 85,
@@ -1995,7 +2250,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４５．１ｍ"
+   "text": "４５．１ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 86,
@@ -2014,7 +2272,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "龍王機"
+   "text": "龍王機",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 87,
@@ -2033,7 +2294,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "敵でも使う可能性あり"
+   "text": "敵でも使う可能性あり",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 88,
@@ -2052,7 +2316,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３２．４ｍ"
+   "text": "３２．４ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 89,
@@ -2071,7 +2338,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "９５．７ｔ"
+   "text": "９５．７ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 90,
@@ -2091,7 +2361,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "虎王機"
+   "text": "虎王機",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 91,
@@ -2113,7 +2386,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２８．３ｍ"
+   "text": "２８．３ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 92,
@@ -2133,7 +2409,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "６２．３ｔ"
+   "text": "６２．３ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 93,
@@ -2152,7 +2431,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "敵版"
+   "text": "敵版",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 94,
@@ -2171,7 +2453,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "龍人機"
+   "text": "龍人機",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 95,
@@ -2191,7 +2476,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４９．３ｍ"
+   "text": "４９．３ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 96,
@@ -2210,7 +2498,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１２０．１ｔ"
+   "text": "１２０．１ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 97,
@@ -2229,7 +2520,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "雀武王"
+   "text": "雀武王",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 98,
@@ -2248,7 +2542,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５０．５ｍ"
+   "text": "５０．５ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 99,
@@ -2268,7 +2565,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１６０．８ｔ"
+   "text": "１６０．８ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 100,
@@ -2287,7 +2587,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "武雀王"
+   "text": "武雀王",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 101,
@@ -2306,7 +2609,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４５．９ｍ"
+   "text": "４５．９ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 102,
@@ -2325,7 +2631,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "雀王機"
+   "text": "雀王機",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 103,
@@ -2344,7 +2653,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "武王機"
+   "text": "武王機",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 104,
@@ -2363,7 +2675,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "応龍皇"
+   "text": "応龍皇",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 105,
@@ -2382,7 +2697,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "後半"
+   "text": "後半",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 106,
@@ -2401,7 +2719,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "饕餮王"
+   "text": "饕餮王",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 107,
@@ -2420,7 +2741,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "窮奇王"
+   "text": "窮奇王",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 108,
@@ -2440,7 +2764,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "地上にいるのが基本"
+   "text": "地上にいるのが基本",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 109,
@@ -2459,7 +2786,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "帝江"
+   "text": "帝江",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 110,
@@ -2478,7 +2808,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "孟槐"
+   "text": "孟槐",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 111,
@@ -2497,7 +2830,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "何羅魚"
+   "text": "何羅魚",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 112,
@@ -2516,7 +2852,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "抱㏍"
+   "text": "抱㏍",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 113,
@@ -2535,7 +2874,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "抱?"
+   "text": "抱?",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 114,
@@ -2554,7 +2896,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "苦辛公主"
+   "text": "苦辛公主",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 115,
@@ -2574,7 +2919,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "マガルガ"
+   "text": "マガルガ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 116,
@@ -2593,7 +2941,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "マシンセルバージョン"
+   "text": "マシンセルバージョン",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 117,
@@ -2613,7 +2964,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３８．５ｍ"
+   "text": "３８．５ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 118,
@@ -2633,7 +2987,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３０．１ｔ"
+   "text": "３０．１ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 119,
@@ -2652,7 +3009,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "味方版"
+   "text": "味方版",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 120,
@@ -2671,7 +3031,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "カナフ"
+   "text": "カナフ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 121,
@@ -2690,7 +3053,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "イーグル"
+   "text": "イーグル",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 122,
@@ -2709,7 +3075,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ケレン"
+   "text": "ケレン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 123,
@@ -2728,7 +3097,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "シャーク　ガンデン戦はＨＰ＋５００００"
+   "text": "シャーク　ガンデン戦はＨＰ＋５００００",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 124,
@@ -2747,7 +3119,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ザナヴ"
+   "text": "ザナヴ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 125,
@@ -2766,7 +3141,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "パンサー"
+   "text": "パンサー",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 126,
@@ -2785,7 +3163,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "スナピル"
+   "text": "スナピル",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 127,
@@ -2804,7 +3185,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ズロア"
+   "text": "ズロア",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 128,
@@ -2823,7 +3207,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ガンエデン"
+   "text": "ガンエデン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 129,
@@ -2842,7 +3229,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ビルトビルガー"
+   "text": "ビルトビルガー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 130,
@@ -2863,7 +3253,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２０．６ｍ"
+   "text": "２０．６ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 131,
@@ -2882,7 +3275,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５６．９ｔ"
+   "text": "５６．９ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 132,
@@ -2901,7 +3297,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ビルトファルケン"
+   "text": "ビルトファルケン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 133,
@@ -2920,7 +3319,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２１．７ｍ"
+   "text": "２１．７ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 134,
@@ -2939,7 +3341,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５０．０ｔ"
+   "text": "５０．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 135,
@@ -2958,7 +3363,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ビルトラプター・シュナーベル"
+   "text": "ビルトラプター・シュナーベル",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 136,
@@ -2977,7 +3385,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１８．２ｍ"
+   "text": "１８．２ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 137,
@@ -2996,7 +3407,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "６５．１ｔ"
+   "text": "６５．１ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 138,
@@ -3015,7 +3429,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ビルトラプター・シュナーベル（ＦＭ）"
+   "text": "ビルトラプター・シュナーベル（ＦＭ）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 139,
@@ -3034,7 +3451,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アルブレード・カスタム"
+   "text": "アルブレード・カスタム",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 140,
@@ -3053,7 +3473,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "-"
+   "text": "-",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 141,
@@ -3075,7 +3498,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２２．９ｍ"
+   "text": "２２．９ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 142,
@@ -3094,7 +3520,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５６．８ｔ"
+   "text": "５６．８ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 143,
@@ -3116,7 +3545,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "量産型ゲシュペンストＭｋ‐Ⅱ改・タイプＮ"
+   "text": "量産型ゲシュペンストＭｋ‐Ⅱ改・タイプＮ",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 144,
@@ -3135,7 +3567,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "カイ機。デフォルト"
+   "text": "カイ機。デフォルト",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 145,
@@ -3157,7 +3592,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "７７．０ｔ"
+   "text": "７７．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 146,
@@ -3179,7 +3617,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "量産型ゲシュペンストＭｋ‐Ⅱ改・タイプＧ"
+   "text": "量産型ゲシュペンストＭｋ‐Ⅱ改・タイプＧ",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 147,
@@ -3199,7 +3640,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "カイ機"
+   "text": "カイ機",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 148,
@@ -3221,7 +3665,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "８５．２ｔ"
+   "text": "８５．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 149,
@@ -3243,7 +3690,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "量産型ゲシュペンストＭｋ‐Ⅱ改・タイプＣ"
+   "text": "量産型ゲシュペンストＭｋ‐Ⅱ改・タイプＣ",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 150,
@@ -3265,7 +3715,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "９３．３ｔ"
+   "text": "９３．３ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 151,
@@ -3285,7 +3738,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "カチーナ機"
+   "text": "カチーナ機",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 152,
@@ -3304,7 +3760,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "カチーナ機。デフォルト"
+   "text": "カチーナ機。デフォルト",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 153,
@@ -3324,7 +3783,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ラッセル機"
+   "text": "ラッセル機",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 154,
@@ -3343,7 +3805,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ラッセル機。デフォルト"
+   "text": "ラッセル機。デフォルト",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 155,
@@ -3362,7 +3827,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ゲシュペンスト・タイプＲＶ"
+   "text": "ゲシュペンスト・タイプＲＶ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 156,
@@ -3382,7 +3850,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２２．８ｍ"
+   "text": "２２．８ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 157,
@@ -3403,7 +3874,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "７５．９ｔ"
+   "text": "７５．９ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 158,
@@ -3422,7 +3896,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アーマリオン"
+   "text": "アーマリオン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 159,
@@ -3441,7 +3918,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４５．８ｔ"
+   "text": "４５．８ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 160,
@@ -3460,7 +3940,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ズィーガーリオン"
+   "text": "ズィーガーリオン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 161,
@@ -3479,7 +3962,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３０．６ｔ"
+   "text": "３０．６ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 162,
@@ -3498,7 +3984,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ジガンスクード・ドゥロ"
+   "text": "ジガンスクード・ドゥロ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 163,
@@ -3517,7 +4006,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "７０．３ｍ"
+   "text": "７０．３ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 164,
@@ -3536,7 +4028,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４８７．０ｔ"
+   "text": "４８７．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 165,
@@ -3555,7 +4050,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アルテリオン（ＤＦ）"
+   "text": "アルテリオン（ＤＦ）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 166,
@@ -3575,7 +4073,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "武装追加版"
+   "text": "武装追加版",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 167,
@@ -3595,7 +4096,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２８．４ｔ"
+   "text": "２８．４ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 168,
@@ -3614,7 +4118,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アルテリオン（ＣＦ）"
+   "text": "アルテリオン（ＣＦ）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 169,
@@ -3634,7 +4141,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ベガリオン"
+   "text": "ベガリオン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 170,
@@ -3654,7 +4164,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４４．８ｍ"
+   "text": "４４．８ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 171,
@@ -3674,7 +4187,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "７９．５ｔ"
+   "text": "７９．５ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 172,
@@ -3693,7 +4209,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ハイペリオン"
+   "text": "ハイペリオン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 173,
@@ -3712,7 +4231,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "合体形態"
+   "text": "合体形態",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 174,
@@ -3731,7 +4253,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２９．５ｍ"
+   "text": "２９．５ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 175,
@@ -3751,7 +4276,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１０７．９ｔ"
+   "text": "１０７．９ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 176,
@@ -3770,7 +4298,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "フェアリオン・タイプＧ"
+   "text": "フェアリオン・タイプＧ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 177,
@@ -3790,7 +4321,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１５．４ｍ"
+   "text": "１５．４ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 178,
@@ -3810,7 +4344,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２８．３ｔ"
+   "text": "２８．３ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 179,
@@ -3829,7 +4366,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "フェアリオン・タイプＳ"
+   "text": "フェアリオン・タイプＳ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 180,
@@ -3849,7 +4389,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "サイリオン"
+   "text": "サイリオン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 181,
@@ -3869,7 +4412,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２５．６ｍ"
+   "text": "２５．６ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 182,
@@ -3888,7 +4434,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ケルベリオン・プレザン"
+   "text": "ケルベリオン・プレザン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 183,
@@ -3907,7 +4456,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "シエンヌ"
+   "text": "シエンヌ",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 184,
@@ -3926,7 +4478,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２４．５ｍ"
+   "text": "２４．５ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 185,
@@ -3945,7 +4500,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "９８．１ｔ"
+   "text": "９８．１ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 186,
@@ -3964,7 +4522,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ケルベリオン・パッセ"
+   "text": "ケルベリオン・パッセ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 187,
@@ -3983,7 +4544,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "シアン"
+   "text": "シアン",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 188,
@@ -4003,7 +4567,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２２．５ｍ"
+   "text": "２２．５ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 189,
@@ -4022,7 +4589,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "９７．２ｔ"
+   "text": "９７．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 190,
@@ -4041,7 +4611,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ケルベリオン・アヴニール"
+   "text": "ケルベリオン・アヴニール",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 191,
@@ -4060,7 +4633,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "シオ"
+   "text": "シオ",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 192,
@@ -4079,7 +4655,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "９６．８ｔ"
+   "text": "９６．８ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 193,
@@ -4099,7 +4678,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "レリオン"
+   "text": "レリオン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 194,
@@ -4118,7 +4700,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "連邦軍カラー"
+   "text": "連邦軍カラー",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 195,
@@ -4138,7 +4723,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２０．５ｍ"
+   "text": "２０．５ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 196,
@@ -4158,7 +4746,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３９．１ｔ"
+   "text": "３９．１ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 197,
@@ -4177,7 +4768,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ガイアセイバーズカラー"
+   "text": "ガイアセイバーズカラー",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 198,
@@ -4196,7 +4790,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "マスカレオン・タイプＮ"
+   "text": "マスカレオン・タイプＮ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 199,
@@ -4216,7 +4813,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "レリオン偽装タイプ（仮）"
+   "text": "レリオン偽装タイプ（仮）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 200,
@@ -4235,7 +4835,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４８．２ｔ"
+   "text": "４８．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 201,
@@ -4254,7 +4857,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "リオン・タイプＶ"
+   "text": "リオン・タイプＶ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 202,
@@ -4273,7 +4879,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２０．１ｍ"
+   "text": "２０．１ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 203,
@@ -4292,7 +4901,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３７．１ｔ"
+   "text": "３７．１ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 204,
@@ -4311,7 +4923,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ランドリオン"
+   "text": "ランドリオン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 205,
@@ -4330,7 +4945,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３３．３ｔ"
+   "text": "３３．３ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 206,
@@ -4349,7 +4967,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "コスモリオン"
+   "text": "コスモリオン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 207,
@@ -4368,7 +4989,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３９．４ｔ"
+   "text": "３９．４ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 208,
@@ -4387,7 +5011,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ヘビーバレリオン"
+   "text": "ヘビーバレリオン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 209,
@@ -4406,7 +5033,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２５．４ｍ"
+   "text": "２５．４ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 210,
@@ -4425,7 +5055,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５６．７ｔ"
+   "text": "５６．７ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 211,
@@ -4444,7 +5077,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ガーリオン"
+   "text": "ガーリオン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 212,
@@ -4463,7 +5099,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１８．９ｍ"
+   "text": "１８．９ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 213,
@@ -4482,7 +5121,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３０．４ｔ"
+   "text": "３０．４ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 214,
@@ -4501,7 +5143,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ガーリオン・カスタム“無明”"
+   "text": "ガーリオン・カスタム“無明”",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 215,
@@ -4520,7 +5165,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４０．１ｔ"
+   "text": "４０．１ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 216,
@@ -4539,7 +5187,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ヴァルシオン改・タイプＣＦ"
+   "text": "ヴァルシオン改・タイプＣＦ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 217,
@@ -4558,7 +5209,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５８．０ｍ"
+   "text": "５８．０ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 218,
@@ -4577,7 +5231,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "６４．０ｔ"
+   "text": "６４．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 219,
@@ -4597,7 +5254,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｆ‐３２Ｖシュヴェールト改"
+   "text": "Ｆ‐３２Ｖシュヴェールト改",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 220,
@@ -4617,7 +5277,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１７．９ｔ"
+   "text": "１７．９ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 221,
@@ -4636,7 +5299,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "８２式戦車ガヴァメント"
+   "text": "８２式戦車ガヴァメント",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 222,
@@ -4655,7 +5321,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１０．１ｍ"
+   "text": "１０．１ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 223,
@@ -4674,7 +5343,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３５．２ｔ"
+   "text": "３５．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 224,
@@ -4693,7 +5365,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ペレグリン"
+   "text": "ペレグリン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 225,
@@ -4712,7 +5387,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アルバトロス"
+   "text": "アルバトロス",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 226,
@@ -4731,7 +5409,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "トライロバイト"
+   "text": "トライロバイト",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 227,
@@ -4750,7 +5431,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ハガネ"
+   "text": "ハガネ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 228,
@@ -4769,7 +5453,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "クロガネ"
+   "text": "クロガネ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 229,
@@ -4788,7 +5475,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ヒリュウ改"
+   "text": "ヒリュウ改",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 230,
@@ -4808,7 +5498,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "エア・クリスマス"
+   "text": "エア・クリスマス",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 231,
@@ -4827,7 +5520,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ストーク"
+   "text": "ストーク",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 232,
@@ -4846,7 +5542,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ホワイトストーク"
+   "text": "ホワイトストーク",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 233,
@@ -4865,7 +5564,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "レイディバード"
+   "text": "レイディバード",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 234,
@@ -4884,7 +5586,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダイゼンガー"
+   "text": "ダイゼンガー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 235,
@@ -4903,7 +5608,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５５．４ｍ"
+   "text": "５５．４ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 236,
@@ -4922,7 +5630,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１４２．７ｔ"
+   "text": "１４２．７ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 237,
@@ -4941,7 +5652,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アウセンザイター"
+   "text": "アウセンザイター",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 238,
@@ -4960,7 +5674,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５９．４ｍ"
+   "text": "５９．４ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 239,
@@ -4979,7 +5696,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１６５．５ｔ"
+   "text": "１６５．５ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 240,
@@ -4998,7 +5718,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ジンライ"
+   "text": "ジンライ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 241,
@@ -5017,7 +5740,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４６．５ｍ"
+   "text": "４６．５ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 242,
@@ -5036,7 +5762,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１１３．４ｔ"
+   "text": "１１３．４ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 243,
@@ -5055,7 +5784,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "量産型ジンライ"
+   "text": "量産型ジンライ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 244,
@@ -5074,7 +5806,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４５．６ｍ"
+   "text": "４５．６ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 245,
@@ -5093,7 +5828,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１０４．０ｔ"
+   "text": "１０４．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 246,
@@ -5114,7 +5852,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "雷鳳"
+   "text": "雷鳳",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 247,
@@ -5133,7 +5874,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＬＩＯＨ有りＶｅｒ"
+   "text": "ＬＩＯＨ有りＶｅｒ",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 248,
@@ -5154,7 +5898,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４８．３ｍ"
+   "text": "４８．３ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 249,
@@ -5175,7 +5922,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１２２．５ｔ"
+   "text": "１２２．５ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 250,
@@ -5194,7 +5944,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ガルムレイド"
+   "text": "ガルムレイド",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 251,
@@ -5213,7 +5966,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "スーパー系"
+   "text": "スーパー系",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 252,
@@ -5232,7 +5988,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１０１．４ｔ"
+   "text": "１０１．４ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 253,
@@ -5252,7 +6011,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ガルムレイド・ブレイズ（Ｇ）"
+   "text": "ガルムレイド・ブレイズ（Ｇ）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 254,
@@ -5272,7 +6034,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ヒューゴ"
+   "text": "ヒューゴ",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 255,
@@ -5291,7 +6056,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５２．２ｍ"
+   "text": "５２．２ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 256,
@@ -5311,7 +6079,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１２４．２ｔ"
+   "text": "１２４．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 257,
@@ -5330,7 +6101,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ガルムレイド・ブレイズ（Ｓ）"
+   "text": "ガルムレイド・ブレイズ（Ｓ）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 258,
@@ -5350,7 +6124,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アクア"
+   "text": "アクア",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 259,
@@ -5369,7 +6146,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５４．３ｍ"
+   "text": "５４．３ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 260,
@@ -5388,7 +6168,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "サーベラス"
+   "text": "サーベラス",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 261,
@@ -5407,7 +6190,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "リアル系"
+   "text": "リアル系",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 262,
@@ -5427,7 +6213,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２０．４ｍ"
+   "text": "２０．４ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 263,
@@ -5446,7 +6235,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５０．７ｔ"
+   "text": "５０．７ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 264,
@@ -5466,7 +6258,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "サーベラス・イグナイト（Ｇ）"
+   "text": "サーベラス・イグナイト（Ｇ）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 265,
@@ -5486,7 +6281,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "６５．４ｔ"
+   "text": "６５．４ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 266,
@@ -5505,7 +6303,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "サーベラス・イグナイト（Ｓ）"
+   "text": "サーベラス・イグナイト（Ｓ）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 267,
@@ -5525,7 +6326,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "メディウス・ロクス"
+   "text": "メディウス・ロクス",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 268,
@@ -5544,7 +6348,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "前期"
+   "text": "前期",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 269,
@@ -5563,7 +6370,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１９．６ｍ"
+   "text": "１９．６ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 270,
@@ -5582,7 +6392,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４７．８ｔ"
+   "text": "４７．８ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 271,
@@ -5601,7 +6414,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "後期"
+   "text": "後期",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 272,
@@ -5620,7 +6436,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５７．４ｍ"
+   "text": "５７．４ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 273,
@@ -5639,7 +6458,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１４５．９ｔ"
+   "text": "１４５．９ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 274,
@@ -5658,7 +6480,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ガルベルス"
+   "text": "ガルベルス",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 275,
@@ -5677,7 +6502,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５７．０ｍ"
+   "text": "５７．０ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 276,
@@ -5696,7 +6524,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３２８．２ｔ"
+   "text": "３２８．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 277,
@@ -5715,7 +6546,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "キャニス"
+   "text": "キャニス",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 278,
@@ -5734,7 +6568,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１９．４ｍ"
+   "text": "１９．４ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 279,
@@ -5753,7 +6590,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５９．２ｔ"
+   "text": "５９．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 280,
@@ -5772,7 +6612,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＡＩ１"
+   "text": "ＡＩ１",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 281,
@@ -5791,7 +6634,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１３５．１ｍ"
+   "text": "１３５．１ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 282,
@@ -5810,7 +6656,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "コンパチブルカイザー"
+   "text": "コンパチブルカイザー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 283,
@@ -5829,7 +6678,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５６．８ｍ"
+   "text": "５６．８ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 284,
@@ -5848,7 +6700,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１４８．１ｔ"
+   "text": "１４８．１ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 285,
@@ -5867,7 +6722,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｇコンパチブルカイザー"
+   "text": "Ｇコンパチブルカイザー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 286,
@@ -5886,7 +6744,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５８．７ｍ"
+   "text": "５８．７ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 287,
@@ -5905,7 +6766,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１９８．２ｔ"
+   "text": "１９８．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 288,
@@ -5924,7 +6788,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｇサンダーゲート"
+   "text": "Ｇサンダーゲート",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 289,
@@ -5944,7 +6811,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２４．８ｍ"
+   "text": "２４．８ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 290,
@@ -5964,7 +6834,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５０．１ｔ"
+   "text": "５０．１ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 291,
@@ -5983,7 +6856,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ファイター・ロア"
+   "text": "ファイター・ロア",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 292,
@@ -6002,7 +6878,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "バトルレーサー"
+   "text": "バトルレーサー",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 293,
@@ -6021,7 +6900,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１．７７ｍ"
+   "text": "１．７７ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 294,
@@ -6040,7 +6922,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "０．０８ｔ"
+   "text": "０．０８ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 295,
@@ -6059,7 +6944,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｇバンカラン"
+   "text": "Ｇバンカラン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 296,
@@ -6078,7 +6966,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３００．８ｔ"
+   "text": "３００．８ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 297,
@@ -6097,7 +6988,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ヴァイサーガ"
+   "text": "ヴァイサーガ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 298,
@@ -6116,7 +7010,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４３．９ｍ"
+   "text": "４３．９ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 299,
@@ -6135,7 +7032,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１３０．８ｔ"
+   "text": "１３０．８ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 300,
@@ -6154,7 +7054,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ソウルゲイン"
+   "text": "ソウルゲイン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 301,
@@ -6173,7 +7076,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４１．２ｍ"
+   "text": "４１．２ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 302,
@@ -6192,7 +7098,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１２９．８ｔ"
+   "text": "１２９．８ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 303,
@@ -6211,7 +7120,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アシュセイヴァー"
+   "text": "アシュセイヴァー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 304,
@@ -6231,7 +7143,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２１．２ｍ"
+   "text": "２１．２ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 305,
@@ -6250,7 +7165,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５３．４ｔ"
+   "text": "５３．４ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 306,
@@ -6269,7 +7187,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アンジュルグ"
+   "text": "アンジュルグ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 307,
@@ -6288,7 +7209,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４３．７ｍ"
+   "text": "４３．７ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 308,
@@ -6307,7 +7231,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "９８．２ｔ"
+   "text": "９８．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 309,
@@ -6326,7 +7253,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ラーズアングリフ・レイブン"
+   "text": "ラーズアングリフ・レイブン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 310,
@@ -6345,7 +7275,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１６０．３ｔ"
+   "text": "１６０．３ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 311,
@@ -6364,7 +7297,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ランドグリーズ・レイブン"
+   "text": "ランドグリーズ・レイブン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 312,
@@ -6383,7 +7319,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２０．３ｍ"
+   "text": "２０．３ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 313,
@@ -6403,7 +7342,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１３０．３ｔ"
+   "text": "１３０．３ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 314,
@@ -6422,7 +7364,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "サイバスター"
+   "text": "サイバスター",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 315,
@@ -6446,7 +7391,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２８．４８ｍ"
+   "text": "２８．４８ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 316,
@@ -6466,7 +7414,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３８．４ｔ"
+   "text": "３８．４ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 317,
@@ -6485,7 +7436,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "サイバード"
+   "text": "サイバード",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 318,
@@ -6504,7 +7458,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３５．０ｍ"
+   "text": "３５．０ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 319,
@@ -6523,7 +7480,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ヴァルシオーネ"
+   "text": "ヴァルシオーネ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 320,
@@ -6543,7 +7503,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２４．６ｍ"
+   "text": "２４．６ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 321,
@@ -6562,7 +7525,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３９．７ｔ"
+   "text": "３９．７ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 322,
@@ -6581,7 +7547,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ヴァルシオーネＲ"
+   "text": "ヴァルシオーネＲ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 323,
@@ -6600,7 +7569,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３９．６ｔ"
+   "text": "３９．６ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 324,
@@ -6619,7 +7591,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ネオ・グランゾン"
+   "text": "ネオ・グランゾン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 325,
@@ -6638,7 +7613,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "イベント用マップユニット"
+   "text": "イベント用マップユニット",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 326,
@@ -6657,7 +7635,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ガッデス"
+   "text": "ガッデス",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 327,
@@ -6676,7 +7657,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "水系高位（水）"
+   "text": "水系高位（水）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 328,
@@ -6695,7 +7679,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３８．５ｔ"
+   "text": "３８．５ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 329,
@@ -6714,7 +7701,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "グランヴェール"
+   "text": "グランヴェール",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 330,
@@ -6733,7 +7723,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "炎系高位（炎）"
+   "text": "炎系高位（炎）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 331,
@@ -6753,7 +7746,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３６．５ｔ"
+   "text": "３６．５ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 332,
@@ -6773,7 +7769,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ザムジード"
+   "text": "ザムジード",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 333,
@@ -6792,7 +7791,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "大地系高位（大地）"
+   "text": "大地系高位（大地）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 334,
@@ -6812,7 +7814,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４０．５ｔ"
+   "text": "４０．５ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 335,
@@ -6832,7 +7837,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ウィーゾル"
+   "text": "ウィーゾル",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 336,
@@ -6852,7 +7860,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３１．２ｍ"
+   "text": "３１．２ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 337,
@@ -6880,7 +7891,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "敵用"
+   "text": "敵用",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 338,
@@ -6899,7 +7913,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ガディフォール"
+   "text": "ガディフォール",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 339,
@@ -6918,7 +7935,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "風系低位（砂塵）"
+   "text": "風系低位（砂塵）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 340,
@@ -6937,7 +7957,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２６．２ｍ"
+   "text": "２６．２ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 341,
@@ -6956,7 +7979,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "６７．８ｔ"
+   "text": "６７．８ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 342,
@@ -6975,7 +8001,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ガルガード"
+   "text": "ガルガード",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 343,
@@ -6994,7 +8023,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "炎系低位（雷）"
+   "text": "炎系低位（雷）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 344,
@@ -7013,7 +8045,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２５．１ｍ"
+   "text": "２５．１ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 345,
@@ -7035,7 +8070,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４６．５ｔ"
+   "text": "４６．５ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 346,
@@ -7054,7 +8092,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ジャオーム"
+   "text": "ジャオーム",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 347,
@@ -7073,7 +8114,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "風系低位（陽炎）"
+   "text": "風系低位（陽炎）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 348,
@@ -7092,7 +8136,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４１．７ｔ"
+   "text": "４１．７ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 349,
@@ -7111,7 +8158,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ディアブロ"
+   "text": "ディアブロ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 350,
@@ -7130,7 +8180,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "大地系低位（森）"
+   "text": "大地系低位（森）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 351,
@@ -7149,7 +8202,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２６．３ｍ"
+   "text": "２６．３ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 352,
@@ -7168,7 +8224,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３８．９ｔ"
+   "text": "３８．９ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 353,
@@ -7188,7 +8247,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ノルス"
+   "text": "ノルス",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 354,
@@ -7207,7 +8269,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "緑と青の２種類"
+   "text": "緑と青の２種類",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 355,
@@ -7227,7 +8292,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２８．２ｍ"
+   "text": "２８．２ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 356,
@@ -7247,7 +8315,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３９．０ｔ"
+   "text": "３９．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 357,
@@ -7266,7 +8337,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "緑と青の２種類。モニカ"
+   "text": "緑と青の２種類。モニカ",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 358,
@@ -7285,7 +8359,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ノルス・レイ"
+   "text": "ノルス・レイ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 359,
@@ -7304,7 +8381,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "水系低位（いずみ）。修理装置（魔装では補給装置も）持ち。敵でも使う可能性あり"
+   "text": "水系低位（いずみ）。修理装置（魔装では補給装置も）持ち。敵でも使う可能性あり",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 360,
@@ -7323,7 +8403,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５２．９ｔ"
+   "text": "５２．９ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 361,
@@ -7343,7 +8426,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ギルドーラ"
+   "text": "ギルドーラ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 362,
@@ -7362,7 +8448,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "水系低位（川）"
+   "text": "水系低位（川）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 363,
@@ -7382,7 +8471,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２４．３ｍ"
+   "text": "２４．３ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 364,
@@ -7402,7 +8494,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４２．０ｔ"
+   "text": "４２．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 365,
@@ -7421,7 +8516,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ギルドーラⅡ"
+   "text": "ギルドーラⅡ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 366,
@@ -7440,7 +8538,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "水系低位（川）　緑。ギルドーラの劣化版"
+   "text": "水系低位（川）　緑。ギルドーラの劣化版",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 367,
@@ -7459,7 +8560,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３９．５ｔ"
+   "text": "３９．５ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 368,
@@ -7478,7 +8582,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ソルガディ"
+   "text": "ソルガディ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 369,
@@ -7497,7 +8604,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "風系低位（砂嵐）"
+   "text": "風系低位（砂嵐）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 370,
@@ -7516,7 +8626,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２８．４ｍ"
+   "text": "２８．４ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 371,
@@ -7535,7 +8648,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "７４．２ｔ"
+   "text": "７４．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 372,
@@ -7555,7 +8671,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "デュラクシール"
+   "text": "デュラクシール",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 373,
@@ -7575,7 +8694,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５０．１ｍ"
+   "text": "５０．１ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 374,
@@ -7595,7 +8717,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "９８．５ｔ"
+   "text": "９８．５ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 375,
@@ -7615,7 +8740,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "バフォーム"
+   "text": "バフォーム",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 376,
@@ -7634,7 +8762,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "炎系低位（マグマ）"
+   "text": "炎系低位（マグマ）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 377,
@@ -7654,7 +8785,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２３．６ｍ"
+   "text": "２３．６ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 378,
@@ -7675,7 +8809,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５６．０ｔ"
+   "text": "５６．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 379,
@@ -7695,7 +8832,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ブローウェル"
+   "text": "ブローウェル",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 380,
@@ -7714,7 +8854,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "敵用。緑"
+   "text": "敵用。緑",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 381,
@@ -7735,7 +8878,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２６．１ｍ"
+   "text": "２６．１ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 382,
@@ -7754,7 +8900,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ブローウェルカスタム"
+   "text": "ブローウェルカスタム",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 383,
@@ -7773,7 +8922,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "紫"
+   "text": "紫",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 384,
@@ -7795,7 +8947,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ルジャノール改"
+   "text": "ルジャノール改",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 385,
@@ -7814,7 +8969,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１"
+   "text": "１",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 386,
@@ -7836,7 +8994,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２１．８ｍ"
+   "text": "２１．８ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 387,
@@ -7858,7 +9019,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３２．１ｔ"
+   "text": "３２．１ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 388,
@@ -7877,7 +9041,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ソディウム級移動要塞"
+   "text": "ソディウム級移動要塞",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 389,
@@ -7896,7 +9063,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ヴォルクルス（上）"
+   "text": "ヴォルクルス（上）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 390,
@@ -7915,7 +9085,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ヴォルクルス（下）"
+   "text": "ヴォルクルス（下）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 391,
@@ -7934,7 +9107,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ヴォルクルス（合体）"
+   "text": "ヴォルクルス（合体）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 392,
@@ -7953,7 +9129,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "エウリード"
+   "text": "エウリード",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 393,
@@ -7972,7 +9151,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４２．８ｍ"
+   "text": "４２．８ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 394,
@@ -7991,7 +9173,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "８４．９ｔ"
+   "text": "８４．９ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 395,
@@ -8010,7 +9195,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "機装兵"
+   "text": "機装兵",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 396,
@@ -8029,7 +9217,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１８．５ｍ"
+   "text": "１８．５ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 397,
@@ -8048,7 +9239,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３６．３ｔ"
+   "text": "３６．３ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 398,
@@ -8067,7 +9261,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "グラフ・ドローン"
+   "text": "グラフ・ドローン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 399,
@@ -8086,7 +9283,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "青"
+   "text": "青",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 400,
@@ -8107,7 +9307,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１４．２ｍ"
+   "text": "１４．２ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 401,
@@ -8126,7 +9329,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３２．８ｔ"
+   "text": "３２．８ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 402,
@@ -8145,7 +9351,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "グラフ・ドローン改"
+   "text": "グラフ・ドローン改",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 403,
@@ -8164,7 +9373,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "緑"
+   "text": "緑",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 404,
@@ -8183,7 +9395,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ゴリアテ"
+   "text": "ゴリアテ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 405,
@@ -8202,7 +9417,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "大地系低位（鉄）"
+   "text": "大地系低位（鉄）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 406,
@@ -8221,7 +9439,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "６２．５ｔ"
+   "text": "６２．５ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 407,
@@ -8240,7 +9461,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "デモンゴーレム"
+   "text": "デモンゴーレム",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 408,
@@ -8259,7 +9483,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１８．８ｍ"
+   "text": "１８．８ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 409,
@@ -8278,7 +9505,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４９．２ｔ"
+   "text": "４９．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 410,
@@ -8297,7 +9527,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ナグツァート"
+   "text": "ナグツァート",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 411,
@@ -8316,7 +9549,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３３．５ｍ"
+   "text": "３３．５ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 412,
@@ -8335,7 +9571,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ナグロッド"
+   "text": "ナグロッド",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 413,
@@ -8354,7 +9593,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４１．０ｔ"
+   "text": "４１．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 414,
@@ -8373,7 +9615,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "レンファ"
+   "text": "レンファ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 415,
@@ -8392,7 +9637,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３４．３ｔ"
+   "text": "３４．３ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 416,
@@ -8411,7 +9659,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ガロイカ"
+   "text": "ガロイカ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 417,
@@ -8430,7 +9681,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１１．５ｍ"
+   "text": "１１．５ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 418,
@@ -8449,7 +9703,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２１．０ｔ"
+   "text": "２１．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 419,
@@ -8468,7 +9725,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "グラシドゥ＝リュ"
+   "text": "グラシドゥ＝リュ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 420,
@@ -8487,7 +9747,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１６．４ｍ"
+   "text": "１６．４ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 421,
@@ -8506,7 +9769,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４０．２ｔ"
+   "text": "４０．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 422,
@@ -8525,7 +9791,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "カレイツェド"
+   "text": "カレイツェド",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 423,
@@ -8544,7 +9813,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５６．１ｔ"
+   "text": "５６．１ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 424,
@@ -8563,7 +9835,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ゲイオス＝グルード"
+   "text": "ゲイオス＝グルード",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 425,
@@ -8582,7 +9857,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２１．４ｍ"
+   "text": "２１．４ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 426,
@@ -8601,7 +9879,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "６２．２ｔ"
+   "text": "６２．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 427,
@@ -8620,7 +9901,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "レストグランシュ"
+   "text": "レストグランシュ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 428,
@@ -8639,7 +9923,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１７．７ｍ"
+   "text": "１７．７ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 429,
@@ -8658,7 +9945,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４２．３ｔ"
+   "text": "４２．３ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 430,
@@ -8677,7 +9967,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "レストレイル"
+   "text": "レストレイル",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 431,
@@ -8696,7 +9989,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１７．２ｍ"
+   "text": "１７．２ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 432,
@@ -8715,7 +10011,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４３．３ｔ"
+   "text": "４３．３ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 433,
@@ -8734,7 +10033,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ライグ＝ゲイオス"
+   "text": "ライグ＝ゲイオス",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 434,
@@ -8753,7 +10055,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２５．９ｍ"
+   "text": "２５．９ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 435,
@@ -8772,7 +10077,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "９９．３ｔ"
+   "text": "９９．３ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 436,
@@ -8792,7 +10100,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ゼイドラム"
+   "text": "ゼイドラム",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 437,
@@ -8812,7 +10123,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２２．４ｍ"
+   "text": "２２．４ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 438,
@@ -8832,7 +10146,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "６７．３ｔ"
+   "text": "６７．３ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 439,
@@ -8852,7 +10169,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "オーグバリュー"
+   "text": "オーグバリュー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 440,
@@ -8872,7 +10192,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２３．１ｍ"
+   "text": "２３．１ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 441,
@@ -8892,7 +10215,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "７２．７ｔ"
+   "text": "７２．７ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 442,
@@ -8911,7 +10237,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "グレイターキンⅡ"
+   "text": "グレイターキンⅡ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 443,
@@ -8930,7 +10259,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２９．９ｍ"
+   "text": "２９．９ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 444,
@@ -8949,7 +10281,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５９．９ｔ"
+   "text": "５９．９ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 445,
@@ -8969,7 +10304,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ビュードリファー"
+   "text": "ビュードリファー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 446,
@@ -8989,7 +10327,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３０．１ｍ"
+   "text": "３０．１ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 447,
@@ -9008,7 +10349,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ゼラニオ"
+   "text": "ゼラニオ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 448,
@@ -9027,7 +10371,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "戦艦"
+   "text": "戦艦",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 449,
@@ -9046,7 +10393,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "バラン＝シュナイル"
+   "text": "バラン＝シュナイル",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 450,
@@ -9066,7 +10416,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "８７．５ｍ"
+   "text": "８７．５ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 451,
@@ -9085,7 +10438,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４２１．０ｔ"
+   "text": "４２１．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 452,
@@ -9104,7 +10460,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "エール・シュヴァリアー"
+   "text": "エール・シュヴァリアー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 453,
@@ -9123,7 +10482,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ジョッシュ。主人公機（リアルＡ前）"
+   "text": "ジョッシュ。主人公機（リアルＡ前）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 454,
@@ -9142,7 +10504,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ジェアン・シュヴァリアー"
+   "text": "ジェアン・シュヴァリアー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 455,
@@ -9161,7 +10526,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ジョッシュ。主人公機（リアルＡ後）"
+   "text": "ジョッシュ。主人公機（リアルＡ後）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 456,
@@ -9180,7 +10548,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１１０．３ｍ"
+   "text": "１１０．３ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 457,
@@ -9199,7 +10570,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４９９．２ｔ"
+   "text": "４９９．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 458,
@@ -9218,7 +10592,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ブランシュネージュ"
+   "text": "ブランシュネージュ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 459,
@@ -9237,7 +10614,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "リム。主人公機（リアルＢ前）"
+   "text": "リム。主人公機（リアルＢ前）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 460,
@@ -9256,7 +10636,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "７０．０ｔ"
+   "text": "７０．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 461,
@@ -9275,7 +10658,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "デア・ブランシュネージュ"
+   "text": "デア・ブランシュネージュ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 462,
@@ -9294,7 +10680,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "リム。主人公機（リアルＢ後）"
+   "text": "リム。主人公機（リアルＢ後）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 463,
@@ -9313,7 +10702,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４８３．０ｔ"
+   "text": "４８３．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 464,
@@ -9332,7 +10724,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "フォルテギガス"
+   "text": "フォルテギガス",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 465,
@@ -9351,7 +10746,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ジョッシュ＋リム。主人公機（スーパーＡ＋Ｂ）"
+   "text": "ジョッシュ＋リム。主人公機（スーパーＡ＋Ｂ）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 466,
@@ -9370,7 +10768,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５１．１ｍ"
+   "text": "５１．１ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 467,
@@ -9389,7 +10790,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１４１．０ｔ"
+   "text": "１４１．０ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 468,
@@ -9408,7 +10812,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "フォルティス・アーラ"
+   "text": "フォルティス・アーラ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 469,
@@ -9427,7 +10834,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アクイラ機（リアル）"
+   "text": "アクイラ機（リアル）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 470,
@@ -9446,7 +10856,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３２．１ｍ"
+   "text": "３２．１ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 471,
@@ -9465,7 +10878,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "７８．２ｔ"
+   "text": "７８．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 472,
@@ -9484,7 +10900,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "インペトゥス"
+   "text": "インペトゥス",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 473,
@@ -9503,7 +10922,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "イグニス機（スーパー）"
+   "text": "イグニス機（スーパー）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 474,
@@ -9522,7 +10944,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３０．２ｍ"
+   "text": "３０．２ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 475,
@@ -9541,7 +10966,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "８９．２ｔ"
+   "text": "８９．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 476,
@@ -9560,7 +10988,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "プリスクス・ノクス"
+   "text": "プリスクス・ノクス",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 477,
@@ -9579,7 +11010,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ウンブラ機（スーパー）"
+   "text": "ウンブラ機（スーパー）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 478,
@@ -9598,7 +11032,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２９．２ｍ"
+   "text": "２９．２ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 479,
@@ -9617,7 +11054,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "８７．１ｔ"
+   "text": "８７．１ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 480,
@@ -9636,7 +11076,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ウィオラーケウム"
+   "text": "ウィオラーケウム",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 481,
@@ -9655,7 +11098,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "コンターギオ機（生物）"
+   "text": "コンターギオ機（生物）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 482,
@@ -9674,7 +11120,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４０．６ｍ"
+   "text": "４０．６ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 483,
@@ -9694,7 +11143,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ファービュラリス"
+   "text": "ファービュラリス",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 484,
@@ -9713,7 +11165,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "味方用　男主人公パートナー機（グラキエース機）"
+   "text": "味方用　男主人公パートナー機（グラキエース機）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 485,
@@ -9733,7 +11188,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２６．５ｍ"
+   "text": "２６．５ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 486,
@@ -9753,7 +11211,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "７０．１ｔ"
+   "text": "７０．１ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 487,
@@ -9773,7 +11234,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ストゥディウム"
+   "text": "ストゥディウム",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 488,
@@ -9792,7 +11256,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "女主人公パートナー機（ウェントス機）"
+   "text": "女主人公パートナー機（ウェントス機）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 489,
@@ -9812,7 +11279,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２７．６ｍ"
+   "text": "２７．６ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 490,
@@ -9832,7 +11302,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "８９．８ｔ"
+   "text": "８９．８ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 491,
@@ -9851,7 +11324,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アンゲルス"
+   "text": "アンゲルス",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 492,
@@ -9870,7 +11346,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ザコ（リアル）"
+   "text": "ザコ（リアル）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 493,
@@ -9889,7 +11368,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "１７．９ｍ"
+   "text": "１７．９ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 494,
@@ -9908,7 +11390,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３９．３ｔ"
+   "text": "３９．３ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 495,
@@ -9927,7 +11412,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ベルグランデ"
+   "text": "ベルグランデ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 496,
@@ -9946,7 +11434,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ザコ（スーパー）"
+   "text": "ザコ（スーパー）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 497,
@@ -9965,7 +11456,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５０．５ｔ"
+   "text": "５０．５ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 498,
@@ -9984,7 +11478,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "スカルプルム"
+   "text": "スカルプルム",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 499,
@@ -10003,7 +11500,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ザコ（生物）"
+   "text": "ザコ（生物）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 500,
@@ -10022,7 +11522,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２４．３ｔ"
+   "text": "２４．３ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 501,
@@ -10041,7 +11544,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ファートゥム"
+   "text": "ファートゥム",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 502,
@@ -10060,7 +11566,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ラスボス機"
+   "text": "ラスボス機",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 503,
@@ -10079,7 +11588,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "味方用。水系低位（川）"
+   "text": "味方用。水系低位（川）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 504,
@@ -10098,7 +11610,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "味方用。炎系低位（マグマ）"
+   "text": "味方用。炎系低位（マグマ）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 505,
@@ -10117,7 +11632,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アダマトロン"
+   "text": "アダマトロン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 506,
@@ -10136,7 +11654,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２次ＯＧラスボス"
+   "text": "２次ＯＧラスボス",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 507,
@@ -10155,7 +11676,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "エクサランス・レスキュー"
+   "text": "エクサランス・レスキュー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 508,
@@ -10174,7 +11698,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２３．５ｍ"
+   "text": "２３．５ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 509,
@@ -10196,7 +11723,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "タイプＣ装備"
+   "text": "タイプＣ装備",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 510,
@@ -10217,7 +11747,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "換装パーツカイ用"
+   "text": "換装パーツカイ用",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 511,
@@ -10238,7 +11771,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "換装パーツカチーナ用"
+   "text": "換装パーツカチーナ用",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 512,
@@ -10259,7 +11795,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "換装パーツラッセル用"
+   "text": "換装パーツラッセル用",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 513,
@@ -10281,7 +11820,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "タイプＧ装備"
+   "text": "タイプＧ装備",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 514,
@@ -10300,7 +11842,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２"
+   "text": "２",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 515,
@@ -10319,7 +11864,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "３"
+   "text": "３",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 516,
@@ -10338,7 +11886,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "マスカレオン・タイプＣ"
+   "text": "マスカレオン・タイプＣ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 517,
@@ -10357,7 +11908,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "５３．２ｔ"
+   "text": "５３．２ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 518,
@@ -10376,7 +11930,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "救命ポッド"
+   "text": "救命ポッド",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 519,
@@ -10395,7 +11952,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "キャニス・アルタルフ"
+   "text": "キャニス・アルタルフ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 520,
@@ -10414,7 +11974,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "指揮官機。ウルズ用"
+   "text": "指揮官機。ウルズ用",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 521,
@@ -10433,7 +11996,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "７８．１ｔ"
+   "text": "７８．１ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 522,
@@ -10453,7 +12019,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "グランゾン"
+   "text": "グランゾン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 523,
@@ -10473,7 +12042,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "２７．３ｍ"
+   "text": "２７．３ｍ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 524,
@@ -10493,7 +12065,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "４２．８ｔ"
+   "text": "４２．８ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 525,
@@ -10512,7 +12087,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "イベント用（マップユニットのみ）"
+   "text": "イベント用（マップユニットのみ）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 526,
@@ -10532,7 +12110,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ラーダ機"
+   "text": "ラーダ機",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 527,
@@ -10551,7 +12132,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ラーダ機。デフォルト"
+   "text": "ラーダ機。デフォルト",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 528,
@@ -10572,7 +12156,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "換装パーツラーダ用"
+   "text": "換装パーツラーダ用",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 529,
@@ -10596,7 +12183,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "味方用"
+   "text": "味方用",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 530,
@@ -10615,7 +12205,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "味方用Ｓ３８から"
+   "text": "味方用Ｓ３８から",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 531,
@@ -10634,7 +12227,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "敵用。大地系高位（大地）"
+   "text": "敵用。大地系高位（大地）",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 532,
@@ -10654,7 +12250,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "マイ用"
+   "text": "マイ用",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 533,
@@ -10673,7 +12272,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＬＩＯＨ無しＶｅｒ"
+   "text": "ＬＩＯＨ無しＶｅｒ",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 534,
@@ -10692,7 +12294,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ペルフェクティオ"
+   "text": "ペルフェクティオ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 535,
@@ -10711,7 +12316,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "暴走時"
+   "text": "暴走時",
+   "kind": "comment",
+   "keep": true,
+   "en": ""
   },
   {
    "id": 536,
@@ -10730,7 +12338,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "８８．１ｔ"
+   "text": "８８．１ｔ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 537,
@@ -10752,7 +12363,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "タイプＮ装備"
+   "text": "タイプＮ装備",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   }
  ],
  "inline_strings": []

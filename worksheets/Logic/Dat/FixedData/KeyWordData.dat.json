@@ -90,7 +90,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ダミー"
+   "text": "ダミー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 1,
@@ -109,7 +112,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "　"
+   "text": "　",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 2,
@@ -130,7 +136,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アースクレイドル"
+   "text": "アースクレイドル",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 3,
@@ -175,7 +184,10 @@
     "機関の管轄下に置かれることとなる。",
     "　なお、月にも同様の施設である「ムーンクレイドル」が",
     "存在する。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 4,
@@ -196,7 +208,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アーマードモジュール"
+   "text": "アーマードモジュール",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 5,
@@ -229,7 +244,10 @@
     "主戦力となった。",
     "　戦争終結後も<イスルギ重工>で生産が続行され、連邦軍の",
     "主力兵器として運用されている。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 6,
@@ -250,7 +268,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＩＦＦ"
+   "text": "ＩＦＦ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 7,
@@ -273,7 +294,10 @@
    "lines": [
     "　「Ｉｄｅｎｔｉｆｉｃａｔｉｏｎ　Ｆｒｉｅｎｄ　",
     "Ｆｏｅ」の略称で、敵味方識別装置のこと。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 8,
@@ -294,7 +318,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アイドネウス島"
+   "text": "アイドネウス島",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 9,
@@ -335,7 +362,10 @@
     "　<Ｌ５戦役>での対セプタギン戦において、施設類はほぼ破",
     "壊されたが、ＧＳによって改修され、その本拠地となってい",
     "る。現在の名称は「グランド・クリスマス」。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 10,
@@ -356,7 +386,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "アインスト"
+   "text": "アインスト",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 11,
@@ -415,7 +448,10 @@
     "するが、クロガネやヒリュウ改に敗れた。なお、シュテル",
     "ン・ノイレジセイアの消滅後、各地で活動していたアイン",
     "ストシリーズも同様の運命を辿った。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 12,
@@ -436,7 +472,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "αリンク系数"
+   "text": "αリンク系数",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 13,
@@ -465,7 +504,10 @@
     "超えると人並み外れた念の力、すなわち念動力を持っている",
     "ことになる。また、<Ｔ‐ＬＩＮＫシステム>と被験者の適合度",
     "を見ることができる。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 14,
@@ -486,7 +528,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＥＯＴ"
+   "text": "ＥＯＴ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 15,
@@ -521,7 +566,10 @@
     "的な進歩をもたらした。",
     "　ただし、その技術や情報は<ＥＯＴ特別審議会>によって管理",
     "され、一般社会に応用されることはほとんどなかった。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 16,
@@ -542,7 +590,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＥＯＴＩ機関"
+   "text": "ＥＯＴＩ機関",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 17,
@@ -579,7 +630,10 @@
     "称されたビアン・ゾルダークが総責任者を務めた。",
     "　<ＤＣ>の母体となり、ここに所属していた科学者達は、",
     "引き続き<ＤＣ>で様々な兵器やシステムなどの開発を行った。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 18,
@@ -600,7 +654,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＥＯＴ特別審議会"
+   "text": "ＥＯＴ特別審議会",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 19,
@@ -641,7 +698,10 @@
     "因の一つとなる。",
     "　Ｌ５戦役中、カール・シュトレーゼマンを始めとするメン",
     "バー全員が死亡し、組織自体は消滅している。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 20,
@@ -662,7 +722,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "イスルギ重工"
+   "text": "イスルギ重工",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 21,
@@ -699,7 +762,10 @@
     "　<Ｌ５戦役>後、皮肉にも同シリーズは連邦軍の主力機とし",
     "て使用されることになり、安定した生産ラインを確保する",
     "ため、ＤＣへ荷担した件は不問に付された。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 22,
@@ -720,7 +786,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "インスペクター"
+   "text": "インスペクター",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 23,
@@ -775,7 +844,10 @@
     "との決戦で敗れ、総司令官であるウェンドロら主要メン",
     "バーが戦死。インスペクターは壊滅した。が、彼らは先遣",
     "部隊に過ぎないという説もある。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 24,
@@ -796,7 +868,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "インスペクター事件"
+   "text": "インスペクター事件",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 25,
@@ -837,7 +912,10 @@
     "シリーズの大量発生による混乱に巻き込まれて地球からの",
     "撤退を余儀なくされ、クロガネやヒリュウ改との決戦に敗れ",
     "て全滅する。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 26,
@@ -858,7 +936,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ウラヌス・システム"
+   "text": "ウラヌス・システム",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 27,
@@ -905,7 +986,10 @@
     "・プリスケンがもたらした物であり、その中枢はブラック・",
     "ボックス化されていて、Ｔ‐ＬＩＮＫシステムの開発者であ",
     "るケンゾウ・コバヤシ博士にも完全な解析は不可能らしい。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 28,
@@ -926,7 +1010,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "エアロゲイター"
+   "text": "エアロゲイター",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 29,
@@ -965,7 +1052,10 @@
     "正体は何者かに精神操作・調整を受けた地球人であること",
     "が判明した。なお、この事実は極秘とされ、公にはされて",
     "いない。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 30,
@@ -986,7 +1076,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＡＭ"
+   "text": "ＡＭ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 31,
@@ -1005,7 +1098,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "　<アーマードモジュール>の略称。"
+   "text": "　<アーマードモジュール>の略称。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 32,
@@ -1026,7 +1122,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＡＭＮシステム"
+   "text": "ＡＭＮシステム",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 33,
@@ -1061,7 +1160,10 @@
     "　かつての<ＥＯＴＩ機関>や<ＤＣ>で開発が進められていた",
     "が、相互情報交換速度に難点があり、採用には至らなかっ",
     "た。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 34,
@@ -1082,7 +1184,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＡＴＸ計画"
+   "text": "ＡＴＸ計画",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 35,
@@ -1115,7 +1220,10 @@
     "　本来の目的は連邦軍の次期主力機の開発であるが、実際",
     "にはエースパイロットが使用するカスタム機の開発に移行",
     "しつつある。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 36,
@@ -1136,7 +1244,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＳＲＸ計画"
+   "text": "ＳＲＸ計画",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 37,
@@ -1161,7 +1272,10 @@
     "　対異星人戦闘用特殊人型機動兵器の開発計画。",
     "　Ｒシリーズなど<ＥＯＴ>が積極的に応用された機体の",
     "開発が行われている。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 38,
@@ -1182,7 +1296,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "エネルギーフィールド"
+   "text": "エネルギーフィールド",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 39,
@@ -1217,7 +1334,10 @@
     "　力場表層では、大気中元素などに影響を及ぼしての結晶",
     "薄膜化現象が起きることがあり、力場消失時に“割れて”",
     "見えることもある。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 40,
@@ -1238,7 +1358,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＭＡＰＷ"
+   "text": "ＭＡＰＷ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 41,
@@ -1267,7 +1390,10 @@
     "　大量広域先制攻撃兵器のこと。なお、ＭＡＰＷは影響範囲",
     "に応じ直線発射系、円型放射系、着弾点散布系などに大別",
     "される。「マップ兵器」とも呼ばれる。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 42,
@@ -1288,7 +1414,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｌ５戦役"
+   "text": "Ｌ５戦役",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 43,
@@ -1331,7 +1460,10 @@
     "正体は何者かに精神操作・調整を受けた地球人であること",
     "が判明した。なお、この事実は極秘とされ、公にはされて",
     "いない。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 44,
@@ -1352,7 +1484,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "エルピス"
+   "text": "エルピス",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 45,
@@ -1421,7 +1556,10 @@
     "スペース、８号基はエスペランサ、９号基はスペランツァ、",
     "１０号基はナディエジーダと名付けられ、全基がＬ４宙域に",
     "存在している。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 46,
@@ -1442,7 +1580,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "教導隊"
+   "text": "教導隊",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 47,
@@ -1461,7 +1602,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "　<特殊戦技教導隊>のこと。"
+   "text": "　<特殊戦技教導隊>のこと。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 48,
@@ -1482,7 +1626,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ゲイム・システム"
+   "text": "ゲイム・システム",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 49,
@@ -1519,7 +1666,10 @@
     "る機能も備わっている。現時点では、このシステムを使う",
     "パイロットは何らかの強化措置を受けなければ、長時間の",
     "使用に耐えられない。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 50,
@@ -1540,7 +1690,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "コロニー統合軍"
+   "text": "コロニー統合軍",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 51,
@@ -1597,7 +1750,10 @@
     "　戦後は連邦軍の管轄下となり、上層部がすげ替えられて",
     "その名が形骸化するものの、在宙戦力の大半を占めている",
     "ことに変わりはない。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 52,
@@ -1618,7 +1774,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "シャドウミラー"
+   "text": "シャドウミラー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 53,
@@ -1655,7 +1814,10 @@
     "搭載した機動兵器や「Ｗシリーズ」と呼ばれる人造人間達に",
     "よって戦争状態の維持を目論んだが、ハガネやヒリュウ改に",
     "打ち倒される。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 54,
@@ -1676,7 +1838,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "修羅神"
+   "text": "修羅神",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 55,
@@ -1743,7 +1908,10 @@
     "　なお、烈級修羅神は、残存する轟級修羅神を参考にして作",
     "られたものであり、性能は大幅に低下しているものの量産が",
     "可能となっている。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 56,
@@ -1764,7 +1932,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "修羅の乱"
+   "text": "修羅の乱",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 57,
@@ -1811,7 +1982,10 @@
     "ドを倒すことに成功した。",
     "　戦乱終結後、フォルカは生き残った修羅達と共に転空魔城",
     "で次元転移を行い、地球圏から去った。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 58,
@@ -1832,7 +2006,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "スクール"
+   "text": "スクール",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 59,
@@ -1901,7 +2078,10 @@
     "　そして、非人道的な育成方法とそれに見合わぬ結果が問題",
     "となり、スクールは解散。しかし、ブーステッド・チルドレ",
     "ンの訓練は、場所を<ＤＣ>に移して続けられることとなる。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 60,
@@ -1922,7 +2102,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "地球連邦軍"
+   "text": "地球連邦軍",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 61,
@@ -1953,7 +2136,10 @@
     "国家間調整に留まっているのに対し、軍事は最も明確に",
     "地球規模で統括された構造を持つ。旧西暦時代の国家軍事",
     "組織が母体となっているため、各方面軍ごとに特徴がある。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 62,
@@ -1974,7 +2160,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "地球連邦政府"
+   "text": "地球連邦政府",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 63,
@@ -2007,7 +2196,10 @@
     "機関ではあるが、全地球人類の政治機能が単一に集まった",
     "わけではなく、成立以前の中・小規模紛争などの国際問題も",
     "各自治体間にそのまま引き継いでしまっている。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 64,
@@ -2028,7 +2220,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "超機人"
+   "text": "超機人",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 65,
@@ -2067,7 +2262,10 @@
     "　超機人には「四霊」、「四神」、「四凶」などのランクが",
     "あり、龍虎王や虎龍王以外の機体も存在していると思われる",
     "が、詳細は定かではない。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 66,
@@ -2088,7 +2286,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "調和の結界"
+   "text": "調和の結界",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 67,
@@ -2113,7 +2314,10 @@
     "　『調和の塔』と呼ばれる塔から、<ラ・ギアス>全土を覆って",
     "いる特殊な結界。全世界に向けて魔力を供給し、さらに大規",
     "模な魔法の使用を制限している。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 68,
@@ -2134,7 +2338,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｄコン"
+   "text": "Ｄコン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 69,
@@ -2153,7 +2360,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "　一般的な高性能携帯端末機の名称。"
+   "text": "　一般的な高性能携帯端末機の名称。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 70,
@@ -2174,7 +2384,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＤＣ"
+   "text": "ＤＣ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 71,
@@ -2193,7 +2406,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "　<ディバイン・クルセイダーズ>の略称。"
+   "text": "　<ディバイン・クルセイダーズ>の略称。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 72,
@@ -2214,7 +2430,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＴＣ‐ＯＳ"
+   "text": "ＴＣ‐ＯＳ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 73,
@@ -2261,7 +2480,10 @@
     "　さらにモーションパターンデータの種類や実行の優先順位",
     "はパイロットが任意に設定出来るため、自身の好みや操縦の",
     "クセに合わせて機体の動きを最適化することが出来る。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 74,
@@ -2282,7 +2504,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＤＣ戦争"
+   "text": "ＤＣ戦争",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 75,
@@ -2315,7 +2540,10 @@
     "成功。しかし、ハガネによるアイドネウス島奇襲作戦で、",
     "総帥であるビアン・ゾルダークが戦死。彼を失ったＤＣは",
     "組織に混乱をきたし、連邦軍に敗北した。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 76,
@@ -2336,7 +2564,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "Ｔ‐ＬＩＮＫシステム"
+   "text": "Ｔ‐ＬＩＮＫシステム",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 77,
@@ -2385,7 +2616,10 @@
     "過度のリンクは脳に著しい負担をかける。",
     "　なお、一定値以上のＴ‐αパルスが検出された人間を",
     "ケンゾウのプロジェクトでは「念動力者」と呼ぶ。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 78,
@@ -2406,7 +2640,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ディバイン・クルセイダーズ"
+   "text": "ディバイン・クルセイダーズ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 79,
@@ -2475,7 +2712,10 @@
     "な目的でＤＣを利用する者達の増長を許したとも言える。",
     "　なお、ビアンはハガネによるＤＣ本拠地奇襲作戦で戦死。",
     "彼を失ったＤＣは組織に混乱をきたし、連邦軍に敗北した。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 80,
@@ -2496,7 +2736,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "テスラ・ドライブ"
+   "text": "テスラ・ドライブ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 81,
@@ -2541,7 +2784,10 @@
     "　そして、<ＤＣ>で開発されたアーマードモジュールを皮切",
     "りとして、２０メートルクラスの人型機動兵器への搭載も",
     "可能となった。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 82,
@@ -2562,7 +2808,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "テスラ・ライヒ研究所"
+   "text": "テスラ・ライヒ研究所",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 83,
@@ -2603,7 +2852,10 @@
     "　なお、名前の由来は発明家ニコラ・テスラと科学者ウイル",
     "ヘイム・ライヒの両名。",
     "　現在の所長はジョナサン・カザハラ。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 84,
@@ -2624,7 +2876,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "テレキネシスαパルス"
+   "text": "テレキネシスαパルス",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 85,
@@ -2649,7 +2904,10 @@
     "　特殊脳医学の権威、ケンゾウ・コバヤシ博士が提唱した、",
     "人の思念作用を司る深層脳波の一種。念動力者の素質判定",
     "に使用される。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 86,
@@ -2670,7 +2928,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "特殊戦技教導隊"
+   "text": "特殊戦技教導隊",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 87,
@@ -2717,7 +2978,10 @@
     "軍内外で半ば伝説化している。",
     "　<Ｌ５戦役>後、再結成され、カイ・キタムラが隊長を務めて",
     "いる。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 88,
@@ -2738,7 +3002,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "特機"
+   "text": "特機",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 89,
@@ -2763,7 +3030,10 @@
     "　特殊人型機動兵器、俗に言うスーパーロボットのこと。",
     "主に全長４０メートル以上、特殊な動力源やシステムを搭載",
     "した機体のことをこう呼ぶ。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 90,
@@ -2784,7 +3054,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "トロニウム"
+   "text": "トロニウム",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 91,
@@ -2837,7 +3110,10 @@
     "取り付けられている。また、出力を上げると加速度的にエネ",
     "ルギー発生量が増加するため、出力調整が非常に難しいと",
     "いう問題を抱えている。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 92,
@@ -2858,7 +3134,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "南極事件"
+   "text": "南極事件",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 93,
@@ -2927,7 +3206,10 @@
     "したものは偽装艦であり、彼らはエアロゲイターではなく、",
     "<インスペクター>と深い関係にある勢力だという説が有力視",
     "されている。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 94,
@@ -2948,7 +3230,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ノイエＤＣ"
+   "text": "ノイエＤＣ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 95,
@@ -2989,7 +3274,10 @@
     "の奸計にはまって戦死。その後、組織は瓦解した。しかし、",
     "一部勢力は現在も潜伏しており、ゲリラ化して反地球連邦",
     "運動を続けている者達もいる。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 96,
@@ -3010,7 +3298,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "パーソナルトルーパー"
+   "text": "パーソナルトルーパー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 97,
@@ -3053,7 +3344,10 @@
     "最小限の操作をするだけで機体自身がオートマティックに",
     "適切なモーションを選択、パイロットが意図した行動を達成",
     "する。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 98,
@@ -3074,7 +3368,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＰＴ"
+   "text": "ＰＴ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 99,
@@ -3093,7 +3390,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "　<パーソナルトルーパー>の略称。"
+   "text": "　<パーソナルトルーパー>の略称。",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 100,
@@ -3114,7 +3414,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ブーステッド・チルドレン"
+   "text": "ブーステッド・チルドレン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 101,
@@ -3147,7 +3450,10 @@
     "れており、重度の<リマコン>で精神を崩壊させた者も多い。な",
     "お、アラド、ゼオラ、ラトゥーニはブーステッド・チルドレ",
     "ンの数少ない生き残りである。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 102,
@@ -3168,7 +3474,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "プラーナ"
+   "text": "プラーナ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 103,
@@ -3195,7 +3504,10 @@
     "覆っており、感情によって大きく増減する。<ラ・ギアス>の人",
     "間は地上の人間に比べ、プラーナの増減の振幅に乏しいとさ",
     "れる。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 104,
@@ -3216,7 +3528,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "プロジェクトＴＤ"
+   "text": "プロジェクトＴＤ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 105,
@@ -3251,7 +3566,10 @@
     "やシステムは軍事にも転用されている。",
     "　なお、「ＴＤ」は「<テスラ・ドライブ>」、「テレストリア",
     "ル・ドリーム」の意味。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 106,
@@ -3272,7 +3590,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ホワイトスター"
+   "text": "ホワイトスター",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 107,
@@ -3327,7 +3648,10 @@
     "ノイレジセイアと融合し、超大型兵器シュテルン・ノイレ",
     "ジセイアへ変貌。クロガネやヒリュウ改と共に異空間へ",
     "転移し、彼らと激戦を繰り広げた末に消滅している。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 108,
@@ -3348,7 +3672,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "マオ・インダストリー"
+   "text": "マオ・インダストリー",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 109,
@@ -3379,7 +3706,10 @@
     "　当初は月面作業用の二足歩行機械を生産していたが、現在",
     "は主にパーソナルトルーパーの開発および生産に携わってい",
     "る。現社長はティンの娘であるリン・マオ。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 110,
@@ -3400,7 +3730,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "マシンセル"
+   "text": "マシンセル",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 111,
@@ -3439,7 +3772,10 @@
     "が向上した。また、マシンセルは<インスペクター事件>中、<ノ",
     "イエＤＣ>側の人型機動兵器であったスレードゲルミルやベル",
     "ゲルミルにも用いられ、驚異的な再生能力を発揮した。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 112,
@@ -3460,7 +3796,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "魔装機"
+   "text": "魔装機",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 113,
@@ -3487,7 +3826,10 @@
     "ラン王国で製作された１６機の魔装機のみを指す言葉であっ",
     "たが、量産機などの登場により、ラ・ギアスの人型汎用兵器",
     "全体を指す言葉になった。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 114,
@@ -3508,7 +3850,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "魔装機神"
+   "text": "魔装機神",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 115,
@@ -3537,7 +3882,10 @@
     "グラン王国で製作された。魔装機神は全部で４体存在し、そ",
     "れぞれ「風」、「炎」、「水」、「大地」を守護精霊として",
     "いる。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 116,
@@ -3558,7 +3906,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "メテオ３"
+   "text": "メテオ３",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 117,
@@ -3599,7 +3950,10 @@
     "　なお、メテオ３の名称は、旧西暦時代にニューヨークと",
     "モスクワに落下し、地球文明の進歩を著しく阻害した隕石",
     "「メテオ１」及び「メテオ２」に次ぐものを意味している。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 118,
@@ -3620,7 +3974,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＭＯＳＳ"
+   "text": "ＭＯＳＳ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 119,
@@ -3653,7 +4010,10 @@
     "ライト・リンク・システム（複数の軍事衛星による防空指",
     "揮管制システム）の上位体系であり、ＤＣ戦争前、コロニー",
     "統合軍によって設置された。現在は連邦軍が管理している。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 120,
@@ -3674,7 +4034,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ラ・ギアス"
+   "text": "ラ・ギアス",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 121,
@@ -3701,7 +4064,10 @@
     "のように球面内部の形をしているが、実際に地球の裏側とし",
     "て存在している訳ではなく、位相（フェーズ）がずれてい",
     "る。ラ・ギアスとは『真の大地』の意。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 122,
@@ -3722,7 +4088,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "リマコン"
+   "text": "リマコン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 123,
@@ -3759,7 +4128,10 @@
     "える。特に<ブーステッド・チルドレン>は、愛情や友情、敵",
     "意、怨恨といった感情をキーにしてリマコンすると、スペッ",
     "ク以上の能力を発揮し易くなる。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 124,
@@ -3780,7 +4152,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "レイオス・プラン"
+   "text": "レイオス・プラン",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 125,
@@ -3821,7 +4196,10 @@
     "　既存のＥＯＴ搭載機の性能を向上させるだけでなく、将来",
     "的にはＲシリーズの後継機や今後の量産機へのＲｅＥＯＴＨ",
     "導入も目的とする。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 126,
@@ -3842,7 +4220,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＲＥＢ"
+   "text": "ＲＥＢ",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 127,
@@ -3865,7 +4246,10 @@
    "lines": [
     "　「レブ」と読む。ソラティス神殿にある量子コンピュータ",
     "の愛称。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 128,
@@ -3886,7 +4270,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "歪曲フィールド"
+   "text": "歪曲フィールド",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 129,
@@ -3915,7 +4302,10 @@
     "に沿って張力拡散させる。",
     "　電磁波も波そのものを喪失するため、ビーム・実体弾問わ",
     "ず、威力が無効化される場合がある。"
-   ]
+   ],
+   "kind": "text",
+   "keep": false,
+   "en": ""
   }
  ],
  "inline_strings": []

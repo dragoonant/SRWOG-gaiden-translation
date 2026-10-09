@@ -327,6 +327,7 @@ def extract_entries(f: FixhFile) -> dict:
             e["text"] = lines[0]
         else:
             e["lines"] = lines
+        e["en"] = ""
         entries.append(e)
     inline = []
     for ri, r in enumerate(f.records):
@@ -357,7 +358,7 @@ def extract_entries(f: FixhFile) -> dict:
         "dofs": {"entries": len(f.dofs), "unused_ids": sum(1 for v in f.dofs if v == NO_RECORD)} if f.dofs else None,
         "string_fields": [{"offset": off, "width": w, "label": label, "kind": kind} for off, w, label, kind in f.fields()],
         "notes": [
-            "Edit 'text' (single-line entries) or 'lines' (multi-line entries / entries with embedded newlines).",
+            "Put the English in 'en' (use a newline between lines). 'text'/'lines' hold the original and are used when 'en' is empty.",
             "Do not add or remove entries: records reference strings by index.",
             "role: display = shown in game; comment = developer note (never displayed, safe to leave untranslated); "
             "internal = identifier/path; orphan = referenced by no record; unknown = not established.",
@@ -375,7 +376,9 @@ def strings_from_json(doc: dict, orig: FixhFile) -> tuple[list[list[str]], dict]
         i = e["id"]
         if not isinstance(i, int) or i < 0 or i >= len(entries) or strings[i] is not None:
             raise FixhError(f"bad or duplicate string id {i!r}")
-        if "lines" in e:
+        if e.get("en"):
+            lines = e["en"].split("\n")   # English: newline separates lines
+        elif "lines" in e:
             lines = list(e["lines"])
         elif "text" in e:
             lines = [e["text"]]

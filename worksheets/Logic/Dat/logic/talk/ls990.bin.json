@@ -5,47 +5,65 @@
   {
    "id": 0,
    "jp": "",
-   "en": ""
+   "en": "",
+   "kind": "ascii",
+   "keep": true
   },
   {
    "id": 1,
    "jp": "[ＳＤ１]-000",
-   "en": ""
+   "en": "",
+   "kind": "key",
+   "keep": true
   },
   {
    "id": 2,
    "jp": "[ＳＤ１]-001",
-   "en": ""
+   "en": "",
+   "kind": "key",
+   "keep": true
   },
   {
    "id": 3,
    "jp": "ヒリュウ改　ブリッジ",
-   "en": ""
+   "en": "",
+   "kind": "name",
+   "keep": false
   },
   {
    "id": 4,
    "jp": "レフィーナ",
-   "en": ""
+   "en": "",
+   "kind": "name",
+   "keep": false
   },
   {
    "id": 5,
    "jp": "「パイロットのレベルは？」",
-   "en": ""
+   "en": "",
+   "kind": "text",
+   "keep": false
   },
   {
    "id": 6,
    "jp": "「なにもしない」;@「４５にする」;@「９９にする」",
-   "en": ""
+   "en": "",
+   "kind": "text",
+   "keep": false
   },
   {
    "id": 7,
    "jp": "「強制出撃させますか？」",
-   "en": ""
+   "en": "",
+   "kind": "text",
+   "keep": false
   },
   {
    "id": 8,
    "jp": "「させる」;@「させない」",
-   "en": ""
+   "en": "",
+   "kind": "text",
+   "keep": false
   }
  ]
 }

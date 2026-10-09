@@ -60,7 +60,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "－－－－－－－－－－－－－"
+   "text": "－－－－－－－－－－－－－",
+   "kind": "name",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 1,
@@ -79,7 +82,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "運動性ダウンＬ（Ｒ系）"
+   "text": "運動性ダウンＬ（Ｒ系）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 2,
@@ -98,7 +104,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "装甲ダウンＬ（Ｒ系）"
+   "text": "装甲ダウンＬ（Ｒ系）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 3,
@@ -117,7 +126,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "移動力ダウン（Ｒ系）"
+   "text": "移動力ダウン（Ｒ系）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 4,
@@ -136,7 +148,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "攻撃ダウンＬ（Ｒ系）"
+   "text": "攻撃ダウンＬ（Ｒ系）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 5,
@@ -155,7 +170,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "射程ダウン（Ｒ系）"
+   "text": "射程ダウン（Ｒ系）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 6,
@@ -174,7 +192,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "照準値ダウンＬ（Ｒ系）"
+   "text": "照準値ダウンＬ（Ｒ系）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 7,
@@ -193,7 +214,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＥＮダウンＬ（Ｒ系）"
+   "text": "ＥＮダウンＬ（Ｒ系）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 8,
@@ -212,7 +236,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＥＮ吸収Ｌ（Ｒ系）"
+   "text": "ＥＮ吸収Ｌ（Ｒ系）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 9,
@@ -231,7 +258,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "能力ダウンＬ（Ｐ系）"
+   "text": "能力ダウンＬ（Ｐ系）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 10,
@@ -250,7 +280,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "戦闘不能（Ｐ系）"
+   "text": "戦闘不能（Ｐ系）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 11,
@@ -269,7 +302,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "気力ダウンＬ（Ｐ系）"
+   "text": "気力ダウンＬ（Ｐ系）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 12,
@@ -288,7 +324,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "ＳＰ吸収Ｌ（Ｐ系）"
+   "text": "ＳＰ吸収Ｌ（Ｐ系）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   },
   {
    "id": 13,
@@ -307,7 +346,10 @@
     "type": "variable",
     "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
    },
-   "text": "精神禁止（Ｐ系）"
+   "text": "精神禁止（Ｐ系）",
+   "kind": "text",
+   "keep": false,
+   "en": ""
   }
  ],
  "inline_strings": []

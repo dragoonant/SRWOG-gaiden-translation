@@ -1,0 +1,215 @@
+jp	en	notes
+底力	Potential	Pilot skill; Akurasu OGs Pilot Skills; OGG page "Prevail"
+援護攻撃	Support Attack	OGG page "Offensive Support"; camd11 OGG status screen "Support Attack"
+援護防御	Support Defend	OGG page "Defensive Support"; camd11 OGG status screen "Support Defend"
+カウンター	Counter	
+インファイト	In-Fighter	OGG page "In-fight"; Combination page "In-fighter"
+ガンファイト	Gunfighter	OGG page "Gunfight"
+SPアップ	SP Up	
+指揮官	Commander	OGG page "Command"
+SP回復	SP Regen	OGG page "SP Regenerate"
+集中力	Concentrate	OGG page "Mental (Focus)"
+ヒット&アウェイ	Hit & Run	OGG page "Hit&Away"
+アタッカー	Attacker	
+リベンジ	Revenge	
+見切り	Predict	
+Eセーブ	E. Save	OGG page "EN Save"
+Bセーブ	B. Save	OGG page "Ammo Save"
+ラーニング	Learner	OGG page "Learning"
+闘争心	Resolve	
+戦意高揚	Morale	
+気力+(回避)	Will+ (Evade)	
+気力+(命中)	Will+ (Accuracy)	OGG page "Will+ (Hit)"
+気力+(ダメージ)	Will+ (Damaged)	
+気力+(撃破)	Will+ (Kill)	OGG page "Will+ (Destroyed)"
+連携攻撃	Assist Attacker	OGG page "Assist Attack"
+集束攻撃	Focused Attacker	OGG page "Focused Attack"
+ガード	Guard	
+気力限界突破	Break Will Limit	OGG page "Will Limit Break"
+修理技能	Mechanic	
+補給技能	Resupply	
+EXPアップ	EXP Up	
+念動力	Telekinesis	Innate; OGG page "Telekinetic Power"; abbreviated "TK"
+天才	Genius	Innate
+ラッキー	Lucky	Innate
+強運	Fortunate	Innate; OGG page "Fortune"
+予知	Precognition	Innate; OGG page "Foresight"
+HP回復(小)	HP Regen (S)	Mech ability; OGG page "HP Regeneration (S)". Akurasu pairs 大/中/小 with S/M/L inconsistently (see gaps.md)
+HP回復(中)	HP Regen (M)	
+HP回復(大)	HP Regen (L)	
+EN回復(小)	EN Regen (S)	OGG page "EN Regeneration (S)"; Game Mechanics page "EN Regeneration (S)"
+EN回復(中)	EN Regen (M)	
+EN回復(大)	EN Regen (L)	
+分身	Afterimage	OGG page "After Image (Double Image)"; Twin page "Double Image (Bunshin)"
+ジャマー	Jammer	
+コクピットブロック	Cockpit Block	
+エナジーブロック	Energy Block	
+フルブロック	Full Block	
+マインドブロック	Mind Block	
+パイロットブロック	Pilot Block	
+ロボットブロック	Robot Block	
+ウェポンブロック	Weapon Block	
+変形	Transform	Mech ability; unit command menu 変形 = "Transform"
+合体	Combine	
+分離	Separate	
+(単)分離	Separate (Permanent)	
+換装	Replace	Intermission menu "Change Frame/Suit"
+ODEシステム	ODE System	Enemy-only ability
+ビームコート	Beam Coat	Barrier
+ABフィールド	AB Field	Barrier
+Eフィールド	E. Field	Barrier
+G・ウォール	G-Wall	Barrier
+G・テリトリー	G-Territory	Barrier
+念動フィールド	TK Field	Barrier; OGG page "Telekinesis Field"
+念動フィールド S	TK Field S	Enemy-only
+歪曲フィールド	Distortion Field	OGG page "Distortion Field (Warp Field)"
+ビーム吸収	Beam Absorption	Enemy-only; Max Upgrade page "Beam Absorb"
+	Shield	Unit property (Mech Abilities page)
+	Docking	Battleship ability
+	Battleship Support Attack	Battleship ability
+	EN Down	Status effect (R-Type); no JP on Akurasu
+	EN Absorb	Status effect
+	Armor Down	Status effect
+	Mobility Down	Status effect
+	Movement Down	Status effect
+	Attack Down	Status effect
+	Accuracy Down	Status effect
+	Range Down	Status effect
+	Will Down	Status effect (P-Type)
+	SP Absorb	Status effect
+	Spirit Block	Status effect (name unclear on Akurasu)
+	Ability Down	Status effect
+	Stunned	Status effect
+	Barrier Bypass	Combination attack property
+	Barrier Pierce	Weapon property
+	Barrier Weaken	Custom bullet property
+普通	Normal	Personality type
+強気	Strong	Personality type
+超強気	Super Strong	Personality type
+冷静	Cool	Personality type
+慎重	Cautious	Personality type
+楽天家	Easygoing	Personality type
+努力家	Hard Worker	Personality type
+短気	Short Tempered	Personality type
+大物	Superior	Personality type
+超大物	Superior+	Personality type (OGs only)
+狡猾	Cunning	Personality type
+残虐	Cruel	Personality type
+エースボーナス	Ace Bonus	Menu label
+	Ace Bonus: Daitetsu	Final damage taken -10%
+	Ace Bonus: Tetsuya	SP +20 (OGs1); OGs2/OGG: damage from non-MAP, non-range-1 attacks -10%
+	Ace Bonus: Lefina	Command effect +5%
+	Ace Bonus: Sean	SP +20
+	Ace Bonus: Eita	SP +20
+	Ace Bonus: Ryusei	Final TK weapon damage +10%
+	Ace Bonus: Rai	Final accuracy +10%, final evade +10%
+	Ace Bonus: Aya	Accuracy +10%, SP +20
+	Ace Bonus: Ingram	Critical hit +20%, SP +10
+	Ace Bonus: Viletta	Critical hit +20%, SP +10
+	Ace Bonus: Mai	Final accuracy +10%, SP +20
+	Ace Bonus: Kyosuke	Counter activation +10%, final melee damage +10%
+	Ace Bonus: Excellen	Final Support Attack damage +10%, final Support Defend damage taken -10%
+	Ace Bonus: Alchemie	Final Support Attack damage +10%, final Support Defend damage taken -10%
+	Ace Bonus: Bullet	Accuracy +10%, critical hit +10%
+	Ace Bonus: Kusuha	Final Support Defend damage taken -10%, EXP +10%
+	Ace Bonus: Giada	Evade +10%, final damage taken -10%
+	Ace Bonus: Garnet	EXP +10%, Bless costs 20 SP
+	Ace Bonus: Latune	EXP +20%
+	Ace Bonus: Katina	Accuracy +10%, final damage taken -10%
+	Ace Bonus: Russel	Final Support Defend damage taken -20%
+	Ace Bonus: Tasuku	Lucky activation +10%, Luck costs 15 SP
+	Ace Bonus: Leona	Accuracy +10%, evade +10%
+	Ace Bonus: Ryoto	Final damage +5%, final damage taken -5%
+	Ace Bonus: Rio	Money +10%, EXP +10%
+	Ace Bonus: Radha	Evade +10%, SP +20
+	Ace Bonus: Irm	Love costs 45 SP
+	Ace Bonus: Ling	Accuracy +10%, evade +10%, critical hit +10%
+	Ace Bonus: Sanger	Final melee damage +10%
+	Ace Bonus: Elzam/Ratsel	Final ranged damage +10%
+	Ace Bonus: Gilliam	Final evade +15%
+	Ace Bonus: Kai	Command effect +5%, critical hit +10%
+	Ace Bonus: Masaki	Final damage +5%, final accuracy +10%
+	Ace Bonus: Lune	Final damage +10%
+	Ace Bonus: Shu	Damage from non-MAP, non-range-1 attacks -20%
+	Ace Bonus: Lee	Final counterattack damage +10%, final damage taken -10%
+	Ace Bonus: Lamia	Final ranged damage +5%, final ranged accuracy +10%
+	Ace Bonus: Arado	Final melee damage +5%, money +10%
+	Ace Bonus: Seolla	Final ranged damage +5%, EXP +10%
+	Ace Bonus: Ouka	Final counterattack damage +10%
+	Ace Bonus: Ibis	Movement +1
+	Ace Bonus: Tsugumi	Final accuracy +10%, SP +20
+	Ace Bonus: Sleigh	Final counterattack damage +10%
+	Ace Bonus: Raul	Evade +10%, critical hit +10%
+	Ace Bonus: Fiona	Enable costs 50 SP
+	Ace Bonus: Mizuho	SP +20 (OGG)
+	Ace Bonus: Raji	SP +20 (OGG)
+	Ace Bonus: Despinis	Final Support Attack damage +10%, final Support Defend damage -10% (OGG)
+	Ace Bonus: Yuuki	Evade +10%, critical hit +10%
+	Ace Bonus: Carla	Accuracy +10%, money +10%
+	Ace Bonus: Axel	Final accuracy +20%
+	Ace Bonus: Wodan	Final melee damage +10%
+	Ace Bonus: Shine	Money +20%
+	Ace Bonus: Kota	Final counterattack damage +15%
+	Ace Bonus: Shouko	Credits +10%, SP +15 (OGG)
+	Ace Bonus: Folka	Critical hit +30%, final melee damage +5%
+	Ace Bonus: Fernando	Final melee damage +10%
+	Ace Bonus: Alion	Evade +10%, critical hit +20% (OGG)
+	Ace Bonus: Rishu	Critical hit +40%
+	Ace Bonus: Albero	Command effect +5%, accuracy +10% (OGG)
+	Ace Bonus: Hugo	Final damage taken -5%, accuracy +10% (OGG)
+	Ace Bonus: Foglia	Final counter damage +5%, evade +10% (OGG)
+	Ace Bonus: Bian	Final damage +10%, accuracy +10%
+	Ace Bonus: Adler	Final damage taken -5%, evade +5%
+	Ace Bonus: Tenzan	Final damage +10%, counterattack accuracy +10%
+	Ace Bonus: Thomas	Lucky activation +10%, evade +5%
+	Ace Bonus: Tempest	Final damage +10%, counterattack accuracy +10%
+	Ace Bonus: Maier	Final damage +10%, accuracy +10%
+	Ace Bonus: Julia	Counterattack final damage +10%
+	Ace Bonus: Lily	Accuracy +5%, evade +5%, critical hit +5%
+	Ace Bonus: Siebel	Counterattack final damage +5%, evade +10%
+	Ace Bonus: Hans	Evade +10%
+	Ace Bonus: Atad	Evade +10%, critical hit +20%
+	Ace Bonus: Gaza	Final damage +10%, counterattack accuracy +10%
+	Ace Bonus: Galuin	Final damage taken -15%
+	Ace Bonus: Levi	Final accuracy +10%, SP +20
+	Ace Bonus: Septuagint	Final damage +20%, critical hit +30%
+	Ace Bonus: Murata	Critical hit +30%
+	Ace Bonus: Lorenzo	Command effect +5%, accuracy +10%
+	Ace Bonus: Archibald	Final damage taken -5%, accuracy +10%
+	Ace Bonus: Van	Final damage taken -20%
+	Ace Bonus: Echidna	Final ranged damage +5%, final accuracy +10%
+	Ace Bonus: Lemon	Final ranged damage +10%, evade +10%
+	Ace Bonus: Vindel	Final damage +20%, critical hit +30%
+	Ace Bonus: Egret Uruz	Evade +20%
+	Ace Bonus: Egret Ansuz	Critical hit +20%
+	Ace Bonus: Egret Thurisuz	Accuracy +20%
+	Ace Bonus: Aguila	Final damage taken -5%, evade +5%
+	Ace Bonus: Cuervo	Accuracy +5%, evade +5%, critical hit +5%
+	Ace Bonus: Vigagi	Final damage +10%
+	Ace Bonus: Mekibos	Counterattack final damage +10%, final damage taken -10%
+	Ace Bonus: Aguija	Evade +10%, critical hit +20%
+	Ace Bonus: Sikalog	Counterattack final damage +10%, accuracy +10%
+	Ace Bonus: Wendolo	Final damage taken -10%
+	Ace Bonus: Einst Regisseur	Final damage +10%, final damage taken -10% (OGs); final damage +10%, final accuracy +15% (OGG)
+	Ace Bonus: Stern Neu Regisseur	Final damage +20%, critical hit +30%
+	Ace Bonus: Jetzt Regisseur	Final damage +10%, final accuracy +15% (OGG)
+	Ace Bonus: Alkaid	Counter rate +10%, final melee damage +20% (OGG)
+	Ace Bonus: Alcor/Arco	Evade +20% (OGG)
+	Ace Bonus: Altis	Counter rate +10%, final melee damage +10% (OGG)
+	Ace Bonus: Mizar	Final evade +10%, critical hit +15% (OGG)
+	Ace Bonus: Magnus	Final counter damage +10%, damage taken -10% (OGG)
+	Ace Bonus: Maythis/Masis	Final Support Attack damage +10%, final accuracy +10% (OGG)
+	Ace Bonus: Kyle	Accuracy +10%, evade +10% (OGG)
+	Ace Bonus: Jurgen	Accuracy +10%, evade +10%, critical hit +10% (OGG)
+	Ace Bonus: Duminas	Final damage +10%, final accuracy +10%, critical hit +10% (OGG)
+	Ace Bonus: Lalia	Final damage taken -5%, final evade +10% (OGG)
+	Ace Bonus: Tis	Final accuracy +10%, critical hit +15% (OGG)
+	Ace Bonus: Emi	Final accuracy +5%, final evade +5% (OGG)
+	Ace Bonus: Dark Brain (1)	Final damage +15%, final accuracy +10%, critical hit +10% (OGG)
+	Ace Bonus: Dark Brain (2)	Final damage +20%, final accuracy +15%, critical hit +15% (OGG)
+	Ace Bonus: Ijin	Final damage taken -5% (OGG)
+	Ace Bonus: Tony	Evade +20% (OGG)
+	Ace Bonus: Tadpole	Evade +10%, critical hit +10% (OGG)
+	Ace Bonus: Flatfish	Evade +10%, critical hit +10% (OGG)
+	Ace Bonus: AIO-M	Final damage taken -5% (OGG)
+	Ace Bonus: Federation Soldier	Final accuracy +5% (OGG)

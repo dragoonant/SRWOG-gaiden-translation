@@ -293,8 +293,8 @@ def encrypt(template: str, src: str, dst: str, pad_tail: bytes = None) -> None:
         out.write(trailing)
     # Fix up the two CMACs in the header.
     ck = h.cmac_key()
-    hdr[0xA0:0xB0] = _cmac(ck, bytes(hdr[:0xA0]))
-    hdr[0x90:0xA0] = _cmac(ck, b"".join(metas))
+    hdr[0x90:0xA0] = _cmac(ck, b"".join(metas))      # metadata CMAC first,
+    hdr[0xA0:0xB0] = _cmac(ck, bytes(hdr[:0xA0]))    # header CMAC covers it
     with open(dst, "r+b") as out:
         out.seek(0)
         out.write(bytes(hdr))

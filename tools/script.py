@@ -136,6 +136,24 @@ def ldbi_build(orig, entries):
     return bytes(hdr) + bytes(pool) + tab + orig[p["off2"]:]
 
 
+def ldbi_speakers(data):
+    """Map dialogue string index -> speaker-name string index.
+
+    Section 3 records (132 bytes) hold, at word 2, the speaker's display name
+    and at word 3 the line spoken (confirmed on ls000/ls001)."""
+    p = ldbi_parse(data)
+    n3 = struct.unpack_from(">I", data, 0x20)[0]
+    o3 = p["off3"]
+    count = p["count"]
+    out = {}
+    for r in range(n3):
+        w = struct.unpack_from(">33I", data, o3 + 4 + r * 132)
+        spk, line = w[2], w[3]
+        if 0 < spk < count and 0 < line < count:
+            out.setdefault(line, spk)
+    return out
+
+
 # ---------------------------------------------------------------- LOGO
 
 def logo_parse(data):

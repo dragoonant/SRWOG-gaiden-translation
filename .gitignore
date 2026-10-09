@@ -1,0 +1,16 @@
+# Game data never goes in the repo
+*.iso
+*.ISO
+*.bin
+*.BIN
+*.elf
+*.ELF
+SLPS_*
+extracted/
+build/
+*.xdelta.tmp
+
+# Scratch
+__pycache__/
+*.pyc
+.venv/

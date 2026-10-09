@@ -726,7 +726,7 @@
    "id": 12,
    "pool": "B",
    "jp": "１．　ジンライのＨＰを#0以下にする。",
-   "en": "",
+   "en": "1. Reduce Jinrai to #0 HP or less.",
    "kind": "text",
    "keep": false
   },
@@ -734,7 +734,7 @@
    "id": 13,
    "pool": "B",
    "jp": "１．　いずれかの味方ユニットの撃墜。",
-   "en": "",
+   "en": "1. Any ally unit is destroyed.",
    "kind": "text",
    "keep": false
   },
@@ -742,7 +742,7 @@
    "id": 14,
    "pool": "B",
    "jp": "・？？？",
-   "en": "",
+   "en": "- ???",
    "kind": "text",
    "keep": false
   },
@@ -854,7 +854,7 @@
    "id": 28,
    "pool": "B",
    "jp": "１．　４ターン味方フェイズ以内に、アイビスを指定ポイントへ到達させる。",
-   "en": "",
+   "en": "1. Move Ibis to the designated point within 4 player phases.",
    "kind": "text",
    "keep": false
   },
@@ -862,7 +862,7 @@
    "id": 29,
    "pool": "B",
    "jp": "２．　ジンライのＨＰを#0以下にする。",
-   "en": "",
+   "en": "2. Get Jinrai's HP to #0 or less.",
    "kind": "text",
    "keep": false
   },
@@ -870,7 +870,7 @@
    "id": 30,
    "pool": "B",
    "jp": "<W=63>　</W>なお、量産型ジンライはこの条件を満たすと全機撤退する。",
-   "en": "",
+   "en": "<W=63>　</W>When it's met, all Mass-Production Jinrai retreat.",
    "kind": "text",
    "keep": false
   },
@@ -878,7 +878,7 @@
    "id": 31,
    "pool": "B",
    "jp": "１．　４ターン味方フェイズ以内に、勝利条件を満たせなかった場合。",
-   "en": "",
+   "en": "1. Victory conditions unmet within 4 player phases.",
    "kind": "text",
    "keep": false
   },
@@ -886,7 +886,7 @@
    "id": 32,
    "pool": "B",
    "jp": "２．　アイビスの撃墜。",
-   "en": "",
+   "en": "2. Ibis destroyed.",
    "kind": "text",
    "keep": false
   },
@@ -894,7 +894,7 @@
    "id": 33,
    "pool": "B",
    "jp": "３．　ヒリュウ改の撃墜。",
-   "en": "",
+   "en": "3. Hiryu Custom sunk.",
    "kind": "text",
    "keep": false
   },
@@ -902,7 +902,7 @@
    "id": 34,
    "pool": "B",
    "jp": "・４ターン味方フェイズ以内に、アイビスが量産型ジンライを２機以上撃墜する。",
-   "en": "",
+   "en": "・Ibis shoots down 2+ Mass-Production Jinrai within 4 player phases.",
    "kind": "text",
    "keep": false
   },
@@ -942,7 +942,7 @@
    "id": 39,
    "pool": "B",
    "jp": "１．　ジンライのＨＰを#0以下にする。",
-   "en": "",
+   "en": "1. Reduce Jinrai to #0 HP or less.",
    "kind": "text",
    "keep": false
   },
@@ -950,7 +950,7 @@
    "id": 40,
    "pool": "B",
    "jp": "<W=63>　</W>なお、量産型ジンライはこの条件を満たすと全機撤退する。",
-   "en": "",
+   "en": "<W=63>　</W>When it's met, all Mass-Production Jinrai retreat.",
    "kind": "text",
    "keep": false
   },
@@ -958,7 +958,7 @@
    "id": 41,
    "pool": "B",
    "jp": "１．　アイビスの撃墜。",
-   "en": "",
+   "en": "1. Ibis destroyed.",
    "kind": "text",
    "keep": false
   },
@@ -966,7 +966,7 @@
    "id": 42,
    "pool": "B",
    "jp": "２．　ヒリュウ改の撃墜。",
-   "en": "",
+   "en": "2. Hiryu Custom lost.",
    "kind": "text",
    "keep": false
   },
@@ -1046,7 +1046,7 @@
    "id": 52,
    "pool": "B",
    "jp": "強化パーツ『バイオセンサー』を入手しました。@強化パーツ『ハイブリッドアーマー』を入手しました。@強化パーツ『Ｇ・ウォール』を入手しました。",
-   "en": "",
+   "en": "Obtained enhancement part 'Biosensor'.@Obtained enhancement part 'Hybrid Armor'.@Obtained enhancement part 'G-Wall'.",
    "kind": "text",
    "keep": false
   },
@@ -1054,7 +1054,7 @@
    "id": 53,
    "pool": "B",
    "jp": "強化パーツ『ＳＰドリンク』を入手しました。",
-   "en": "",
+   "en": "Obtained enhancement part 'SP Drink'.",
    "kind": "text",
    "keep": false
   },
@@ -1062,7 +1062,7 @@
    "id": 54,
    "pool": "B",
    "jp": "換装武器『フォトン・ライフルＳ』を入手しました。@換装武器『ネオ・チャクラムシューター』を入手しました。@換装武器『ウェポンブレイカー』を入手しました。",
-   "en": "",
+   "en": "Obtained Replace weapon 'Photon Rifle S'.@Obtained Replace weapon 'Neo Chakram Shooter'.@Obtained Replace weapon 'Weapon Breaker'.",
    "kind": "text",
    "keep": false
   },
@@ -1070,7 +1070,7 @@
    "id": 55,
    "pool": "B",
    "jp": "換装武器『チャフグレネード』を入手しました。@換装武器『補給装置』を入手しました。",
-   "en": "",
+   "en": "Obtained Replace weapon 'Chaff Grenade'.@Obtained Replace weapon 'Resupply Module'.",
    "kind": "text",
    "keep": false
   },
@@ -1078,7 +1078,7 @@
    "id": 56,
    "pool": "B",
    "jp": "換装武器『チャフグレネード』を入手しました。@換装武器『修理装置』を入手しました。",
-   "en": "",
+   "en": "Obtained Replace weapon 'Chaff Grenade'.@Obtained Replace weapon 'Repair Module'.",
    "kind": "text",
    "keep": false
   },
@@ -1110,7 +1110,7 @@
    "id": 60,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   },
@@ -1118,7 +1118,7 @@
    "id": 61,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   }

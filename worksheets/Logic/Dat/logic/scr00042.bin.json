@@ -678,7 +678,7 @@
    "id": 6,
    "pool": "B",
    "jp": "１．　ベガリオンを撤退させる。",
-   "en": "",
+   "en": "1. Make Vegalion retreat.",
    "kind": "text",
    "keep": false
   },
@@ -686,7 +686,7 @@
    "id": 7,
    "pool": "B",
    "jp": "<W=63>　</W>なお、ベガリオンはＨＰが#0以下で撤退する。",
-   "en": "",
+   "en": "<W=63>　</W>Vegalion retreats at #0 HP or less.",
    "kind": "text",
    "keep": false
   },
@@ -694,7 +694,7 @@
    "id": 8,
    "pool": "B",
    "jp": "１．　クロガネの撃墜。",
-   "en": "",
+   "en": "1. Destroy Kurogane.",
    "kind": "text",
    "keep": false
   },
@@ -702,7 +702,7 @@
    "id": 9,
    "pool": "B",
    "jp": "・６ターン以内に、マスカレオン・タイプＣ（アラセリ）を撃墜する。",
-   "en": "",
+   "en": "- Destroy Mascareon Type-C (Araceli) within 6 turns.",
    "kind": "text",
    "keep": false
   },
@@ -710,7 +710,7 @@
    "id": 10,
    "pool": "B",
    "jp": "　なお、マスカレオン・タイプＣ（アラセリ）はＨＰが#1以下になるか、",
-   "en": "",
+   "en": "　Mascareon Type-C (Araceli) retreats at #1 HP or less,",
    "kind": "text",
    "keep": false
   },
@@ -718,7 +718,7 @@
    "id": 11,
    "pool": "B",
    "jp": "　勝利条件を満たすと撤退する。",
-   "en": "",
+   "en": "　or upon victory.",
    "kind": "text",
    "keep": false
   },
@@ -822,7 +822,7 @@
    "id": 24,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   },
@@ -830,7 +830,7 @@
    "id": 25,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   }

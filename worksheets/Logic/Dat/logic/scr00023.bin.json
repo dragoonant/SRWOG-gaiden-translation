@@ -662,7 +662,7 @@
    "id": 4,
    "pool": "B",
    "jp": "１．　敵の全滅。",
-   "en": "",
+   "en": "1. Defeat foes.",
    "kind": "text",
    "keep": false
   },
@@ -670,7 +670,7 @@
    "id": 5,
    "pool": "B",
    "jp": "１．　いずれかの味方ユニットの撃墜。",
-   "en": "",
+   "en": "1. Any ally unit is destroyed.",
    "kind": "text",
    "keep": false
   },
@@ -678,7 +678,7 @@
    "id": 6,
    "pool": "B",
    "jp": "・３ターン以内に、ガーリオン・カスタム“無明”以外の敵を全滅させる。",
-   "en": "",
+   "en": "- Defeat all foes except Guarlion Custom \"Mumyou\" in 3 turns.",
    "kind": "text",
    "keep": false
   },
@@ -686,7 +686,7 @@
    "id": 7,
    "pool": "B",
    "jp": "　なお、ガーリオン・カスタム“無明”はＨＰが#0以下で撤退する。",
-   "en": "",
+   "en": "  Guarlion Custom \"Mumyou\" retreats at #0 HP or less.",
    "kind": "text",
    "keep": false
   },
@@ -758,7 +758,7 @@
    "id": 16,
    "pool": "B",
    "jp": "換装パーツ『タイプＮ装備（量産型ゲシュペンストＭｋ‐Ⅱ改）』を入手しました。",
-   "en": "",
+   "en": "Obtained conversion part \"Type-N Equipment (MP Gespenst Mk-II Kai)\".",
    "kind": "text",
    "keep": false
   },
@@ -822,7 +822,7 @@
    "id": 24,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   },
@@ -830,7 +830,7 @@
    "id": 25,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   }

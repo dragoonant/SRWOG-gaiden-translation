@@ -662,7 +662,7 @@
    "id": 4,
    "pool": "B",
    "jp": "１．　敵の全滅。",
-   "en": "",
+   "en": "1. Defeat foes.",
    "kind": "text",
    "keep": false
   },
@@ -670,7 +670,7 @@
    "id": 5,
    "pool": "B",
    "jp": "１．　いずれかの味方ユニットの撃墜（量産型ヒュッケバインＭｋ‐Ⅱを除く）。",
-   "en": "",
+   "en": "1. Any ally except a Mass-Production Huckebein Mk-II is destroyed.",
    "kind": "text",
    "keep": false
   },
@@ -678,7 +678,7 @@
    "id": 6,
    "pool": "B",
    "jp": "・量産型ヒュッケバインＭｋ‐Ⅱが１機も撃墜されずに、マップをクリアする。",
-   "en": "",
+   "en": "・Clear the map with no Mass-Production Huckebein Mk-II lost.",
    "kind": "text",
    "keep": false
   },
@@ -846,7 +846,7 @@
    "id": 27,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   }

@@ -678,7 +678,7 @@
    "id": 6,
    "pool": "B",
    "jp": "１．　敵の全滅。",
-   "en": "",
+   "en": "1. Defeat foes.",
    "kind": "text",
    "keep": false
   },
@@ -686,7 +686,7 @@
    "id": 7,
    "pool": "B",
    "jp": "１．　ヒリュウ改の撃墜。",
-   "en": "",
+   "en": "1. Hiryu Custom sunk.",
    "kind": "text",
    "keep": false
   },
@@ -694,7 +694,7 @@
    "id": 8,
    "pool": "B",
    "jp": "・２ターン以内に、勝利条件を満たす。",
-   "en": "",
+   "en": "・Achieve victory within 2 turns.",
    "kind": "text",
    "keep": false
   },
@@ -758,7 +758,7 @@
    "id": 16,
    "pool": "B",
    "jp": "１．　１０ターン以内にいずれかの味方ユニットをズィーガーリオンに隣接させる。",
-   "en": "",
+   "en": "1. Move any ally unit next to the Siegerlion within 10 turns.",
    "kind": "text",
    "keep": false
   },
@@ -766,7 +766,7 @@
    "id": 17,
    "pool": "B",
    "jp": "１．　１０ターン以内に勝利条件を満たせなかった場合。",
-   "en": "",
+   "en": "1. Victory condition not met in 10 turns.",
    "kind": "text",
    "keep": false
   },
@@ -774,7 +774,7 @@
    "id": 18,
    "pool": "B",
    "jp": "２．　ヒリュウ改の撃墜。",
-   "en": "",
+   "en": "2. Hiryu Custom lost.",
    "kind": "text",
    "keep": false
   },
@@ -862,7 +862,7 @@
    "id": 29,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   },
@@ -870,7 +870,7 @@
    "id": 30,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   }

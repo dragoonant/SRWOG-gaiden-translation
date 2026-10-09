@@ -694,7 +694,7 @@
    "id": 8,
    "pool": "B",
    "jp": "１．　エア・クリスマス以外の敵の全滅。",
-   "en": "",
+   "en": "1. Defeat all but Air Christmas.",
    "kind": "text",
    "keep": false
   },
@@ -702,7 +702,7 @@
    "id": 9,
    "pool": "B",
    "jp": "１．　ハガネの撃墜。",
-   "en": "",
+   "en": "1. Hagane is sunk.",
    "kind": "text",
    "keep": false
   },
@@ -710,7 +710,7 @@
    "id": 10,
    "pool": "B",
    "jp": "・６ターン以内に、エア・クリスマスのＨＰを#0以下にする。",
-   "en": "",
+   "en": "- Get Air Christmas's HP to #0 or less in 6 turns.",
    "kind": "text",
    "keep": false
   },
@@ -718,7 +718,7 @@
    "id": 11,
    "pool": "B",
    "jp": "　なお、エア・クリスマスはガーリオン・カスタム“無明”、ケルベリオン・プレザン、",
-   "en": "",
+   "en": " Air Christmas retreats if Guarlion Custom \"Mumyou\", Cerberion Present,",
    "kind": "text",
    "keep": false
   },
@@ -726,7 +726,7 @@
    "id": 12,
    "pool": "B",
    "jp": "　ケルベリオン・パッセ、ケルベリオン・アヴニールを全て撃墜すると撤退。",
-   "en": "",
+   "en": " Cerberion Passe, and Cerberion Avenir are all shot down.",
    "kind": "text",
    "keep": false
   },
@@ -782,7 +782,7 @@
    "id": 19,
    "pool": "B",
    "jp": "１．　敵の全滅。",
-   "en": "",
+   "en": "1. Defeat foes.",
    "kind": "text",
    "keep": false
   },
@@ -790,7 +790,7 @@
    "id": 20,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   },
@@ -1166,7 +1166,7 @@
    "id": 67,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   },
@@ -1174,7 +1174,7 @@
    "id": 68,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   }

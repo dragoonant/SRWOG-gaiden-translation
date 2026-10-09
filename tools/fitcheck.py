@@ -44,6 +44,7 @@ TAG = re.compile(r"<[^<>]*>")
 PRINTF = re.compile(r"%[-+#0]?\d*(?:\.\d+)?[hl]?[diouxXfcs]")
 JPCHAR = re.compile(r"[\u3040-\u30ff\u4e00-\u9fff]")
 DIALOGUE = {"LDBI", "BMD"}
+LABEL_PX = 160   # Japanese width of a 5-character label
 
 
 class Font:
@@ -174,6 +175,7 @@ def main(argv):
     shown = 0
 
     failures = []
+    labels = []
 
     def report(kind, path, e, msg):
         nonlocal shown
@@ -212,7 +214,13 @@ def main(argv):
             for l in el:
                 w = font.width(l)
                 if w > max_w:
-                    report("width", path, e, "%dpx > %dpx: %r" % (w, max_w, l[:50]))
+                    if fmt not in DIALOGUE and max_w <= LABEL_PX:
+                        # Short label (<= 5 Japanese characters): the real box is
+                        # usually wider than the Japanese text. Listed for the
+                        # in-game check instead of being re-translated shorter.
+                        labels.append({"path": path, "id": e.get("id"), "en": en, "px": w, "jp_px": max_w})
+                    else:
+                        report("width", path, e, "%dpx > %dpx: %r" % (w, max_w, l[:50]))
                     break
             # Glossary. Terms inside <keyword> tags are displayed from the
             # keyword dictionary, so only the untagged text counts. A known
@@ -233,6 +241,11 @@ def main(argv):
     print("dialogue width budgets: %s" % ", ".join("%s %dpx" % kv for kv in sorted(budget.items())))
     print("errors: %s; warnings: %d Japanese outside tags, %d glossary terms not mentioned"
           % (dict(errors) or "none", warnings, missing))
+    if labels:
+        json.dump(labels, open(os.path.join(REPO, "translations", "label_widths.json"), "w", encoding="utf-8"),
+                  ensure_ascii=False, indent=1)
+        print("%d short labels wider than their Japanese: listed in translations/label_widths.json "
+              "for the in-game check" % len(labels))
     if "--json" in argv:
         json.dump(failures, open(argv[argv.index("--json") + 1], "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     return 1 if errors else 0

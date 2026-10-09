@@ -1,0 +1,788 @@
+[
+ {
+  "path": "worksheets\\EBOOT.elf.json",
+  "id": 322,
+  "kind": "width",
+  "msg": "179px > 169px: '▼Arm Lv%d'"
+ },
+ {
+  "path": "worksheets\\EBOOT.elf.json",
+  "id": 323,
+  "kind": "width",
+  "msg": "177px > 169px: '▼Mob Lv%d'"
+ },
+ {
+  "path": "worksheets\\EBOOT.elf.json",
+  "id": 324,
+  "kind": "width",
+  "msg": "173px > 169px: '▼Aim Lv%d'"
+ },
+ {
+  "path": "worksheets\\EBOOT.elf.json",
+  "id": 326,
+  "kind": "width",
+  "msg": "174px > 169px: '▼Atk Lv%d'"
+ },
+ {
+  "path": "worksheets\\EBOOT.elf.json",
+  "id": 593,
+  "kind": "width",
+  "msg": "287px > 280px: 'Name/Garb: %s/%s'"
+ },
+ {
+  "path": "worksheets\\EBOOT.elf.json",
+  "id": 656,
+  "kind": "width",
+  "msg": "354px > 352px: '■Dmg Type: Destroyed'"
+ },
+ {
+  "path": "worksheets\\EBOOT.elf.json",
+  "id": 707,
+  "kind": "width",
+  "msg": "483px > 480px: '■S.Twin Dmg Type: Medium Dmg'"
+ },
+ {
+  "path": "worksheets\\EBOOT.elf.json",
+  "id": 1131,
+  "kind": "width",
+  "msg": "215px > 208px: '●X Adjust Ht'"
+ },
+ {
+  "path": "worksheets\\EBOOT.elf.json",
+  "id": 1204,
+  "kind": "width",
+  "msg": "247px > 246px: 'Gnd→Air(Spare)'"
+ },
+ {
+  "path": "worksheets\\EBOOT.elf.json",
+  "id": 1207,
+  "kind": "width",
+  "msg": "247px > 246px: 'Air→Gnd(Spare)'"
+ },
+ {
+  "path": "worksheets\\EBOOT.elf.json",
+  "id": 1459,
+  "kind": "width",
+  "msg": "270px > 268px: '△: Resume/Pause'"
+ },
+ {
+  "path": "worksheets\\EBOOT.elf.json",
+  "id": 1700,
+  "kind": "bytes",
+  "msg": "4 bytes > 3 (replaced in place)"
+ },
+ {
+  "path": "worksheets\\EBOOT.elf.json",
+  "id": 1701,
+  "kind": "bytes",
+  "msg": "4 bytes > 3 (replaced in place)"
+ },
+ {
+  "path": "worksheets\\EBOOT.elf.json",
+  "id": 1702,
+  "kind": "bytes",
+  "msg": "4 bytes > 3 (replaced in place)"
+ },
+ {
+  "path": "worksheets\\EBOOT.elf.json",
+  "id": 1854,
+  "kind": "width",
+  "msg": "229px > 224px: 'Armor Down L1'"
+ },
+ {
+  "path": "worksheets\\EBOOT.elf.json",
+  "id": 1855,
+  "kind": "width",
+  "msg": "229px > 224px: 'Armor Down L2'"
+ },
+ {
+  "path": "worksheets\\EBOOT.elf.json",
+  "id": 1856,
+  "kind": "width",
+  "msg": "229px > 224px: 'Armor Down L3'"
+ },
+ {
+  "path": "worksheets\\Common\\Dat\\Option\\QA\\2og_Q&A.csb.json",
+  "id": 1,
+  "kind": "lines",
+  "msg": "2 lines > 1"
+ },
+ {
+  "path": "worksheets\\Common\\Dat\\Option\\QA\\2og_Q&A.csb.json",
+  "id": 15,
+  "kind": "width",
+  "msg": "202px > 192px: 'Combat/Stat'"
+ },
+ {
+  "path": "worksheets\\Common\\Dat\\Option\\QA\\2og_Q&A.csb.json",
+  "id": 386,
+  "kind": "glossary",
+  "msg": "根性 is 'Guts' here; canon is 'Vigor'"
+ },
+ {
+  "path": "worksheets\\Common\\Dat\\Option\\QA\\2og_Q&A.csb.json",
+  "id": 387,
+  "kind": "glossary",
+  "msg": "根性 is 'Guts' here; canon is 'Vigor'"
+ },
+ {
+  "path": "worksheets\\Common\\Dat\\Option\\QA\\2og_Q&A.csb.json",
+  "id": 506,
+  "kind": "width",
+  "msg": "9230px > 8704px: '<W=28><H=28>A. <C=FF8000FF>Cover weaknesses and bu'"
+ },
+ {
+  "path": "worksheets\\Common\\Dat\\Option\\QA\\2og_Q&A.csb.json",
+  "id": 522,
+  "kind": "tag",
+  "msg": "tags ['<W=28>', '<H=28>', '<C=FF8000FF>', '</C>', '</H>', '</W>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '<C=FF8000FF>', '</C>', '</T>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<T=30>', '<C=FF8000FF>', '</C>', '</T>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<T=30>', '<C=FF8000FF>', '</C>', '</T>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<S=8>', '<Y=-3>', '<W=32>', '<H=32>', '<I=156>', '</H>', '</W>', '</Y>', '<S=3>'] vs ['<W=28>', '<H=28>', '<C=FF8000FF>', '</C>', '</H>', '</W>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '<C=FF8000FF>', '</C>', '</T>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<T=30>', '<C=FF8000FF>', '</C>', '</T>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<S=8>', '<Y=-3>', '<W=32>', '<H=32>', '<I=156>', '</H>', '</W>', '</Y>', '<S=3>']"
+ },
+ {
+  "path": "worksheets\\Common\\Dat\\Option\\QA\\2og_Q&A.csb.json",
+  "id": 557,
+  "kind": "width",
+  "msg": "6600px > 6592px: '<W=28><H=28>A. <C=FF8000FF>These are the typical p'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 355,
+  "kind": "width",
+  "msg": "260px > 256px: '・Change Weapon'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 374,
+  "kind": "width",
+  "msg": "193px > 192px: '・Out of Rng'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 467,
+  "kind": "width",
+  "msg": "249px > 224px: '・Auto-Counter'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 487,
+  "kind": "width",
+  "msg": "196px > 192px: '＜Glossary＞'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 547,
+  "kind": "width",
+  "msg": "261px > 256px: 'Stedonius Soldier'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 600,
+  "kind": "width",
+  "msg": "964px > 928px: '□□□□□□□□□□Tesla Leicht Institute□□□□□□□□□□'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 742,
+  "kind": "width",
+  "msg": "204px > 192px: '・No Counter'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 809,
+  "kind": "width",
+  "msg": "194px > 192px: '♪ BGM Name'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 848,
+  "kind": "width",
+  "msg": "322px > 256px: '【\\u3000\\u3000】Select Squad'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 849,
+  "kind": "width",
+  "msg": "330px > 264px: '【\\u3000\\u3000 】Select Squad'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 850,
+  "kind": "width",
+  "msg": "338px > 272px: '【\\u3000 \\u3000 】Select Squad'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 851,
+  "kind": "width",
+  "msg": "394px > 328px: '【\\u3000\\u3000\\u3000\\u3000 】Select Squad'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 852,
+  "kind": "width",
+  "msg": "426px > 360px: '【\\u3000\\u3000\\u3000\\u3000\\u3000 】Select Squad'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 853,
+  "kind": "width",
+  "msg": "458px > 392px: '【\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000 】Select Squad'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 854,
+  "kind": "width",
+  "msg": "490px > 424px: '【\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000 】Select Squad'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 855,
+  "kind": "width",
+  "msg": "522px > 456px: '【\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000 】Select Squad'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 856,
+  "kind": "width",
+  "msg": "554px > 488px: '【\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000 】Select Squad'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 857,
+  "kind": "width",
+  "msg": "586px > 520px: '【\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000 】Select Squad'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 858,
+  "kind": "width",
+  "msg": "294px > 256px: '【\\u3000\\u3000】Select Unit'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 859,
+  "kind": "width",
+  "msg": "302px > 264px: '【\\u3000\\u3000 】Select Unit'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 860,
+  "kind": "width",
+  "msg": "310px > 272px: '【\\u3000 \\u3000 】Select Unit'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 861,
+  "kind": "width",
+  "msg": "366px > 328px: '【\\u3000\\u3000\\u3000\\u3000 】Select Unit'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 862,
+  "kind": "width",
+  "msg": "398px > 360px: '【\\u3000\\u3000\\u3000\\u3000\\u3000 】Select Unit'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 863,
+  "kind": "width",
+  "msg": "430px > 392px: '【\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000 】Select Unit'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 864,
+  "kind": "width",
+  "msg": "462px > 424px: '【\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000 】Select Unit'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 865,
+  "kind": "width",
+  "msg": "494px > 456px: '【\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000 】Select Unit'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 866,
+  "kind": "width",
+  "msg": "526px > 488px: '【\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000 】Select Unit'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 867,
+  "kind": "width",
+  "msg": "558px > 520px: '【\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000 】Select Unit'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 868,
+  "kind": "width",
+  "msg": "335px > 256px: '【\\u3000\\u3000】Select Target'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 869,
+  "kind": "width",
+  "msg": "343px > 264px: '【\\u3000\\u3000 】Select Target'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 870,
+  "kind": "width",
+  "msg": "351px > 272px: '【\\u3000 \\u3000 】Select Target'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 968,
+  "kind": "width",
+  "msg": "216px > 192px: '＜No Search＞'"
+ },
+ {
+  "path": "worksheets\\General2d\\Dat\\Window\\WindowToolData\\windowdataMain.wtd.json",
+  "id": 977,
+  "kind": "width",
+  "msg": "202px > 192px: '：Change Set'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\AbilityData.dat.json",
+  "id": 21,
+  "kind": "width",
+  "msg": "233px > 224px: 'Distortion Field'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\ACEBonusData.dat.json",
+  "id": 67,
+  "kind": "width",
+  "msg": "692px > 672px: 'Command effect +5%, final damage taken -10%'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\ACEBonusData.dat.json",
+  "id": 83,
+  "kind": "width",
+  "msg": "236px > 224px: 'Accuracy +20%'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\BGMData.dat.json",
+  "id": 73,
+  "kind": "width",
+  "msg": "195px > 192px: 'Doom Warden'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\BGMData.dat.json",
+  "id": 141,
+  "kind": "width",
+  "msg": "229px > 224px: 'From the Marsh'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\HelpData.dat.json",
+  "id": 731,
+  "kind": "width",
+  "msg": "258px > 256px: 'Replace Command'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\KeyGuideData.dat.json",
+  "id": 32,
+  "kind": "width",
+  "msg": "198px > 192px: 'Weapon Type'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\KeyGuideData.dat.json",
+  "id": 147,
+  "kind": "width",
+  "msg": "226px > 224px: 'Unit/Wpn Mods'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\KeyGuideData.dat.json",
+  "id": 149,
+  "kind": "width",
+  "msg": "225px > 224px: 'Swap Sup. Wpn'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\KeyWordData.dat.json",
+  "id": 128,
+  "kind": "width",
+  "msg": "233px > 224px: 'Distortion Field'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\MAXChangeBonusData.dat.json",
+  "id": 84,
+  "kind": "width",
+  "msg": "418px > 416px: 'Ranged Weapon Power +200'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\MAXChangeBonusData.dat.json",
+  "id": 187,
+  "kind": "width",
+  "msg": "418px > 416px: 'Ranged Weapon Power +300'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\PartsData.dat.json",
+  "id": 86,
+  "kind": "width",
+  "msg": "257px > 224px: 'Twisty Headband'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\PilotData.dat.json",
+  "id": 403,
+  "kind": "width",
+  "msg": "221px > 192px: 'Neo DC Soldier'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\PilotData.dat.json",
+  "id": 404,
+  "kind": "width",
+  "msg": "236px > 224px: 'Neo DC Captain'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\PilotData.dat.json",
+  "id": 405,
+  "kind": "width",
+  "msg": "301px > 288px: 'Gaia Saviors Soldier'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\PilotData.dat.json",
+  "id": 407,
+  "kind": "width",
+  "msg": "418px > 288px: 'Mass-Production M Children'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\PilotData.dat.json",
+  "id": 411,
+  "kind": "width",
+  "msg": "206px > 192px: 'Kirkus Soldier'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\PilotData.dat.json",
+  "id": 416,
+  "kind": "width",
+  "msg": "261px > 256px: 'Stedonius Soldier'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\PilotData.dat.json",
+  "id": 522,
+  "kind": "width",
+  "msg": "247px > 192px: 'Isurugi Employee'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\PilotData.dat.json",
+  "id": 566,
+  "kind": "width",
+  "msg": "412px > 288px: 'Luzak State Army Soldier A'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\PilotData.dat.json",
+  "id": 568,
+  "kind": "width",
+  "msg": "411px > 288px: 'Luzak State Army Soldier B'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\PilotData.dat.json",
+  "id": 599,
+  "kind": "width",
+  "msg": "221px > 192px: 'Neo DC Soldier'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\SkillData.dat.json",
+  "id": 67,
+  "kind": "width",
+  "msg": "223px > 192px: 'Will Limit Break'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\StageData.dat.json",
+  "id": 16,
+  "kind": "width",
+  "msg": "225px > 224px: 'Zamzeed Heart'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\StageData.dat.json",
+  "id": 60,
+  "kind": "width",
+  "msg": "206px > 192px: 'Mask Avenger'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\StageData.dat.json",
+  "id": 83,
+  "kind": "width",
+  "msg": "196px > 192px: 'The Unknown'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\UnitData.dat.json",
+  "id": 44,
+  "kind": "width",
+  "msg": "495px > 438px: 'Mass-Production Huckebein Mk-II'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\UnitData.dat.json",
+  "id": 65,
+  "kind": "width",
+  "msg": "406px > 288px: 'Mass-Production Bergelmir'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\UnitData.dat.json",
+  "id": 143,
+  "kind": "width",
+  "msg": "668px > 630px: 'Mass-Production Gespenst Mk-II Kai Type-N'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\UnitData.dat.json",
+  "id": 146,
+  "kind": "width",
+  "msg": "669px > 630px: 'Mass-Production Gespenst Mk-II Kai Type-G'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\UnitData.dat.json",
+  "id": 149,
+  "kind": "width",
+  "msg": "669px > 630px: 'Mass-Production Gespenst Mk-II Kai Type-C'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\UnitData.dat.json",
+  "id": 221,
+  "kind": "width",
+  "msg": "406px > 352px: 'Type-82 Tank Government'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\UnitData.dat.json",
+  "id": 243,
+  "kind": "width",
+  "msg": "350px > 224px: 'Mass-Production Jinrai'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\UnitData.dat.json",
+  "id": 388,
+  "kind": "width",
+  "msg": "443px > 320px: 'Sodium-Class Mobile Fortress'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\UnitData.dat.json",
+  "id": 402,
+  "kind": "width",
+  "msg": "323px > 288px: 'Grahf Drohne Custom'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\UnitData.dat.json",
+  "id": 509,
+  "kind": "width",
+  "msg": "284px > 192px: 'Type-C Equipment'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\UnitData.dat.json",
+  "id": 513,
+  "kind": "width",
+  "msg": "284px > 192px: 'Type-G Equipment'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\UnitData.dat.json",
+  "id": 537,
+  "kind": "width",
+  "msg": "283px > 192px: 'Type-N Equipment'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 100,
+  "kind": "width",
+  "msg": "292px > 288px: 'Triple Beam Cannon'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 104,
+  "kind": "width",
+  "msg": "372px > 288px: '3-Barrel Machine Cannon'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 135,
+  "kind": "width",
+  "msg": "580px > 320px: 'Type 0 Colossal Blade: Gale & Lightning'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 136,
+  "kind": "width",
+  "msg": "658px > 320px: 'Type 0 Colossal Blade: Gale & Surging Waves'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 141,
+  "kind": "width",
+  "msg": "447px > 288px: 'Ketu Rahu Sword: Ankensatsu'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 142,
+  "kind": "width",
+  "msg": "434px > 288px: 'Ketu Rahu Sword: Goousatsu'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 155,
+  "kind": "width",
+  "msg": "424px > 288px: 'Type 3 Shishioh Blade: Saiha'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 176,
+  "kind": "width",
+  "msg": "536px > 288px: 'Ruyi Golden Stick: Sea Heavy Strike'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 182,
+  "kind": "width",
+  "msg": "332px > 224px: 'Kokujatou: Sanzenzan'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 184,
+  "kind": "width",
+  "msg": "355px > 224px: 'Kokujatou: Gogyougoku'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 186,
+  "kind": "width",
+  "msg": "435px > 256px: 'Kokujatou: Gogyou Retsuzan'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 190,
+  "kind": "width",
+  "msg": "271px > 192px: 'Buou Taren Kasou'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 258,
+  "kind": "width",
+  "msg": "309px > 256px: '3-Barrel Gatling Gun'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 268,
+  "kind": "width",
+  "msg": "253px > 224px: 'Blade Rhinoceros'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 273,
+  "kind": "width",
+  "msg": "268px > 256px: 'G-Railgun Custom'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 294,
+  "kind": "width",
+  "msg": "234px > 224px: 'Machine Cannon'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 336,
+  "kind": "width",
+  "msg": "346px > 256px: 'Mumyou: Nitou Jinkizan'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 342,
+  "kind": "width",
+  "msg": "285px > 192px: 'Multi-Beam Cannon'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 343,
+  "kind": "width",
+  "msg": "255px > 192px: 'Anti-Ship Missile'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 352,
+  "kind": "width",
+  "msg": "289px > 224px: 'Giant Rotating Ram'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 353,
+  "kind": "width",
+  "msg": "427px > 256px: 'Hypergravity Impact Cannon'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 355,
+  "kind": "width",
+  "msg": "290px > 192px: 'Single Beam Cannon'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 366,
+  "kind": "width",
+  "msg": "197px > 192px: 'Fang Breaker'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 444,
+  "kind": "width",
+  "msg": "470px > 320px: '8710 Dragon and Tiger Barrage'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 449,
+  "kind": "width",
+  "msg": "201px > 192px: 'Radiant Blade'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 467,
+  "kind": "width",
+  "msg": "335px > 224px: 'Charged Particle Beam'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 502,
+  "kind": "width",
+  "msg": "350px > 192px: 'Goro Nyudou Masamune'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 524,
+  "kind": "width",
+  "msg": "211px > 192px: 'Homing Missile'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 525,
+  "kind": "width",
+  "msg": "315px > 192px: 'Super Vibrating Claw'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 533,
+  "kind": "width",
+  "msg": "236px > 192px: 'Anti-Air Missile'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 535,
+  "kind": "width",
+  "msg": "279px > 224px: 'Recoilless Bazooka'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 537,
+  "kind": "width",
+  "msg": "275px > 192px: '60mm Machine Gun'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 540,
+  "kind": "width",
+  "msg": "311px > 288px: 'Baryon Beam Cannon'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\FixedData\\WeaponData.dat.json",
+  "id": 546,
+  "kind": "width",
+  "msg": "209px > 192px: 'Neutron Beam'"
+ },
+ {
+  "path": "worksheets\\Logic\\Dat\\logic\\Resource\\summary\\2og_GuidanceSummary.csb.json",
+  "id": 1,
+  "kind": "lines",
+  "msg": "2 lines > 1"
+ }
+]

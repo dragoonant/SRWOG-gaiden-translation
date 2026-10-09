@@ -694,7 +694,7 @@
    "id": 8,
    "pool": "B",
    "jp": "１．　ライグ＝ゲイオスを撤退させる。",
-   "en": "",
+   "en": "1. Make Raig-Geios retreat.",
    "kind": "text",
    "keep": false
   },
@@ -702,7 +702,7 @@
    "id": 9,
    "pool": "B",
    "jp": "<W=63>　</W>なお、ライグ＝ゲイオスはＨＰが#0以下で撤退する。",
-   "en": "",
+   "en": "<W=63>　</W>Raig-Geios retreats at #0 HP or below.",
    "kind": "text",
    "keep": false
   },
@@ -710,7 +710,7 @@
    "id": 10,
    "pool": "B",
    "jp": "１．　味方母艦の撃墜。",
-   "en": "",
+   "en": "1. Ally ship downed.",
    "kind": "text",
    "keep": false
   },
@@ -718,7 +718,7 @@
    "id": 11,
    "pool": "B",
    "jp": "・６ターン以内に、ライグ＝ゲイオスを撤退させる。",
-   "en": "",
+   "en": "- Make Raig-Geios retreat within 6 turns.",
    "kind": "text",
    "keep": false
   },
@@ -726,7 +726,7 @@
    "id": 12,
    "pool": "B",
    "jp": "　なお、ライグ＝ゲイオスはＨＰが#0以下で撤退する。",
-   "en": "",
+   "en": "　Raig-Geios retreats at #0 HP or below.",
    "kind": "text",
    "keep": false
   },
@@ -886,7 +886,7 @@
    "id": 32,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   }

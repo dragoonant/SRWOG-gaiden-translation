@@ -686,7 +686,7 @@
    "id": 7,
    "pool": "B",
    "jp": "１．　７ターン味方フェイズ以内に、ジョッシュ、またはリムを地下への入口へ到達させる。",
-   "en": "",
+   "en": "1. Have Josh or Rim reach the underground entrance within 7 player phases.",
    "kind": "text",
    "keep": false
   },
@@ -694,7 +694,7 @@
    "id": 8,
    "pool": "B",
    "jp": "１．　ジョッシュ、リム、アクアのいずれかの撃墜。",
-   "en": "",
+   "en": "1. Josh, Rim, or Aqua is shot down.",
    "kind": "text",
    "keep": false
   },
@@ -702,7 +702,7 @@
    "id": 9,
    "pool": "B",
    "jp": "２．　味方母艦の撃墜。",
-   "en": "",
+   "en": "2. Allied ship lost.",
    "kind": "text",
    "keep": false
   },
@@ -710,7 +710,7 @@
    "id": 10,
    "pool": "B",
    "jp": "３．　７ターン味方フェイズ以内に勝利条件を満たせなかった場合。",
-   "en": "",
+   "en": "3. Victory condition not met within 7 player phases.",
    "kind": "text",
    "keep": false
   },
@@ -718,7 +718,7 @@
    "id": 11,
    "pool": "B",
    "jp": "・ジョッシュとリムが敵フェイズ時に敵機からの攻撃を受けない。",
-   "en": "",
+   "en": "- Josh and Rim are not attacked during the enemy phase.",
    "kind": "text",
    "keep": false
   },
@@ -854,7 +854,7 @@
    "id": 28,
    "pool": "B",
    "jp": "１．　メディウス・ロクス、ケルベリオン・プレザン、ケルベリオン・パッセ、",
-   "en": "",
+   "en": "1. Destroy all enemies except Medius Locus, Cerberion Present,",
    "kind": "text",
    "keep": false
   },
@@ -862,7 +862,7 @@
    "id": 29,
    "pool": "B",
    "jp": "<W=63>　</W>ケルベリオン・アヴニール以外の敵の全滅。",
-   "en": "",
+   "en": "<W=63>　</W>Cerberion Passe, and Cerberion Avenir.",
    "kind": "text",
    "keep": false
   },
@@ -870,7 +870,7 @@
    "id": 30,
    "pool": "B",
    "jp": "１．　アクアの撃墜。",
-   "en": "",
+   "en": "1. Aqua shot down.",
    "kind": "text",
    "keep": false
   },
@@ -878,7 +878,7 @@
    "id": 31,
    "pool": "B",
    "jp": "２．　味方母艦の撃墜。",
-   "en": "",
+   "en": "2. Allied ship lost.",
    "kind": "text",
    "keep": false
   },
@@ -990,7 +990,7 @@
    "id": 45,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   },
@@ -998,7 +998,7 @@
    "id": 46,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   }

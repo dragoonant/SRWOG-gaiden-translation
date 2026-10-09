@@ -347,11 +347,10 @@ def cmd_retry(argv):
                 continue
             if not e.get("keep"):
                 e["retry_note"] = "%s: %r failed (%s: %s)" % (fmt, e.get("en", ""), f["kind"], f["msg"])
-                tm.pop(fmt + "	" + jp_of(e), None)
+                tm.pop(fmt + "\t" + jp_of(e), None)
             e["en"] = ""
             n += 1
-        json.dump(ws, open(path, "w", encoding="utf-8", newline="
-"), ensure_ascii=False, indent=1)
+        json.dump(ws, open(path, "w", encoding="utf-8", newline="\n"), ensure_ascii=False, indent=1)
     save_tm(tm)
     print("cleared %d failing entries for re-translation" % n)
     return 0

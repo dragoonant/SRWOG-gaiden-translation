@@ -742,7 +742,7 @@
    "id": 14,
    "pool": "B",
    "jp": "１．　フォルティス・アーラ以外の敵の全滅。",
-   "en": "",
+   "en": "1. Defeat all enemies but Fortis Ala.",
    "kind": "text",
    "keep": false
   },
@@ -750,7 +750,7 @@
    "id": 15,
    "pool": "B",
    "jp": "２．　フォルティス・アーラを撤退させる。",
-   "en": "",
+   "en": "2. Force Fortis Ala to retreat.",
    "kind": "text",
    "keep": false
   },
@@ -758,7 +758,7 @@
    "id": 16,
    "pool": "B",
    "jp": "<W=63>　</W>なお、フォルティス・アーラはＨＰが#0以下で撤退する。",
-   "en": "",
+   "en": "<W=63>　</W>Note: Fortis Ala retreats at #0 HP or below.",
    "kind": "text",
    "keep": false
   },
@@ -766,7 +766,7 @@
    "id": 17,
    "pool": "B",
    "jp": "１．　味方母艦の撃墜。",
-   "en": "",
+   "en": "1. Ally ship downed.",
    "kind": "text",
    "keep": false
   },
@@ -774,7 +774,7 @@
    "id": 18,
    "pool": "B",
    "jp": "・５ターン以内に、フォルティス・アーラのＨＰを#0以下にする。",
-   "en": "",
+   "en": "・Reduce Fortis Ala's HP to #0 or less within 5 turns.",
    "kind": "text",
    "keep": false
   },
@@ -870,7 +870,7 @@
    "id": 30,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   },
@@ -878,7 +878,7 @@
    "id": 31,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   }

@@ -686,7 +686,7 @@
    "id": 7,
    "pool": "B",
    "jp": "１．　ソディウム級移動要塞、Ｒ‐２パワード、Ｒ‐３パワード、Ｒ‐ＧＵＮパワード以外の敵の全滅。",
-   "en": "",
+   "en": "1. Defeat all enemies but the Sodium-Class Mobile Fortress and R-2/R-3/R-Gun Powered.",
    "kind": "text",
    "keep": false
   },
@@ -694,7 +694,7 @@
    "id": 8,
    "pool": "B",
    "jp": "１．　ハガネの撃墜。",
-   "en": "",
+   "en": "1. Hagane is sunk.",
    "kind": "text",
    "keep": false
   },
@@ -702,7 +702,7 @@
    "id": 9,
    "pool": "B",
    "jp": "２．　ソディウム級移動要塞、Ｒ‐２パワード、Ｒ‐３パワード、Ｒ‐ＧＵＮパワードが",
-   "en": "",
+   "en": "2. The Sodium-Class Mobile Fortress or any of R-2/R-3/R-Gun Powered",
    "kind": "text",
    "keep": false
   },
@@ -710,7 +710,7 @@
    "id": 10,
    "pool": "B",
    "jp": "<W=63>　</W>１機でも撃墜された場合。",
-   "en": "",
+   "en": "<W=63>　</W>is shot down.",
    "kind": "text",
    "keep": false
   },
@@ -718,7 +718,7 @@
    "id": 11,
    "pool": "B",
    "jp": "・敵になった、アヤ、ライ、ヴィレッタにダメージを与えない。",
-   "en": "",
+   "en": "- Do not damage the hostile Aya, Rai, or Viletta.",
    "kind": "text",
    "keep": false
   },
@@ -830,7 +830,7 @@
    "id": 25,
    "pool": "B",
    "jp": "１．　ソディウム級移動要塞のＨＰを#0以下にする。",
-   "en": "",
+   "en": "1. Get Sodium-Class Mobile Fortress HP to #0.",
    "kind": "text",
    "keep": false
   },
@@ -838,7 +838,7 @@
    "id": 26,
    "pool": "B",
    "jp": "１．　ハガネの撃墜。",
-   "en": "",
+   "en": "1. Hagane is sunk.",
    "kind": "text",
    "keep": false
   },
@@ -966,7 +966,7 @@
    "id": 42,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   },
@@ -974,7 +974,7 @@
    "id": 43,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   }

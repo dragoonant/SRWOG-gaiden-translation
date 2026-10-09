@@ -678,7 +678,7 @@
    "id": 6,
    "pool": "B",
    "jp": "１．　ファービュラリス、ストゥディウム以外の敵の全滅。",
-   "en": "",
+   "en": "1. Destroy all enemies but Fabularis and Studium.",
    "kind": "text",
    "keep": false
   },
@@ -686,7 +686,7 @@
    "id": 7,
    "pool": "B",
    "jp": "１．　敵の指定ラインへの到達。",
-   "en": "",
+   "en": "1. Enemy reaches the line.",
    "kind": "text",
    "keep": false
   },
@@ -694,7 +694,7 @@
    "id": 8,
    "pool": "B",
    "jp": "２．　味方母艦の撃墜。",
-   "en": "",
+   "en": "2. Allied ship lost.",
    "kind": "text",
    "keep": false
   },
@@ -702,7 +702,7 @@
    "id": 9,
    "pool": "B",
    "jp": "・？？？",
-   "en": "",
+   "en": "- ???",
    "kind": "text",
    "keep": false
   },
@@ -806,7 +806,7 @@
    "id": 22,
    "pool": "B",
    "jp": "１．　ジョッシュでグラキエースを説得する。",
-   "en": "",
+   "en": "1. Persuade Glacies with Josh.",
    "kind": "text",
    "keep": false
   },
@@ -814,7 +814,7 @@
    "id": 23,
    "pool": "B",
    "jp": "１．　ジョッシュ、またはリムの撃墜。",
-   "en": "",
+   "en": "1. Josh or Rim is shot down.",
    "kind": "text",
    "keep": false
   },
@@ -822,7 +822,7 @@
    "id": 24,
    "pool": "B",
    "jp": "２．　味方母艦の撃墜。",
-   "en": "",
+   "en": "2. Allied ship lost.",
    "kind": "text",
    "keep": false
   },
@@ -830,7 +830,7 @@
    "id": 25,
    "pool": "B",
    "jp": "３．　ファービュラリス、またはストゥディウムの撃墜。",
-   "en": "",
+   "en": "3. Fabularis or Studium is shot down.",
    "kind": "text",
    "keep": false
   },
@@ -838,7 +838,7 @@
    "id": 26,
    "pool": "B",
    "jp": "・勝利条件達成前に、プリスクス・ノクスを撃墜する。",
-   "en": "",
+   "en": "- Shoot down Priscus Nox before you win.",
    "kind": "text",
    "keep": false
   },
@@ -846,7 +846,7 @@
    "id": 27,
    "pool": "B",
    "jp": "　なお、プリスクス・ノクスはＨＰが#0以下で撤退する。",
-   "en": "",
+   "en": "  Note: Priscus Nox retreats at #0 HP or below.",
    "kind": "text",
    "keep": false
   },
@@ -982,7 +982,7 @@
    "id": 44,
    "pool": "B",
    "jp": "換装武器『フリー・エレクトロン・キャノン』を入手しました。",
-   "en": "",
+   "en": "Obtained Replace weapon \"Free Electron Cannon\".",
    "kind": "text",
    "keep": false
   },
@@ -990,7 +990,7 @@
    "id": 45,
    "pool": "B",
    "jp": "機体『フォルテギガス』を入手しました。",
-   "en": "",
+   "en": "Obtained unit \"Forte Gigas\".",
    "kind": "text",
    "keep": false
   },
@@ -1014,7 +1014,7 @@
    "id": 48,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   },
@@ -1022,7 +1022,7 @@
    "id": 49,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   }

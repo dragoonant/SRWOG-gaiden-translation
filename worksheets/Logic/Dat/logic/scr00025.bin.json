@@ -726,7 +726,7 @@
    "id": 12,
    "pool": "B",
    "jp": "１．　敵の全滅。",
-   "en": "",
+   "en": "1. Defeat foes.",
    "kind": "text",
    "keep": false
   },
@@ -734,7 +734,7 @@
    "id": 13,
    "pool": "B",
    "jp": "１．　いずれかの味方ユニットの撃墜。",
-   "en": "",
+   "en": "1. Any ally unit is destroyed.",
    "kind": "text",
    "keep": false
   },
@@ -742,7 +742,7 @@
    "id": 14,
    "pool": "B",
    "jp": "・５ターン以内に、勝利条件を満たす。",
-   "en": "",
+   "en": "- Achieve victory within 5 turns.",
    "kind": "text",
    "keep": false
   },
@@ -822,7 +822,7 @@
    "id": 24,
    "pool": "B",
    "jp": "強化パーツ『ブースター』を入手しました。@強化パーツ『サーボモーター』を入手しました。",
-   "en": "",
+   "en": "Obtained Enhancement Part: Booster.@Obtained Enhancement Part: Servomotor.",
    "kind": "text",
    "keep": false
   },
@@ -830,7 +830,7 @@
    "id": 25,
    "pool": "B",
    "jp": "換装パーツ『タイプＣ装備（量産型ゲシュペンストＭｋ‐Ⅱ改）』を入手しました。@換装パーツ『タイプＧ装備（量産型ゲシュペンストＭｋ‐Ⅱ改）』を入手しました。",
-   "en": "",
+   "en": "Obtained Replace Part: Type-C Equipment (MP Gespenst Mk-II Custom).@Obtained Replace Part: Type-G Equipment (MP Gespenst Mk-II Custom).",
    "kind": "text",
    "keep": false
   },
@@ -838,7 +838,7 @@
    "id": 26,
    "pool": "B",
    "jp": "換装武器『Ｍ９５０マシンガン』を入手しました。@換装武器『Ｍ１３ショットガン』を入手しました。@換装武器『フォトン・ライフル』を入手しました。",
-   "en": "",
+   "en": "Obtained Replace Weapon: M950 Machine Gun.@Obtained Replace Weapon: M13 Shotgun.@Obtained Replace Weapon: Photon Rifle.",
    "kind": "text",
    "keep": false
   },
@@ -846,7 +846,7 @@
    "id": 27,
    "pool": "B",
    "jp": "換装武器『エナジーテイカー』を入手しました。@換装武器『補給装置』を入手しました。",
-   "en": "",
+   "en": "Obtained Replace Weapon: Energy Taker.@Obtained Replace Weapon: Resupply Module.",
    "kind": "text",
    "keep": false
   },
@@ -854,7 +854,7 @@
    "id": 28,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   }

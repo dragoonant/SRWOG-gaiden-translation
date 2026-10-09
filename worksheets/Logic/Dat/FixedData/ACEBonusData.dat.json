@@ -70,7 +70,7 @@
    "text": "エースボーナスは獲得できません",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Cannot earn an Ace Bonus"
   },
   {
    "id": 1,
@@ -96,7 +96,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Support Attack damage +10%\nSupport Defense damage -20%"
   },
   {
    "id": 2,
@@ -118,7 +118,7 @@
    "text": "援護攻撃の最終ダメージ＋１０％、援護防御の最終ダメージ－２０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Support Attack damage +10%, Support Defense damage -20%"
   },
   {
    "id": 3,
@@ -144,7 +144,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final hit rate +10%\nCritical rate +20%"
   },
   {
    "id": 4,
@@ -166,7 +166,7 @@
    "text": "最終命中率＋１０％、クリティカル発生率＋２０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final hit rate +10%, critical rate +20%"
   },
   {
    "id": 5,
@@ -192,7 +192,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Support Defense damage -20%\nEXP +10%"
   },
   {
    "id": 6,
@@ -214,7 +214,7 @@
    "text": "援護防御の最終ダメージ－２０％、獲得経験値＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Support Defense damage -20%, EXP +10%"
   },
   {
    "id": 7,
@@ -240,7 +240,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "EXP +10%\nFunds +10%"
   },
   {
    "id": 8,
@@ -262,7 +262,7 @@
    "text": "獲得経験値＋１０％、獲得資金＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "EXP +10%, Funds +10%"
   },
   {
    "id": 9,
@@ -288,7 +288,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "EXP +10%\nSkill +10"
   },
   {
    "id": 10,
@@ -310,7 +310,7 @@
    "text": "獲得経験値＋１０％、技量＋１０",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "EXP +10%, Skill +10"
   },
   {
    "id": 11,
@@ -336,7 +336,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Lucky chance +10%\nSpirit Command Luck: 15 SP"
   },
   {
    "id": 12,
@@ -358,7 +358,7 @@
    "text": "ラッキーの発生率＋１０％、精神コマンド「幸運」の消費ＳＰ１５",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Lucky chance +10%, Spirit Command Luck: 15 SP"
   },
   {
    "id": 13,
@@ -384,7 +384,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final hit +10%\nFinal evade +5%"
   },
   {
    "id": 14,
@@ -406,7 +406,7 @@
    "text": "最終命中率＋１０％、最終回避率＋５％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final hit +10%, final evade +5%"
   },
   {
    "id": 15,
@@ -432,7 +432,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final evade +10%\nCritical rate +10%"
   },
   {
    "id": 16,
@@ -454,7 +454,7 @@
    "text": "最終回避率＋１０％、クリティカル発生率＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final evade +10%, critical rate +10%"
   },
   {
    "id": 17,
@@ -480,7 +480,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Funds +10%\nFinal hit +10%"
   },
   {
    "id": 18,
@@ -502,7 +502,7 @@
    "text": "獲得資金＋１０％、最終命中率＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Funds +10%, final hit +10%"
   },
   {
    "id": 19,
@@ -528,7 +528,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "T-Link weapons\nfinal damage +10%"
   },
   {
    "id": 20,
@@ -550,7 +550,7 @@
    "text": "念動系武器の与える、最終ダメージ＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "T-Link weapons: final damage +10%"
   },
   {
    "id": 21,
@@ -576,7 +576,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final hit +10%\nFinal evade +10%"
   },
   {
    "id": 22,
@@ -598,7 +598,7 @@
    "text": "最終命中率＋１０％、最終回避率＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final hit +10%, final evade +10%"
   },
   {
    "id": 23,
@@ -624,7 +624,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final hit +10%\nSP +20"
   },
   {
    "id": 24,
@@ -646,7 +646,7 @@
    "text": "最終命中率＋１０％、ＳＰ＋２０",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final hit +10%, SP +20"
   },
   {
    "id": 25,
@@ -672,7 +672,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Critical rate +20%\nSkill +10"
   },
   {
    "id": 26,
@@ -694,7 +694,7 @@
    "text": "クリティカル率＋２０％、技量＋１０",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Critical rate +20%, Skill +10"
   },
   {
    "id": 27,
@@ -721,7 +721,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final evade +10%\nSP +20"
   },
   {
    "id": 28,
@@ -744,7 +744,7 @@
    "text": "最終回避率＋１０％、ＳＰ＋２０",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final evade +10%, SP +20"
   },
   {
    "id": 29,
@@ -770,7 +770,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final damage dealt +5%\nFinal hit +10%"
   },
   {
    "id": 30,
@@ -792,7 +792,7 @@
    "text": "与える最終ダメージ＋５％、最終命中率＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final damage dealt +5%, final hit +10%"
   },
   {
    "id": 31,
@@ -815,7 +815,7 @@
    "text": "与える最終ダメージ＋１０％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Final damage dealt +10%"
   },
   {
    "id": 32,
@@ -841,7 +841,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final damage from MAP and\nnon-range-1 weapons -20%"
   },
   {
    "id": 33,
@@ -863,7 +863,7 @@
    "text": "マップ兵器及び射程１以外の、武器からの最終ダメージ－２０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final damage from MAP and non-range-1 weapons -20%"
   },
   {
    "id": 34,
@@ -886,7 +886,7 @@
    "text": "精神コマンド「愛」の消費ＳＰ４５",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Spirit Command Love: 45 SP"
   },
   {
    "id": 35,
@@ -914,7 +914,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Hit rate +10%\nEvasion +10%\nCritical rate +10%"
   },
   {
    "id": 36,
@@ -936,7 +936,7 @@
    "text": "命中率＋１０％、回避率＋１０％、クリティカル発生率＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Hit rate +10%, evasion +10%, critical rate +10%"
   },
   {
    "id": 37,
@@ -962,7 +962,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Melee weapons\nfinal damage +10%"
   },
   {
    "id": 38,
@@ -984,7 +984,7 @@
    "text": "格闘武器の与える、最終ダメージ＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Melee weapons: final damage +10%"
   },
   {
    "id": 39,
@@ -1010,7 +1010,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Ranged weapons\nfinal damage +10%"
   },
   {
    "id": 40,
@@ -1032,7 +1032,7 @@
    "text": "射撃武器の与える、最終ダメージ＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Ranged weapons: final damage +10%"
   },
   {
    "id": 41,
@@ -1058,7 +1058,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final damage taken -10%\nFunds +10%"
   },
   {
    "id": 42,
@@ -1080,7 +1080,7 @@
    "text": "受ける最終ダメージ－１０％、獲得資金＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final damage taken -10%, Funds +10%"
   },
   {
    "id": 43,
@@ -1106,7 +1106,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final evade +10%\nEXP +10%"
   },
   {
    "id": 44,
@@ -1128,7 +1128,7 @@
    "text": "最終回避率＋１０％、獲得経験値＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final evade +10%, EXP +10%"
   },
   {
    "id": 45,
@@ -1154,7 +1154,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Counterattacks:\nfinal damage +10%"
   },
   {
    "id": 46,
@@ -1176,7 +1176,7 @@
    "text": "反撃時に与える、最終ダメージ＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Counterattacks: final damage +10%"
   },
   {
    "id": 47,
@@ -1199,7 +1199,7 @@
    "text": "移動力＋１",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Move +1"
   },
   {
    "id": 48,
@@ -1225,7 +1225,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Command effect +5%\nCritical rate +10%"
   },
   {
    "id": 49,
@@ -1247,7 +1247,7 @@
    "text": "指揮効果＋５％、クリティカル発生率＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Command effect +5%, critical rate +10%"
   },
   {
    "id": 50,
@@ -1270,7 +1270,7 @@
    "text": "最終回避率＋１５％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Final evade +15%"
   },
   {
    "id": 51,
@@ -1293,7 +1293,7 @@
    "text": "獲得経験値＋２０％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "EXP +20%"
   },
   {
    "id": 52,
@@ -1316,7 +1316,7 @@
    "text": "獲得資金＋２０％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Funds +20%"
   },
   {
    "id": 53,
@@ -1342,7 +1342,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final hit +10%\nFinal damage taken -10%"
   },
   {
    "id": 54,
@@ -1364,7 +1364,7 @@
    "text": "最終命中率＋１０％、受ける最終ダメージ－１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final hit +10%, final damage taken -10%"
   },
   {
    "id": 55,
@@ -1387,7 +1387,7 @@
    "text": "援護防御の最終ダメージ－３０％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Support Defense damage -30%"
   },
   {
    "id": 56,
@@ -1410,7 +1410,7 @@
    "text": "受ける最終ダメージ－１０％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Final damage taken -10%"
   },
   {
    "id": 57,
@@ -1436,7 +1436,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final damage from MAP and\nnon-range-1 weapons -10%"
   },
   {
    "id": 58,
@@ -1458,7 +1458,7 @@
    "text": "マップ兵器及び射程１以外の、武器からの最終ダメージ－１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final damage from MAP and non-range-1 weapons -10%"
   },
   {
    "id": 59,
@@ -1481,7 +1481,7 @@
    "text": "指揮効果＋５％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Command +5%"
   },
   {
    "id": 60,
@@ -1504,7 +1504,7 @@
    "text": "クリティカル発生率＋４０％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Critical rate +40%"
   },
   {
    "id": 61,
@@ -1527,7 +1527,7 @@
    "text": "気力１３０以上で、受ける最終ダメージ－１５％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "At 130+ Will, final damage taken -15%"
   },
   {
    "id": 62,
@@ -1553,7 +1553,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final hit +20%\nFinal damage taken -10%"
   },
   {
    "id": 63,
@@ -1575,7 +1575,7 @@
    "text": "最終命中率＋２０％、受ける最終ダメージ－１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final hit +20%, final damage taken -10%"
   },
   {
    "id": 64,
@@ -1603,7 +1603,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Ranged weapons\nfinal damage +10%\nEvasion +10%"
   },
   {
    "id": 65,
@@ -1625,7 +1625,7 @@
    "text": "射撃武器の与える、最終ダメージ＋１０％、回避率＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Ranged weapons: final damage +10%, evasion +10%"
   },
   {
    "id": 66,
@@ -1651,7 +1651,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Command effect +5%\nFinal damage taken -10%"
   },
   {
    "id": 67,
@@ -1673,7 +1673,8 @@
    "text": "指揮効果＋５％、受ける最終ダメージ－１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "",
+   "retry_note": "FIXH: 'Command effect +5%, final damage taken -10%' failed (width: 692px > 672px: 'Command effect +5%, final damage taken -10%')"
   },
   {
    "id": 68,
@@ -1699,7 +1700,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Evasion +10%\nCritical rate +20%"
   },
   {
    "id": 69,
@@ -1721,7 +1722,7 @@
    "text": "回避率＋１０％、クリティカル発生率＋２０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Evasion +10%, critical rate +20%"
   },
   {
    "id": 70,
@@ -1749,7 +1750,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Hit rate +10%\nCounterattacks:\nfinal damage +10%"
   },
   {
    "id": 71,
@@ -1771,7 +1772,7 @@
    "text": "命中率＋１０％、反撃時に与える、最終ダメージ＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Hit rate +10%, counterattack final damage +10%"
   },
   {
    "id": 72,
@@ -1797,7 +1798,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final damage taken -5%\nEvasion +5%"
   },
   {
    "id": 73,
@@ -1819,7 +1820,7 @@
    "text": "受ける最終ダメージ－５％、回避率＋５％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final damage taken -5%, evasion +5%"
   },
   {
    "id": 74,
@@ -1847,7 +1848,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Hit rate +5%\nEvasion +5%\nCritical rate +5%"
   },
   {
    "id": 75,
@@ -1869,7 +1870,7 @@
    "text": "命中率＋５％、回避率＋５％、クリティカル発生率＋５％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Hit rate +5%, evasion +5%, critical rate +5%"
   },
   {
    "id": 76,
@@ -1895,7 +1896,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final damage taken -5%\nHit rate +10%"
   },
   {
    "id": 77,
@@ -1917,7 +1918,7 @@
    "text": "受ける最終ダメージ－５％、命中率＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final damage taken -5%, hit rate +10%"
   },
   {
    "id": 78,
@@ -1940,7 +1941,7 @@
    "text": "受ける最終ダメージ－２０％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Final damage taken -20%"
   },
   {
    "id": 79,
@@ -1963,7 +1964,7 @@
    "text": "命中率＋１０％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Hit rate +10%"
   },
   {
    "id": 80,
@@ -1986,7 +1987,7 @@
    "text": "クリティカル発生率＋１０％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Critical Rate +10%"
   },
   {
    "id": 81,
@@ -2009,7 +2010,7 @@
    "text": "回避率＋２０％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Evasion +20%"
   },
   {
    "id": 82,
@@ -2032,7 +2033,7 @@
    "text": "クリティカル発生率＋２０％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Critical Rate +20%"
   },
   {
    "id": 83,
@@ -2055,7 +2056,8 @@
    "text": "命中率＋２０％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "",
+   "retry_note": "FIXH: 'Accuracy +20%' failed (width: 236px > 224px: 'Accuracy +20%')"
   },
   {
    "id": 84,
@@ -2078,7 +2080,7 @@
    "text": "最終命中率＋１５％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Final Acc +15%"
   },
   {
    "id": 85,
@@ -2104,7 +2106,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Dmg Dealt +20%\nCritical Rate +30%"
   },
   {
    "id": 86,
@@ -2126,7 +2128,7 @@
    "text": "与える最終ダメージ＋２０％、クリティカル発生率＋３０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Dmg Dealt +20%, Critical Rate +30%"
   },
   {
    "id": 87,
@@ -2149,7 +2151,7 @@
    "text": "与える最終ダメージ＋５％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Final Dmg Dealt +5%"
   },
   {
    "id": 88,
@@ -2175,7 +2177,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Ranged Weapons:\nFinal Dmg +5%"
   },
   {
    "id": 89,
@@ -2197,7 +2199,7 @@
    "text": "射撃武器の与える、最終ダメージ＋５％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Ranged Weapons: Final Dmg +5%"
   },
   {
    "id": 90,
@@ -2220,7 +2222,7 @@
    "text": "受ける最終ダメージ－５％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Final Dmg Taken -5%"
   },
   {
    "id": 91,
@@ -2243,7 +2245,7 @@
    "text": "最終命中率＋１０％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Final Acc +10%"
   },
   {
    "id": 92,
@@ -2269,7 +2271,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Acc +5%\nEva +5%"
   },
   {
    "id": 93,
@@ -2291,7 +2293,7 @@
    "text": "命中率＋５％、回避率＋５％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Acc +5%, Eva +5%"
   },
   {
    "id": 94,
@@ -2314,7 +2316,7 @@
    "text": "クリティカル発生率＋５％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Critical Rate +5%"
   },
   {
    "id": 95,
@@ -2340,7 +2342,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Counter Rate +15%\nCritical Rate +25%"
   },
   {
    "id": 96,
@@ -2362,7 +2364,7 @@
    "text": "カウンター発生率＋１５％、クリティカル率＋２５％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Counter Rate +15%, Critical Rate +25%"
   },
   {
    "id": 97,
@@ -2385,7 +2387,7 @@
    "text": "ＳＰ＋３０",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "SP +30"
   },
   {
    "id": 98,
@@ -2411,7 +2413,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "EXP Gained +10%\nBless costs 20 SP"
   },
   {
    "id": 99,
@@ -2433,7 +2435,7 @@
    "text": "獲得経験値＋１０％、精神コマンド「祝福」の消費ＳＰ２０",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "EXP Gained +10%, Bless costs 20 SP"
   },
   {
    "id": 100,
@@ -2459,7 +2461,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Eva +10%\nFinal Dmg Taken -10%"
   },
   {
    "id": 101,
@@ -2481,7 +2483,7 @@
    "text": "最終回避率＋１０％、受ける最終ダメージ－１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Eva +10%, Final Dmg Taken -10%"
   },
   {
    "id": 102,
@@ -2504,7 +2506,7 @@
    "text": "回避率＋１０％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Evasion +10%"
   },
   {
    "id": 103,
@@ -2530,7 +2532,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Counterattacks:\nFinal Dmg +5%"
   },
   {
    "id": 104,
@@ -2552,7 +2554,7 @@
    "text": "反撃時に与える、最終ダメージ＋５％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Counterattacks: Final Dmg +5%"
   },
   {
    "id": 105,
@@ -2580,7 +2582,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Critical Rate +10%\nCounterattacks:\nFinal Dmg +10%"
   },
   {
    "id": 106,
@@ -2602,7 +2604,7 @@
    "text": "クリティカル発生率＋１０％、反撃時に与える、最終ダメージ＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Critical Rate +10%, Counterattacks: Final Dmg +10%"
   },
   {
    "id": 107,
@@ -2628,7 +2630,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Dmg Dealt +10%\nAccuracy +10%"
   },
   {
    "id": 108,
@@ -2650,7 +2652,7 @@
    "text": "与える最終ダメージ＋１０％、命中率＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Dmg Dealt +10%, Accuracy +10%"
   },
   {
    "id": 109,
@@ -2676,7 +2678,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Lucky Rate +10%\nFinal Eva +5%"
   },
   {
    "id": 110,
@@ -2698,7 +2700,7 @@
    "text": "ラッキーの発生率＋１０％、最終回避率＋５％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Lucky Rate +10%, Final Eva +5%"
   },
   {
    "id": 111,
@@ -2721,7 +2723,7 @@
    "text": "受ける最終ダメージ－１５％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Final Dmg Taken -15%"
   },
   {
    "id": 112,
@@ -2744,7 +2746,7 @@
    "text": "クリティカル発生率＋３０％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Critical Rate +30%"
   },
   {
    "id": 113,
@@ -2770,7 +2772,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Command Eff. +5%\nFinal Acc +10%"
   },
   {
    "id": 114,
@@ -2792,7 +2794,7 @@
    "text": "指揮効果＋５％、最終命中率＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Command Eff. +5%, Final Acc +10%"
   },
   {
    "id": 115,
@@ -2815,7 +2817,7 @@
    "text": "気力１６０以上で、自軍フェイズ開始時に「覚醒」が掛かる",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "At 160+ Will, Awaken activates each player phase"
   },
   {
    "id": 116,
@@ -2841,7 +2843,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Funds +10%\nSP +15"
   },
   {
    "id": 117,
@@ -2863,7 +2865,7 @@
    "text": "獲得資金＋１０％、ＳＰ＋１５",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Funds +10%, SP +15"
   },
   {
    "id": 118,
@@ -2891,7 +2893,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Dmg Dealt +20%\nFinal Acc +15%\nCritical Rate +15%"
   },
   {
    "id": 119,
@@ -2917,7 +2919,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Dmg Dealt +20%, Final Acc +15%,\nCritical Rate +15%"
   },
   {
    "id": 120,
@@ -2945,7 +2947,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Dmg Dealt +15%\nFinal Acc +10%\nCritical Rate +10%"
   },
   {
    "id": 121,
@@ -2971,7 +2973,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Dmg Dealt +15%, Final Acc +10%,\nCritical Rate +10%"
   },
   {
    "id": 122,
@@ -2999,7 +3001,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Dmg Dealt +10%\nFinal Acc +10%\nCritical Rate +10%"
   },
   {
    "id": 123,
@@ -3025,7 +3027,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Dmg Dealt +10%, Final Acc +10%,\nCritical Rate +10%"
   },
   {
    "id": 124,
@@ -3051,7 +3053,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Dmg Taken -5%\nFinal Eva +10%"
   },
   {
    "id": 125,
@@ -3073,7 +3075,7 @@
    "text": "受ける最終ダメージ－５％、最終回避率＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Dmg Taken -5%, Final Eva +10%"
   },
   {
    "id": 126,
@@ -3099,7 +3101,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Acc +10%\nCritical Rate +15%"
   },
   {
    "id": 127,
@@ -3121,7 +3123,7 @@
    "text": "最終命中率＋１０％、クリティカル発生率＋１５％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Acc +10%, Critical Rate +15%"
   },
   {
    "id": 128,
@@ -3144,7 +3146,7 @@
    "text": "精神コマンド「再動」の消費ＳＰ４５",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Enable (Move Again) costs 45 SP"
   },
   {
    "id": 129,
@@ -3172,7 +3174,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Critical Rate +30%\nMelee Weapons:\nFinal Dmg +5%"
   },
   {
    "id": 130,
@@ -3198,7 +3200,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Critical Rate +30%, Melee Weapons:\nFinal Dmg +5%"
   },
   {
    "id": 131,
@@ -3224,7 +3226,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Eva +10%\nCritical Rate +15%"
   },
   {
    "id": 132,
@@ -3246,7 +3248,7 @@
    "text": "最終回避率＋１０％、クリティカル発生率＋１５％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Eva +10%, Critical Rate +15%"
   },
   {
    "id": 133,
@@ -3269,7 +3271,7 @@
    "text": "援護攻撃の最終ダメージ＋１５％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Support Attack Fin. Dmg +15%"
   },
   {
    "id": 134,
@@ -3295,7 +3297,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Acc +5%\nCritical Rate +10%"
   },
   {
    "id": 135,
@@ -3317,7 +3319,7 @@
    "text": "最終命中率＋５％、クリティカル発生率＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Acc +5%, Critical Rate +10%"
   },
   {
    "id": 136,
@@ -3343,7 +3345,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Eva +5%\nCritical Rate +10%"
   },
   {
    "id": 137,
@@ -3365,7 +3367,7 @@
    "text": "最終回避率＋５％、クリティカル発生率＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Eva +5%, Critical Rate +10%"
   },
   {
    "id": 138,
@@ -3388,7 +3390,7 @@
    "text": "カウンター発生率＋４０％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Counter Rate +40%"
   },
   {
    "id": 139,
@@ -3414,7 +3416,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Acc +5%\nFinal Eva +5%"
   },
   {
    "id": 140,
@@ -3436,7 +3438,7 @@
    "text": "最終命中率＋５％、最終回避率＋５％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final Acc +5%, Final Eva +5%"
   },
   {
    "id": 141,
@@ -3459,7 +3461,7 @@
    "text": "ＨＰ３０％以下になると、一度だけ「鉄壁」が掛かる",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Wall activates once at HP 30% or less"
   },
   {
    "id": 142,
@@ -3482,7 +3484,7 @@
    "text": "技量＋２５",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Skill +25"
   },
   {
    "id": 143,
@@ -3505,7 +3507,7 @@
    "text": "ＨＰ３０％以下になると、一度だけ「気迫」が掛かる",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Drive activates once at HP 30% or less"
   },
   {
    "id": 144,
@@ -3528,7 +3530,7 @@
    "text": "精神コマンド「修行」の消費ＳＰ２５",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Training costs 25 SP"
   },
   {
    "id": 145,
@@ -3551,7 +3553,7 @@
    "text": "精神コマンド「脱力」の消費ＳＰ２０",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Exhaust costs 20 SP"
   },
   {
    "id": 146,
@@ -3577,7 +3579,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Weapon Range +1, except\nMAP and range-1 weapons"
   },
   {
    "id": 147,
@@ -3599,7 +3601,7 @@
    "text": "マップ兵器及び射程１以外の、武器の射程＋１",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Weapon Range +1 (excl. MAP/range 1)"
   },
   {
    "id": 148,
@@ -3622,7 +3624,7 @@
    "text": "精神コマンド「補給」の消費ＳＰ４０",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Resupply costs 40 SP"
   },
   {
    "id": 149,
@@ -3645,7 +3647,7 @@
    "text": "自軍フェイズ開始時に「幸運」が掛かる",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Luck activates each player phase"
   },
   {
    "id": 150,
@@ -3668,7 +3670,7 @@
    "text": "気力１３０以上で、自軍フェイズ開始時に「努力」が掛かる",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "At 130+ Will, Gain activates each player phase"
   },
   {
    "id": 151,
@@ -3691,7 +3693,7 @@
    "text": "気力１３０以上で、最終命中率＋１５％、最終回避率＋１５％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "At 130+ Will, Final Acc +15%, Final Eva +15%"
   },
   {
    "id": 152,
@@ -3714,7 +3716,7 @@
    "text": "ＨＰ５０％以下で、一度だけ「かく乱」を使用する",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Uses Disrupt once at HP 50% or less"
   },
   {
    "id": 153,
@@ -3737,7 +3739,7 @@
    "text": "気力１４０以上で、自軍フェイズ開始時に「集中」が掛かる",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "At 140+ Will, Focus activates each player phase"
   },
   {
    "id": 154,
@@ -3760,7 +3762,7 @@
    "text": "ＨＰ６０％以下で、一度だけ「覚醒」が掛かる",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Awaken activates once at HP 60% or less"
   },
   {
    "id": 155,
@@ -3783,7 +3785,7 @@
    "text": "全ての地形適応が「Ｓ」になる",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "All Terrain Ability: S"
   },
   {
    "id": 156,
@@ -3806,7 +3808,7 @@
    "text": "ＨＰ３０％以下で、自軍フェイズ開始時に「集中」が掛かる",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "HP 30% or less: Focus activates each player phase"
   },
   {
    "id": 157,
@@ -3829,7 +3831,7 @@
    "text": "精神コマンド「覚醒」の消費ＳＰ３０",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Awaken costs 30 SP"
   },
   {
    "id": 158,
@@ -3852,7 +3854,7 @@
    "text": "精神コマンド「ド根性」の消費ＳＰ１５",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Super Guts costs 15 SP"
   },
   {
    "id": 159,
@@ -3875,7 +3877,7 @@
    "text": "ＨＰ５０％以下で、最終命中率＋２０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "HP 50% or less: Final Acc +20%"
   },
   {
    "id": 160,
@@ -3898,7 +3900,7 @@
    "text": "技量＋３０、最終命中率＋１５％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Skl +30, final hit rate +15%"
   },
   {
    "id": 161,
@@ -3924,7 +3926,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final hit +15%\nSP +15"
   },
   {
    "id": 162,
@@ -3946,7 +3948,7 @@
    "text": "最終命中率＋１５％、ＳＰ＋１５",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Final hit rate +15%, SP +15"
   },
   {
    "id": 163,
@@ -3969,7 +3971,7 @@
    "text": "気力１４０以上で、一度だけ「絆」を使用する",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Will 140+: uses Bond once"
   },
   {
    "id": 164,
@@ -3992,7 +3994,7 @@
    "text": "気力１３０以上で、自軍フェイズ開始時に「直撃」が掛かる",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Will 130+: gains Pierce at player phase start"
   },
   {
    "id": 165,
@@ -4015,7 +4017,7 @@
    "text": "ＨＰ４０％以下になると、一度だけ「愛」が掛かる",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "HP 40% or less: gains Love once"
   },
   {
    "id": 166,
@@ -4038,7 +4040,7 @@
    "text": "ＨＰ１０％以下になると、一度だけ「祝福」が掛かる",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "HP 10% or less: gains Bless once"
   },
   {
    "id": 167,
@@ -4061,7 +4063,7 @@
    "text": "精神コマンド「信頼」の消費ＳＰ１０",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Trust costs 10 SP"
   },
   {
    "id": 168,
@@ -4084,7 +4086,7 @@
    "text": "カウンター発生率＋２０％",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Counter rate +20%"
   },
   {
    "id": 169,
@@ -4107,7 +4109,7 @@
    "text": "ＨＰ４０％以下で、一度だけ「かく乱」を使用する",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "HP 40% or less: uses Disrupt once"
   },
   {
    "id": 170,
@@ -4130,7 +4132,7 @@
    "text": "ＨＰ２０％以下で、自軍フェイズ開始時に「闘志」が掛かる",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "HP 20% or less: gains Mettle at player phase start"
   },
   {
    "id": 171,
@@ -4156,7 +4158,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Critical rate +10%\nSupport Attack damage +10%"
   },
   {
    "id": 172,
@@ -4178,7 +4180,7 @@
    "text": "クリティカル発生率＋１０％、援護攻撃の最終ダメージ＋１０％",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Critical rate +10%, Support Attack final damage +10%"
   }
  ],
  "inline_strings": []

@@ -69,7 +69,7 @@
    "text": "－－－－",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "－－－－"
   },
   {
    "id": 1,
@@ -91,7 +91,7 @@
    "text": "無し",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "None"
   },
   {
    "id": 2,
@@ -113,7 +113,7 @@
    "text": "？？？？",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "????"
   },
   {
    "id": 3,
@@ -135,7 +135,7 @@
    "text": "？？？",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "???"
   },
   {
    "id": 4,
@@ -157,7 +157,7 @@
    "text": "偵察",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Scan"
   },
   {
    "id": 5,
@@ -179,7 +179,7 @@
    "text": "指定した敵ユニットのステータスを調べることができます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Reveals the status of a chosen enemy unit."
   },
   {
    "id": 6,
@@ -201,7 +201,7 @@
    "text": "集中",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Focus"
   },
   {
    "id": 7,
@@ -223,7 +223,7 @@
    "text": "１ターンの間、命中率・回避率が３０だけ上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Raises hit and evasion rates by 30 for 1 turn."
   },
   {
    "id": 8,
@@ -245,7 +245,7 @@
    "text": "必中",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Bullseye"
   },
   {
    "id": 9,
@@ -271,7 +271,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Attacks hit at 100% accuracy for one turn\n(Flash takes priority)."
   },
   {
    "id": 10,
@@ -293,7 +293,7 @@
    "text": "感応",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Inspire"
   },
   {
    "id": 11,
@@ -315,7 +315,7 @@
    "text": "指定した機体に「必中」の効果を与えることができます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Gives target unit the effect of Bullseye."
   },
   {
    "id": 12,
@@ -337,7 +337,7 @@
    "text": "ひらめき",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Flash"
   },
   {
    "id": 13,
@@ -359,7 +359,7 @@
    "text": "一度だけ、戦闘での敵の攻撃を完全回避します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Fully evades the next enemy attack."
   },
   {
    "id": 14,
@@ -381,7 +381,7 @@
    "text": "直感",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Sense"
   },
   {
    "id": 15,
@@ -403,7 +403,7 @@
    "text": "一度に「ひらめき」「必中」の効果を得ることができます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Grants the effects of Flash and Bullseye at once."
   },
   {
    "id": 16,
@@ -425,7 +425,7 @@
    "text": "かく乱",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Disrupt"
   },
   {
    "id": 17,
@@ -451,7 +451,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "All enemies' accuracy is halved for one turn.\nBullseye still takes priority."
   },
   {
    "id": 18,
@@ -473,7 +473,7 @@
    "text": "加速",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Accel"
   },
   {
    "id": 19,
@@ -495,7 +495,7 @@
    "text": "一度だけ、移動力に＋３されます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Raises Move by 3 once."
   },
   {
    "id": 20,
@@ -517,7 +517,7 @@
    "text": "狙撃",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Snipe"
   },
   {
    "id": 21,
@@ -543,7 +543,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Once, adds +2 range to all weapons except\nrange-1 weapons and map weapons."
   },
   {
    "id": 22,
@@ -565,7 +565,7 @@
    "text": "突撃",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Assault"
   },
   {
    "id": 23,
@@ -591,7 +591,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "For one turn, all weapons except map weapons\ncan be used after moving."
   },
   {
    "id": 24,
@@ -613,7 +613,7 @@
    "text": "同調",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Sync"
   },
   {
    "id": 25,
@@ -639,7 +639,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Sets a Twin Unit's pilot stats (Mel, Rng, Eva, Acc, Skl,\nDef) to the higher of both main pilots' values."
   },
   {
    "id": 26,
@@ -661,7 +661,7 @@
    "text": "熱血",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Valor"
   },
   {
    "id": 27,
@@ -683,7 +683,7 @@
    "text": "一度だけ、戦闘で敵に与えるダメージが２倍になります。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Once, doubles the damage you deal in battle."
   },
   {
    "id": 28,
@@ -705,7 +705,7 @@
    "text": "魂",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Soul"
   },
   {
    "id": 29,
@@ -731,7 +731,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Once, damage dealt in battle is multiplied by 2.5.\nCannot be combined with Valor."
   },
   {
    "id": 30,
@@ -753,7 +753,7 @@
    "text": "闘志",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Mettle"
   },
   {
    "id": 31,
@@ -775,7 +775,7 @@
    "text": "１ターンの間、攻撃が必ずクリティカルになります。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "All attacks are critical hits for 1 turn."
   },
   {
    "id": 32,
@@ -797,7 +797,7 @@
    "text": "幸運",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Luck"
   },
   {
    "id": 33,
@@ -819,7 +819,7 @@
    "text": "次の戦闘で得られる資金が２倍になります。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Doubles funds from the next battle."
   },
   {
    "id": 34,
@@ -841,7 +841,7 @@
    "text": "祝福",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Bless"
   },
   {
    "id": 35,
@@ -863,7 +863,7 @@
    "text": "指定した機体に「幸運」の効果を与えることができます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Gives target unit the effect of Luck."
   },
   {
    "id": 36,
@@ -885,7 +885,7 @@
    "text": "努力",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Gain"
   },
   {
    "id": 37,
@@ -907,7 +907,7 @@
    "text": "次の戦闘で得られる経験値が２倍になります。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Doubles EXP from the next battle."
   },
   {
    "id": 38,
@@ -929,7 +929,7 @@
    "text": "応援",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Cheer"
   },
   {
    "id": 39,
@@ -951,7 +951,7 @@
    "text": "指定した機体に「努力」の効果を与えることができます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Gives target unit the effect of Gain."
   },
   {
    "id": 40,
@@ -973,7 +973,7 @@
    "text": "修行",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Training"
   },
   {
    "id": 41,
@@ -995,7 +995,7 @@
    "text": "次の戦闘で得られるパイロットポイントが２倍になります。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Doubles Pilot Points from the next battle."
   },
   {
    "id": 42,
@@ -1017,7 +1017,7 @@
    "text": "強襲",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Violent Assault"
   },
   {
    "id": 43,
@@ -1043,7 +1043,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Grants the effects of Accel, Assault, and\nPierce all at once."
   },
   {
    "id": 44,
@@ -1065,7 +1065,7 @@
    "text": "愛",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Love"
   },
   {
    "id": 45,
@@ -1091,7 +1091,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Grants Accel, Valor, Flash, Bullseye, Spirit,\nGain and Luck effects all at once."
   },
   {
    "id": 46,
@@ -1113,7 +1113,7 @@
    "text": "直撃",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Pierce"
   },
   {
    "id": 47,
@@ -1139,7 +1139,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Once, negates enemy Support Defense and\nspecial defensive abilities."
   },
   {
    "id": 48,
@@ -1161,7 +1161,7 @@
    "text": "鉄壁",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Wall"
   },
   {
    "id": 49,
@@ -1183,7 +1183,7 @@
    "text": "１ターンの間、戦闘で受けるダメージを１／４にします。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Cuts damage taken to 1/4 for 1 turn."
   },
   {
    "id": 50,
@@ -1205,7 +1205,7 @@
    "text": "信念",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Belief"
   },
   {
    "id": 51,
@@ -1231,7 +1231,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "For one turn, blocks status ailments in battle\nand cuts damage taken to 1/4."
   },
   {
    "id": 52,
@@ -1253,7 +1253,7 @@
    "text": "不屈",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Persist"
   },
   {
    "id": 53,
@@ -1275,7 +1275,7 @@
    "text": "一度だけ、戦闘で受ける全てのダメージを１０にします。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Reduces damage taken in the next battle to 10."
   },
   {
    "id": 54,
@@ -1297,7 +1297,7 @@
    "text": "連撃",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Continuous Attack"
   },
   {
    "id": 55,
@@ -1323,7 +1323,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "If the next attack destroys the enemy unit,\nit can act again without ending its turn."
   },
   {
    "id": 56,
@@ -1345,7 +1345,7 @@
    "text": "覚醒",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Awaken"
   },
   {
    "id": 57,
@@ -1367,7 +1367,7 @@
    "text": "一回分、行動回数が増えます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Grants one extra action."
   },
   {
    "id": 58,
@@ -1389,7 +1389,7 @@
    "text": "再動",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Enable (Move Again)"
   },
   {
    "id": 59,
@@ -1411,7 +1411,7 @@
    "text": "指定した行動済みのユニットを再び行動可能にします。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "A chosen unit that has acted can act again."
   },
   {
    "id": 60,
@@ -1433,7 +1433,7 @@
    "text": "信頼",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Trust"
   },
   {
    "id": 61,
@@ -1455,7 +1455,7 @@
    "text": "指定した機体のＨＰを２０００回復します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Restores 2000 HP to target unit."
   },
   {
    "id": 62,
@@ -1477,7 +1477,7 @@
    "text": "友情",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Friendship"
   },
   {
    "id": 63,
@@ -1499,7 +1499,7 @@
    "text": "指定した機体のＨＰを全回復します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Fully restores target unit's HP."
   },
   {
    "id": 64,
@@ -1521,7 +1521,7 @@
    "text": "絆",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Bond"
   },
   {
    "id": 65,
@@ -1543,7 +1543,7 @@
    "text": "全味方の機体のＨＰを最大値の５０％分だけ回復させます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Restores 50% of max HP to all allied units."
   },
   {
    "id": 66,
@@ -1565,7 +1565,7 @@
    "text": "根性",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Vigor"
   },
   {
    "id": 67,
@@ -1587,7 +1587,7 @@
    "text": "自分のＨＰを最大値の３０％分だけ回復させます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Restores 30% of your max HP."
   },
   {
    "id": 68,
@@ -1609,7 +1609,7 @@
    "text": "ド根性",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Super Guts"
   },
   {
    "id": 69,
@@ -1631,7 +1631,7 @@
    "text": "自分のＨＰを最大値まで回復させます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Fully restores your HP."
   },
   {
    "id": 70,
@@ -1653,7 +1653,7 @@
    "text": "祈り",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Prayer"
   },
   {
    "id": 71,
@@ -1675,7 +1675,7 @@
    "text": "指定した部隊のステータス異常を解除します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Cures target unit's status ailments."
   },
   {
    "id": 72,
@@ -1697,7 +1697,7 @@
    "text": "てかげん",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Mercy"
   },
   {
    "id": 73,
@@ -1723,7 +1723,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "In the next battle, leaves the enemy at 10 HP\n(fails unless your Skl exceeds the target's)."
   },
   {
    "id": 74,
@@ -1745,7 +1745,7 @@
    "text": "気合",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Spirit"
   },
   {
    "id": 75,
@@ -1767,7 +1767,7 @@
    "text": "自分の気力を＋１０します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Raises own Will by 10."
   },
   {
    "id": 76,
@@ -1789,7 +1789,7 @@
    "text": "気迫",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Drive"
   },
   {
    "id": 77,
@@ -1811,7 +1811,7 @@
    "text": "自分の気力を＋３０します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Raises own Will by 30."
   },
   {
    "id": 78,
@@ -1833,7 +1833,7 @@
    "text": "激励",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Encouragement"
   },
   {
    "id": 79,
@@ -1855,7 +1855,7 @@
    "text": "指定した機体の気力を１０上げます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Raises target unit's Will by 10."
   },
   {
    "id": 80,
@@ -1877,7 +1877,7 @@
    "text": "大激励",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Huge Encouragement"
   },
   {
    "id": 81,
@@ -1899,7 +1899,7 @@
    "text": "全味方パイロットの気力を５上げます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Raises all allies' Will by 5."
   },
   {
    "id": 82,
@@ -1921,7 +1921,7 @@
    "text": "脱力",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Exhaust"
   },
   {
    "id": 83,
@@ -1943,7 +1943,7 @@
    "text": "指定した機体の気力を１０下げます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Lowers target unit's Will by 10."
   },
   {
    "id": 84,
@@ -1965,7 +1965,7 @@
    "text": "期待",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Hope"
   },
   {
    "id": 85,
@@ -1987,7 +1987,7 @@
    "text": "指定したパイロットの精神ポイントを５０回復します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Restores 50 SP to target pilot."
   },
   {
    "id": 86,
@@ -2009,7 +2009,7 @@
    "text": "補給",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Resupply"
   },
   {
    "id": 87,
@@ -2031,7 +2031,7 @@
    "text": "指定した機体のＥＮ、弾数値を最大値まで回復させます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Fully restores target unit's EN and ammo."
   }
  ],
  "inline_strings": []

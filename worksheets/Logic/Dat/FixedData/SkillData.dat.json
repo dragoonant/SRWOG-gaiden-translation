@@ -69,7 +69,7 @@
    "text": "－－－－－－",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "－－－－－－"
   },
   {
    "id": 1,
@@ -114,7 +114,7 @@
    "text": "？？？？？？",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "??????"
   },
   {
    "id": 3,
@@ -136,7 +136,7 @@
    "text": "念動力",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Telekinesis"
   },
   {
    "id": 4,
@@ -158,7 +158,7 @@
    "text": "スキルレベルが高くなるほど、戦闘での命中率・回避率が上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Higher levels raise accuracy and evasion in battle."
   },
   {
    "id": 5,
@@ -180,7 +180,7 @@
    "text": "ラッキー",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Lucky"
   },
   {
    "id": 6,
@@ -206,7 +206,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "When triggered, hit, evasion and critical rates become 100% for that battle. Higher skill levels\nraise the activation rate."
   },
   {
    "id": 7,
@@ -228,7 +228,7 @@
    "text": "底力",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Potential"
   },
   {
    "id": 8,
@@ -254,7 +254,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Raises the unit's hit rate, evasion, armor and critical rate based on its remaining HP%.\nHigher skill levels increase the effect."
   },
   {
    "id": 9,
@@ -276,7 +276,7 @@
    "text": "援護攻撃",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Support Attack"
   },
   {
    "id": 10,
@@ -298,7 +298,7 @@
    "text": "隣接する味方機体の援護攻撃に入ります。スキルレベルが高くなるほど援護可能回数が上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Performs Support Attacks for adjacent allies. Higher levels allow more uses."
   },
   {
    "id": 11,
@@ -320,7 +320,7 @@
    "text": "援護防御",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Support Defense"
   },
   {
    "id": 12,
@@ -342,7 +342,7 @@
    "text": "隣接する味方機体の援護防御に入ります。スキルレベルが高くなるほど援護可能回数が上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Performs Support Defense for adjacent allies. Higher levels allow more uses."
   },
   {
    "id": 13,
@@ -364,7 +364,7 @@
    "text": "カウンター",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Counter"
   },
   {
    "id": 14,
@@ -386,7 +386,7 @@
    "text": "発動時、敵からの攻撃前に反撃を行うことができます。スキルレベルが高くなるほど発動確率が上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Triggers a counterattack before the enemy attacks. Higher skill levels raise its rate."
   },
   {
    "id": 15,
@@ -408,7 +408,7 @@
    "text": "インファイト",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "In-Fighter"
   },
   {
    "id": 16,
@@ -430,7 +430,7 @@
    "text": "スキルレベルが高くなるほど搭乗機体の移動力とマップ兵器以外の、格闘武器の攻撃力が上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Higher skill levels raise the unit's Move and non-MAP melee weapon power."
   },
   {
    "id": 17,
@@ -452,7 +452,7 @@
    "text": "ガンファイト",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Gunfighter"
   },
   {
    "id": 18,
@@ -474,7 +474,7 @@
    "text": "スキルレベルが高くなるほど搭乗機体のマップ兵器以外の、射撃武器の攻撃力と射程が上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Higher skill levels raise the power and range of the unit's non-MAP ranged weapons."
   },
   {
    "id": 19,
@@ -496,7 +496,7 @@
    "text": "ＳＰアップ",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "SP Up"
   },
   {
    "id": 20,
@@ -518,7 +518,7 @@
    "text": "スキルレベルが高くなるほど最大精神ポイントが上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Higher levels raise max SP."
   },
   {
    "id": 21,
@@ -540,7 +540,7 @@
    "text": "指揮官",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Commander"
   },
   {
    "id": 22,
@@ -562,7 +562,7 @@
    "text": "スキルレベルが高くなるほど自機の指揮範囲内に存在する味方機体の命中率・回避率を上昇させます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Higher skill levels raise hit and evasion of allies in this unit's command range."
   },
   {
    "id": 23,
@@ -584,7 +584,7 @@
    "text": "連続攻撃",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Continuous Attack"
   },
   {
    "id": 24,
@@ -610,7 +610,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Triggers a combination attack when attacking with a combination-capable weapon.\nContinuous Attack Lv + 1 = number of units that can attack."
   },
   {
    "id": 25,
@@ -632,7 +632,7 @@
    "text": "ＳＰ回復",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "SP Regen"
   },
   {
    "id": 26,
@@ -654,7 +654,7 @@
    "text": "自軍フェイズ開始時に、ＳＰが１０だけ回復します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Recovers 10 SP at the start of player phase."
   },
   {
    "id": 27,
@@ -676,7 +676,7 @@
    "text": "集中力",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Concentrate"
   },
   {
    "id": 28,
@@ -698,7 +698,7 @@
    "text": "精神コマンド・ツイン精神コマンド使用時の消費ポイントが８０％になります。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Spirit Command and Twin Spirit Command costs are reduced to 80%."
   },
   {
    "id": 29,
@@ -720,7 +720,7 @@
    "text": "ヒット＆アウェイ",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Hit&Away"
   },
   {
    "id": 30,
@@ -742,7 +742,7 @@
    "text": "移動せずに攻撃した場合、その後に移動ができます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Can move after attacking if it hasn't moved."
   },
   {
    "id": 31,
@@ -764,7 +764,7 @@
    "text": "天才",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Genius"
   },
   {
    "id": 32,
@@ -786,7 +786,7 @@
    "text": "命中率・回避率・クリティカル発生率が２０だけ上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Raises accuracy, evasion and critical rate by 20."
   },
   {
    "id": 33,
@@ -808,7 +808,7 @@
    "text": "アタッカー",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Attacker"
   },
   {
    "id": 34,
@@ -830,7 +830,7 @@
    "text": "気力が１３０以上の場合、ダメージが１．２倍になります。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "At Will 130+, damage dealt is multiplied by 1.2."
   },
   {
    "id": 35,
@@ -852,7 +852,7 @@
    "text": "リベンジ",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Revenge"
   },
   {
    "id": 36,
@@ -874,7 +874,7 @@
    "text": "反撃時の与えるダメージが１．２倍になります。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Deals 1.2x damage when counterattacking."
   },
   {
    "id": 37,
@@ -896,7 +896,7 @@
    "text": "予知",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Foresight"
   },
   {
    "id": 38,
@@ -918,7 +918,7 @@
    "text": "気力が１３０以上の場合、敵対勢力のフェイズのみ、最終的な回避率が３０だけ上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "At Will 130+, final evasion rises by 30 during enemy phases only."
   },
   {
    "id": 39,
@@ -940,7 +940,7 @@
    "text": "強運",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Fortune"
   },
   {
    "id": 40,
@@ -966,7 +966,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Money from destroying enemy units is x1.2. Even when stacked with effects such as Luck,\nthe money gained is capped at 2x."
   },
   {
    "id": 41,
@@ -988,7 +988,7 @@
    "text": "見切り",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Predict"
   },
   {
    "id": 42,
@@ -1010,7 +1010,7 @@
    "text": "気力が１３０以上の場合、命中率・回避率が１０だけ上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "At Will 130+, accuracy and evasion rise by 10."
   },
   {
    "id": 43,
@@ -1032,7 +1032,7 @@
    "text": "Ｅセーブ",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Energy Save"
   },
   {
    "id": 44,
@@ -1054,7 +1054,7 @@
    "text": "武器の消費ＥＮが通常の７０％になります。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Weapon EN costs are reduced to 70%."
   },
   {
    "id": 45,
@@ -1076,7 +1076,7 @@
    "text": "Ｂセーブ",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Bullet Save"
   },
   {
    "id": 46,
@@ -1098,7 +1098,7 @@
    "text": "武器の最大弾数が通常の１．５倍になります。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Weapon max ammo is multiplied by 1.5."
   },
   {
    "id": 47,
@@ -1120,7 +1120,7 @@
    "text": "ラーニング",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Learning"
   },
   {
    "id": 48,
@@ -1142,7 +1142,7 @@
    "text": "サブ機体での戦闘時、メイン機体と同様の経験値・ＰＰを獲得できます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Sub units earn the same EXP and PP as the main unit in battle."
   },
   {
    "id": 49,
@@ -1164,7 +1164,7 @@
    "text": "闘争心",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Resolve"
   },
   {
    "id": 50,
@@ -1186,7 +1186,7 @@
    "text": "出撃時の気力が５だけ上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "+5 Will on deployment."
   },
   {
    "id": 51,
@@ -1208,7 +1208,7 @@
    "text": "戦意高揚",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Morale"
   },
   {
    "id": 52,
@@ -1230,7 +1230,7 @@
    "text": "自軍フェイズ開始時に、気力が２上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "+2 Will at the start of player phase."
   },
   {
    "id": 53,
@@ -1252,7 +1252,7 @@
    "text": "気力＋（回避）",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Will+ (Evade)"
   },
   {
    "id": 54,
@@ -1274,7 +1274,7 @@
    "text": "攻撃を回避した場合、気力が本来の増減に加えて更に１上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Gain 1 extra Will when evading an attack."
   },
   {
    "id": 55,
@@ -1296,7 +1296,7 @@
    "text": "気力＋（命中）",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Will+ (Hit)"
   },
   {
    "id": 56,
@@ -1318,7 +1318,7 @@
    "text": "敵への攻撃が命中した場合、気力が本来の増減に加えて更に１上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Gain 1 extra Will when hitting an enemy."
   },
   {
    "id": 57,
@@ -1340,7 +1340,7 @@
    "text": "気力＋（ダメージ）",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Will+ (Damaged)"
   },
   {
    "id": 58,
@@ -1362,7 +1362,7 @@
    "text": "攻撃でダメージを受けた場合、気力が本来の増減に加えて更に２上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Gain 2 extra Will when taking damage from an attack."
   },
   {
    "id": 59,
@@ -1384,7 +1384,7 @@
    "text": "気力＋（撃破）",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Will+ (Kill)"
   },
   {
    "id": 60,
@@ -1406,7 +1406,7 @@
    "text": "敵が撃墜された場合、気力が本来の増減に加えて更に１上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Gain 1 extra Will when an enemy is shot down."
   },
   {
    "id": 61,
@@ -1428,7 +1428,7 @@
    "text": "連携攻撃",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Cooperative Attack"
   },
   {
    "id": 62,
@@ -1450,7 +1450,7 @@
    "text": "援護攻撃での与えるダメージを１００％にします。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Support Attacks deal 100% damage."
   },
   {
    "id": 63,
@@ -1472,7 +1472,7 @@
    "text": "集束攻撃",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Focused Attack"
   },
   {
    "id": 64,
@@ -1494,7 +1494,7 @@
    "text": "メイン（サブ）機体がサブ（メイン）機体を攻撃した場合の、ダメージ低下が２０％減少します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Reduces the damage penalty when main (sub) units attack sub (main) units by 20%."
   },
   {
    "id": 65,
@@ -1516,7 +1516,7 @@
    "text": "ガード",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Guard"
   },
   {
    "id": 66,
@@ -1538,7 +1538,7 @@
    "text": "気力が１３０以上の場合、戦闘で受けるダメージが８０％になります。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "At Will 130+, damage taken in battle is reduced to 80%."
   },
   {
    "id": 67,
@@ -1560,7 +1560,8 @@
    "text": "気力限界突破",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "",
+   "retry_note": "FIXH: 'Will Limit Break' failed (width: 223px > 192px: 'Will Limit Break')"
   },
   {
    "id": 68,
@@ -1582,7 +1583,7 @@
    "text": "気力上昇の上限が１７０になります。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Will cap is raised to 170."
   },
   {
    "id": 69,
@@ -1604,7 +1605,7 @@
    "text": "修理技能",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Mechanic"
   },
   {
    "id": 70,
@@ -1626,7 +1627,7 @@
    "text": "個別コマンド「修理」を使用時に、ＨＰ回復量が１．２倍になります。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "HP restored by the Repair command is multiplied by 1.2."
   },
   {
    "id": 71,
@@ -1648,7 +1649,7 @@
    "text": "補給技能",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Resupply"
   },
   {
    "id": 72,
@@ -1670,7 +1671,7 @@
    "text": "移動後に個別コマンド「補給」を使用可能になります。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Can use the Resupply command after moving."
   },
   {
    "id": 73,
@@ -1692,7 +1693,7 @@
    "text": "２回行動",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Double Action"
   },
   {
    "id": 74,
@@ -1714,7 +1715,7 @@
    "text": "１ターンの行動回数が１回増えます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Gains 1 extra action per turn."
   },
   {
    "id": 75,
@@ -1736,7 +1737,7 @@
    "text": "ＥＸＰアップ",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "EXP Up"
   },
   {
    "id": 76,
@@ -1758,7 +1759,7 @@
    "text": "戦闘での獲得経験値が１．２倍になります。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Battle EXP is multiplied by 1.2."
   },
   {
    "id": 77,
@@ -1780,7 +1781,7 @@
    "text": "再攻撃",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Attack Again"
   },
   {
    "id": 78,
@@ -1806,7 +1807,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "If this pilot's Skill is 20+ higher than the target's main pilot, it makes a support\nattack for itself after the target's counterattack."
   },
   {
    "id": 79,
@@ -1828,7 +1829,7 @@
    "text": "超能力",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "ESP"
   },
   {
    "id": 80,
@@ -1850,7 +1851,7 @@
    "text": "スキルレベルが高くなるほど、戦闘での命中率・回避率・クリティカル発生率が上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Higher skill levels raise hit, evasion and critical rates in battle."
   },
   {
    "id": 81,
@@ -1872,7 +1873,7 @@
    "text": "統率",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Leadership"
   },
   {
    "id": 82,
@@ -1894,7 +1895,7 @@
    "text": "マキシマムブレイクを発生させる能力です。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Ability that triggers Maximum Break."
   },
   {
    "id": 83,
@@ -1916,7 +1917,7 @@
    "text": "パイロット",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Pilot"
   },
   {
    "id": 84,
@@ -1938,7 +1939,7 @@
    "text": "武器を使用するために必要なスキルとしてのみ使用",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Used only as a skill required for weapons"
   },
   {
    "id": 85,
@@ -1960,7 +1961,7 @@
    "text": "連続行動",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Continuous Action"
   },
   {
    "id": 86,
@@ -1986,7 +1987,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "When attacking with 120+ Will and destroying the enemy, the unit can act again without ending\nits turn. Once per unit per phase (switching main pilots via \"Transform\", etc. adds no uses)."
   }
  ],
  "inline_strings": []

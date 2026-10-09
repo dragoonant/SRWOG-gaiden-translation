@@ -85,7 +85,7 @@
    "text": "－－－－－－",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "－－－－－－"
   },
   {
    "id": 1,
@@ -108,7 +108,7 @@
    "text": "ＡＢフィールド",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "AB Field"
   },
   {
    "id": 2,
@@ -130,7 +130,7 @@
    "text": "ＥＮが１０以上の場合、ビーム攻撃（バリア貫通系武器を除く）によるダメージを１２００だけ軽減します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Reduces beam damage by 1200 if EN is 10 or more (except barrier-piercing weapons)."
   },
   {
    "id": 3,
@@ -153,7 +153,7 @@
    "text": "Ｅフィールド",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "E Field"
   },
   {
    "id": 4,
@@ -179,7 +179,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Reduces damage from all attacks by 1500 if EN is 15 or more and Will is 120 or more\n(except barrier-piercing weapons)."
   },
   {
    "id": 5,
@@ -202,7 +202,7 @@
    "text": "Ｇ・ウォール",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "G Wall"
   },
   {
    "id": 6,
@@ -228,7 +228,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Nullifies any attack dealing 800 damage or less if EN is 5 or more and Will is 120 or more\n(except barrier-piercing weapons)."
   },
   {
    "id": 7,
@@ -251,7 +251,7 @@
    "text": "Ｇ・テリトリー",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "G Territory"
   },
   {
    "id": 8,
@@ -277,7 +277,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Nullifies any attack dealing 1800 damage or less if EN is 15 or more and Will is 120 or more\n(except barrier-piercing weapons)."
   },
   {
    "id": 9,
@@ -300,7 +300,7 @@
    "text": "パッシブ・ビット",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Passive Bit"
   },
   {
    "id": 10,
@@ -322,7 +322,7 @@
    "text": "ＥＮが５以上の場合、ビーム攻撃（バリア貫通系武器を除く）によるダメージを１１００だけ軽減します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Reduces beam damage by 1100 if EN is 5 or more (except barrier-piercing weapons)."
   },
   {
    "id": 11,
@@ -345,7 +345,7 @@
    "text": "ＴＥスフィア",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "TE Sphere"
   },
   {
    "id": 12,
@@ -372,7 +372,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Reduces damage from all attacks by 1500 if EN is 5 or more and Will is 120 or more\n(except barrier-piercing weapons)."
   },
   {
    "id": 13,
@@ -395,7 +395,7 @@
    "text": "ビームコート",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Beam Coat"
   },
   {
    "id": 14,
@@ -417,7 +417,7 @@
    "text": "ＥＮが５以上の場合、ビーム攻撃（バリア貫通系武器を除く）によるダメージを９００だけ軽減します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Reduces beam damage by 900 if EN is 5 or more (except barrier-piercing weapons)."
   },
   {
    "id": 15,
@@ -440,7 +440,7 @@
    "text": "ビーム吸収",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Beam Absorption"
   },
   {
    "id": 16,
@@ -462,7 +462,7 @@
    "text": "ビーム攻撃（バリア貫通系武器を除く）による、本来受けるはずのダメージ分だけ自機の現ＨＰを回復します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Beam attacks heal HP equal to the damage they would deal (except barrier-piercing weapons)."
   },
   {
    "id": 17,
@@ -485,7 +485,7 @@
    "text": "念動フィールド",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "TK Field"
   },
   {
    "id": 18,
@@ -511,7 +511,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Nullifies any attack dealing damage up to the pilot's Telekinesis level x 200\nif EN is 5 or more and Will is 110 or more (except barrier-piercing weapons)."
   },
   {
    "id": 19,
@@ -534,7 +534,7 @@
    "text": "念動フィールドＳ",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "TK Field S"
   },
   {
    "id": 20,
@@ -560,7 +560,7 @@
    ],
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Nullifies any attack dealing damage up to the pilot's Telekinesis level x 250\nif EN is 5 or more and Will is 110 or more (except barrier-piercing weapons)."
   },
   {
    "id": 21,
@@ -583,7 +583,8 @@
    "text": "歪曲フィールド",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "",
+   "retry_note": "FIXH: 'Distortion Field' failed (width: 233px > 224px: 'Distortion Field')"
   },
   {
    "id": 22,
@@ -606,7 +607,7 @@
    "text": "ＥＮが１０以上の場合、全ての攻撃（バリア貫通系武器を除く）によるダメージを半減します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Halves all damage if EN is 10 or more (except barrier-piercing weapons)."
   },
   {
    "id": 23,
@@ -628,7 +629,7 @@
    "text": "ＨＰ回復（小）",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "HP Heal (S)"
   },
   {
    "id": 24,
@@ -652,7 +653,7 @@
    "text": "ＨＰ回復",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "HP Heal"
   },
   {
    "id": 25,
@@ -676,7 +677,7 @@
    "text": "自軍フェイズ開始時に、ＨＰが回復します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Restores HP at start of player phase."
   },
   {
    "id": 26,
@@ -698,7 +699,7 @@
    "text": "ＨＰ回復（中）",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "HP Heal (M)"
   },
   {
    "id": 27,
@@ -720,7 +721,7 @@
    "text": "ＨＰ回復（大）",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "HP Heal (L)"
   },
   {
    "id": 28,
@@ -742,7 +743,7 @@
    "text": "ＥＮ回復（小）",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "EN Heal (S)"
   },
   {
    "id": 29,
@@ -766,7 +767,7 @@
    "text": "ＥＮ回復",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "EN Heal"
   },
   {
    "id": 30,
@@ -790,7 +791,7 @@
    "text": "自軍フェイズ開始時に、ＥＮが回復します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Restores EN at start of player phase."
   },
   {
    "id": 31,
@@ -812,7 +813,7 @@
    "text": "ＥＮ回復（中）",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "EN Heal (M)"
   },
   {
    "id": 32,
@@ -834,7 +835,7 @@
    "text": "ＥＮ回復（大）",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "EN Heal (L)"
   },
   {
    "id": 33,
@@ -857,7 +858,7 @@
    "text": "システムＬＩＯＨ",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "System LIOH"
   },
   {
    "id": 34,
@@ -879,7 +880,7 @@
    "text": "気力が１３０以上の場合、メインパイロットの格闘・命中・技量が２０だけ上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Main pilot's Melee, Accuracy and Skill +20 if Will is 130 or more."
   },
   {
    "id": 35,
@@ -902,7 +903,7 @@
    "text": "ＯＤＥシステム",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "ODE System"
   },
   {
    "id": 36,
@@ -924,7 +925,7 @@
    "text": "自軍フェイズ開始時に、特殊能力「ＯＤＥシステム」を保有するマップ上の機体の、パイロットの気力がその中で最も高いパイロットの気力と同じになります。また、最終命中率・回避率が「マップ上のＯＤＥシステム搭載機の数」＋「経過ターン数」×２だけ上昇します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "At the start of player phase, the Will of every pilot in an ODE System unit on the map is set to the highest Will among them. Also raises final hit and evasion rates by (ODE System units on map) + (turns elapsed) x 2."
   },
   {
    "id": 37,
@@ -947,7 +948,7 @@
    "text": "ジャマー",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Jammer"
   },
   {
    "id": 38,
@@ -969,7 +970,7 @@
    "text": "ミサイル系の攻撃を５０％の確率で無効化します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Nullifies missile attacks 50% of the time."
   },
   {
    "id": 39,
@@ -992,7 +993,7 @@
    "text": "分身",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Afterimage"
   },
   {
    "id": 40,
@@ -1014,7 +1015,7 @@
    "text": "パイロットの気力が１３０以上の場合、５０％の確率で攻撃を回避できます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "50% chance to evade attacks if the pilot's Will is 130 or more."
   },
   {
    "id": 41,
@@ -1037,7 +1038,7 @@
    "text": "パイロットブロック",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Pilot Block"
   },
   {
    "id": 42,
@@ -1059,7 +1060,7 @@
    "text": "Ｐ系全ての特殊効果を無効化します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Blocks all P special effects."
   },
   {
    "id": 43,
@@ -1082,7 +1083,7 @@
    "text": "ロボットブロック",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Robot Block"
   },
   {
    "id": 44,
@@ -1104,7 +1105,7 @@
    "text": "Ｒ系全ての特殊効果を無効化します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Blocks all R special effects."
   },
   {
    "id": 45,
@@ -1127,7 +1128,7 @@
    "text": "フルブロック",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Full Block"
   },
   {
    "id": 46,
@@ -1149,7 +1150,7 @@
    "text": "全ての特殊効果を無効化します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Blocks all special effects."
   },
   {
    "id": 47,
@@ -1172,7 +1173,7 @@
    "text": "強化パーツ使用",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Use Parts"
   },
   {
    "id": 48,
@@ -1194,7 +1195,7 @@
    "text": "隣接した機体に装備中の強化パーツ（コマンドで使用可能なもの）を使用できます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Can use an adjacent unit's equipped parts (those usable via command)."
   },
   {
    "id": 49,
@@ -1217,7 +1218,7 @@
    "text": "ガンエデンの守護",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Gan Eden Aegis"
   },
   {
    "id": 50,
@@ -1239,7 +1240,7 @@
    "text": "攻撃を受けた場合、マップ上に存在する、しもべの機体数×１００だけ、最終ダメージが減少します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "When attacked, reduces final damage by 100 x the number of servant units on the map."
   },
   {
    "id": 51,
@@ -1262,7 +1263,7 @@
    "text": "パッシーオ",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Passio"
   },
   {
    "id": 52,
@@ -1284,7 +1285,7 @@
    "text": "自軍フェイズ開始時に、マップ上に存在する敵対勢力の全パイロットの気力を２下げます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "At start of player phase, lowers Will of all enemy pilots on the map by 2."
   },
   {
    "id": 53,
@@ -1307,7 +1308,7 @@
    "text": "ピンポイント爆撃",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Pinpoint Strike"
   },
   {
    "id": 54,
@@ -1329,7 +1330,7 @@
    "text": "自軍フェイズ開始時に、マップ上に存在する敵対勢力の機体の中からランダムで４機に、その機体の現ＨＰの５０％分のダメージを与えます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "At start of player phase, deals damage equal to 50% of current HP to 4 random enemy units on the map."
   },
   {
    "id": 55,
@@ -1352,7 +1353,7 @@
    "text": "闇の領域",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Abyss"
   },
   {
    "id": 56,
@@ -1374,7 +1375,7 @@
    "text": "自軍フェイズ終了時に、接続する周囲８マスに存在する敵対勢力のＥＮを３０下げます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "At end of player phase, enemies in the 8 adjacent squares lose 30 EN."
   },
   {
    "id": 57,
@@ -1397,7 +1398,7 @@
    "text": "逆鱗",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Rage"
   },
   {
    "id": 58,
@@ -1419,7 +1420,7 @@
    "text": "自軍フェイズ開始時にＨＰが６０％以下の場合、精神コマンド「覚醒」を使用します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "At start of player phase, uses Awaken if HP is 60% or less."
   },
   {
    "id": 59,
@@ -1442,7 +1443,7 @@
    "text": "エネルギー吸収",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Energy Absorb"
   },
   {
    "id": 60,
@@ -1464,7 +1465,7 @@
    "text": "受けたダメージの１％分だけ自機の現ＥＮを回復します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Restores EN equal to 1% of damage taken."
   },
   {
    "id": 61,
@@ -1488,7 +1489,7 @@
    "text": "ダミー",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Dummy"
   },
   {
    "id": 62,
@@ -1511,7 +1512,7 @@
    "text": "監視の目",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Watcher"
   },
   {
    "id": 63,
@@ -1533,7 +1534,7 @@
    "text": "ＨＰが１０％以下になった場合、また自軍フェイズ開始時にＨＰが１０％以下の場合、精神コマンド「必中」を使用します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Uses Bullseye when HP falls to 10% or less, and at start of player phase if HP is 10% or less."
   },
   {
    "id": 64,
@@ -1556,7 +1557,7 @@
    "text": "味方精神（仮）",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Ally SP (TBD)"
   },
   {
    "id": 65,
@@ -1578,7 +1579,7 @@
    "text": "自軍フェイズ開始時に、マップ上に存在する特定の機体（未定）全てに対して、精神コマンド「感応」を使用します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "At start of player phase, uses Inspire on all specified units (TBD) on the map."
   },
   {
    "id": 66,
@@ -1601,7 +1602,7 @@
    "text": "味方回復（仮）",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Ally HP (TBD)"
   },
   {
    "id": 67,
@@ -1623,7 +1624,7 @@
    "text": "自軍フェイズ開始時に、マップ上に存在する特定の機体（未定）全てに対して、最大ＨＰの３０％分の現ＨＰを回復させます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "At start of player phase, restores 30% of max HP to all specified units (TBD) on the map."
   },
   {
    "id": 68,
@@ -1646,7 +1647,7 @@
    "text": "いたら精神（仮）",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Pilot SP (TBD)"
   },
   {
    "id": 69,
@@ -1668,7 +1669,7 @@
    "text": "自軍フェイズ開始時に、マップ上に特定のパイロット（未定）が存在する場合、精神コマンド（未定）を使用します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "At start of player phase, uses a Spirit Command (TBD) if a specified pilot (TBD) is on the map."
   },
   {
    "id": 70,
@@ -1691,7 +1692,7 @@
    "text": "神僕の盾",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Bulwark"
   },
   {
    "id": 71,
@@ -1714,7 +1715,7 @@
    "text": "神の盾",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Aegis"
   },
   {
    "id": 72,
@@ -1737,7 +1738,7 @@
    "text": "四凶邪視",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Hex Eye"
   },
   {
    "id": 73,
@@ -1759,7 +1760,7 @@
    "text": "自軍フェイズ開始時に、周囲１～３マス内に存在する、敵対勢力のパイロットの気力を３下げます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "At start of player phase, lowers Will of enemy pilots within 1-3 squares by 3."
   },
   {
    "id": 74,
@@ -1782,7 +1783,7 @@
    "text": "神獣盾",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Ward"
   },
   {
    "id": 75,
@@ -1804,7 +1805,7 @@
    "text": "ＥＮが５以上、気力が１１０以上の場合、全ての攻撃（バリア貫通系武器を除く）によるダメージを半減します。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Halves all damage if EN is 5 or more and Will is 110 or more (except barrier-piercing weapons)."
   },
   {
    "id": 76,
@@ -1827,7 +1828,7 @@
    "text": "ダミー０３",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Dummy 03"
   },
   {
    "id": 77,
@@ -1850,7 +1851,7 @@
    "text": "ダミー０４",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Dummy 04"
   },
   {
    "id": 78,
@@ -1873,7 +1874,7 @@
    "text": "ダミー０５",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Dummy 05"
   },
   {
    "id": 79,
@@ -1896,7 +1897,7 @@
    "text": "ダミー０６",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Dummy 06"
   },
   {
    "id": 80,
@@ -1919,7 +1920,7 @@
    "text": "ダミー０７",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Dummy 07"
   },
   {
    "id": 81,
@@ -1942,7 +1943,7 @@
    "text": "ダミー０８",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Dummy 08"
   },
   {
    "id": 82,
@@ -1965,7 +1966,7 @@
    "text": "ダミー０９",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Dummy 09"
   },
   {
    "id": 83,
@@ -1988,7 +1989,7 @@
    "text": "ダミー１０",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Dummy 10"
   },
   {
    "id": 84,
@@ -2011,7 +2012,7 @@
    "text": "変形",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Transform"
   },
   {
    "id": 85,
@@ -2035,7 +2036,7 @@
    "text": "機体を別形態に変化させることができます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Changes the unit into another form."
   },
   {
    "id": 86,
@@ -2058,7 +2059,7 @@
    "text": "合体・分離",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Combine/Separate"
   },
   {
    "id": 87,
@@ -2080,7 +2081,7 @@
    "text": "複数の機体を合体させて、別形態の機体へ変化させたり、元の機体へ分離させることができます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Combines several units into a new form, or separates them back into the originals."
   },
   {
    "id": 88,
@@ -2103,7 +2104,7 @@
    "text": "（単）分離",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "(S)Separate"
   },
   {
    "id": 89,
@@ -2126,7 +2127,7 @@
    "text": "換装",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Replace"
   },
   {
    "id": 90,
@@ -2149,7 +2150,7 @@
    "text": "修理装置",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Repair Module"
   },
   {
    "id": 91,
@@ -2171,7 +2172,7 @@
    "text": "射程内に位置する部隊のＨＰを回復させることができます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Restores HP to units within range."
   },
   {
    "id": 92,
@@ -2194,7 +2195,7 @@
    "text": "補給装置",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Resupply Module"
   },
   {
    "id": 93,
@@ -2216,7 +2217,7 @@
    "text": "射程内に位置する機体のＥＮ、弾数値を最大値まで回復させることができます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Fully restores EN and ammo of units within range."
   },
   {
    "id": 94,
@@ -2239,7 +2240,7 @@
    "text": "盾装備",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Shield"
   },
   {
    "id": 95,
@@ -2261,7 +2262,7 @@
    "text": "反撃時などに「防御」を行うと、受けるダメージを更に１０％減少させることができます。",
    "kind": "text",
    "keep": false,
-   "en": ""
+   "en": "Choosing Defend when countering, etc. cuts damage taken by a further 10%."
   }
  ],
  "inline_strings": []

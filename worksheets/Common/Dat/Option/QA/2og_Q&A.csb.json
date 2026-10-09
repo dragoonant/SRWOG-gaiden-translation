@@ -10,12 +10,13 @@
    "en": "",
    "cell": "r0c2",
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "retry_note": "CSB: '7 chars @ 28dot' failed (lines: 2 lines > 1)"
   },
   {
    "id": 2,
    "jp": "２８ｄｏｔで１８文字\n■■■■■■■■■□■■■■■■■■",
-   "en": "",
+   "en": "18 chars at 28 dot\n■■■■■■■■■□■■■■■■■■",
    "cell": "r0c3",
    "uses": 2,
    "kind": "text",
@@ -24,7 +25,7 @@
   {
    "id": 3,
    "jp": "＜KeyWords＞\n●ここに記入したモノがそのまま表示されます。\n●スペース的には最大３行分表示できます。\n●全ての表示文字は全角で入力、改行は「半角\\n」を記述するか、\n　「Altキー＋Enter」の操作で改行させたものが、そのまま反映されます。",
-   "en": "",
+   "en": "＜KeyWords＞\n●Whatever is entered here is displayed as-is.\n●Up to 3 lines fit in the space.\n●Enter all display characters full-width. Line breaks written as a half-width \\n,\n　or made with Alt+Enter, are reflected as-is.",
    "cell": "r0c5",
    "kind": "text",
    "keep": false
@@ -32,7 +33,7 @@
   {
    "id": 4,
    "jp": "２４ｄｏｔで４０文字、２８ｄｏｔで３４文字\n■■■■■■■■■□■■■■■■■■■□■■■■■■■■■□■■■■■■■■■□",
-   "en": "",
+   "en": "40 chars at 24 dot, 34 chars at 28 dot\n■■■■■■■■■□■■■■■■■■■□■■■■■■■■■□■■■■■■■■■□",
    "cell": "r0c6",
    "kind": "text",
    "keep": false
@@ -40,7 +41,7 @@
   {
    "id": 5,
    "jp": "ソート用ID",
-   "en": "",
+   "en": "Sort ID",
    "cell": "r2c0",
    "kind": "name",
    "keep": false
@@ -48,7 +49,7 @@
   {
    "id": 6,
    "jp": "ID\nリンク用のもので、重複しなければ詰めたりソートする必要は無し。",
-   "en": "",
+   "en": "ID\nFor links. Need not be sequential or sorted if unique.",
    "cell": "r2c1",
    "kind": "text",
    "keep": false
@@ -56,7 +57,7 @@
   {
    "id": 11,
    "jp": "Answer\nサイズが2048まで",
-   "en": "",
+   "en": "Answer\nSize up to 2048",
    "cell": "r2c6",
    "kind": "text",
    "keep": false
@@ -64,7 +65,7 @@
   {
    "id": 12,
    "jp": "画像\nDatから始まる画像のアドレス 画像のX座標 画像のY座標 画像の幅 画像の高さ\n画像の座標は文字列が表示される領域の左上からの値になります。\n同じ画像が2つ以上あれば、それが実機上で読み込まれるのは\n1つだけなのでメモリの使用量はほとんど増えません。",
-   "en": "",
+   "en": "Image\nPath (starting with Dat), X, Y, width, height\nCoordinates are offsets from the top left of the text area.\nThe same image used 2+ times loads only once on hardware,\nso memory use barely rises.",
    "cell": "r2c7",
    "kind": "text",
    "keep": false
@@ -72,7 +73,7 @@
   {
    "id": 13,
    "jp": "リンク情報\nこのセル内のリンク番号(0～29)　飛び先のQ&AのID　スクロールの高さ\nリンク番号は詰めたり並び変える必要は無し。\nAnswer列でLinkタグ(<LINK=0>ここがリンク</LINK>)で指定する数値がリンク番号。\nスクロールの高さは画面の上部の高さ(0～)。\nスクロール出来ない位置を指定しても画面内に収まるように自動的に調整。\n",
-   "en": "",
+   "en": "Link Info\nCell link no. (0-29), target Q&A ID, scroll height\nLink nos. need not be in order.\nThe number in an Answer-column Link tag (<LINK=0>text</LINK>) is the link no.\nScroll height = top of screen (0+).\nOut-of-range scroll values are auto-adjusted to fit.\n",
    "cell": "r2c8",
    "kind": "text",
    "keep": false
@@ -83,12 +84,13 @@
    "en": "",
    "cell": "r3c2",
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "retry_note": "CSB: 'Combat/Stat' failed (width: 202px > 192px: 'Combat/Stat')"
   },
   {
    "id": 16,
    "jp": "戦闘を有利に進めるためのコツを紹介します。",
-   "en": "",
+   "en": "Tips for gaining the edge in battle.",
    "cell": "r3c6",
    "kind": "text",
    "keep": false
@@ -96,7 +98,7 @@
   {
    "id": 19,
    "jp": "移動について",
-   "en": "",
+   "en": "Movement",
    "cell": "r4c3",
    "kind": "name",
    "keep": false
@@ -104,7 +106,7 @@
   {
    "id": 20,
    "jp": "移動関係についてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A about movement.",
    "cell": "r4c6",
    "kind": "text",
    "keep": false
@@ -112,7 +114,7 @@
   {
    "id": 22,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．移動力とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What is Movement?",
    "cell": "r5c4",
    "kind": "text",
    "keep": false
@@ -120,7 +122,7 @@
   {
    "id": 23,
    "jp": "Ａ．ユニット（機体）の移動範囲を表します。",
-   "en": "",
+   "en": "A. A unit's movement range.",
    "cell": "r5c5",
    "kind": "text",
    "keep": false
@@ -128,7 +130,7 @@
   {
    "id": 24,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>ユニット（機体）の移動範囲を表します。</C></H></W>\n\n　●ユニットは個別コマンド「移動」を使用することで、現地点から違う地点へ移動す\n　　ることができます。\n\n　●マップのマスにはそれぞれユニットが進入するために必要なコストが設定されてい\n　　ます（１～２．５）。ユニットは１マス移動するたびに、移動力から移動に必要な\n　　コストを差し引き、移動力が０になるまでの距離を移動できます。\n\n　●移動に必要なコストは地形の種類と機体の移動タイプによって変化し、<LINK=0>移動タイプ</LINK>\n　　が地形に適しているほどコストは小さくなります。\n\n　●ツインユニットの移動力は２機の移動力の平均値になります（小数点以下切捨て）。\n　　例外としてユニットが空中及び、地中を移動する場合の移動コストは常に１になり\n　　ます。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>空中を移動する場合、１マスごとにＥＮを１消費します。また、地中では戦闘に\n　　　は参加できません。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>A unit's movement range.</C></H></W>\n\n　●Use a unit's Move command to move it from its current position\n　　to another.\n\n　●Each map square has a cost (1-2.5) to enter. Each square moved\n　　deducts its cost from Movement, and a unit can keep moving until\n　　its Movement reaches 0.\n\n　●Costs vary by terrain and the unit's movement type. The better\n　　suited the <LINK=0>movement type</LINK> is to the terrain, the lower the cost.\n\n　●A Twin Unit's Movement is the average of its 2 units' (rounded\n　　down). Exception: moving through the air or underground always\n　　costs 1 per square.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Moving through the air uses 1 EN per square. Units underground\n　　　can't take part in battle.\n",
    "cell": "r5c6",
    "kind": "text",
    "keep": false
@@ -136,7 +138,7 @@
   {
    "id": 27,
    "jp": "<W=24>Ｑ</W><W=32>２</W>．移動タイプとは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>2</W>. What is Movement Type?",
    "cell": "r6c4",
    "kind": "text",
    "keep": false
@@ -144,7 +146,7 @@
   {
    "id": 28,
    "jp": "Ａ．ユニット（機体）が移動可能な地形を表します。",
-   "en": "",
+   "en": "A. The terrain a unit can move across.",
    "cell": "r6c5",
    "kind": "text",
    "keep": false
@@ -152,7 +154,7 @@
   {
    "id": 29,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>ユニット（機体）が移動可能な地形を表します。</C></H></W>\n\n　●機体、もしくは部隊が「空」「陸」「水」「地中」の各地形について、移動する能\n　　力を持つかどうかを表します。移動能力を持たない地形には移動が困難、もしくは\n　　進入不可能になります。\n\n　●全ての移動能力を持つ場合、移動タイプは「空陸水地」と表示され、移動能力を持\n　　たない場合は代わりに「<C=808080FF>－</C>」が表示されます。\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>「空」と「地中」の移動能力を持たない場合は「<C=808080FF>－</C>陸水<C=808080FF>－</C>」と表示されます。\n\n　●<LINK=0>ツインユニット</LINK>の場合、移動タイプは部隊を構成する２機の移動タイプにより決定\n　　されます。移動タイプは文字の色が通常色か灰色によってランクが分けられます。\n　　通常色の場合は地形に進入するためのコストがより少なくなります。ただし、「空」\n　　が灰色の場合は空中に移動することができなくなります。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>強化パーツなどで移動タイプを変更し、地形に進入するためのコストを少なくす\n　　　ることで、移動距離を広げることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>The terrain a unit can move across.</C></H></W>\n\n　●Shows whether a unit or squad can move in Air, Land, Water and\n　　Underground. Terrain it lacks the ability for is hard or impossible\n　　to enter.\n\n　●A unit that can move everywhere shows ALWU as its movement type;\n　　each missing ability shows <C=808080FF>－</C> instead.\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>A unit without Air and Underground shows <C=808080FF>－</C>LW<C=808080FF>－</C>.\n\n　●A <LINK=0>Twin Unit</LINK>'s movement type depends on its 2 units' types. Each\n　　letter is ranked by being shown in normal color or gray. Normal color\n　　means a lower cost to enter that terrain. If A (Air) is gray, however,\n　　the squad can't move through the air.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Changing movement type with Parts and the like lowers terrain costs,\n　　　extending how far a unit can move.\n",
    "cell": "r6c6",
    "kind": "text",
    "keep": false
@@ -160,7 +162,7 @@
   {
    "id": 32,
    "jp": "<W=24>Ｑ</W><W=32>３</W>．移動力（移動範囲）を増やすためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>3</W>. How do I increase Movement?",
    "cell": "r7c4",
    "kind": "text",
    "keep": false
@@ -168,7 +170,7 @@
   {
    "id": 33,
    "jp": "Ａ．精神コマンド、強化パーツ、特殊能力、アビリティ効果などを利用します。",
-   "en": "",
+   "en": "A. Use Spirit Commands, Parts, Special Abilities, Ability Effects.",
    "cell": "r7c5",
    "kind": "text",
    "keep": false
@@ -176,7 +178,7 @@
   {
    "id": 34,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の方法があります。</C></H></W>\n\n　●<LINK=0>精神コマンド</LINK>「加速」などを使用します。\n\n　●移動力を上昇させる<LINK=1>強化パーツ</LINK>「ブースター」などを装備します。\n\n　●移動タイプを変更させる<LINK=1>強化パーツ</LINK>「テスラ・ドライブ」などを装備します。\n\n　●<LINK=2>特殊能力</LINK>「変形」などを利用します。\n\n　●<LINK=3>アビリティ効果</LINK>「移動力↑」を使用します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>You can do the following.</C></H></W>\n\n　●Use <LINK=0>Spirit Commands</LINK> such as Accel.\n\n　●Equip Movement-boosting <LINK=1>Parts</LINK> such as a Booster.\n\n　●Equip movement type-changing <LINK=1>Parts</LINK> such as a Tesla Drive.\n\n　●Use <LINK=2>Special Abilities</LINK> such as Transform.\n\n　●Use the <LINK=3>Ability Effect</LINK> Movement↑.\n",
    "cell": "r7c6",
    "kind": "text",
    "keep": false
@@ -184,7 +186,7 @@
   {
    "id": 37,
    "jp": "戦闘について",
-   "en": "",
+   "en": "Combat",
    "cell": "r8c3",
    "kind": "name",
    "keep": false
@@ -192,7 +194,7 @@
   {
    "id": 38,
    "jp": "戦闘関係についてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A about combat.",
    "cell": "r8c6",
    "kind": "text",
    "keep": false
@@ -200,7 +202,7 @@
   {
    "id": 40,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．戦闘を行うとどうなりますか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What happens in combat?",
    "cell": "r9c4",
    "kind": "text",
    "keep": false
@@ -208,7 +210,7 @@
   {
    "id": 41,
    "jp": "Ａ．攻撃が命中した場合、攻撃力に応じて目標のＨＰが減少します。",
-   "en": "",
+   "en": "A. A hit lowers the target's HP based on attack power.",
    "cell": "r9c5",
    "kind": "text",
    "keep": false
@@ -216,7 +218,7 @@
   {
    "id": 42,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>攻撃が命中した場合、攻撃力に応じて目標のＨＰが減少します。</C></H></W>\n\n　●戦闘では機体が装備している武器を使用して攻撃対象にダメージを与えます。攻撃\n　　力が高いほどダメージは大きくなりますが、攻撃が命中しなければダメージを与え\n　　ることはできません。攻撃は個別コマンド「攻撃」を使用することで行います。\n\n　●ダメージを受け、ＨＰ（ヒットポイント）が０になると、その機体は撃墜されマッ\n　　プ上から取り除かれます。敵を撃墜した場合、<LINK=0>経験値</LINK>・<LINK=1>資金</LINK>などを獲得することが\n　　できます。逆にプレイヤーの機体が撃墜された場合はステージ終了時に資金から修\n　　理費が差し引かれます。\n\n　●攻撃を受けた場合、条件を満たしていれば<LINK=2>反撃</LINK>を行うことができます。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>各ステージでは基本的に、攻撃を行って敵を撃墜しないと勝利条件を満たすこと\n　　　はできません。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>A hit lowers the target's HP based on attack power.</C></H></W>\n\n　●In combat, units damage targets with their equipped weapons.\n　　Higher attack power means more damage, but a miss deals none.\n　　Attack using a unit's Attack command.\n\n　●A unit whose HP (Hit Points) drops to 0 is shot down and removed\n　　from the map. Shooting down enemies earns <LINK=0>EXP</LINK>, <LINK=1>funds</LINK> and more.\n　　If a player unit is shot down, repair costs are deducted from your\n　　funds at the end of the stage.\n\n　●When attacked, a unit can <LINK=2>counter</LINK> if conditions are met.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>In most stages, you must shoot down enemies to meet the\n　　　victory conditions.\n",
    "cell": "r9c6",
    "kind": "text",
    "keep": false
@@ -224,7 +226,7 @@
   {
    "id": 45,
    "jp": "<W=24>Ｑ</W><W=32>２</W>．敵からの攻撃に対して何が行えますか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>2</W>. What can I do when attacked?",
    "cell": "r10c4",
    "kind": "text",
    "keep": false
@@ -232,7 +234,7 @@
   {
    "id": 46,
    "jp": "Ａ．攻撃を受けた場合、反撃、防御、回避を選択することができます。",
-   "en": "",
+   "en": "A. When attacked, choose Counter, Defend or Evade.",
    "cell": "r10c5",
    "kind": "text",
    "keep": false
@@ -240,7 +242,7 @@
   {
    "id": 47,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>攻撃を受けた場合、反撃、防御、回避を選択することができます。</C></H></W>\n\n　<T=30>『反撃』</T>\n　・機体が装備している使用可能な武器で反撃を行います。\n\n　<T=30>『防御』</T>\n　・受けるダメージを半減させることができます。\n\n　<T=30>『回避』</T>\n　・敵の攻撃の<LINK=0>命中率</LINK>を半減させることができます。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>反撃時は<LINK=1>マップ兵器</LINK>、<LINK=2>ダブルアタック</LINK>、<LINK=3>コンビネーション攻撃</LINK>、<LINK=4>マキシマムブレ\n　　≡イク</LINK>などの攻撃方法は使用できません。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>When attacked, choose Counter, Defend or Evade.</C></H></W>\n\n　<T=30>[Counter]</T>\n　・Counterattack with an equipped, usable weapon.\n\n　<T=30>[Defend]</T>\n　・Halves the damage taken.\n\n　<T=30>[Evade]</T>\n　・Halves the enemy's <LINK=0>hit rate</LINK>.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3><LINK=1>Map Weapons</LINK>, <LINK=2>Double Attacks</LINK>, <LINK=3>Combination Attacks</LINK>,\n　　　<LINK=4>Maximum Breaks</LINK> and the like can't be used to counter.\n",
    "cell": "r10c6",
    "kind": "text",
    "keep": false
@@ -248,7 +250,7 @@
   {
    "id": 50,
    "jp": "<W=24>Ｑ</W><W=32>３</W>．敵へのダメージを増やすためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>3</W>. How do I deal more damage?",
    "cell": "r11c4",
    "uses": 3,
    "kind": "text",
@@ -257,7 +259,7 @@
   {
    "id": 51,
    "jp": "Ａ．武器の改造、パイロット養成、気力、精神コマンド、アビリティ効果などを利用します。",
-   "en": "",
+   "en": "A. Use weapon upgrades, pilot training, Will, Spirit Commands, Ability Effects.",
    "cell": "r11c5",
    "kind": "text",
    "keep": false
@@ -265,7 +267,7 @@
   {
    "id": 52,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の方法があります。</C></H></W>\n\n　●<LINK=0>武器の改造</LINK>を行います。\n\n　●<LINK=1>パイロット養成</LINK>で格闘・射撃能力の上昇などを行います。\n\n　●攻撃を行うパイロットの<LINK=2>気力</LINK>を上げます。\n\n　●攻撃目標のパイロットの<LINK=2>気力</LINK>を下げます。\n\n　●<LINK=3>精神コマンド</LINK>で「熱血」などを使用します。\n\n　●<LINK=4>アビリティ効果</LINK>で「格闘↑」「射撃↑」などを使用します。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>メイン側からサブ側の機体、またはサブ側からメイン側の機体に攻撃を行う場合\n　　　は、メイン同士またはサブ同士での戦闘に比べ、ダメージは６５％まで減少しま\n　　　す。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>You can do the following.</C></H></W>\n\n　●<LINK=0>Upgrade weapons</LINK>.\n\n　●Raise Melee, Ranged and more via <LINK=1>Pilot Training</LINK>.\n\n　●Raise the attacking pilot's <LINK=2>Will</LINK>.\n\n　●Lower the target pilot's <LINK=2>Will</LINK>.\n\n　●Use <LINK=3>Spirit Commands</LINK> such as Valor.\n\n　●Use <LINK=4>Ability Effects</LINK> such as Melee↑ and Ranged↑.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Attacks from a main unit on a sub unit, or from a sub on a main,\n　　　deal only 65% of the damage of main-vs-main or sub-vs-sub\n　　　combat.\n",
    "cell": "r11c6",
    "kind": "text",
    "keep": false
@@ -273,7 +275,7 @@
   {
    "id": 55,
    "jp": "<W=24>Ｑ</W><W=32>４</W>．敵からのダメージを減らすためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>4</W>. How do I take less damage?",
    "cell": "r12c4",
    "uses": 4,
    "kind": "text",
@@ -282,7 +284,7 @@
   {
    "id": 56,
    "jp": "Ａ．機体の改造、パイロット養成、気力、精神コマンド、強化パーツ、アビリティ効果などを利用します。",
-   "en": "",
+   "en": "A. Use unit upgrades, pilot training, Will, Spirit Commands, Parts, Ability Effects.",
    "cell": "r12c5",
    "kind": "text",
    "keep": false
@@ -290,7 +292,7 @@
   {
    "id": 57,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の方法があります。</C></H></W>\n\n　●<LINK=0>機体の改造</LINK>で「装甲」の改造を行います。\n\n　●<LINK=1>パイロット養成</LINK>で防御能力の上昇などを行います。\n\n　●攻撃を行うパイロットの<LINK=2>気力</LINK>を下げます。\n\n　●攻撃目標のパイロットの<LINK=2>気力</LINK>を上げます。\n\n　●<LINK=3>精神コマンド</LINK>「鉄壁」などを使用します。\n\n　●<LINK=4>強化パーツ</LINK>「チョバムアーマー」などを装備します。\n\n　●<LINK=5>アビリティ効果</LINK>「装甲↑」などを使用します。\n\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>You can do the following.</C></H></W>\n\n　●Upgrade Armor via <LINK=0>Unit Upgrades</LINK>.\n\n　●Raise Defense and more via <LINK=1>Pilot Training</LINK>.\n\n　●Lower the attacking pilot's <LINK=2>Will</LINK>.\n\n　●Raise the target pilot's <LINK=2>Will</LINK>.\n\n　●Use <LINK=3>Spirit Commands</LINK> such as Wall.\n\n　●Equip <LINK=4>Parts</LINK> such as Chobham Armor.\n\n　●Use <LINK=5>Ability Effects</LINK> such as Armor↑.\n\n",
    "cell": "r12c6",
    "kind": "text",
    "keep": false
@@ -298,7 +300,7 @@
   {
    "id": 60,
    "jp": "<W=24>Ｑ</W><W=32>５</W>．命中率とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>5</W>. What is Hit Rate?",
    "cell": "r13c4",
    "kind": "text",
    "keep": false
@@ -306,7 +308,7 @@
   {
    "id": 61,
    "jp": "Ａ．攻撃が目標に命中するかを判定するための確率です。",
-   "en": "",
+   "en": "A. The chance that an attack hits its target.",
    "cell": "r13c5",
    "kind": "text",
    "keep": false
@@ -314,7 +316,7 @@
   {
    "id": 62,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>攻撃が目標に命中するかを判定するための確率です。</C></H></W>\n\n　●戦闘が行われる直前に、それぞれの攻撃目標に対しての命中率がパーセンテージで\n　　表示されます。\n\n　<S=8><Y=-3><W=32><H=32><I=154></H></W></Y><S=3><LINK=0>回避率</LINK>。\n\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>The chance that an attack hits its target.</C></H></W>\n\n　●Just before combat, the hit rate against each target is shown as\n　　a percentage.\n\n　<S=8><Y=-3><W=32><H=32><I=154></H></W></Y><S=3><LINK=0>Evasion Rate</LINK>.\n\n",
    "cell": "r13c6",
    "kind": "text",
    "keep": false
@@ -322,7 +324,7 @@
   {
    "id": 65,
    "jp": "<W=24>Ｑ</W><W=32>６</W>．回避率とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>6</W>. What's Evasion Rate?",
    "cell": "r14c4",
    "kind": "text",
    "keep": false
@@ -330,7 +332,7 @@
   {
    "id": 66,
    "jp": "Ａ．攻撃を回避する確率です。",
-   "en": "",
+   "en": "A. The chance to dodge.",
    "cell": "r14c5",
    "kind": "text",
    "keep": false
@@ -338,7 +340,7 @@
   {
    "id": 67,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>攻撃を回避する確率です。</C></H></W>\n\n　●<LINK=0>命中率</LINK>のように直接、回避率がパーセンテージで表示されることはありませんが便\n　　宜上、攻撃を回避する確率を回避率と呼びます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>The chance to dodge.</C></H></W>\n\n　●It isn't shown as a percentage like the <LINK=0>hit rate</LINK>, but the\n　　chance to dodge is called the evasion rate.\n",
    "cell": "r14c6",
    "kind": "text",
    "keep": false
@@ -346,7 +348,7 @@
   {
    "id": 70,
    "jp": "<W=24>Ｑ</W><W=32>７</W>．命中率を上げるためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>7</W>. How do I raise Hit Rate?",
    "cell": "r15c4",
    "uses": 2,
    "kind": "text",
@@ -355,7 +357,7 @@
   {
    "id": 71,
    "jp": "Ａ．機体の改造、パイロット養成、精神コマンド、強化パーツ、アビリティ効果などを利用します。",
-   "en": "",
+   "en": "A. Use unit upgrades, pilot training, Spirit Commands, Parts, Ability Effects.",
    "cell": "r15c5",
    "kind": "text",
    "keep": false
@@ -363,7 +365,7 @@
   {
    "id": 72,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の方法があります。</C></H></W>\n\n　●<LINK=0>機体の改造</LINK>で「照準値」の改造を行います。\n\n　●<LINK=1>パイロット養成</LINK>で命中能力の上昇などを行います。\n\n　●<LINK=2>精神コマンド</LINK>「必中」などを使用します。\n\n　●<LINK=3>強化パーツ</LINK>「デュアルセンサー」などを装備します。\n\n　●<LINK=4>アビリティ効果</LINK>「命中↑」を使用します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>You can do the following.</C></H></W>\n\n　●Upgrade Aim via <LINK=0>Unit Upgrades</LINK>.\n\n　●Raise Accuracy and more via <LINK=1>Pilot Training</LINK>.\n\n　●Use <LINK=2>Spirit Commands</LINK> such as Bullseye.\n\n　●Equip <LINK=3>Parts</LINK> such as a Dual Sensor.\n\n　●Use the <LINK=4>Ability Effect</LINK> Accuracy↑.\n",
    "cell": "r15c6",
    "kind": "text",
    "keep": false
@@ -371,7 +373,7 @@
   {
    "id": 75,
    "jp": "<W=24>Ｑ</W><W=32>８</W>．回避率を上げるためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>8</W>. How do I raise Evasion?",
    "cell": "r16c4",
    "uses": 2,
    "kind": "text",
@@ -380,7 +382,7 @@
   {
    "id": 76,
    "jp": "Ａ．機体の改造、パイロット養成、精神コマンド、強化パーツ、アビリティ効果、地形効果などを利用します。",
-   "en": "",
+   "en": "A. Use unit upgrades, pilot training, Spirit Commands, Parts, Ability Effects, terrain.",
    "cell": "r16c5",
    "kind": "text",
    "keep": false
@@ -388,7 +390,7 @@
   {
    "id": 77,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の方法があります。</C></H></W>\n\n　●<LINK=0>機体の改造</LINK>「運動性」の改造を行います。\n\n　●<LINK=1>パイロット養成</LINK>で回避能力の上昇などを行います。\n\n　●<LINK=2>精神コマンド</LINK>「ひらめき」などを使用します。\n\n　●<LINK=3>強化パーツ</LINK>「サーボモーター」などを装備します。\n\n　●<LINK=4>アビリティ効果</LINK>「回避↑」を使用します。\n\n　●<LINK=5>地形効果</LINK>を利用します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>You can do the following.</C></H></W>\n\n　●Upgrade Mobility via <LINK=0>Unit Upgrades</LINK>.\n\n　●Raise Evasion and more via <LINK=1>Pilot Training</LINK>.\n\n　●Use <LINK=2>Spirit Commands</LINK> such as Flash.\n\n　●Equip <LINK=3>Parts</LINK> such as a Servomotor.\n\n　●Use the <LINK=4>Ability Effect</LINK> Evasion↑.\n\n　●Make use of <LINK=5>terrain effects</LINK>.\n",
    "cell": "r16c6",
    "kind": "text",
    "keep": false
@@ -396,7 +398,7 @@
   {
    "id": 80,
    "jp": "<W=24>Ｑ</W><W=32>９</W>．戦闘で得られるものには何がありますか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>9</W>. What can I earn in combat?",
    "cell": "r17c4",
    "kind": "text",
    "keep": false
@@ -404,7 +406,7 @@
   {
    "id": 81,
    "jp": "Ａ．経験値、資金、ＰＰ、強化パーツなどがあります。",
-   "en": "",
+   "en": "A. EXP, funds, PP, Parts and more.",
    "cell": "r17c5",
    "kind": "text",
    "keep": false
@@ -412,7 +414,7 @@
   {
    "id": 82,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下のものがあります。</C></H></W>\n\n　●レベル差に応じた<LINK=0>経験値</LINK>。\n\n　●<LINK=1>資金</LINK>。\n\n　●<LINK=2>ＰＰ</LINK>。\n\n　●<LINK=3>強化パーツ</LINK>。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>You can earn the following.</C></H></W>\n\n　●<LINK=0>EXP</LINK> based on level difference.\n\n　●<LINK=1>Funds</LINK>.\n\n　●<LINK=2>PP</LINK>.\n\n　●<LINK=3>Parts</LINK>.\n",
    "cell": "r17c6",
    "kind": "text",
    "keep": false
@@ -420,7 +422,7 @@
   {
    "id": 85,
    "jp": "武器・攻撃方法について",
-   "en": "",
+   "en": "Weapons & Attacks",
    "cell": "r18c3",
    "kind": "name",
    "keep": false
@@ -428,7 +430,7 @@
   {
    "id": 86,
    "jp": "武器や攻撃方法についてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A about weapons and attacks.",
    "cell": "r18c6",
    "kind": "text",
    "keep": false
@@ -436,7 +438,7 @@
   {
    "id": 88,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．武器のタイプとは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What is Weapon Type?",
    "cell": "r19c4",
    "kind": "text",
    "keep": false
@@ -444,7 +446,7 @@
   {
    "id": 89,
    "jp": "Ａ．パイロットの格闘と射撃能力の、どちらの影響を受けるかを表します。",
-   "en": "",
+   "en": "A. Whether the pilot's Melee or Ranged stat affects it.",
    "cell": "r19c5",
    "kind": "text",
    "keep": false
@@ -452,7 +454,7 @@
   {
    "id": 90,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>パイロットの格闘と射撃能力の、どちらの影響を受けるかを表します。</C></H></W>\n\n　●戦闘を行った場合、格闘武器を使用するときはパイロットの格闘能力、射撃武器を\n　　使用する場合はパイロットの射撃能力が影響を与えます。格闘が高いパイロットは\n　　格闘武器を、射撃が高いパイロットは射撃武器を使用すると敵に、より高いダメー\n　　ジを与えることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Whether the pilot's Melee or Ranged stat affects it.</C></H></W>\n\n　●In combat, Melee weapons use the pilot's Melee stat and Ranged\n　　weapons use the Ranged stat. High-Melee pilots deal more damage\n　　with Melee weapons, high-Ranged pilots with Ranged weapons.\n",
    "cell": "r19c6",
    "kind": "text",
    "keep": false
@@ -460,7 +462,7 @@
   {
    "id": 92,
    "jp": "<W=24>Ｑ</W><W=32>２</W>．武器の種別とはなんですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>2</W>. What is Weapon Class?",
    "cell": "r20c4",
    "kind": "text",
    "keep": false
@@ -468,7 +470,7 @@
   {
    "id": 93,
    "jp": "Ａ．その武器を使用して行える、攻撃方法を表します。",
-   "en": "",
+   "en": "A. The attack methods a weapon can use.",
    "cell": "r20c5",
    "kind": "text",
    "keep": false
@@ -476,7 +478,7 @@
   {
    "id": 94,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>その武器を使用して行える、攻撃方法を表します。</C></H></W>\n\n　●<I=30>に表示されている内容によって、武器の種別は表されます。左側が主種別、\n　　右側が副種別を表します。\n\n　●主種別は以下の３種類です。\n\n　<T=30>『<LINK=0>通常攻撃武器</LINK>』</T>\n　・主種別が空欄になっている武器です（<I=30>）。\n\n　<T=30>『<LINK=1>全体攻撃武器</LINK>』</T>\n　・主種別に<I=32>が表示されている武器です（<I=30><S=-79><I=32><S=39>）。\n\n　<T=30>『<LINK=2>マップ兵器</LINK>』</T>\n　・主種別に<I=31>が表示されている武器です（<I=30><S=-81><I=31><S=33>）。\n\n　●副種別は以下の３種類です。\n\n　<T=30>『<LINK=3>ダブルアタック</LINK>可能武器』</T>\n　・副種別に<I=33>が表示されている武器です（<I=30><S=-30><I=33><S=6>）。\n\n　<T=30>『<LINK=4>コンビネーション攻撃</LINK>可能武器』</T>\n　・副種別に<I=34>が表示されている武器です（<I=30><S=-31><I=34><S=7>）。\n\n　<T=30>『<LINK=5>マキシマムブレイク</LINK>支援用武器』</T>\n　・副種別に<I=185>が表示されている武器です（<I=30><S=-31><I=185><S=7>）。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>上の種別とは別に、<I=40>が表示されている武器は<LINK=6>合体攻撃武器</LINK>を表します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>The attack methods a weapon can use.</C></H></W>\n\n　●The class is shown by the contents of <I=30>. The left side is the\n　　main class, the right side the sub class.\n\n　●There are 3 main classes:\n\n　<T=30>[<LINK=0>Normal Attack Weapon</LINK>]</T>\n　・Main class is blank (<I=30>).\n\n　<T=30>[<LINK=1>ALL Attack Weapon</LINK>]</T>\n　・Main class shows <I=32> (<I=30><S=-79><I=32><S=39>).\n\n　<T=30>[<LINK=2>Map Weapon</LINK>]</T>\n　・Main class shows <I=31> (<I=30><S=-81><I=31><S=33>).\n\n　●There are 3 sub classes:\n\n　<T=30>[<LINK=3>Double Attack</LINK>-Capable]</T>\n　・Sub class shows <I=33> (<I=30><S=-30><I=33><S=6>).\n\n　<T=30>[<LINK=4>Combination Attack</LINK>-Capable]</T>\n　・Sub class shows <I=34> (<I=30><S=-31><I=34><S=7>).\n\n　<T=30>[<LINK=5>Maximum Break</LINK> Support]</T>\n　・Sub class shows <I=185> (<I=30><S=-31><I=185><S=7>).\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Separately, weapons showing <I=40> are <LINK=6>Combined Attack</LINK> weapons.\n",
    "cell": "r20c6",
    "kind": "text",
    "keep": false
@@ -484,7 +486,7 @@
   {
    "id": 97,
    "jp": "<W=24>Ｑ</W><W=32>３</W>．武器の属性とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>3</W>. What are Attributes?",
    "cell": "r21c4",
    "kind": "text",
    "keep": false
@@ -492,7 +494,7 @@
   {
    "id": 98,
    "jp": "Ａ．武器の特徴を表します。",
-   "en": "",
+   "en": "A. A weapon's traits.",
    "cell": "r21c5",
    "kind": "text",
    "keep": false
@@ -500,7 +502,7 @@
   {
    "id": 99,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>武器の特徴を表します。</C></H></W>\n\n　<I=37><S=-76><I=36><S=52>\n　・ステータス異常やバリア貫通能力など、特殊効果を発生させる武器です。\n\n　<I=37><S=-53><I=39><S=29>\n　・個別コマンド「移動」実行後に使用可能な武器です。\n\n　<I=37><S=-30><I=38><S=6>\n　・ビームコートなど特定のバリア系特殊能力でダメージが減少するビーム兵器です。\n\n　<I=37><S=-30><I=106><S=6>\n　・特殊能力「ジャマー」で無効化されるミサイル系武器です。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>A weapon's traits.</C></H></W>\n\n　<I=37><S=-76><I=36><S=52>\n　・Special effects, e.g. status ailments or barrier piercing.\n\n　<I=37><S=-53><I=39><S=29>\n　・Usable after the Move command.\n\n　<I=37><S=-30><I=38><S=6>\n　・Beam weapons; reduced by barriers like Beam Coat.\n\n　<I=37><S=-30><I=106><S=6>\n　・Missile weapons; nullified by Jammer.\n",
    "cell": "r21c6",
    "kind": "text",
    "keep": false
@@ -508,7 +510,7 @@
   {
    "id": 101,
    "jp": "<W=24>Ｑ</W><W=32>４</W>．特殊効果１とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>4</W>. What is Effect 1?",
    "cell": "r22c4",
    "kind": "text",
    "keep": false
@@ -516,7 +518,7 @@
   {
    "id": 102,
    "jp": "Ａ．武器が攻撃目標のステータス異常を起こす効果を持つかを表します。",
-   "en": "",
+   "en": "A. Whether a weapon inflicts status ailments.",
    "cell": "r22c5",
    "kind": "text",
    "keep": false
@@ -524,7 +526,7 @@
   {
    "id": 103,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>武器が攻撃目標のステータス異常を起こす効果を持つかを表します。</C></H></W>\n\n　<T=30>『運動性ダウンＬ（Ｒ系）』</T>\n　・１ターンの間、機体の運動性を減少させます。\n\n　<T=30>『装甲ダウンＬ（Ｒ系）』</T>\n　・１ターンの間、機体の装甲値を減少させます。\n\n　<T=30>『移動力ダウン（Ｒ系）』</T>\n　・１ターンの間、機体の移動力を４だけ減少させます。\n\n　<T=30>『攻撃ダウンＬ（Ｒ系）』</T>\n　・１ターンの間、機体の最終ダメージを減少させます。\n\n　<T=30>『射程ダウン（Ｒ系）』</T>\n　・１ターンの間、機体全武器の最大射程を２だけ減少させます。\n\n　<T=30>『照準値ダウンＬ（Ｒ系）』</T>\n　・１ターンの間、機体の照準値を減少させます。\n\n　<T=30>『ＥＮダウンＬ（Ｒ系）』</T>\n　・機体の現ＥＮ値を減少させます。\n\n　<T=30>『ＥＮ吸収Ｌ（Ｒ系）』</T>\n　・機体の現ＥＮ値を減少させ、その分だけ攻撃機体の現ＥＮ値を上昇させます。\n\n　<T=30>『能力ダウンＬ（Ｐ系）』</T>\n　・１ターンの間、メインパイロットの格闘・射撃・命中・回避・防御・技量の値を減\n　　少させます。\n\n　<T=30>『戦闘不能（Ｐ系）』</T>\n　・１ターンの間、個別コマンドについて、「合流」「解散」「メイン」「能力」以外\n　　のコマンドを使用不可能にして、反撃時のコマンド選択を出来なくさせます。\n\n　<T=30>『気力ダウンＬ（Ｐ系）』</T>\n　・メインパイロットの気力を減少させます。\n\n　<T=30>『ＳＰ吸収Ｌ（Ｐ系）』</T>\n　・メインパイロットの現ＳＰ値を減少させ、その分だけ攻撃機体の、メインパイロッ\n　　トの現ＳＰ値を上昇させます。\n\n　<T=30>『精神禁止（Ｐ系）』</T>\n　・１ターンの間、個別コマンド「精神」を使用不可能にします。また、継続性のある\n　　精神コマンドは全て解除されます。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3><LINK=0>精神コマンド</LINK>「信念」を使用したり、ブロック系<LINK=1>特殊能力</LINK>を利用すれば、ステー\n　　　タス異常を防ぐことができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Whether a weapon inflicts status ailments.</C></H></W>\n\n　<T=30>[Mobility Down L (R)]</T>\n　・Lowers the unit's Mobility for 1 turn.\n\n　<T=30>[Armor Down L (R)]</T>\n　・Lowers the unit's Armor for 1 turn.\n\n　<T=30>[Movement Down (R)]</T>\n　・Lowers the unit's Movement by 4 for 1 turn.\n\n　<T=30>[Attack Down L (R)]</T>\n　・Lowers the unit's final damage for 1 turn.\n\n　<T=30>[Range Down (R)]</T>\n　・Lowers the max range of all the unit's weapons by 2 for 1 turn.\n\n　<T=30>[Aim Down L (R)]</T>\n　・Lowers the unit's Aim for 1 turn.\n\n　<T=30>[EN Down L (R)]</T>\n　・Lowers the unit's current EN.\n\n　<T=30>[EN Drain L (R)]</T>\n　・Lowers the unit's current EN and adds that amount to the attacker's.\n\n　<T=30>[Stat Down L (P)]</T>\n　・Lowers the main pilot's Melee, Ranged, Accuracy, Evasion, Defense\n　　and Skill for 1 turn.\n\n　<T=30>[Disable (P)]</T>\n　・For 1 turn, blocks all commands except Join, Split, Main and\n　　Status, and prevents choosing a response when attacked.\n\n　<T=30>[Will Down L (P)]</T>\n　・Lowers the main pilot's Will.\n\n　<T=30>[SP Drain L (P)]</T>\n　・Lowers the main pilot's current SP and adds that amount to the\n　　attacking unit's main pilot's SP.\n\n　<T=30>[Spirit Seal (P)]</T>\n　・Blocks the Spirit command for 1 turn. All ongoing Spirit Commands\n　　are also canceled.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>The <LINK=0>Spirit Command</LINK> Belief or Block-type <LINK=1>Special Abilities</LINK>\n　　　can prevent status ailments.\n",
    "cell": "r22c6",
    "kind": "text",
    "keep": false
@@ -532,7 +534,7 @@
   {
    "id": 106,
    "jp": "<W=24>Ｑ</W><W=32>５</W>．特殊効果２とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>5</W>. What is Effect 2?",
    "cell": "r23c4",
    "kind": "text",
    "keep": false
@@ -540,7 +542,7 @@
   {
    "id": 107,
    "jp": "Ａ．武器がバリア系特殊能力を無効化する効果を持つかを表します。",
-   "en": "",
+   "en": "A. Whether a weapon negates barrier abilities.",
    "cell": "r23c5",
    "kind": "text",
    "keep": false
@@ -548,7 +550,7 @@
   {
    "id": 108,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>武器がバリア系特殊能力を無効化する効果を持つかを表します。</C></H></W>\n\n　<T=30>『バリア無効』</T>\n　・攻撃対象のバリア系特殊能力を発生させません。\n\n　<T=30>『バリア貫通』</T>\n　・攻撃対象に発生したバリアを貫通します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Whether a weapon negates barrier abilities.</C></H></W>\n\n　<T=30>[Barrier Negate]</T>\n　・Stops the target's barrier abilities from activating.\n\n　<T=30>[Barrier Pierce]</T>\n　・Pierces barriers raised by the target.\n",
    "cell": "r23c6",
    "kind": "text",
    "keep": false
@@ -556,7 +558,7 @@
   {
    "id": 110,
    "jp": "<W=24>Ｑ</W><W=32>６</W>．攻撃の種類には何がありますか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>6</W>. What attack types exist?",
    "cell": "r24c4",
    "kind": "text",
    "keep": false
@@ -564,7 +566,7 @@
   {
    "id": 111,
    "jp": "Ａ．通常攻撃、全体攻撃、マップ兵器、ダブルアタック、コンビネーション攻撃、マキシマムブレイクなどがあります。",
-   "en": "",
+   "en": "A. Normal, ALL, Map Weapon, Double Attack, Combination Attack, Maximum Break, etc.",
    "cell": "r24c5",
    "kind": "text",
    "keep": false
@@ -572,7 +574,7 @@
   {
    "id": 112,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下のような攻撃方法があります。</C></H></W>\n\n　<T=30>『<LINK=0>通常攻撃</LINK>』</T>\n　・通常攻撃武器を使用した攻撃方法です。\n　・<LINK=1>武器の種別</LINK>が<I=30>と表示されている武器を使用します。\n\n　<T=30>『<LINK=2>全体攻撃</LINK>』</T>\n　・全体攻撃武器を使用した攻撃方法です。\n　・武器の種別が<I=30><S=-79><I=32><S=39>と表示されている武器を使用します。\n\n　<T=30>『<LINK=3>マップ兵器</LINK>』</T>\n　・攻撃範囲の全部隊にダメージを与える攻撃方法です。\n　・武器の種別が<I=30><S=-81><I=31><S=33>と表示されている武器を使用します。\n\n　<T=30>『<LINK=4>ダブルアタック</LINK>』</T>\n　・攻撃目標と、それに隣接する部隊を攻撃する攻撃方法です。\n　・武器の種別が<I=30><S=-30><I=33><S=6>と表示されている武器を使用します。\n\n　<T=30>『<LINK=5>コンビネーション攻撃</LINK>』</T>\n　・攻撃目標と、それに連なる部隊を攻撃する攻撃方法です。\n　・武器の種別が<I=30><S=-31><I=34><S=7>と表示されている武器を使用します。\n\n　<T=30>『<LINK=6>マキシマムブレイク</LINK>』</T>\n　・隣接するツインユニット２部隊で行う攻撃方法です。\n　・武器の種別が<I=30><S=-31><I=185><S=7>と表示されている支援用武器を必要とします。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>There are these attack methods.</C></H></W>\n\n　<T=30>[<LINK=0>Normal Attack</LINK>]</T>\n　・Attacks using Normal Attack Weapons.\n　・Uses weapons whose <LINK=1>class</LINK> shows <I=30>.\n\n　<T=30>[<LINK=2>ALL Attack</LINK>]</T>\n　・Attacks using ALL Attack Weapons.\n　・Uses weapons whose class shows <I=30><S=-79><I=32><S=39>.\n\n　<T=30>[<LINK=3>Map Weapon</LINK>]</T>\n　・Damages every squad in the area of effect.\n　・Uses weapons whose class shows <I=30><S=-81><I=31><S=33>.\n\n　<T=30>[<LINK=4>Double Attack</LINK>]</T>\n　・Hits the target and a squad adjacent to it.\n　・Uses weapons whose class shows <I=30><S=-30><I=33><S=6>.\n\n　<T=30>[<LINK=5>Combination Attack</LINK>]</T>\n　・Hits the target and the squads lined up with it.\n　・Uses weapons whose class shows <I=30><S=-31><I=34><S=7>.\n\n　<T=30>[<LINK=6>Maximum Break</LINK>]</T>\n　・Performed by 2 adjacent Twin Units.\n　・Requires a support weapon whose class shows <I=30><S=-31><I=185><S=7>.\n",
    "cell": "r24c6",
    "kind": "text",
    "keep": false
@@ -580,7 +582,7 @@
   {
    "id": 115,
    "jp": "<W=24>Ｑ</W><W=32>７</W>．通常攻撃武器とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>7</W>. Normal Attack Weapons?",
    "cell": "r25c4",
    "kind": "text",
    "keep": false
@@ -588,7 +590,7 @@
   {
    "id": 116,
    "jp": "Ａ．攻撃目標の１機にダメージを与える武器です。",
-   "en": "",
+   "en": "A. Weapons that damage 1 target unit.",
    "cell": "r25c5",
    "kind": "text",
    "keep": false
@@ -596,7 +598,7 @@
   {
    "id": 117,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>攻撃目標の１機にダメージを与える武器です。</C></H></W>\n\n　●主に<LINK=0>通常攻撃</LINK>で使用する武器です。通常攻撃武器<I=30>は、攻撃目標の部隊内の１\n　　機に対して、ダメージを与えることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Weapons that damage 1 target unit.</C></H></W>\n\n　●Mainly used in <LINK=0>Normal Attacks</LINK>. These weapons <I=30> damage\n　　1 unit in the target squad.\n",
    "cell": "r25c6",
    "kind": "text",
    "keep": false
@@ -604,7 +606,7 @@
   {
    "id": 120,
    "jp": "<W=24>Ｑ</W><W=32>８</W>．通常攻撃とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>8</W>. What's Normal Attack?",
    "cell": "r26c4",
    "kind": "text",
    "keep": false
@@ -612,7 +614,7 @@
   {
    "id": 121,
    "jp": "Ａ．通常攻撃武器を使用した攻撃方法です。",
-   "en": "",
+   "en": "A. Attacks using Normal weapons.",
    "cell": "r26c5",
    "kind": "text",
    "keep": false
@@ -620,7 +622,7 @@
   {
    "id": 122,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>通常攻撃武器を使用した攻撃方法です。</C></H></W>\n\n　●通常攻撃は<LINK=0>通常攻撃武器</LINK><I=30>を使用した攻撃方法で、集中攻撃と個別攻撃の２つ\n　　の攻撃方法があります。\n\n　<T=30>『集中攻撃』</T>\n　・攻撃を攻撃目標の部隊内の１機に集中させます。\n\n　<T=30>『個別攻撃』</T>\n　・攻撃を行う<LINK=1>ツインユニット</LINK>の２機が、攻撃目標の部隊の、別々の機体を攻撃します。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>攻撃を行う部隊が<LINK=1>ツインユニット</LINK>でない場合、攻撃方法は集中攻撃になります。\n\n　●通常攻撃に対しては<LINK=2>援護攻撃</LINK>（再攻撃）、<LINK=3>援護防御</LINK>を行うことができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Attacks using Normal weapons.</C></H></W>\n\n　●Normal Attacks use <LINK=0>Normal Attack Weapons</LINK><I=30> and come in 2\n　　forms: Focused and Split.\n\n　<T=30>[Focused Attack]</T>\n　・Concentrates the attack on 1 unit in the target squad.\n\n　<T=30>[Split Attack]</T>\n　・The 2 units of the attacking <LINK=1>Twin Unit</LINK> each hit a different target.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>If the attacker isn't a <LINK=1>Twin Unit</LINK>, it makes a Focused Attack.\n\n　●Normal Attacks allow <LINK=2>Support Attack</LINK> (Attack Again) and\n　　<LINK=3>Support Defense</LINK>.\n",
    "cell": "r26c6",
    "kind": "text",
    "keep": false
@@ -628,7 +630,7 @@
   {
    "id": 125,
    "jp": "<W=24>Ｑ</W><W=32>９</W>．全体攻撃武器とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>9</W>. ALL Attack Weapons?",
    "cell": "r27c4",
    "kind": "text",
    "keep": false
@@ -636,7 +638,7 @@
   {
    "id": 126,
    "jp": "Ａ．攻撃目標の１部隊にダメージを与える武器です。",
-   "en": "",
+   "en": "A. Weapons that damage 1 target squad.",
    "cell": "r27c5",
    "kind": "text",
    "keep": false
@@ -644,7 +646,7 @@
   {
    "id": 127,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>攻撃目標の１部隊にダメージを与える武器です。</C></H></W>\n\n　●主に<LINK=0>全体攻撃</LINK>で使用する武器です。全体攻撃武器<I=30><S=-79><I=32><S=39>は、攻撃目標の１部隊に対\n　　して、ダメージを与えることができます。攻撃目標が<LINK=1>ツインユニット</LINK>の場合は、一\n　　度に２機にダメージを与えることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Weapons that damage 1 target squad.</C></H></W>\n\n　●Mainly used in <LINK=0>ALL Attacks</LINK>. ALL attack weapons <I=30><S=-79><I=32><S=39>\n　　damage 1 target squad. If the target is a <LINK=1>Twin Unit</LINK>, both\n　　units take damage at once.\n",
    "cell": "r27c6",
    "kind": "text",
    "keep": false
@@ -1293,7 +1295,7 @@
   {
    "id": 255,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>特殊スキル「インファイト」を利用します。</C></H></W>\n\n　<T=30>『インファイト』</T>\n　・スキルレベルが高くなるほど搭乗機体の<LINK=0>移動力</LINK>とマップ兵器以外の、格闘武器の攻\n　　撃力が上昇します。パイロット養成で修得させることはできません。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the \"In-Fighter\" skill.</C></H></W>\n\n　<T=30>\"In-Fighter\"</T>\n　・Raises the unit's <LINK=0>Movement</LINK> and the power of its melee weapons (except\n　　MAP weapons) as the skill level rises. Cannot be learned via Pilot Training.\n",
    "cell": "r56c6",
    "kind": "text",
    "keep": false
@@ -1301,7 +1303,7 @@
   {
    "id": 258,
    "jp": "Ａ．特殊スキル「援護攻撃」「再攻撃」「アタッカー」「リベンジ」「インファイト」「ガンファイト」「統率」\n　　「連続攻撃」「連携攻撃」「集束攻撃」「気力限界突破」を利用します。",
-   "en": "",
+   "en": "A. Use skills: Support Attack, Attack Again, Attacker, Revenge, In-Fighter, Gunfighter,\n　　Leadership, Continuous Attack, Cooperative Attack, Focused Attack, Will Limit Break.",
    "cell": "r57c5",
    "kind": "text",
    "keep": false
@@ -1309,7 +1311,7 @@
   {
    "id": 259,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の特殊スキルを利用します。</C></H></W>\n\n　<T=30>『援護攻撃』</T>\n　・隣接する味方機体の<LINK=0>援護攻撃</LINK>に入ります。スキルレベルが高くなるほど援護可能回\n　　数が上昇します。\n\n　<T=30>『再攻撃』</T>\n　・攻撃目標のメインパイロットより技量が２０以上高い場合、攻撃目標の反撃後、自\n　　機に対し援護攻撃を行います。\n\n　<T=30>『アタッカー』</T>\n　・気力が１３０以上の場合、ダメージが１．２倍になります。パイロット養成で修得\n　　させることはできません。\n\n　<T=30>『リベンジ』</T>\n　・反撃時の与えるダメージが１．２倍になります。\n\n　<T=30>『インファイト』</T>\n　・スキルレベルが高くなるほど搭乗機体の<LINK=1>移動力</LINK>とマップ兵器以外の、格闘武器の攻\n　　撃力が上昇します。パイロット養成で修得させることはできません。\n\n　<T=30>『ガンファイト』</T>\n　・スキルレベルが高くなるほど搭乗機体のマップ兵器以外の、射撃武器の攻撃力と射\n　　程が上昇します。パイロット養成で修得させることはできません。\n\n　<T=30>『統率』</T>\n　・<LINK=2>マキシマムブレイク</LINK>を発生させる能力です。パイロット養成で修得させることはで\n　　きません。\n\n　<T=30>『連続攻撃』</T>\n　・コンビネーション攻撃可能な武器で攻撃を行った場合に、その機体に<LINK=3>コンビネーショ\n　≡ン攻撃</LINK>を発生させる能力です。連続攻撃の「レベル数」＋１＝「攻撃可能な機体数」\n　　になります。\n\n　<T=30>『連携攻撃』</T>\n　・<LINK=0>援護攻撃</LINK>での与えるダメージが通常時の７５％→１００％になります。\n\n　<T=30>『集束攻撃』</T>\n　・メイン（サブ）側の機体がサブ（メイン）側の機体を攻撃した場合のダメージが通\n　　常時の６５％→８５％になります。\n\n　<T=30>『気力限界突破』</T>\n　・<LINK=4>気力</LINK>上昇の上限が１７０になります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the following skills.</C></H></W>\n\n　<T=30>\"Support Attack\"</T>\n　・Lets the pilot join adjacent allies' attacks with a <LINK=0>Support Attack</LINK>.\n　　Higher skill levels allow more supports.\n\n　<T=30>\"Attack Again\"</T>\n　・If the pilot's Skill is 20 or more above the target's main pilot, the pilot\n　　makes a support attack for its own unit after the target's counter.\n\n　<T=30>\"Attacker\"</T>\n　・Damage dealt is x1.2 at 130 Will or higher. Cannot be learned via Pilot\n　　Training.\n\n　<T=30>\"Revenge\"</T>\n　・Damage dealt when counterattacking is x1.2.\n\n　<T=30>\"In-Fighter\"</T>\n　・Raises the unit's <LINK=1>Movement</LINK> and the power of its melee weapons (except\n　　MAP weapons) as the skill level rises. Cannot be learned via Pilot Training.\n\n　<T=30>\"Gunfighter\"</T>\n　・Raises the power and range of the unit's ranged weapons (except MAP weapons)\n　　as the skill level rises. Cannot be learned via Pilot Training.\n\n　<T=30>\"Leadership\"</T>\n　・Allows the pilot to trigger a <LINK=2>Maximum Break</LINK>. Cannot be learned via Pilot\n　　Training.\n\n　<T=30>\"Continuous Attack\"</T>\n　・When attacking with a Combination-capable weapon, lets the unit start a\n　　<LINK=3>Combination Attack</LINK>. Skill level + 1 = number of units that can attack.\n\n　<T=30>\"Cooperative Attack\"</T>\n　・Raises <LINK=0>Support Attack</LINK> damage from the usual 75% to 100%.\n\n　<T=30>\"Focused Attack\"</T>\n　・Raises damage when a main (sub) unit attacks a sub (main) unit from the usual\n　　65% to 85%.\n\n　<T=30>\"Will Limit Break\"</T>\n　・Raises the <LINK=4>Will</LINK> cap to 170.\n",
    "cell": "r57c6",
    "kind": "text",
    "keep": false
@@ -1317,7 +1319,7 @@
   {
    "id": 262,
    "jp": "Ａ．特殊スキル「援護防御」「ガード」「底力」を利用します。",
-   "en": "",
+   "en": "A. Use skills: Support Defense, Guard, Potential.",
    "cell": "r58c5",
    "kind": "text",
    "keep": false
@@ -1325,7 +1327,7 @@
   {
    "id": 263,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の特殊スキルを利用します。</C></H></W>\n\n　<T=30>『援護防御』</T>\n　・隣接する味方機体の<LINK=0>援護防御</LINK>に入ります。スキルレベルが高くなるほど援護可能回\n　　数が上昇します。\n\n　<T=30>『ガード』</T>\n　・気力が１３０以上の場合、戦闘で受けるダメージが８０％になります。\n\n　<T=30>『底力』</T>\n　・スキルレベルが高くなるほど、搭乗機体の残りＨＰ％に応じて命中率・回避率・装\n　　甲・クリティカル率が上昇します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the following skills.</C></H></W>\n\n　<T=30>\"Support Defense\"</T>\n　・Lets the pilot defend adjacent allies with a <LINK=0>Support Defense</LINK>.\n　　Higher skill levels allow more supports.\n\n　<T=30>\"Guard\"</T>\n　・Damage taken in battle is reduced to 80% at 130 Will or higher.\n\n　<T=30>\"Potential\"</T>\n　・Raises hit rate, evasion, armor and critical rate based on the unit's\n　　remaining HP%. The effect grows with skill level.\n",
    "cell": "r58c6",
    "kind": "text",
    "keep": false
@@ -1333,7 +1335,7 @@
   {
    "id": 266,
    "jp": "<W=24>Ｑ</W><W=32>５</W>．命中率を上げるためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>5</W>. How do I raise hit rate?",
    "cell": "r59c4",
    "uses": 3,
    "kind": "text",
@@ -1342,7 +1344,7 @@
   {
    "id": 267,
    "jp": "Ａ．特殊スキル「指揮官」「見切り」「天才」「底力」「念動力」「超能力」「ラッキー」を利用します。",
-   "en": "",
+   "en": "A. Use skills: Commander, Predict, Genius, Potential, Telekinesis, ESP, Lucky.",
    "cell": "r59c5",
    "kind": "text",
    "keep": false
@@ -1350,7 +1352,7 @@
   {
    "id": 268,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の特殊スキルを利用します。</C></H></W>\n\n　<T=30>『指揮官』</T>\n　・スキルレベルが高くなるほど自機の指揮範囲内に存在する味方機体の命中率・回避\n　　率を上昇させます。パイロット養成で修得させることはできません。\n\n　<T=30>『見切り』</T>\n　・気力が１３０以上の場合、命中率・回避率が１０だけ上昇します。\n\n　<T=30>『天才』</T>\n　・命中率・回避率・クリティカル発生率が２０だけ上昇します。パイロット養成で修\n　　得させることはできません。\n\n　<T=30>『底力』</T>\n　・スキルレベルが高くなるほど、搭乗機体の残りＨＰ％に応じて命中率・回避率・装\n　　甲・クリティカル率が上昇します。\n\n　<T=30>『念動力』</T>\n　・スキルレベルが高くなるほど、戦闘での命中率・回避率が上昇します。パイロット\n　　養成で修得させることはできません。\n\n　<T=30>『超能力』</T>\n　・スキルレベルが高くなるほど、戦闘での命中率・回避率・クリティカル発生率が上\n　　昇します。パイロット養成で修得させることはできません。\n\n　<T=30>『ラッキー』</T>\n　・発動時、その戦闘での攻撃の命中率・回避率・クリティカル発生率を１００％にし\n　　ます。スキルレベルが高くなるほど発動確率が上昇します。パイロット養成で修得\n　　させることはできません。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the following skills.</C></H></W>\n\n　<T=30>\"Commander\"</T>\n　・Raises hit rate and evasion of allies within the unit's command range as the\n　　skill level rises. Cannot be learned via Pilot Training.\n\n　<T=30>\"Predict\"</T>\n　・Raises hit rate and evasion by 10 at 130 Will or higher.\n\n　<T=30>\"Genius\"</T>\n　・Raises hit rate, evasion and critical rate by 20. Cannot be learned via\n　　Pilot Training.\n\n　<T=30>\"Potential\"</T>\n　・Raises hit rate, evasion, armor and critical rate based on the unit's\n　　remaining HP%. The effect grows with skill level.\n\n　<T=30>\"Telekinesis\"</T>\n　・Raises hit rate and evasion in battle as the skill level rises. Cannot be\n　　learned via Pilot Training.\n\n　<T=30>\"ESP\"</T>\n　・Raises hit rate, evasion and critical rate in battle as the skill level\n　　rises. Cannot be learned via Pilot Training.\n\n　<T=30>\"Lucky\"</T>\n　・When triggered, sets hit rate, evasion and critical rate to 100% for that\n　　battle. Higher skill levels raise the trigger chance. Cannot be learned via\n　　Pilot Training.\n",
    "cell": "r59c6",
    "kind": "text",
    "keep": false
@@ -1358,7 +1360,7 @@
   {
    "id": 270,
    "jp": "<W=24>Ｑ</W><W=32>６</W>．回避率を上げるためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>6</W>. How do I raise evasion?",
    "cell": "r60c4",
    "uses": 3,
    "kind": "text",
@@ -1367,7 +1369,7 @@
   {
    "id": 271,
    "jp": "Ａ．特殊スキル「指揮官」「見切り」「天才」「予知」「底力」「念動力」「超能力」「ラッキー」を利用します。",
-   "en": "",
+   "en": "A. Use skills: Commander, Predict, Genius, Foresight, Potential, Telekinesis, ESP, Lucky.",
    "cell": "r60c5",
    "kind": "text",
    "keep": false
@@ -1375,7 +1377,7 @@
   {
    "id": 272,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の特殊スキルを利用します。</C></H></W>\n\n　<T=30>『指揮官』</T>\n　・スキルレベルが高くなるほど自機の指揮範囲内に存在する味方機体の命中率・回避\n　　率を上昇させます。パイロット養成で修得させることはできません。\n\n　<T=30>『見切り』</T>\n　・気力が１３０以上の場合、命中率・回避率が１０だけ上昇します。\n\n　<T=30>『天才』</T>\n　・命中率・回避率・クリティカル発生率が２０だけ上昇します。パイロット養成で修\n　　得させることはできません。\n\n　<T=30>『予知』</T>\n　・気力が１３０以上の場合、敵対勢力のフェイズのみ、最終的な回避率が３０だけ上\n　　昇します。パイロット養成で修得させることはできません。\n\n　<T=30>『底力』</T>\n　・スキルレベルが高くなるほど、搭乗機体の残りＨＰ％に応じて命中率・回避率・装\n　　甲・クリティカル率が上昇します。\n\n　<T=30>『念動力』</T>\n　・スキルレベルが高くなるほど、戦闘での命中率・回避率が上昇します。パイロット\n　　養成で修得させることはできません。\n\n　<T=30>『超能力』</T>\n　・スキルレベルが高くなるほど、戦闘での命中率・回避率・クリティカル発生率が上\n　　昇します。パイロット養成で修得させることはできません。\n\n　<T=30>『ラッキー』</T>\n　・発動時、その戦闘での攻撃の命中率・回避率・クリティカル発生率を１００％にし\n　　ます。スキルレベルが高くなるほど発動確率が上昇します。パイロット養成で修得\n　　させることはできません。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the following skills.</C></H></W>\n\n　<T=30>\"Commander\"</T>\n　・Raises hit rate and evasion of allies within the unit's command range as the\n　　skill level rises. Cannot be learned via Pilot Training.\n\n　<T=30>\"Predict\"</T>\n　・Raises hit rate and evasion by 10 at 130 Will or higher.\n\n　<T=30>\"Genius\"</T>\n　・Raises hit rate, evasion and critical rate by 20. Cannot be learned via\n　　Pilot Training.\n\n　<T=30>\"Foresight\"</T>\n　・At 130 Will or higher, raises final evasion by 30 during enemy phases only.\n　　Cannot be learned via Pilot Training.\n\n　<T=30>\"Potential\"</T>\n　・Raises hit rate, evasion, armor and critical rate based on the unit's\n　　remaining HP%. The effect grows with skill level.\n\n　<T=30>\"Telekinesis\"</T>\n　・Raises hit rate and evasion in battle as the skill level rises. Cannot be\n　　learned via Pilot Training.\n\n　<T=30>\"ESP\"</T>\n　・Raises hit rate, evasion and critical rate in battle as the skill level\n　　rises. Cannot be learned via Pilot Training.\n\n　<T=30>\"Lucky\"</T>\n　・When triggered, sets hit rate, evasion and critical rate to 100% for that\n　　battle. Higher skill levels raise the trigger chance. Cannot be learned via\n　　Pilot Training.\n",
    "cell": "r60c6",
    "kind": "text",
    "keep": false
@@ -1383,7 +1385,7 @@
   {
    "id": 274,
    "jp": "<W=24>Ｑ</W><W=32>７</W>．気力を上げるためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>7</W>. How do I raise Will?",
    "cell": "r61c4",
    "uses": 2,
    "kind": "text",
@@ -1392,7 +1394,7 @@
   {
    "id": 275,
    "jp": "Ａ．特殊スキル「闘争心」「戦意高揚」「気力＋（回避）」「気力＋（命中）」「気力＋（ダメージ）」\n　　「気力＋（撃破）」を利用します。",
-   "en": "",
+   "en": "A. Use skills: Resolve, Morale, Will+ (Evade), Will+ (Hit), Will+ (Damaged),\n　　Will+ (Kill).",
    "cell": "r61c5",
    "kind": "text",
    "keep": false
@@ -1400,7 +1402,7 @@
   {
    "id": 276,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の特殊スキルを利用します。</C></H></W>\n\n　<T=30>『闘争心』</T>\n　・出撃時の気力が５だけ上昇します。\n\n　<T=30>『戦意高揚』</T>\n　・自軍フェイズ開始時に、気力が２上昇します。\n\n　<T=30>『気力＋（回避）』</T>\n　・攻撃を回避した場合、気力が本来の増減に加えて更に１上昇します。\n\n　<T=30>『気力＋（命中）』</T>\n　・敵への攻撃が命中した場合、気力が本来の増減に加えて更に１上昇します。\n\n　<T=30>『気力＋（ダメージ）』</T>\n　・攻撃でダメージを受けた場合、気力が本来の増減に加えて更に２上昇します。\n\n　<T=30>『気力＋（撃破）』</T>\n　・敵が撃墜された場合、気力が本来の増減に加えて更に１上昇します。\n\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the following skills.</C></H></W>\n\n　<T=30>\"Resolve\"</T>\n　・Will starts 5 higher when deployed.\n\n　<T=30>\"Morale\"</T>\n　・Will rises by 2 at the start of each player phase.\n\n　<T=30>\"Will+ (Evade)\"</T>\n　・When evading an attack, Will rises by 1 more than usual.\n\n　<T=30>\"Will+ (Hit)\"</T>\n　・When hitting an enemy, Will rises by 1 more than usual.\n\n　<T=30>\"Will+ (Damaged)\"</T>\n　・When taking damage from an attack, Will rises by 2 more than usual.\n\n　<T=30>\"Will+ (Kill)\"</T>\n　・When an enemy is shot down, Will rises by 1 more than usual.\n\n",
    "cell": "r61c6",
    "kind": "text",
    "keep": false
@@ -1408,7 +1410,7 @@
   {
    "id": 278,
    "jp": "<W=24>Ｑ</W><W=32>８</W>．資金をより多く得るためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>8</W>. How do I earn more funds?",
    "cell": "r62c4",
    "kind": "text",
    "keep": false
@@ -1416,7 +1418,7 @@
   {
    "id": 279,
    "jp": "Ａ．特殊スキル「強運」を利用します。",
-   "en": "",
+   "en": "A. Use the Fortune skill.",
    "cell": "r62c5",
    "kind": "text",
    "keep": false
@@ -1424,7 +1426,7 @@
   {
    "id": 280,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>特殊スキル「強運」を利用します。</C></H></W>\n\n　<T=30>『強運』</T>\n　・敵機体撃墜時の獲得資金が１．２倍になります。幸運などの効果と重複した場合で\n　　も得られる資金の最大値は２倍までです。パイロット養成で修得させることはでき\n　　ません。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the \"Fortune\" skill.</C></H></W>\n\n　<T=30>\"Fortune\"</T>\n　・Funds earned from shooting down enemies are x1.2. Even when combined with\n　　effects like Luck, funds earned max out at x2. Cannot be learned via Pilot\n　　Training.\n",
    "cell": "r62c6",
    "kind": "text",
    "keep": false
@@ -1432,7 +1434,7 @@
   {
    "id": 282,
    "jp": "<W=24>Ｑ</W><W=32>９</W>．経験値をより多く得るためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>9</W>. How do I earn more EXP?",
    "cell": "r63c4",
    "kind": "text",
    "keep": false
@@ -1440,7 +1442,7 @@
   {
    "id": 283,
    "jp": "Ａ．特殊スキル「ＥＸＰアップ」「ラーニング」を利用します。",
-   "en": "",
+   "en": "A. Use skills: EXP Up, Learning.",
    "cell": "r63c5",
    "kind": "text",
    "keep": false
@@ -1448,7 +1450,7 @@
   {
    "id": 284,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の特殊スキルが挙げられます。</C></H></W>\n\n　<T=30>『ＥＸＰアップ』</T>\n　・戦闘での獲得経験値が１．２倍になります。\n\n　<T=30>『ラーニング』</T>\n　・サブ機体での戦闘時、メイン機体と同様の経験値・ＰＰを獲得できます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>The following skills help.</C></H></W>\n\n　<T=30>\"EXP Up\"</T>\n　・EXP earned in battle is x1.2.\n\n　<T=30>\"Learning\"</T>\n　・When fighting as a sub unit, earns the same EXP and PP as the main unit.\n",
    "cell": "r63c6",
    "kind": "text",
    "keep": false
@@ -1456,7 +1458,7 @@
   {
    "id": 286,
    "jp": "<W=24>Ｑ</W><W=16>１０</W>．その他、役立つものはありますか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=16>10</W>. Anything else useful?",
    "cell": "r64c4",
    "kind": "text",
    "keep": false
@@ -1464,7 +1466,7 @@
   {
    "id": 287,
    "jp": "Ａ．特殊スキル「ＳＰ回復」「集中力」「ＳＰアップ」「カウンター」「Ｅセーブ」「Ｂセーブ」「ヒット＆アウェイ」\n　　「修理技能」「補給技能」「連続行動」などがあります。",
-   "en": "",
+   "en": "A. Skills such as SP Regen, Concentrate, SP Up, Counter, Energy Save, Bullet Save,\n　　Hit&Away, Mechanic, Resupply and Continuous Action.",
    "cell": "r64c5",
    "kind": "text",
    "keep": false
@@ -1472,7 +1474,7 @@
   {
    "id": 288,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の特殊スキルがあります。</C></H></W>\n\n　<T=30>『ＳＰ回復』</T>\n　・自軍フェイズ開始時に、ＳＰが１０だけ回復します。パイロット養成で修得させる\n　　ことはできません。\n\n　<T=30>『集中力』</T>\n　・精神コマンド・ツイン精神コマンド使用時の消費ポイントが８０％になります。\n\n　<T=30>『ＳＰアップ』</T>\n　・スキルレベルが高くなるほど最大精神ポイントが上昇します。\n\n　<T=30>『カウンター』</T>\n　・発動時、敵からの攻撃前に反撃を行うことができます。スキルレベルが高くなるほ\n　　ど発動確率が上昇します。\n\n　<T=30>『Ｅセーブ』</T>\n　・武器の消費ＥＮが通常の７０％になります。\n\n　<T=30>『Ｂセーブ』</T>\n　・武器の最大弾数が通常の１．５倍になります。\n\n　<T=30>『ヒット＆アウェイ』</T>\n　・移動せずに攻撃した場合、その後に移動ができます。\n\n　<T=30>『修理技能』</T>\n　・個別コマンド「修理」を使用時に、ＨＰ回復量が１．２倍になります。\n\n　<T=30>『補給技能』</T>\n　・移動後に個別コマンド「補給」を使用可能になります。\n\n　<T=30>『連続行動』</T>\n　・気力１２０以上の状態で、攻撃した敵部隊を壊滅させた場合、行動終了せずもう一\n　　度行動できます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>There are the following skills.</C></H></W>\n\n　<T=30>\"SP Regen\"</T>\n　・Recovers 10 SP at the start of each player phase. Cannot be learned via\n　　Pilot Training.\n\n　<T=30>\"Concentrate\"</T>\n　・Spirit Commands and Twin Commands cost 80% of their normal SP.\n\n　<T=30>\"SP Up\"</T>\n　・Raises max SP as the skill level rises.\n\n　<T=30>\"Counter\"</T>\n　・When triggered, the pilot strikes back before the enemy's attack. Higher\n　　skill levels raise the trigger chance.\n\n　<T=30>\"Energy Save\"</T>\n　・Weapons use 70% of their normal EN.\n\n　<T=30>\"Bullet Save\"</T>\n　・Weapons' max ammo is x1.5.\n\n　<T=30>\"Hit&Away\"</T>\n　・After attacking without moving, the unit can still move.\n\n　<T=30>\"Mechanic\"</T>\n　・HP restored with the Repair command is x1.2.\n\n　<T=30>\"Resupply\"</T>\n　・The Resupply command can be used after moving.\n\n　<T=30>\"Continuous Action\"</T>\n　・At 120 Will or higher, wiping out the attacked enemy squad lets the unit\n　　act again instead of ending its turn.\n",
    "cell": "r64c6",
    "kind": "text",
    "keep": false
@@ -1480,7 +1482,7 @@
   {
    "id": 290,
    "jp": "アビリティについて",
-   "en": "",
+   "en": "About Abilities",
    "cell": "r65c3",
    "kind": "name",
    "keep": false
@@ -1488,7 +1490,7 @@
   {
    "id": 291,
    "jp": "アビリティについてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A about Abilities.",
    "cell": "r65c6",
    "kind": "text",
    "keep": false
@@ -1496,7 +1498,7 @@
   {
    "id": 293,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．アビリティとは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What are Abilities?",
    "cell": "r66c4",
    "kind": "text",
    "keep": false
@@ -1504,7 +1506,7 @@
   {
    "id": 294,
    "jp": "Ａ．ユニットに同じものを３個装備するとアビリティ効果が得られます。",
-   "en": "",
+   "en": "A. Equip 3 of the same Ability on a unit to get its effect.",
    "cell": "r66c5",
    "kind": "text",
    "keep": false
@@ -1512,7 +1514,7 @@
   {
    "id": 295,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>ユニットに同じものを３個装備するとアビリティ効果が得られます。</C></H></W>\n\n　●アビリティは機体、もしくはパイロットが装備可能で、それぞれ３個ずつ装備可能\n　　です。装備しているアビリティの変更はインターミッションの「アビリティ」コマ\n　　ンドで行います。\n\n　●機体とそれに搭乗するメインパイロットとを合計した６個の内、同じアビリティが\n　　３個以上揃っている場合、ダメージや命中率が上昇するなどの、アビリティ効果を\n　　得ることができます。\n\n　●<LINK=0>ツインユニット</LINK>の場合は、２機とそれに搭乗する２人のメインパイロットの、１２\n　　個のスロットが対象になり、両方の機体についてアビリティ効果を得ることができ\n　　ます。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>アビリティの数が合計３個に満たない場合、そのアビリティは無駄になります。\n　　　逆に合計４個以上になった場合、３を超える分のアビリティは無駄になります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Equip 3 of the same Ability on a unit to get its effect.</C></H></W>\n\n　●Units and pilots can each equip 3 Abilities. Change equipped Abilities with\n　　the Intermission \"Ability\" command.\n\n　●If 3 or more of the same Ability are among the 6 slots of a unit and its main\n　　pilot, you get the Ability effect, such as more damage or a higher hit rate.\n\n　●For a <LINK=0>Twin Unit</LINK>, the 12 slots of both units and their 2 main pilots\n　　count, and both units get the Ability effect.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>If an Ability totals fewer than 3, it is wasted.\n　　　If it totals 4 or more, any beyond 3 are wasted.\n",
    "cell": "r66c6",
    "kind": "text",
    "keep": false
@@ -1520,7 +1522,7 @@
   {
    "id": 297,
    "jp": "Ａ．機体、パイロットに「移動力＋」を３個装備させます。",
-   "en": "",
+   "en": "A. Equip 3 \"Move+\" on the unit and pilot.",
    "cell": "r67c5",
    "kind": "text",
    "keep": false
@@ -1528,7 +1530,7 @@
   {
    "id": 298,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>機体、パイロットに「移動力＋」を３個装備させます。</C></H></W>\n\n　<T=30>『移動力＋』</T>\n　・自ユニットの移動力が１だけ上昇します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Equip 3 \"Move+\" on the unit and pilot.</C></H></W>\n\n　<T=30>\"Move+\"</T>\n　・Raises the unit's Movement by 1.\n",
    "cell": "r67c6",
    "kind": "text",
    "keep": false
@@ -1536,7 +1538,7 @@
   {
    "id": 300,
    "jp": "Ａ．機体、パイロットに「格闘↑」「射撃↑」「反撃↑」「ビーム↑」「実弾↑」「念動↑」「援攻↑」を３個装備させます。",
-   "en": "",
+   "en": "A. Equip 3 Melee Up, Ranged Up, Counter Up, Beam Up, Ammo Up, TK Up or Sup Atk Up.",
    "cell": "r68c5",
    "kind": "text",
    "keep": false
@@ -1544,7 +1546,7 @@
   {
    "id": 301,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>機体、パイロットに以下の、同じアビリティを３個装備させます。</C></H></W>\n\n　<T=30>『格闘↑』</T>\n　・自ユニットの格闘武器の与えるダメージが５％上昇します。\n\n　<T=30>『射撃↑』</T>\n　・自ユニットの射撃武器の与えるダメージが５％上昇します。\n\n　<T=30>『反撃↑』</T>\n　・自ユニットの反撃時の与えるダメージが５％上昇します。\n\n　<T=30>『ビーム↑』</T>\n　・自ユニットのビーム系武器の与えるダメージが５％上昇します。\n\n　<T=30>『実弾↑』</T>\n　・自ユニットの弾数系武器の与えるダメージが５％上昇します。\n\n　<T=30>『念動↑』</T>\n　・自ユニットの念動系武器の与えるダメージが５％上昇します。\n\n　<T=30>『援攻↑』</T>\n　・自ユニットの援護攻撃時の与えるダメージが５％上昇します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Equip 3 of one of these Abilities on the unit and pilot.</C></H></W>\n\n　<T=30>\"Melee Up\"</T>\n　・Damage dealt by the unit's melee weapons rises by 5%.\n\n　<T=30>\"Ranged Up\"</T>\n　・Damage dealt by the unit's ranged weapons rises by 5%.\n\n　<T=30>\"Counter Up\"</T>\n　・Damage dealt by the unit when counterattacking rises by 5%.\n\n　<T=30>\"Beam Up\"</T>\n　・Damage dealt by the unit's beam weapons rises by 5%.\n\n　<T=30>\"Ammo Up\"</T>\n　・Damage dealt by the unit's ammo-based weapons rises by 5%.\n\n　<T=30>\"TK Up\"</T>\n　・Damage dealt by the unit's telekinetic weapons rises by 5%.\n\n　<T=30>\"Sup Atk Up\"</T>\n　・Damage dealt by the unit in Support Attacks rises by 5%.\n",
    "cell": "r68c6",
    "kind": "text",
    "keep": false
@@ -1552,7 +1554,7 @@
   {
    "id": 303,
    "jp": "Ａ．機体、パイロットに「装甲↑」「援防↑」を３個装備させます。",
-   "en": "",
+   "en": "A. Equip 3 Armor Up or Sup Def Up on unit and pilot.",
    "cell": "r69c5",
    "kind": "text",
    "keep": false
@@ -1560,7 +1562,7 @@
   {
    "id": 304,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>機体、パイロットに以下の、同じアビリティを３個装備させます。</C></H></W>\n\n　<T=30>『装甲↑』</T>\n　・自ユニットの受けるダメージが５％減少します。\n\n　<T=30>『援防↑』</T>\n　・自ユニットの援護防御時の受けるダメージが５％減少します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Equip 3 of one of these Abilities on the unit and pilot.</C></H></W>\n\n　<T=30>\"Armor Up\"</T>\n　・Damage taken by the unit drops by 5%.\n\n　<T=30>\"Sup Def Up\"</T>\n　・Damage taken by the unit in Support Defense drops by 5%.\n",
    "cell": "r69c6",
    "kind": "text",
    "keep": false
@@ -1568,7 +1570,7 @@
   {
    "id": 306,
    "jp": "Ａ．機体、パイロットに「命中↑」を３個装備させます。",
-   "en": "",
+   "en": "A. Equip 3 \"Hit Up\" on the unit and pilot.",
    "cell": "r70c5",
    "kind": "text",
    "keep": false
@@ -1576,7 +1578,7 @@
   {
    "id": 307,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>機体、パイロットに「命中↑」を３個装備させます。</C></H></W>\n\n　<T=30>『命中↑』</T>\n　・自ユニットの命中率が５だけ上昇します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Equip 3 \"Hit Up\" on the unit and pilot.</C></H></W>\n\n　<T=30>\"Hit Up\"</T>\n　・Raises the unit's hit rate by 5.\n",
    "cell": "r70c6",
    "kind": "text",
    "keep": false
@@ -1584,7 +1586,7 @@
   {
    "id": 309,
    "jp": "Ａ．機体、パイロットに「回避↑」を３個装備させます。",
-   "en": "",
+   "en": "A. Equip 3 \"Evade Up\" on the unit and pilot.",
    "cell": "r71c5",
    "kind": "text",
    "keep": false
@@ -1592,7 +1594,7 @@
   {
    "id": 310,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>機体、パイロットに「回避↑」を３個装備させます。</C></H></W>\n\n　<T=30>『回避↑』</T>\n　・自ユニットの回避率が５だけ上昇します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Equip 3 \"Evade Up\" on the unit and pilot.</C></H></W>\n\n　<T=30>\"Evade Up\"</T>\n　・Raises the unit's evasion by 5.\n",
    "cell": "r71c6",
    "kind": "text",
    "keep": false
@@ -1600,7 +1602,7 @@
   {
    "id": 312,
    "jp": "<W=24>Ｑ</W><W=32>７</W>．その他、役立つものはありますか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>7</W>. Anything else useful?",
    "cell": "r72c4",
    "kind": "text",
    "keep": false
@@ -1608,7 +1610,7 @@
   {
    "id": 313,
    "jp": "Ａ．「ＣＲＴ↑」「経験値＋」「資金＋」「修理＋」「ＨＰ＋」「ＥＮ＋」「ブロック」「バリア＋」「射程＋」などがあります。",
-   "en": "",
+   "en": "A. There are CRT Up, EXP+, Funds+, Repair+, HP+, EN+, Block, Barrier+, Range+ and more.",
    "cell": "r72c5",
    "kind": "text",
    "keep": false
@@ -1616,7 +1618,7 @@
   {
    "id": 314,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下のアビリティがあります。</C></H></W>\n\n　<T=30>『ＣＲＴ↑』</T>\n　・自ユニットのクリティカル発生率が１０だけ上昇します。\n\n　<T=30>『経験値＋』</T>\n　・自ユニットの、戦闘での獲得経験値が１０％上昇します。\n\n　<T=30>『資金＋』</T>\n　・自ユニットの、戦闘での獲得資金が１０％上昇します。\n\n　<T=30>『修理＋』</T>\n　・自ユニットの修理時の回復率が１０％上昇します。\n\n　<T=30>『ＨＰ＋』</T>\n　・自ユニットの最大ＨＰが５％上昇します。\n\n　<T=30>『ＥＮ＋』</T>\n　・自ユニットの最大ＥＮが５％上昇します。\n\n　<T=30>『ブロック』</T>\n　・自ユニットに「フルブロック」の特殊能力を与えます。\n\n　<T=30>『バリア＋』</T>\n　・自ユニットのバリア系特殊能力が２００上昇します（バリアが無い場合は無効）。\n\n　<T=30>『射程＋』</T>\n　・自ユニットのマップ兵器、射程１の武器以外の武器の射程が１だけ上昇します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>There are the following Abilities.</C></H></W>\n\n　<T=30>\"CRT Up\"</T>\n　・Raises the unit's critical rate by 10.\n\n　<T=30>\"EXP+\"</T>\n　・Raises the EXP the unit earns in battle by 10%.\n\n　<T=30>\"Funds+\"</T>\n　・Raises the funds the unit earns in battle by 10%.\n\n　<T=30>\"Repair+\"</T>\n　・Raises the unit's recovery rate when repaired by 10%.\n\n　<T=30>\"HP+\"</T>\n　・Raises the unit's max HP by 5%.\n\n　<T=30>\"EN+\"</T>\n　・Raises the unit's max EN by 5%.\n\n　<T=30>\"Block\"</T>\n　・Gives the unit the \"Full Block\" ability.\n\n　<T=30>\"Barrier+\"</T>\n　・Raises the unit's barrier abilities by 200 (no effect without a barrier).\n\n　<T=30>\"Range+\"</T>\n　・Raises the range of the unit's weapons by 1, except MAP and range-1 weapons.\n",
    "cell": "r72c6",
    "kind": "text",
    "keep": false
@@ -1624,7 +1626,7 @@
   {
    "id": 316,
    "jp": "ＨＰ・ＥＮ等の回復について",
-   "en": "",
+   "en": "HP/EN Recovery",
    "cell": "r73c3",
    "kind": "name",
    "keep": false
@@ -1632,7 +1634,7 @@
   {
    "id": 317,
    "jp": "サポートやＨＰ・ＥＮ等の回復についてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A about support and HP/EN recovery.",
    "cell": "r73c6",
    "kind": "text",
    "keep": false
@@ -1640,7 +1642,7 @@
   {
    "id": 319,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．サポートユニットとは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What is a support unit?",
    "cell": "r74c4",
    "kind": "text",
    "keep": false
@@ -1648,7 +1650,7 @@
   {
    "id": 320,
    "jp": "Ａ．特殊能力や精神コマンドで前衛のユニットを補助するユニットです。",
-   "en": "",
+   "en": "A. Backs up the front line with abilities and Spirit Commands.",
    "cell": "r74c5",
    "kind": "text",
    "keep": false
@@ -1656,7 +1658,7 @@
   {
    "id": 321,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>特殊能力や精神コマンドで前衛のユニットを補助するユニットです。</C></H></W>\n\n　●特殊能力で前衛のユニットのＨＰ・ＥＮ回復させたり、<LINK=0>精神コマンド</LINK>でバックアッ\n　　プします。敵から攻撃を受けないよう気を付ければ、サポートユニットに高い戦闘\n　　能力は必要ありませんが、パイロットのレベルを上昇させるためには、戦闘や個別\n　　コマンド「修理」「補給」などで経験値を獲得させる必要があります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>A unit that backs up the front line with abilities and Spirit Commands.</C></H></W>\n\n　●It restores front-line units' HP and EN with its abilities and backs them up\n　　with <LINK=0>Spirit Commands</LINK>. If it stays out of enemy attacks, a support unit\n　　doesn't need strong combat ability, but to level up its pilot, it must earn\n　　EXP through battle or unit commands such as Repair and Resupply.\n",
    "cell": "r74c6",
    "kind": "text",
    "keep": false
@@ -1664,7 +1666,7 @@
   {
    "id": 323,
    "jp": "<W=24>Ｑ</W><W=32>２</W>．修理とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>2</W>. What is Repair?",
    "cell": "r75c4",
    "kind": "text",
    "keep": false
@@ -1672,7 +1674,7 @@
   {
    "id": 324,
    "jp": "Ａ．減少したＨＰを回復させる特殊能力です。",
-   "en": "",
+   "en": "A. An ability that restores lost HP.",
    "cell": "r75c5",
    "kind": "text",
    "keep": false
@@ -1680,7 +1682,7 @@
   {
    "id": 325,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>減少したＨＰを回復させる特殊能力です。</C></H></W>\n\n　●特殊能力「修理装置」を持つ機体は個別コマンド「修理」を使用でき、射程内に位\n　　置する部隊のＨＰを回復させることができます。回復量はパイロットのＬｖに比例\n　　して上昇します。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>インターミッションの「武器換装」コマンドで、機体に修理装置を装備させた場\n　　　合、修理装置の特殊能力を得ることができます。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>個別コマンド「修理」を実行した場合、経験値を得ることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>An ability that restores lost HP.</C></H></W>\n\n　●Units with the \"Repair Module\" ability can use the Repair command to restore\n　　the HP of squads within range. The amount restored rises with pilot level.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Equipping a Repair Module via the Intermission \"Replace\n　　　Weapons\" command gives the unit the Repair Module ability.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Using the Repair command earns EXP.\n",
    "cell": "r75c6",
    "kind": "text",
    "keep": false
@@ -1688,7 +1690,7 @@
   {
    "id": 327,
    "jp": "<W=24>Ｑ</W><W=32>３</W>．補給とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>3</W>. What is Resupply?",
    "cell": "r76c4",
    "kind": "text",
    "keep": false
@@ -1696,7 +1698,7 @@
   {
    "id": 328,
    "jp": "Ａ．減少したＥＮ・弾数を回復させる特殊能力です。",
-   "en": "",
+   "en": "A. An ability that restores lost EN and ammo.",
    "cell": "r76c5",
    "kind": "text",
    "keep": false
@@ -1704,7 +1706,7 @@
   {
    "id": 329,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>減少したＥＮ・弾数を回復させる特殊能力です。</C></H></W>\n\n　●特殊能力「補給装置」を持つ機体は個別コマンド「補給」を使用でき、射程内に位\n　　置する機体のＥＮ・弾数値を全回復させます。対象の機体は気力が１０下がります。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>インターミッションの「武器換装」コマンドで、機体に補給装置を装備させた場\n　　　合、補給装置の特殊能力を得ることができます。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>個別コマンド「補給」を実行した場合、経験値を得ることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>An ability that restores lost EN and ammo.</C></H></W>\n\n　●Units with the \"Resupply Module\" ability can use the Resupply command to fully\n　　restore the EN and ammo of units within range. The target loses 10 Will.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Equipping a Resupply Module via the Intermission \"Replace\n　　　Weapons\" command gives the unit the Resupply Module ability.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Using the Resupply command earns EXP.\n",
    "cell": "r76c6",
    "kind": "text",
    "keep": false
@@ -1712,7 +1714,7 @@
   {
    "id": 331,
    "jp": "<W=24>Ｑ</W><W=32>４</W>．ＨＰを回復させるためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>4</W>. How do I restore HP?",
    "cell": "r77c4",
    "kind": "text",
    "keep": false
@@ -1720,7 +1722,7 @@
   {
    "id": 332,
    "jp": "Ａ．修理、特殊能力、地形効果、強化パーツなどを利用します。",
-   "en": "",
+   "en": "A. Use Repair, abilities, terrain effects, parts, etc.",
    "cell": "r77c5",
    "kind": "text",
    "keep": false
@@ -1728,7 +1730,7 @@
   {
    "id": 333,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の方法があります。</C></H></W>\n\n　●個別コマンド「<LINK=0>修理</LINK>」を使用します。\n\n　●<LINK=1>精神コマンド</LINK>「根性」などを使用します。\n\n　●戦艦に搭載します。搭載中は自軍フェイズ開始時にＨＰ・ＥＮが１５％、弾数値が\n　　全回復します。搭載された機体は<LINK=2>気力</LINK>が５下がります。ただし、搭載によって気力\n　　が１００未満になることはありません。\n\n　●<LINK=3>特殊能力</LINK>「ＨＰ回復」を利用します。\n\n　<T=30>『ＨＰ回復（小）』</T>\n　・自軍フェイズ開始時に、ＨＰが最大値の１０％分だけ回復します。\n\n　<T=30>『ＨＰ回復（中）』</T>\n　・自軍フェイズ開始時に、ＨＰが最大値の２０％分だけ回復します。\n\n　<T=30>『ＨＰ回復（大）』</T>\n　・自軍フェイズ開始時に、ＨＰが最大値の３０％分だけ回復します。\n\n　●<LINK=4>地形効果</LINK>を利用します。\n\n　●<LINK=5>強化パーツ</LINK>「リペアキット」などを使用します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>There are the following methods.</C></H></W>\n\n　●Use the <LINK=0>Repair</LINK> command.\n\n　●Use <LINK=1>Spirit Commands</LINK> such as \"Vigor\".\n\n　●Board a battleship. While aboard, the unit recovers 15% HP and EN and all ammo\n　　at the start of each player phase. Boarding lowers the unit's <LINK=2>Will</LINK> by 5,\n　　but never below 100.\n\n　●Use the \"HP Regen\" <LINK=3>ability</LINK>.\n\n　<T=30>\"HP Regen (S)\"</T>\n　・Recovers 10% of max HP at the start of each player phase.\n\n　<T=30>\"HP Regen (M)\"</T>\n　・Recovers 20% of max HP at the start of each player phase.\n\n　<T=30>\"HP Regen (L)\"</T>\n　・Recovers 30% of max HP at the start of each player phase.\n\n　●Use <LINK=4>terrain effects</LINK>.\n\n　●Use <LINK=5>parts</LINK> such as the \"Repair Kit\".\n",
    "cell": "r77c6",
    "kind": "text",
    "keep": false
@@ -1736,7 +1738,7 @@
   {
    "id": 336,
    "jp": "<W=24>Ｑ</W><W=32>５</W>．ＥＮ・弾数を回復させるためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>5</W>. How do I restore EN and ammo?",
    "cell": "r78c4",
    "kind": "text",
    "keep": false
@@ -1744,7 +1746,7 @@
   {
    "id": 337,
    "jp": "Ａ．補給、特殊能力、地形効果、強化パーツなどを利用します。",
-   "en": "",
+   "en": "A. Use Resupply, abilities, terrain effects, parts, etc.",
    "cell": "r78c5",
    "kind": "text",
    "keep": false
@@ -1752,7 +1754,7 @@
   {
    "id": 338,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の方法があります。</C></H></W>\n\n　●ＥＮの自然回復を利用します。全ての機体は自軍フェイズ開始時に、ＥＮが５だけ\n　　回復します。\n\n　●個別コマンド「<LINK=0>補給</LINK>」を使用します。\n\n　●<LINK=1>精神コマンド</LINK>「補給」を使用します。\n\n　●戦艦に搭載します。搭載中は自軍フェイズ開始時にＨＰ・ＥＮが１５％、弾数値が\n　　全回復します。搭載された機体は<LINK=2>気力</LINK>が５下がります。ただし、搭載によって気力\n　　が１００未満になることはありません。\n\n　●<LINK=3>特殊能力</LINK>「ＥＮ回復」を利用します。\n\n　<T=30>『ＥＮ回復（小）』</T>\n　・自軍フェイズ開始時に、ＥＮが最大値の１０％分だけ回復します。\n\n　<T=30>『ＥＮ回復（中）』</T>\n　・自軍フェイズ開始時に、ＥＮが最大値の２０％分だけ回復します。\n\n　<T=30>『ＥＮ回復（大）』</T>\n　・自軍フェイズ開始時に、ＥＮが最大値の３０％分だけ回復します。\n\n　●<LINK=4>地形効果</LINK>を利用します。\n\n　●<LINK=5>強化パーツ</LINK>「プロペラントタンク」などを使用します。\n\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>There are the following methods.</C></H></W>\n\n　●Use natural EN recovery. All units recover 5 EN at the start of each player\n　　phase.\n\n　●Use the <LINK=0>Resupply</LINK> command.\n\n　●Use the <LINK=1>Spirit Command</LINK> \"Resupply\".\n\n　●Board a battleship. While aboard, the unit recovers 15% HP and EN and all ammo\n　　at the start of each player phase. Boarding lowers the unit's <LINK=2>Will</LINK> by 5,\n　　but never below 100.\n\n　●Use the \"EN Regen\" <LINK=3>ability</LINK>.\n\n　<T=30>\"EN Regen (S)\"</T>\n　・Recovers 10% of max EN at the start of each player phase.\n\n　<T=30>\"EN Regen (M)\"</T>\n　・Recovers 20% of max EN at the start of each player phase.\n\n　<T=30>\"EN Regen (L)\"</T>\n　・Recovers 30% of max EN at the start of each player phase.\n\n　●Use <LINK=4>terrain effects</LINK>.\n\n　●Use <LINK=5>parts</LINK> such as the \"Propellant Tank\".\n\n",
    "cell": "r78c6",
    "kind": "text",
    "keep": false
@@ -1760,7 +1762,7 @@
   {
    "id": 341,
    "jp": "精神コマンドについて",
-   "en": "",
+   "en": "Spirit Commands",
    "cell": "r79c3",
    "kind": "name",
    "keep": false
@@ -1768,7 +1770,7 @@
   {
    "id": 342,
    "jp": "精神コマンドについてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A about Spirit Commands.",
    "cell": "r79c6",
    "kind": "text",
    "keep": false
@@ -1776,7 +1778,7 @@
   {
    "id": 344,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．精神コマンドとは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What are Spirit Commands?",
    "cell": "r80c4",
    "kind": "text",
    "keep": false
@@ -1784,7 +1786,7 @@
   {
    "id": 345,
    "jp": "Ａ．パイロットが持つ、様々な効果を得ることができる能力です。",
-   "en": "",
+   "en": "A. Pilot powers that grant a variety of effects.",
    "cell": "r80c5",
    "kind": "text",
    "keep": false
@@ -1792,7 +1794,7 @@
   {
    "id": 346,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>パイロットが持つ、様々な効果を得ることができる能力です。</C></H></W>\n\n　●精神コマンドは、個別コマンド「精神」から使用することができます。<LINK=0>ＳＰ</LINK>（精神\n　　ポイント）を消費して、命中率・回避率の上昇、ＨＰ・ＥＮの回復、戦闘で与える\n　　ダメージの上昇、受けるダメージの減少、移動力の上昇、気力の上昇などの効果を\n　　得ることができます。\n\n　●パイロットは４２種類の中から最大で５個を保有し、規定のレベルに達した場合に、\n　　それぞれの精神コマンドを覚えます。同じ精神コマンドでもパイロットによって、\n　　覚えるＬｖ、消費ＳＰは異なります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Pilot powers that grant a variety of effects.</C></H></W>\n\n　●Spirit Commands are used from the Spirit unit command. Spending <LINK=0>SP</LINK> (Spirit\n　　Points) gives effects such as higher hit rate and evasion, HP/EN recovery,\n　　more damage dealt, less damage taken, more Movement, and higher Will.\n\n　●Each pilot has up to 5 of the 42 types, learning each one on reaching a set\n　　level. The same Spirit Command can differ in learn level and SP cost from\n　　pilot to pilot.\n",
    "cell": "r80c6",
    "kind": "text",
    "keep": false
@@ -1800,7 +1802,7 @@
   {
    "id": 349,
    "jp": "<W=24>Ｑ</W><W=32>２</W>．ツイン精神コマンドとは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>2</W>. What are Twin Commands?",
    "cell": "r81c4",
    "kind": "text",
    "keep": false
@@ -1808,7 +1810,7 @@
   {
    "id": 350,
    "jp": "Ａ．ツインユニットの状態でのみ使用できる、精神コマンドです。",
-   "en": "",
+   "en": "A. Spirit Commands usable only as a Twin Unit.",
    "cell": "r81c5",
    "kind": "text",
    "keep": false
@@ -1816,7 +1818,7 @@
   {
    "id": 351,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>ツインユニットの状態でのみ使用できる、精神コマンドです。</C></H></W>\n\n　●ユニットが２機で構成されている<LINK=0>ツインユニット</LINK>の場合、メインパイロットのみが\n　　使用できる精神コマンドです。ツイン精神コマンドは、個別コマンド「精神」から\n　　使用することができます。ツイン精神コマンドには<W=32><H=32><I=97></H></W>と表示されます。\n\n　●通常の精神で使用した場合は自機のみが効果を得るコマンドでも、ツイン精神で使\n　　用した場合、自分の部隊の２機が効果を得ることができます。\n\n　●精神コマンドと同様に、使用するためには<LINK=1>ＳＰ</LINK>（精神ポイント）が必要になります\n　　が、ツイン精神コマンドの場合、ツインユニット２人のメインパイロットのＳＰが\n　　必要になります。パイロットは４２種類の中から１個を保有します。同じ精神コマ\n　　ンドでもパイロットによって、消費ＳＰは異なります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Spirit Commands usable only as a Twin Unit.</C></H></W>\n\n　●In a <LINK=0>Twin Unit</LINK> made of 2 units, only the main pilots can use these\n　　commands. Twin Commands are used from the Spirit unit command and are marked\n　　with <W=32><H=32><I=97></H></W>.\n\n　●Even a command that affects only the user's unit as a normal Spirit Command\n　　affects both units of the squad when used as a Twin Command.\n\n　●Like Spirit Commands, they need <LINK=1>SP</LINK> (Spirit Points), but Twin Commands use\n　　SP from both main pilots of the Twin Unit. Each pilot has 1 of the 42 types.\n　　The SP cost of the same command differs from pilot to pilot.\n",
    "cell": "r81c6",
    "kind": "text",
    "keep": false
@@ -1824,7 +1826,7 @@
   {
    "id": 354,
    "jp": "<W=24>Ｑ</W><W=32>３</W>．ＳＰとは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>3</W>. What is SP?",
    "cell": "r82c4",
    "kind": "text",
    "keep": false
@@ -1832,7 +1834,7 @@
   {
    "id": 355,
    "jp": "Ａ．消費することで、精神コマンド・ツイン精神コマンドを使用できます。",
-   "en": "",
+   "en": "A. Spend it to use Spirit Commands and Twin Commands.",
    "cell": "r82c5",
    "kind": "text",
    "keep": false
@@ -1840,7 +1842,7 @@
   {
    "id": 356,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>消費することで、精神コマンド・ツイン精神コマンドを使用できます。</C></H></W>\n\n　●ＳＰ（精神ポイント）消費することによって、<LINK=0>精神コマンド</LINK>・<LINK=1>ツイン精神コマンド</LINK>\n　　を使用することができます。\n\n　●ツイン精神コマンドを使用する場合、<LINK=2>ツインユニット</LINK>の２人のメインパイロットの\n　　ＳＰを消費します。\n\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Spend it to use Spirit Commands and Twin Commands.</C></H></W>\n\n　●Spending SP (Spirit Points) lets you use <LINK=0>Spirit Commands</LINK> and\n　　<LINK=1>Twin Commands</LINK>.\n\n　●Twin Commands use SP from both main pilots of the <LINK=2>Twin Unit</LINK>.\n\n",
    "cell": "r82c6",
    "kind": "text",
    "keep": false
@@ -1848,7 +1850,7 @@
   {
    "id": 359,
    "jp": "<W=24>Ｑ</W><W=32>４</W>．移動力（移動範囲）を増やすためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>4</W>. How do I boost Movement (range)?",
    "cell": "r83c4",
    "kind": "text",
    "keep": false
@@ -1856,7 +1858,7 @@
   {
    "id": 360,
    "jp": "Ａ．精神コマンド「加速」「強襲」「愛」を使用します。",
-   "en": "",
+   "en": "A. Use Spirit Commands: Accel, Violent Assault, Love.",
    "cell": "r83c5",
    "kind": "text",
    "keep": false
@@ -1864,7 +1866,7 @@
   {
    "id": 361,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>精神コマンド「加速」「強襲」「愛」を使用します。</C></H></W>\n\n　<T=30>『加速』</T>\n　・一度だけ、移動力に＋３されます。\n\n　<T=30>『強襲』</T>\n　・一度に「加速」「突撃」「直撃」の効果を得ることができます。\n\n　<T=30>『愛』</T>\n　・一度に「加速」「熱血」「ひらめき」「必中」「気合」「努力」「幸運」の効果を\n　　得ることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use Spirit Commands: Accel, Violent Assault, Love.</C></H></W>\n\n　<T=30>\"Accel\"</T>\n　・Adds +3 Movement for one move.\n\n　<T=30>\"Violent Assault\"</T>\n　・Grants the effects of Accel, Assault and Pierce at once.\n\n　<T=30>\"Love\"</T>\n　・Grants the effects of Accel, Valor, Flash, Bullseye, Spirit, Gain and Luck\n　　at once.\n",
    "cell": "r83c6",
    "kind": "text",
    "keep": false
@@ -1872,7 +1874,7 @@
   {
    "id": 363,
    "jp": "<W=24>Ｑ</W><W=32>５</W>．敵へのダメージを増やすためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>5</W>. How do I deal more damage?",
    "cell": "r84c4",
    "kind": "text",
    "keep": false
@@ -1880,7 +1882,7 @@
   {
    "id": 364,
    "jp": "Ａ．精神コマンド「熱血」「魂」「闘志」「愛」を使用します。",
-   "en": "",
+   "en": "A. Use Spirit Commands: Valor, Soul, Mettle, Love.",
    "cell": "r84c5",
    "kind": "text",
    "keep": false
@@ -1888,7 +1890,7 @@
   {
    "id": 365,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>精神コマンド「熱血」「魂」「闘志」「愛」を使用します。</C></H></W>\n\n　<T=30>『熱血』</T>\n　・一度だけ、戦闘で与えるダメージが２倍になります。\n\n　<T=30>『魂』</T>\n　・一度だけ、戦闘で与えるダメージが２．５倍になります。「熱血」との併用はでき\n　　ません。\n\n　<T=30>『闘志』</T>\n　・１ターンの間、攻撃が必ずクリティカルになります。\n\n　<T=30>『愛』</T>\n　・一度に「加速」「熱血」「ひらめき」「必中」「気合」「努力」「幸運」の効果を\n　　得ることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use Spirit Commands: Valor, Soul, Mettle, Love.</C></H></W>\n\n　<T=30>\"Valor\"</T>\n　・Once, damage dealt in battle is doubled.\n\n　<T=30>\"Soul\"</T>\n　・Once, damage dealt in battle is x2.5. Cannot be combined with Valor.\n\n　<T=30>\"Mettle\"</T>\n　・For 1 turn, attacks always land as criticals.\n\n　<T=30>\"Love\"</T>\n　・Grants the effects of Accel, Valor, Flash, Bullseye, Spirit, Gain and Luck\n　　at once.\n",
    "cell": "r84c6",
    "kind": "text",
    "keep": false
@@ -1896,7 +1898,7 @@
   {
    "id": 367,
    "jp": "<W=24>Ｑ</W><W=32>６</W>．敵からのダメージを減らすためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>6</W>. How do I take less damage?",
    "cell": "r85c4",
    "kind": "text",
    "keep": false
@@ -1904,7 +1906,7 @@
   {
    "id": 368,
    "jp": "Ａ．精神コマンド「鉄壁」「信念」「不屈」を使用します。",
-   "en": "",
+   "en": "A. Use Spirit Commands: Wall, Belief, Persist.",
    "cell": "r85c5",
    "kind": "text",
    "keep": false
@@ -1912,7 +1914,7 @@
   {
    "id": 369,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>精神コマンド「鉄壁」「信念」「不屈」を使用します。</C></H></W>\n\n　<T=30>『鉄壁』</T>\n　・１ターンの間、戦闘で受けるダメージを１／４にします。\n\n　<T=30>『信念』</T>\n　・１ターンの間、戦闘で受けるステータス異常を無効にし、ダメージを１／４にしま\n　　す。\n\n　<T=30>『不屈』</T>\n　・一度だけ、戦闘で受ける全てのダメージを１０にします。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use Spirit Commands: Wall, Belief, Persist.</C></H></W>\n\n　<T=30>\"Wall\"</T>\n　・For 1 turn, damage taken in battle is cut to 1/4.\n\n　<T=30>\"Belief\"</T>\n　・For 1 turn, nullifies status ailments in battle and cuts damage taken to\n　　1/4.\n\n　<T=30>\"Persist\"</T>\n　・Once, all damage taken in battle is reduced to 10.\n",
    "cell": "r85c6",
    "kind": "text",
    "keep": false
@@ -1920,7 +1922,7 @@
   {
    "id": 371,
    "jp": "Ａ．精神コマンド「集中」「必中」「感応」「直感」「愛」を使用します。",
-   "en": "",
+   "en": "A. Use Spirit Commands: Focus, Bullseye, Inspire, Sense, Love.",
    "cell": "r86c5",
    "kind": "text",
    "keep": false
@@ -1928,7 +1930,7 @@
   {
    "id": 372,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の精神コマンドを使用します。</C></H></W>\n\n　<T=30>『集中』</T>\n　・１ターンの間、命中率・回避率が３０％アップします。\n\n　<T=30>『必中』</T>\n　・１ターンの間、攻撃の命中率が１００％になります（相手が「ひらめき」を使って\n　　いた場合、「ひらめき」が優先）。\n\n　<T=30>『感応』</T>\n　・指定した機体に「必中」の効果を与えることができます。\n\n　<T=30>『直感』</T>\n　・一度に「ひらめき」「必中」の効果を得ることができます。\n\n　<T=30>『愛』</T>\n　・一度に「加速」「熱血」「ひらめき」「必中」「気合」「努力」「幸運」の効果を\n　　得ることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the following Spirit Commands.</C></H></W>\n\n　<T=30>\"Focus\"</T>\n　・For 1 turn, hit rate and evasion rise by 30%.\n\n　<T=30>\"Bullseye\"</T>\n　・For 1 turn, attacks have a 100% hit rate (if the target used Flash, Flash\n　　takes priority).\n\n　<T=30>\"Inspire\"</T>\n　・Grants the Bullseye effect to a chosen unit.\n\n　<T=30>\"Sense\"</T>\n　・Grants the effects of Flash and Bullseye at once.\n\n　<T=30>\"Love\"</T>\n　・Grants the effects of Accel, Valor, Flash, Bullseye, Spirit, Gain and Luck\n　　at once.\n",
    "cell": "r86c6",
    "kind": "text",
    "keep": false
@@ -1936,7 +1938,7 @@
   {
    "id": 374,
    "jp": "Ａ．精神コマンド「集中」「ひらめき」「直感」「かく乱」「愛」を使用します。",
-   "en": "",
+   "en": "A. Use the Spirit Commands Focus, Flash, Sense, Disrupt and Love.",
    "cell": "r87c5",
    "kind": "text",
    "keep": false
@@ -1944,7 +1946,7 @@
   {
    "id": 375,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の精神コマンドを使用します。</C></H></W>\n\n　<T=30>『集中』</T>\n　・１ターンの間、命中率・回避率が３０％アップします。\n\n　<T=30>『ひらめき』</T>\n　・一度だけ、戦闘での敵の攻撃を完全回避します。\n\n　<T=30>『直感』</T>\n　・一度に「ひらめき」「必中」の効果を得ることができます。\n\n　<T=30>『かく乱』</T>\n　・１ターンの間、全敵の命中率が半分になります。ただし「必中」は優先されます。\n\n　<T=30>『愛』</T>\n　・一度に「加速」「熱血」「ひらめき」「必中」「気合」「努力」「幸運」の効果を\n　　得ることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the following Spirit Commands.</C></H></W>\n\n　<T=30>Focus</T>\n　・Raises hit and evasion rates by 30% for 1 turn.\n\n　<T=30>Flash</T>\n　・Once, completely evades an enemy attack in battle.\n\n　<T=30>Sense</T>\n　・Grants the effects of \"Flash\" and \"Bullseye\" at once.\n\n　<T=30>Disrupt</T>\n　・Halves the hit rate of all enemies for 1 turn. \"Bullseye\" takes priority.\n\n　<T=30>Love</T>\n　・Grants the effects of \"Accel\", \"Valor\", \"Flash\", \"Bullseye\", \"Spirit\",\n　　\"Gain\" and \"Luck\" at once.\n",
    "cell": "r87c6",
    "kind": "text",
    "keep": false
@@ -1952,7 +1954,7 @@
   {
    "id": 377,
    "jp": "<W=24>Ｑ</W><W=32>９</W>．気力を上げるためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>9</W>. How do I raise Will?",
    "cell": "r88c4",
    "kind": "text",
    "keep": false
@@ -1960,7 +1962,7 @@
   {
    "id": 378,
    "jp": "Ａ．精神コマンド「気合」「気迫」「激励」「大激励」「愛」を使用します。",
-   "en": "",
+   "en": "A. Use Spirit, Drive, Encouragement, Huge Encouragement and Love.",
    "cell": "r88c5",
    "kind": "text",
    "keep": false
@@ -1968,7 +1970,7 @@
   {
    "id": 379,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の精神コマンドを使用します。</C></H></W>\n\n　<T=30>『気合』</T>\n　・自分の気力を１０だけ上げます。\n\n　<T=30>『気迫』</T>\n　・自分の気力を３０だけ上げます。\n\n　<T=30>『激励』</T>\n　・指定した機体の気力を１０だけ上げます。\n\n　<T=30>『大激励』</T>\n　・全味方パイロットの気力を５上げます。\n\n　<T=30>『愛』</T>\n　・一度に「加速」「熱血」「ひらめき」「必中」「気合」「努力」「幸運」の効果を\n　　得ることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the following Spirit Commands.</C></H></W>\n\n　<T=30>Spirit</T>\n　・Raises your own Will by 10.\n\n　<T=30>Drive</T>\n　・Raises your own Will by 30.\n\n　<T=30>Encouragement</T>\n　・Raises a chosen unit's Will by 10.\n\n　<T=30>Huge Encouragement</T>\n　・Raises the Will of all allied pilots by 5.\n\n　<T=30>Love</T>\n　・Grants the effects of \"Accel\", \"Valor\", \"Flash\", \"Bullseye\", \"Spirit\",\n　　\"Gain\" and \"Luck\" at once.\n",
    "cell": "r88c6",
    "kind": "text",
    "keep": false
@@ -1976,7 +1978,7 @@
   {
    "id": 381,
    "jp": "<W=24>Ｑ</W><W=16>１０</W>．敵の気力を下げるためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=16>10</W>. How do I lower enemy Will?",
    "cell": "r89c4",
    "kind": "text",
    "keep": false
@@ -1984,7 +1986,7 @@
   {
    "id": 382,
    "jp": "Ａ．精神コマンド「脱力」を使用します。",
-   "en": "",
+   "en": "A. Use the Spirit Command Exhaust.",
    "cell": "r89c5",
    "kind": "text",
    "keep": false
@@ -1992,7 +1994,7 @@
   {
    "id": 383,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>精神コマンド「脱力」を使用します。</C></H></W>\n\n　<T=30>『脱力』</T>\n　・指定した機体の気力を１０下げます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the Spirit Command Exhaust.</C></H></W>\n\n　<T=30>Exhaust</T>\n　・Lowers a chosen unit's Will by 10.\n",
    "cell": "r89c6",
    "kind": "text",
    "keep": false
@@ -2000,7 +2002,7 @@
   {
    "id": 385,
    "jp": "<W=24>Ｑ</W><W=16>１１</W>．ＨＰを回復させるためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=16>11</W>. How do I restore HP?",
    "cell": "r90c4",
    "kind": "text",
    "keep": false
@@ -2011,7 +2013,8 @@
    "en": "",
    "cell": "r90c5",
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "retry_note": "CSB: 'A. Use Vigor, Super Guts, Trust, Friendship and Bond.' failed (glossary: 根性 is 'Guts' here; canon is 'Vigor')"
   },
   {
    "id": 387,
@@ -2019,12 +2022,13 @@
    "en": "",
    "cell": "r90c6",
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "retry_note": "CSB: \"<W=28><H=28>A. <C=FF8000FF>Use the following Spirit Commands.</C></H></W>\\n\\n\\u3000<T=30>Vigor</T>\\n\\u3000・Restores 30% of your own max HP.\\n\\n\\u3000<T=30>Super Guts</T>\\n\\u3000・Fully restores your own HP.\\n\\n\\u3000<T=30>Trust</T>\\n\\u3000・Restores 2000 HP to a chosen unit.\\n\\n\\u3000<T=30>Friendship</T>\\n\\u3000・Fully restores a chosen unit's HP.\\n\\n\\u3000<T=30>Bond</T>\\n\\u3000・Restores 50% of max HP to all allied units.\\n\" failed (glossary: 根性 is 'Guts' here; canon is 'Vigor')"
   },
   {
    "id": 389,
    "jp": "<W=24>Ｑ</W><W=16>１２</W>．ＥＮ・弾数を回復させるためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=16>12</W>. How do I restore EN and ammo?",
    "cell": "r91c4",
    "kind": "text",
    "keep": false
@@ -2032,7 +2036,7 @@
   {
    "id": 390,
    "jp": "Ａ．精神コマンド「補給」を使用します。",
-   "en": "",
+   "en": "A. Use the Spirit Command Resupply.",
    "cell": "r91c5",
    "kind": "text",
    "keep": false
@@ -2040,7 +2044,7 @@
   {
    "id": 391,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>精神コマンド「補給」を使用します。</C></H></W>\n\n　<T=30>『補給』</T>\n　・指定した機体のＥＮ、弾数値を最大値まで回復させます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the Spirit Command Resupply.</C></H></W>\n\n　<T=30>Resupply</T>\n　・Fully restores a chosen unit's EN and ammo.\n",
    "cell": "r91c6",
    "kind": "text",
    "keep": false
@@ -2048,7 +2052,7 @@
   {
    "id": 393,
    "jp": "<W=24>Ｑ</W><W=16>１３</W>．資金をより多く得るためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=16>13</W>. How do I earn more funds?",
    "cell": "r92c4",
    "kind": "text",
    "keep": false
@@ -2056,7 +2060,7 @@
   {
    "id": 394,
    "jp": "Ａ．精神コマンド「幸運」「祝福」「愛」を使用します。",
-   "en": "",
+   "en": "A. Use the Spirit Commands Luck, Bless and Love.",
    "cell": "r92c5",
    "kind": "text",
    "keep": false
@@ -2064,7 +2068,7 @@
   {
    "id": 395,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>精神コマンド「幸運」「祝福」「愛」を使用します。</C></H></W>\n\n　<T=30>『幸運』</T>\n　・次の戦闘で得られる資金が２倍になります。\n\n　<T=30>『祝福』</T>\n　・指定した部隊に「幸運」の効果を与えることができます。\n\n　<T=30>『愛』</T>\n　・一度に「加速」「熱血」「ひらめき」「必中」「気合」「努力」「幸運」の効果を\n　　得ることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the Spirit Commands Luck, Bless and Love.</C></H></W>\n\n　<T=30>Luck</T>\n　・Doubles the funds earned in the next battle.\n\n　<T=30>Bless</T>\n　・Grants the effect of \"Luck\" to a chosen unit.\n\n　<T=30>Love</T>\n　・Grants the effects of \"Accel\", \"Valor\", \"Flash\", \"Bullseye\", \"Spirit\",\n　　\"Gain\" and \"Luck\" at once.\n",
    "cell": "r92c6",
    "kind": "text",
    "keep": false
@@ -2072,7 +2076,7 @@
   {
    "id": 397,
    "jp": "<W=24>Ｑ</W><W=16>１４</W>．経験値をより多く得るためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=16>14</W>. How do I earn more EXP?",
    "cell": "r93c4",
    "kind": "text",
    "keep": false
@@ -2080,7 +2084,7 @@
   {
    "id": 398,
    "jp": "Ａ．精神コマンド「努力」「応援」「愛」を使用します。",
-   "en": "",
+   "en": "A. Use the Spirit Commands Gain, Cheer and Love.",
    "cell": "r93c5",
    "kind": "text",
    "keep": false
@@ -2088,7 +2092,7 @@
   {
    "id": 399,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>精神コマンド「努力」「応援」「愛」を使用します。</C></H></W>\n\n　<T=30>『努力』</T>\n　・次の戦闘で得られる経験値が２倍になります。\n\n　<T=30>『応援』</T>\n　・指定した部隊に「努力」の効果を与えることができます。\n\n　<T=30>『愛』</T>\n　・一度に「加速」「熱血」「ひらめき」「必中」「気合」「努力」「幸運」の効果を\n　　得ることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the Spirit Commands Gain, Cheer and Love.</C></H></W>\n\n　<T=30>Gain</T>\n　・Doubles the EXP earned in the next battle.\n\n　<T=30>Cheer</T>\n　・Grants the effect of \"Gain\" to a chosen unit.\n\n　<T=30>Love</T>\n　・Grants the effects of \"Accel\", \"Valor\", \"Flash\", \"Bullseye\", \"Spirit\",\n　　\"Gain\" and \"Luck\" at once.\n",
    "cell": "r93c6",
    "kind": "text",
    "keep": false
@@ -2096,7 +2100,7 @@
   {
    "id": 401,
    "jp": "<W=24>Ｑ</W><W=16>１５</W>．その他、役立つものはありますか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=16>15</W>. Anything else that's useful?",
    "cell": "r94c4",
    "kind": "text",
    "keep": false
@@ -2104,7 +2108,7 @@
   {
    "id": 402,
    "jp": "Ａ．精神コマンド「偵察」「狙撃」「突撃」「同調」「修行」「直撃」「連撃」「覚醒」「再動」「祈り」「てかげん」\n　　「期待」などがあります。",
-   "en": "",
+   "en": "A. Others: Scan, Snipe, Assault, Sync, Training, Pierce, Continuous Attack,\n　　Awaken, Enable (Move Again), Prayer, Mercy, Hope.",
    "cell": "r94c5",
    "kind": "text",
    "keep": false
@@ -2112,7 +2116,7 @@
   {
    "id": 403,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の精神コマンドがあります。</C></H></W>\n\n　<T=30>『偵察』</T>\n　・指定した敵部隊のステータスを調べることができます。\n\n　<T=30>『狙撃』</T>\n　・一度だけ、射程１の武器とマップ兵器以外の武器の射程に対して＋２されます。\n\n　<T=30>『突撃』</T>\n　・１ターンの間、マップ兵器以外の全ての武器が移動後に使用できるようになります。\n\n　<T=30>『同調』</T>\n　・ツインユニットの、パイロットの能力（格闘・射撃・回避・命中・技量・防御）を\n　　両メインパイロットの数値の高い方へ合わせます。\n\n　<T=30>『修行』</T>\n　・次の戦闘で得られるパイロットポイントが２倍になります。\n\n　<T=30>『直撃』</T>\n　・一度だけ、敵の援護防御、特殊な防御能力を発動させません。\n\n　<T=30>『連撃』</T>\n　・次の戦闘で攻撃した敵部隊を壊滅させた場合、行動終了せずもう一度行動できます。\n\n　<T=30>『覚醒』</T>\n　・一回分、行動回数が増えます。\n\n　<T=30>『再動』</T>\n　・指定した行動済みの部隊を再び行動可能にします。\n\n　<T=30>『祈り』</T>\n　・指定した部隊のステータス異常を解除します。\n\n　<T=30>『てかげん』</T>\n　・次の戦闘で敵機体を倒さずに、ＨＰを１０だけ残します。ただし、相手より技量が\n　　上回っていなければ無効になります。\n\n　<T=30>『期待』</T>\n　・指定したパイロットの精神ポイントを５０回復します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>There are the following Spirit Commands.</C></H></W>\n\n　<T=30>Scan</T>\n　・Reveals the status of a chosen enemy unit.\n\n　<T=30>Snipe</T>\n　・Once, adds +2 range to all weapons except range-1 weapons and MAP weapons.\n\n　<T=30>Assault</T>\n　・For 1 turn, all weapons except MAP weapons can be used after moving.\n\n　<T=30>Sync</T>\n　・Sets a Twin Unit's pilot stats (Mel, Rng, Eva, Acc, Skl, Def) to the\n　　higher value of its two main pilots.\n\n　<T=30>Training</T>\n　・Doubles the Pilot Points earned in the next battle.\n\n　<T=30>Pierce</T>\n　・Once, stops enemy Support Defense and special defenses from activating.\n\n　<T=30>Continuous Attack</T>\n　・If you destroy the enemy unit you attack in the next battle, you can act\n　　again instead of ending your action.\n\n　<T=30>Awaken</T>\n　・Grants one extra action.\n\n　<T=30>Enable (Move Again)</T>\n　・Lets a chosen unit that has already acted act again.\n\n　<T=30>Prayer</T>\n　・Removes status ailments from a chosen unit.\n\n　<T=30>Mercy</T>\n　・In the next battle, leaves the enemy at 10 HP instead of destroying it.\n　　No effect unless your Skill exceeds the target's.\n\n　<T=30>Hope</T>\n　・Restores 50 SP to a chosen pilot.\n",
    "cell": "r94c6",
    "kind": "text",
    "keep": false
@@ -2120,7 +2124,7 @@
   {
    "id": 405,
    "jp": "資金・経験値について",
-   "en": "",
+   "en": "Funds and EXP",
    "cell": "r95c3",
    "kind": "name",
    "keep": false
@@ -2128,7 +2132,7 @@
   {
    "id": 406,
    "jp": "戦闘で獲得できるものについてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A about what you earn in battle.",
    "cell": "r95c6",
    "kind": "text",
    "keep": false
@@ -2136,7 +2140,7 @@
   {
    "id": 408,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．資金とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What are funds?",
    "cell": "r96c4",
    "kind": "text",
    "keep": false
@@ -2144,7 +2148,7 @@
   {
    "id": 409,
    "jp": "Ａ．機体・武器の改造に必要な費用です。",
-   "en": "",
+   "en": "A. Cost of unit/weapon upgrades.",
    "cell": "r96c5",
    "kind": "text",
    "keep": false
@@ -2152,7 +2156,7 @@
   {
    "id": 410,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>機体・武器の改造に必要な費用です。</C></H></W>\n\n　●敵の機体を撃墜することや強化パーツを売却することで入手できます。自軍の機体\n　　が撃墜された場合は、修理費として資金を支払う必要があります。インターミッショ\n　　ンの「<LINK=0>機体・武器改造</LINK>」コマンドで機体や武器を強化した場合、消費します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Cost of unit/weapon upgrades.</C></H></W>\n\n　●Earned by shooting down enemy units or selling Parts. If one of your units is\n　　shot down, you must pay funds for repairs. Funds are spent when upgrading\n　　units or weapons with the <LINK=0>Upgrade Units/Weapons</LINK> command in the Intermission.\n",
    "cell": "r96c6",
    "kind": "text",
    "keep": false
@@ -2160,7 +2164,7 @@
   {
    "id": 413,
    "jp": "<W=24>Ｑ</W><W=32>２</W>．経験値とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>2</W>. What is EXP?",
    "cell": "r97c4",
    "kind": "text",
    "keep": false
@@ -2168,7 +2172,7 @@
   {
    "id": 414,
    "jp": "Ａ．パイロットの成長度を表す数値です。",
-   "en": "",
+   "en": "A. A measure of a pilot's growth.",
    "cell": "r97c5",
    "kind": "text",
    "keep": false
@@ -2176,7 +2180,7 @@
   {
    "id": 415,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>パイロットの成長度を表す数値です。</C></H></W>\n\n　●経験値が増えることによってパイロットのレベルが上昇します。パイロットのレベ\n　　ルが上がると、パイロットの能力値が上昇し、新たな<LINK=0>精神コマンド</LINK>を覚え、<LINK=1>特殊ス\n　≡キル</LINK>のスキルレベルが上がります。\n\n　●戦闘で敵の機体にダメージを与えた場合、敵のレベルに応じた経験値が加算されま\n　　す。また、個別コマンド「修理」「補給」を使用した場合も、経験値を増やすこと\n　　ができます。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>マップ兵器で攻撃した場合に獲得できる経験値は、他の場合と比べ１／３になり\n　　　ます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>A measure of a pilot's growth.</C></H></W>\n\n　●Pilots level up as they gain EXP. Leveling up raises a pilot's stats, teaches\n　　new <LINK=0>Spirit Commands</LINK>, and raises <LINK=1>Special Skill</LINK> levels.\n\n　●Damaging an enemy unit in battle earns EXP based on the enemy's level. Using\n　　the Repair and Resupply unit commands also earns EXP.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>EXP earned from MAP weapon attacks is 1/3 of normal.\n",
    "cell": "r97c6",
    "kind": "text",
    "keep": false
@@ -2184,7 +2188,7 @@
   {
    "id": 418,
    "jp": "<W=24>Ｑ</W><W=32>３</W>．ＰＰとは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>3</W>. What is PP?",
    "cell": "r98c4",
    "kind": "text",
    "keep": false
@@ -2192,7 +2196,7 @@
   {
    "id": 419,
    "jp": "Ａ．パイロットの養成に必要な費用です。",
-   "en": "",
+   "en": "A. The cost of training pilots.",
    "cell": "r98c5",
    "kind": "text",
    "keep": false
@@ -2200,7 +2204,7 @@
   {
    "id": 420,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>パイロットの養成に必要な費用です。</C></H></W>\n\n　●敵の機体を撃墜することで入手できます。インターミッションの「<LINK=0>パイロット養成</LINK>」\n　　コマンドで<LINK=1>能力値上昇</LINK>、<LINK=2>スキル修得</LINK>を行う場合に消費します。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>マップ兵器で攻撃した場合に獲得できるＰＰは、他の場合と比べ１／２になりま\n　　　す。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>The cost of training pilots.</C></H></W>\n\n　●Earned by shooting down enemy units. Spent on <LINK=1>stat boosts</LINK> and <LINK=2>learning skills</LINK>\n　　with the <LINK=0>Pilot Training</LINK> command in the Intermission.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>PP earned from MAP weapon attacks is 1/2 of normal.\n",
    "cell": "r98c6",
    "kind": "text",
    "keep": false
@@ -2208,7 +2212,7 @@
   {
    "id": 423,
    "jp": "<W=24>Ｑ</W><W=32>４</W>．資金をより多く得るためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>4</W>. How do I earn more funds?",
    "cell": "r99c4",
    "kind": "text",
    "keep": false
@@ -2216,7 +2220,7 @@
   {
    "id": 424,
    "jp": "Ａ．精神コマンド「幸運」、特殊スキル「強運」、エースパイロット、難易度などを利用します。",
-   "en": "",
+   "en": "A. Use the Spirit Command Luck, the Special Skill Fortune, aces, difficulty, etc.",
    "cell": "r99c5",
    "kind": "text",
    "keep": false
@@ -2224,7 +2228,7 @@
   {
    "id": 425,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の方法があります。</C></H></W>\n\n　●<LINK=0>精神コマンド</LINK>「幸運」などを使用します。\n\n　●<LINK=1>特殊スキル</LINK>「強運」を利用します。\n\n　●エースパイロットを利用します。敵を５０機以上撃墜しているとエースパイロット\n　　になります。その場合、出撃時の<LINK=2>気力</LINK>に＋５され、撃墜時の獲得<LINK=3>資金</LINK>が１．２倍に\n　　なります。\n\n　●<LINK=4>難易度</LINK>を利用します。<LINK=5>ＳＲポイント</LINK>の獲得が８０％未満の場合、難易度は\n　　「ＮＯＲＭＡＬ」に、８０％以上の場合は「ＨＡＲＤ」になります。難易度が\n　　ＨＡＲＤの場合に比べ、ＮＯＲＭＡＬでは１．２倍の資金を得ることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>There are the following methods.</C></H></W>\n\n　●Use <LINK=0>Spirit Commands</LINK> such as \"Luck\".\n\n　●Use the <LINK=1>Special Skill</LINK> \"Fortune\".\n\n　●Use ace pilots. A pilot who shoots down 50 or more enemies becomes an ace,\n　　gaining +5 <LINK=2>Will</LINK> on deployment and 1.2x <LINK=3>funds</LINK> from kills.\n\n　●Use the <LINK=4>difficulty</LINK>. If you've earned under 80% of <LINK=5>SR Points</LINK>, the\n　　difficulty is NORMAL; at 80% or more, it's HARD. On NORMAL, you earn 1.2x\n　　the funds you would on HARD.\n",
    "cell": "r99c6",
    "kind": "text",
    "keep": false
@@ -2232,7 +2236,7 @@
   {
    "id": 428,
    "jp": "<W=24>Ｑ</W><W=32>５</W>．経験値をより多く得るためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>5</W>. How do I earn more EXP?",
    "cell": "r100c4",
    "kind": "text",
    "keep": false
@@ -2240,7 +2244,7 @@
   {
    "id": 429,
    "jp": "Ａ．精神コマンド「努力」、特殊スキル「ＥＸＰアップ」などを利用します。",
-   "en": "",
+   "en": "A. Use the Spirit Command Gain, the Special Skill EXP Up, etc.",
    "cell": "r100c5",
    "kind": "text",
    "keep": false
@@ -2248,7 +2252,7 @@
   {
    "id": 430,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の方法があります。</C></H></W>\n\n　●<LINK=0>精神コマンド</LINK>「努力」などを使用します。\n\n　●<LINK=1>特殊スキル</LINK>「ＥＸＰアップ」を利用します。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>攻撃対象のパイロットのレベルが高いほど、得られる<LINK=2>経験値</LINK>は多くなります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>There are the following methods.</C></H></W>\n\n　●Use <LINK=0>Spirit Commands</LINK> such as \"Gain\".\n\n　●Use the <LINK=1>Special Skill</LINK> \"EXP Up\".\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>The higher the target pilot's level, the more <LINK=2>EXP</LINK> you earn.\n",
    "cell": "r100c6",
    "kind": "text",
    "keep": false
@@ -2256,7 +2260,7 @@
   {
    "id": 433,
    "jp": "難敵との戦闘について",
-   "en": "",
+   "en": "Tough Enemies",
    "cell": "r101c3",
    "kind": "name",
    "keep": false
@@ -2264,7 +2268,7 @@
   {
    "id": 434,
    "jp": "難敵を撃破する方法についてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A on defeating tough enemies.",
    "cell": "r101c6",
    "kind": "text",
    "keep": false
@@ -2272,7 +2276,7 @@
   {
    "id": 436,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．難敵との戦闘の注意点は何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. Tips for tough enemy fights?",
    "cell": "r102c4",
    "kind": "text",
    "keep": false
@@ -2280,7 +2284,7 @@
   {
    "id": 437,
    "jp": "Ａ．温存した戦力で、短期間で倒すようにします。",
-   "en": "",
+   "en": "A. Save your strength and defeat it fast.",
    "cell": "r102c5",
    "kind": "text",
    "keep": false
@@ -2288,7 +2292,7 @@
   {
    "id": 438,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下のような点に注意します。</C></H></W>\n\n　●戦闘に必要な戦力・<LINK=0>精神コマンド</LINK>などを温存しておきます。\n\n　●攻撃に使用する武器の必要気力分、<LINK=1>気力</LINK>を上げておきます。気力を<LINK=0>精神コマンド</LINK>や\n　　<LINK=2>特殊スキル</LINK>で上げられない場合は、弱い敵を倒すなどすれば上げることができます。\n\n　●バリア系<LINK=3>特殊能力</LINK>を持つ場合は、<LINK=4>バリアを無効化</LINK>します。\n\n　●<LINK=5>特殊効果１</LINK>の「装甲ダウンＬ（Ｒ系）」などを持つ武器で攻撃し、機体やパイロッ\n　　トを弱体化させておきます。\n\n　●<LINK=6>与えるダメージを増やす</LINK>、<LINK=7>受けるダメージを減らす</LINK>、<LINK=8>命中率を上げる</LINK>、<LINK=9>回避率を上\n　≡げる</LINK>、などを実践します。\n\n　●難敵を撃墜すると高い<LINK=10>資金</LINK>や<LINK=11>経験値</LINK>を獲得できるので、<LINK=12>精神コマンド</LINK>や<LINK=13>特殊スキル</LINK>\n　　などを利用して倒すようにします。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3><LINK=14>特殊能力</LINK>「ＨＰ回復」を持つ機体は、敵のフェイズ開始時に最大ＨＰの１０～\n　　　３０％、ＨＰが回復します。最大ＨＰが１０万の敵などの場合、１～３万を回復\n　　　することになるので、できるだけ短いターンに攻撃を集中させる必要があります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Keep the following points in mind.</C></H></W>\n\n　●Save the forces and <LINK=0>Spirit Commands</LINK> you'll need for the fight.\n\n　●Raise <LINK=1>Will</LINK> to what your attack weapons require. If you can't raise it with\n　　<LINK=0>Spirit Commands</LINK> or <LINK=2>Special Skills</LINK>, defeat weaker enemies first.\n\n　●If the enemy has barrier-type <LINK=3>Special Abilities</LINK>, <LINK=4>nullify the barrier</LINK>.\n\n　●Weaken the unit and pilot with weapons that have <LINK=5>Special Effect 1</LINK> traits\n　　such as \"Armor Down L (R-type)\".\n\n　●Put into practice ways to <LINK=6>deal more damage</LINK>, <LINK=7>take less damage</LINK>,\n　　<LINK=8>raise hit rate</LINK> and <LINK=9>raise evasion</LINK>.\n\n　●Tough enemies yield high <LINK=10>funds</LINK> and <LINK=11>EXP</LINK>, so use <LINK=12>Spirit Commands</LINK>\n　　and <LINK=13>Special Skills</LINK> to finish them off.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Units with the <LINK=14>Special Ability</LINK> \"HP Recovery\" regain 10-30% of max\n　　　HP at the start of the enemy phase. An enemy with 100,000 max HP recovers\n　　　10,000-30,000, so concentrate your attacks into as few turns as possible.\n",
    "cell": "r102c6",
    "kind": "text",
    "keep": false
@@ -2296,7 +2300,7 @@
   {
    "id": 441,
    "jp": "<W=24>Ｑ</W><W=32>２</W>．敵のバリアでダメージを与えられない時は？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>2</W>. What if barriers block my damage?",
    "cell": "r103c4",
    "kind": "text",
    "keep": false
@@ -2304,7 +2308,7 @@
   {
    "id": 442,
    "jp": "Ａ．バリア発生条件を妨げたり、精神コマンド「直撃」、「特殊効果２」を持つを武器を使用します。",
-   "en": "",
+   "en": "A. Prevent barrier activation, or use Pierce or Special Effect 2 weapons.",
    "cell": "r103c5",
    "kind": "text",
    "keep": false
@@ -2312,7 +2316,7 @@
   {
    "id": 443,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>バリア系特殊能力を無効化するには、以下のような方法があります。</C></H></W>\n\n　●バリアの発生条件に気力やＥＮが必要な場合、敵の<LINK=0>気力</LINK>を下げる、<LINK=1>特殊効果１</LINK>を持\n　　つ武器でＥＮを減少させるなどし、バリアの発生条件を妨げます。\n\n　●<LINK=2>精神コマンド</LINK>「直撃」を使用することによって、バリア系<LINK=3>特殊能力</LINK>を発生させませ\n　　ん。\n\n　●<LINK=4>特殊効果２</LINK>を持つ武器で攻撃します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Barrier-type Special Abilities can be nullified as follows.</C></H></W>\n\n　●If a barrier needs Will or EN to activate, lower the enemy's <LINK=0>Will</LINK> or drain\n　　its EN with <LINK=1>Special Effect 1</LINK> weapons to stop it from activating.\n\n　●The <LINK=2>Spirit Command</LINK> \"Pierce\" keeps barrier-type <LINK=3>Special Abilities</LINK>\n　　from activating.\n\n　●Attack with <LINK=4>Special Effect 2</LINK> weapons.\n",
    "cell": "r103c6",
    "kind": "text",
    "keep": false
@@ -2320,7 +2324,7 @@
   {
    "id": 446,
    "jp": "編成編",
-   "en": "",
+   "en": "Units",
    "cell": "r104c2",
    "kind": "name",
    "keep": false
@@ -2328,7 +2332,7 @@
   {
    "id": 447,
    "jp": "部隊編成のコツを紹介します。",
-   "en": "",
+   "en": "Tips for organizing units.",
    "cell": "r104c6",
    "kind": "text",
    "keep": false
@@ -2336,7 +2340,7 @@
   {
    "id": 449,
    "jp": "部隊編成について",
-   "en": "",
+   "en": "Unit Formation",
    "cell": "r105c3",
    "kind": "name",
    "keep": false
@@ -2344,7 +2348,7 @@
   {
    "id": 450,
    "jp": "部隊編成についてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A on unit formation.",
    "cell": "r105c6",
    "kind": "text",
    "keep": false
@@ -2352,7 +2356,7 @@
   {
    "id": 452,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．ツインユニットとは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What is a Twin Unit?",
    "cell": "r106c4",
    "kind": "text",
    "keep": false
@@ -2360,7 +2364,7 @@
   {
    "id": 453,
    "jp": "Ａ．２機で構成されている部隊のことです。",
-   "en": "",
+   "en": "A. A unit made up of two machines.",
    "cell": "r106c5",
    "kind": "text",
    "keep": false
@@ -2368,7 +2372,7 @@
   {
    "id": 454,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>２機で構成されている部隊のことです。</C></H></W>\n\n　●１つの部隊（ユニット）は１～２機の機体で構成されます。２機で構成されている\n　　部隊をツインユニット、１機の場合はシングルユニットと呼びます。\n\n　●インターミッションでは「部隊編成」コマンドから部隊の機体編成を行うことで、\n　　ツインユニットとシングルユニットを変更することができます。\n\n　●マップ上では個別コマンド「合流」でツインユニットに、個別コマンド「解散」で\n　　シングルユニットに変更することができます。合流を行う場合、周囲８マスで部隊\n　　が接続している必要があります。\n\n　●戦艦はツインユニットにすることができません。\n\n　●ツインユニットのメリットは以下のようになります。\n　・２機が装備している<LINK=0>アビリティ</LINK>を合わせたアビリティ効果を両方の機体が得ること\n　　ができるようになります。\n　・<LINK=1>ツイン精神コマンド</LINK>を使用できるようになります。\n　・戦闘で獲得できる<LINK=2>経験値</LINK>や<LINK=3>ＰＰ</LINK>の総量が増加します。\n　・２機で攻撃を行えるため、一度の戦闘で敵により多くのダメージを与えることが可\n　　能になります。\n\n　●ツインユニットをマップ上で解散させた場合、そのユニットが使用していた<LINK=1>ツイン\n　≡精神コマンド</LINK>の効果は失われます。また「加速」など、部隊全体に働く<LINK=4>精神コマン\n　≡ド</LINK>の効果は、コマンドを使用したパイロットの機体側のみへ引き継がれます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>A unit made up of two machines.</C></H></W>\n\n　●A unit consists of 1 or 2 machines. A two-machine unit is called a Twin Unit,\n　　and a one-machine unit a Single Unit.\n\n　●In the Intermission, arrange machines with the Unit Formation command to switch\n　　between Twin Units and Single Units.\n\n　●On the map, use the Join unit command to form a Twin Unit and Split to form\n　　Single Units. To join, the units must touch in one of the 8 surrounding squares.\n\n　●Battleships can't form Twin Units.\n\n　●Twin Units have these advantages:\n　・Both machines get the combined effects of the <LINK=0>Abilities</LINK> equipped on\n　　both.\n　・<LINK=1>Twin Spirit Commands</LINK> become available.\n　・Total <LINK=2>EXP</LINK> and <LINK=3>PP</LINK> earned in battle increase.\n　・Both machines can attack, so you can deal more damage in one battle.\n\n　●If a Twin Unit splits on the map, any <LINK=1>Twin Spirit Command</LINK> effects it had\n　　are lost. Effects of <LINK=4>Spirit Commands</LINK> that apply to the whole unit, like\n　　\"Accel\", carry over only to the machine of the pilot who used them.\n",
    "cell": "r106c6",
    "kind": "text",
    "keep": false
@@ -2376,7 +2380,7 @@
   {
    "id": 457,
    "jp": "<W=24>Ｑ</W><W=32>２</W>．移動タイプによる部隊編成のコツは？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>2</W>. Formation tips by movement type?",
    "cell": "r107c4",
    "kind": "text",
    "keep": false
@@ -2384,7 +2388,7 @@
   {
    "id": 458,
    "jp": "Ａ．移動タイプが似通った機体同士で部隊を編成します。",
-   "en": "",
+   "en": "A. Pair machines with similar movement types.",
    "cell": "r107c5",
    "kind": "text",
    "keep": false
@@ -2392,7 +2396,7 @@
   {
    "id": 459,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>移動タイプが似通った機体同士で部隊を編成します。</C></H></W>\n\n　●ツインユニットの場合、<LINK=0>移動タイプ</LINK>は部隊を構成する２機の移動タイプにより決定\n　　されます。移動タイプ「空」「陸」「水」「地中」のそれぞれについて、２機共保\n　　有する場合は通常色、１機のみの場合は灰色で表示されます。文字の色が通常色の\n　　場合は灰色にくらべ、地形に進入するためのコストがより少なくなるため、２機の\n　　移動タイプを考慮して編成を行う必要があります。\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>移動タイプが【空陸<C=808080FF>－－</C>】の機体と【<C=808080FF>－</C>陸<C=808080FF>－</C>地】の機体でツインユニットを組ん\n　　　でいる場合、ツインユニットの移動タイプは【<C=808080FF>空</C>陸<C=808080FF>－地</C>】となります。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>「<C=808080FF>空</C>」の場合、空中に移動することができなくなります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Pair machines with similar movement types.</C></H></W>\n\n　●A Twin Unit's <LINK=0>movement type</LINK> is set by those of its two machines. Each\n　　type, Air (A), Land (L), Water (W) and Underground (U), shows in normal color if\n　　both machines have it, or gray if only one does. Normal-color types cost less\n　　to enter terrain than gray ones, so consider both machines' movement types.\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>If an [AL<C=808080FF>--</C>] machine pairs with a [<C=808080FF>-</C>L<C=808080FF>-</C>U] machine, the\n　　　Twin Unit's movement type becomes [<C=808080FF>A</C>L<C=808080FF>-U</C>].\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>If \"<C=808080FF>A</C>\" is gray, the unit can't move into the air.\n",
    "cell": "r107c6",
    "kind": "text",
    "keep": false
@@ -2400,7 +2404,7 @@
   {
    "id": 461,
    "jp": "<W=24>Ｑ</W><W=32>３</W>．精神コマンドによる部隊編成のコツは？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>3</W>. Formation tips by Spirit Command?",
    "cell": "r108c4",
    "kind": "text",
    "keep": false
@@ -2408,7 +2412,7 @@
   {
    "id": 462,
    "jp": "Ａ．自部隊に効果のある精神コマンドを、各部隊に振り分けます。",
-   "en": "",
+   "en": "A. Spread self-targeted Spirit Commands across units.",
    "cell": "r108c5",
    "kind": "text",
    "keep": false
@@ -2416,7 +2420,7 @@
   {
    "id": 463,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>自部隊に効果のある精神コマンドを、各部隊に振り分けます。</C></H></W>\n\n　●使用した場合、自部隊に効果が発生する<LINK=0>精神コマンド</LINK>は、できるだけ多くの部隊に\n　　振り分けるために、同一部隊に重複しないようにします。以下はその代表的な精神\n　　コマンドです。\n\n　<T=30>『加速』</T>\n　・一度だけ、移動力に＋３されます。\n\n　<T=30>『覚醒』</T>\n　・一回分、行動回数が増えます。\n\n　<T=30>『幸運』</T>\n　・次の戦闘で得られる資金が２倍になります。\n\n　<T=30>『努力』</T>\n　・次の戦闘で得られる経験値が２倍になります。\n\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Spread self-targeted Spirit Commands across units.</C></H></W>\n\n　●<LINK=0>Spirit Commands</LINK> that affect your own unit should be spread over as many\n　　units as possible, without doubling up in one unit. Typical examples follow.\n\n　<T=30>Accel</T>\n　・Once, adds +3 to movement.\n\n　<T=30>Awaken</T>\n　・Grants one extra action.\n\n　<T=30>Luck</T>\n　・Doubles the funds earned in the next battle.\n\n　<T=30>Gain</T>\n　・Doubles the EXP earned in the next battle.\n\n",
    "cell": "r108c6",
    "kind": "text",
    "keep": false
@@ -2424,7 +2428,7 @@
   {
    "id": 465,
    "jp": "<W=24>Ｑ</W><W=32>４</W>．アビリティによる部隊編成のコツは？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>4</W>. Formation tips by Ability?",
    "cell": "r109c4",
    "kind": "text",
    "keep": false
@@ -2432,7 +2436,7 @@
   {
    "id": 466,
    "jp": "Ａ．部隊内の同じアビリティが３個になるように編成を行います。",
-   "en": "",
+   "en": "A. Form units so they hold 3 of the same Ability.",
    "cell": "r109c5",
    "kind": "text",
    "keep": false
@@ -2440,7 +2444,7 @@
   {
    "id": 467,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>部隊内の同じアビリティが３個になるように編成を行います。</C></H></W>\n\n　●ツインユニットの場合は、２機とそれに搭乗する２人のメインパイロットの、１２\n　　個のスロットが対象になり、両方の機体について<LINK=0>アビリティ効果</LINK>を得ることができ\n　　ます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Form units so they hold 3 of the same Ability.</C></H></W>\n\n　●In a Twin Unit, the 12 slots of both machines and their two main pilots\n　　count, and both machines receive the <LINK=0>Ability effects</LINK>.\n",
    "cell": "r109c6",
    "kind": "text",
    "keep": false
@@ -2448,7 +2452,7 @@
   {
    "id": 470,
    "jp": "<W=24>Ｑ</W><W=32>５</W>．武器による部隊編成のコツは？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>5</W>. Formation tips by weapon?",
    "cell": "r110c4",
    "kind": "text",
    "keep": false
@@ -2456,7 +2460,7 @@
   {
    "id": 471,
    "jp": "Ａ．装備している武器が似通った機体同士で部隊を編成します。",
-   "en": "",
+   "en": "A. Pair machines with similar equipped weapons.",
    "cell": "r110c5",
    "kind": "text",
    "keep": false
@@ -2464,7 +2468,7 @@
   {
    "id": 472,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>装備している武器が似通った機体同士で部隊を編成します。</C></H></W>\n\n　●攻撃を行う場合、サブ側の機体が射程不足などの理由により攻撃できないといった\n　　状況を避けるため、機体が装備している武器の最大射程、移動後に攻撃可能かどう\n　　か、全体攻撃の有無などを考慮し、２機の攻撃可能なタイミングを合わせるような\n　　編成を行う必要があります。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>武器の換装が可能な機体は、<LINK=0>換装武器</LINK>を装備することによって、機体の武器を調\n　　　整することができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Pair machines with similar equipped weapons.</C></H></W>\n\n　●So the sub machine isn't left unable to attack due to lack of range, consider\n　　each machine's max weapon range, post-move attacks and ALL attacks, and form\n　　units so both machines can attack at the same times.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Machines that can swap weapons can adjust their loadout by equipping\n　　　<LINK=0>Replace Weapons</LINK>.\n",
    "cell": "r110c6",
    "kind": "text",
    "keep": false
@@ -2472,7 +2476,7 @@
   {
    "id": 475,
    "jp": "<W=24>Ｑ</W><W=32>６</W>．パイロットによる部隊編成のコツは？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>6</W>. Formation tips by pilot?",
    "cell": "r111c4",
    "kind": "text",
    "keep": false
@@ -2480,7 +2484,7 @@
   {
    "id": 476,
    "jp": "Ａ．シナリオでの人間関係を考慮して編成を行います。",
-   "en": "",
+   "en": "A. Factor in relationships from the story.",
    "cell": "r111c5",
    "kind": "text",
    "keep": false
@@ -2488,7 +2492,7 @@
   {
    "id": 477,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>シナリオでの人間関係を考慮して編成を行います。</C></H></W>\n\n　●シナリオ上、特別な人間関係にあるパイロットがマップで近くに存在する場合、戦\n　　闘に良い影響を与える可能性があります。\n\n　●同じチームに所属しているパイロットや親しい友人など、友情、信頼関係にある場\n　　合、戦闘時の<LINK=0>命中率</LINK>・<LINK=1>回避率</LINK>に影響を与えます。\n\n　●恋愛感情がある場合、戦闘時の与えるダメージに影響を与えます。\n\n　●お互いを認め合ったライバル関係にある場合、戦闘時のクリティカル発生率に影響\n　　を与えます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Factor in relationships from the story.</C></H></W>\n\n　●Pilots with special story relationships who are near each other on the map\n　　may have a positive effect in battle.\n\n　●Friendship or trust, as between teammates or close friends, affects <LINK=0>hit rate</LINK>\n　　and <LINK=1>evasion</LINK> in battle.\n\n　●Romantic feelings affect the damage dealt in battle.\n\n　●Rivals who acknowledge each other affect the critical hit rate in battle.\n",
    "cell": "r111c6",
    "kind": "text",
    "keep": false
@@ -2496,7 +2500,7 @@
   {
    "id": 480,
    "jp": "乗せ換えについて",
-   "en": "",
+   "en": "Pilot Transfer",
    "cell": "r112c3",
    "kind": "name",
    "keep": false
@@ -2504,7 +2508,7 @@
   {
    "id": 481,
    "jp": "パイロットの乗せ換えについてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A on transferring pilots.",
    "cell": "r112c6",
    "kind": "text",
    "keep": false
@@ -2512,7 +2516,7 @@
   {
    "id": 483,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．乗せ換えとは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What is transferring?",
    "cell": "r113c4",
    "kind": "text",
    "keep": false
@@ -2520,7 +2524,7 @@
   {
    "id": 484,
    "jp": "Ａ．パイロットが搭乗する機体を変更することです。",
-   "en": "",
+   "en": "A. Changing the machine a pilot rides.",
    "cell": "r113c5",
    "kind": "text",
    "keep": false
@@ -2528,7 +2532,7 @@
   {
    "id": 485,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>パイロットが搭乗する機体を変更することです。</C></H></W>\n\n　●始めから搭乗している機体とは比較的相性が良いため、他の機体に乗せ換える必要\n　　性はさほどありませんが、新たな機体を入手した場合や、特定のパイロットの撃墜\n　　が敗北条件の時に、装甲値の高い機体に乗せ換えるなど、場面に応じて乗せ換えを\n　　行うと、ゲーム進行が楽になる場合もあります。乗せ換えはインターミッションの\n　　「乗せ換え」コマンドで行います。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>乗せ換えることができないパイロット、乗せ換えられるパイロットが限定される\n　　　機体なども存在します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Changing the machine a pilot rides.</C></H></W>\n\n　●Pilots generally suit their starting machines, so transfers aren't often\n　　needed. But transferring as the situation calls for, such as when you get a\n　　new machine, or moving a pilot whose defeat is a loss condition into a\n　　high-armor machine, can make the game easier. Use the Intermission's\n　　Transfer command.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Some pilots can't be transferred, and some machines limit which\n　　　pilots can board them.\n",
    "cell": "r113c6",
    "kind": "text",
    "keep": false
@@ -2536,7 +2540,7 @@
   {
    "id": 487,
    "jp": "<W=24>Ｑ</W><W=32>２</W>．乗せ換えのコツは？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>2</W>. Transfer tips?",
    "cell": "r114c4",
    "kind": "text",
    "keep": false
@@ -2544,7 +2548,7 @@
   {
    "id": 488,
    "jp": "Ａ．弱点を補い、長所を伸ばすようにします。",
-   "en": "",
+   "en": "A. Cover weaknesses, boost strengths.",
    "cell": "r114c5",
    "uses": 2,
    "kind": "text",
@@ -2553,7 +2557,7 @@
   {
    "id": 489,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>弱点を補い、長所を伸ばすようにします。以下は一例です。</C></H></W>\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>格闘能力が高いパイロットは強力な格闘武器を持つ機体に、射撃能力が高いパイ\n　　　ロットは強力な射撃武器をもつ機体に乗せます。\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>照準値の低い機体には、<LINK=0>精神コマンド</LINK>「必中」を持つパイロットを乗せます。\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3><LINK=1>特殊スキル</LINK>「連続攻撃」を持つパイロットは、コンビネーション攻撃可能な武器\n　　　を持つ機体に乗せます。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>パイロットは搭乗する機体によって、戦闘デモ台詞が変化する場合があります。\n　　　特定の組合せによってのみ、聞くことができる台詞も存在します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Cover weaknesses, boost strengths. Some examples:</C></H></W>\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Put high-Melee pilots in machines with strong melee weapons, and\n　　　high-Ranged pilots in machines with strong ranged weapons.\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Put pilots with the <LINK=0>Spirit Command</LINK> \"Bullseye\" in low-Aim machines.\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Put pilots with the <LINK=1>Special Skill</LINK> \"Continuous Attack\" in machines\n　　　with combination-capable weapons.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Some pilots' battle quotes change depending on their machine.\n　　　Some lines can only be heard with specific combinations.\n",
    "cell": "r114c6",
    "kind": "text",
    "keep": false
@@ -2561,7 +2565,7 @@
   {
    "id": 491,
    "jp": "機体換装について",
-   "en": "",
+   "en": "Replacement",
    "cell": "r115c3",
    "kind": "name",
    "keep": false
@@ -2569,7 +2573,7 @@
   {
    "id": 492,
    "jp": "機体の換装パーツについてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A on machine replacement parts.",
    "cell": "r115c6",
    "kind": "text",
    "keep": false
@@ -2577,7 +2581,7 @@
   {
    "id": 494,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．機体換装とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What are Unit Parts?",
    "cell": "r116c4",
    "kind": "text",
    "keep": false
@@ -2585,7 +2589,7 @@
   {
    "id": 495,
    "jp": "Ａ．機体専用のオプションパーツの付け外しを行うことです。",
-   "en": "",
+   "en": "A. Attaching and removing a unit's own option parts.",
    "cell": "r116c5",
    "kind": "text",
    "keep": false
@@ -2593,7 +2597,7 @@
   {
    "id": 496,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>機体専用のオプションパーツの付け外しを行うことです。</C></H></W>\n\n　●一部の機体は専用の換装パーツを持ちます。換装パーツを装備・変更することによ\n　　り、運動性や装甲といった能力を変化させることができます。多くの場合、換装パー\n　　ツを装備すると強力な武器が増えるなどのメリットがあります。機体換装はインター\n　　ミッションの「換装パーツ」コマンドで行います。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Attaching and removing a unit's own option parts.</C></H></W>\n\n　●Some units have their own replacement parts. Equipping or changing them\n　　alters stats such as Mobility and Armor. Equipping them often brings\n　　benefits such as extra powerful weapons. Replace parts with the\n　　\"Replace Parts\" command in the Intermission.\n",
    "cell": "r116c6",
    "kind": "text",
    "keep": false
@@ -2601,7 +2605,7 @@
   {
    "id": 498,
    "jp": "武器換装について",
-   "en": "",
+   "en": "Replace Weapons",
    "cell": "r117c3",
    "kind": "name",
    "keep": false
@@ -2609,7 +2613,7 @@
   {
    "id": 499,
    "jp": "機体の武器換装についてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A about replacing weapons.",
    "cell": "r117c6",
    "kind": "text",
    "keep": false
@@ -2617,7 +2621,7 @@
   {
    "id": 501,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．武器換装とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What's a Weapon Swap?",
    "cell": "r118c4",
    "kind": "text",
    "keep": false
@@ -2625,7 +2629,7 @@
   {
    "id": 502,
    "jp": "Ａ．機体の武装の変更を行うことです。",
-   "en": "",
+   "en": "A. Changing a unit's armaments.",
    "cell": "r118c5",
    "kind": "text",
    "keep": false
@@ -2633,7 +2637,7 @@
   {
    "id": 503,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>機体の武装の変更を行うことです。</C></H></W>\n\n　●武器には、その機体専用の固定武器と、装備と解除が自由に行え、機体間で汎用的\n　　に使用することができる、換装武器があります。換装武器にはその武器の装備必要\n　　量を表す、ウェポンゲージが設定されていて、機体は装備可能なウェポンゲージ量\n　　を超えない範囲で、自由に武器を変更することができます。武器換装はインターミッ\n　　ションの「武器換装」コマンドで行います。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>武器換装を行えない機体も存在します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Changing a unit's armaments.</C></H></W>\n\n　●There are fixed weapons exclusive to each unit, and replaceable weapons that\n　　can be freely equipped, removed and shared between units. Each replaceable\n　　weapon has a Weapon Gauge cost, and a unit can change weapons freely as\n　　long as the total stays within its Weapon Gauge capacity. Replace weapons\n　　with the \"Replace Weapons\" command in the Intermission.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Some units can't replace weapons.\n",
    "cell": "r118c6",
    "kind": "text",
    "keep": false
@@ -2641,7 +2645,7 @@
   {
    "id": 505,
    "jp": "<W=24>Ｑ</W><W=32>２</W>．武器換装のコツは？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>2</W>. Any Weapon Tips?",
    "cell": "r119c4",
    "kind": "text",
    "keep": false
@@ -2652,12 +2656,13 @@
    "en": "",
    "cell": "r119c6",
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "retry_note": "CSB: '<W=28><H=28>A. <C=FF8000FF>Cover weaknesses and build on strengths. Some examples:</C></H></W>\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Give units with melee fixed weapons melee-type replaceable weapons,\\n\\u3000\\u3000\\u3000and units with ranged fixed weapons ranged-type ones.\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Equip support units with a Repair Module or Resupply Module. Using\\n\\u3000\\u3000\\u3000<LINK=0>Repair</LINK> or <LINK=1>Resupply</LINK> lets even non-combat units earn EXP.\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Give EN-hungry units, such as those with many EN-based fixed weapons,\\n\\u3000\\u3000\\u3000ammo-based replaceable weapons, and EN-based ones in the opposite case.\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Give units with only short-range fixed weapons long-range replaceable\\n\\u3000\\u3000\\u3000weapons, and close-combat weapons in the opposite case.\\n' failed (width: 9230px > 8704px: '<W=28><H=28>A. <C=FF8000FF>Cover weaknesses and bu')"
   },
   {
    "id": 509,
    "jp": "強化編",
-   "en": "",
+   "en": "Build",
    "cell": "r120c2",
    "kind": "name",
    "keep": false
@@ -2665,7 +2670,7 @@
   {
    "id": 510,
    "jp": "パイロットや機体強化のコツを紹介します。",
-   "en": "",
+   "en": "Tips for upgrading pilots and units.",
    "cell": "r120c6",
    "kind": "text",
    "keep": false
@@ -2673,7 +2678,7 @@
   {
    "id": 512,
    "jp": "パイロット養成について",
-   "en": "",
+   "en": "Pilot Training",
    "cell": "r121c3",
    "kind": "name",
    "keep": false
@@ -2681,7 +2686,7 @@
   {
    "id": 513,
    "jp": "パイロット養成についてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A about pilot training.",
    "cell": "r121c6",
    "kind": "text",
    "keep": false
@@ -2689,7 +2694,7 @@
   {
    "id": 515,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．パイロット養成とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What is Pilot Training?",
    "cell": "r122c4",
    "kind": "text",
    "keep": false
@@ -2697,7 +2702,7 @@
   {
    "id": 516,
    "jp": "Ａ．パイロットの能力上昇や特殊スキルの修得を行うことです。",
-   "en": "",
+   "en": "A. Raising pilot stats and learning special skills.",
    "cell": "r122c5",
    "kind": "text",
    "keep": false
@@ -2705,7 +2710,7 @@
   {
    "id": 517,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>パイロットの能力上昇や特殊スキルの修得を行うことです。</C></H></W>\n\n　●戦闘で獲得した<LINK=0>ＰＰ</LINK>（パイロットポイント）を消費することによって、パイロット\n　　の能力を上昇させたり、修得可能な<LINK=1>特殊スキル</LINK>を修得させることができます。パイ\n　　ロット養成はインターミッションの「パイロット養成」コマンドで行います。\n\n　●最大６スロット分の特殊スキルを修得することができます。特殊スキルが既に修得\n　　されているスロットでも、必要がないと判断した場合には上書きすることで、入れ\n　　替えることが可能です。ただし、修得しても意味がないスキルは修得できません。\n\n　●特殊スキルには修得可能なものと、特定のパイロットが覚える、修得不可能なもの\n　　があります。修得不可能な特殊スキルには他の特殊スキルを上書きすることはでき\n　　ません。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Raising pilot stats and learning special skills.</C></H></W>\n\n　●By spending <LINK=0>PP</LINK> (Pilot Points) earned in battle, you can raise a pilot's\n　　stats or have them learn available <LINK=1>Special Skills</LINK>. Train pilots with\n　　the \"Pilot Training\" command in the Intermission.\n\n　●Pilots can learn special skills in up to 6 slots. A slot that already holds\n　　a skill can be overwritten if you decide it isn't needed. However, skills\n　　that would have no effect can't be learned.\n\n　●Some special skills can be learned, while others are unique to certain\n　　pilots and can't be learned. Unlearnable skills can't be overwritten with\n　　other skills.\n",
    "cell": "r122c6",
    "kind": "text",
    "keep": false
@@ -2713,7 +2718,7 @@
   {
    "id": 520,
    "jp": "<W=24>Ｑ</W><W=32>２</W>．能力上昇のコツは？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>2</W>. Tips for Stats?",
    "cell": "r123c4",
    "kind": "text",
    "keep": false
@@ -2721,7 +2726,7 @@
   {
    "id": 521,
    "jp": "Ａ．長所を伸ばすようにします。",
-   "en": "",
+   "en": "A. Build on strengths.",
    "cell": "r123c5",
    "uses": 3,
    "kind": "text",
@@ -2733,12 +2738,13 @@
    "en": "",
    "cell": "r123c6",
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "retry_note": "CSB: \"<W=28><H=28>A. <C=FF8000FF>Build on strengths.</C></H></W>\\n\\n\\u3000<T=30>『Mel』</T>\\n\\u3000・Raise to increase damage from melee weapons.\\n\\n\\u3000<T=30>『Rng』</T>\\n\\u3000・Raise to increase damage from ranged weapons.\\n\\n\\u3000<T=30>『Skl』</T>\\n\\u3000・Raise to improve critical rate and the Counter skill's activation rate, and\\n\\u3000\\u3000to meet the conditions for the Attack Again skill and the Mercy spirit command.\\n\\n\\u3000<T=30>『Def』</T>\\n\\u3000・Raise to reduce damage taken.\\n\\n\\u3000<T=30>『Eva』</T>\\n\\u3000・Raise to improve evasion.\\n\\n\\u3000<T=30>『Acc』</T>\\n\\u3000・Raise to improve accuracy.\\n\\n\\u3000<T=30>『Terrain Ability』</T>\\n\\u3000・The pilot's and unit's Terrain Ability combine into an overall rating that\\n\\u3000\\u3000affects evasion and damage taken in battle. Raise it when, for example, a\\n\\u3000\\u3000pilot lowers the unit's rating in terrain the unit excels at.\\n\\n\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000<T=30><C=FF8000FF>Pilot</C></T>\\n\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000<C=0080FFFF>S\\u3000A\\u3000B\\u3000C\\u3000D</C>\\n\\u3000\\u3000\\u3000\\u3000<C=0080FFFF>S</C>\\u3000S\\u3000S\\u3000A\\u3000B\\u3000B\\n\\u3000\\u3000\\u3000\\u3000<C=0080FFFF>A</C>\\u3000S\\u3000A\\u3000B\\u3000B\\u3000C\\n\\u3000\\u3000<T=30><C=FF8000FF>Unit</C></T><C=0080FFFF>B</C>\\u3000A\\u3000B\\u3000B\\u3000C\\u3000C\\n\\u3000\\u3000\\u3000\\u3000<C=0080FFFF>C</C>\\u3000B\\u3000B\\u3000C\\u3000C\\u3000D\\n\\u3000\\u3000\\u3000\\u3000<C=0080FFFF>D</C>\\u3000B\\u3000C\\u3000C\\u3000D\\u3000D\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>A one-rank change in Terrain Ability can change evasion and damage\\n\\u3000\\u3000\\u3000taken by about 10%.\\n\" failed (tag: tags ['<W=28>', '<H=28>', '<C=FF8000FF>', '</C>', '</H>', '</W>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '<C=FF8000FF>', '</C>', '</T>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<T=30>', '<C=FF8000FF>', '</C>', '</T>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<T=30>', '<C=FF8000FF>', '</C>', '</T>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<S=8>', '<Y=-3>', '<W=32>', '<H=32>', '<I=156>', '</H>', '</W>', '</Y>', '<S=3>'] vs ['<W=28>', '<H=28>', '<C=FF8000FF>', '</C>', '</H>', '</W>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '</T>', '<T=30>', '<C=FF8000FF>', '</C>', '</T>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<T=30>', '<C=FF8000FF>', '</C>', '</T>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<C=0080FFFF>', '</C>', '<S=8>', '<Y=-3>', '<W=32>', '<H=32>', '<I=156>', '</H>', '</W>', '</Y>', '<S=3>'])"
   },
   {
    "id": 524,
    "jp": "<W=24>Ｑ</W><W=32>３</W>．スキル修得のコツは？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>3</W>. Tips for Skills?",
    "cell": "r124c4",
    "kind": "text",
    "keep": false
@@ -2746,7 +2752,7 @@
   {
    "id": 525,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下のＱ＆Ａを参考にして、長所を伸ばすようにします。</C></H></W>\n\n　●<LINK=0>敵へのダメージを増やすためには？</LINK>\n\n　●<LINK=1>敵からのダメージを減らすためには？</LINK>\n\n　●<LINK=2>命中率を上げるためには？</LINK>\n\n　●<LINK=3>回避率を上げるためには？</LINK>\n\n　●<LINK=4>気力を上げるためには？</LINK>\n\n　●<LINK=5>経験値をより多く得るためには？</LINK>\n\n　●<LINK=6>その他、役立つものはありますか？</LINK>\n\n　<S=8><Y=-3><W=32><H=32><I=154></H></W></Y><S=3><LINK=7>特殊スキル</LINK>。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>See the Q&As below and build on strengths.</C></H></W>\n\n　●<LINK=0>How can I deal more damage to enemies?</LINK>\n\n　●<LINK=1>How can I take less damage from enemies?</LINK>\n\n　●<LINK=2>How can I raise accuracy?</LINK>\n\n　●<LINK=3>How can I raise evasion?</LINK>\n\n　●<LINK=4>How can I raise Will?</LINK>\n\n　●<LINK=5>How can I earn more EXP?</LINK>\n\n　●<LINK=6>Anything else useful?</LINK>\n\n　<S=8><Y=-3><W=32><H=32><I=154></H></W></Y><S=3><LINK=7>Special Skills</LINK>.\n",
    "cell": "r124c6",
    "kind": "text",
    "keep": false
@@ -2754,7 +2760,7 @@
   {
    "id": 528,
    "jp": "機体・武器改造について",
-   "en": "",
+   "en": "Unit/Weapon Upgrades",
    "cell": "r125c3",
    "kind": "name",
    "keep": false
@@ -2762,7 +2768,7 @@
   {
    "id": 529,
    "jp": "機体・武器改造についてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A about unit/weapon upgrades.",
    "cell": "r125c6",
    "kind": "text",
    "keep": false
@@ -2770,7 +2776,7 @@
   {
    "id": 531,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．機体・武器改造とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What are Upgrades?",
    "cell": "r126c4",
    "kind": "text",
    "keep": false
@@ -2778,7 +2784,7 @@
   {
    "id": 532,
    "jp": "Ａ．機体の能力上昇や武器の攻撃力上昇を行うことです。",
-   "en": "",
+   "en": "A. Raising unit stats and weapon attack power.",
    "cell": "r126c5",
    "kind": "text",
    "keep": false
@@ -2786,7 +2792,7 @@
   {
    "id": 533,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>機体の能力上昇や武器の攻撃力上昇を行うことです。</C></H></W>\n\n　●戦闘で獲得した<LINK=0>資金</LINK>を消費することによって、機体のＨＰ、ＥＮ、装甲、運動性、\n　　照準値や、武器の攻撃力を上昇させることができます。換装武器は個々に改造を行\n　　う必要がありますが、固定武器は機体ごとに全武器が一括で改造されます。機体・\n　　武器改造はインターミッションの「機体・武器改造」コマンドで行います。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Raising unit stats and weapon attack power.</C></H></W>\n\n　●By spending <LINK=0>funds</LINK> earned in battle, you can raise a unit's HP, EN, Armor,\n　　Mobility and Aim, and its weapons' attack power. Replaceable weapons must be\n　　upgraded one by one, but a unit's fixed weapons are all upgraded together.\n　　Upgrade with the \"Upgrade\" command in the Intermission.\n",
    "cell": "r126c6",
    "kind": "text",
    "keep": false
@@ -2794,7 +2800,7 @@
   {
    "id": 536,
    "jp": "<W=24>Ｑ</W><W=32>２</W>．機体改造のコツは？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>2</W>. Unit Upgrade Tips?",
    "cell": "r127c4",
    "kind": "text",
    "keep": false
@@ -2802,7 +2808,7 @@
   {
    "id": 537,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>長所を伸ばすようにします。</C></H></W>\n\n　<T=30>『ＨＰ』</T>\n　・装甲値が高く運動性が低い機体の改造に適しています。敵の攻撃を十分回避するこ\n　　とができる機体はダメージを受けないので、改造しても効果は低くなります。\n\n　<T=30>『ＥＮ』</T>\n　・ＥＮの消費が激しい武器を装備している機体の改造に適しています。\n\n　<T=30>『装甲』</T>\n　・装甲値が高く運動性が低い機体の改造に適しています。敵の攻撃を回避することが\n　　できる機体はダメージを受けないので、改造しても効果は低くなります。\n\n　<T=30>『運動性』</T>\n　・運動性が高く装甲値が低い機体の改造に適しています。敵の攻撃に十分耐えること\n　　ができる装甲やＨＰがある場合は回避する必要がないので、改造しても効果は低く\n　　なります。\n\n　<T=30>『照準値』</T>\n　・精神コマンドなどで命中率を補うことができない機体の改造に適しています。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>ＨＰ、ＥＮ、装甲、運動性、照準値の全てを１０段階改造すると…。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Build on strengths.</C></H></W>\n\n　<T=30>『HP』</T>\n　・Suits units with high Armor and low Mobility. Units that can reliably dodge\n　　enemy attacks don't take damage, so upgrading it does little for them.\n\n　<T=30>『EN』</T>\n　・Suits units equipped with weapons that consume a lot of EN.\n\n　<T=30>『Armor』</T>\n　・Suits units with high Armor and low Mobility. Units that can dodge enemy\n　　attacks don't take damage, so upgrading it does little for them.\n\n　<T=30>『Mobility』</T>\n　・Suits units with high Mobility and low Armor. Units with enough Armor and\n　　HP to withstand enemy attacks don't need to dodge, so upgrading it does\n　　little for them.\n\n　<T=30>『Aim』</T>\n　・Suits units that can't make up for accuracy with spirit commands and such.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Upgrade HP, EN, Armor, Mobility and Aim all 10 levels, and...\n",
    "cell": "r127c6",
    "kind": "text",
    "keep": false
@@ -2810,7 +2816,7 @@
   {
    "id": 539,
    "jp": "<W=24>Ｑ</W><W=32>３</W>．武器改造のコツは？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>3</W>. Tips for Weapons?",
    "cell": "r128c4",
    "kind": "text",
    "keep": false
@@ -2818,7 +2824,7 @@
   {
    "id": 540,
    "jp": "Ａ．状況に応じて、固定武器と換装武器の改造を行います。",
-   "en": "",
+   "en": "A. Upgrade fixed or replaceable weapons as needed.",
    "cell": "r128c5",
    "kind": "text",
    "keep": false
@@ -2826,7 +2832,7 @@
   {
    "id": 541,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>状況に応じて、固定武器と換装武器の改造を行います。</C></H></W>\n\n　<T=30>『固定武器』</T>\n　・機体ごとに全武器が一括で改造されるため、改造費用は高価になりますが、攻撃力\n　　が高い武器が含まれるため、換装武器に比べ、高いダメージが期待できます。<LINK=0>難敵</LINK>\n　　を確実に撃墜するためには、主要機体の固定武器を改造する必要があります。\n\n　<T=30>『換装武器』</T>\n　・固定武器に比べ攻撃力は高くないため、強敵への攻撃には不向きですが、固定武器\n　　と違い、シナリオで離脱してしまう機体や使わなくなった機体から取り外し、他の\n　　機体で続けて使用できるため、資金の無駄が少なくなります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Upgrade fixed or replaceable weapons as needed.</C></H></W>\n\n　<T=30>『Fixed Weapons』</T>\n　・All of a unit's weapons are upgraded at once, so it's costly, but they include\n　　high-power weapons and can deal more damage than replaceable ones. To reliably\n　　shoot down <LINK=0>tough enemies</LINK>, upgrade your main units' fixed weapons.\n\n　<T=30>『Replaceable Weapons』</T>\n　・Weaker than fixed weapons and poor against strong foes, but unlike fixed\n　　weapons they can be removed from units that leave the story or that you no\n　　longer use and kept in use on other units, so less money goes to waste.\n",
    "cell": "r128c6",
    "kind": "text",
    "keep": false
@@ -2834,7 +2840,7 @@
   {
    "id": 544,
    "jp": "強化パーツについて",
-   "en": "",
+   "en": "Enhance Parts",
    "cell": "r129c3",
    "kind": "name",
    "keep": false
@@ -2842,7 +2848,7 @@
   {
    "id": 545,
    "jp": "強化パーツについてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A about Enhance Parts.",
    "cell": "r129c6",
    "kind": "text",
    "keep": false
@@ -2850,7 +2856,7 @@
   {
    "id": 547,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．強化パーツとは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What are Enhance Parts?",
    "cell": "r130c4",
    "kind": "text",
    "keep": false
@@ -2858,7 +2864,7 @@
   {
    "id": 548,
    "jp": "Ａ．機体の能力を引き上げることができる装備のことです。",
-   "en": "",
+   "en": "A. Equipment that boosts a unit's capabilities.",
    "cell": "r130c5",
    "kind": "text",
    "keep": false
@@ -2866,7 +2872,7 @@
   {
    "id": 549,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>機体の能力を引き上げることができる装備のことです。</C></H></W>\n\n　●各機体は１～４つの強化パーツを装備することができます。装備している強化パー\n　　ツの変更はインターミッションの「強化パーツ装備」コマンドで行います。強化パー\n　　ツの分類には以下のようなものがあります。\n\n　<T=30>『機体系』</T>\n　・装備している場合、<LINK=0>移動力</LINK>や運動性などの機体の能力を上昇させます。\n\n　<T=30>『武器系』</T>\n　・装備している場合、命中補正や射程などの武器の能力を上昇させます。\n\n　<T=30>『消費系』</T>\n　・装備している場合、マップで個別コマンド「パーツ」で強化パーツを使用して、\n　　ＨＰやＥＮなどを回復させることができます。１マップで、一度だけ使用可能です。\n　　戦艦ユニットのみ、消費系強化パーツを３マス以内のユニットに対して使用するこ\n　　とができます。\n\n　<T=30>『特殊系』</T>\n　・装備している場合、複数の分類の効果を併せて上昇させたり、ステージ開始時のパ\n　　イロットの<LINK=1>気力</LINK>を上昇させる等の効果を得ることができます。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>不要な強化パーツは売却して<LINK=2>資金</LINK>に換えることができます。強化パーツの売却は\n　　　インターミッションの「強化パーツ売却」コマンドで行います。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Equipment that boosts a unit's capabilities.</C></H></W>\n\n　●Each unit can equip 1 to 4 Enhance Parts. Change equipped parts with the\n　　\"Equip Parts\" command in the Intermission. Enhance Parts come in these\n　　types:\n\n　<T=30>『Unit』</T>\n　・When equipped, raises unit stats such as <LINK=0>Move</LINK> and Mobility.\n\n　<T=30>『Weapon』</T>\n　・When equipped, raises weapon stats such as hit bonus and range.\n\n　<T=30>『Consumable』</T>\n　・When equipped, can be used with the unit's \"Parts\" command on the map to\n　　restore HP, EN and so on. Usable once per map. Battleships alone can use\n　　consumable parts on units within 3 squares.\n\n　<T=30>『Special』</T>\n　・When equipped, gives effects such as boosting several types at once, or\n　　raising a pilot's <LINK=1>Will</LINK> at the start of a stage.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Unneeded parts can be sold for <LINK=2>funds</LINK>. Sell parts with the\n　　　\"Sell Parts\" command in the Intermission.\n",
    "cell": "r130c6",
    "kind": "text",
    "keep": false
@@ -2874,7 +2880,7 @@
   {
    "id": 552,
    "jp": "Ａ．強化パーツ「ブースター」「メガブースター」「アポジモーター」を装備させます。",
-   "en": "",
+   "en": "A. Equip a Booster, Megabooster, or Apogee Motor.",
    "cell": "r131c5",
    "kind": "text",
    "keep": false
@@ -2882,7 +2888,7 @@
   {
    "id": 553,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下が移動力を上昇させる、代表的な強化パーツです。</C></H></W>\n\n　<T=30>『ブースター』</T>\n　・機体の移動力を１だけ上昇させます。\n\n　<T=30>『メガブースター』</T>\n　・機体の移動力を２だけ上昇させます。\n\n　<T=30>『アポジモーター』</T>\n　・機体の移動力を１、運動性を５だけ上昇させます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>These are the typical parts that raise Move:</C></H></W>\n\n　<T=30>『Booster』</T>\n　・Raises the unit's Move by 1.\n\n　<T=30>『Megabooster』</T>\n　・Raises the unit's Move by 2.\n\n　<T=30>『Apogee Motor』</T>\n　・Raises the unit's Move by 1 and Mobility by 5.\n",
    "cell": "r131c6",
    "kind": "text",
    "keep": false
@@ -2890,7 +2896,7 @@
   {
    "id": 555,
    "jp": "<W=24>Ｑ</W><W=32>３</W>．移動タイプを変更するためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>3</W>. How do I change move type?",
    "cell": "r132c4",
    "kind": "text",
    "keep": false
@@ -2898,7 +2904,7 @@
   {
    "id": 556,
    "jp": "Ａ．強化パーツ「テスラ・ドライブ」「スラスターモジュール」「防塵装置」「スクリューモジュール」を装備させます。",
-   "en": "",
+   "en": "A. Equip a Tesla Drive, Thruster Module, Dustproofer, or Water Jet.",
    "cell": "r132c5",
    "kind": "text",
    "keep": false
@@ -2909,12 +2915,13 @@
    "en": "",
    "cell": "r132c6",
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "retry_note": "CSB: \"<W=28><H=28>A. <C=FF8000FF>These are the typical parts that change move type:</C></H></W>\\n\\n\\u3000<T=30>『Tesla Drive』</T>\\n\\u3000・Gives the unit the Air move type and sets its and its weapons' Air rating to A.\\n\\n\\u3000<T=30>『Thruster Module』</T>\\n\\u3000・Sets the Space rating of the unit and its weapons to S.\\n\\n\\u3000<T=30>『Dustproofer』</T>\\n\\u3000・Gives the unit the Land move type and sets its and its weapons' Land rating to S.\\n\\n\\u3000<T=30>『Water Jet』</T>\\n\\u3000・Gives the unit the Water move type and sets its and its weapons' Sea rating to S.\\n\" failed (width: 6600px > 6592px: '<W=28><H=28>A. <C=FF8000FF>These are the typical p')"
   },
   {
    "id": 559,
    "jp": "Ａ．強化パーツ「チョバムアーマー」「ハイブリッドアーマー」「オリハルコニウム」「Ｚ・Ｏ・アーマー」を装備させます。",
-   "en": "",
+   "en": "A. Equip Chobham Armor, Hybrid Armor, Orichalconium, or Z.O. Armor.",
    "cell": "r133c5",
    "kind": "text",
    "keep": false
@@ -2922,7 +2929,7 @@
   {
    "id": 560,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>装甲値を上昇させるパーツを装備します。以下は代表的なものです。</C></H></W>\n\n　<T=30>『チョバムアーマー』</T>\n　・機体の最大ＨＰを５００、装甲値を１００だけ上昇させます。\n\n　<T=30>『ハイブリッドアーマー』</T>\n　・機体の最大ＨＰを１０００、装甲値を１５０だけ上昇させます。\n\n　<T=30>『オリハルコニウム』</T>\n　・機体の最大ＨＰを１０００、装甲値を２００だけ上昇させます。\n\n　<T=30>『Ｚ・Ｏ・アーマー』</T>\n　・機体の最大ＨＰを１５００、装甲値を２５０だけ上昇させます。\n\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Equip parts that raise Armor. Some typical ones:</C></H></W>\n\n　<T=30>『Chobham Armor』</T>\n　・Raises the unit's max HP by 500 and Armor by 100.\n\n　<T=30>『Hybrid Armor』</T>\n　・Raises the unit's max HP by 1000 and Armor by 150.\n\n　<T=30>『Orichalconium』</T>\n　・Raises the unit's max HP by 1000 and Armor by 200.\n\n　<T=30>『Z.O. Armor』</T>\n　・Raises the unit's max HP by 1500 and Armor by 250.\n\n",
    "cell": "r133c6",
    "kind": "text",
    "keep": false
@@ -2930,7 +2937,7 @@
   {
    "id": 562,
    "jp": "Ａ．強化パーツ「デュアルセンサー」「マルチセンサー」「高性能照準器」「Ｔ－ＬＩＮＫセンサー」を装備させます。",
-   "en": "",
+   "en": "A. Equip a Dual Sensor, Multi-Sensor, Custom HUD, or T-Link Sensor.",
    "cell": "r134c5",
    "kind": "text",
    "keep": false
@@ -2938,7 +2945,7 @@
   {
    "id": 563,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下が命中率を上昇させる、代表的な強化パーツです。</C></H></W>\n\n　<T=30>『デュアルセンサー』</T>\n　・装備武器の命中率を１０だけ上昇させます。\n\n　<T=30>『マルチセンサー』</T>\n　・装備武器の命中率を２０だけ上昇させます。\n\n　<T=30>『高性能照準器』</T>\n　・装備武器の命中率を３０だけ上昇させます。\n\n　<T=30>『Ｔ－ＬＩＮＫセンサー』</T>\n　・装備武器の命中率を４０だけ上昇させます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>These are the typical parts that raise accuracy:</C></H></W>\n\n　<T=30>『Dual Sensor』</T>\n　・Raises the hit rate of equipped weapons by 10.\n\n　<T=30>『Multi-Sensor』</T>\n　・Raises the hit rate of equipped weapons by 20.\n\n　<T=30>『Custom HUD』</T>\n　・Raises the hit rate of equipped weapons by 30.\n\n　<T=30>『T-Link Sensor』</T>\n　・Raises the hit rate of equipped weapons by 40.\n",
    "cell": "r134c6",
    "kind": "text",
    "keep": false
@@ -2946,7 +2953,7 @@
   {
    "id": 565,
    "jp": "Ａ．強化パーツ「サーボモーター」「アポジモーター」「バイオセンサー」「高性能スラスター」を装備させます。",
-   "en": "",
+   "en": "A. Equip a Servomotor, Apogee Motor, Biosensor, or HG Thrusters.",
    "cell": "r135c5",
    "kind": "text",
    "keep": false
@@ -2954,7 +2961,7 @@
   {
    "id": 566,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>運動性を上昇させるパーツを装備します。以下は代表的なものです。</C></H></W>\n\n　<T=30>『サーボモーター』</T>\n　・機体の運動性を５だけ上昇させます。\n\n　<T=30>『アポジモーター』</T>\n　・機体の移動力を１、運動性を５だけ上昇させます。\n\n　<T=30>『バイオセンサー』</T>\n　・機体の運動性を１５だけ上昇させます。\n\n　<T=30>『高性能スラスター』</T>\n　・機体の運動性を２５だけ上昇させます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Equip parts that raise Mobility. Some typical ones:</C></H></W>\n\n　<T=30>『Servomotor』</T>\n　・Raises the unit's Mobility by 5.\n\n　<T=30>『Apogee Motor』</T>\n　・Raises the unit's Move by 1 and Mobility by 5.\n\n　<T=30>『Biosensor』</T>\n　・Raises the unit's Mobility by 15.\n\n　<T=30>『HG Thrusters』</T>\n　・Raises the unit's Mobility by 25.\n",
    "cell": "r135c6",
    "kind": "text",
    "keep": false
@@ -2962,7 +2969,7 @@
   {
    "id": 568,
    "jp": "Ａ．強化パーツ「ハチマキ」「ねじりハチマキ」を装備させます。",
-   "en": "",
+   "en": "A. Equip a Headband or Twisty Headband.",
    "cell": "r136c5",
    "kind": "text",
    "keep": false
@@ -2970,7 +2977,7 @@
   {
    "id": 569,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下が気力を上昇させる、代表的な強化パーツです。</C></H></W>\n\n　<T=30>『ハチマキ』</T>\n　・出撃時にパイロットの気力を５だけ上昇させます。\n\n　<T=30>『ねじりハチマキ』</T>\n　・出撃時にパイロットの気力を１０だけ上昇させます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>These are the typical parts that raise Will:</C></H></W>\n\n　<T=30>『Headband』</T>\n　・Raises the pilot's Will by 5 on sortie.\n\n　<T=30>『Twisty Headband』</T>\n　・Raises the pilot's Will by 10 on sortie.\n",
    "cell": "r136c6",
    "kind": "text",
    "keep": false
@@ -2978,7 +2985,7 @@
   {
    "id": 571,
    "jp": "<W=24>Ｑ</W><W=32>８</W>．ＨＰ・ＥＮやＳＰ等を回復させるためには？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>8</W>. How do I restore HP, EN, SP, etc.?",
    "cell": "r137c4",
    "kind": "text",
    "keep": false
@@ -2986,7 +2993,7 @@
   {
    "id": 572,
    "jp": "Ａ．強化パーツ「リペアキット」「プロペラントタンク」「カートリッジ」「スーパーリペアキット」「ＳＰドリンク」\n　　「ＳＳＰドリンク」を装備させます。",
-   "en": "",
+   "en": "A. Equip a Repair Kit, Propellant Tank, Cartridge, Repair Kit DX, SP Drink,\n　　or SSP Drink.",
    "cell": "r137c5",
    "kind": "text",
    "keep": false
@@ -2994,7 +3001,7 @@
   {
    "id": 573,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>個別コマンド「パーツ」を使用します。以下は代表的なものです。</C></H></W>\n\n　<T=30>『リペアキット』</T>\n　・機体のＨＰを全回復させます。１マップで、一度だけ使用可能です。\n\n　<T=30>『プロペラントタンク』</T>\n　・機体のＥＮを全回復させます。１マップで、一度だけ使用可能です。\n\n　<T=30>『カートリッジ』</T>\n　・装備武器の弾数値を全回復させます。１マップで、一度だけ使用可能です。\n\n　<T=30>『スーパーリペアキット』</T>\n　・機体のＨＰ・ＥＮ・弾数値を全回復させます。１マップで、一度だけ使用可能です。\n\n　<T=30>『ＳＰドリンク』</T>\n　・パイロットの精神ポイントを５０だけ回復させます。１マップで、一度だけ使用可\n　　能です。\n\n　<T=30>『ＳＳＰドリンク』</T>\n　・パイロットの精神ポイントを全回復させます。１マップで、一度だけ使用可能です。\n\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the unit's \"Parts\" command. Some typical ones:</C></H></W>\n\n　<T=30>『Repair Kit』</T>\n　・Fully restores the unit's HP. Usable once per map.\n\n　<T=30>『Propellant Tank』</T>\n　・Fully restores the unit's EN. Usable once per map.\n\n　<T=30>『Cartridge』</T>\n　・Fully restores the ammo of equipped weapons. Usable once per map.\n\n　<T=30>『Repair Kit DX』</T>\n　・Fully restores the unit's HP, EN and ammo. Usable once per map.\n\n　<T=30>『SP Drink』</T>\n　・Restores 50 of the pilot's SP. Usable once per map.\n\n　<T=30>『SSP Drink』</T>\n　・Fully restores the pilot's SP. Usable once per map.\n\n",
    "cell": "r137c6",
    "kind": "text",
    "keep": false
@@ -3002,7 +3009,7 @@
   {
    "id": 575,
    "jp": "<W=24>Ｑ</W><W=32>９</W>．その他、役立つものはありますか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>9</W>. Anything else useful?",
    "cell": "r138c4",
    "kind": "text",
    "keep": false
@@ -3010,7 +3017,7 @@
   {
    "id": 576,
    "jp": "Ａ．強化パーツ「Ａ－アダプター」「ハイパージャマー」「高性能レーダー」「一撃必殺の心得」「大型ジェネレーター」\n　　「メガジェネレーター」「ソーラーパネル」「ビームコート（パーツ）」「Ｇ・ウォール（パーツ）」などがあります。",
-   "en": "",
+   "en": "A. Options include the A-Adapter, Hyper Jammer, Radar Module, Enhancer,\n　　Large Generator, Mega Generator, Solar Panel, Beam Coat (part), and G-Wall (part).",
    "cell": "r138c5",
    "kind": "text",
    "keep": false
@@ -3018,7 +3025,7 @@
   {
    "id": 577,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下は代表的なものです。</C></H></W>\n\n　<T=30>『Ａ－アダプター』</T>\n　・機体と武器の全地形適応をＡにします。\n\n　<T=30>『ハイパージャマー』</T>\n　・パイロットの気力が１３０以上の場合、５０％の確率で敵の攻撃を回避できます。\n\n　<T=30>『高性能レーダー』</T>\n　・マップ兵器、射程１の武器以外の武器の射程を１だけ上昇させます。\n\n　<T=30>『一撃必殺の心得』</T>\n　・装備武器のクリティカル率を２０だけ上昇させます。\n\n　<T=30>『大型ジェネレーター』</T>\n　・機体の最大ＥＮを５０だけ上昇させます。\n\n　<T=30>『メガジェネレーター』</T>\n　・機体の最大ＥＮを１００だけ上昇させます。\n\n　<T=30>『ソーラーパネル』</T>\n　・自軍フェイズ開始時に、ＥＮが最大値の１０％分だけ回復します。\n\n　<T=30>『ビームコート（パーツ）』</T>\n　・ＥＮが５以上の場合、ビーム攻撃（バリア貫通系武器を除く）によるダメージを\n　　９００だけ軽減します。\n\n　<T=30>『Ｇ・ウォール（パーツ）』</T>\n　・ＥＮが５以上、気力が１２０以上の場合、全ての攻撃（バリア貫通系武器を除く）\n　　による８００までのダメージを無効化します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Some typical ones:</C></H></W>\n\n　<T=30>『A-Adapter』</T>\n　・Sets all terrain ratings of the unit and its weapons to A.\n\n　<T=30>『Hyper Jammer』</T>\n　・With the pilot's Will at 130+, gives a 50% chance to evade enemy attacks.\n\n　<T=30>『Radar Module』</T>\n　・Raises range by 1 for all weapons except MAP weapons and range-1 weapons.\n\n　<T=30>『Enhancer』</T>\n　・Raises the critical rate of equipped weapons by 20.\n\n　<T=30>『Large Generator』</T>\n　・Raises the unit's max EN by 50.\n\n　<T=30>『Mega Generator』</T>\n　・Raises the unit's max EN by 100.\n\n　<T=30>『Solar Panel』</T>\n　・Restores 10% of max EN at the start of the player phase.\n\n　<T=30>『Beam Coat (part)』</T>\n　・With 5+ EN, reduces damage from beam attacks (except barrier-piercing\n　　weapons) by 900.\n\n　<T=30>『G-Wall (part)』</T>\n　・With 5+ EN and 120+ Will, nullifies damage of up to 800 from all attacks\n　　(except barrier-piercing weapons).\n",
    "cell": "r138c6",
    "kind": "text",
    "keep": false
@@ -3026,7 +3033,7 @@
   {
    "id": 579,
    "jp": "その他",
-   "en": "",
+   "en": "Other",
    "cell": "r139c2",
    "kind": "name",
    "keep": false
@@ -3034,7 +3041,7 @@
   {
    "id": 580,
    "jp": "その他、知っていると役に立つことを紹介します。",
-   "en": "",
+   "en": "Other handy things worth knowing.",
    "cell": "r139c6",
    "kind": "text",
    "keep": false
@@ -3042,7 +3049,7 @@
   {
    "id": 582,
    "jp": "ＳＲポイント・難易度について",
-   "en": "",
+   "en": "SR Points/Difficulty",
    "cell": "r140c3",
    "kind": "name",
    "keep": false
@@ -3050,7 +3057,7 @@
   {
    "id": 583,
    "jp": "ＳＲポイント・難易度についてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A about SR Points and difficulty.",
    "cell": "r140c6",
    "kind": "text",
    "keep": false
@@ -3058,7 +3065,7 @@
   {
    "id": 585,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．ＳＲポイントとは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What are SR Points?",
    "cell": "r141c4",
    "kind": "text",
    "keep": false
@@ -3066,7 +3073,7 @@
   {
    "id": 586,
    "jp": "Ａ．ゲームの難易度の元になる数値です。",
-   "en": "",
+   "en": "A. The basis for game difficulty.",
    "cell": "r141c5",
    "kind": "text",
    "keep": false
@@ -3074,7 +3081,7 @@
   {
    "id": 587,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>ゲームの難易度の元になる数値です。</C></H></W>\n\n　●各ステージに設定されている、ＳＲポイント（スパロボポイント）獲得条件を満た\n　　した場合にＳＲポイントに＋１されます。\n\n　●ＳＲポイントを獲得した場合、マップ上の全味方パイロットの<LINK=0>ＰＰ</LINK>に＋１０されま\n　　す。\n\n　●ＳＲポイント獲得条件は全体コマンド「作戦目的」で確認できます。ＳＲポイント\n　　の獲得率によって、次のステージの<LINK=1>難易度</LINK>が決定します。\n\n　●基本的に、ＳＲポイントの獲得が８０％未満の場合、難易度は「ＮＯＲＭＡＬ」に、\n　　８０％以上の場合は「ＨＡＲＤ」になります。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>ゲームオーバーになったステージをそのまま再プレイする場合、そのステージで\n　　　はＳＲポイントを獲得することはできません。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>The basis for game difficulty.</C></H></W>\n\n　●Meeting a stage's SR Point (Super Robot Wars Point) condition earns you\n　　+1 SR Point.\n\n　●Earning an SR Point gives +10 <LINK=0>PP</LINK> to all allied pilots on the map.\n\n\n　●Check SR Point conditions with the \"Objectives\" command. Your SR Point rate\n　　determines the next stage's <LINK=1>difficulty</LINK>.\n\n　●Generally, with under 80% of SR Points earned the difficulty is NORMAL;\n　　at 80% or more, it's HARD.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>If you replay a stage right after a Game Over, you can't earn that\n　　　stage's SR Point.\n",
    "cell": "r141c6",
    "kind": "text",
    "keep": false
@@ -3082,7 +3089,7 @@
   {
    "id": 590,
    "jp": "<W=24>Ｑ</W><W=32>２</W>．難易度とは何ですか？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>2</W>. What is Difficulty?",
    "cell": "r142c4",
    "kind": "text",
    "keep": false
@@ -3090,7 +3097,7 @@
   {
    "id": 591,
    "jp": "Ａ．ＳＲポイントによって決まる、ゲームの難しさや易しさのランクです。",
-   "en": "",
+   "en": "A. The game's difficulty rank, set by SR Points.",
    "cell": "r142c5",
    "kind": "text",
    "keep": false
@@ -3098,7 +3105,7 @@
   {
    "id": 592,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>ＳＲポイントによって決まる、ゲームの難しさや易しさのランクです。</C></H></W>\n\n　●<LINK=0>ＳＲポイント</LINK>の獲得率によって変更される難易度にはＨＡＲＤ、ＮＯＲＭＡＬの２\n　　つのランクがあり、現在の難易度は全体コマンドに表示されています。\n\n　<T=30>『ＨＡＲＤ（８０％以上）』</T>　\n　・ＮＯＲＭＡＬに比べ敵の数が多い場合や、強い敵が出現する場合があります。\n　・敵について、機体と武器の<LINK=1>改造値</LINK>に＋３されます。\n\n　<T=30>『ＮＯＲＭＡＬ（８０％未満）』</T>\n　・戦闘での獲得<LINK=2>資金</LINK>がＨＡＲＤに比べ１．２倍になります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>The game's difficulty rank, set by SR Points.</C></H></W>\n\n　●Difficulty changes with your <LINK=0>SR Point</LINK> rate and has two ranks, HARD and\n　　NORMAL. The current difficulty is shown in the general command menu.\n\n　<T=30>『HARD (80% or more)』</T>　\n　・Compared to NORMAL, there may be more enemies or stronger ones.\n　・Enemy units and weapons get +3 to their <LINK=1>upgrade levels</LINK>.\n\n　<T=30>『NORMAL (under 80%)』</T>\n　・<LINK=2>Funds</LINK> earned in battle are 1.2x those on HARD.\n",
    "cell": "r142c6",
    "kind": "text",
    "keep": false
@@ -3106,7 +3113,7 @@
   {
    "id": 595,
    "jp": "マメ知識",
-   "en": "",
+   "en": "Tips",
    "cell": "r143c3",
    "kind": "name",
    "keep": false
@@ -3114,7 +3121,7 @@
   {
    "id": 596,
    "jp": "知っていると役に立つことについてのＱ＆Ａです。",
-   "en": "",
+   "en": "Q&A about handy things to know.",
    "cell": "r143c6",
    "kind": "text",
    "keep": false
@@ -3122,7 +3129,7 @@
   {
    "id": 598,
    "jp": "<W=24>Ｑ</W><W=32>１</W>．難しくてクリア出来ない時は？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>1</W>. What if it's too hard?",
    "cell": "r144c4",
    "kind": "text",
    "keep": false
@@ -3130,7 +3137,7 @@
   {
    "id": 599,
    "jp": "Ａ．ゲームオーバー後、続けて再プレイします。",
-   "en": "",
+   "en": "A. Retry right after a Game Over.",
    "cell": "r144c5",
    "kind": "text",
    "keep": false
@@ -3138,7 +3145,7 @@
   {
    "id": 600,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>ゲームオーバー後、続けて再プレイします。</C></H></W>\n\n　●ゲームオーバーになった場合、１話目までを除きインターミッション画面に戻りま\n　　す。インターミッションの「次のマップへ」コマンドを選択した場合、同じステー\n　　ジを再プレイすることができます。<LINK=0>ＳＲポイント</LINK>は獲得できなくなりますが、<LINK=1>資金</LINK>\n　　及び、パイロットの<LINK=2>経験値</LINK>、撃墜数はそのままの状態でプレイすることができます。\n　　ゲームオーバーを繰り返すことによって、機体の<LINK=3>改造</LINK>やパイロットのレベル上げな\n　　どの強化を行った後に挑戦し直すことができます。ただし、初登場のパイロットや、\n　　そのシナリオ限りのパイロットには適用されません。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3><LINK=0>ＳＲポイント</LINK>をわざと獲得しないことによって、ゲームの<LINK=4>難易度</LINK>を下げることが\n　　　可能です。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Retry right after a Game Over.</C></H></W>\n\n　●After a Game Over, you return to the Intermission screen (except on Stage 1).\n　　Choose the \"Next Map\" command in the Intermission to replay the same stage.\n　　You can no longer earn its <LINK=0>SR Point</LINK>, but you keep your <LINK=1>funds</LINK>, pilot\n　　<LINK=2>EXP</LINK> and kill counts. By repeating Game Overs, you can retry after building\n　　up, such as <LINK=3>upgrading</LINK> units or leveling pilots. However, this doesn't\n　　apply to newly debuting pilots or pilots exclusive to that scenario.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>You can lower the game's <LINK=4>difficulty</LINK> by deliberately not earning\n　　　<LINK=0>SR Points</LINK>.\n",
    "cell": "r144c6",
    "kind": "text",
    "keep": false
@@ -3146,7 +3153,7 @@
   {
    "id": 603,
    "jp": "<W=24>Ｑ</W><W=32>２</W>．移動を素早く行う方法は？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>2</W>. How can I move faster?",
    "cell": "r145c4",
    "kind": "text",
    "keep": false
@@ -3154,7 +3161,7 @@
   {
    "id": 604,
    "jp": "Ａ．ショートカットボタンを使用します。",
-   "en": "",
+   "en": "A. Use the shortcut buttons.",
    "cell": "r145c5",
    "kind": "text",
    "keep": false
@@ -3162,7 +3169,7 @@
   {
    "id": 605,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>ショートカットボタンを使用します。</C></H></W>\n\n　●移動範囲が表示されている場合、<S=-4><Y=-3><W=32><H=32><I=122></H></W></Y><S=-4>を押すことによって、移動範囲の端へカーソル\n　　をショートカットで移動させることができます。\n\n　●移動先を決定する時に、<S=-4><Y=-3><W=32><H=32><I=122></H></W></Y><S=-4>を押しながら<S=-4><Y=-3><W=32><H=32><I=115></H></W></Y><S=-4>を押すと、移動のアニメーションをキャ\n　　ンセルすることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the shortcut buttons.</C></H></W>\n\n　●While the move range is shown, press <S=-4><Y=-3><W=32><H=32><I=122></H></W></Y><S=-4> to jump the cursor to the\n　　edge of the move range.\n\n　●When choosing a destination, hold <S=-4><Y=-3><W=32><H=32><I=122></H></W></Y><S=-4> and press <S=-4><Y=-3><W=32><H=32><I=115></H></W></Y><S=-4> to skip the\n　　move animation.\n",
    "cell": "r145c6",
    "kind": "text",
    "keep": false
@@ -3170,7 +3177,7 @@
   {
    "id": 607,
    "jp": "<W=24>Ｑ</W><W=32>３</W>．ゲームを素早くやり直す方法は？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>3</W>. How can I restart quickly?",
    "cell": "r146c4",
    "kind": "text",
    "keep": false
@@ -3178,7 +3185,7 @@
   {
    "id": 608,
    "jp": "Ａ．ソフトリセット機能を使用します。",
-   "en": "",
+   "en": "A. Use the soft reset function.",
    "cell": "r146c5",
    "kind": "text",
    "keep": false
@@ -3186,7 +3193,7 @@
   {
    "id": 609,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>ソフトリセット機能を使用します。</C></H></W>\n\n　●<Y=-3><W=32><H=32><I=125></H></W></Y><S=-4><Y=-3><W=32><H=32><I=126></H></W></Y><S=-4><Y=-3><W=32><H=32><I=121></H></W></Y><S=-4><Y=-3><W=32><H=32><I=122></H></W></Y><S=-4><Y=-3><W=32><H=32><I=123></H></W></Y><S=-4><Y=-3><W=32><H=32><I=124></H></W></Y><S=-4>を同時に押すとソフトリセットがかかります。\n\n　●ソフトリセットをかける際、<S=-4><Y=-3><W=32><H=32><I=126></H></W></Y><S=-4>を押したままにしておくと、タイトル画面は表示\n　　されず、自動的にタイトルの「ＣＯＮＴＩＮＵＥ」コマンドが実行される、クイッ\n　　クコンティニューになります。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>タイトル画面の「ＣＯＮＴＩＮＵＥ」コマンドを実行すると、全体コマンド「途\n　　　中セーブ」を行った状態に戻ります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the soft reset function.</C></H></W>\n\n　●Press <Y=-3><W=32><H=32><I=125></H></W></Y><S=-4><Y=-3><W=32><H=32><I=126></H></W></Y><S=-4><Y=-3><W=32><H=32><I=121></H></W></Y><S=-4><Y=-3><W=32><H=32><I=122></H></W></Y><S=-4><Y=-3><W=32><H=32><I=123></H></W></Y><S=-4><Y=-3><W=32><H=32><I=124></H></W></Y><S=-4> at the same time to soft reset.\n\n　●If you keep holding <S=-4><Y=-3><W=32><H=32><I=126></H></W></Y><S=-4> while soft resetting, the title screen is\n　　skipped and the title's CONTINUE command runs automatically. This is\n　　called Quick Continue.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Choosing CONTINUE on the title screen returns you to the state saved\n　　　with the \"Quick Save\" general command.\n",
    "cell": "r146c6",
    "kind": "text",
    "keep": false
@@ -3194,7 +3201,7 @@
   {
    "id": 611,
    "jp": "<W=24>Ｑ</W><W=32>４</W>．一度クリアした後の楽しみ方とは？",
-   "en": "",
+   "en": "<W=24>Q</W><W=32>4</W>. What's there after clearing?",
    "cell": "r147c4",
    "kind": "text",
    "keep": false
@@ -3202,7 +3209,7 @@
   {
    "id": 612,
    "jp": "Ａ．クリアデータを使用すると、特典を得ることができます。",
-   "en": "",
+   "en": "A. Using clear data grants you bonuses.",
    "cell": "r147c5",
    "kind": "text",
    "keep": false
@@ -3210,7 +3217,7 @@
   {
    "id": 613,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>クリアデータを使用すると、特典を得ることができます。</C></H></W>\n\n　●最終話をクリア後、それまでのプレイ状況をゲームクリアデータとしてセーブする\n　　ことができます。ゲームクリアデータをロードした場合、獲得した<LINK=0>資金</LINK>や<LINK=1>ＰＰ</LINK>の一\n　　部を引き継いだ状態で、一からプレイすることができます。また、新たなプレイモー\n　　ドを選択することができるようになります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Using clear data grants you bonuses.</C></H></W>\n\n　●After clearing the final stage, you can save your progress as clear data.\n　　Loading clear data lets you start over from the beginning, carrying over\n　　part of the <LINK=0>funds</LINK> and <LINK=1>PP</LINK> you earned. New play modes also become\n　　available.\n",
    "cell": "r147c6",
    "kind": "text",
    "keep": false

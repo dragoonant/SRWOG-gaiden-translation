@@ -686,7 +686,7 @@
    "id": 7,
    "pool": "B",
    "jp": "１．　敵の全滅。",
-   "en": "",
+   "en": "1. Defeat foes.",
    "kind": "text",
    "keep": false
   },
@@ -694,7 +694,7 @@
    "id": 8,
    "pool": "B",
    "jp": "１．　味方ユニットが１機でも撃墜された場合。",
-   "en": "",
+   "en": "1. Any allied unit is destroyed.",
    "kind": "text",
    "keep": false
   },
@@ -702,7 +702,7 @@
    "id": 9,
    "pool": "B",
    "jp": "・敵の全滅。",
-   "en": "",
+   "en": "Defeat all.",
    "kind": "text",
    "keep": false
   },
@@ -710,7 +710,7 @@
    "id": 10,
    "pool": "B",
    "jp": "　なお、敵軍はバフォームを撃墜するか、敵の数が２機以下で撤退する。",
-   "en": "",
+   "en": " The enemy withdraws when Baform falls or 2 or fewer remain.",
    "kind": "text",
    "keep": false
   },
@@ -814,7 +814,7 @@
    "id": 23,
    "pool": "B",
    "jp": "１．　ナグツァート以外の敵の全滅。",
-   "en": "",
+   "en": "1. Defeat all foes but Nagzadd.",
    "kind": "text",
    "keep": false
   },
@@ -902,7 +902,7 @@
    "id": 34,
    "pool": "B",
    "jp": "強化パーツ『デュアルセンサー』を入手しました。@強化パーツ『プロペラントタンク』を入手しました。",
-   "en": "",
+   "en": "Obtained Enhancement Part: Dual Sensor.@Obtained Enhancement Part: Propellant Tank.",
    "kind": "text",
    "keep": false
   },
@@ -910,7 +910,7 @@
    "id": 35,
    "pool": "B",
    "jp": "換装武器『Ｍ９５０マシンガン』を入手しました。@換装武器『Ｍ１３ショットガン』を入手しました。@換装武器『フォトン・ライフル』を入手しました。",
-   "en": "",
+   "en": "Obtained Replace Weapon: M950 Machine Gun.@Obtained Replace Weapon: M13 Shotgun.@Obtained Replace Weapon: Photon Rifle.",
    "kind": "text",
    "keep": false
   },
@@ -918,7 +918,7 @@
    "id": 36,
    "pool": "B",
    "jp": "換装武器『エナジーテイカー』を入手しました。@換装武器『修理装置』を入手しました。",
-   "en": "",
+   "en": "Obtained Replace Weapon: Energy Taker.@Obtained Replace Weapon: Repair Module.",
    "kind": "text",
    "keep": false
   },
@@ -1038,7 +1038,7 @@
    "id": 51,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   },
@@ -1046,7 +1046,7 @@
    "id": 52,
    "pool": "B",
    "jp": "・無し。",
-   "en": "",
+   "en": "- None.",
    "kind": "text",
    "keep": false
   }

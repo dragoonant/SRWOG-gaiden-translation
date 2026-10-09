@@ -93,7 +93,7 @@
    "text": "ダミー",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "Dummy"
   },
   {
    "id": 1,
@@ -4273,7 +4273,8 @@
    "text": "歪曲フィールド",
    "kind": "name",
    "keep": false,
-   "en": ""
+   "en": "",
+   "retry_note": "FIXH: 'Distortion Field' failed (width: 233px > 224px: 'Distortion Field')"
   },
   {
    "id": 129,

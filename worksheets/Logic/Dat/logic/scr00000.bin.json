@@ -710,25 +710,25 @@
    "id": 10,
    "pool": "B",
    "jp": "ゲームオーバー",
-   "en": "Game Over",
-   "kind": "name",
-   "keep": false
+   "en": "",
+   "kind": "logo-label",
+   "keep": true
   },
   {
    "id": 11,
    "pool": "B",
    "jp": "ゲームオーバー",
-   "en": "Game Over",
-   "kind": "name",
-   "keep": false
+   "en": "",
+   "kind": "logo-label",
+   "keep": true
   },
   {
    "id": 12,
    "pool": "B",
    "jp": "非表示",
-   "en": "Off",
-   "kind": "name",
-   "keep": false
+   "en": "",
+   "kind": "logo-label",
+   "keep": true
   },
   {
    "id": 13,
@@ -766,9 +766,9 @@
    "id": 17,
    "pool": "B",
    "jp": "実戦",
-   "en": "Live",
-   "kind": "name",
-   "keep": false
+   "en": "",
+   "kind": "logo-label",
+   "keep": true
   }
  ]
 }

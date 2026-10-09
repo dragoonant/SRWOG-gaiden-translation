@@ -8,8 +8,10 @@ Errors (build must not ship):
   bracket   a stray ASCII < or > outside a tag (the engine eats it)
   lines     more lines than the budget (see below)
   width     a line wider than the budget in pixels
-  glossary  a glossary term's Japanese appears in "jp" but its English
-            form is missing from "en" (names only; see glossary/*.tsv)
+  glossary  a name's Japanese appears in "jp" (outside <keyword> tags) and
+            "en" uses a known wrong variant (Akurasu or an earlier proposal
+            where canon differs). A canonical term simply not mentioned
+            (pronoun, paraphrase) is only counted as a warning.
 Warnings: none of the above but en contains Japanese characters.
 
 Line separators: LDBI/LOGO/ELF "@", BMD "/" + U+3000, FIXH newline.
@@ -92,6 +94,26 @@ def split_lines(fmt, s):
     return s.split("@")
 
 
+def load_variants():
+    """Known non-canonical spellings per Japanese name: the Akurasu form and
+    any earlier proposal recorded in signoff.tsv notes ("was '...'")."""
+    out = {}
+    p = os.path.join(REPO, "glossary", "signoff.tsv")
+    if not os.path.exists(p):
+        return out
+    with open(p, encoding="utf-8") as f:
+        for r in csv.DictReader(f, delimiter="	"):
+            en = r.get("en", "")
+            alts = {r.get("akurasu", "")} | set(re.findall(r"was '([^']*)'", r.get("notes", "")))
+            alts = {a for a in alts if a and a != en and a.lower() not in en.lower()}
+            if alts and len(r["jp"]) >= 2:
+                out.setdefault(r["jp"], set()).update(alts)
+    return out
+
+
+VARIANTS = load_variants()
+
+
 def load_glossary():
     """Canon: glossary/signoff.tsv "en" (OGs basis, Anthony's picks) for every
     data-table name; the older glossary TSVs only for terms signoff lacks
@@ -145,6 +167,7 @@ def main(argv):
     glossary = load_glossary() if use_glossary else []
     errors = collections.Counter()
     warnings = 0
+    missing = 0
     translated = 0
     shown = 0
 
@@ -184,15 +207,25 @@ def main(argv):
                 if w > max_w:
                     report("width", path, e, "%dpx > %dpx: %r" % (w, max_w, l[:50]))
                     break
+            # Glossary. Terms inside <keyword> tags are displayed from the
+            # keyword dictionary, so only the untagged text counts. A known
+            # wrong variant (e.g. Akurasu's spelling where canon differs) is
+            # an error; a term simply not mentioned (pronoun, paraphrase) is
+            # only counted.
+            jp_plain, en_plain = TAG.sub("", jp), TAG.sub("", en)
             for gjp, gen, rx in glossary:
-                if gjp in jp and rx.search(jp) and gen not in en:
-                    report("glossary", path, e, "%s should be %r" % (gjp, gen))
-                    break
-            if JPCHAR.search(en):
+                if gjp in jp_plain and rx.search(jp_plain):
+                    bad = [v for v in VARIANTS.get(gjp, ()) if re.search(r"\b%s\b" % re.escape(v), en_plain)]
+                    if bad:
+                        report("glossary", path, e, "%s is %r here; canon is %r" % (gjp, bad[0], gen))
+                    elif gen.lower() not in en_plain.lower():
+                        missing += 1
+            if JPCHAR.search(TAG.sub("", en)):
                 warnings += 1
     print("checked %d translated entries in %d worksheets" % (translated, len(sheets)))
     print("dialogue width budgets: %s" % ", ".join("%s %dpx" % kv for kv in sorted(budget.items())))
-    print("errors: %s; warnings (Japanese left in en): %d" % (dict(errors) or "none", warnings))
+    print("errors: %s; warnings: %d Japanese outside tags, %d glossary terms not mentioned"
+          % (dict(errors) or "none", warnings, missing))
     return 1 if errors else 0
 
 

@@ -12,7 +12,11 @@ kind:
   comment / internal / orphan
          FIXH roles from fixh.py: developer comments the game never shows,
          engine ids (trophy ids, image names), unreferenced strings.
-keep: true for key, ascii, comment, internal, orphan. The translation pass must leave "en" empty
+  logo-label
+         short words in a stage script's pool B (ゲームオーバー x104, 非表示,
+         移動, 実戦 ...). They repeat like script labels/commands, so they stay
+         Japanese until an in-game test shows which are displayed.
+keep: true for key, ascii, comment, internal, orphan, logo-label. The translation pass must leave "en" empty
 for kept entries, and the fit check rejects any that are filled.
 
 Usage: classify.py [WORKSHEET_DIR]   (default: worksheets/ next to tools/)
@@ -28,7 +32,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 KEY = re.compile(r"^\[[^\]]*\]-")
 ASCII = re.compile(r"[\x00-\x7e]*")
-KEEP = ("key", "ascii", "comment", "internal", "orphan")
+KEEP = ("key", "ascii", "comment", "internal", "orphan", "logo-label")
 SENTENCE = re.compile(r"[。、！？「」（）『』…@\n]")
 
 
@@ -65,6 +69,8 @@ def main(argv):
                 k = kind_of(entry_text(e))
                 if e.get("role") in ("comment", "internal", "orphan"):
                     k = e["role"]          # FIXH: never shown, or engine ids
+                if ws.get("format") == "LOGO" and e.get("pool") == "B" and k == "name":
+                    k = "logo-label"       # short stage-script words: likely commands/labels
                 keep = k in KEEP
                 if e.get("kind") != k or e.get("keep") != keep:
                     e["kind"], e["keep"] = k, keep

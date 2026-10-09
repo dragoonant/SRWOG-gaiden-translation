@@ -1,0 +1,39 @@
+{
+ "batch_id": "msgbatch_01NqZaJDSuvfS6qqLQpchny1",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "created": 1791572886.6240685,
+ "plan": {
+  "r00000": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\KeyWordData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    47,
+    62,
+    69
+   ]
+  },
+  "r00001": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\PilotDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    68
+   ]
+  },
+  "r00002": {
+   "path": "worksheets\\Logic\\Dat\\FixedData\\UnitDictionaryData.dat.json",
+   "format": "FIXH",
+   "ids": [
+    77,
+    81
+   ]
+  },
+  "r00003": {
+   "path": "worksheets\\Logic\\Dat\\logic\\talk\\ls044.bin.json",
+   "format": "LDBI",
+   "ids": [
+    352
+   ]
+  }
+ }
+}

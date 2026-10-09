@@ -62,9 +62,24 @@ def width_limit(fmt, jp_px):
     return jp_px
 
 
-def line_limit(fmt, path, jp_lines):
+_PAGE = {}
+
+
+def page_width(path, ws, fmt):
+    """Widest Japanese line in a scrolling file (library/archive page width)."""
+    if path not in _PAGE:
+        f = Font(DEFAULT_FONT) if not hasattr(page_width, "font") else page_width.font
+        page_width.font = f
+        _PAGE[path] = max((f.width(l) for e in ws["strings"] if not e.get("keep")
+                           for l in split_lines(fmt, jp_of(e))), default=0)
+    return _PAGE[path]
+
+
+def line_limit(fmt, path, jp_lines, kind=None):
     if fmt in DIALOGUE:
         return 3
+    if jp_lines <= 1 and kind != "text":
+        return 1            # one-line names and labels stay one line
     if any(name in path for name in SCROLLING):
         return max(1, -(-jp_lines * 8 // 5))
     return max(1, jp_lines)
@@ -274,8 +289,10 @@ def main(argv):
             if fmt in DIALOGUE:
                 max_lines, max_w = 3, budget.get(fmt, 99999)
             else:
-                max_lines = line_limit(fmt, path, len(jl))
+                max_lines = line_limit(fmt, path, len(jl), e.get("kind"))
                 max_w = width_limit(fmt, max(font.width(l) for l in jl)) if len(jl) == 1 else max(font.width(l) for l in jl)
+                if e.get("kind") == "text" and any(n in path for n in SCROLLING):
+                    max_w = max(max_w, page_width(path, ws, fmt))   # page is as wide as its widest line
             if len(el) > max_lines:
                 report("lines", path, e, "%d lines > %d" % (len(el), max_lines))
             for l in el:

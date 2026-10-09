@@ -24,11 +24,10 @@
   {
    "id": 3,
    "jp": "＜KeyWords＞\n●ここに記入したモノがそのまま表示されます。\n●スペース的には最大３行分表示できます。\n●全ての表示文字は全角で入力、改行は「半角\\n」を記述するか、\n　「Altキー＋Enter」の操作で改行させたものが、そのまま反映されます。",
-   "en": "",
+   "en": "＜KeyWords＞\n●Whatever is entered here is displayed as-is.\n●Up to 3 lines fit in the space.\n●Type all text full-width. Break lines with a half-width \\n\n　or Alt+Enter; the breaks are reflected as-is.",
    "cell": "r0c5",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: '＜KeyWords＞\\n●Whatever is entered here is displayed as-is.\\n●Up to 3 lines fit in the space.\\n●Enter all display characters full-width. Line breaks written as a half-width \\\\n,\\n\\u3000or made with Alt+Enter, are reflected as-is.' failed (width: 1191px > 1090px: '●Enter all display characters full-width. Line bre')"
+   "keep": false
   },
   {
    "id": 4,
@@ -413,11 +412,10 @@
   {
    "id": 82,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下のものがあります。</C></H></W>\n\n　●レベル差に応じた<LINK=0>経験値</LINK>。\n\n　●<LINK=1>資金</LINK>。\n\n　●<LINK=2>ＰＰ</LINK>。\n\n　●<LINK=3>強化パーツ</LINK>。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>You get the following.</C></H></W>\n\n　●<LINK=0>EXP</LINK> scaled by level gap.\n\n　●<LINK=1>Funds</LINK>.\n\n　●<LINK=2>PP</LINK>.\n\n　●<LINK=3>Parts</LINK>.\n",
    "cell": "r17c6",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: '<W=28><H=28>A. <C=FF8000FF>You can earn the following.</C></H></W>\\n\\n\\u3000●<LINK=0>EXP</LINK> based on level difference.\\n\\n\\u3000●<LINK=1>Funds</LINK>.\\n\\n\\u3000●<LINK=2>PP</LINK>.\\n\\n\\u3000●<LINK=3>Parts</LINK>.\\n' failed (width: 511px > 448px: '\\u3000●<LINK=0>EXP</LINK> based on level difference.')"
+   "keep": false
   },
   {
    "id": 85,
@@ -622,11 +620,10 @@
   {
    "id": 122,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>通常攻撃武器を使用した攻撃方法です。</C></H></W>\n\n　●通常攻撃は<LINK=0>通常攻撃武器</LINK><I=30>を使用した攻撃方法で、集中攻撃と個別攻撃の２つ\n　　の攻撃方法があります。\n\n　<T=30>『集中攻撃』</T>\n　・攻撃を攻撃目標の部隊内の１機に集中させます。\n\n　<T=30>『個別攻撃』</T>\n　・攻撃を行う<LINK=1>ツインユニット</LINK>の２機が、攻撃目標の部隊の、別々の機体を攻撃します。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>攻撃を行う部隊が<LINK=1>ツインユニット</LINK>でない場合、攻撃方法は集中攻撃になります。\n\n　●通常攻撃に対しては<LINK=2>援護攻撃</LINK>（再攻撃）、<LINK=3>援護防御</LINK>を行うことができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Attacks using Normal weapons.</C></H></W>\n\n　●Normal Attacks use <LINK=0>Normal Attack Weapons</LINK><I=30> and come in 2\n　　forms: Focused and Split.\n\n　<T=30>[Focused Attack]</T>\n　・Concentrates the attack on 1 unit in the target squad.\n\n　<T=30>[Split Attack]</T>\n　・The 2 units of the attacking <LINK=1>Twin Unit</LINK> each hit a different target.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>If the attacker isn't a <LINK=1>Twin Unit</LINK>, it makes a Focused Attack.\n\n　●<LINK=2>Support Attack</LINK> (Attack Again) and <LINK=3>Support Defense</LINK> can be used.\n",
    "cell": "r26c6",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: \"<W=28><H=28>A. <C=FF8000FF>Attacks using Normal weapons.</C></H></W>\\n\\n\\u3000●Normal Attacks use <LINK=0>Normal Attack Weapons</LINK><I=30> and come in 2\\n\\u3000\\u3000forms: Focused and Split.\\n\\n\\u3000<T=30>[Focused Attack]</T>\\n\\u3000・Concentrates the attack on 1 unit in the target squad.\\n\\n\\u3000<T=30>[Split Attack]</T>\\n\\u3000・The 2 units of the attacking <LINK=1>Twin Unit</LINK> each hit a different target.\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>If the attacker isn't a <LINK=1>Twin Unit</LINK>, it makes a Focused Attack.\\n\\n\\u3000●Normal Attacks allow <LINK=2>Support Attack</LINK> (Attack Again) and\\n\\u3000\\u3000<LINK=3>Support Defense</LINK>.\\n\" failed (lines: 16 lines > 15)"
+   "keep": false
   },
   {
    "id": 125,
@@ -671,11 +668,10 @@
   {
    "id": 132,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>全体攻撃武器を使用した攻撃方法です。</C></H></W>\n\n　●全体攻撃は<LINK=0>全体攻撃武器</LINK><I=30><S=-79><I=32><S=39>を使用した攻撃方法で、<LINK=1>ツインユニット</LINK>が全体攻撃\n　　を行う場合、サブ側の機体が全体攻撃武器を使用可能な状態では、両方の機体共、\n　　全体攻撃武器による攻撃を行うことができます。\n\n　●全体攻撃に対しては<LINK=2>援護攻撃</LINK>（再攻撃）、<LINK=3>援護防御</LINK>を行うことはできません。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3><I=30><S=-30><I=33><S=6>と表示される全体攻撃武器は、攻撃目標に隣接する部隊も同時に攻撃可能\n　　　な<LINK=4>ダブルアタック</LINK>を行うことができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>An attack made with ALL weapons.</C></H></W>\n\n　●An ALL Attack uses <LINK=0>ALL weapons</LINK><I=30><S=-79><I=32><S=39>. When a <LINK=1>Twin Unit</LINK> makes\n　　an ALL Attack and the sub machine can also use an ALL weapon, both\n　　machines attack with ALL weapons.\n\n　●<LINK=2>Support Attack</LINK> (Attack Again) and <LINK=3>Support Defense</LINK> can't be used.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3><I=30><S=-30><I=33><S=6>-marked ALL weapons can also make a <LINK=4>Double Attack</LINK>,\n　　　hitting units adjacent to the target at the same time.\n",
    "cell": "r28c6",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: \"<W=28><H=28>A. <C=FF8000FF>An attack made with ALL weapons.</C></H></W>\\n\\n\\u3000●An ALL Attack uses <LINK=0>ALL weapons</LINK><I=30><S=-79><I=32><S=39>. When a <LINK=1>Twin Unit</LINK> makes\\n\\u3000\\u3000an ALL Attack and the sub machine can also use an ALL weapon, both\\n\\u3000\\u3000machines attack with ALL weapons.\\n\\n\\u3000●<LINK=2>Support Attack</LINK> (Attack Again) and <LINK=3>Support Defense</LINK> can't be\\n\\u3000\\u3000used against ALL Attacks.\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3><I=30><S=-30><I=33><S=6> ALL weapons can also hit units adjacent to\\n\\u3000\\u3000\\u3000the target in a <LINK=4>Double Attack</LINK>.\\n\" failed (lines: 12 lines > 11)"
+   "keep": false
   },
   {
    "id": 135,
@@ -720,11 +716,10 @@
   {
    "id": 142,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>攻撃目標と、それに隣接する部隊を攻撃する攻撃方法です。</C></H></W>\n\n　●<LINK=0>全体攻撃</LINK>の一種で、<I=30><S=-30><I=33><S=6>と表示される武器を使用します。目標の部隊と、それに\n　　隣接する部隊の合計２部隊（最大で４機）にダメージを与えることができます。た\n　　だし、消費ＥＮ・弾数は通常時の２倍必要になります。攻撃を行う部隊が<LINK=1>ツインユ\n　≡ニット</LINK>であっても、１機のみで攻撃を行います。\n\n　●ダブルアタックに対しては<LINK=2>援護攻撃</LINK>（再攻撃）、<LINK=3>援護防御</LINK>を行うことはできません。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>An attack on the target and a unit adjacent to it.</C></H></W>\n\n　●A type of <LINK=0>ALL Attack</LINK> using weapons marked <I=30><S=-30><I=33><S=6>. It damages\n　　the target and one adjacent unit, 2 units in all (up to 4 machines),\n　　but costs twice the usual EN and ammo. Even if the attacker is a\n　　<LINK=1>Twin Unit</LINK>, only one machine attacks.\n\n　●<LINK=2>Support Attack</LINK> (Attack Again) and <LINK=3>Support Defense</LINK> can't be used.\n",
    "cell": "r30c6",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: \"<W=28><H=28>A. <C=FF8000FF>An attack on the target and a unit adjacent to it.</C></H></W>\\n\\n\\u3000●A type of <LINK=0>ALL Attack</LINK> using weapons marked <I=30><S=-30><I=33><S=6>. It damages\\n\\u3000\\u3000the target and one adjacent unit, 2 units in all (up to 4 machines),\\n\\u3000\\u3000but costs twice the usual EN and ammo. Even if the attacker is a\\n\\u3000\\u3000<LINK=1>Twin Unit</LINK>, only one machine attacks.\\n\\n\\u3000●Double Attacks can't be met with a <LINK=2>Support Attack</LINK> (Attack Again)\\n\\u3000\\u3000or <LINK=3>Support Defense</LINK>.\\n\" failed (lines: 10 lines > 9)"
+   "keep": false
   },
   {
    "id": 145,
@@ -793,11 +788,10 @@
   {
    "id": 158,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>一定の条件を満たしている場合に使用できる武器です。</C></H></W>\n\n　●通常、合体攻撃武器は武器の一覧には表示されず、マップ上でその合体攻撃に必要\n　　な機体同士が周囲８マスで接続していてかつ、必要なパイロットが搭乗している場\n　　合のみ表示されます。使用するためには、参加する全ての機体について武器の消費\n　　ＥＮ、必要気力、必要スキルの条件を満たす必要があります。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>合体攻撃武器には武器種別に<I=40>が表示されています。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>合体攻撃を実行した機体と、その合体攻撃に参加する他の機体が同じ<LINK=0>ツインユニッ\n　　≡ト</LINK>に所属する場合、ダメージが１．２倍になります。また、合体攻撃は攻撃対象\n　　　に<LINK=1>特殊スキル</LINK>「カウンター」、<LINK=2>援護防御</LINK>、バリア系<LINK=3>特殊能力</LINK>を発動させません。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Weapons usable when certain conditions are met.</C></H></W>\n\n　●Combined Attack weapons normally don't appear in the weapon list. They\n　　only appear when the required machines are linked within the 8 squares\n　　around each other on the map, with the required pilots aboard. To use\n　　one, every participating machine must meet its EN, Will and Skill needs.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Combined Attack weapons show <I=40> as their type.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>If the attacker and another participant share a <LINK=0>Twin Unit</LINK>,\n　　　damage is 1.2x. Combined Attacks also don't trigger the target's\n　　　Counter <LINK=1>Special Skill</LINK>, <LINK=2>Support Defense</LINK> or barrier <LINK=3>Special Abilities</LINK>.\n",
    "cell": "r33c6",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: '<W=28><H=28>A. <C=FF8000FF>Weapons usable when certain conditions are met.</C></H></W>\\n\\n\\u3000●Combined Attack weapons normally don\\'t appear in the weapon list. They\\n\\u3000\\u3000only appear when the required machines are linked within the 8 squares\\n\\u3000\\u3000around each other on the map, with the required pilots aboard. To use\\n\\u3000\\u3000one, every participating machine must meet its EN, Will and Skill needs.\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Combined Attack weapons show <I=40> as their type.\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>If the attacker and another participant share a <LINK=0>Twin Unit</LINK>,\\n\\u3000\\u3000\\u3000damage is multiplied by 1.2. Combined Attacks also don\\'t trigger\\n\\u3000\\u3000\\u3000the <LINK=1>Special Skill</LINK> \"Counter,\" <LINK=2>Support Defense</LINK> or\\n\\u3000\\u3000\\u3000barrier-type <LINK=3>Special Abilities</LINK>.\\n' failed (lines: 14 lines > 13)"
+   "keep": false
   },
   {
    "id": 161,
@@ -946,11 +940,10 @@
   {
    "id": 188,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>高い防御率が設定されているマスへユニットを移動させます。</C></H></W>\n\n　●防御率の効果はユニットが空中に位置する場合、得ることができません。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>道路や平原など遮蔽物が少ない地形では効果は得られず、逆に建物や森など遮蔽\n　　　物が多い地形では高い効果を得ることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Move the unit to a square with a high defense rate.</C></H></W>\n\n　●Units in the air don't receive the defense rate bonus.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Terrain with little cover, like roads and plains, gives no bonus,\n　　　while dense cover like buildings or forests gives a big bonus.\n",
    "cell": "r40c6",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: \"<W=28><H=28>A. <C=FF8000FF>Move the unit to a square with a high defense rate.</C></H></W>\\n\\n\\u3000●Units in the air don't receive the defense rate bonus.\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Terrain with little cover, like roads and plains, gives no bonus,\\n\\u3000\\u3000\\u3000while terrain with lots of cover, like buildings and forests, gives\\n\\u3000\\u3000\\u3000a high bonus.\\n\" failed (lines: 8 lines > 7)"
+   "keep": false
   },
   {
    "id": 190,
@@ -971,11 +964,10 @@
   {
    "id": 192,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>高い回避率が設定されているマスへユニットを移動させます。</C></H></W>\n\n　●回避率の効果はユニットが空中に位置する場合、得ることができません。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>道路や平原など遮蔽物が少ない地形では効果は得られず、逆に建物や森など遮蔽\n　　　物が多い地形では高い効果を得ることができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Move the unit to a square with a high evasion rate.</C></H></W>\n\n　●Units in the air don't receive the evasion rate bonus.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Terrain with little cover, like roads and plains, gives no bonus,\n　　　while dense cover like buildings or forests gives a big bonus.\n",
    "cell": "r41c6",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: \"<W=28><H=28>A. <C=FF8000FF>Move the unit to a square with a high evasion rate.</C></H></W>\\n\\n\\u3000●Units in the air don't receive the evasion rate bonus.\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Terrain with little cover, like roads and plains, gives no bonus,\\n\\u3000\\u3000\\u3000while terrain with lots of cover, like buildings and forests, gives\\n\\u3000\\u3000\\u3000a high bonus.\\n\" failed (lines: 8 lines > 7)"
+   "keep": false
   },
   {
    "id": 194,
@@ -1456,11 +1448,10 @@
   {
    "id": 284,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の特殊スキルが挙げられます。</C></H></W>\n\n　<T=30>『ＥＸＰアップ』</T>\n　・戦闘での獲得経験値が１．２倍になります。\n\n　<T=30>『ラーニング』</T>\n　・サブ機体での戦闘時、メイン機体と同様の経験値・ＰＰを獲得できます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>The following skills apply.</C></H></W>\n\n　<T=30>\"EXP Up\"</T>\n　・EXP earned in battle is multiplied by 1.2.\n\n　<T=30>\"Learning\"</T>\n　・As a sub unit, earns the same EXP and PP as the main unit in battle.\n",
    "cell": "r63c6",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: '<W=28><H=28>A. <C=FF8000FF>The following skills help.</C></H></W>\\n\\n\\u3000<T=30>\"EXP Up\"</T>\\n\\u3000・EXP earned in battle is x1.2.\\n\\n\\u3000<T=30>\"Learning\"</T>\\n\\u3000・When fighting as a sub unit, earns the same EXP and PP as the main unit.\\n' failed (width: 1131px > 1120px: '\\u3000・When fighting as a sub unit, earns the same EXP ')"
+   "keep": false
   },
   {
    "id": 286,
@@ -1825,11 +1816,10 @@
   {
    "id": 351,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>ツインユニットの状態でのみ使用できる、精神コマンドです。</C></H></W>\n\n　●ユニットが２機で構成されている<LINK=0>ツインユニット</LINK>の場合、メインパイロットのみが\n　　使用できる精神コマンドです。ツイン精神コマンドは、個別コマンド「精神」から\n　　使用することができます。ツイン精神コマンドには<W=32><H=32><I=97></H></W>と表示されます。\n\n　●通常の精神で使用した場合は自機のみが効果を得るコマンドでも、ツイン精神で使\n　　用した場合、自分の部隊の２機が効果を得ることができます。\n\n　●精神コマンドと同様に、使用するためには<LINK=1>ＳＰ</LINK>（精神ポイント）が必要になります\n　　が、ツイン精神コマンドの場合、ツインユニット２人のメインパイロットのＳＰが\n　　必要になります。パイロットは４２種類の中から１個を保有します。同じ精神コマ\n　　ンドでもパイロットによって、消費ＳＰは異なります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Spirit Commands usable only by a Twin Unit.</C></H></W>\n\n　●In a <LINK=0>Twin Unit</LINK> made of 2 machines, only the main pilot can use\n　　these commands. Use Twin Commands from the Spirit unit command;\n　　they are marked with <W=32><H=32><I=97></H></W>.\n\n　●A command that affects only the user's machine as a normal Spirit\n　　Command affects both machines of the unit as a Twin Command.\n\n　●Like Spirit Commands, they need <LINK=1>SP</LINK> (Spirit Points), but Twin\n　　Commands use SP from the main pilots of both machines in the Twin\n　　Unit. Each pilot has one of 42 Twin Commands. SP costs for the same\n　　command vary by pilot.\n",
    "cell": "r81c6",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: \"<W=28><H=28>A. <C=FF8000FF>Spirit Commands usable only as a Twin Unit.</C></H></W>\\n\\n\\u3000●In a <LINK=0>Twin Unit</LINK> made of 2 units, only the main pilots can use these\\n\\u3000\\u3000commands. Twin Commands are used from the Spirit unit command and are marked\\n\\u3000\\u3000with <W=32><H=32><I=97></H></W>.\\n\\n\\u3000●Even a command that affects only the user's unit as a normal Spirit Command\\n\\u3000\\u3000affects both units of the squad when used as a Twin Command.\\n\\n\\u3000●Like Spirit Commands, they need <LINK=1>SP</LINK> (Spirit Points), but Twin Commands use\\n\\u3000\\u3000SP from both main pilots of the Twin Unit. Each pilot has 1 of the 42 types.\\n\\u3000\\u3000The SP cost of the same command differs from pilot to pilot.\\n\" failed (width: 1264px > 1248px: '\\u3000\\u3000commands. Twin Commands are used from the Spirit')"
+   "keep": false
   },
   {
    "id": 354,
@@ -2122,11 +2112,10 @@
   {
    "id": 403,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の精神コマンドがあります。</C></H></W>\n\n　<T=30>『偵察』</T>\n　・指定した敵部隊のステータスを調べることができます。\n\n　<T=30>『狙撃』</T>\n　・一度だけ、射程１の武器とマップ兵器以外の武器の射程に対して＋２されます。\n\n　<T=30>『突撃』</T>\n　・１ターンの間、マップ兵器以外の全ての武器が移動後に使用できるようになります。\n\n　<T=30>『同調』</T>\n　・ツインユニットの、パイロットの能力（格闘・射撃・回避・命中・技量・防御）を\n　　両メインパイロットの数値の高い方へ合わせます。\n\n　<T=30>『修行』</T>\n　・次の戦闘で得られるパイロットポイントが２倍になります。\n\n　<T=30>『直撃』</T>\n　・一度だけ、敵の援護防御、特殊な防御能力を発動させません。\n\n　<T=30>『連撃』</T>\n　・次の戦闘で攻撃した敵部隊を壊滅させた場合、行動終了せずもう一度行動できます。\n\n　<T=30>『覚醒』</T>\n　・一回分、行動回数が増えます。\n\n　<T=30>『再動』</T>\n　・指定した行動済みの部隊を再び行動可能にします。\n\n　<T=30>『祈り』</T>\n　・指定した部隊のステータス異常を解除します。\n\n　<T=30>『てかげん』</T>\n　・次の戦闘で敵機体を倒さずに、ＨＰを１０だけ残します。ただし、相手より技量が\n　　上回っていなければ無効になります。\n\n　<T=30>『期待』</T>\n　・指定したパイロットの精神ポイントを５０回復します。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>There are the following Spirit Commands.</C></H></W>\n\n　<T=30>\"Scan\"</T>\n　・Reveals the status of a chosen enemy unit.\n\n　<T=30>\"Snipe\"</T>\n　・Once, adds +2 range to all weapons except range-1 and MAP weapons.\n\n　<T=30>\"Assault\"</T>\n　・For 1 turn, all weapons except MAP weapons can be used after moving.\n\n　<T=30>\"Sync\"</T>\n　・Sets a Twin Unit's pilot stats (Mel, Rng, Eva, Acc, Skl, Def) to the\n　　higher value of its two main pilots.\n\n　<T=30>\"Training\"</T>\n　・Doubles the Pilot Points earned in the next battle.\n\n　<T=30>\"Pierce\"</T>\n　・Once, stops enemy Support Defense and special defenses activating.\n\n　<T=30>\"Continuous Attack\"</T>\n　・Wipe out the unit you attack in the next battle to act once more.\n\n　<T=30>\"Awaken\"</T>\n　・Grants one extra action.\n\n　<T=30>\"Enable (Move Again)\"</T>\n　・Lets a chosen unit that has already acted act again.\n\n　<T=30>\"Prayer\"</T>\n　・Removes status ailments from a chosen unit.\n\n　<T=30>\"Mercy\"</T>\n　・In the next battle, leaves the enemy at 10 HP instead of destroying it.\n　　No effect unless your Skill exceeds the target's.\n\n　<T=30>\"Hope\"</T>\n　・Restores 50 SP to a chosen pilot.\n",
    "cell": "r94c6",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: \"<W=28><H=28>A. <C=FF8000FF>There are the following Spirit Commands.</C></H></W>\\n\\n\\u3000<T=30>Scan</T>\\n\\u3000・Reveals the status of a chosen enemy unit.\\n\\n\\u3000<T=30>Snipe</T>\\n\\u3000・Once, adds +2 range to all weapons except range-1 weapons and MAP weapons.\\n\\n\\u3000<T=30>Assault</T>\\n\\u3000・For 1 turn, all weapons except MAP weapons can be used after moving.\\n\\n\\u3000<T=30>Sync</T>\\n\\u3000・Sets a Twin Unit's pilot stats (Mel, Rng, Eva, Acc, Skl, Def) to the\\n\\u3000\\u3000higher value of its two main pilots.\\n\\n\\u3000<T=30>Training</T>\\n\\u3000・Doubles the Pilot Points earned in the next battle.\\n\\n\\u3000<T=30>Pierce</T>\\n\\u3000・Once, stops enemy Support Defense and special defenses from activating.\\n\\n\\u3000<T=30>Continuous Attack</T>\\n\\u3000・If you destroy the enemy unit you attack in the next battle, you can act\\n\\u3000\\u3000again instead of ending your action.\\n\\n\\u3000<T=30>Awaken</T>\\n\\u3000・Grants one extra action.\\n\\n\\u3000<T=30>Enable (Move Again)</T>\\n\\u3000・Lets a chosen unit that has already acted act again.\\n\\n\\u3000<T=30>Prayer</T>\\n\\u3000・Removes status ailments from a chosen unit.\\n\\n\\u3000<T=30>Mercy</T>\\n\\u3000・In the next battle, leaves the enemy at 10 HP instead of destroying it.\\n\\u3000\\u3000No effect unless your Skill exceeds the target's.\\n\\n\\u3000<T=30>Hope</T>\\n\\u3000・Restores 50 SP to a chosen pilot.\\n\" failed (lines: 41 lines > 40)"
+   "keep": false
   },
   {
    "id": 405,
@@ -2379,11 +2368,10 @@
   {
    "id": 454,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>２機で構成されている部隊のことです。</C></H></W>\n\n　●１つの部隊（ユニット）は１～２機の機体で構成されます。２機で構成されている\n　　部隊をツインユニット、１機の場合はシングルユニットと呼びます。\n\n　●インターミッションでは「部隊編成」コマンドから部隊の機体編成を行うことで、\n　　ツインユニットとシングルユニットを変更することができます。\n\n　●マップ上では個別コマンド「合流」でツインユニットに、個別コマンド「解散」で\n　　シングルユニットに変更することができます。合流を行う場合、周囲８マスで部隊\n　　が接続している必要があります。\n\n　●戦艦はツインユニットにすることができません。\n\n　●ツインユニットのメリットは以下のようになります。\n　・２機が装備している<LINK=0>アビリティ</LINK>を合わせたアビリティ効果を両方の機体が得ること\n　　ができるようになります。\n　・<LINK=1>ツイン精神コマンド</LINK>を使用できるようになります。\n　・戦闘で獲得できる<LINK=2>経験値</LINK>や<LINK=3>ＰＰ</LINK>の総量が増加します。\n　・２機で攻撃を行えるため、一度の戦闘で敵により多くのダメージを与えることが可\n　　能になります。\n\n　●ツインユニットをマップ上で解散させた場合、そのユニットが使用していた<LINK=1>ツイン\n　≡精神コマンド</LINK>の効果は失われます。また「加速」など、部隊全体に働く<LINK=4>精神コマン\n　≡ド</LINK>の効果は、コマンドを使用したパイロットの機体側のみへ引き継がれます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>A unit made up of two machines.</C></H></W>\n\n　●A unit consists of 1 or 2 machines. A unit of two machines is called a\n　　Twin Unit, and a unit of one is called a Single Unit.\n\n　●In the Intermission, the Unit Formation command lets you rearrange\n　　machines to switch between Twin Units and Single Units.\n\n　●On the map, the Join unit command forms a Twin Unit, and Split forms\n　　Single Units. To join, the units must be adjacent within the 8\n　　surrounding squares.\n\n　●Battleships can't form Twin Units.\n\n　●Twin Units have these advantages:\n　・Both machines get the combined effects of the <LINK=0>Abilities</LINK> equipped\n　　on both.\n　・<LINK=1>Twin Commands</LINK> become available.\n　・Total <LINK=2>EXP</LINK> and <LINK=3>PP</LINK> earned in battle increase.\n　・Both machines can attack, so you can deal more damage in one battle.\n\n　●If a Twin Unit splits on the map, any <LINK=1>Twin Command</LINK> effects it\n　　had are lost. Effects of <LINK=4>Spirit Commands</LINK> that apply to the whole\n　　unit, like \"Accel\", carry over only to the user's machine.\n",
    "cell": "r106c6",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: '<W=28><H=28>A. <C=FF8000FF>A unit made up of two machines.</C></H></W>\\n\\n\\u3000●A unit consists of 1 or 2 machines. A two-machine unit is called a Twin Unit,\\n\\u3000\\u3000and a one-machine unit a Single Unit.\\n\\n\\u3000●In the Intermission, arrange machines with the Unit Formation command to switch\\n\\u3000\\u3000between Twin Units and Single Units.\\n\\n\\u3000●On the map, use the Join unit command to form a Twin Unit and Split to form\\n\\u3000\\u3000Single Units. To join, the units must touch in one of the 8 surrounding squares.\\n\\n\\u3000●Battleships can\\'t form Twin Units.\\n\\n\\u3000●Twin Units have these advantages:\\n\\u3000・Both machines get the combined effects of the <LINK=0>Abilities</LINK> equipped on\\n\\u3000\\u3000both.\\n\\u3000・<LINK=1>Twin Spirit Commands</LINK> become available.\\n\\u3000・Total <LINK=2>EXP</LINK> and <LINK=3>PP</LINK> earned in battle increase.\\n\\u3000・Both machines can attack, so you can deal more damage in one battle.\\n\\n\\u3000●If a Twin Unit splits on the map, any <LINK=1>Twin Spirit Command</LINK> effects it had\\n\\u3000\\u3000are lost. Effects of <LINK=4>Spirit Commands</LINK> that apply to the whole unit, like\\n\\u3000\\u3000\"Accel\", carry over only to the machine of the pilot who used them.\\n' failed (width: 1260px > 1248px: '\\u3000●In the Intermission, arrange machines with the U')"
+   "keep": false
   },
   {
    "id": 457,
@@ -2476,11 +2464,10 @@
   {
    "id": 472,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>装備している武器が似通った機体同士で部隊を編成します。</C></H></W>\n\n　●攻撃を行う場合、サブ側の機体が射程不足などの理由により攻撃できないといった\n　　状況を避けるため、機体が装備している武器の最大射程、移動後に攻撃可能かどう\n　　か、全体攻撃の有無などを考慮し、２機の攻撃可能なタイミングを合わせるような\n　　編成を行う必要があります。\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>武器の換装が可能な機体は、<LINK=0>換装武器</LINK>を装備することによって、機体の武器を調\n　　　整することができます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Pair machines with similar equipped weapons.</C></H></W>\n\n　●So the sub machine isn't left unable to attack due to short range,\n　　consider each machine's max weapon range, post-move attacks, and\n　　ALL attacks, and pair machines so both can attack in the same\n　　situations.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Machines that can swap weapons can adjust them by equipping\n　　　<LINK=0>Replace Weapons</LINK>.\n",
    "cell": "r110c6",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: \"<W=28><H=28>A. <C=FF8000FF>Pair machines with similar equipped weapons.</C></H></W>\\n\\n\\u3000●So the sub machine isn't left unable to attack due to lack of range, consider\\n\\u3000\\u3000each machine's max weapon range, post-move attacks and ALL attacks, and form\\n\\u3000\\u3000units so both machines can attack at the same times.\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Machines that can swap weapons can adjust their loadout by equipping\\n\\u3000\\u3000\\u3000<LINK=0>Replace Weapons</LINK>.\\n\" failed (width: 1264px > 1248px: \"\\u3000\\u3000each machine's max weapon range, post-move attac\")"
+   "keep": false
   },
   {
    "id": 475,
@@ -2919,11 +2906,10 @@
   {
    "id": 557,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下が移動タイプを変更させる、代表的な強化パーツです。</C></H></W>\n\n　<T=30>『テスラ・ドライブ』</T>\n　・機体に移動タイプ「空」を与え、機体と武器の地形適応「空」をＡにします。\n\n　<T=30>『スラスターモジュール』</T>\n　・機体と武器の地形適応「宇」をＳにします。\n\n　<T=30>『防塵装置』</T>\n　・機体に移動タイプ「陸」を与え、機体と武器の地形適応「陸」をＳにします。\n\n　<T=30>『スクリューモジュール』</T>\n　・機体に移動タイプ「水」を与え、機体と武器の地形適応「海」をＳにします。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Common Enhancement Parts that change move type:</C></H></W>\n\n　<T=30>\"Tesla Drive\"</T>\n　・Adds the Air move type; unit and weapon Air rating become A.\n\n　<T=30>\"Thruster Module\"</T>\n　・Sets unit and weapon Space rating to S.\n\n　<T=30>\"Dustproofer\"</T>\n　・Adds the Land move type; unit and weapon Land rating become S.\n\n　<T=30>\"Water Jet\"</T>\n　・Adds the Water move type; unit and weapon Sea rating become S.\n",
    "cell": "r132c6",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: \"<W=28><H=28>A. <C=FF8000FF>Typical parts that change move type:</C></H></W>\\n\\n\\u3000<T=30>Tesla Drive</T>\\n\\u3000・Gives the unit the Air move type and sets its and its weapons' Air rating to A.\\n\\n\\u3000<T=30>Thruster Module</T>\\n\\u3000・Sets the Space rating of the unit and its weapons to S.\\n\\n\\u3000<T=30>Dustproofer</T>\\n\\u3000・Gives the unit the Land move type and sets its and its weapons' Land rating to S.\\n\\n\\u3000<T=30>Water Jet</T>\\n\\u3000・Gives the unit the Water move type and sets its and its weapons' Sea rating to S.\\n\" failed (width: 1227px > 1184px: '\\u3000・Gives the unit the Air move type and sets its an')"
+   "keep": false
   },
   {
    "id": 559,

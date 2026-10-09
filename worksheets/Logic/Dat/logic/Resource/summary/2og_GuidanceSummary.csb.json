@@ -25,7 +25,7 @@
   {
    "id": 3,
    "jp": "＜KeyWords＞\n●ここに記入したモノがそのまま表示されます。\n●スペース的には最大３行分表示できます。\n●全ての表示文字は全角で入力、改行は「半角\\n」を記述するか、\n　「Altキー＋Enter」の操作で改行させたものが、そのまま反映されます。",
-   "en": "",
+   "en": "＜KeyWords＞\n●Whatever is entered here is displayed as-is.\n●Up to 3 lines fit in the space.\n●Type all text full-width. Break lines with a half-width \\n\n　or Alt+Enter; the breaks are reflected as-is.",
    "cell": "r0c5",
    "kind": "text",
    "keep": false,

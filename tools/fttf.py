@@ -184,6 +184,10 @@ def preview(font, cps, cols=16, scale=2):
     return canvas
 
 
+# pixels to move each glyph down (negative = up); default for others is -1
+DESCENDER_DROP = {"g": 2, "j": 2, "p": 2, "q": 2, "y": 2, ",": 0, ";": 0}
+
+
 def make_proportional(f, gap=2, space=8, left=0, thr=128, write=True):
     """Move each printable-ASCII glyph's ink to `left` px from its cell edge
     and set advance = ink width + gap. Returns {codepoint: advance}. With
@@ -200,9 +204,16 @@ def make_proportional(f, gap=2, space=8, left=0, thr=128, write=True):
         x0, x1 = box
         x0 = max(full[0], x0 - 1)          # keep the faint left edge inside the cell
         shift = x0 - left
-        if shift and write:
+        # Vertical: the original font sits every glyph on row 29, so g/j/p/q/y
+        # float with no descender. Raise everything else 1 px (baseline row 28)
+        # and drop the descender letters 2 px (tails to row 31). Commas and
+        # semicolons stay put so they dip just below the baseline.
+        dy = DESCENDER_DROP.get(chr(cp), -1)
+        if (shift or dy) and write:
             blank = (img[0][0][0], img[0][0][1], img[0][0][2], 0)
-            img = [[r[x + shift] if 0 <= x + shift < len(r) else blank for x in range(len(r))] for r in img]
+            h, w = len(img), len(img[0])
+            img = [[img[y - dy][x + shift] if 0 <= y - dy < h and 0 <= x + shift < w else blank
+                    for x in range(w)] for y in range(h)]
             f.write_cell(g[1], g[2], img)
         adv[cp] = left + (x1 - x0 + 1) + gap
     digits = [adv[c] for c in range(0x30, 0x3A) if c in adv]

@@ -6,7 +6,11 @@
   reuse, or ask permission from the existing MTL patch (srwogs2ndeng/og2-translation) or the
   read-along site (2ndsrwoge.com). Their public write-ups are useful as a list of pitfalls to
   verify against, nothing more. Every format is confirmed on our own dump.
-- **Terminology canon:** the fan patches of *OG: Original Generations* (PS2, Kingcom) and
+- **Terminology canon (updated 2026-10-08):** the English of the *OG: Original Generations*
+  PS2 fan patch is the basis, checked against the Akurasu wiki, which most of the SRW
+  player base uses; Anthony resolves disagreements via `deviations.md`. Names the OGs
+  patch lacks follow Akurasu. Honorifics follow the OGs patch: none except "Rishu-sensei".
+  Previously: the fan patches of *OG: Original Generations* (PS2, Kingcom) and
   *OG Gaiden* (PS2, camd11). Those two games precede 2nd OG directly and their naming is what
   players already know. Not used: *Moon Dwellers* (official but poorly edited, chronologically
   later) and the GBA OG1/OG2 names where they differ from the PS2 patches.

@@ -1,7 +1,8 @@
 # Style guide (draft for Anthony's review)
 
-Sources: engine tests in `docs/rendering.md`, the camd11 OG Gaiden patch as
-observed in `glossary/sources.md`, and the glossary. Items marked
+Sources: engine tests in `docs/rendering.md`, the OGs PS2 fan patch text
+(decoded from `ogs.xdelta`), the camd11 OG Gaiden patch as observed in
+`glossary/sources.md`, and the glossary. Items marked
 **decide** need Anthony's call.
 
 ## Hard rules (the engine enforces these; `tools/fitcheck.py` checks them)
@@ -22,8 +23,10 @@ observed in `glossary/sources.md`, and the glossary. Items marked
 
 ## Names and terms
 
-- Glossary first (`glossary/*.tsv`, then the signed-off `signoff.tsv`). The
-  build fails on a non-canonical form of a glossary term.
+- Basis: the English of the OGs PS2 fan patch, checked against Akurasu.
+  `glossary/signoff.tsv` holds every data-table name with both forms;
+  `deviations.md` lists where they disagree for Anthony to decide. The build
+  fails on a non-canonical form of a signed-off term.
 - Given name first ("Masaki Andoh"). Speaker name boxes use the short form
   the game uses (マサキ becomes "Masaki").
 - Units: Title Case, model codes as written (`R-1`, `MP Gespenst Mk-II`).
@@ -36,10 +39,10 @@ observed in `glossary/sources.md`, and the glossary. Items marked
 
 ## Dialogue
 
-- Honorifics: drop them and use names, ranks and roles ("Captain",
-  "Lt. Irm"). The camd11 OG Gaiden screenshots show none, and it states it
-  follows the Kingcom OGs style. **decide**: confirm, or keep -san/-kun for
-  specific characters.
+- Honorifics: none. Decided from the OGs patch, which has no -san, -kun,
+  -chan or -sama in 53,168 dialogue lines. The one exception it keeps is
+  "Rishu-sensei"; keep that where the Japanese has it. Ranks are written in
+  full ("Captain", "Lieutenant", "Commander"), never "Lt.", plus "sir".
 - Japanese quote brackets 「」 and （） become plain English: spoken lines get
   no quotation marks (the name box shows the speaker); inner thoughts stay in
   parentheses. **decide**: the original keeps 「」 on every spoken line; dropping

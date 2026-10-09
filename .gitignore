@@ -19,3 +19,7 @@ extracted/
 __pycache__/
 *.pyc
 .venv/
+
+# Third-party patches (not ours to redistribute)
+*.xdelta
+*.ppf

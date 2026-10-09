@@ -74,3 +74,11 @@ monologue:
 - Japanese text unaffected in the frames seen so far; still to check: menus,
   centred/right-aligned text, the battle screen and the scrolling text the
   renderer agent flagged (routine at 0x63060).
+
+## Proportional font, tested 2026-10-08
+
+`tools/fttf.py` (run by build.py) moves each ASCII glyph's ink to the left of
+its cell and writes fitted advances. In game: sentences read naturally, the
+two-line test wraps cleanly, Japanese lines are unchanged, and the full
+alphabet line takes about two thirds of the box. Capitals sat slightly tight
+with a 1 px gap, so the default gap is now 2 px (not yet re-checked in game).

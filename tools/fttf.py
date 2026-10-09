@@ -22,7 +22,7 @@ Commands:
   proportional FONT OUT [--gap N] [--space N] [--left N]
         move every printable-ASCII glyph's ink to N px from its cell's left
         edge (default 0), set advance = ink width (alpha >= --thr, default
-        128) + gap (default 1), space = --space (default 8); digits share the
+        128) + gap (default 2), space = --space (default 8); digits share the
         widest digit's advance.
 """
 import struct
@@ -184,7 +184,7 @@ def preview(font, cps, cols=16, scale=2):
     return canvas
 
 
-def make_proportional(f, gap=1, space=8, left=0, thr=128, write=True):
+def make_proportional(f, gap=2, space=8, left=0, thr=128, write=True):
     """Move each printable-ASCII glyph's ink to `left` px from its cell edge
     and set advance = ink width + gap. Returns {codepoint: advance}. With
     write=False only the advances are computed (used by fitcheck.py)."""
@@ -234,7 +234,7 @@ def main(argv):
     elif cmd == "proportional":
         f = Font(argv[2])
         opt = lambda k, d: int(argv[argv.index(k) + 1]) if k in argv else d
-        adv = make_proportional(f, opt("--gap", 1), opt("--space", 8), opt("--left", 0), opt("--thr", 128))
+        adv = make_proportional(f, opt("--gap", 2), opt("--space", 8), opt("--left", 0), opt("--thr", 128))
         f.save(argv[3])
         print("wrote %s; advances: %s" % (argv[3], " ".join("%s%d" % (chr(c), a) for c, a in sorted(adv.items()))))
     else:

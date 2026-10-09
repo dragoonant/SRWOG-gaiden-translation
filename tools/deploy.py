@@ -55,15 +55,21 @@ def install(build_dir, rpcs3):
         shutil.copy2(eboot, os.path.join(disc, "EBOOT.BIN"))
         print("  installed EBOOT.BIN")
         n += 1
+    archives = 0
     psarc_dir = os.path.join(usrdir, "PSARC")
     if os.path.isdir(psarc_dir):
         for f in sorted(os.listdir(psarc_dir)):
             if f.endswith(".psarc.sdat"):
-                shutil.copy2(os.path.join(psarc_dir, f), os.path.join(disc, "PSARC", f))
+                src, dst = os.path.join(psarc_dir, f), os.path.join(disc, "PSARC", f)
+                if os.path.exists(dst) and filecmp.cmp(src, dst, shallow=False):
+                    print("  %s unchanged" % f)
+                    continue
+                shutil.copy2(src, dst)
                 print("  installed %s" % f)
                 n += 1
-    if n:
-        wipe_installed(rpcs3)
+                archives += 1
+    if archives:
+        wipe_installed(rpcs3)   # only archives are checked against the installed copy
     print("deployed %d file(s)" % n)
 
 

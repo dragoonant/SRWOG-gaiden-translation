@@ -1,14 +1,19 @@
 # Game data never goes in the repo
 *.iso
 *.ISO
-*.bin
-*.BIN
+*.psarc
+*.PSARC
+*.sdat
+*.SDAT
+*.self
+*.SELF
 *.elf
 *.ELF
-SLPS_*
-extracted/
+EBOOT*
+PS3_GAME/
+work/
 build/
-*.xdelta.tmp
+extracted/
 
 # Scratch
 __pycache__/

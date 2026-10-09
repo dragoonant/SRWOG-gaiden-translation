@@ -1,154 +1,168 @@
-# SRW OG Gaiden (PS2, SLPS-25836) English Translation: Course of Action
+# 2nd Super Robot Wars OG (PS3, BLJS10133) English Translation: Course of Action
 
-## 0. Reality check before starting
+## 0. What already exists (read this first)
 
-A complete, playable English patch for OG Gaiden already exists:
-**camd11/srw-og-gaiden-en** (author "Creamhouse", v0.2.9, first released June 2026).
-It was built the same way you are proposing: Claude for reverse engineering, translation
-and tooling, Codex for pixel art. It ships only an xdelta patch, not its tools or script dump.
-It has 12 open issues and a list of known defects (garbled footer button hints, blank Arado
-battle quotes, a second BGM list untranslated, truncated backlog rows, a real-hardware freeze
-in the stage 2 intro, a stray `#` in CONTINUE, overlapping Spirit legend icons, Limited Edition
-disc unsupported).
+Two things cover most of the ground, and both are public.
 
-Three honest options:
+**A. A full machine-translated patch with open tools.**
+`srwogs2ndeng/og2-translation` on GitHub (v1.0.22, 2026-09-13; first release 2026-09-04).
+- About 87,000 strings: story script, battle quotes, menus, library, help, skills, parts, map names.
+- About 50 Python scripts (PSARC extract/pack, SDAT decrypt/encrypt, FIXH/WTD/BMD/script tools,
+  30 EBOOT code patches for Latin glyph spacing and auto-fit, fSELF builder, deploy with rollback).
+- Translations stored as JSON worksheets keyed by Japanese file offset; builds are reproducible
+  from a pristine extract; no game data in the repo.
+- `docs/HACKING.md` documents the containers and text formats. `PROCESS.md` documents the
+  AI workflow and QA gates.
+- Weak point, stated by its own author: the 41,473 dialogue lines were LLM-translated in
+  ~180-line chunks and only spot-checked. Expect stiff dialogue, wrong pronouns, flattened jokes.
+- Tested on RPCS3 only (Windows end to end; Linux and Steam Deck boot). Never run on a real PS3.
+- No license file. Default copyright applies, so forking or reusing code needs the author's OK.
+  The repo is anonymous (one commit, "anon snapshot" tooling) but has an issue tracker.
 
-1. **Independent rebuild (the "cut my teeth" option).** You learn the whole pipeline. Their
-   changelog is a free map of every landmine they hit. This plan assumes this option.
-2. **Contribute to camd11's project.** Fastest route to shipping something, but without their
-   tools you would still have to rebuild extraction and reinsertion to fix anything beyond
-   what xdelta diffs expose.
-3. **Pick a different, untranslated PS2 SRW** (MX, Alpha 2, Alpha 3, Scramble Commander 2) and
-   reuse everything from this plan. Same engine family, no duplicate effort.
+**B. A full human story translation.**
+Ian "NrvnqsrKhaos" Maatta, https://2ndsrwoge.com/. All story dialogue plus narration across
+roughly 90 chapter pages covering every route (Lune/Masaki, Earth/Space branches, both endings).
+Informal register with strong language by the translator's own description. Contact:
+2ndSRWOGTranslation@gmail.com.
 
-Whichever you choose, the pipeline below is the same.
+**What is actually missing**, and therefore the project worth doing:
+1. A human-quality script inside the game. Nobody has combined A's insertion pipeline with
+   a properly edited English script.
+2. Real-hardware support and testing (PS3 with HEN/CFW).
+3. A licensed, documented toolchain others can build on.
 
-## 1. Legal and repo hygiene (day 1)
+## 1. Decision: build on the open toolchain, spend your effort on the script
 
-- Dump your own retail disc. Verify against the redump checksums
-  (4,666,294,272 bytes; camd11 README lists MD5/SHA1 for the standard SLPS-25836 disc).
-- **Never commit game data.** The repo holds tools, the extracted script as text, the
-  translation, font/art sources you drew, and the final xdelta. Add a `.gitignore` for
-  `*.iso`, `*.bin`, `*.BIN`, `*.elf`, `extracted/`, `build/`.
-- Patch format: xdelta3 against the verified ISO, same-size in-place edits where possible
-  so it works on real hardware (OPL/FreeMcBoot) and PCSX2 alike.
+Do not re-derive the file formats from scratch. That work is done and documented. Your
+"cut my teeth" value comes from (a) running and understanding every step of the pipeline on
+your own dump, (b) fixing what the MTL project left broken, and (c) producing the script.
 
-## 2. Workstation setup
+Before writing code, open an issue on og2-translation asking the author to add a license
+(MIT or GPLv3) and whether they welcome a script-quality fork. If no answer within a couple of
+weeks, reimplement the tools yourself using HACKING.md as the spec. The format knowledge is
+not copyrightable; the code is.
+
+Also email NrvnqsrKhaos asking permission to use the 2ndsrwoge.com translation as a reference
+for an in-game script, with credit. Their text is a meaning reference, not drop-in dialogue:
+the register and profanity would need editing to match the game's tone anyway.
+
+## 2. Legal and repo hygiene
+
+- Dump BLJS10133 from a disc you own. The retail disc, not the Premium Edition, unless you
+  verify that both share the same USRDIR contents.
+- Never commit game data. `.gitignore` covers `*.psarc`, `*.sdat`, `EBOOT*`, `*.self`,
+  `*.elf`, `work/`, `build/`. The repo holds tools, JSON worksheets (JP + EN), glossary,
+  docs, and release scripts. The user rebuilds from their own dump, exactly as og2 does.
+- Rename this GitHub repo; it is still named for OG Gaiden.
+
+## 3. Workstation
 
 | Need | Tool |
 |---|---|
-| Emulator with debugger | PCSX2 (nightly). Built-in R5900 debugger, memory view, breakpoints, save states |
-| ISO in/out | 7-Zip or `isoinfo`/`pycdlib` to pull files; for reinsertion edit in place by LBA, or rebuild with `mkisofs -udf` only if you have to grow files |
-| Disassembly | Ghidra with the PS2 EE loader (ghidra-emotionengine-reloaded) for the boot ELF `SLPS_258.36` |
+| Emulator | RPCS3 (latest). For renderer work, a custom build with `HAS_MEMORY_BREAKPOINTS` as og2 did |
+| Disassembly | Ghidra with the PS3/Cell PPC64 loader for the decrypted EBOOT; capstone for scripted analysis |
+| Decryption | RPCS3 Utilities > Decrypt PS3 Binaries for EBOOT; `decrypt_sdat.py` lineage (make_npdata, GPLv3) for SDAT |
 | Hex | ImHex or 010 Editor |
-| Archive poking | QuickBMS (generic), plus your own Python scripts (this is where most of the work is) |
-| Assembly patches | armips for ELF code patches (camd11 credits the "xdelta/armips lineage") |
-| Images | Python + Pillow for TIM2/raw swizzled textures; Aseprite or GIMP for the redraws |
-| Text | Python 3, Shift-JIS codec, a glossary file, and an LLM for first-pass translation |
+| Textures | DDS (og2 has `dds_tool.py`); GIMP or Photoshop with DDS plugin for redraws |
+| Python | 3.10+, `cryptography`, `capstone`, `Pillow` |
+| Hardware | A PS3 on HEN or CFW, with webMAN, for the hardware track (section 7) |
 
-## 3. Reconnaissance (week 1)
+## 4. Pipeline bring-up (weeks 1 to 2)
 
-Goal: know where every byte of displayed text lives.
+Goal: a no-op round trip that is byte-identical, on your dump, with tools you understand.
 
-1. Pull the file tree out of the ISO. Known relevant files from camd11's changelog:
-   - `SLPS_258.36` (boot ELF): UI string table, menu code, banner renderers, backlog code
-   - `/OL/MPOL.BIN`, `/OL/W1OL.BIN` and other `/OL/*.BIN`: code overlays with their own
-     string tables (Spirit menu, map/intermission UI)
-   - `/DATA/MAP.BIN`: stage blocks with objective text (179 conditions in 41 blocks) and the
-     terrain name table (148 names), pointer tables
-   - `GRAPHIC.BIN`: fonts, UI sprites, banners
-   - Story script: most likely in a per-stage event/scenario archive; find it by searching
-     Shift-JIS for a known line from stage 1
-2. Catalogue every container: magic, entry count, offset/size tables, compression (check for
-   LZSS/LZ77 variants typical of Banpresto PS2 titles; many files are uncompressed).
-3. Map the text systems. Expect at least four, each needing its own tool:
-   - Story/VN dialogue (speaker + body, control codes for wait/newline/color/name)
-   - Battle quotes (per pilot, per situation)
-   - Fixed UI strings in ELF and overlays (pointer tables, in-place limits)
-   - Baked-in art (title logo, chapter cards, sortie banners, button hint sprite font)
-4. Font: identify the glyph bitmap, cell size, encoding (Shift-JIS to cell index), and
-   whether a width table exists. camd11 replaced the fixed-width JP cell font with a
-   proportional English font and had to hook the width logic. Plan for that from the start.
-5. Write it all down in `docs/formats.md` as you go. This document is the project.
+1. Decrypt the five SDAT-wrapped PSARCs (Logic, Battle, Common, General2d, General3d).
+   Confirm every SDAT block HMAC validates after re-encryption; RPCS3 treats a bad block as fatal.
+2. Extract and inventory. Known text carriers:
+   - `Logic/Dat/logic/talk/ls*.bin`: story script (growable)
+   - `Logic/Dat/FixedData/*.dat`: FIXH containers (SOFS 32-bit BE offsets, STRI block;
+     some files are position-addressed and must keep exact byte lengths)
+   - BMD: battle quotes
+   - `General2d/.../windowdataMain.wtd`: menu UI, per-record font size floats
+   - MTI: 1024 fixed 84-byte terrain records
+   - CSB: Q&A screens
+   - EBOOT string table: ~2,000 system strings, no length growth allowed
+3. Re-pack unchanged, re-encrypt, deploy to RPCS3, boot. Then diff: must be byte-identical.
+4. Write `docs/formats.md` in your own words as you verify each format. Treat HACKING.md as
+   a claim to check, not gospel; the 16-bit-offset misread they shipped for a while shows why.
 
-## 4. Build the toolchain (weeks 2 to 4)
+## 5. Script dump and alignment (weeks 2 to 4)
 
-Write these in Python, in `tools/`, each with a round-trip test (extract, reinsert unchanged,
-diff must be byte-identical before you translate anything).
+1. Dump every `ls*.bin` to a worksheet: file, offset, speaker ID, JP text, control codes,
+   byte budget. Resolve speaker IDs to names. Keep the bracketed `[...]-` engine keys and
+   anything else the engine byte-matches untouched (og2 found ~10,300 of these).
+2. Map script files to the game's stage/route structure so a translator works in story
+   order with route context.
+3. Pull og2's existing English worksheets (if licensed) as a third column: a machine draft
+   to edit against rather than a blank page. If not licensed, generate your own draft (step 6).
+4. Build a glossary before translating a line. Sources, in priority order:
+   - Official English names from OG: The Moon Dwellers (PS4 Asia English) and OG1/OG2 (GBA, Atlus)
+   - Kingcom's OGs patch for anything only in the PS2 games
+   - Consistent romanizations for 2nd OG-only terms (Four Gods, Boundary Realm, etc.)
+   Store it as data the tools enforce, not a wiki page.
 
-- `iso_tool.py`: list, extract, and in-place write files by LBA into the ISO.
-- `archive_tool.py`: unpack/repack each container type found in step 3.
-- `script_dump.py` / `script_insert.py`: story text to and from a line-based format
-  (ID, speaker, JP, EN, control codes preserved). Output something diff-friendly such as
-  TSV or one JSON per stage.
-- `strtab_tool.py`: pointer-table string editor for ELF and overlay string tables. Must
-  support relocating strings to free space and rewriting pointers, not just in-place edits.
-  camd11's Spirit-menu crash came from in-place edits corrupting pointer entries, and their
-  0.2.8 hardware bug came from relocating data into ELF space that the CD/controller
-  drivers actually use. Validate free space by running on hardware, not just PCSX2.
-- `font_tool.py`: dump the glyph atlas to PNG, import an edited atlas, generate a width table.
-- `tex_tool.py`: dump and reimport the UI textures (TIM2 or raw swizzled 4/8-bpp with CLUT).
-- `build.py`: one command from `translation/` + clean ISO to patched ISO + xdelta + checksums.
+## 6. Translation (weeks 4 to 16, the bulk of the project)
 
-## 5. Make English render before translating anything (week 4 to 5)
+- 41,473 dialogue lines plus ~34,000 battle lines (mostly short, highly repetitive after dedup).
+- AI first pass, done properly: feed one scene at a time with the glossary, speaker names,
+  the previous scene, the matching 2ndsrwoge.com chapter as a meaning reference, and the
+  pixel/byte budget. Require JSON output, reject anything that drops a control code or
+  overflows, fall back to Japanese rather than ship a broken line.
+- Human edit pass, every line, in context, in the game or in a script viewer with speaker
+  portraits. This is the deliverable that separates this project from the MTL. Budget it
+  honestly: 41k lines at a few hundred edited lines per hour is well over 100 hours.
+- Style guide: honorifics policy, how each pilot talks, attack-name capitalisation,
+  battle-bark tone. Write it before the edit pass, not after.
+- Keep JP and EN side by side in git so reviewers can send corrections as pull requests.
 
-This is the hacking milestone that gates everything else.
+## 7. Rendering and hardware (parallel track, weeks 2 onward)
 
-1. Get ASCII (1-byte) characters drawing in the dialogue box. The renderer reads strictly
-   two bytes per glyph; patch it to accept 1-byte codes (camd11 patched both VN banner
-   drawers in the ELF for exactly this).
-2. Install a proportional font plus width table and hook the advance/centering code.
-3. Fix line-wrap and box-size limits so English (about 1.5x to 2x JP width) fits.
-4. Repeat for menus, battle banners, backlog, save slot titles.
-5. Test on PCSX2 and on a real PS2 via OPL at every ELF change. The emulator hides
-   memory-corruption bugs that hardware exposes.
+- The RPCS3 rendering problem is solved: 30 EBOOT patches (glyph advance K=0.57, font-size
+  floor, auto-fit comparison fixed to measure at K, justify path redirect) in a code cave at
+  `0xc45928`. Reproduce them on your dump and read every one until you understand it.
+- Known leftovers to fix: opening crawl centering (currently ragged), ASCII `<>` parsed as
+  control tags in command menu labels, weapon name width limit below 25 chars, route cards
+  overflow.
+- Hardware: og2 ships a fake-signed SELF, which runs on HEN/CFW but not OFW. Test on a real
+  PS3 early. The OG Gaiden PS2 project found a memory-corruption bug that the emulator hid and
+  hardware exposed; expect the same class of bug here, especially around the code cave and
+  stack red-zone use (og2 crashed once on exactly that).
+- Art: title logo and any baked-in English-needed textures live in DDS inside General2d.
+  og2's override repack appends the changed file and repoints the TOC instead of rebuilding
+  the 638 MB archive; keep that technique.
 
-## 6. Translation (weeks 5 to 12, overlaps with hacking)
+## 8. QA gates (automated, run on every build)
 
-- Dump the full script. Expect on the order of 20,000 dialogue lines
-  (camd11 re-wrapped about 19,500) plus a few thousand UI and battle strings.
-- Build a glossary first: pilot and unit names, attack names, Spirit commands, terrain ranks.
-  Use Kingcom's OG: Original Generations patch as the canonical reference for shared terms
-  so this game matches its prequel.
-- AI first pass: feed the script stage by stage with the glossary, speaker, and the
-  preceding lines as context. Have the model preserve control codes and respect a max
-  pixel width per line (compute from your width table and reject lines that overflow).
-- Human pass: you read every line in context. AI output is fine for a draft, not for
-  character voice, honorifics, and jokes. This is the most time-consuming step and the
-  one that decides whether the patch is good or merely playable.
-- Keep JP and EN side by side in the repo so reviewers can file corrections as PRs.
+- No-op rebuild is byte-identical.
+- Every SDAT block HMAC validates.
+- EBOOT strings: format specifiers and `@`/`\n` markers preserved, no length increase.
+- Position-addressed FIXH files: every segment keeps its original byte length.
+- Every dialogue line fits its measured width at the patched font metrics.
+- Glossary check: no non-canonical name in any English string.
+- Then a full playthrough of every route on RPCS3, and at least the main route on hardware.
 
-## 7. Art (parallel track)
+## 9. Release
 
-Title logo, chapter/episode cards, sortie banners, Shuffle Battler banners, card-mode menu,
-button-hint sprite font (the one camd11 never fixed), terrain and Spirit icons. Dump to PNG,
-redraw with matching palette constraints, reimport. Do the sprite font properly: add Latin
-glyph cells so the footer hints are text instead of garbled pixels.
+- Installer that rebuilds from the user's own dump (no game data distributed), with
+  pre-deploy backups and rollback, like og2's `apply.py`.
+- README with what is translated, what is intentionally Japanese, tested platforms, known issues.
+- CHANGELOG. Post to r/SuperRobotWars, RetroGameTalk fan translations, GBAtemp, romhacking.net.
+- Credit og2-translation for the toolchain research and NrvnqsrKhaos for the reference
+  translation, per whatever terms they give you.
 
-## 8. Integration, QA, release
+## 10. How this session can help
 
-1. Full playthrough on PCSX2, then on hardware. Log every overflow, crash, and mistranslation
-   with a save state and stage ID.
-2. Regression suite: a script that reinserts the current translation and checks that every
-   string fits its width budget and every pointer table still validates.
-3. Release: xdelta, checksums, README (what is translated, known issues), CHANGELOG.
-   Post to romhacking.net, r/SuperRobotWars, GBAtemp.
-4. Expect several point releases. camd11 went from 0.2 to 0.2.9 fixing crashes, banners,
-   and hardware freezes.
-
-## 9. How this session can help
-
-- Writing and testing every tool in `tools/` once you give me a handful of extracted files
-  (the ELF, the overlays, MAP.BIN, a story archive, GRAPHIC.BIN). Do not push them to
-  GitHub; upload them to the session or keep them local and run my scripts there.
-- Ghidra-style analysis of the text renderer and pointer tables from a disassembly dump.
-- The AI first-pass translation with glossary enforcement and width checks.
-- Building the font atlas and width table.
+- Reimplement or review any of the tools once you can give me extracted, decrypted files
+  (a few FIXH files, two or three `ls*.bin`, the WTD, the decrypted EBOOT). Do not push them
+  to GitHub; upload to the session or run my scripts locally.
+- Build the glossary from official English sources and the enforcement tooling.
+- Run the AI first pass with scene context, glossary, and budget checks.
+- Write the regression gates in section 8.
+- Draft the license and permission requests to the two existing authors.
 
 ## Sources
 
-- https://github.com/camd11/srw-og-gaiden-en (README, CHANGELOG)
-- https://www.romhacking.net/translations/5513/
-- https://www.romhacking.net/forum/index.php?topic=41450.0
-- https://www.romhacking.net/forum/index.php?topic=24453.0 (cancelled OGs project, same engine lineage)
-- https://akurasu.net/wiki/Super_Robot_Wars/OGs/English_Patch
+- https://github.com/srwogs2ndeng/og2-translation (README, docs/HACKING.md, PROCESS.md, CHANGELOG.md)
+- https://2ndsrwoge.com/ and https://akurasu.net/wiki/Super_Robot_Wars/OG2nd/Story_Translation
+- https://github.com/nutsamasan/srw-ogmd-tools (Moon Dwellers PS3 tools, GPLv3, same era and publisher)
+- https://github.com/camd11/srw-og-gaiden-en (OG Gaiden PS2; hardware-vs-emulator lessons)

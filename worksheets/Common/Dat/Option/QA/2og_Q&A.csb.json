@@ -868,11 +868,10 @@
   {
    "id": 175,
    "jp": "Ａ．精神コマンド、特殊効果１などを利用します。",
-   "en": "",
+   "en": "A. Use Spirit Commands, Special Effect 1, etc.",
    "cell": "r37c5",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: 'A. Use Spirit Commands, Special Effect 1, and more.' failed (width: 774px > 736px: 'A. Use Spirit Commands, Special Effect 1, and more')"
+   "keep": false
   },
   {
    "id": 176,
@@ -1053,11 +1052,10 @@
   {
    "id": 208,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>受けるダメージを、他の味方の機体が肩代わりする行動です。</C></H></W>\n\n　●<LINK=0>通常攻撃</LINK>を受けたユニットの代わりに、味方のユニットがダメージを受けます。援\n　　護防御を行うことができる機体の条件は以下の通りです。\n\n　・攻撃を受けたユニットに隣接している。\n　・攻撃を受けたユニットの位置する地形に進入可能な<LINK=1>移動タイプ</LINK>を持つ。\n　・メインパイロットが<LINK=2>特殊スキル</LINK>「援護防御」を持っていて、かつ援護回数が残ってい\n　　る。\n　・攻撃を受けたユニットの<LINK=3>合体攻撃</LINK>に参加していない。\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>援護防御では防御した状態でダメージを受けるので、受けるダメージは通常時の\n　　　５０％になります。また、１フェイズで援護可能な回数は、スキルレベルと同じ\n　　　になります。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>An ally unit takes the damage in another unit's place.</C></H></W>\n\n　●When a unit is hit by a <LINK=0>Normal Attack</LINK>, an allied unit takes the damage instead.\n　　A unit can perform Support Defense if it meets these conditions:\n\n　・It is adjacent to the unit under attack.\n　・It has a <LINK=1>Move Type</LINK> that can enter the attacked unit's terrain.\n　・Its main pilot has the <LINK=2>Special Skill</LINK> \"Support Defense\" with uses remaining.\n　・It is not part of the attacked unit's <LINK=3>Combination Attack</LINK>.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>With Support Defense, the damage is taken while defending, so it is\n　　　50% of normal. The number of supports per phase equals the\n　　　skill level.\n",
    "cell": "r45c6",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: '<W=28><H=28>A. <C=FF8000FF>An ally unit takes the damage in another\\'s place.</C></H></W>\\n\\n\\u3000●When a unit is hit by a <LINK=0>Normal Attack</LINK>, an ally takes the damage instead.\\n\\u3000\\u3000A unit can Support Defend if it:\\n\\n\\u3000・Is adjacent to the unit under attack.\\n\\u3000・Has a <LINK=1>Move Type</LINK> that can enter the attacked unit\\'s terrain.\\n\\u3000・Has a main pilot with the <LINK=2>Special Skill</LINK> \"Support Defense\" and supports left.\\n\\u3000・Is not part of the attacked unit\\'s <LINK=3>Combination Attack</LINK>.\\n\\n\\u3000<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Support Defense takes the hit while defending, so damage\\n\\u3000\\u3000\\u3000is 50% of normal. Supports per phase equal the skill level.\\n' failed (glossary: 援護防御 is 'Support Defend' here; canon is 'Support Defense')"
+   "keep": false
   },
   {
    "id": 210,
@@ -2010,20 +2008,18 @@
   {
    "id": 386,
    "jp": "Ａ．精神コマンド「根性」「ド根性」「信頼」「友情」「絆」を使用します。",
-   "en": "",
+   "en": "A. Use Vigor, Super Guts, Trust, Friendship, or Bond.",
    "cell": "r90c5",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: 'A. Use Vigor, Super Guts, Trust, Friendship or Bond.' failed (glossary: 根性 is 'Guts' here; canon is 'Vigor')"
+   "keep": false
   },
   {
    "id": 387,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の精神コマンドを使用します。</C></H></W>\n\n　<T=30>『根性』</T>\n　・自分のＨＰを最大値の３０％分だけ回復させます。\n\n　<T=30>『ド根性』</T>\n　・自分のＨＰを最大値まで回復させます。\n\n　<T=30>『信頼』</T>\n　・指定した機体のＨＰを２０００回復します。\n\n　<T=30>『友情』</T>\n　・指定した機体のＨＰを全回復します。\n\n　<T=30>『絆』</T>\n　・全味方の機体のＨＰを最大値の５０％分だけ回復させます。\n",
-   "en": "",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the following Spirit Commands.</C></H></W>\n\n　<T=30>Vigor</T>\n　・Restores 30% of your own max HP.\n\n　<T=30>Super Guts</T>\n　・Fully restores your own HP.\n\n　<T=30>Trust</T>\n　・Restores 2000 HP to a chosen unit.\n\n　<T=30>Friendship</T>\n　・Fully restores a chosen unit's HP.\n\n　<T=30>Bond</T>\n　・Restores 50% of max HP to all allied units.\n",
    "cell": "r90c6",
    "kind": "text",
-   "keep": false,
-   "retry_note": "CSB: \"<W=28><H=28>A. <C=FF8000FF>Use the following Spirit Commands.</C></H></W>\\n\\n\\u3000<T=30>Vigor</T>\\n\\u3000・Restores 30% of your own max HP.\\n\\n\\u3000<T=30>Super Guts</T>\\n\\u3000・Fully restores your own HP.\\n\\n\\u3000<T=30>Trust</T>\\n\\u3000・Restores 2000 HP to a chosen unit.\\n\\n\\u3000<T=30>Friendship</T>\\n\\u3000・Fully restores a chosen unit's HP.\\n\\n\\u3000<T=30>Bond</T>\\n\\u3000・Restores 50% of max HP to all allied units.\\n\" failed (glossary: 根性 is 'Guts' here; canon is 'Vigor')"
+   "keep": false
   },
   {
    "id": 389,

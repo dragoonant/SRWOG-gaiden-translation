@@ -264,10 +264,19 @@ def main(argv):
             # an error; a term simply not mentioned (pronoun, paraphrase) is
             # only counted.
             jp_plain, en_plain = TAG.sub("", jp), TAG.sub("", en)
+            # Longest terms first (the glossary is sorted that way); once a term
+            # matched, blank it so a shorter term inside it (根性 in ド根性)
+            # is not checked again.
+            work = jp_plain
             for gjp, gen, rx in glossary:
+                if gjp not in work:
+                    continue
                 if fmt in DIALOGUE and gjp in GAME_TERMS:
+                    work = work.replace(gjp, "\0" * len(gjp))
                     continue        # spirit/skill names in speech are ordinary words
-                if gjp in jp_plain and rx.search(jp_plain):
+                matched = bool(rx.search(work))
+                work = work.replace(gjp, "\0" * len(gjp))
+                if matched:
                     bad = [v for v in VARIANTS.get(gjp, ()) if re.search(r"\b%s\b" % re.escape(v), en_plain)]
                     if bad:
                         report("glossary", path, e, "%s is %r here; canon is %r" % (gjp, bad[0], gen))

@@ -10,6 +10,8 @@
   status BATCH_ID
   collect BATCH_ID      write results into the worksheets, update the
                         translation memory, print token usage and cost.
+  retry                 clear every translation that fails fitcheck, keeping
+                        the failure as feedback for the next submit.
 
 Requires ANTHROPIC_API_KEY in the environment. Nothing is sent with
 --dry-run; it prints the request count and a token estimate instead.
@@ -179,6 +181,8 @@ def build_requests(paths, model, effort, chunk, tm):
                     item["speaker"] = spk[e["id"]]
                 if fmt == "ELF":
                     item["max_bytes"] = e["budget"]   # replaced in place in the executable
+                if e.get("retry_note"):
+                    item["previous_attempt"] = e["retry_note"]
                 if e.get("kind") == "name":
                     item["type"] = "speaker-name or label"
                 items.append(item)
@@ -297,6 +301,7 @@ def cmd_collect(argv):
             e = byid[i]
             if not e.get("keep") and not e.get("en"):
                 e["en"] = en
+                e.pop("retry_note", None)
                 tm[plan["format"] + "\t" + jp_of(e)] = en
                 filled += 1
     for path, ws in sheets.items():
@@ -319,6 +324,39 @@ def cmd_collect(argv):
     return 0
 
 
+def cmd_retry(argv):
+    """Clear translations that fail fitcheck and note why, so the next submit
+    re-translates them with that feedback. Kept entries are just cleared."""
+    import subprocess
+    out = os.path.join(REPO, "translations", "fit_failures.json")
+    subprocess.run([sys.executable, "-I", os.path.join(HERE, "fitcheck.py"), "--json", out, "--max", "0"],
+                   capture_output=True, text=True, encoding="utf-8")
+    fails = json.load(open(out, encoding="utf-8"))
+    by_path = {}
+    for f in fails:
+        by_path.setdefault(f["path"], {})[f["id"]] = f
+    tm = load_tm()
+    n = 0
+    for rel, items in by_path.items():
+        path = os.path.join(REPO, rel)
+        ws = json.load(open(path, encoding="utf-8"))
+        fmt = fitcheck.fmt_of(ws)
+        for e in ws["strings"]:
+            f = items.get(e.get("id"))
+            if not f:
+                continue
+            if not e.get("keep"):
+                e["retry_note"] = "%s: %r failed (%s: %s)" % (fmt, e.get("en", ""), f["kind"], f["msg"])
+                tm.pop(fmt + "	" + jp_of(e), None)
+            e["en"] = ""
+            n += 1
+        json.dump(ws, open(path, "w", encoding="utf-8", newline="
+"), ensure_ascii=False, indent=1)
+    save_tm(tm)
+    print("cleared %d failing entries for re-translation" % n)
+    return 0
+
+
 def main(argv):
     cmd = argv[1] if len(argv) > 1 else ""
     if cmd == "submit":
@@ -327,6 +365,8 @@ def main(argv):
         return cmd_status(argv)
     if cmd == "collect":
         return cmd_collect(argv)
+    if cmd == "retry":
+        return cmd_retry(argv)
     print(__doc__)
     return 2
 

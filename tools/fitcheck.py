@@ -23,7 +23,9 @@ Budgets:
 Widths use the game font's advance table with the proportional ASCII
 advances that the build generates (tools/fttf.py make_proportional).
 
-Usage: fitcheck.py [--font PATH] [--only FORMAT] [--max N] [--no-glossary]
+Usage: fitcheck.py [--font PATH] [--only FORMAT] [--max N] [--no-glossary] [--json OUT]
+  --json writes every error as {path, id, kind, msg} (used by translate_batch.py retry).
+  bytes: an EBOOT string longer than its in-place byte budget.
 Exit status 1 when there are errors.
 """
 import collections
@@ -171,9 +173,12 @@ def main(argv):
     translated = 0
     shown = 0
 
+    failures = []
+
     def report(kind, path, e, msg):
         nonlocal shown
         errors[kind] += 1
+        failures.append({"path": path, "id": e.get("id"), "kind": kind, "msg": msg})
         if shown < show:
             print("%-8s %s #%s: %s" % (kind, path, e.get("id"), msg))
             shown += 1
@@ -189,6 +194,8 @@ def main(argv):
             if e.get("keep"):
                 report("keep", path, e, "kept entry has a translation")
                 continue
+            if fmt == "ELF" and len(en.encode("utf-8")) > e.get("budget", 1 << 30):
+                report("bytes", path, e, "%d bytes > %d (replaced in place)" % (len(en.encode("utf-8")), e["budget"]))
             if collections.Counter(TAG.findall(jp)) != collections.Counter(TAG.findall(en)):
                 report("tag", path, e, "tags %s vs %s" % (TAG.findall(jp), TAG.findall(en)))
             if PRINTF.findall(jp) != PRINTF.findall(en):
@@ -226,6 +233,8 @@ def main(argv):
     print("dialogue width budgets: %s" % ", ".join("%s %dpx" % kv for kv in sorted(budget.items())))
     print("errors: %s; warnings: %d Japanese outside tags, %d glossary terms not mentioned"
           % (dict(errors) or "none", warnings, missing))
+    if "--json" in argv:
+        json.dump(failures, open(argv[argv.index("--json") + 1], "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     return 1 if errors else 0
 
 

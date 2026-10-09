@@ -18,7 +18,10 @@ is empty is skipped (nothing to patch). Archives without any patched file
 are not rebuilt. A no-op build therefore produces no output files.
 
 Usage:
-  build.py [--work WORK] [--out OUT] [--only Logic,Battle] [--check-only]
+  build.py [--work WORK] [--out OUT] [--only Logic,Common,EBOOT] [--check-only] [--no-eboot]
+
+Always applied: GENERATED files (proportional font) and the EBOOT renderer
+patch (tools/eboot_patch.py), unless --no-eboot.
 """
 import json
 import os
@@ -38,6 +41,10 @@ TOOL_FOR_FORMAT = {
     "CSB": "csb.py", "WTD": "wtd.py", "ELF": "eboot_strings.py",
 }
 ARCHIVES = ["Logic", "Common", "General2d", "General3d", "Battle"]
+GENERATED = [
+    # proportional Latin glyphs: ink moved to the cell's left edge, fitted advances
+    ("Common", "Dat/Font/font.bin", ["fttf.py", "proportional", "{orig}", "{dst}"]),
+]
 
 
 def run(args):
@@ -66,7 +73,7 @@ def find_worksheets(ws_root):
                 yield archive, inner[:-5], full
 
 
-def build(work, out, only=None, check_only=False):
+def build(work, out, only=None, check_only=False, no_eboot=False):
     ws_root = os.path.join(REPO, "worksheets")
     tree = os.path.join(out, "tree")
     touched = {}
@@ -102,6 +109,25 @@ def build(work, out, only=None, check_only=False):
         print("built %s/%s" % (archive, inner))
     if check_only:
         return problems == 0
+    # Generated files: built from pristine game data by our tools, never
+    # stored in the repo.
+    for archive, inner, args in GENERATED:
+        if only and archive not in only:
+            continue
+        orig = os.path.join(work, "ext", archive, *inner.split("/"))
+        dst = os.path.join(tree, archive, *inner.split("/"))
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        run([os.path.join(HERE, args[0])] + [a.format(orig=orig, dst=dst) for a in args[1:]])
+        touched.setdefault(archive, []).append(inner)
+        print("generated %s/%s" % (archive, inner))
+    if not no_eboot and (not only or "EBOOT" in only):
+        os.makedirs(os.path.join(out, "USRDIR"), exist_ok=True)
+        src = os.path.join(out, "USRDIR", "EBOOT.elf") if "EBOOT" in touched else os.path.join(work, "pristine", "USRDIR", "EBOOT.elf")
+        tmp = os.path.join(out, "USRDIR", "EBOOT.patched.elf")
+        run([os.path.join(HERE, "eboot_patch.py"), src, tmp])
+        os.replace(tmp, os.path.join(out, "USRDIR", "EBOOT.elf"))
+        touched.setdefault("EBOOT", []).append("renderer patch")
+        print("applied renderer patch to EBOOT")
     for archive in ARCHIVES:
         if archive not in touched:
             continue
@@ -133,7 +159,7 @@ def main(argv):
         out = argv[argv.index("--out") + 1]
     if "--only" in argv:
         only = set(argv[argv.index("--only") + 1].split(","))
-    return 0 if build(work, out, only, check_only) else 1
+    return 0 if build(work, out, only, check_only, "--no-eboot" in argv) else 1
 
 
 if __name__ == "__main__":

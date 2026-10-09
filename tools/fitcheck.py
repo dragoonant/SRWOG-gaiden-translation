@@ -18,9 +18,8 @@ Budgets:
       Japanese line widths in that format (one shared budget per format).
   everything else: lines <= the Japanese line count of that entry (at least
       1); width <= the widest Japanese line of that entry.
-Widths use the advance column of the game font (font.bin), so once the
-renderer honours proportional advances, editing font.bin's ASCII widths
-updates the check automatically.
+Widths use the game font's advance table with the proportional ASCII
+advances that the build generates (tools/fttf.py make_proportional).
 
 Usage: fitcheck.py [--font PATH] [--only FORMAT] [--max N] [--no-glossary]
 Exit status 1 when there are errors.
@@ -49,6 +48,11 @@ class Font:
         if self.d[:4] != b"FTTF":
             raise ValueError("not an FTTF font")
         self.cache = {}
+        # The build ships proportional ASCII (tools/fttf.py); measure with
+        # those advances, not the original uniform 22 px.
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import fttf
+        self.cache.update(fttf.make_proportional(fttf.Font(path), write=False))
 
     def advance(self, ch):
         cp = ord(ch)

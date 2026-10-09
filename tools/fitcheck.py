@@ -112,7 +112,14 @@ def load_glossary():
                 jp, en = (r.get("jp") or "").strip(), (r.get("en") or "").strip()
                 if len(jp) >= 2 and en:
                     canon.setdefault(jp, en)
-    return sorted(canon.items(), key=lambda t: -len(t[0]))
+    # A katakana name only counts when no other katakana touches it, so ライ
+    # (Rai) does not fire inside サテライト.
+    kata = "゠-ヿ"
+    out = []
+    for jp, en in sorted(canon.items(), key=lambda t: -len(t[0])):
+        rx = re.compile("(?<![%s])%s(?![%s])" % (kata, re.escape(jp), kata))
+        out.append((jp, en, rx))
+    return out
 
 
 def main(argv):
@@ -177,8 +184,8 @@ def main(argv):
                 if w > max_w:
                     report("width", path, e, "%dpx > %dpx: %r" % (w, max_w, l[:50]))
                     break
-            for gjp, gen in glossary:
-                if gjp in jp and gen not in en:
+            for gjp, gen, rx in glossary:
+                if gjp in jp and rx.search(jp) and gen not in en:
                     report("glossary", path, e, "%s should be %r" % (gjp, gen))
                     break
             if JPCHAR.search(en):

@@ -2008,7 +2008,7 @@
   {
    "id": 386,
    "jp": "Ａ．精神コマンド「根性」「ド根性」「信頼」「友情」「絆」を使用します。",
-   "en": "A. Use Vigor, Super Guts, Trust, Friendship, or Bond.",
+   "en": "A. Use Vigor, Guts, Trust, Friendship, or Bond.",
    "cell": "r90c5",
    "kind": "text",
    "keep": false
@@ -2016,7 +2016,7 @@
   {
    "id": 387,
    "jp": "<W=28><H=28>Ａ．<C=FF8000FF>以下の精神コマンドを使用します。</C></H></W>\n\n　<T=30>『根性』</T>\n　・自分のＨＰを最大値の３０％分だけ回復させます。\n\n　<T=30>『ド根性』</T>\n　・自分のＨＰを最大値まで回復させます。\n\n　<T=30>『信頼』</T>\n　・指定した機体のＨＰを２０００回復します。\n\n　<T=30>『友情』</T>\n　・指定した機体のＨＰを全回復します。\n\n　<T=30>『絆』</T>\n　・全味方の機体のＨＰを最大値の５０％分だけ回復させます。\n",
-   "en": "<W=28><H=28>A. <C=FF8000FF>Use the following Spirit Commands.</C></H></W>\n\n　<T=30>Vigor</T>\n　・Restores 30% of your own max HP.\n\n　<T=30>Super Guts</T>\n　・Fully restores your own HP.\n\n　<T=30>Trust</T>\n　・Restores 2000 HP to a chosen unit.\n\n　<T=30>Friendship</T>\n　・Fully restores a chosen unit's HP.\n\n　<T=30>Bond</T>\n　・Restores 50% of max HP to all allied units.\n",
+   "en": "<W=28><H=28>A. <C=FF8000FF>Use the following Spirit Commands.</C></H></W>\n\n　<T=30>Vigor</T>\n　・Restores 30% of your own max HP.\n\n　<T=30>Guts</T>\n　・Fully restores your own HP.\n\n　<T=30>Trust</T>\n　・Restores 2000 HP to a chosen unit.\n\n　<T=30>Friendship</T>\n　・Fully restores a chosen unit's HP.\n\n　<T=30>Bond</T>\n　・Restores 50% of max HP to all allied units.\n",
    "cell": "r90c6",
    "kind": "text",
    "keep": false

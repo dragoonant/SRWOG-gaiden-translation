@@ -92,6 +92,7 @@ Decision for 2nd OG: drop honorifics; keep "Rishu-sensei" where the Japanese has
 | 根性 | Vigor (3) | Guts | |
 | 気合 | Spirit (29) | Yell | |
 | 期待 | Hope (47) | Expectation | |
+| ド根性 | Guts (spirit table) | Super Guts | |
 
 ## Pilot skills (5)
 

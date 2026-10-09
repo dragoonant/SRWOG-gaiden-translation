@@ -268,6 +268,9 @@ def main(argv):
             # matched, blank it so a shorter term inside it (根性 in ド根性)
             # is not checked again.
             work = jp_plain
+            # Canonical English of every term in this line: a "variant" of one
+            # term that is the canon of another term present is not an error.
+            present_canon = {g_en for g_jp, g_en, _ in glossary if g_jp in jp_plain}
             for gjp, gen, rx in glossary:
                 if gjp not in work:
                     continue
@@ -277,7 +280,7 @@ def main(argv):
                 matched = bool(rx.search(work))
                 work = work.replace(gjp, "\0" * len(gjp))
                 if matched:
-                    bad = [v for v in VARIANTS.get(gjp, ()) if re.search(r"\b%s\b" % re.escape(v), en_plain)]
+                    bad = [v for v in VARIANTS.get(gjp, ()) if v not in present_canon and re.search(r"\b%s\b" % re.escape(v), en_plain)]
                     if bad:
                         report("glossary", path, e, "%s is %r here; canon is %r" % (gjp, bad[0], gen))
                     elif gen.lower() not in en_plain.lower():

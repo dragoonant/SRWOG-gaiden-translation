@@ -70,3 +70,21 @@ disagree), **done**.
     including retries). Was: open. I'll run one chapter first and report its exact cost
     before the full run. A monthly limit in the Anthropic console is the hard
     safety net; tell me the number you set so I can stay under it.
+
+## Found while testing the full English build (2026-10-09)
+
+16. **Menu wording**: suggested. The map command menu reads Move / Attack /
+    Ground / Spirit / Stats. 着地 came out "Ground" (as in "ground the unit");
+    "Land" is the more usual SRW term. 能力 came out "Stats". Say if you want
+    either changed; one-word fixes are free (no API needed).
+17. **Text inside pictures**: open. The title menu (START / LOAD / CONTINUE /
+    LIBRARY, already English), the legal notice screen and some logos are
+    images, not text. Translating the legal notice means editing a texture.
+    Suggested: leave it Japanese for now, revisit at release.
+18. **Short stage-script words kept Japanese**: open until tested. Words like
+    ゲームオーバー, 非表示 and 移動 in the stage scripts repeat like script
+    labels, so I left them Japanese to avoid breaking stages. If you ever see
+    Japanese text on screen during a stage (e.g. "Game Over"), tell me where.
+19. **Playtest areas I could not reach by script**: battle screen and battle
+    quotes, intermission menus, library pages (I assumed they scroll and let
+    English run 1.6x the Japanese line count), save/load screens.

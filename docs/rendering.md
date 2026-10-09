@@ -103,3 +103,5 @@ tables, Q&A, story, battle quotes). Observed in game:
 - Still unverified: library pages scrolling, intermission menus, battle
   screen and battle quotes, the stage-script words kept Japanese, and
   image-based text (title menu, legal notice, logos).
+- Rebuilt with the relaxed label widths: the map command menu now reads
+  Move / Attack / Ground / Spirit / Stats, with room to spare.

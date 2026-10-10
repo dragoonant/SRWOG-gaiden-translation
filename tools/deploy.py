@@ -8,8 +8,11 @@ modification time. On every later boot it compares size and modification
 time (stat) of the two copies and shows 「ゲームデータが壊れています」 if they
 differ. Contents are not compared.
 
-So install copies each archive to BOTH places with the same timestamp and
-the game boots straight in, no reinstall. If the installed folder does not
+The game also writes its own ICON0.PNG into the installed folder, stamped
+with Common.psarc.sdat's modification time, and checks that stamp on boot
+(found 2026-10-09 when a rebuilt Common gave 'corrupted' despite matching
+archives). So install copies each archive to BOTH places with the same
+timestamp, re-stamps the icon, and the game boots straight in, no reinstall. If the installed folder does not
 exist yet, the game installs it on first boot as usual. --reinstall restores
 the old behaviour (wipe the installed copy and let the game reinstall).
 

@@ -9,8 +9,9 @@ $ws = New-Object -ComObject WScript.Shell
 $null = $ws.AppActivate("FPS:")
 Start-Sleep -Milliseconds 500
 function Press($vk) {
-    [W.K]::keybd_event($vk, 0, 0, [UIntPtr]::Zero); Start-Sleep -Milliseconds 120
-    [W.K]::keybd_event($vk, 0, 2, [UIntPtr]::Zero); Start-Sleep -Milliseconds 350
+    $ext = 0; if ($vk -ge 0x25 -and $vk -le 0x28) { $ext = 1 }   # arrows: extended keys, else they read as numpad
+    [W.K]::keybd_event($vk, 0, $ext, [UIntPtr]::Zero); Start-Sleep -Milliseconds 120
+    [W.K]::keybd_event($vk, 0, ($ext -bor 2), [UIntPtr]::Zero); Start-Sleep -Milliseconds 350
 }
 foreach ($k in ($Keys -split ',')) {
     $k = $k.Trim().ToUpper()

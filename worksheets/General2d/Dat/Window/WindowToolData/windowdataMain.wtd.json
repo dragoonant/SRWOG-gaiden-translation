@@ -26,7 +26,8 @@
    "en": ":Switch Faction",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 3,
@@ -34,7 +35,8 @@
    "en": ":Select",
    "count": 7,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 4,
@@ -42,7 +44,8 @@
    "en": ":Deploy",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 5,
@@ -58,7 +61,8 @@
    "en": ":Enter Upgrade Level",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 7,
@@ -66,7 +70,8 @@
    "en": ":Confirm Sale",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 8,
@@ -74,7 +79,8 @@
    "en": ":Alphabetical",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 9,
@@ -82,7 +88,8 @@
    "en": ":By Category",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 10,
@@ -90,15 +97,17 @@
    "en": ":Weapon (Join Sub)",
    "count": 1,
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 11,
    "jp": "：決定",
-   "en": ":Confirm",
+   "en": ":OK",
    "count": 5,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 12,
@@ -106,7 +115,8 @@
    "en": ":Mark All",
    "count": 3,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 13,
@@ -114,7 +124,8 @@
    "en": ":--",
    "count": 7,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 14,
@@ -122,7 +133,8 @@
    "en": ":Back",
    "count": 6,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 15,
@@ -130,15 +142,17 @@
    "en": ":Custom Settings",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 16,
    "jp": "：能力",
-   "en": ":Abilities",
+   "en": ":Ability",
    "count": 5,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 17,
@@ -146,7 +160,8 @@
    "en": ":Select from List",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 18,
@@ -154,7 +169,8 @@
    "en": ":Weapon (Join Main)",
    "count": 1,
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 19,
@@ -162,7 +178,8 @@
    "en": ":Reverse All Squads",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 20,
@@ -170,7 +187,8 @@
    "en": ":Mark",
    "count": 3,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 21,
@@ -178,7 +196,8 @@
    "en": ":Change Weapon (Sub)",
    "count": 1,
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 22,
@@ -258,7 +277,8 @@
    "en": ":--------",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 32,
@@ -266,7 +286,8 @@
    "en": ":Additional Info",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 33,
@@ -274,7 +295,8 @@
    "en": ":Change Pilot",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 34,
@@ -282,7 +304,8 @@
    "en": ":Switch Field",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 35,
@@ -290,7 +313,8 @@
    "en": ":Toggle Arrows",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 36,
@@ -298,7 +322,8 @@
    "en": ":Switch Category",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 16
   },
   {
    "id": 37,
@@ -306,7 +331,8 @@
    "en": ":Change Unit",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 38,
@@ -314,15 +340,17 @@
    "en": ":Sort",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 39,
    "jp": "：援護設定",
-   "en": ":Support Settings",
+   "en": ":Support",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 40,
@@ -330,7 +358,8 @@
    "en": ":------",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 41,
@@ -338,7 +367,8 @@
    "en": ":To Page Top",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 42,
@@ -346,7 +376,8 @@
    "en": ":To Page End",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 43,
@@ -354,7 +385,8 @@
    "en": ":List View",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 44,
@@ -362,15 +394,17 @@
    "en": ":Normal View",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 45,
    "jp": "：右側情報",
-   "en": ":Right-Side Info",
+   "en": ":Right Info",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 46,
@@ -378,7 +412,8 @@
    "en": ":Sort Ascending",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 47,
@@ -386,15 +421,17 @@
    "en": ":Sort Descending",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 48,
    "jp": "：左側情報",
-   "en": ":Left-Side Info",
+   "en": ":Left Info",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 49,
@@ -402,7 +439,8 @@
    "en": ":Squad",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 50,
@@ -410,7 +448,8 @@
    "en": ":Unit",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 51,
@@ -418,7 +457,8 @@
    "en": ":Spirit",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 52,
@@ -426,7 +466,8 @@
    "en": ":Revert",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 16
   },
   {
    "id": 53,
@@ -434,7 +475,8 @@
    "en": ":Switch",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 16
   },
   {
    "id": 54,
@@ -442,7 +484,8 @@
    "en": ":Remove",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 14
   },
   {
    "id": 55,
@@ -450,7 +493,8 @@
    "en": ":Check",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 56,
@@ -458,7 +502,8 @@
    "en": ":Main",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 57,
@@ -466,15 +511,17 @@
    "en": ":Display",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 16
   },
   {
    "id": 58,
    "jp": "：事典",
-   "en": ":Dictionary",
+   "en": ":Info",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 59,
@@ -482,7 +529,8 @@
    "en": ":Gallery",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 16
   },
   {
    "id": 60,
@@ -490,7 +538,8 @@
    "en": ":Demo",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 61,
@@ -498,7 +547,8 @@
    "en": ":Quit",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 62,
@@ -506,7 +556,8 @@
    "en": ":Map",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 63,
@@ -546,7 +597,10 @@
    "en": "Move",
    "count": 19,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px_el": {
+    "63": 17
+   }
   },
   {
    "id": 68,
@@ -554,7 +608,10 @@
    "en": "Attack",
    "count": 7,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px_el": {
+    "63": 17
+   }
   },
   {
    "id": 69,
@@ -578,7 +635,10 @@
    "en": "Transform",
    "count": 4,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px_el": {
+    "316": 15
+   }
   },
   {
    "id": 72,
@@ -602,7 +662,8 @@
    "en": "Repair",
    "count": 19,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 16
   },
   {
    "id": 75,
@@ -610,7 +671,8 @@
    "en": "Resupply",
    "count": 19,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 76,
@@ -626,7 +688,8 @@
    "en": "Spirit",
    "count": 3,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 78,
@@ -634,7 +697,8 @@
    "en": "Stats",
    "count": 11,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 79,
@@ -695,10 +759,11 @@
   {
    "id": 86,
    "jp": "隊",
-   "en": "Units",
+   "en": "Sq",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 21
   },
   {
    "id": 87,
@@ -738,7 +803,8 @@
    "en": "Search",
    "count": 6,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 20
   },
   {
    "id": 92,
@@ -754,7 +820,8 @@
    "en": "Unit List",
    "count": 3,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 21
   },
   {
    "id": 94,
@@ -882,7 +949,8 @@
    "en": "Final Stage",
    "count": 4,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 22
   },
   {
    "id": 110,
@@ -959,7 +1027,7 @@
   {
    "id": 119,
    "jp": "NEXT出撃部隊",
-   "en": "NEXT Sortie Units",
+   "en": "Next Sortie",
    "count": 1,
    "kind": "name",
    "keep": false
@@ -1106,7 +1174,8 @@
    "en": "Unit",
    "count": 27,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 21
   },
   {
    "id": 138,
@@ -1146,7 +1215,8 @@
    "en": "－",
    "count": 102,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 20
   },
   {
    "id": 143,
@@ -1170,7 +1240,8 @@
    "en": "Large",
    "count": 11,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 146,
@@ -1178,7 +1249,8 @@
    "en": "Conserve EN/Ammo",
    "count": 11,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 20
   },
   {
    "id": 147,
@@ -1266,7 +1338,8 @@
    "en": "Pilot Information",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 16
   },
   {
    "id": 158,
@@ -1274,20 +1347,22 @@
    "en": "Abilities/Special Skills",
    "count": 4,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 16
   },
   {
    "id": 159,
    "jp": "移動情報",
-   "en": "Movement Info",
+   "en": "Movement",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 16
   },
   {
    "id": 160,
    "jp": "最大攻撃力",
-   "en": "Max Attack Power",
+   "en": "Max Atk",
    "count": 5,
    "kind": "name",
    "keep": false
@@ -1306,7 +1381,8 @@
    "en": "Unit Stats 1",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 163,
@@ -1314,7 +1390,8 @@
    "en": "Unit Stats 2",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 164,
@@ -1322,7 +1399,8 @@
    "en": "Unit Abilities",
    "count": 11,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 12
   },
   {
    "id": 165,
@@ -1330,7 +1408,8 @@
    "en": "Ability 1",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 166,
@@ -1338,7 +1417,8 @@
    "en": "Ability 2",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 12
   },
   {
    "id": 167,
@@ -1346,7 +1426,8 @@
    "en": "Special Skills",
    "count": 12,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 16
   },
   {
    "id": 168,
@@ -1354,7 +1435,8 @@
    "en": "Unit Stats",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 15
   },
   {
    "id": 169,
@@ -1378,7 +1460,8 @@
    "en": "Unit Info",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 16
   },
   {
    "id": 172,
@@ -1386,7 +1469,8 @@
    "en": "Upgrades",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 12
   },
   {
    "id": 173,
@@ -1394,7 +1478,8 @@
    "en": "Search Field",
    "count": 7,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 174,
@@ -1439,7 +1524,7 @@
   {
    "id": 179,
    "jp": "換装武器数",
-   "en": "Replace Weapons",
+   "en": "Swap Wpns",
    "count": 7,
    "kind": "name",
    "keep": false
@@ -1479,7 +1564,7 @@
   {
    "id": 184,
    "jp": "命中",
-   "en": "Accuracy",
+   "en": "Hit",
    "count": 18,
    "kind": "name",
    "keep": false
@@ -1490,7 +1575,8 @@
    "en": "Range",
    "count": 5,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 186,
@@ -1506,7 +1592,8 @@
    "en": "Attribute",
    "count": 4,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 188,
@@ -1522,7 +1609,8 @@
    "en": "Weapon Name",
    "count": 9,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 22
   },
   {
    "id": 190,
@@ -1559,34 +1647,38 @@
   {
    "id": 194,
    "jp": "宇",
-   "en": "Space",
+   "en": "Sp",
    "count": 27,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 19
   },
   {
    "id": 195,
    "jp": "海",
-   "en": "Sea",
+   "en": "Se",
    "count": 27,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 16
   },
   {
    "id": 196,
    "jp": "陸",
-   "en": "Land",
+   "en": "Ld",
    "count": 33,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 197,
    "jp": "空",
-   "en": "Air",
+   "en": "Ai",
    "count": 49,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 19
   },
   {
    "id": 198,
@@ -1594,7 +1686,8 @@
    "en": "Effective",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 23
   },
   {
    "id": 199,
@@ -1626,7 +1719,8 @@
    "en": "MAP Weapon",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 21
   },
   {
    "id": 203,
@@ -1634,7 +1728,8 @@
    "en": "Ranged Weapon",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 19
   },
   {
    "id": 204,
@@ -1698,7 +1793,8 @@
    "en": "Terrain Ability",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 22
   },
   {
    "id": 212,
@@ -1746,12 +1842,13 @@
    "en": "Ammo",
    "count": 13,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 15
   },
   {
    "id": 218,
    "jp": "分類",
-   "en": "Category",
+   "en": "Type",
    "count": 2,
    "kind": "name",
    "keep": false
@@ -1770,7 +1867,8 @@
    "en": "Armor",
    "count": 25,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 221,
@@ -1778,7 +1876,8 @@
    "en": "Mobility",
    "count": 19,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 18
   },
   {
    "id": 222,
@@ -1786,7 +1885,8 @@
    "en": "Targeting",
    "count": 19,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 21
   },
   {
    "id": 223,
@@ -1802,7 +1902,8 @@
    "en": "Enhancement Parts",
    "count": 4,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 20
   },
   {
    "id": 225,
@@ -1815,7 +1916,7 @@
   {
    "id": 226,
    "jp": "Ｌｖ",
-   "en": "Level",
+   "en": "Lv",
    "count": 29,
    "kind": "name",
    "keep": false
@@ -1850,7 +1951,8 @@
    "en": "Ranged",
    "count": 15,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 23
   },
   {
    "id": 231,
@@ -1866,15 +1968,17 @@
    "en": "Defense",
    "count": 22,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 18
   },
   {
    "id": 233,
    "jp": "回避",
-   "en": "Evasion",
+   "en": "Evade",
    "count": 18,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 19
   },
   {
    "id": 234,
@@ -1946,7 +2050,8 @@
    "en": "Special Ability Name",
    "count": 16,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 23
   },
   {
    "id": 243,
@@ -1970,7 +2075,8 @@
    "en": "Twin Commands/SP",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 21
   },
   {
    "id": 246,
@@ -2023,7 +2129,7 @@
   {
    "id": 252,
    "jp": "機体改造度",
-   "en": "Unit Upgrade Level",
+   "en": "Upgrades",
    "count": 8,
    "kind": "name",
    "keep": false
@@ -2047,7 +2153,7 @@
   {
    "id": 255,
    "jp": "▼装甲Ｌ",
-   "en": "▼Armor Level",
+   "en": "▼Arm L",
    "count": 1,
    "kind": "name",
    "keep": false
@@ -2055,7 +2161,7 @@
   {
    "id": 256,
    "jp": "▼装甲Ｌ１",
-   "en": "▼Armor Level 1",
+   "en": "▼Arm L1",
    "count": 1,
    "kind": "name",
    "keep": false
@@ -2063,7 +2169,7 @@
   {
    "id": 257,
    "jp": "▼運動Ｌ",
-   "en": "▼Mobility Level",
+   "en": "▼Mob L",
    "count": 1,
    "kind": "name",
    "keep": false
@@ -2071,7 +2177,7 @@
   {
    "id": 258,
    "jp": "▼運動Ｌ１",
-   "en": "▼Mobility Level 1",
+   "en": "▼Mob L1",
    "count": 1,
    "kind": "name",
    "keep": false
@@ -2095,7 +2201,7 @@
   {
    "id": 261,
    "jp": "▼移動力",
-   "en": "▼Movement",
+   "en": "▼Move",
    "count": 1,
    "kind": "name",
    "keep": false
@@ -2103,7 +2209,7 @@
   {
    "id": 262,
    "jp": "▼攻撃Ｌ",
-   "en": "▼Attack Level",
+   "en": "▼Atk L",
    "count": 1,
    "kind": "name",
    "keep": false
@@ -2111,7 +2217,7 @@
   {
    "id": 263,
    "jp": "▼攻撃Ｌ１",
-   "en": "▼Attack Level 1",
+   "en": "▼Atk L1",
    "count": 1,
    "kind": "name",
    "keep": false
@@ -2127,7 +2233,7 @@
   {
    "id": 265,
    "jp": "▼能力Ｌ",
-   "en": "▼Ability Level",
+   "en": "▼Abl L",
    "count": 1,
    "kind": "name",
    "keep": false
@@ -2135,7 +2241,7 @@
   {
    "id": 266,
    "jp": "▼能力Ｌ１",
-   "en": "▼Ability Level 1",
+   "en": "▼Abl L1",
    "count": 1,
    "kind": "name",
    "keep": false
@@ -2143,7 +2249,7 @@
   {
    "id": 267,
    "jp": "戦闘不能",
-   "en": "INCAPACITATED",
+   "en": "DOWNED",
    "count": 1,
    "kind": "name",
    "keep": false
@@ -2290,7 +2396,8 @@
    "en": "Spirit Commands",
    "count": 24,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 20
   },
   {
    "id": 286,
@@ -2402,7 +2509,8 @@
    "en": ": Command",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 300,
@@ -2410,7 +2518,8 @@
    "en": ":－－－",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 301,
@@ -2450,7 +2559,8 @@
    "en": "Mob",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 306,
@@ -2458,7 +2568,8 @@
    "en": "Aim",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 307,
@@ -2466,7 +2577,8 @@
    "en": "Combat",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 308,
@@ -2482,7 +2594,8 @@
    "en": "Unit Traits",
    "count": 6,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 310,
@@ -2495,7 +2608,7 @@
   {
    "id": 311,
    "jp": "移動力",
-   "en": "Movement",
+   "en": "Move",
    "count": 25,
    "kind": "name",
    "keep": false
@@ -2530,7 +2643,8 @@
    "en": "Total",
    "count": 13,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 21
   },
   {
    "id": 316,
@@ -2543,7 +2657,7 @@
   {
    "id": 317,
    "jp": "援護攻撃",
-   "en": "Support Attack",
+   "en": "Sup Atk",
    "count": 18,
    "kind": "name",
    "keep": false
@@ -2554,7 +2668,8 @@
    "en": "Movement Type",
    "count": 6,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 22
   },
   {
    "id": 319,
@@ -2570,23 +2685,26 @@
    "en": "Support Defense",
    "count": 18,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 20
   },
   {
    "id": 321,
    "jp": "特殊",
-   "en": "Special",
+   "en": "Spcl",
    "count": 15,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 21
   },
   {
    "id": 322,
    "jp": "水",
-   "en": "Water",
+   "en": "Wa",
    "count": 18,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 19
   },
   {
    "id": 323,
@@ -2767,7 +2885,7 @@
   {
    "id": 345,
    "jp": "精神名",
-   "en": "Spirit Name",
+   "en": "Spirit",
    "count": 32,
    "kind": "name",
    "keep": false
@@ -2903,7 +3021,7 @@
   {
    "id": 362,
    "jp": "危険度",
-   "en": "Danger Level",
+   "en": "Danger",
    "count": 2,
    "kind": "name",
    "keep": false
@@ -3111,10 +3229,11 @@
   {
    "id": 388,
    "jp": "獲得経験値",
-   "en": "Experience Earned",
+   "en": "EXP Earned",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 23
   },
   {
    "id": 389,
@@ -3234,7 +3353,8 @@
    "en": "Support Settings",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 25
   },
   {
    "id": 404,
@@ -3322,7 +3442,8 @@
    "en": "Nickname",
    "count": 5,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 19
   },
   {
    "id": 415,
@@ -3746,7 +3867,8 @@
    "en": "・Auto Counterattack",
    "count": 3,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 19
   },
   {
    "id": 468,
@@ -3834,7 +3956,8 @@
    "en": "＜Robot Encyclopedia＞",
    "count": 5,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 27
   },
   {
    "id": 479,
@@ -3858,7 +3981,8 @@
    "en": "＜Character Encyclopedia＞",
    "count": 5,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 23
   },
   {
    "id": 482,
@@ -4370,7 +4494,8 @@
    "en": "Weapon",
    "count": 5,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 546,
@@ -4498,7 +4623,8 @@
    "en": "Va",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 562,
@@ -4506,7 +4632,8 @@
    "en": "So",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 563,
@@ -4514,7 +4641,8 @@
    "en": "Me",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 564,
@@ -4522,7 +4650,8 @@
    "en": "Fl",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 565,
@@ -4530,7 +4659,8 @@
    "en": "Pe",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 566,
@@ -4538,7 +4668,8 @@
    "en": "Wa",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 567,
@@ -4546,7 +4677,8 @@
    "en": "Tr",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 568,
@@ -4554,7 +4686,8 @@
    "en": "Fo",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 569,
@@ -4562,7 +4695,8 @@
    "en": "Bu",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 570,
@@ -4570,7 +4704,8 @@
    "en": "Ac",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 571,
@@ -4578,7 +4713,8 @@
    "en": "Aw",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 572,
@@ -4586,7 +4722,8 @@
    "en": "Mc",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 573,
@@ -4594,7 +4731,8 @@
    "en": "Sy",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 574,
@@ -4602,7 +4740,8 @@
    "en": "Sn",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 575,
@@ -4610,7 +4749,8 @@
    "en": "As",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 576,
@@ -4618,7 +4758,8 @@
    "en": "Pi",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 577,
@@ -4626,7 +4767,8 @@
    "en": "Co",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 578,
@@ -4634,7 +4776,8 @@
    "en": "Lu",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 579,
@@ -4642,7 +4785,8 @@
    "en": "Ga",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 580,
@@ -4650,7 +4794,8 @@
    "en": "Tn",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 581,
@@ -4658,7 +4803,8 @@
    "en": "Di",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 13
   },
   {
    "id": 582,
@@ -5098,7 +5244,8 @@
    "en": "System Settings",
    "count": 3,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 20
   },
   {
    "id": 637,
@@ -5106,7 +5253,8 @@
    "en": "No-Counter Setting",
    "count": 3,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 638,
@@ -5138,7 +5286,8 @@
    "en": "Defend/Evade",
    "count": 3,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 20
   },
   {
    "id": 642,
@@ -5170,7 +5319,8 @@
    "en": "Remaining W Gauge",
    "count": 7,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 646,
@@ -5178,7 +5328,8 @@
    "en": "Fixed Weapons",
    "count": 7,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 22
   },
   {
    "id": 647,
@@ -5191,18 +5342,20 @@
   {
    "id": 648,
    "jp": "武器改造度",
-   "en": "Weapon Upgrades",
+   "en": "Wpn Upgrades",
    "count": 6,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 19
   },
   {
    "id": 649,
    "jp": "換装武器",
-   "en": "Replace Weapons",
+   "en": "Swap Wpn",
    "count": 6,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 22
   },
   {
    "id": 650,
@@ -5215,18 +5368,20 @@
   {
    "id": 651,
    "jp": "盾",
-   "en": "Shield",
+   "en": "Shd",
    "count": 7,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 16
   },
   {
    "id": 652,
    "jp": "連続攻撃",
-   "en": "Continuous Atk.",
+   "en": "Cont. Atk",
    "count": 6,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 20
   },
   {
    "id": 653,
@@ -5250,7 +5405,8 @@
    "en": "Search 4",
    "count": 6,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 656,
@@ -5343,7 +5499,7 @@
   {
    "id": 667,
    "jp": "残",
-   "en": "Remaining",
+   "en": "Left",
    "count": 1,
    "kind": "name",
    "keep": false
@@ -5575,10 +5731,11 @@
   {
    "id": 696,
    "jp": "機",
-   "en": "Units",
+   "en": "Un",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 697,
@@ -5610,7 +5767,8 @@
    "en": "Times Downed",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 20
   },
   {
    "id": 701,
@@ -5847,10 +6005,11 @@
   {
    "id": 730,
    "jp": "属性表示",
-   "en": "Show Attributes",
+   "en": "Attributes",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 22
   },
   {
    "id": 731,
@@ -5858,7 +6017,8 @@
    "en": "Will Display",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 22
   },
   {
    "id": 732,
@@ -5882,7 +6042,8 @@
    "en": "Change Main Unit",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 20
   },
   {
    "id": 735,
@@ -5970,7 +6131,8 @@
    "en": ": Adjust by 1",
    "count": 1,
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 746,
@@ -6042,7 +6204,8 @@
    "en": ": Adjust by 10",
    "count": 1,
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 755,
@@ -6058,7 +6221,8 @@
    "en": ": Adjust by 100",
    "count": 1,
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 757,
@@ -6066,7 +6230,8 @@
    "en": ": Adjust by 1000",
    "count": 1,
    "kind": "text",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 758,
@@ -6103,7 +6268,7 @@
   {
    "id": 762,
    "jp": "全種",
-   "en": "All Types",
+   "en": "All",
    "count": 1,
    "kind": "name",
    "keep": false
@@ -6138,7 +6303,8 @@
    "en": "Terrain",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 20
   },
   {
    "id": 767,
@@ -6154,7 +6320,8 @@
    "en": "Earned",
    "count": 2,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 769,
@@ -6474,7 +6641,8 @@
    "en": "Details",
    "count": 12,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 20
   },
   {
    "id": 809,
@@ -7642,7 +7810,8 @@
    "en": "[Team Formation]",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 24
   },
   {
    "id": 955,
@@ -7682,7 +7851,8 @@
    "en": "[Disband Team]",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 27
   },
   {
    "id": 960,
@@ -7738,7 +7908,8 @@
    "en": "：Support",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 967,
@@ -7826,31 +7997,35 @@
    "en": "：Toggle Setting",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 978,
    "jp": "：優先の切換",
-   "en": "：Toggle Priority",
+   "en": ":Priority",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 979,
    "jp": "：検索項目の設定",
-   "en": "：Set Search Criteria",
+   "en": ":Set Criteria",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 980,
    "jp": "：指定のクリア",
-   "en": "：Clear Selection",
+   "en": ":Clear",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 981,
@@ -7858,7 +8033,8 @@
    "en": "：Finish Setup",
    "count": 1,
    "kind": "name",
-   "keep": false
+   "keep": false,
+   "font_px": 17
   },
   {
    "id": 982,

@@ -105,3 +105,27 @@ tables, Q&A, story, battle quotes). Observed in game:
   image-based text (title menu, legal notice, logos).
 - Rebuilt with the relaxed label widths: the map command menu now reads
   Move / Attack / Ground / Spirit / Stats, with room to spare.
+
+## Picture text (sprite sheets)
+
+Some on-screen words are pictures, not strings, and are repainted at build
+time by `textures/*.json` specs (each spec names its tool):
+
+- `Common/Dat/Font/exFont01.bin` — an FTTF font whose only real glyphs are
+  ASCII and full-width digits (texture rows 0-351). The rest of its
+  256 x 2048 ARGB8 texture is a sprite sheet referenced by fixed UV
+  rectangles: the red/blue italic 援護攻撃 / 援護防御 map overlays, the 攻/反
+  battle badges, 再攻撃, 不参加, 合体, the 例 help badge. `tools/exfont_text.py`
+  repaints each inside its original ink box (`textures/exfont01.json`).
+- `General2d/Dat/Window/WindowToolData/Texture/tex_06.dds` — intermission
+  sprite sheet; the title インターミッション is two sprites drawn side by side
+  (`textures/tex_06.json` puts INTERMISSION in the first and blanks the
+  second). The game tints the white title blue when drawing.
+- `Battle/Dat/Battle/Console/Dds/cosl.dds` — battle HUD popups
+  (`tools/texture_text.py`, `textures/cosl.json`).
+- `Common/Dat/SceneTitle/**` — stage title cards, rendered whole from the
+  StageData worksheet by `tools/scene_title.py` (see its docstring for the
+  frame structure).
+
+Event backgrounds (`General2d/Dat/IM/Bg/Dds`, 1800 x 728, DXT5 or UYVY) are
+untouched; they are soft in the source art and are scaled up on screen.

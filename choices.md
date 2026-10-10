@@ -88,3 +88,25 @@ disagree), **done**.
 19. **Playtest areas I could not reach by script**: battle screen and battle
     quotes, intermission menus, library pages (I assumed they scroll and let
     English run 1.6x the Japanese line count), save/load screens.
+
+## Picture text repainted 2026-10-09 (say if you want different wording)
+
+20. **Map overlay sprites (exFont01)**: done as abbreviations because each
+    sprite must stay inside its original pixel box. 援護攻撃 (red, on the map
+    with a count) → "SUP ATK"; 援護防御 (blue) → "SUP DEF"; the small white
+    援護攻撃 → "SUP ATK"; the two-character 援攻/援防 markers → "S.ATK"/"S.DEF";
+    the 攻/反 badges on the battle screen → "ATK"/"CTR" (attack / counter);
+    再攻撃 → "RE-ATK"; 不参加 (pilot did not take part) → "ABSENT"; the 例
+    (example) help badge → "EX"; 合体 → "COMBINE" (orange) and "CMB" (icon).
+21. **Intermission title**: done. The picture title インターミッション → "INTERMISSION".
+22. **Get Result columns**: done. 獲得経験値 → "EXP Earned" (was "Experience
+    Earned", which ran into "PP Earned").
+23. **Intermission footer**: done. NEXT出撃部隊 → "Next Sortie" (was "NEXT Sortie
+    Units", which ran into the value "Event").
+24. **Stage number on the Battle Report / intermission**: done as "#" because
+    the number is printed over the label's position ("St1ge" before). The
+    stage title cards use "Scenario N". Say if you'd rather have "Scenario"
+    there too; I'd need to find a layout that fits.
+25. **Altalion**: done. Every spelling of アルテリオン (Altairlion, Altairion,
+    Alterion, Alteriion, Alteaion) is now Altalion. アルタルフ stays Altarf
+    (Canis Altarf, a different machine).

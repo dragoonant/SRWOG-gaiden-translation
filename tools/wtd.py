@@ -18,8 +18,12 @@ Layout:
   size-looking words (0x40, 0x50, 0x140, 0x240 ...) are per-class constants
   (see docs/formats-csb-wtd.md), and the file has no absolute offsets.
 
-The body of an element is a flag-driven record soup that is not fully decoded;
-display text is found by scanning for the string encoding above (4-aligned
+The body of an element is decoded in full by parse_element() (see
+docs/formats-csb-wtd.md 2.2): element header + state lists, then groups of
+objects, each object a list of flag-driven "part" records (bit n of the kind
+word = field n present); display text is the bit-8 string of a part. extract/
+build do not depend on that grammar: they find text by scanning for the string
+encoding above (4-aligned
 length word, NUL-terminated, valid UTF-8 containing a non-ASCII character
 and no control characters other than newline or code points U+0100..U+1FFF,
 zero padding). The last two filters only exist to reject a handful of
@@ -37,6 +41,8 @@ Usage:
   wtd.py roundtrip PATH...         (files or directories; PASS/FAIL each)
   wtd.py selftest FILE             (lengthen strings, rebuild, re-parse)
   wtd.py audit FILE                (evidence that SIZE is the only length-dependent field)
+  wtd.py geometry FILE OUT.json    (per worksheet string: x, y, font w/h, align, element ...)
+  wtd.py tree FILE [ELEMENT]       (decoded element bodies: groups, objects, part records)
 """
 import json
 import os
@@ -232,7 +238,47 @@ def build(orig_path, ws):
         out += body
     out = bytes(out)
     check(out, p, placed)
-    return out
+    return apply_font_px(out, ws)
+
+
+def apply_font_px(out, ws):
+    """Per-string font size override: a worksheet entry with "font_px": N
+    gets every occurrence's glyph cell w/h fields (f32, px of the 32 px
+    font; 26 = the usual 0.8125 scale) set to N. Occurrences whose own
+    record has no w/h inherit them from the object's base part; that base
+    part is patched instead (it then applies to the whole object). The
+    text parts are found by their (already translated) text."""
+    want = {}        # text -> (px for every element, {element index: px})
+    for e in ws["strings"]:
+        px, per_el = e.get("font_px"), e.get("font_px_el") or {}
+        if px or per_el:
+            want[e.get("en") or e["jp"]] = (float(px) if px else None, {int(k): float(v) for k, v in per_el.items()})
+    if not want:
+        return out
+    out = bytearray(out)
+    _, tree = parse_tree(bytes(out))
+    n = 0
+    for ei, el in enumerate(tree):
+        if isinstance(el, BodyError):
+            continue
+        for g in el["groups"]:
+            for ob in g["objects"]:
+                base = ob["parts"][0] if ob["parts"] else None
+                for pt in ob["parts"]:
+                    if pt.get("text") not in want:
+                        continue
+                    px, per_el = want[pt["text"]]
+                    px = per_el.get(ei, px)
+                    if px is None:
+                        continue
+                    src = pt if "w" in pt else base
+                    if src is None or "w" not in src:
+                        continue
+                    for nm in ("w", "h"):
+                        if nm in src["field_off"]:
+                            struct.pack_into(">f", out, src["field_off"][nm], px)
+                    n += 1
+    return bytes(out)
 
 
 def check(out, p0, placed):
@@ -245,6 +291,319 @@ def check(out, p0, placed):
         L = u32(out, off)
         if L != len(new) or out[off + 4:off + 4 + L] != new or                 out[off + 4 + L:off + 4 + L + pad4(L)] != bytes(pad4(L)):
             raise ValueError("re-parse: string at 0x%X is malformed" % off)
+
+
+
+# ---------------------------------------------------------------- element bodies
+
+def f32(d, o):
+    return struct.unpack(">f", d[o:o + 4])[0]
+
+
+class BodyError(ValueError):
+    pass
+
+
+def read_str(d, o, end):
+    """String at o (u32 len incl NUL + bytes + pad). Returns (text, next)."""
+    L = u32(d, o)
+    if L == 0:
+        return "", o + 4
+    if L > MAX_STR or o + 4 + L > end or d[o + 4 + L - 1] != 0:
+        raise BodyError("bad string at 0x%X" % o)
+    e = o + padded(L)
+    if d[o + 4 + L:e] != bytes(e - o - 4 - L):
+        raise BodyError("bad string padding at 0x%X" % o)
+    return d[o + 4:o + 4 + L - 1].decode("utf-8", "replace"), e
+
+
+# Part record: u32 kind, then one field per set bit of kind, in THIS order
+# (not bit order).  type: str = string, f = f32, u = u32, u2 = 2 x u32,
+# blob = u32 n + n bytes padded to 4.  Bits 3 and 4 share one colour word
+# (u16 unknown 36000/18000/9000, u16 palette index).
+PART_FIELDS = [
+    (17, "s17", "str"),      # always "" where seen
+    (0, "name", "str"),      # sprite/part name: kihon_center, page, center2_2 ...
+    (1, "x", "f"),           # position, px right of the group origin
+    (14, "y", "f"),          # position, px down from the group origin
+    (2, "w", "f"),           # text: glyph cell width px (32 = 1.0); sprite: x scale
+    (15, "h", "f"),          # text: glyph cell height px; sprite: y scale
+    (3, "col", "u"),         # colour word (shared with bit 4)
+    (4, "col", "u"),
+    (5, "u5", "u2"),         # unknown pair
+    (18, "u18", "u"),        # unknown word (0x00030000, 0xFFFE0000, 0 ...)
+    (6, "link", "u"),        # s16/u16 pair: FFFF NNNN = element index, -1 = none
+    (12, "hash", "u"),       # id hash (dynamic text source / referenced widget)
+    (8, "text", "str"),      # display text
+    (9, "flags", "u"),       # byte0: h-align 0 left / 1 centre / 2 right (+0x10/0x20);
+                             # byte1: style bits 0x80/0x10/..; byte2: 0x10/0x20
+    (10, "u10", "u"),        # small int (1, 4, 17, 384, 400)
+    (11, "b11", "blob"),     # u32 size + value (size 4 -> 0x1A/0x1C, size 1 -> 0, size 0)
+    (16, "label", "str"),    # widget id string ("135", "30011", "")
+]
+KNOWN_BITS = sum(1 << b for b, _, _ in PART_FIELDS)
+
+
+def parse_part(d, o, end):
+    kind = u32(d, o)
+    start = o
+    o += 4
+    if kind & ~KNOWN_BITS:
+        raise BodyError("unknown part kind bits 0x%X at 0x%X" % (kind, start))
+    f = {"off": start, "kind": kind, "field_off": {}}
+    for bit, nm, t in PART_FIELDS:
+        if not kind & (1 << bit) or (bit == 4 and kind & 8):
+            continue
+        f["field_off"][nm] = o
+        if t == "str":
+            f[nm], o = read_str(d, o, end)
+        elif t == "f":
+            f[nm] = f32(d, o)
+            o += 4
+        elif t == "u":
+            f[nm] = u32(d, o)
+            o += 4
+        elif t == "u2":
+            f[nm] = (u32(d, o), u32(d, o + 4))
+            o += 8
+        else:
+            n = u32(d, o)
+            o += 4
+            if n > 64:
+                raise BodyError("blob size %d at 0x%X" % (n, o - 4))
+            f[nm] = d[o:o + n]
+            o += 4 * ((n + 3) // 4)
+        if o > end:
+            raise BodyError("part overruns element at 0x%X" % o)
+    return f, o
+
+
+def parse_object(d, o, end):
+    """u32 S (class size), u32 id, u32 T, 4 words, -1, string, 4 x (u32 n,
+    n x (u32, u32)), -1, 0, u16 nIds, u16 nParts, nIds x u32, nParts x part."""
+    if o + 60 > end or u32(d, o + 28) != 0xFFFFFFFF:
+        raise BodyError("object header at 0x%X" % o)
+    ob = {"off": o, "S": u32(d, o), "id": u32(d, o + 4), "T": u32(d, o + 8),
+          "a": [u32(d, o + 12 + 4 * i) for i in range(4)]}
+    ob["label"], q = read_str(d, o + 32, end)
+    ob["lists"] = []
+    for _ in range(4):
+        n = u32(d, q)
+        q += 4
+        if n > 256:
+            raise BodyError("object list count %d at 0x%X" % (n, q - 4))
+        ob["lists"].append([(u32(d, q + 8 * i), u32(d, q + 8 * i + 4)) for i in range(n)])
+        q += 8 * n
+    if u32(d, q) != 0xFFFFFFFF or u32(d, q + 4) != 0:
+        raise BodyError("object tail at 0x%X (object 0x%X)" % (q, o))
+    nids, nparts = struct.unpack(">HH", d[q + 8:q + 12])
+    q += 12
+    if nids > 64 or nparts > 256:
+        raise BodyError("object counts at 0x%X" % o)
+    ob["ids"] = [u32(d, q + 4 * i) for i in range(nids)]
+    q += 4 * nids
+    ob["parts"] = []
+    for _ in range(nparts):
+        pt, q = parse_part(d, q, end)
+        ob["parts"].append(pt)
+    return ob, q
+
+
+def parse_element(d, es, sz):
+    """u32 SIZE, u32 id, u32 type, -1, u32, u16 nStates, u16 v,
+    nStates x (u32 k, k x (u32 objectId, u32 partIndex)),
+    then groups to the end: u32 id, u16 nObj, u16 1, f32 x, f32 y, 4 x 0, nObj objects."""
+    end = es + sz
+    el = {"off": es, "size": sz, "id": u32(d, es + 4), "type": u32(d, es + 8),
+          "w4": u32(d, es + 16)}
+    if u32(d, es + 12) != 0xFFFFFFFF:
+        raise BodyError("element header at 0x%X" % es)
+    nst, el["v5"] = struct.unpack(">HH", d[es + 20:es + 24])
+    o = es + 24
+    el["states"] = []
+    for _ in range(nst):
+        k = u32(d, o)
+        o += 4
+        if k > 1000:
+            raise BodyError("state list at 0x%X" % o)
+        el["states"].append([(u32(d, o + 8 * i), u32(d, o + 8 * i + 4)) for i in range(k)])
+        o += 8 * k
+    el["groups"] = []
+    while o < end:
+        g = {"off": o, "id": u32(d, o)}
+        n, one = struct.unpack(">HH", d[o + 4:o + 8])
+        if one != 1 or any(u32(d, o + 16 + 4 * i) for i in range(4)):
+            raise BodyError("group header at 0x%X" % o)
+        g["x"], g["y"] = f32(d, o + 8), f32(d, o + 12)
+        o += 32
+        g["objects"] = []
+        for _ in range(n):
+            ob, o = parse_object(d, o, end)
+            g["objects"].append(ob)
+        el["groups"].append(g)
+    if o != end:
+        raise BodyError("element 0x%X does not tile to its end" % es)
+    return el
+
+
+def parse_tree(d):
+    """(parse dict, list of decoded elements or BodyError per element)."""
+    p = parse(d)
+    out = []
+    for es, sz in p["elements"]:
+        try:
+            out.append(parse_element(d, es, sz))
+        except BodyError as e:
+            out.append(e)
+    return p, out
+
+
+def align_of(flags):
+    if flags is None:
+        return "left"
+    return {0: "left", 1: "center", 2: "right"}.get((flags >> 24) & 0xF)
+
+
+def geometry(path):
+    """Worksheet-shaped geometry: one entry per distinct text with every
+    occurrence's position, font cell size, alignment and field offsets."""
+    d = open(path, "rb").read()
+    ws = extract(path)
+    p, tree = parse_tree(d)
+    by_off = {}
+    for ei, el in enumerate(tree):
+        if isinstance(el, BodyError):
+            continue
+        for gi, g in enumerate(el["groups"]):
+            for oi, ob in enumerate(g["objects"]):
+                for pi, pt in enumerate(ob["parts"]):
+                    if "text" in pt:
+                        by_off[pt["field_off"]["text"]] = (ei, gi, oi, pi, el, g, ob, pt)
+    occ = {}
+    _, per = scan(d)
+    for ei, strs in enumerate(per):
+        for off, s, L in strs:
+            occ.setdefault(s, []).append((off, ei))
+    for e in ws["strings"]:
+        e["occurrences"] = []
+        for off, ei in occ[e["jp"]]:
+            if off not in by_off:
+                e["occurrences"].append({"element": ei, "offset": "0x%X" % off, "confidence": "none",
+                                         "note": "element body not decoded"})
+                continue
+            e["occurrences"].append(occurrence(d, by_off[off]))
+        first = e["occurrences"][0]
+        for k in ("x", "y", "w", "h", "scale", "align", "element", "confidence"):
+            e[k] = first.get(k)
+    ws["geometry"] = {
+        "units": "layout px, 1:1 with the 1280x720 screen (inferred); x right / y down from the "
+                 "group origin (group_x/group_y included in x/y); the window's own screen "
+                 "position is set by code and is not in the file",
+        "w_h": "glyph cell size in px of the 32 px font (26 = default 0.8125 scale); the text "
+               "has no separate box field - text_w = chars x w, room = px to the next part on "
+               "the same row (null = nothing to the right in this group)",
+        "fields_at": "w/h/flags offsets are absolute file offsets of the f32/u32 in THIS "
+                     "file (they move when build changes string lengths; re-run geometry on "
+                     "the built file or address them by element/group/object/part path)",
+        "align": "flags byte 0 (bits 24-25): 0 left, 1 center, 2 right (inferred from layouts)",
+        "confidence": "high = own record has x, y, w, h; medium = some fields inherited from "
+                      "the object's base record (part 0); low = font size not in file "
+                      "(renderer default)",
+    }
+    return ws
+
+
+def occurrence(d, hit):
+    ei, gi, oi, pi, el, g, ob, pt = hit
+    base = ob["parts"][0]
+    o = {"element": ei, "group": gi, "object": oi, "part": pi, "offset": "0x%X" % pt["off"],
+         "kind": "0x%X" % pt["kind"], "name": pt.get("name", base.get("name")),
+         "group_x": g["x"], "group_y": g["y"], "inherited": []}
+    for nm in ("x", "y", "w", "h", "flags", "col", "label"):
+        src = pt if nm in pt else (base if nm in base else None)
+        if src is None:
+            o[nm] = None
+            continue
+        o[nm] = src[nm]
+        if src is base and pt is not base:
+            o["inherited"].append(nm)
+        if nm in ("w", "h", "flags"):
+            o[nm + "_offset"] = "0x%X" % src["field_off"][nm]
+    o["x"] = (o["x"] or 0.0) + g["x"]
+    o["y"] = (o["y"] or 0.0) + g["y"]
+    o["scale"] = round(o["w"] / 32.0, 4) if o["w"] else None
+    o["align"] = align_of(o["flags"])
+    if o["flags"] is not None:
+        o["flags"] = "0x%08X" % o["flags"]
+    if o["col"] is not None:
+        o["col"] = "0x%08X" % o["col"]
+    o["chars"] = len(pt["text"])
+    o["text_w"] = round(o["chars"] * o["w"], 1) if o["w"] else None
+    # room: nearest base record of another object in this group, same row, to the right
+    room = None
+    hh = max(o["h"] or 24.0, 20.0)
+    for ob2 in g["objects"]:
+        if ob2 is ob:
+            continue
+        b2 = ob2["parts"][0] if ob2["parts"] else None
+        if not b2 or "x" not in b2:
+            continue
+        dx = g["x"] + b2["x"] - o["x"]
+        if dx > 0 and abs(g["y"] + b2.get("y", 0.0) - o["y"]) < hh and (room is None or dx < room):
+            room = dx
+    o["room"] = room
+    if o["w"] is None or o["h"] is None:
+        o["confidence"] = "low"
+    elif o["inherited"]:
+        o["confidence"] = "medium"
+    else:
+        o["confidence"] = "high"
+    return o
+
+
+def cmd_tree(path, which=None):
+    d = open(path, "rb").read()
+    p, tree = parse_tree(d)
+    bad = sum(1 for e in tree if isinstance(e, BodyError))
+    print("%s: %d elements, %d decoded, %d failed" % (path, len(tree), len(tree) - bad, bad))
+    for ei, el in enumerate(tree):
+        if which is not None and ei != which:
+            continue
+        if isinstance(el, BodyError):
+            print("el%d: FAILED %s" % (ei, el))
+            continue
+        if which is None:
+            print("el%d @0x%X id=%08X type=%d states=%d groups=%d objects=%d" % (
+                ei, el["off"], el["id"], el["type"], len(el["states"]), len(el["groups"]),
+                sum(len(g["objects"]) for g in el["groups"])))
+            continue
+        print("el%d @0x%X id=%08X type=%d w4=0x%X v5=%d states=%s" % (
+            ei, el["off"], el["id"], el["type"], el["w4"], el["v5"], [len(s) for s in el["states"]]))
+        for gi, g in enumerate(el["groups"]):
+            print(" group %d id=%08X pos=(%g,%g) objects=%d" % (gi, g["id"], g["x"], g["y"], len(g["objects"])))
+            for oi, ob in enumerate(g["objects"]):
+                print("  obj %d @0x%X S=0x%X T=%d a=%s label=%r lists=%s" % (
+                    oi, ob["off"], ob["S"], ob["T"], ["0x%X" % v for v in ob["a"]], ob["label"],
+                    [len(l) for l in ob["lists"]]))
+                for pi, pt in enumerate(ob["parts"]):
+                    items = []
+                    for bit, nm, t in PART_FIELDS:
+                        if nm not in pt or (nm == "col" and items and items[-1][0] == "col"):
+                            continue
+                        v = pt[nm]
+                        if isinstance(v, float):
+                            v = "%g" % v
+                        elif isinstance(v, int):
+                            v = "0x%X" % v
+                        elif isinstance(v, bytes):
+                            v = v.hex() or "''"
+                        elif isinstance(v, tuple):
+                            v = "(0x%X,0x%X)" % v
+                        else:
+                            v = repr(v[:20])
+                        items.append((nm, v))
+                    print("   part %d @0x%X kind=0x%X %s" % (pi, pt["off"], pt["kind"],
+                                                             " ".join("%s=%s" % i for i in items)))
 
 
 # ---------------------------------------------------------------- commands
@@ -418,6 +777,17 @@ def main(argv):
         audit(argv[2])
     elif cmd == "selftest" and len(argv) > 2:
         return 0 if selftest(argv[2]) else 1
+    elif cmd == "geometry" and len(argv) > 3:
+        ws = geometry(argv[2])
+        os.makedirs(os.path.dirname(os.path.abspath(argv[3])), exist_ok=True)
+        with open(argv[3], "w", encoding="utf-8", newline="\n") as f:
+            json.dump(ws, f, ensure_ascii=False, indent=1)
+        conf = {}
+        for e in ws["strings"]:
+            conf[e["confidence"]] = conf.get(e["confidence"], 0) + 1
+        print("%s: %d strings, confidence %s" % (ws["file"], len(ws["strings"]), conf))
+    elif cmd == "tree" and len(argv) > 2:
+        cmd_tree(argv[2], int(argv[3]) if len(argv) > 3 else None)
     else:
         print(__doc__)
         return 2

@@ -156,26 +156,111 @@ element:  u32 SIZE, SIZE-4 bytes of body.   next element starts at start + SIZE
 is always at a 4-aligned file offset. This is the only place a string appears; there is no
 string table. Texture names use the same encoding.
 
-### 2.2 Element bodies (partly decoded, inferred)
+### 2.2 Element bodies (decoded; `wtd.py tree FILE [N]`, `wtd.py geometry FILE OUT.json`)
 
-An element is a widget with its children, parts and animation links in one run of
-big-endian fields, many of them `u16`/`f32` at 2-byte alignment, flagged by a `u16 flags`
-that selects optional fields. This is not fully decoded and the tools do not need it. What
-is established:
+An element is one window: a header with *state lists*, then *groups* of *objects*, each
+object a list of *part records*. Every record is a bitmask-driven property list: a `u32 kind`
+whose bit n means "property n follows". `parse_element()` in `tools/wtd.py` decodes all
+394 + 6 elements exactly to their end (windowdataMain: 1,291 groups, 6,683 objects, 25,601
+part records, 824 distinct `kind` values, 2,752 state lists), and every one of the 3,380
+scanned text strings is the bit-8 property of a part record. All words are 4-aligned u32/f32;
+the earlier guess of 2-byte-aligned u16 fields was wrong.
 
-* An element starts `u32 SIZE, u32 id (CRC-like hash), u32 type (3 or 4 in windowdataMain,
-  0 in areamapwindow), s32 -1, ...`. Ids are hashes, referenced by other elements; they are
-  not offsets.
-* Inside, **objects** of the form `u32 S, u32 id, u32 T, 4 words, -1, 1, 0 0 0 0 0, -1, 0`
-  followed by `u32 count, u32 kind` occur 5,889 times (T = 9 in 4,872 of them, 0xD in 446,
-  0xB in 358, others rare). `S` takes the values 0x40, 0x50, 0x60, 0x70, 0x130, 0x140,
-  0x150, 0x170, 0x240, 0x250, 0x260, 0x340.
-* Text-carrying parts look like `u16 flags, u16 kind, string name, f32 x, f32 y, ...`
-  (name is usually `kihon_center`, `center2_2`, `dodai`, `page`, `L<R` ...), and
-  display text is a string right after the geometry (`...8ca0 00NN` colour word, then the
-  text). Text can also carry inline tags such as `<I=61>` (icon id, ASCII, left alone).
-* `ffff NNNN` words (s16 -1 + u16 index) are links to other elements by index (always
-  below the element count).
+```
+element:  u32 SIZE, u32 id, u32 type (3; 0/1/2/4 rare), s32 -1, u32 (0, or an id in type-1 elements),
+          u16 nStates, u16 v,
+          nStates x ( u32 k, k x ( u32 objectId, u32 partIndex ) )   state = which part record each object shows
+          groups, back to back, until SIZE is used up
+group:    u32 id, u16 nObjects, u16 1, f32 x, f32 y, 4 x u32 0, nObjects x object   (x, y) is added to its objects
+object:   u32 S (class size 0x40/0x50/0x140/0x158/0x240 ...), u32 id, u32 T (9 = 5,296 of them, 0xD 705, 0xB 450, 1 155),
+          4 x u32 (per-T settings, e.g. 0 4 0 1A), s32 -1, string label ("" or the widget id string, e.g. "134"),
+          4 x ( u32 n, n x ( u32 hash, u32 id ) )   (event/animation links, nearly always 4 x 0),
+          s32 -1, u32 0, u16 nIds, u16 nParts, nIds x u32 id, nParts x part
+part:     u32 kind, then the properties whose bit is set, in THIS fixed order (not bit order):
+    bit 17  string     always "" where present        bit 18  u32    unknown (0x00030000, 0xFFFE0000, 0)
+    bit 0   string     name: kihon_center (most), page, center2_2, dodai, L<R, title_ichiran ...
+    bit 1   f32 x      px right of the group origin   bit 14  f32 y  px down from the group origin
+    bit 2   f32 w      text: glyph cell width in px (32 = full size); sprite: x scale (1.0)
+    bit 15  f32 h      text: glyph cell height in px; sprite: y scale
+    bit 3|4 u32 colour ONE word serves both bits: u16 36000/18000/9000 (unknown), u16 palette index 0..223
+    bit 5   2 x u32    unknown                        bit 6   u32    link: FFFF NNNN = element index, NNNN FFFF, or -1
+    bit 12  u32 hash   id hash ("page" widgets whose text is supplied by code carry this instead of text)
+    bit 8   string     DISPLAY TEXT (the worksheet string; may be "")
+    bit 9   u32 flags  byte 0 = horizontal alignment 0 left / 1 centre / 2 right (0x10/0x20 also seen);
+                       byte 1 = style bits (0x10 nearly always; 0x80, 0x40, 0x20, 0x01..0x04); byte 2 = 0x10/0x20 rarely
+    bit 10  u32        small int (4, 1, 17, 384, 400)
+    bit 11  u32 n, n bytes padded to 4   typed value: n=4 -> 0x1A or 0x1C, n=1 -> 0, n=0 -> nothing
+    bit 16  string     widget id string ("134", "30011", "") - also stored as the object label
+```
+
+Part 0 of an object is its **base record** (always named). The records after it are either
+sub-sprites (`center2_2` cursor/background at 0,0 scale 1,1) or **alternatives** chosen by
+the element's state lists: a delta that carries only the changed properties, e.g.
+`kind 0x4102` = x, y, text - the same hint widget showing `：選択` at another x on another
+screen. A property missing from a delta is inherited from the base record; missing from the
+base as well, the renderer default applies (text: 26 px = the 0.8125 scale seen in game).
+`geometry` reports inherited fields per occurrence and lowers the confidence to `medium`.
+
+**Worked example - stat label 格闘** (el33, `wtd.py tree windowdataMain.wtd 33`):
+
+```
+030ECC  4236F19B 00080001 41000000 C0000000 0 0 0 0         group 3: id, 8 objects, x=8.0 y=-2.0
+031084  00000158 BAA93A2F 00000009 0 0 0 0 FFFFFFFF          object: S=0x158, T=9
+0310A4  00000004 "134\0"  0 0 0 0  FFFFFFFF 00000000 00000002  label "134", 4 empty lists, -1, 0, 0 ids / 2 parts
+0310C8  0001C117                                            part 0: bits 0 1 2 4 8 14 15 16
+0310CC  00000005 70616765 00000000                          name "page"
+0310D8  C3A20000  x = -324.0   (+ group 8 = -316)
+0310DC  43B80000  y =  368.0   (射撃 400, 技量 432, 防御 464, 回避 496, 命中 528: step 32)
+0310E0  41C00000  w =   24.0   glyph cell width  <- the font-size field a build step can change
+0310E4  41C00000  h =   24.0   glyph cell height
+0310E8  8CA0000B  colour, palette 0x0B
+0310EC  00000007 E6A0BCE9 97980000                          text "格闘" (len 7 incl NUL, 1 pad)
+0310F8  00000004 31333400                                   bit-16 id string "134"
+031100  0001C317 "center2_2" 0 0 1.0 1.0 8CA00000 "" 00100000 ""   part 1: cursor sprite
+```
+
+**Worked example - spirit legend cell 熱** (el203; its only group is at (320, 0) with 23 objects):
+
+```
+0B4470  00000150 4E28A273 00000001 01000000 0 0 0 FFFFFFFF  00000001 00000000  0 0 0 0  FFFFFFFF 0  00000003
+0B44B4  0000C317  0000000D "kihon_center\0" + 3 pad          part 0: bits 0 1 2 4 8 9 14 15
+0B44CC  C4070000 x=-540   42840000 y=66   41980000 w=19   41980000 h=19    (魂 -520, 闘 -500 ... 乱 -120: step 20)
+0B44DC  8CA00018 colour   00000004 E786B100 "熱"   01800000 flags: byte 0 = 01 -> centred in its 20 px cell
+0B44EC  00000010 8CA0000A                                    part 1: colour only (another state)
+0B44F4  00008314 41A00000 41A00000 8CA00019 00000001 00000000 01000000   part 2: w=h=20, colour, text "", flags
+```
+
+Screen-relative x of the row = 320 + (-540 .. -120) = -220 .. 200, i.e. centred.
+
+**Confirmed vs inferred**
+
+* Confirmed (structural, both files): the grammar above tiles every element to its exact
+  end; all 42,158 state-list pairs name an object of their own element with a part index
+  below that object's part count; the colour low u16 never exceeds 223 (224 palette quads);
+  every text string is a bit-8 property; bits 1/14 are the position pair (deltas that move a
+  widget set exactly those two; the six stat labels differ only in bit 14, the legend kanji
+  only in bit 1).
+* Confirmed against the screenshots: stat labels share x with y step 32; legend kanji share y
+  with x step 20 (cells of ~20 px, user estimate ~26); terrain headers 空/陸/海/宇 step 60
+  (el36) and 80 (el24); 第 (x=-400) and 話 (x=-346) flank a 28 px number field.
+* Inferred: bits 2/15 are the glyph cell size (text records only ever hold 18-32 there,
+  sprites hold 1.0; 26 = the renderer's default 0.8125 x 32); flags byte 0 is alignment
+  (menu commands 換装/移動/攻撃 at x≈1 carry 01, number fields ９９９ carry 02, long
+  messages and はい carry 01, labels carry 00/none); the group origin adds to part
+  positions (the legend is only centred with it); y grows downward (header rows have the
+  smaller y); 1 unit = 1 px of 1280x720 (95 % of text lies within ±640 x ±360). The window's
+  own screen position is applied by code (hint rows sit at y ≈ -430, outside ±360), so x/y
+  are relative, not absolute.
+* Unknown: colour high u16 (36000/18000/9000), bits 5/10/11/18, flags bytes 1-2, the object
+  words after T and the meaning of T, element `type`/word 4/`v`.
+
+`wtd.py geometry FILE OUT.json` writes the worksheet with, per string, `x, y, w, h, scale
+(= w/32), align, element, confidence` from its first occurrence plus `occurrences[]` with
+every occurrence's element/group/object/part path, inherited fields, `text_w` (chars x w),
+`room` (px to the next base record on the same row of the group, null if none) and the
+absolute file offsets of the `w`, `h` and `flags` words (`w_offset` ...) so a build step can
+patch the font size or alignment. Offsets are valid for the file given; after `build`
+changes string lengths, re-run `geometry` on the built file or address records by path.
 
 ### 2.3 Does anything besides the string length word change with the string? (confirmed)
 
@@ -214,9 +299,9 @@ Evidence that nothing else depends on string length (`wtd.py audit FILE` re-deri
    at its new location with correct length word and zero padding. Same for areamapwindow
    (2,544 -> 2,592, 6 of 6 sizes change).
 
-Limits of that evidence: the first two points are statistical and structural, not a full
-grammar of the element bodies, and the built file has not been loaded by the game or
-RPCS3. If the game misbehaves with a lengthened string, a fixed-size text buffer is a more
+The full body grammar of 2.2 corroborates this: strings are inline properties, the only
+counts are item counts, and no record stores a byte offset or a string length elsewhere.
+The built file has not been loaded by the game or RPCS3. If the game misbehaves with a lengthened string, a fixed-size text buffer is a more
 likely cause than a missed size field.
 
 ### 2.4 Worked example: `areamapwindow.wtd`

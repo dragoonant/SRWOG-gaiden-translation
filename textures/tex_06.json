@@ -1,0 +1,72 @@
+{
+ "texture": "General2d/Dat/Window/WindowToolData/Texture/tex_06.dds",
+ "tool": "exfont_text.py",
+ "note": "Intermission screen sprite sheet. The title インターミッション is two sprites (インターミッ + ション) drawn side by side; the whole English word goes in the first and the second is blanked. The game tints the white title blue at draw time.",
+ "font": "bahnschrift.ttf",
+ "labels": [
+  {
+   "box": [
+    150,
+    280,
+    340,
+    335
+   ],
+   "jp": "インターミッ",
+   "en": "INTERMISSION",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    31,
+    44,
+    50
+   ],
+   "italic": true,
+   "variation": "Bold"
+  },
+  {
+   "box": [
+    215,
+    345,
+    319,
+    381
+   ],
+   "jp": "ション",
+   "en": "",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    31,
+    44,
+    50
+   ]
+  },
+  {
+   "box": [
+    380,
+    174,
+    421,
+    193
+   ],
+   "jp": "合体",
+   "en": "COMBINE",
+   "fill": [
+    255,
+    136,
+    40
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "italic": true,
+   "variation": "Bold"
+  }
+ ]
+}

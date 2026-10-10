@@ -116,9 +116,9 @@ def build(work, out, only=None, check_only=False, no_eboot=False):
     # Texture repaints: every textures/*.json names its texture as
     # "<Archive>/<path inside the archive>".
     for spec in sorted(glob.glob(os.path.join(REPO, "textures", "*.json"))):
-        target = json.load(open(spec, encoding="utf-8"))["texture"]
-        archive, inner = target.split("/", 1)
-        generated.append((archive, inner, ["texture_text.py", spec, "{orig}", "{dst}"]))
+        sp = json.load(open(spec, encoding="utf-8"))
+        archive, inner = sp["texture"].split("/", 1)
+        generated.append((archive, inner, [sp.get("tool", "texture_text.py"), spec, "{orig}", "{dst}"]))
     for archive, inner, args in generated:
         if only and archive not in only:
             continue
@@ -128,6 +128,22 @@ def build(work, out, only=None, check_only=False, no_eboot=False):
         run([os.path.join(HERE, args[0])] + [a.format(orig=orig, dst=dst) for a in args[1:]])
         touched.setdefault(archive, []).append(inner)
         print("generated %s/%s" % (archive, inner))
+    # Stage title cards (Common/Dat/SceneTitle): rendered from the StageData
+    # worksheet's English titles by tools/scene_title.py.
+    if not only or "Common" in only:
+        st_orig = os.path.join(work, "ext", "Common", "Dat", "SceneTitle")
+        st_dst = os.path.join(tree, "Common", "Dat", "SceneTitle")
+        stage_ws = os.path.join(REPO, "worksheets", "Logic", "Dat", "FixedData", "StageData.dat.json")
+        print("rendering stage title cards...")
+        run([os.path.join(HERE, "scene_title.py"), "render", st_orig, st_dst, stage_ws])
+        n = 0
+        for root, _, files in os.walk(st_dst):
+            for f in files:
+                if f.endswith(".dds"):
+                    rel = os.path.relpath(os.path.join(root, f), tree).replace("\\", "/").split("/", 1)[1]
+                    touched.setdefault("Common", []).append(rel)
+                    n += 1
+        print("generated %d stage title strips" % n)
     if not no_eboot and (not only or "EBOOT" in only):
         os.makedirs(os.path.join(out, "USRDIR"), exist_ok=True)
         src = os.path.join(out, "USRDIR", "EBOOT.elf") if "EBOOT" in touched else os.path.join(work, "pristine", "USRDIR", "EBOOT.elf")

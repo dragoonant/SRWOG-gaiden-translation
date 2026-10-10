@@ -80,7 +80,24 @@ def install(build_dir, rpcs3, reinstall=False):
                 archives += 1
     if archives and reinstall:
         wipe_installed(rpcs3)
+    elif archives:
+        stamp_icon(rpcs3)
     print("deployed %d file(s)" % n)
+
+
+def stamp_icon(rpcs3):
+    """The game writes its own ICON0.PNG into the installed folder and gives
+    it the modification time of PSARC/Common.psarc.sdat (the first PsarcList
+    entry, whole seconds). On boot it stats that icon and shows the
+    'corrupted' message if the stamp no longer matches the disc archive, so
+    re-stamp it after every deploy (found 2026-10-09 after Common changed)."""
+    gd = os.path.join(rpcs3, "dev_hdd0", "game", SERIAL)
+    icon = os.path.join(gd, "ICON0.PNG")
+    common = os.path.join(gd, "USRDIR", "PSARC", "Common.psarc.sdat")
+    if os.path.exists(icon) and os.path.exists(common):
+        t = int(os.stat(common).st_mtime)
+        os.utime(icon, (t, t))
+        print("  re-stamped ICON0.PNG with Common's mtime")
 
 
 def rollback(rpcs3, pristine):

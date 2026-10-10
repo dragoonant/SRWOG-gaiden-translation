@@ -1,0 +1,306 @@
+{
+ "texture": "Common/Dat/Font/exFont01.bin",
+ "tool": "exfont_text.py",
+ "note": "exFont01 is a sprite sheet (only ASCII/digits are real glyphs). Boxes are exclusive ink bounds; the game frames each sprite by fixed UV rectangles so the English stays inside the original bounds. Abbreviations are logged in choices.md.",
+ "font": "bahnschrift.ttf",
+ "variation": "Condensed",
+ "labels": [
+  {
+   "box": [
+    3,
+    1587,
+    120,
+    1617
+   ],
+   "jp": "援護攻撃",
+   "en": "SUP ATK",
+   "fill": [
+    255,
+    50,
+    50
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "italic": true,
+   "variation": "Bold"
+  },
+  {
+   "box": [
+    3,
+    1710,
+    112,
+    1741
+   ],
+   "jp": "援護防御",
+   "en": "SUP DEF",
+   "fill": [
+    50,
+    128,
+    255
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "italic": true,
+   "variation": "Bold"
+  },
+  {
+   "box": [
+    1,
+    1679,
+    71,
+    1700
+   ],
+   "jp": "援護攻撃",
+   "en": "SUP ATK",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "box": [
+    183,
+    429,
+    217,
+    449
+   ],
+   "jp": "援攻",
+   "en": "S.ATK",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    30,
+    30,
+    30
+   ]
+  },
+  {
+   "box": [
+    2,
+    455,
+    37,
+    474
+   ],
+   "jp": "援防",
+   "en": "S.DEF",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    30,
+    30,
+    30
+   ]
+  },
+  {
+   "box": [
+    1,
+    620,
+    48,
+    651
+   ],
+   "jp": "合体",
+   "en": "COMBINE",
+   "fill": [
+    251,
+    115,
+    4
+   ],
+   "outline": [
+    40,
+    15,
+    0
+   ],
+   "italic": true,
+   "variation": "Bold"
+  },
+  {
+   "box": [
+    207,
+    391,
+    232,
+    412
+   ],
+   "jp": "合体 (icon)",
+   "en": "CMB",
+   "fill": [
+    235,
+    235,
+    235
+   ],
+   "outline": [
+    47,
+    48,
+    50
+   ],
+   "inner": true
+  },
+  {
+   "box": [
+    4,
+    1093,
+    29,
+    1128
+   ],
+   "jp": "攻 (badge)",
+   "en": "ATK",
+   "fill": [
+    251,
+    251,
+    249
+   ],
+   "outline": [
+    29,
+    26,
+    34
+   ],
+   "inner": true
+  },
+  {
+   "box": [
+    54,
+    1093,
+    89,
+    1128
+   ],
+   "jp": "反 (badge)",
+   "en": "CTR",
+   "fill": [
+    251,
+    251,
+    249
+   ],
+   "outline": [
+    29,
+    26,
+    34
+   ],
+   "inner": true
+  },
+  {
+   "box": [
+    210,
+    1534,
+    246,
+    1568
+   ],
+   "jp": "反 (badge)",
+   "en": "CTR",
+   "fill": [
+    251,
+    251,
+    249
+   ],
+   "outline": [
+    29,
+    27,
+    26
+   ],
+   "inner": true
+  },
+  {
+   "box": [
+    208,
+    1583,
+    243,
+    1616
+   ],
+   "jp": "攻 (badge)",
+   "en": "ATK",
+   "fill": [
+    251,
+    251,
+    249
+   ],
+   "outline": [
+    29,
+    27,
+    26
+   ],
+   "inner": true
+  },
+  {
+   "box": [
+    1,
+    1155,
+    51,
+    1174
+   ],
+   "jp": "再攻撃",
+   "en": "RE-ATK",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "box": [
+    140,
+    1343,
+    186,
+    1372
+   ],
+   "jp": "不参加",
+   "en": "ABSENT",
+   "fill": [
+    251,
+    248,
+    220
+   ],
+   "outline": [
+    55,
+    18,
+    0
+   ],
+   "cross": [
+    251,
+    83,
+    0
+   ]
+  },
+  {
+   "box": [
+    171,
+    1508,
+    195,
+    1530
+   ],
+   "jp": "例 (badge)",
+   "en": "EX",
+   "fill": [
+    251,
+    251,
+    251
+   ],
+   "outline": [
+    112,
+    36,
+    2
+   ],
+   "inner": true
+  }
+ ]
+}

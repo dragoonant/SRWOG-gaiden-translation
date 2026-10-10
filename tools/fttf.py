@@ -43,8 +43,9 @@ class Font:
         data_rel = struct.unpack_from(">I", self.d, t + 0x10)[0]
         self.fmt = self.d[t + 0x18]
         self.tw, self.th = struct.unpack_from(">HH", self.d, t + 0x20)
-        if self.fmt != 0x88:
-            raise ValueError("texture format 0x%02X not DXT5" % self.fmt)
+        self.dxt3 = (self.fmt & 0x9F) == 0x87          # 0xA7 = DXT3, linear
+        if self.fmt not in (0x88, 0xA8) and not self.dxt3:
+            raise ValueError("texture format 0x%02X not DXT3/DXT5" % self.fmt)
         self.data = t + data_rel
         self.bw = self.tw // 4          # blocks per texture row
 
@@ -65,6 +66,18 @@ class Font:
     # DXT5 ---------------------------------------------------------------
     def block_off(self, bx, by):
         return self.data + 16 * (by * self.bw + bx)
+
+    @staticmethod
+    def decode_block_dxt3(b):
+        alpha = [((b[i // 2] >> (4 * (i % 2))) & 0xF) * 17 for i in range(16)]
+        c0, c1 = struct.unpack_from("<HH", b, 8)
+
+        def rgb(c):
+            return ((c >> 11) * 255 // 31, ((c >> 5) & 63) * 255 // 63, (c & 31) * 255 // 31)
+        p0, p1 = rgb(c0), rgb(c1)
+        pal = [p0, p1, tuple((2 * x + y) // 3 for x, y in zip(p0, p1)), tuple((x + 2 * y) // 3 for x, y in zip(p0, p1))]
+        cbits = struct.unpack_from("<I", b, 12)[0]
+        return [pal[(cbits >> (2 * i)) & 3] + (alpha[i],) for i in range(16)]
 
     @staticmethod
     def decode_block(b):
@@ -126,7 +139,8 @@ class Font:
         for by in range(h // 4):
             for bx in range(w // 4):
                 o = self.block_off(bx0 + bx, by0 + by)
-                pix = self.decode_block(self.d[o:o + 16])
+                blk = self.d[o:o + 16]
+                pix = self.decode_block_dxt3(blk) if self.dxt3 else self.decode_block(blk)
                 for i, p in enumerate(pix):
                     img[by * 4 + i // 4][bx * 4 + i % 4] = p
         return img

@@ -1,0 +1,1806 @@
+{
+ "file": "landinfo.mti",
+ "format": "MTI",
+ "strings": [
+  {
+   "id": 0,
+   "jp": "領域外@進入不可",
+   "en": "Out of Bounds@no entry",
+   "budget": 63
+  },
+  {
+   "id": 1,
+   "jp": "宇宙空間@",
+   "en": "Space@",
+   "budget": 63
+  },
+  {
+   "id": 2,
+   "jp": "宇宙空間@地球（近）",
+   "en": "Space@Earth (near)",
+   "budget": 63
+  },
+  {
+   "id": 3,
+   "jp": "宇宙空間@地球（遠）",
+   "en": "Space@Earth (far)",
+   "budget": 63
+  },
+  {
+   "id": 4,
+   "jp": "宇宙空間@月（近）",
+   "en": "Space@Moon (near)",
+   "budget": 63
+  },
+  {
+   "id": 5,
+   "jp": "宇宙空間@月（遠）",
+   "en": "Space@Moon (far)",
+   "budget": 63
+  },
+  {
+   "id": 6,
+   "jp": "宇宙空間@コロニー",
+   "en": "Space@Colony",
+   "budget": 63
+  },
+  {
+   "id": 7,
+   "jp": "宇宙空間@コルムナ",
+   "en": "Space@Columna",
+   "budget": 63
+  },
+  {
+   "id": 8,
+   "jp": "宇宙空間@ヘブン・クリスマス",
+   "en": "Space@Heaven Christmas",
+   "budget": 63
+  },
+  {
+   "id": 9,
+   "jp": "宇宙空間@地球成層圏",
+   "en": "Space@stratosphere",
+   "budget": 63
+  },
+  {
+   "id": 10,
+   "jp": "宇宙空間@地球成層圏バリア有り",
+   "en": "Space@stratosphere, barrier",
+   "budget": 63
+  },
+  {
+   "id": 11,
+   "jp": "暗礁宙域@",
+   "en": "Debris Field@",
+   "budget": 63
+  },
+  {
+   "id": 12,
+   "jp": "残骸@",
+   "en": "Wreckage@",
+   "budget": 63
+  },
+  {
+   "id": 13,
+   "jp": "コロニー@",
+   "en": "Colony@",
+   "budget": 63
+  },
+  {
+   "id": 14,
+   "jp": "コルムナ@",
+   "en": "Columna@",
+   "budget": 63
+  },
+  {
+   "id": 15,
+   "jp": "宇宙空間@クロスゲート",
+   "en": "Space@Cross Gate",
+   "budget": 63
+  },
+  {
+   "id": 16,
+   "jp": "クロスゲート@クロスゲート上",
+   "en": "Cross Gate@on Cross Gate",
+   "budget": 63
+  },
+  {
+   "id": 17,
+   "jp": "暗礁宙域@ヘブン・クリスマス",
+   "en": "Debris Field@Heaven Christmas",
+   "budget": 63
+  },
+  {
+   "id": 18,
+   "jp": "残骸@ヘブン・クリスマス",
+   "en": "Wreckage@Heaven Christmas",
+   "budget": 63
+  },
+  {
+   "id": 19,
+   "jp": "暗礁宙域@地球（遠）",
+   "en": "Debris Field@Earth (far)",
+   "budget": 63
+  },
+  {
+   "id": 20,
+   "jp": "残骸@地球（遠）",
+   "en": "Wreckage@Earth (far)",
+   "budget": 63
+  },
+  {
+   "id": 21,
+   "jp": "暗礁宙域@月（遠）",
+   "en": "Debris Field@Moon (far)",
+   "budget": 63
+  },
+  {
+   "id": 22,
+   "jp": "残骸@月（遠）",
+   "en": "Wreckage@Moon (far)",
+   "budget": 63
+  },
+  {
+   "id": 23,
+   "jp": "月面@平地",
+   "en": "Lunar Surface@flat",
+   "budget": 63
+  },
+  {
+   "id": 24,
+   "jp": "月面@ムーンクレイドル",
+   "en": "Lunar Surface@Moon Cradle",
+   "budget": 63
+  },
+  {
+   "id": 25,
+   "jp": "クレーター@月面、内部",
+   "en": "Crater@lunar, inside",
+   "budget": 63
+  },
+  {
+   "id": 26,
+   "jp": "クレーター@月面、淵",
+   "en": "Crater@lunar, rim",
+   "budget": 63
+  },
+  {
+   "id": 27,
+   "jp": "クレバス@月面、飛行のみ",
+   "en": "Crevasse@lunar, fly only",
+   "budget": 63
+  },
+  {
+   "id": 28,
+   "jp": "月面都市@",
+   "en": "Lunar City@",
+   "budget": 63
+  },
+  {
+   "id": 29,
+   "jp": "月面都市@敷地",
+   "en": "Lunar City@grounds",
+   "budget": 63
+  },
+  {
+   "id": 30,
+   "jp": "ムーンクレイドル@",
+   "en": "Moon Cradle@",
+   "budget": 63
+  },
+  {
+   "id": 31,
+   "jp": "大気圏上層@バラルの園",
+   "en": "Upper Atmosphere@Garden of Baral",
+   "budget": 63
+  },
+  {
+   "id": 32,
+   "jp": "湖@バラルの園",
+   "en": "Lake@Garden of Baral",
+   "budget": 63
+  },
+  {
+   "id": 33,
+   "jp": "荒地@バラルの園",
+   "en": "Wasteland@Garden of Baral",
+   "budget": 63
+  },
+  {
+   "id": 34,
+   "jp": "神殿@バラルの園、進入不可",
+   "en": "Temple@Garden of Baral, no entry",
+   "budget": 63
+  },
+  {
+   "id": 35,
+   "jp": "平原@バラルの園",
+   "en": "Plains@Garden of Baral",
+   "budget": 63
+  },
+  {
+   "id": 36,
+   "jp": "荒地@火星",
+   "en": "Wasteland@Mars",
+   "budget": 63
+  },
+  {
+   "id": 37,
+   "jp": "崖@火星、荒地",
+   "en": "Cliff@Mars, wasteland",
+   "budget": 63
+  },
+  {
+   "id": 38,
+   "jp": "クレバス@火星、飛行のみ",
+   "en": "Crevasse@Mars, fly only",
+   "budget": 63
+  },
+  {
+   "id": 39,
+   "jp": "宇宙空間@地球（最遠）",
+   "en": "Space@Earth (farthest)",
+   "budget": 63
+  },
+  {
+   "id": 40,
+   "jp": "暗礁宙域@地球（最遠）",
+   "en": "Debris Field@Earth (farthest)",
+   "budget": 63
+  },
+  {
+   "id": 41,
+   "jp": "残骸@地球（最遠）",
+   "en": "Wreckage@Earth (farthest)",
+   "budget": 63
+  },
+  {
+   "id": 42,
+   "jp": "宇宙空間@月（最遠）",
+   "en": "Space@Moon (farthest)",
+   "budget": 63
+  },
+  {
+   "id": 43,
+   "jp": "暗礁宙域@月（最遠）",
+   "en": "Debris Field@Moon (farthest)",
+   "budget": 63
+  },
+  {
+   "id": 44,
+   "jp": "残骸@月（最遠）",
+   "en": "Wreckage@Moon (farthest)",
+   "budget": 63
+  },
+  {
+   "id": 45,
+   "jp": "神殿@バラルの園",
+   "en": "Temple@Garden of Baral",
+   "budget": 63
+  },
+  {
+   "id": 46,
+   "jp": "奈落@デザイア、進入禁止",
+   "en": "Abyss@Desire, no entry",
+   "budget": 63
+  },
+  {
+   "id": 47,
+   "jp": "基地施設@ヘブン・クリスマス内部",
+   "en": "Base Facility@inside Heaven Christmas",
+   "budget": 63
+  },
+  {
+   "id": 48,
+   "jp": "エネルギータンク@ヘブン・クリス",
+   "en": "Energy Tank@Heaven Christmas",
+   "budget": 63
+  },
+  {
+   "id": 49,
+   "jp": "壁@ヘブン・クリスマス内部、進入",
+   "en": "Wall@inside Heaven Christmas, no entry",
+   "budget": 63
+  },
+  {
+   "id": 50,
+   "jp": "基地施設@要塞内部壱床１",
+   "en": "Base Facility@fortress 1 floor 1",
+   "budget": 63
+  },
+  {
+   "id": 51,
+   "jp": "基地施設@要塞内部壱床２",
+   "en": "Base Facility@fortress 1 floor 2",
+   "budget": 63
+  },
+  {
+   "id": 52,
+   "jp": "エネルギータンク@要塞内部壱",
+   "en": "Energy Tank@fortress 1",
+   "budget": 63
+  },
+  {
+   "id": 53,
+   "jp": "壁@要塞内部壱",
+   "en": "Wall@fortress 1",
+   "budget": 63
+  },
+  {
+   "id": 54,
+   "jp": "基地施設@要塞内部弐床１",
+   "en": "Base Facility@fortress 2 floor 1",
+   "budget": 63
+  },
+  {
+   "id": 55,
+   "jp": "基地施設@要塞内部弐床２",
+   "en": "Base Facility@fortress 2 floor 2",
+   "budget": 63
+  },
+  {
+   "id": 56,
+   "jp": "エネルギータンク@要塞内部弐",
+   "en": "Energy Tank@fortress 2",
+   "budget": 63
+  },
+  {
+   "id": 57,
+   "jp": "壁@要塞内部弐",
+   "en": "Wall@fortress 2",
+   "budget": 63
+  },
+  {
+   "id": 58,
+   "jp": "遺跡@デザイア床",
+   "en": "Ruins@Desire floor",
+   "budget": 63
+  },
+  {
+   "id": 59,
+   "jp": "エネルギータンク@デザイア",
+   "en": "Energy Tank@Desire",
+   "budget": 63
+  },
+  {
+   "id": 60,
+   "jp": "壁@デザイア、進入不可",
+   "en": "Wall@Desire, no entry",
+   "budget": 63
+  },
+  {
+   "id": 61,
+   "jp": "奈落@デザイア",
+   "en": "Abyss@Desire",
+   "budget": 63
+  },
+  {
+   "id": 62,
+   "jp": "クロスゲート@デザイア",
+   "en": "Cross Gate@Desire",
+   "budget": 63
+  },
+  {
+   "id": 63,
+   "jp": "遺跡@デザイア床、進入不可",
+   "en": "Ruins@Desire floor, no entry",
+   "budget": 63
+  },
+  {
+   "id": 64,
+   "jp": "クロスゲート@デザイア、進入不可",
+   "en": "Cross Gate@Desire, no entry",
+   "budget": 63
+  },
+  {
+   "id": 65,
+   "jp": "遺跡@デザイア床２",
+   "en": "Ruins@Desire floor 2",
+   "budget": 63
+  },
+  {
+   "id": 66,
+   "jp": "海@海溝部",
+   "en": "Sea@trench",
+   "budget": 63
+  },
+  {
+   "id": 67,
+   "jp": "海@深",
+   "en": "Sea@deep",
+   "budget": 63
+  },
+  {
+   "id": 68,
+   "jp": "海@浅",
+   "en": "Sea@shallow",
+   "budget": 63
+  },
+  {
+   "id": 69,
+   "jp": "湖@深",
+   "en": "Lake@deep",
+   "budget": 63
+  },
+  {
+   "id": 70,
+   "jp": "湖@浅",
+   "en": "Lake@shallow",
+   "budget": 63
+  },
+  {
+   "id": 71,
+   "jp": "池@",
+   "en": "Pond@",
+   "budget": 63
+  },
+  {
+   "id": 72,
+   "jp": "河川@草原",
+   "en": "River@grassland",
+   "budget": 63
+  },
+  {
+   "id": 73,
+   "jp": "河川@街中、水没しない",
+   "en": "River@town, no flooding",
+   "budget": 63
+  },
+  {
+   "id": 74,
+   "jp": "河川@荒野",
+   "en": "River@wilderness",
+   "budget": 63
+  },
+  {
+   "id": 75,
+   "jp": "堀@ソルティス神殿",
+   "en": "Moat@Solatis Temple",
+   "budget": 63
+  },
+  {
+   "id": 76,
+   "jp": "地底湖@ラギアス系鍾乳洞内部",
+   "en": "Underground Lake@La Gias cave interior",
+   "budget": 63
+  },
+  {
+   "id": 77,
+   "jp": "海@ラギアス、深",
+   "en": "Sea@La Gias, deep",
+   "budget": 63
+  },
+  {
+   "id": 78,
+   "jp": "海@ラギアス、浅",
+   "en": "Sea@La Gias, shallow",
+   "budget": 63
+  },
+  {
+   "id": 79,
+   "jp": "湖@ラギアス、深",
+   "en": "Lake@La Gias, deep",
+   "budget": 63
+  },
+  {
+   "id": 80,
+   "jp": "湖@ラギアス、浅",
+   "en": "Lake@La Gias, shallow",
+   "budget": 63
+  },
+  {
+   "id": 81,
+   "jp": "河川@ラギアス",
+   "en": "River@La Gias",
+   "budget": 63
+  },
+  {
+   "id": 82,
+   "jp": "平原@草原",
+   "en": "Plains@grassland",
+   "budget": 63
+  },
+  {
+   "id": 83,
+   "jp": "平原@街中",
+   "en": "Plains@town",
+   "budget": 63
+  },
+  {
+   "id": 84,
+   "jp": "平原@海岸",
+   "en": "Plains@coast",
+   "budget": 63
+  },
+  {
+   "id": 85,
+   "jp": "荒地@",
+   "en": "Wasteland@",
+   "budget": 63
+  },
+  {
+   "id": 86,
+   "jp": "荒地@海岸",
+   "en": "Wasteland@coast",
+   "budget": 63
+  },
+  {
+   "id": 87,
+   "jp": "砂地@平原",
+   "en": "Sand@plains",
+   "budget": 63
+  },
+  {
+   "id": 88,
+   "jp": "砂地@海岸",
+   "en": "Sand@coast",
+   "budget": 63
+  },
+  {
+   "id": 89,
+   "jp": "砂漠@",
+   "en": "Desert@",
+   "budget": 63
+  },
+  {
+   "id": 90,
+   "jp": "林@中程度の森",
+   "en": "Woods@medium forest",
+   "budget": 63
+  },
+  {
+   "id": 91,
+   "jp": "森@",
+   "en": "Forest@",
+   "budget": 63
+  },
+  {
+   "id": 92,
+   "jp": "森@街中",
+   "en": "Forest@town",
+   "budget": 63
+  },
+  {
+   "id": 93,
+   "jp": "崖@荒地",
+   "en": "Cliff@wasteland",
+   "budget": 63
+  },
+  {
+   "id": 94,
+   "jp": "山@草原",
+   "en": "Mountain@grassland",
+   "budget": 63
+  },
+  {
+   "id": 95,
+   "jp": "山@荒地",
+   "en": "Mountain@wasteland",
+   "budget": 63
+  },
+  {
+   "id": 96,
+   "jp": "山@森",
+   "en": "Mountain@forest",
+   "budget": 63
+  },
+  {
+   "id": 97,
+   "jp": "道路@草原",
+   "en": "Road@grassland",
+   "budget": 63
+  },
+  {
+   "id": 98,
+   "jp": "道路@荒地",
+   "en": "Road@wasteland",
+   "budget": 63
+  },
+  {
+   "id": 99,
+   "jp": "道路@市街地",
+   "en": "Road@urban",
+   "budget": 63
+  },
+  {
+   "id": 100,
+   "jp": "道路@ビル街",
+   "en": "Road@downtown",
+   "budget": 63
+  },
+  {
+   "id": 101,
+   "jp": "道路@港湾",
+   "en": "Road@harbor",
+   "budget": 63
+  },
+  {
+   "id": 102,
+   "jp": "崖@平原",
+   "en": "Cliff@plains",
+   "budget": 63
+  },
+  {
+   "id": 103,
+   "jp": "高架橋@線路や高速道路",
+   "en": "Overpass@rails/highway",
+   "budget": 63
+  },
+  {
+   "id": 104,
+   "jp": "橋@",
+   "en": "Bridge@",
+   "budget": 63
+  },
+  {
+   "id": 105,
+   "jp": "橋@街中",
+   "en": "Bridge@town",
+   "budget": 63
+  },
+  {
+   "id": 106,
+   "jp": "ビル@",
+   "en": "Building@",
+   "budget": 63
+  },
+  {
+   "id": 107,
+   "jp": "高層ビル@飛行のみ",
+   "en": "Skyscraper@fly only",
+   "budget": 63
+  },
+  {
+   "id": 108,
+   "jp": "平地@市街地",
+   "en": "Flatland@urban",
+   "budget": 63
+  },
+  {
+   "id": 109,
+   "jp": "平地@港湾コンビナート",
+   "en": "Flatland@harbor complex",
+   "budget": 63
+  },
+  {
+   "id": 110,
+   "jp": "平地@港湾埠頭",
+   "en": "Flatland@harbor pier",
+   "budget": 63
+  },
+  {
+   "id": 111,
+   "jp": "市街地@建物、施設",
+   "en": "Urban Area@buildings",
+   "budget": 63
+  },
+  {
+   "id": 112,
+   "jp": "市街地@建物の敷地部分",
+   "en": "Urban Area@building grounds",
+   "budget": 63
+  },
+  {
+   "id": 113,
+   "jp": "港湾施設@コンビナート",
+   "en": "Harbor Facility@Complex",
+   "budget": 63
+  },
+  {
+   "id": 114,
+   "jp": "港湾施設@埠頭",
+   "en": "Harbor Facility@pier",
+   "budget": 63
+  },
+  {
+   "id": 115,
+   "jp": "塔@街中、飛行のみ",
+   "en": "Tower@town, fly only",
+   "budget": 63
+  },
+  {
+   "id": 116,
+   "jp": "浅草寺@",
+   "en": "Senso-ji@",
+   "budget": 63
+  },
+  {
+   "id": 117,
+   "jp": "浅草寺@敷地",
+   "en": "Senso-ji@grounds",
+   "budget": 63
+  },
+  {
+   "id": 118,
+   "jp": "遊園地@",
+   "en": "Amusement Park@",
+   "budget": 63
+  },
+  {
+   "id": 119,
+   "jp": "リクセント城@リクセント城敷地",
+   "en": "Riksent Castle@Riksent Castle grounds",
+   "budget": 63
+  },
+  {
+   "id": 120,
+   "jp": "リクセント城@飛行のみ",
+   "en": "Riksent Castle@fly only",
+   "budget": 63
+  },
+  {
+   "id": 121,
+   "jp": "城下街@リクセント",
+   "en": "Castle Town@Riksent",
+   "budget": 63
+  },
+  {
+   "id": 122,
+   "jp": "城下街@リクセント、敷地",
+   "en": "Castle Town@Riksent, grounds",
+   "budget": 63
+  },
+  {
+   "id": 123,
+   "jp": "城壁@リクセント",
+   "en": "Castle Wall@Riksent",
+   "budget": 63
+  },
+  {
+   "id": 124,
+   "jp": "蚩尤塚@",
+   "en": "Chiyou Mound@",
+   "budget": 63
+  },
+  {
+   "id": 125,
+   "jp": "蚩尤塚@階段部分",
+   "en": "Chiyou Mound@stairs",
+   "budget": 63
+  },
+  {
+   "id": 126,
+   "jp": "池@蚩尤塚（低）",
+   "en": "Pond@Chiyou Mound (low)",
+   "budget": 63
+  },
+  {
+   "id": 127,
+   "jp": "祠@蚩尤塚",
+   "en": "Shrine@Chiyou Mound",
+   "budget": 63
+  },
+  {
+   "id": 128,
+   "jp": "氷原@",
+   "en": "Ice Field@",
+   "budget": 63
+  },
+  {
+   "id": 129,
+   "jp": "氷原@南極・遺跡研究施設周辺",
+   "en": "Ice Field@Antarctic, near ruins facility",
+   "budget": 63
+  },
+  {
+   "id": 130,
+   "jp": "クレバス@南極、飛行のみ",
+   "en": "Crevasse@Antarctica, fly only",
+   "budget": 63
+  },
+  {
+   "id": 131,
+   "jp": "遺跡研究施設@南極",
+   "en": "Ruins Research Facility@Antarctica",
+   "budget": 63
+  },
+  {
+   "id": 132,
+   "jp": "平原@街中、欧風",
+   "en": "Plains@town, European",
+   "budget": 63
+  },
+  {
+   "id": 133,
+   "jp": "道路@市街地、欧風",
+   "en": "Road@urban, European",
+   "budget": 63
+  },
+  {
+   "id": 134,
+   "jp": "市街地@建物、施設、欧風",
+   "en": "Urban Area@buildings, European",
+   "budget": 63
+  },
+  {
+   "id": 135,
+   "jp": "市街地@建物の敷地部分、欧風",
+   "en": "Urban Area@building grounds, European",
+   "budget": 63
+  },
+  {
+   "id": 136,
+   "jp": "平地@市街地、欧風",
+   "en": "Flatland@urban, European",
+   "budget": 63
+  },
+  {
+   "id": 137,
+   "jp": "森@街中、欧風",
+   "en": "Forest@town, European",
+   "budget": 63
+  },
+  {
+   "id": 138,
+   "jp": "河川@街中、欧風、水没する",
+   "en": "River@town, European, floods",
+   "budget": 63
+  },
+  {
+   "id": 139,
+   "jp": "橋@街中、欧風",
+   "en": "Bridge@town, European",
+   "budget": 63
+  },
+  {
+   "id": 140,
+   "jp": "次元断層結界発生装置@魔法陣、北極",
+   "en": "Dimensional Rift Generator@magic circle, North Pole",
+   "budget": 63
+  },
+  {
+   "id": 141,
+   "jp": "基地施設@港湾",
+   "en": "Base Facility@harbor",
+   "budget": 63
+  },
+  {
+   "id": 142,
+   "jp": "基地@敷地、港湾",
+   "en": "Base@grounds, harbor",
+   "budget": 63
+  },
+  {
+   "id": 143,
+   "jp": "テスラ・ライヒ研究所@司令塔",
+   "en": "Tesla Reich Institute@control tower",
+   "budget": 63
+  },
+  {
+   "id": 144,
+   "jp": "研究所@テスラ研、敷地",
+   "en": "Laboratory@Tesla Inst., grounds",
+   "budget": 63
+  },
+  {
+   "id": 145,
+   "jp": "研究所施設@テスラ研",
+   "en": "Lab Facility@Tesla Inst.",
+   "budget": 63
+  },
+  {
+   "id": 146,
+   "jp": "基地@アビアノ基地、敷地",
+   "en": "Base@Aviano Base, grounds",
+   "budget": 63
+  },
+  {
+   "id": 147,
+   "jp": "基地施設@アビアノ基地",
+   "en": "Base Facility@Aviano Base",
+   "budget": 63
+  },
+  {
+   "id": 148,
+   "jp": "司令塔@アビアノ基地",
+   "en": "Control Tower@Aviano Base",
+   "budget": 63
+  },
+  {
+   "id": 149,
+   "jp": "基地@伊豆基地、敷地",
+   "en": "Base@Izu Base, grounds",
+   "budget": 63
+  },
+  {
+   "id": 150,
+   "jp": "基地施設@伊豆基地",
+   "en": "Base Facility@Izu Base",
+   "budget": 63
+  },
+  {
+   "id": 151,
+   "jp": "司令塔@伊豆基地",
+   "en": "Control Tower@Izu Base",
+   "budget": 63
+  },
+  {
+   "id": 152,
+   "jp": "基地@インジリスク基地、敷地",
+   "en": "Base@Indjirsk Base, grounds",
+   "budget": 63
+  },
+  {
+   "id": 153,
+   "jp": "基地施設@インジリスク基地",
+   "en": "Base Facility@Indjirsk Base",
+   "budget": 63
+  },
+  {
+   "id": 154,
+   "jp": "司令塔@インジリスク基地",
+   "en": "Control Tower@Indjirsk Base",
+   "budget": 63
+  },
+  {
+   "id": 155,
+   "jp": "基地@シュトゥットガルト基地、敷",
+   "en": "Base@Stuttgart Base, grounds",
+   "budget": 63
+  },
+  {
+   "id": 156,
+   "jp": "基地施設@シュトゥットガルト基地",
+   "en": "Base Facility@Stuttgart Base",
+   "budget": 63
+  },
+  {
+   "id": 157,
+   "jp": "司令塔@シュトゥットガルト基地",
+   "en": "Control Tower@Stuttgart Base",
+   "budget": 63
+  },
+  {
+   "id": 158,
+   "jp": "基地@ヒューストン基地、敷地",
+   "en": "Base@Houston Base, grounds",
+   "budget": 63
+  },
+  {
+   "id": 159,
+   "jp": "基地施設@ヒューストン基地",
+   "en": "Base Facility@Houston Base",
+   "budget": 63
+  },
+  {
+   "id": 160,
+   "jp": "司令塔@ヒューストン基地",
+   "en": "Control Tower@Houston Base",
+   "budget": 63
+  },
+  {
+   "id": 161,
+   "jp": "基地@ラングレー基地、敷地",
+   "en": "Base@Langley Base, grounds",
+   "budget": 63
+  },
+  {
+   "id": 162,
+   "jp": "基地施設@ラングレー基地",
+   "en": "Base Facility@Langley Base",
+   "budget": 63
+  },
+  {
+   "id": 163,
+   "jp": "司令塔@ラングレー基地",
+   "en": "Control Tower@Langley Base",
+   "budget": 63
+  },
+  {
+   "id": 164,
+   "jp": "基地@連邦軍基地１、敷地",
+   "en": "Base@Federation base1, grounds",
+   "budget": 63
+  },
+  {
+   "id": 165,
+   "jp": "基地施設@連邦軍基地１",
+   "en": "Base Facility@Federation base1",
+   "budget": 63
+  },
+  {
+   "id": 166,
+   "jp": "司令塔@連邦軍基地１",
+   "en": "Control Tower@Federation base1",
+   "budget": 63
+  },
+  {
+   "id": 167,
+   "jp": "基地@連邦軍基地２、敷地",
+   "en": "Base@Federation base2, grounds",
+   "budget": 63
+  },
+  {
+   "id": 168,
+   "jp": "基地施設@連邦軍基地２",
+   "en": "Base Facility@Federation base2",
+   "budget": 63
+  },
+  {
+   "id": 169,
+   "jp": "司令塔@連邦軍基地２",
+   "en": "Control Tower@Federation base2",
+   "budget": 63
+  },
+  {
+   "id": 170,
+   "jp": "基地@連邦軍基地３、敷地",
+   "en": "Base@Federation base3, grounds",
+   "budget": 63
+  },
+  {
+   "id": 171,
+   "jp": "基地施設@連邦軍基地３",
+   "en": "Base Facility@Federation base3",
+   "budget": 63
+  },
+  {
+   "id": 172,
+   "jp": "司令塔@連邦軍基地３",
+   "en": "Control Tower@Federation base3",
+   "budget": 63
+  },
+  {
+   "id": 173,
+   "jp": "基地@連邦軍基地４、敷地",
+   "en": "Base@Federation base4, grounds",
+   "budget": 63
+  },
+  {
+   "id": 174,
+   "jp": "基地施設@連邦軍基地４",
+   "en": "Base Facility@Federation base4",
+   "budget": 63
+  },
+  {
+   "id": 175,
+   "jp": "司令塔@連邦軍基地４",
+   "en": "Control Tower@Federation base4",
+   "budget": 63
+  },
+  {
+   "id": 176,
+   "jp": "基地@連邦軍基地５、敷地",
+   "en": "Base@Federation base5, grounds",
+   "budget": 63
+  },
+  {
+   "id": 177,
+   "jp": "基地施設@連邦軍基地５",
+   "en": "Base Facility@Federation base5",
+   "budget": 63
+  },
+  {
+   "id": 178,
+   "jp": "司令塔@連邦軍基地５",
+   "en": "Control Tower@Federation base5",
+   "budget": 63
+  },
+  {
+   "id": 179,
+   "jp": "基地@グランド・クリスマス、敷地",
+   "en": "Base@Grand Christmas, grounds",
+   "budget": 63
+  },
+  {
+   "id": 180,
+   "jp": "基地施設@グランド・クリスマス",
+   "en": "Base Facility@Grand Christmas",
+   "budget": 63
+  },
+  {
+   "id": 181,
+   "jp": "司令塔@グランド・クリスマス",
+   "en": "Control Tower@Grand Christmas",
+   "budget": 63
+  },
+  {
+   "id": 182,
+   "jp": "クレーター@Ｇクリスマス、淵",
+   "en": "Crater@G. Christmas, rim",
+   "budget": 63
+  },
+  {
+   "id": 183,
+   "jp": "工場@オルレアン工場、敷地",
+   "en": "Factory@Orleans Factory, grounds",
+   "budget": 63
+  },
+  {
+   "id": 184,
+   "jp": "工場施設@オルレアン工場",
+   "en": "Factory Facility@Orleans Factory",
+   "budget": 63
+  },
+  {
+   "id": 185,
+   "jp": "池@蚩尤塚（低）",
+   "en": "Pond@Chiyou Mound (low)",
+   "budget": 63
+  },
+  {
+   "id": 186,
+   "jp": "次元断層結界発生装置@進入不可",
+   "en": "Dimensional Rift Generator@no entry",
+   "budget": 63
+  },
+  {
+   "id": 189,
+   "jp": "崖@平原（夜）",
+   "en": "Cliff@plains (night)",
+   "budget": 63
+  },
+  {
+   "id": 190,
+   "jp": "山@森（夜）",
+   "en": "Mountain@forest (night)",
+   "budget": 63
+  },
+  {
+   "id": 191,
+   "jp": "海@深（夜）",
+   "en": "Sea@deep (night)",
+   "budget": 63
+  },
+  {
+   "id": 192,
+   "jp": "海@浅（夜）",
+   "en": "Sea@shallow (night)",
+   "budget": 63
+  },
+  {
+   "id": 193,
+   "jp": "平原@草原（夜）",
+   "en": "Plains@grassland (night)",
+   "budget": 63
+  },
+  {
+   "id": 194,
+   "jp": "平原@海岸（夜）",
+   "en": "Plains@coast (night)",
+   "budget": 63
+  },
+  {
+   "id": 195,
+   "jp": "荒地@（夜）",
+   "en": "Wasteland@(night)",
+   "budget": 63
+  },
+  {
+   "id": 196,
+   "jp": "荒地@海岸（夜）",
+   "en": "Wasteland@coast (night)",
+   "budget": 63
+  },
+  {
+   "id": 197,
+   "jp": "森@（夜）",
+   "en": "Forest@(night)",
+   "budget": 63
+  },
+  {
+   "id": 198,
+   "jp": "崖@荒地（夜）",
+   "en": "Cliff@wasteland (night)",
+   "budget": 63
+  },
+  {
+   "id": 199,
+   "jp": "道路@草原（夜）",
+   "en": "Road@grassland (night)",
+   "budget": 63
+  },
+  {
+   "id": 200,
+   "jp": "道路@荒地（夜）",
+   "en": "Road@wasteland (night)",
+   "budget": 63
+  },
+  {
+   "id": 201,
+   "jp": "橋@（夜）",
+   "en": "Bridge@(night)",
+   "budget": 63
+  },
+  {
+   "id": 202,
+   "jp": "アースクレイドル@陥没（夜）",
+   "en": "Earth Cradle@sinkhole (night)",
+   "budget": 63
+  },
+  {
+   "id": 203,
+   "jp": "基地施設@港湾（夜）",
+   "en": "Base Facility@harbor (night)",
+   "budget": 63
+  },
+  {
+   "id": 204,
+   "jp": "基地@敷地、港湾（夜）",
+   "en": "Base@grounds, harbor (night)",
+   "budget": 63
+  },
+  {
+   "id": 205,
+   "jp": "基地@伊豆基地、敷地（夜）",
+   "en": "Base@Izu Base, grounds (night)",
+   "budget": 63
+  },
+  {
+   "id": 206,
+   "jp": "基地施設@伊豆基地（夜）",
+   "en": "Base Facility@Izu Base (night)",
+   "budget": 63
+  },
+  {
+   "id": 207,
+   "jp": "司令塔@伊豆基地（夜）",
+   "en": "Control Tower@Izu Base (night)",
+   "budget": 63
+  },
+  {
+   "id": 208,
+   "jp": "基地@シュトゥットガルト基地、敷地（夜）",
+   "en": "Base@Stuttgart Base, grounds (night)",
+   "budget": 63
+  },
+  {
+   "id": 209,
+   "jp": "基地施設@シュトゥットガルト基地（夜）",
+   "en": "Base Facility@Stuttgart Base (night)",
+   "budget": 63
+  },
+  {
+   "id": 210,
+   "jp": "司令塔@シュトゥットガルト基地（夜）",
+   "en": "Control Tower@Stuttgart Base (night)",
+   "budget": 63
+  },
+  {
+   "id": 211,
+   "jp": "基地@ラングレー基地、敷地（夜）",
+   "en": "Base@Langley Base, grounds (night)",
+   "budget": 63
+  },
+  {
+   "id": 212,
+   "jp": "基地施設@ラングレー基地（夜）",
+   "en": "Base Facility@Langley Base (night)",
+   "budget": 63
+  },
+  {
+   "id": 213,
+   "jp": "司令塔@ラングレー基地（夜）",
+   "en": "Control Tower@Langley Base (night)",
+   "budget": 63
+  },
+  {
+   "id": 214,
+   "jp": "基地@グランド・クリスマス、敷地 （夜）",
+   "en": "Base@Grand Christmas, grounds (night)",
+   "budget": 63
+  },
+  {
+   "id": 215,
+   "jp": "基地施設@グランド・クリスマス（夜）",
+   "en": "Base Facility@Grand Christmas (night)",
+   "budget": 63
+  },
+  {
+   "id": 216,
+   "jp": "司令塔@グランド・クリスマス （夜）",
+   "en": "Control Tower@Grand Christmas (night)",
+   "budget": 63
+  },
+  {
+   "id": 217,
+   "jp": "クレーター@Ｇクリスマス、淵（夜）",
+   "en": "Crater@G. Christmas, rim (night)",
+   "budget": 63
+  },
+  {
+   "id": 218,
+   "jp": "平原@街中（夜）",
+   "en": "Plains@town (night)",
+   "budget": 63
+  },
+  {
+   "id": 219,
+   "jp": "森@街中（夜）",
+   "en": "Forest@town (night)",
+   "budget": 63
+  },
+  {
+   "id": 220,
+   "jp": "道路@ビル街（夜）",
+   "en": "Road@downtown (night)",
+   "budget": 63
+  },
+  {
+   "id": 221,
+   "jp": "高架橋@線路や高速道路（夜）",
+   "en": "Overpass@rails/highway (night)",
+   "budget": 63
+  },
+  {
+   "id": 222,
+   "jp": "ビル@（夜）",
+   "en": "Building@(night)",
+   "budget": 63
+  },
+  {
+   "id": 223,
+   "jp": "市街地@建物、施設（夜）",
+   "en": "Urban Area@buildings (night)",
+   "budget": 63
+  },
+  {
+   "id": 224,
+   "jp": "市街地@建物の敷地部分（夜）",
+   "en": "Urban Area@building grounds (night)",
+   "budget": 63
+  },
+  {
+   "id": 225,
+   "jp": "神殿@ラギアス系神殿内部",
+   "en": "Temple@La Gias temple interior",
+   "budget": 63
+  },
+  {
+   "id": 226,
+   "jp": "神殿@ラギアス系神殿内部六芒星",
+   "en": "Temple@La Gias temple hexagram",
+   "budget": 63
+  },
+  {
+   "id": 227,
+   "jp": "奈落@ラギアス系神殿内部",
+   "en": "Abyss@La Gias temple interior",
+   "budget": 63
+  },
+  {
+   "id": 228,
+   "jp": "壁@ラギアス系神殿内部、進入不可",
+   "en": "Wall@La Gias temple interior, no entry",
+   "budget": 63
+  },
+  {
+   "id": 229,
+   "jp": "鍾乳洞@ラギアス系鍾乳洞内部",
+   "en": "Limestone Cave@La Gias cave interior",
+   "budget": 63
+  },
+  {
+   "id": 230,
+   "jp": "壁@ラギアス系鍾乳洞内部、進入不",
+   "en": "Wall@La Gias cave interior, no entry",
+   "budget": 63
+  },
+  {
+   "id": 231,
+   "jp": "神殿@ヴォルクルス神殿内部",
+   "en": "Temple@Volkruss temple interior",
+   "budget": 63
+  },
+  {
+   "id": 232,
+   "jp": "奈落@ヴォルクルス神殿内部",
+   "en": "Abyss@Volkruss temple interior",
+   "budget": 63
+  },
+  {
+   "id": 238,
+   "jp": "平原@ラギアス、荒地（草）",
+   "en": "Plains@La Gias, wasteland (grass)",
+   "budget": 63
+  },
+  {
+   "id": 239,
+   "jp": "平原@ラギアス、草原",
+   "en": "Plains@La Gias, grassland",
+   "budget": 63
+  },
+  {
+   "id": 240,
+   "jp": "平原@ラギアス、海岸",
+   "en": "Plains@La Gias, coast",
+   "budget": 63
+  },
+  {
+   "id": 241,
+   "jp": "荒地@ラギアス",
+   "en": "Wasteland@La Gias",
+   "budget": 63
+  },
+  {
+   "id": 242,
+   "jp": "荒地@ラギアス、海岸",
+   "en": "Wasteland@La Gias, coast",
+   "budget": 63
+  },
+  {
+   "id": 243,
+   "jp": "崖@ラギアス、荒地",
+   "en": "Cliff@La Gias, wasteland",
+   "budget": 63
+  },
+  {
+   "id": 244,
+   "jp": "砂地@ラギアス、海岸",
+   "en": "Sand@La Gias, coast",
+   "budget": 63
+  },
+  {
+   "id": 245,
+   "jp": "林@ラギアス、中程度の森",
+   "en": "Woods@La Gias, medium forest",
+   "budget": 63
+  },
+  {
+   "id": 246,
+   "jp": "森@ラギアス",
+   "en": "Forest@La Gias",
+   "budget": 63
+  },
+  {
+   "id": 247,
+   "jp": "山@ラギアス、草原",
+   "en": "Mountain@La Gias, grassland",
+   "budget": 63
+  },
+  {
+   "id": 248,
+   "jp": "山@ラギアス、森",
+   "en": "Mountain@La Gias, forest",
+   "budget": 63
+  },
+  {
+   "id": 249,
+   "jp": "山@ラギアス、荒地",
+   "en": "Mountain@La Gias, wasteland",
+   "budget": 63
+  },
+  {
+   "id": 250,
+   "jp": "街@ラギアス",
+   "en": "Town@La Gias",
+   "budget": 63
+  },
+  {
+   "id": 251,
+   "jp": "ソラティス神殿@ラギアス",
+   "en": "Solatis Temple@La Gias",
+   "budget": 63
+  },
+  {
+   "id": 252,
+   "jp": "ソラティス神殿@ラギアス、進入不",
+   "en": "Solatis Temple@La Gias, no entry",
+   "budget": 63
+  },
+  {
+   "id": 253,
+   "jp": "胞子の谷@ラギアス",
+   "en": "Spore Valley@La Gias",
+   "budget": 63
+  },
+  {
+   "id": 254,
+   "jp": "胞子の谷@ラギアス、階段部分",
+   "en": "Spore Valley@La Gias, stairs",
+   "budget": 63
+  },
+  {
+   "id": 255,
+   "jp": "王宮@ラギアス",
+   "en": "Royal Palace@La Gias",
+   "budget": 63
+  },
+  {
+   "id": 256,
+   "jp": "街@ラギアス、道路と平地",
+   "en": "Town@La Gias, road and flat",
+   "budget": 63
+  },
+  {
+   "id": 257,
+   "jp": "セブ神殿@ラギアス",
+   "en": "Sev Temple@La Gias",
+   "budget": 63
+  },
+  {
+   "id": 258,
+   "jp": "セブ神殿@ラギアス、進入不",
+   "en": "Sev Temple@La Gias, no entry",
+   "budget": 63
+  },
+  {
+   "id": 259,
+   "jp": "拠点@ラギアス",
+   "en": "Stronghold@La Gias",
+   "budget": 63
+  },
+  {
+   "id": 260,
+   "jp": "崖@ラギアス、草原",
+   "en": "Cliff@La Gias, grassland",
+   "budget": 63
+  },
+  {
+   "id": 261,
+   "jp": "胞子の谷@ラギアス、荒地",
+   "en": "Spore Valley@La Gias, wasteland",
+   "budget": 63
+  },
+  {
+   "id": 265,
+   "jp": "テスラ・ライヒ研究所@司令塔（夜）",
+   "en": "Tesla Reich Institute@control tower (night)",
+   "budget": 63
+  },
+  {
+   "id": 266,
+   "jp": "研究所@テスラ研、敷地（夜）",
+   "en": "Laboratory@Tesla Inst., grounds (night)",
+   "budget": 63
+  },
+  {
+   "id": 267,
+   "jp": "研究所施設@テスラ研（夜）",
+   "en": "Lab Facility@Tesla Inst. (night)",
+   "budget": 63
+  },
+  {
+   "id": 268,
+   "jp": "山@草原（夜）",
+   "en": "Mountain@grassland (night)",
+   "budget": 63
+  },
+  {
+   "id": 269,
+   "jp": "山@荒地（夜）",
+   "en": "Mountain@wasteland (night)",
+   "budget": 63
+  },
+  {
+   "id": 270,
+   "jp": "砂地@海岸（夜）",
+   "en": "Sand@coast (night)",
+   "budget": 63
+  },
+  {
+   "id": 271,
+   "jp": "砂地@平原（夜）",
+   "en": "Sand@plains (night)",
+   "budget": 63
+  },
+  {
+   "id": 275,
+   "jp": "道路@浅草寺付近",
+   "en": "Road@near Senso-ji",
+   "budget": 63
+  },
+  {
+   "id": 276,
+   "jp": "道路@浅草",
+   "en": "Road@Asakusa",
+   "budget": 63
+  },
+  {
+   "id": 277,
+   "jp": "市街地@建物や施設、浅草",
+   "en": "Urban Area@buildings, Asakusa",
+   "budget": 63
+  },
+  {
+   "id": 278,
+   "jp": "市街地@建物の敷地部分、浅草",
+   "en": "Urban Area@building grounds, Asakusa",
+   "budget": 63
+  },
+  {
+   "id": 279,
+   "jp": "ビル@浅草",
+   "en": "Building@Asakusa",
+   "budget": 63
+  },
+  {
+   "id": 280,
+   "jp": "橋@街中、浅草",
+   "en": "Bridge@town, Asakusa",
+   "budget": 63
+  },
+  {
+   "id": 281,
+   "jp": "高架橋@線路や高速道路、浅草",
+   "en": "Overpass@rails/highway, Asakusa",
+   "budget": 63
+  },
+  {
+   "id": 282,
+   "jp": "森@街中、浅草",
+   "en": "Forest@town, Asakusa",
+   "budget": 63
+  },
+  {
+   "id": 283,
+   "jp": "ビル@浅草寺付近",
+   "en": "Building@near Senso-ji",
+   "budget": 63
+  },
+  {
+   "id": 284,
+   "jp": "平原@街中、草原、浅草",
+   "en": "Plains@town, grassland, Asakusa",
+   "budget": 63
+  },
+  {
+   "id": 290,
+   "jp": "宇宙空間@地球（近）バリア有り",
+   "en": "Space@Earth (near), barrier",
+   "budget": 63
+  },
+  {
+   "id": 291,
+   "jp": "宇宙空間@地球（遠）バリア有り",
+   "en": "Space@Earth (far), barrier",
+   "budget": 63
+  },
+  {
+   "id": 292,
+   "jp": "暗礁宙域@地球（遠）バリア有り",
+   "en": "Debris Field@Earth (far), barrier",
+   "budget": 63
+  },
+  {
+   "id": 293,
+   "jp": "残骸@地球（遠）バリア有り",
+   "en": "Wreckage@Earth (far), barrier",
+   "budget": 63
+  },
+  {
+   "id": 294,
+   "jp": "宇宙空間@地球（最遠）バリア有り",
+   "en": "Space@Earth (farthest), barrier",
+   "budget": 63
+  },
+  {
+   "id": 295,
+   "jp": "暗礁宙域@地球（最遠）バリア有り",
+   "en": "Debris Field@Earth (farthest), barrier",
+   "budget": 63
+  },
+  {
+   "id": 296,
+   "jp": "残骸@地球（最遠）バリア有り",
+   "en": "Wreckage@Earth (farthest), barrier",
+   "budget": 63
+  },
+  {
+   "id": 297,
+   "jp": "境界空間@ラストステージ",
+   "en": "Boundary Space@last stage",
+   "budget": 63
+  },
+  {
+   "id": 298,
+   "jp": "クリスタル@ラストステージ",
+   "en": "Crystal@last stage",
+   "budget": 63
+  },
+  {
+   "id": 305,
+   "jp": "平原@(闇)",
+   "en": "Plains@(dark)",
+   "budget": 63
+  },
+  {
+   "id": 306,
+   "jp": "森@（闇）",
+   "en": "Forest@(dark)",
+   "budget": 63
+  },
+  {
+   "id": 307,
+   "jp": "荒地@海岸（闇）",
+   "en": "Wasteland@coast (dark)",
+   "budget": 63
+  },
+  {
+   "id": 308,
+   "jp": "道路@平原（闇）",
+   "en": "Road@plains (dark)",
+   "budget": 63
+  },
+  {
+   "id": 309,
+   "jp": "砂地@平原（闇）",
+   "en": "Sand@plains (dark)",
+   "budget": 63
+  },
+  {
+   "id": 310,
+   "jp": "平原@海岸（闇）",
+   "en": "Plains@coast (dark)",
+   "budget": 63
+  },
+  {
+   "id": 311,
+   "jp": "崖@平原（闇）",
+   "en": "Cliff@plains (dark)",
+   "budget": 63
+  },
+  {
+   "id": 312,
+   "jp": "砂地@海岸（闇）",
+   "en": "Sand@coast (dark)",
+   "budget": 63
+  },
+  {
+   "id": 313,
+   "jp": "基地@連邦軍基地4　敷地（闇）",
+   "en": "Base@Federation base4　grounds (dark)",
+   "budget": 63
+  },
+  {
+   "id": 314,
+   "jp": "基地施設@連邦軍基地4（闇）",
+   "en": "Base Facility@Federation base4 (dark)",
+   "budget": 63
+  },
+  {
+   "id": 315,
+   "jp": "司令塔@連邦軍基地4（闇）",
+   "en": "Control Tower@Federation base4 (dark)",
+   "budget": 63
+  },
+  {
+   "id": 316,
+   "jp": "山@森（闇）",
+   "en": "Mountain@forest (dark)",
+   "budget": 63
+  },
+  {
+   "id": 317,
+   "jp": "海@深（闇）",
+   "en": "Sea@deep (dark)",
+   "budget": 63
+  },
+  {
+   "id": 318,
+   "jp": "海@浅（闇）",
+   "en": "Sea@shallow (dark)",
+   "budget": 63
+  },
+  {
+   "id": 319,
+   "jp": "氷原@（闇）",
+   "en": "Ice Field@(dark)",
+   "budget": 63
+  },
+  {
+   "id": 321,
+   "jp": "月面@平地バリア有り",
+   "en": "Lunar Surface@flat, barrier",
+   "budget": 63
+  },
+  {
+   "id": 322,
+   "jp": "クレーター@月面、内部バリア有り",
+   "en": "Crater@lunar, inside, barrier",
+   "budget": 63
+  },
+  {
+   "id": 323,
+   "jp": "クレーター@月面、淵バリア有り",
+   "en": "Crater@lunar, rim, barrier",
+   "budget": 63
+  },
+  {
+   "id": 324,
+   "jp": "ムーンクレイドル@バリア有り",
+   "en": "Moon Cradle@barrier",
+   "budget": 63
+  }
+ ]
+}

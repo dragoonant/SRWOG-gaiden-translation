@@ -39,7 +39,7 @@ PY = sys.executable
 
 TOOL_FOR_FORMAT = {
     "LDBI": "script.py", "LOGO": "script.py", "FIXH": "fixh.py", "BMD": "battle.py",
-    "CSB": "csb.py", "WTD": "wtd.py", "ELF": "eboot_strings.py",
+    "CSB": "csb.py", "WTD": "wtd.py", "ELF": "eboot_strings.py", "MTI": "mti.py",
 }
 ARCHIVES = ["Logic", "Common", "General2d", "General3d", "Battle"]
 GENERATED = [
